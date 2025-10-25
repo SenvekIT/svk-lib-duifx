@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "duifx"
+version = "0.1.0"
+description = "UI Framework providing support utilities for Qt based applications"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "David Senoner", email = "david.senoner@davtec.it"}
+]
+keywords = ["gui", "pyqt6", "desktop", "ui", "framework"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Desktop Environment",
+    "Topic :: Software Development :: User Interfaces",
+]
+dependencies = [
+    "PyQt6>=6.0.0",
+    "PyQt6-tools>=6.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/davidsenoner/DUIFx"
+Repository = "https://github.com/davidsenoner/DUIFx"
+Issues = "https://github.com/davidsenoner/DUIFx/issues"
+Documentation = "https://github.com/davidsenoner/DUIFx#readme"
+
+[project.scripts]
+duifx = "duifx.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["duifx*"]
+
+[tool.setuptools.package-data]
+duifx = [
+    "gui_components/resources/*.qss",
+    "gui_components/resources/image/*",
+    "gui_components/ui/*.ui",
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+  # directories
+  \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | build
+  | dist
+)/
+'''

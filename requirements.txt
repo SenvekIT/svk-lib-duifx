@@ -1,0 +1,5 @@
+# Requirements for DUIFx
+
+# Core dependencies
+PyQt6>=6.0.0
+PyQt6-tools>=6.0.0

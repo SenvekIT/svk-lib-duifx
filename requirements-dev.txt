@@ -1,0 +1,12 @@
+# Development requirements
+-r requirements.txt
+
+# Additional dev tools
+setuptools>=61.0
+wheel
+build
+twine
+
+# Linting and formatting
+isort>=5.0
+autopep8>=1.5
