@@ -28,13 +28,21 @@ classifiers = [
     "Topic :: Software Development :: User Interfaces",
 ]
 dependencies = [
-    "PyQt6>=6.0.0",
-    "PyQt6-tools>=6.0.0",
+    "PyQt6>=6.4.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-
+    "PyQt6-tools>=6.4.0",
+    "pytest>=6.0",
+    "pytest-qt>=4.0",
+    "black>=21.0",
+    "flake8>=3.8",
+    "mypy>=0.800",
+]
+docs = [
+    "sphinx>=4.0",
+    "sphinx-rtd-theme>=1.0",
 ]
 
 [project.urls]
@@ -74,3 +82,16 @@ extend-exclude = '''
   | dist
 )/
 '''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

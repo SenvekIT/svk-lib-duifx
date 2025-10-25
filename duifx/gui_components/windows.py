@@ -2,12 +2,12 @@ import sys
 from pathlib import Path
 import logging
 
-from PySide6.QtWidgets import QPushButton, QGraphicsDropShadowEffect, QSizeGrip, QMainWindow, QWidget, QVBoxLayout
-from PySide6.QtCore import QDir, QEvent, Qt, QSize, QSettings, QTimer, Signal
-from PySide6.QtGui import QIcon, QCursor, QColor
+from PyQt6.QtWidgets import QPushButton, QGraphicsDropShadowEffect, QSizeGrip, QMainWindow, QWidget, QVBoxLayout
+from PyQt6.QtCore import QDir, QEvent, Qt, QSize, QSettings, QTimer, pyqtSignal as Signal
+from PyQt6.QtGui import QIcon, QCursor, QColor
 
-from app.gui_components.ui.ui_main_window import Ui_MainWindow
-from app.gui_components.resources.theme import palette
+from duifx.gui_components.ui.ui_main_window import Ui_MainWindow
+from duifx.gui_components.resources.theme import palette
 
 RESOURCES_PATH = Path(__file__).parent / "resources"
 IMAGES_PATH = RESOURCES_PATH / "image"
