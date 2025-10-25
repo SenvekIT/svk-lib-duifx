@@ -2,9 +2,10 @@ import sys
 from pathlib import Path
 import logging
 
-from PyQt6.QtWidgets import QPushButton, QGraphicsDropShadowEffect, QSizeGrip, QMainWindow, QWidget, QVBoxLayout
-from PyQt6.QtCore import QDir, QEvent, Qt, QSize, QSettings, QTimer, pyqtSignal as Signal
-from PyQt6.QtGui import QIcon, QCursor, QColor
+from PySide6.QtWidgets import QPushButton, QToolButton, QSizeGrip, QMainWindow, QWidget, QVBoxLayout
+from PySide6.QtCore import QDir, QEvent, Qt, QSize, QSettings, QTimer, Signal as Signal
+from PySide6.QtGui import QIcon, QCursor, QColor
+from PySide6.QtCore import Qt
 
 from duifx.gui_components.ui.ui_main_window import Ui_MainWindow
 from duifx.gui_components.resources.theme import palette
@@ -53,11 +54,11 @@ class Container(QWidget):
         self.content = content
         self.layout.addWidget(content)
 
-class HeaderMenuButton(QPushButton):
+class HeaderMenuButton(QToolButton):
     def __init__(self, icon_path: str = "", label: str = "", tooltip= "", parent=None):
         super().__init__(parent)
 
-        icon_path = str(IMAGES_PATH / Path(icon_path))
+        icon_path = str(ICONS_PATH / Path(icon_path))
 
         if icon_path:
             icon = QIcon(icon_path)
@@ -68,17 +69,9 @@ class HeaderMenuButton(QPushButton):
         if tooltip:
             self.setToolTip(tooltip)
 
+        self.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
         self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-        self.setFixedSize(50, 50)
-        self.setStyleSheet(f"""
-            QPushButton {{
-                border: none;
-                background-color: {palette.gray.gray_400};
-            }}
-            QPushButton:hover {{
-                background-color: {palette.gray.gray_300};
-            }}
-        """)
+        self.setMinimumSize(QSize(60, 50))
 
 class MainWindow(QMainWindow):    
     
