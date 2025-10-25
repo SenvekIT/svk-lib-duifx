@@ -1,11 +1,10 @@
 import sys
+import ctypes
 from pathlib import Path
-import logging
 
-from PySide6.QtWidgets import QPushButton, QToolButton, QSizeGrip, QMainWindow, QWidget, QVBoxLayout
-from PySide6.QtCore import QDir, QEvent, Qt, QSize, QSettings, QTimer, Signal as Signal
-from PySide6.QtGui import QIcon, QCursor, QColor
-from PySide6.QtCore import Qt
+from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout
+from PySide6.QtCore import Qt, QSize, Signal
+from PySide6.QtGui import QIcon, QCursor
 
 from duifx.gui_components.ui.ui_main_window import Ui_MainWindow
 from duifx.gui_components.resources.theme import palette
@@ -78,13 +77,18 @@ class MainWindow(QMainWindow):
     # Signals
     window_closed = Signal()
     
-    def __init__(self, description: str = ""):
+    def __init__(self, description: str = "", user_model_id : str = "DUIFx.Application.1.0"):
         super().__init__()
+
+        # Windows-spezifische Taskleisten-Konfiguration
+        if sys.platform == "win32":
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(user_model_id)
 
         self._ui = Ui_MainWindow()
         self._ui.setupUi(self)
 
         self.setWindowTitle(description)  # set custom design title
+        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Uncheck All.svg")))) # set a default icon
 
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
