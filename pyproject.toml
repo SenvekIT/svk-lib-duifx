@@ -62,6 +62,7 @@ include = ["duifx*"]
 duifx = [
     "gui_components/resources/*.qss",
     "gui_components/resources/image/*",
+    "gui_components/resources/icon/*",
     "gui_components/ui/*.ui",
 ]
 
