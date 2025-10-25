@@ -68,7 +68,7 @@ class HeaderMenuButton(QPushButton):
         if tooltip:
             self.setToolTip(tooltip)
 
-        self.setCursor(QCursor(Qt.PointingHandCursor))
+        self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.setFixedSize(50, 50)
         self.setStyleSheet(f"""
             QPushButton {{
