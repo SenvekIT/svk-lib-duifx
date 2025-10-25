@@ -4,7 +4,6 @@ Main entry point for the DUIFx application.
 
 import sys
 from PySide6.QtWidgets import QApplication
-from duifx.gui_components.windows import MainWindow
 
 from duifx.gui_components.windows import MainWindow, Container, HeaderMenuButton
 
