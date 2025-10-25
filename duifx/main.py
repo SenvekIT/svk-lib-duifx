@@ -5,7 +5,7 @@ Main entry point for the DUIFx application.
 import sys
 from PyQt6.QtWidgets import QApplication
 from duifx.gui_components.windows import MainWindow
-from duifx.gui_components.widgets.test_manager import TestManagerWidget
+
 from duifx.gui_components.windows import MainWindow, Container, HeaderMenuButton
 
 VERSION = "1.0.0"  # Version number
@@ -23,9 +23,9 @@ def main():
     main_window = MainWindow(TITLE + " v" + VERSION)
     testmanager_container = Container()
 
-    testmanager_widget = TestManagerWidget(container=testmanager_container)
-    testmanager_widget.set_main_title("CANOpen Test Manager")
-    testmanager_widget.set_sub_title("Manage and execute CANOpen tests")
+    #testmanager_widget = TestManagerWidget(container=testmanager_container)
+    #testmanager_widget.set_main_title("CANOpen Test Manager")
+    #testmanager_widget.set_sub_title("Manage and execute CANOpen tests")
 
     # add test manager content to main window
     main_window.add_content_widget(testmanager_container)
