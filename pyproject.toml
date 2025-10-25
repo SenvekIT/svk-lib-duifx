@@ -12,7 +12,7 @@ license = {text = "MIT"}
 authors = [
     {name = "David Senoner", email = "david.senoner@davtec.it"}
 ]
-keywords = ["gui", "pyqt6", "desktop", "ui", "framework"]
+keywords = ["gui", "pyside6", "desktop", "ui", "framework"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -28,12 +28,11 @@ classifiers = [
     "Topic :: Software Development :: User Interfaces",
 ]
 dependencies = [
-    "PyQt6>=6.4.0",
+    "PySide6>=6.10.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "PyQt6-tools>=6.4.0",
     "pytest>=6.0",
     "pytest-qt>=4.0",
     "black>=21.0",
