@@ -14,8 +14,8 @@ setup(
     name="duifx",
     version="0.1.0",
     author="David Senoner",
-    author_email="your.email@example.com",
-    description="A modern PyQt6-based GUI framework",
+    author_email="david.senoner@davtec.it",
+    description="A modern PySide6-based GUI framework",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/davidsenoner/DUIFx",
@@ -36,8 +36,7 @@ setup(
     ],
     python_requires=">=3.8",
     install_requires=[
-        "PyQt6>=6.0.0",
-        "PyQt6-tools>=6.0.0",
+        "PySide6>=6.0.0"
     ],
     extras_require={
         "dev": [
@@ -53,6 +52,7 @@ setup(
         "duifx": [
             "gui_components/resources/*.qss",
             "gui_components/resources/image/*",
+            "gui_components/resources/icon/*",
             "gui_components/ui/*.ui",
         ],
     },
@@ -61,7 +61,7 @@ setup(
             "duifx=duifx.main:main",
         ],
     },
-    keywords="gui, pyqt6, desktop, ui, framework",
+    keywords="gui, PySide6, desktop, ui, framework",
     project_urls={
         "Bug Reports": "https://github.com/davidsenoner/DUIFx/issues",
         "Source": "https://github.com/davidsenoner/DUIFx",
