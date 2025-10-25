@@ -3,7 +3,7 @@
 /* Custom Widgets */
 #header 
 {
-    background-color: #f8f9fa;
+    background-color: #f3f4f6;
     border-bottom: 1px solid #e9ecef;
 }
 
@@ -75,7 +75,7 @@ QPushButton {
     padding: 8px 16px;
     font-weight: 500;
     color: #495057;
-    min-width: 80px;
+    min-width: 32px;
     min-height: 32px;
 }
 
