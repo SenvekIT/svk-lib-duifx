@@ -1,19 +1,18 @@
 """
-DUIFx - A modern PyQt6-based GUI framework.
+DUIFx - A modern PySide6-based GUI framework.
 
 This package provides a comprehensive set of GUI components and utilities
-for creating modern desktop applications with PyQt6.
+for creating modern desktop applications with PySide6.
 """
 
 __version__ = "0.1.0"
 __author__ = "David Senoner"
-__email__ = "your.email@example.com"
+__email__ = "david.senoner@davtec.it"
 
 # Import main components for easier access
 try:
-    from .gui_components.windows import MainWindow
-    from .gui_components.widgets.test_manager import TestManager
-    from .gui_components.resources.theme import ThemeManager
+    from .gui_components.windows import MainWindow, HeaderMenuButton, Container
+    from .gui_components.resources.theme import palette
 except ImportError:
     # Handle import errors gracefully during package installation
     pass
@@ -23,6 +22,6 @@ __all__ = [
     "__author__",
     "__email__",
     "MainWindow",
-    "TestManager", 
-    "ThemeManager",
+    "HeaderMenuButton",
+    "Container"
 ]
