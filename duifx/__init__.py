@@ -11,7 +11,7 @@ __email__ = "david.senoner@davtec.it"
 
 # Import main components for easier access
 try:
-    from .gui_components.windows import MainWindow, HeaderMenuButton, Container
+    from .gui_components.windows import MainWindow, HeaderMenuButton, Container, SidebarMenuButton, SettingsDialog, InfoDialog
     from .gui_components.resources.theme import palette
 except ImportError:
     # Handle import errors gracefully during package installation
@@ -23,5 +23,8 @@ __all__ = [
     "__email__",
     "MainWindow",
     "HeaderMenuButton",
-    "Container"
+    "Container",
+    "SidebarMenuButton",
+    "SettingsDialog",
+    "InfoDialog",
 ]
