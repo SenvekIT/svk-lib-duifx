@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowOKuaFg.ui'
+## Form generated from reading UI file 'main_windowqkFEIt.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -24,7 +24,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(1082, 592)
+        MainWindow.resize(1487, 823)
         MainWindow.setMinimumSize(QSize(940, 560))
         MainWindow.setFocusPolicy(Qt.FocusPolicy.TabFocus)
         self.actionExit = QAction(MainWindow)
@@ -97,12 +97,53 @@ class Ui_MainWindow(object):
 
         self.content = QFrame(self.app)
         self.content.setObjectName(u"content")
+        sizePolicy3 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Expanding)
+        sizePolicy3.setHorizontalStretch(0)
+        sizePolicy3.setVerticalStretch(0)
+        sizePolicy3.setHeightForWidth(self.content.sizePolicy().hasHeightForWidth())
+        self.content.setSizePolicy(sizePolicy3)
         self.content.setFrameShape(QFrame.Shape.NoFrame)
         self.content.setFrameShadow(QFrame.Shadow.Raised)
         self.horizontalLayout_8 = QHBoxLayout(self.content)
         self.horizontalLayout_8.setSpacing(0)
         self.horizontalLayout_8.setObjectName(u"horizontalLayout_8")
         self.horizontalLayout_8.setContentsMargins(0, 0, 0, 0)
+        self.sidebar = QFrame(self.content)
+        self.sidebar.setObjectName(u"sidebar")
+        sizePolicy3.setHeightForWidth(self.sidebar.sizePolicy().hasHeightForWidth())
+        self.sidebar.setSizePolicy(sizePolicy3)
+        self.sidebar.setMinimumSize(QSize(50, 0))
+        self.sidebarLayout = QVBoxLayout(self.sidebar)
+        self.sidebarLayout.setSpacing(0)
+        self.sidebarLayout.setObjectName(u"sidebarLayout")
+        self.sidebarLayout.setContentsMargins(0, 0, 0, 0)
+        self.sidebarTop = QFrame(self.sidebar)
+        self.sidebarTop.setObjectName(u"sidebarTop")
+        sizePolicy3.setHeightForWidth(self.sidebarTop.sizePolicy().hasHeightForWidth())
+        self.sidebarTop.setSizePolicy(sizePolicy3)
+        self.sidebarTopLayout = QVBoxLayout(self.sidebarTop)
+        self.sidebarTopLayout.setObjectName(u"sidebarTopLayout")
+
+        self.sidebarLayout.addWidget(self.sidebarTop)
+
+        self.sidebarBottom = QFrame(self.sidebar)
+        self.sidebarBottom.setObjectName(u"sidebarBottom")
+        sizePolicy4 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
+        sizePolicy4.setHorizontalStretch(0)
+        sizePolicy4.setVerticalStretch(0)
+        sizePolicy4.setHeightForWidth(self.sidebarBottom.sizePolicy().hasHeightForWidth())
+        self.sidebarBottom.setSizePolicy(sizePolicy4)
+        self.sidebarBottom.setMinimumSize(QSize(0, 50))
+        self.sidebarBottomLayout = QVBoxLayout(self.sidebarBottom)
+        self.sidebarBottomLayout.setSpacing(5)
+        self.sidebarBottomLayout.setObjectName(u"sidebarBottomLayout")
+        self.sidebarBottomLayout.setContentsMargins(5, -1, 5, 5)
+
+        self.sidebarLayout.addWidget(self.sidebarBottom)
+
+
+        self.horizontalLayout_8.addWidget(self.sidebar)
+
         self.stackedWidgetContent = QStackedWidget(self.content)
         self.stackedWidgetContent.setObjectName(u"stackedWidgetContent")
 
