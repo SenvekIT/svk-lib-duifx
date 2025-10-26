@@ -1,12 +1,15 @@
 import sys
 import ctypes
+from typing import Callable, Optional
 from pathlib import Path
 
-from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout
-from PySide6.QtCore import Qt, QSize, Signal
+from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog
+from PySide6.QtCore import Qt, QSize, Signal, Slot
 from PySide6.QtGui import QIcon, QCursor
 
 from duifx.gui_components.ui.ui_main_window import Ui_MainWindow
+from duifx.gui_components.ui.ui_settings_dialog import Ui_SettingsDialog
+from duifx.gui_components.ui.ui_info_dialog import Ui_InfoDialog
 from duifx.gui_components.resources.theme import palette
 
 RESOURCES_PATH = Path(__file__).parent / "resources"
@@ -72,8 +75,23 @@ class HeaderMenuButton(QToolButton):
         self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
         self.setMinimumSize(QSize(60, 50))
 
-class MainWindow(QMainWindow):    
-    
+class SidebarMenuButton(QToolButton):
+    def __init__(self, icon_path: str = "", tooltip= "", parent=None):
+        super().__init__(parent)
+
+        icon_path = str(ICONS_PATH / Path(icon_path))
+
+        if icon_path:
+            icon = QIcon(icon_path)
+            self.setIcon(icon)
+            self.setIconSize(QSize(24, 24))  # Make icon larger
+        if tooltip:
+            self.setToolTip(tooltip)
+
+        self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        
+
+class MainWindow(QMainWindow):        
     # Signals
     window_closed = Signal()
     
@@ -93,16 +111,73 @@ class MainWindow(QMainWindow):
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
 
-
         self.show()
 
     def add_content_widget(self, content: QWidget) -> None:
         self._ui.stackedWidgetContent.addWidget(content)
 
-    def add_menu_button(self, button: HeaderMenuButton, selected: bool = False) -> None:
+    def add_menu_button(self, button: HeaderMenuButton, slot: Optional[Callable] = None) -> None:
         self._ui.headerContentLayout.addWidget(button, 0, Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
 
-        #button.clicked.connect(self._update_button_style)
+        if slot:
+            button.clicked.connect(slot)
 
-        if selected:
-            button.clicked.emit()  # simulate a button click if default selected
+    def add_sidebar_button(self, button: SidebarMenuButton, slot: Optional[Callable] = None) -> None:
+        self._ui.sidebarBottomLayout.addWidget(button, 0, Qt.AlignmentFlag.AlignBottom | Qt.AlignmentFlag.AlignHCenter)
+        
+        if slot:
+            button.clicked.connect(slot)
+
+class SettingsDialog(QDialog):
+    def __init__(self, parent=None, window_title: str = "Settings"):
+        super().__init__(parent)
+
+        self._ui = Ui_SettingsDialog()
+        self._ui.setupUi(self)
+
+        self.setWindowTitle(window_title)
+        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Settings.svg")))) # set a default icon
+
+        stylesheet = load_stylesheet()
+        self.setStyleSheet(stylesheet)
+
+        # Connect OK and Cancel buttons
+        self._ui.buttonBox.accepted.connect(self.accept)
+        self._ui.buttonBox.rejected.connect(self.reject)
+
+    def set_main_title(self, title: str) -> None:
+        self._ui.labelMainTitle.setText(title)
+
+    def set_sub_title(self, subtitle: str) -> None:
+        self._ui.labelSubTitle.setText(subtitle)
+
+    def add_content_widget(self, content: QWidget) -> None:
+        self._ui.stackedWidgetContent.addWidget(content)
+
+class InfoDialog(QDialog):
+    def __init__(self, parent=None, window_title: str = "Information"):
+        super().__init__(parent)
+
+        self._ui = Ui_InfoDialog()
+        self._ui.setupUi(self)
+
+        self.setWindowTitle(window_title)
+        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Info.svg")))) # set a default icon
+
+        stylesheet = load_stylesheet()
+        self.setStyleSheet(stylesheet)
+
+        self.resize(400, 400)
+    
+    def set_main_title(self, title: str) -> None:
+        self._ui.labelMainTitle.setText(title)
+
+    def set_sub_title(self, subtitle: str) -> None:
+        self._ui.labelSubTitle.setText(subtitle)
+
+    def set_info_text(self, text: str) -> None:
+        self._ui.textEditInfo.setPlainText(text)
+
+
+
+
