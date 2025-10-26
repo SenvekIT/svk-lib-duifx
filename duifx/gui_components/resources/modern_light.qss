@@ -7,6 +7,12 @@
     border-bottom: 1px solid #e9ecef;
 }
 
+#sidebar 
+{
+    background-color: #ffffff;
+    border-right: 1px solid #e9ecef;
+}
+
 #footer 
 {
     background-color: #f8f9fa;
@@ -76,7 +82,7 @@ QPushButton {
     font-weight: 500;
     color: #495057;
     min-width: 32px;
-    min-height: 32px;
+    min-height: 10px;
 }
 
 QPushButton:hover {
