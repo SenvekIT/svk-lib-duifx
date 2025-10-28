@@ -106,7 +106,7 @@ class MainWindow(QMainWindow):
         self._ui.setupUi(self)
 
         self.setWindowTitle(description)  # set custom design title
-        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Uncheck All.svg")))) # set a default icon
+        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Dx.svg")))) # set a default icon
 
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
