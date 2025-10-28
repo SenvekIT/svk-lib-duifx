@@ -1,75 +1,110 @@
-from PySide6.QtWidgets import QSplashScreen, QProgressBar, QLabel, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QSplashScreen, QApplication
 from PySide6.QtGui import QPixmap, QFont, QPainter
-from PySide6.QtCore import Qt, QTimer
+from PySide6.QtCore import Qt, QTimer, QRectF
 from pathlib import Path
 from duifx.gui_components.resources.theme import palette
+from PySide6.QtSvg import QSvgRenderer
+from PySide6.QtGui import QPainter
 
-class CustomSplashScreen(QSplashScreen):
-    def __init__(self, pixmap):
-        super().__init__(pixmap)
+class DxSplashScreen(QSplashScreen):
+    def __init__(self, app, title, sub_title):
         self.progress_value = 0
-        
-        # Schrift für Text
-        self.font = QFont("Segoe UI", 12)
+        self.font = QFont("Segoe UI", 10)
+        self.title = title
+        self.sub_title = sub_title
         self.message = "Loading..."
+
+        # Enable High DPI Scaling
+        QApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)
+        QApplication.setAttribute(Qt.ApplicationAttribute.AA_EnableHighDpiScaling, True)
+        QApplication.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps, True)
+
+        pixmap = self.create_splash_screen(app)
+        super().__init__(pixmap)
+
+        self.showMessage("Starting application...")
+        self.set_progress(0)
+
+        self.setWindowFlags(Qt.WindowType.WindowStaysOnTopHint | Qt.WindowType.FramelessWindowHint)
+        self.show()
+        app.processEvents()
         
     def showMessage(self, message, alignment=Qt.AlignmentFlag.AlignBottom, color=Qt.GlobalColor.darkGray):
         self.message = message
-        super().showMessage(message, alignment, color)
         
     def set_progress(self, value):
-        """Setzt den Progress Wert (0-100)"""
-        self.progress_value = value
-        self.repaint()
+        """Sets progress value (0-100)"""
+        if self.progress_value != value:
+            self.progress_value = value
+            self.repaint()
         
     def drawContents(self, painter):
-        """Custom Drawing für Progress Bar"""
+        """Custom drawing for progress bar"""
         super().drawContents(painter)
         
-        # Progress Bar zeichnen
         painter.setFont(self.font)
-        
-        # Progress Bar Position
         rect = self.rect()
-        bar_width = rect.width() - 40
-        bar_height = 10
-        bar_x = 20
-        bar_y = rect.height() - 50
         
-        # Background der Progress Bar
+        # Draw message
+        painter.drawText(40, rect.height() - 30, self.message)
+         
+        # Draw progress bar
+        bar_width = rect.width() - 80
+        bar_x, bar_y, bar_height = 40, rect.height() - 50, 3
+        
         painter.fillRect(bar_x, bar_y, bar_width, bar_height, Qt.GlobalColor.lightGray)
         
-        # Progress der Progress Bar
-        progress_width = int((bar_width * self.progress_value) / 100)
-        painter.fillRect(bar_x, bar_y, progress_width, bar_height, Qt.GlobalColor.darkGray)
-
-def create_advanced_splash_screen(app):
-    """Erstellt einen erweiterten Splash Screen mit Progress Bar"""
-    # Splash Screen Bild laden
-    splash_path = Path(__file__).parent.parent / "gui_components" / "resources" / "image" / "splash.png"
+        if self.progress_value > 0:
+            progress_width = (bar_width * self.progress_value) // 100
+            painter.fillRect(bar_x, bar_y, progress_width, bar_height, Qt.GlobalColor.darkGray)
     
-    if splash_path.exists():
-        pixmap = QPixmap(str(splash_path))
-        pixmap = pixmap.scaled(700, 400, Qt.AspectRatioMode.IgnoreAspectRatio, Qt.TransformationMode.SmoothTransformation)
-    else:
-        # Fallback: Einfaches Bild erstellen
-        pixmap = QPixmap(500, 350)
-        pixmap.fill(Qt.GlobalColor.lightGray)
+    def create_splash_screen(self, app):
+        """Creates a splash screen with progress bar"""
         
-        # Logo/Text auf Pixmap zeichnen
+        screen = app.primaryScreen()
+        device_pixel_ratio = screen.devicePixelRatio()
+        
+        base_width, base_height = 450, 250
+        pixmap = QPixmap(int(base_width * device_pixel_ratio), int(base_height * device_pixel_ratio))
+        pixmap.setDevicePixelRatio(device_pixel_ratio)
+        pixmap.fill(Qt.GlobalColor.transparent)
+        
         painter = QPainter(pixmap)
-        painter.setRenderHint(QPainter.RenderHint.Antialiasing)
-        painter.setRenderHint(QPainter.RenderHint.TextAntialiasing)
-        painter.setPen(Qt.GlobalColor.white)
-        painter.setFont(QFont("Segoe UI", 16, QFont.Weight.Bold))
-        painter.drawText(pixmap.rect(), Qt.AlignmentFlag.AlignCenter, "DUIFx Framework")
+        painter.setRenderHints(
+            QPainter.RenderHint.Antialiasing |
+            QPainter.RenderHint.TextAntialiasing |
+            QPainter.RenderHint.SmoothPixmapTransform
+        )
+        
+        # Draw background
+        painter.setBrush(Qt.GlobalColor.white)
+        painter.setPen(Qt.PenStyle.NoPen)
+        painter.drawRoundedRect(QRectF(0, 0, base_width, base_height), 15, 15)
+        
+        # Render SVG icon
+        icon_path = Path(__file__).parent / "resources" / "icon" / "Dx.svg"
+        if icon_path.exists():
+            svg_renderer = QSvgRenderer(str(icon_path))
+            svg_renderer.render(painter, QRectF(30, 77, 96, 96))
+        
+        # Draw text
+        painter.setPen(Qt.GlobalColor.black)
+        text_x = 130
+        
+        # Title
+        title_font = QFont("Segoe UI", 16, QFont.Weight.Bold)
+        painter.setFont(title_font)
+        painter.drawText(QRectF(text_x, 105, 290, 40), 
+                        Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter, 
+                        self.title)
+        
+        # Copyright
+        copyright_font = QFont("Segoe UI", 10)
+        painter.setFont(copyright_font)
+        painter.drawText(QRectF(text_x, 132, 290, 40), 
+                        Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter, 
+                        self.sub_title)
+        
         painter.end()
     
-    # Custom Splash Screen erstellen
-    splash = CustomSplashScreen(pixmap)
-    splash.setWindowFlags(Qt.WindowType.WindowStaysOnTopHint | Qt.WindowType.FramelessWindowHint)
-    
-    splash.show()
-    app.processEvents()
-    
-    return splash
+        return pixmap
