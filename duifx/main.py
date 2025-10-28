@@ -5,7 +5,7 @@ Main entry point for the DUIFx application.
 import sys
 from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import QTimer
-from duifx.gui_components.splash import create_advanced_splash_screen
+from duifx.gui_components.splash import DxSplashScreen
 
 VERSION = "1.0.0"
 BUILD = "21.10.2025"
@@ -50,20 +50,23 @@ def main():
     """Main entry point for the DUIFx application."""
     # App erstellen
     app = QApplication(sys.argv)
+
+    # Show Splash Screen
+    splash = DxSplashScreen(app, TITLE, "© 2025 All Rights Reserved")
     
     # App-Metadaten setzen
     app.setApplicationName(TITLE)
     app.setApplicationVersion(VERSION)
     app.setOrganizationName(ORGANISATION)
     app.setOrganizationDomain(DOMAIN)
-    
-    # Splash Screen sofort anzeigen
-    splash = create_advanced_splash_screen(app)
-    splash.showMessage("Starting application...")
-    splash.set_progress(0)
-    
+
     # Module laden
     MainWindow, Container, HeaderMenuButton = load_application_modules(splash, app)
+
+    # Wait 1 second before closing splash screen
+    import time
+    time.sleep(1.5)
+    splash.close()
     
     # Main Window erstellen
     main_window = MainWindow(TITLE + " v" + VERSION)
