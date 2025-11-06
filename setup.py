@@ -50,10 +50,10 @@ setup(
     include_package_data=True,
     package_data={
         "duifx": [
-            "gui_components/resources/*.qss",
-            "gui_components/resources/image/*",
-            "gui_components/resources/icon/*",
-            "gui_components/ui/*.ui",
+            "gui/resources/*.qss",
+            "gui/resources/image/*",
+            "gui/resources/icon/*",
+            "gui/ui/*.ui",
         ],
     },
     entry_points={

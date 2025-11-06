@@ -6,7 +6,7 @@ import sys
 import logging
 from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import QTimer
-from duifx.gui_components.splash import DxSplashScreen
+from duifx.gui.splash import DxSplashScreen
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -29,7 +29,7 @@ def load_application_modules(splash, app):
     splash.set_progress(25)
     app.processEvents()
     
-    from duifx.gui_components.windows import (MainWindow, Container, HeaderMenuButton, 
+    from duifx.gui.windows import (MainWindow, Container, HeaderMenuButton, 
                                               SidebarMenuButton, SettingsDialog, InfoDialog
                                               )
     
@@ -57,7 +57,10 @@ def load_application_modules(splash, app):
 
 def on_settings_button_clicked():
     """Öffnet den Einstellungsdialog"""
+
+    from duifx.gui.settings import SettingsTreeWidget
     settings_dialog = SettingsDialog()
+    settings_dialog.add_content_widget(SettingsTreeWidget(settings_dialog))
     settings_dialog.set_main_title("Application Settings")
     settings_dialog.set_sub_title("Configure application preferences")
     if settings_dialog.exec() == SettingsDialog.DialogCode.Accepted:

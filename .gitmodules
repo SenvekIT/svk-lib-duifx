@@ -1,0 +1,3 @@
+[submodule "duifx/interface/gs_usb"]
+	path = duifx/interface/gs_usb
+	url = https://github.com/jxltom/gs_usb

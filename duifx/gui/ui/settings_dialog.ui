@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>811</width>
-    <height>396</height>
+    <width>923</width>
+    <height>692</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -75,22 +75,7 @@
    </item>
    <item>
     <widget class="QFrame" name="content">
-     <layout class="QVBoxLayout" name="contentLayout">
-      <item>
-       <widget class="QTabWidget" name="tabWidget">
-        <widget class="QWidget" name="tab">
-         <attribute name="title">
-          <string>Tab 1</string>
-         </attribute>
-        </widget>
-        <widget class="QWidget" name="tab_2">
-         <attribute name="title">
-          <string>Tab 2</string>
-         </attribute>
-        </widget>
-       </widget>
-      </item>
-     </layout>
+     <layout class="QVBoxLayout" name="contentLayout"/>
     </widget>
    </item>
    <item>

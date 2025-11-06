@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'settings_dialogueCvJR.ui'
+## Form generated from reading UI file 'settings_dialogxAHOGn.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -16,14 +16,14 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QAbstractButton, QApplication, QDialog, QDialogButtonBox,
-    QFrame, QLabel, QSizePolicy, QTabWidget,
-    QVBoxLayout, QWidget)
+    QFrame, QLabel, QSizePolicy, QVBoxLayout,
+    QWidget)
 
 class Ui_SettingsDialog(object):
     def setupUi(self, SettingsDialog):
         if not SettingsDialog.objectName():
             SettingsDialog.setObjectName(u"SettingsDialog")
-        SettingsDialog.resize(811, 396)
+        SettingsDialog.resize(923, 692)
         self.verticalLayout = QVBoxLayout(SettingsDialog)
         self.verticalLayout.setSpacing(0)
         self.verticalLayout.setObjectName(u"verticalLayout")
@@ -57,17 +57,6 @@ class Ui_SettingsDialog(object):
         self.content.setObjectName(u"content")
         self.contentLayout = QVBoxLayout(self.content)
         self.contentLayout.setObjectName(u"contentLayout")
-        self.tabWidget = QTabWidget(self.content)
-        self.tabWidget.setObjectName(u"tabWidget")
-        self.tab = QWidget()
-        self.tab.setObjectName(u"tab")
-        self.tabWidget.addTab(self.tab, "")
-        self.tab_2 = QWidget()
-        self.tab_2.setObjectName(u"tab_2")
-        self.tabWidget.addTab(self.tab_2, "")
-
-        self.contentLayout.addWidget(self.tabWidget)
-
 
         self.verticalLayout.addWidget(self.content)
 
@@ -100,7 +89,5 @@ class Ui_SettingsDialog(object):
         SettingsDialog.setWindowTitle(QCoreApplication.translate("SettingsDialog", u"Settings", None))
         self.labelMainTitle.setText(QCoreApplication.translate("SettingsDialog", u"labelMainTitle", None))
         self.labelSubTitle.setText(QCoreApplication.translate("SettingsDialog", u"labelSubTitle", None))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), QCoreApplication.translate("SettingsDialog", u"Tab 1", None))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("SettingsDialog", u"Tab 2", None))
     # retranslateUi
 

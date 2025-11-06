@@ -2,7 +2,7 @@ from PySide6.QtWidgets import QSplashScreen, QApplication
 from PySide6.QtGui import QPixmap, QFont, QPainter
 from PySide6.QtCore import Qt, QTimer, QRectF
 from pathlib import Path
-from duifx.gui_components.resources.theme import palette
+from duifx.gui.resources.theme import palette
 from PySide6.QtSvg import QSvgRenderer
 from PySide6.QtGui import QPainter
 

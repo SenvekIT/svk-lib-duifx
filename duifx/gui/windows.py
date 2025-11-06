@@ -7,10 +7,9 @@ from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QD
 from PySide6.QtCore import Qt, QSize, Signal, Slot
 from PySide6.QtGui import QIcon, QCursor
 
-from duifx.gui_components.ui.ui_main_window import Ui_MainWindow
-from duifx.gui_components.ui.ui_settings_dialog import Ui_SettingsDialog
-from duifx.gui_components.ui.ui_info_dialog import Ui_InfoDialog
-from duifx.gui_components.resources.theme import palette
+from duifx.gui.ui.ui_main_window import Ui_MainWindow
+from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
+from duifx.gui.resources.theme import palette
 
 RESOURCES_PATH = Path(__file__).parent / "resources"
 IMAGES_PATH = RESOURCES_PATH / "image"
@@ -128,32 +127,6 @@ class MainWindow(QMainWindow):
         if slot:
             button.clicked.connect(slot)
 
-class SettingsDialog(QDialog):
-    def __init__(self, parent=None, window_title: str = "Settings"):
-        super().__init__(parent)
-
-        self._ui = Ui_SettingsDialog()
-        self._ui.setupUi(self)
-
-        self.setWindowTitle(window_title)
-        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Settings.svg")))) # set a default icon
-
-        stylesheet = load_stylesheet()
-        self.setStyleSheet(stylesheet)
-
-        # Connect OK and Cancel buttons
-        self._ui.buttonBox.accepted.connect(self.accept)
-        self._ui.buttonBox.rejected.connect(self.reject)
-
-    def set_main_title(self, title: str) -> None:
-        self._ui.labelMainTitle.setText(title)
-
-    def set_sub_title(self, subtitle: str) -> None:
-        self._ui.labelSubTitle.setText(subtitle)
-
-    def add_content_widget(self, content: QWidget) -> None:
-        self._ui.stackedWidgetContent.addWidget(content)
-
 class InfoDialog(QDialog):
     def __init__(self, parent=None, window_title: str = "Information"):
         super().__init__(parent)
@@ -163,6 +136,9 @@ class InfoDialog(QDialog):
 
         self.setWindowTitle(window_title)
         self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Info.svg")))) # set a default icon
+
+        self._ui.labelMainTitle.setProperty("class", "title")
+        self._ui.labelSubTitle.setProperty("class", "subtitle")
 
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
