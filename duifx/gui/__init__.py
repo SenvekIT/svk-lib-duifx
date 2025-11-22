@@ -1,6 +1,6 @@
 # Import main components for easier access
 try:
-    from .windows import MainWindow, HeaderMenuButton, Container, SidebarMenuButton, InfoDialog
+    from .windows import MainWindow, HeaderMenuButton, Container, SidebarMenuButton, InfoDialog, HeaderDialog
     from .settings import get_settings, SettingsDialog, load_stylesheet
     from .splash import DxSplashScreen
     from .resources.theme import palette
@@ -14,6 +14,7 @@ __all__ = [
     "Container",    
     "SidebarMenuButton",
     "InfoDialog",
+    "HeaderDialog",
     "get_settings",
     "SettingsDialog",
     "load_stylesheet",
