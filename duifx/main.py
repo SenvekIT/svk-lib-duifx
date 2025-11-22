@@ -6,7 +6,7 @@ import sys
 import logging
 from PySide6.QtWidgets import QApplication
 from PySide6.QtCore import QTimer
-from duifx.gui.splash import DxSplashScreen
+from duifx.gui import DxSplashScreen
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -29,9 +29,7 @@ def load_application_modules(splash, app):
     splash.set_progress(25)
     app.processEvents()
     
-    from duifx.gui.windows import (MainWindow, Container, HeaderMenuButton, 
-                                              SidebarMenuButton, SettingsDialog, InfoDialog
-                                              )
+    from duifx.gui import MainWindow, Container, HeaderMenuButton, SidebarMenuButton, SettingsDialog, InfoDialog
     
     # Schritt 2: Weitere Module (falls vorhanden)
     splash.showMessage("Loading additional modules...")
@@ -58,9 +56,8 @@ def load_application_modules(splash, app):
 def on_settings_button_clicked():
     """Öffnet den Einstellungsdialog"""
 
-    from duifx.gui.settings import SettingsTreeWidget
+    from duifx.gui import SettingsDialog
     settings_dialog = SettingsDialog()
-    settings_dialog.add_content_widget(SettingsTreeWidget(settings_dialog))
     settings_dialog.set_main_title("Application Settings")
     settings_dialog.set_sub_title("Configure application preferences")
     if settings_dialog.exec() == SettingsDialog.DialogCode.Accepted:
@@ -81,7 +78,7 @@ def on_info_button_clicked():
 
 def main():
     """Main entry point for the DUIFx application."""
-    # App erstellen
+    # Create App
     app = QApplication(sys.argv)
 
     # Show Splash Screen
@@ -101,20 +98,20 @@ def main():
     time.sleep(1.5)
     splash.close()
     
-    # Main Window erstellen
+    # Create Main Window
     main_window = MainWindow(TITLE + " v" + VERSION)
     testmanager_container = Container()
 
     # add test manager content to main window
     main_window.add_content_widget(testmanager_container)
 
-    main_window.add_menu_button(HeaderMenuButton(icon_path="Home.svg", label="Home"), )
+    main_window.add_menu_button(HeaderMenuButton(icon_path=":/icons/icon/Home.svg", label="Home"), )
 
-    main_window.add_sidebar_button(SidebarMenuButton(icon_path="Settings.svg", tooltip="Settings"), slot=on_settings_button_clicked)
-    main_window.add_sidebar_button(SidebarMenuButton(icon_path="Info.svg", tooltip="Info"), slot=on_info_button_clicked)
+    main_window.add_sidebar_button(SidebarMenuButton(icon_path=":/icons/icon/Settings.svg", tooltip="Settings"), slot=on_settings_button_clicked)
+    main_window.add_sidebar_button(SidebarMenuButton(icon_path=":/icons/icon/Info.svg", tooltip="Info"), slot=on_info_button_clicked)
     
-    # Splash Screen schließen
-    QTimer.singleShot(1000, splash.close)  # Nach 1 Sekunde schließen
+    # Close Splash Screen
+    QTimer.singleShot(1000, splash.close)
     
     # Start the application event loop
     sys.exit(app.exec())
