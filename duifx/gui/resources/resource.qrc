@@ -1,0 +1,95 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>icon/3d Pointer.svg</file>
+    <file>icon/About.svg</file>
+    <file>icon/Add Bookmark.svg</file>
+    <file>icon/arrow-down-icon.svg</file>
+    <file>icon/arrow-up-icon.svg</file>
+    <file>icon/Bebo.svg</file>
+    <file>icon/Binoculars.svg</file>
+    <file>icon/Bookmark.svg</file>
+    <file>icon/Box.svg</file>
+    <file>icon/Briefcase.svg</file>
+    <file>icon/Cancel.svg</file>
+    <file>icon/Check All.svg</file>
+    <file>icon/Check Mark.svg</file>
+    <file>icon/Checkmark.svg</file>
+    <file>icon/Clock.svg</file>
+    <file>icon/Close.svg</file>
+    <file>icon/Connect.svg</file>
+    <file>icon/Contacts.svg</file>
+    <file>icon/Cursor.svg</file>
+    <file>icon/Delete Bookmark.svg</file>
+    <file>icon/Delete.svg</file>
+    <file>icon/Document.svg</file>
+    <file>icon/Done.svg</file>
+    <file>icon/Download from the Cloud.svg</file>
+    <file>icon/Dribbble.svg</file>
+    <file>icon/Dx.svg</file>
+    <file>icon/Edit.svg</file>
+    <file>icon/External Link.svg</file>
+    <file>icon/Facebook.svg</file>
+    <file>icon/Favorites.svg</file>
+    <file>icon/Female User.svg</file>
+    <file>icon/File.svg</file>
+    <file>icon/Folder.svg</file>
+    <file>icon/For You.svg</file>
+    <file>icon/Google Plus.svg</file>
+    <file>icon/Hand Cursor.svg</file>
+    <file>icon/Home.svg</file>
+    <file>icon/Icons8.svg</file>
+    <file>icon/Idea.svg</file>
+    <file>icon/Image File.svg</file>
+    <file>icon/Info.svg</file>
+    <file>icon/Instagram.svg</file>
+    <file>icon/Key.svg</file>
+    <file>icon/LinkedIn Circled.svg</file>
+    <file>icon/LinkedIn.svg</file>
+    <file>icon/Lock.svg</file>
+    <file>icon/Lunacy.svg</file>
+    <file>icon/Mailbox.svg</file>
+    <file>icon/Menu.svg</file>
+    <file>icon/Music.svg</file>
+    <file>icon/Myspace 3.svg</file>
+    <file>icon/Myspace App.svg</file>
+    <file>icon/MySpace.svg</file>
+    <file>icon/News.svg</file>
+    <file>icon/No Synchronize.svg</file>
+    <file>icon/Opened Folder.svg</file>
+    <file>icon/Padlock.svg</file>
+    <file>icon/Picture.svg</file>
+    <file>icon/Pinterest.svg</file>
+    <file>icon/Plus.svg</file>
+    <file>icon/Puzzle.svg</file>
+    <file>icon/Reddit.svg</file>
+    <file>icon/Refresh.svg</file>
+    <file>icon/Remove Bookmark.svg</file>
+    <file>icon/Restart.svg</file>
+    <file>icon/Round.svg</file>
+    <file>icon/Scroll.svg</file>
+    <file>icon/Search.svg</file>
+    <file>icon/Services.svg</file>
+    <file>icon/Settings.svg</file>
+    <file>icon/Share.svg</file>
+    <file>icon/Share_1.svg</file>
+    <file>icon/Share_2.svg</file>
+    <file>icon/Speech Bubble.svg</file>
+    <file>icon/StumbleUpon.svg</file>
+    <file>icon/Sun.svg</file>
+    <file>icon/Synchronize.svg</file>
+    <file>icon/Tick Box.svg</file>
+    <file>icon/Toolbox.svg</file>
+    <file>icon/Trash Can.svg</file>
+    <file>icon/Trash.svg</file>
+    <file>icon/Tumblr.svg</file>
+    <file>icon/Unavailable.svg</file>
+    <file>icon/Uncheck All.svg</file>
+    <file>icon/Undelete.svg</file>
+    <file>icon/Upload to the Cloud.svg</file>
+    <file>icon/User Male.svg</file>
+    <file>icon/Wrench.svg</file>
+    <file>icon/X.svg</file>
+    <file>icon/X2.svg</file>
+  </qresource>
+  <qresource prefix="images"/>
+</RCC>
