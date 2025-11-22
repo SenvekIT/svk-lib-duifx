@@ -1,42 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    viewBox="0 0 48 48"
-   width="48px"
-   height="48px"
+   width="48"
+   height="48"
    version="1.1"
    id="svg24"
-   sodipodi:docname="Dx.svg"
-   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
-   inkscape:export-filename="Dx.svg"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
      id="defs24" />
-  <sodipodi:namedview
-     id="namedview24"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="6.7291667"
-     inkscape:cx="19.318885"
-     inkscape:cy="12.185758"
-     inkscape:window-width="1920"
-     inkscape:window-height="1010"
-     inkscape:window-x="3065"
-     inkscape:window-y="-6"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg24" />
   <path
      fill="#137d25"
-     d="M42,40v-7h-9v9h7C41.105,42,42,41.105,42,40z"
+     d="m 42,40 v -7 h -9 v 9 h 7 c 1.105,0 2,-0.895 2,-2 z"
      id="path1"
      style="fill:#137ddc;fill-opacity:1" />
   <rect
@@ -65,7 +40,7 @@
      style="fill:#1e9edc;fill-opacity:1" />
   <path
      fill="#25b03b"
-     d="M15,42v-9H6v7c0,1.105,0.895,2,2,2H15z"
+     d="M 15,42 V 33 H 6 v 7 c 0,1.105 0.895,2 2,2 z"
      id="path3"
      style="fill:#25b0dc;fill-opacity:1" />
   <rect
@@ -102,7 +77,7 @@
      style="fill:#3fd1dc;fill-opacity:1" />
   <path
      fill="#4ddb63"
-     d="M15,15V6H8C6.895,6,6,6.895,6,8v7H15z"
+     d="M 15,15 V 6 H 8 C 6.895,6 6,6.895 6,8 v 7 z"
      id="path7"
      style="fill:#4ddbdc;fill-opacity:1" />
   <rect
@@ -147,7 +122,7 @@
      style="fill:#1e9edc;fill-opacity:1" />
   <path
      fill="#25b03b"
-     d="M33,15h9V8c0-1.105-0.895-2-2-2h-7V15z"
+     d="m 33,15 h 9 V 8 C 42,6.895 41.105,6 40,6 h -7 z"
      id="path12"
      style="fill:#25b0dd;fill-opacity:1" />
   <radialGradient
@@ -182,7 +157,7 @@
      id="OFeT0s3pfN65mmreJUiYzc"
      cx="31"
      cy="17"
-     r="7.328"
+     r="7.3280001"
      gradientUnits="userSpaceOnUse">
     <stop
        offset="0"
@@ -201,7 +176,7 @@
      id="OFeT0s3pfN65mmreJUiYzd"
      cx="31"
      cy="31"
-     r="7.328"
+     r="7.3280001"
      gradientUnits="userSpaceOnUse">
     <stop
        offset="0"
@@ -241,7 +216,6 @@
      x="6.3900928"
      y="39.597523"
      id="text24"><tspan
-       sodipodi:role="line"
        id="tspan24"
        x="6.3900928"
        y="39.597523"
