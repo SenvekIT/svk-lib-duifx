@@ -1,4 +1,3 @@
-import sys
 from pathlib import Path
 from typing import Any, Dict, Optional
 from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayout,
@@ -6,14 +5,14 @@ from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayou
                               QLabel, QColorDialog, QFileDialog, QApplication, QDialog)
 from PySide6.QtCore import QSettings, Qt, Signal, QSize
 from PySide6.QtGui import QColor, QPalette, QIcon
-from duifx.gui.ui.ui_settings_dialog import Ui_SettingsDialog
+
+from duifx.gui import HeaderDialog
 
 RESOURCES_PATH = Path(__file__).parent / "resources"
 IMAGES_PATH = RESOURCES_PATH / "image"
 ICONS_PATH = RESOURCES_PATH / "icon"
 
 def load_stylesheet():
-    """Load the modern light theme stylesheet"""
     import os
     
     style_path = os.path.join(os.path.dirname(__file__), "resources", "modern_light.qss")
@@ -44,6 +43,8 @@ def get_settings() -> QSettings:
     else:
         app_name = "DUIFx"
         org_name = "DUIFx"
+    
+    import sys
 
     # Settings file in application directory
     if sys.platform == "win32":
@@ -58,31 +59,13 @@ def get_settings() -> QSettings:
 
     return QSettings(str(settings_file), QSettings.Format.IniFormat)
 
-class SettingsDialog(QDialog):
+class SettingsDialog(HeaderDialog):
 
     # Signal is emitted when a setting changes
     setting_changed = Signal(str, object)  # key, value
 
-    def __init__(self, parent=None, window_title: str = "Settings"):
-        super().__init__(parent)
-
-        self._ui = Ui_SettingsDialog()
-        self._ui.setupUi(self)
-
-        self.setWindowTitle(window_title)
-        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Settings.svg")))) # set a default icon
-        # Show maximize and minimize buttons
-        self.setWindowFlags(self.windowFlags() | Qt.WindowType.WindowMinMaxButtonsHint)
-
-        self._ui.labelMainTitle.setProperty("class", "title")
-        self._ui.labelSubTitle.setProperty("class", "subtitle")
-
-        stylesheet = load_stylesheet()
-        self.setStyleSheet(stylesheet)
-
-        # Connect OK and Cancel buttons
-        self._ui.buttonBox.accepted.connect(self.accept)
-        self._ui.buttonBox.rejected.connect(self.reject)
+    def __init__(self, parent=None, window_title: str = "Settings", create_defaults: bool = False):
+        super().__init__(parent, window_title)
 
         self.treeWidget = None
         # Initialize settings
@@ -91,18 +74,14 @@ class SettingsDialog(QDialog):
 
         self.init_tree_widget()
 
-        # Add default settings
-        self._create_default_settings()
+        # Add default settings if requested
+        if create_defaults:
+            self._create_default_settings()
 
         # Load settings
         self.load_settings()
 
-
-    def set_main_title(self, title: str) -> None:
-        self._ui.labelMainTitle.setText(title)
-
-    def set_sub_title(self, subtitle: str) -> None:
-        self._ui.labelSubTitle.setText(subtitle)
+        self.create_log_folder()
 
     def init_tree_widget(self):
         """Initializes the tree widget"""
@@ -114,32 +93,33 @@ class SettingsDialog(QDialog):
         self.treeWidget.setAlternatingRowColors(True)
 
         # add widget to layout
-        self._ui.contentLayout.addWidget(self.treeWidget)
+        self.add_content_widget(self.treeWidget)
+
+    def create_log_folder(self):
+        """Creates log folder if it does not exist"""
+        log_file_path = self.settings.value("log_directory", str(Path.home() / "logs"))
+        log_folder = Path(log_file_path)
+        print(f"Creating log folder at: {log_folder}")
+        log_folder.mkdir(parents=True, exist_ok=True)
 
     def _create_default_settings(self):
         """Creates default settings"""
 
         # Category: General
         general_cat = self.add_category("General")
-        self.add_boolean_setting(general_cat, "auto_save", "Auto Save", True)
-        self.add_integer_setting(general_cat, "auto_save_interval", "Auto Save Interval (min)", 5, 1, 60)
-        self.add_text_setting(general_cat, "default_project_path", "Default Project Path", str(Path.home()))
-        self.add_combo_setting(general_cat, "language", "Language", ["English", "German", "French"], "English")
-
-        # Category: Appearance
-        appearance_cat = self.add_category("Appearance")
-        self.add_combo_setting(appearance_cat, "theme", "Theme", ["Light", "Dark", "Auto"], "Light")
-        self.add_color_setting(appearance_cat, "accent_color", "Accent Color", QColor("#0078d4"))
-        self.add_integer_setting(appearance_cat, "font_size", "Font Size", 10, 8, 20)
-        self.add_boolean_setting(appearance_cat, "show_toolbar", "Show Toolbar", True)
+        self.add_combo_setting(general_cat, "language", "Language", ["English", "Italiano", "Deutsch"], "English")
 
         # Category: Advanced
         advanced_cat = self.add_category("Advanced")
         self.add_boolean_setting(advanced_cat, "debug_mode", "Debug Mode", False)
         self.add_integer_setting(advanced_cat, "max_recent_files", "Max Recent Files", 10, 1, 50)
-        self.add_file_setting(advanced_cat, "log_file_path", "Log File Path", "")
+        self.add_folder_setting(advanced_cat, "log_directory", "Log Directory", str(Path.home() / "logs"))
 
         # Expand tree
+        self.expand_all()
+
+    def expand_all(self):
+        """Expands all categories in the tree widget"""
         self.treeWidget.expandAll()
 
     def add_category(self, name: str) -> QTreeWidgetItem:
@@ -163,6 +143,8 @@ class SettingsDialog(QDialog):
         checkbox.setChecked(default_value)
         checkbox.toggled.connect(lambda checked: self._on_setting_changed(key, checked))
 
+        checkbox.setToolTip(f"Default: {'Enabled' if default_value else 'Disabled'}")
+
         self.treeWidget.setItemWidget(item, 1, checkbox)
         self.setting_items[key] = (item, checkbox, default_value)
 
@@ -179,6 +161,8 @@ class SettingsDialog(QDialog):
         spinbox.setValue(default_value)
         spinbox.valueChanged.connect(lambda value: self._on_setting_changed(key, value))
 
+        spinbox.setToolTip(f"Default: {default_value}, Range: {min_val} - {max_val}")
+
         self.treeWidget.setItemWidget(item, 1, spinbox)
         self.setting_items[key] = (item, spinbox, default_value)
 
@@ -192,6 +176,8 @@ class SettingsDialog(QDialog):
         lineedit = QLineEdit()
         lineedit.setText(default_value)
         lineedit.textChanged.connect(lambda text: self._on_setting_changed(key, text))
+
+        lineedit.setToolTip(f"Default: {default_value}")
 
         self.treeWidget.setItemWidget(item, 1, lineedit)
         self.setting_items[key] = (item, lineedit, default_value)
@@ -208,6 +194,8 @@ class SettingsDialog(QDialog):
         combobox.addItems(options)
         combobox.setCurrentText(default_value)
         combobox.currentTextChanged.connect(lambda text: self._on_setting_changed(key, text))
+
+        combobox.setToolTip(f"Default: {default_value}")
 
         self.treeWidget.setItemWidget(item, 1, combobox)
         self.setting_items[key] = (item, combobox, default_value)
@@ -226,6 +214,8 @@ class SettingsDialog(QDialog):
         color_button = QPushButton()
         color_button.setFixedSize(50, 25)
         color_button.setStyleSheet(f"background-color: {default_value.name()}")
+
+        color_button.setToolTip(f"Default: {default_value}")
 
         color_label = QLabel(default_value.name())
 
@@ -271,6 +261,40 @@ class SettingsDialog(QDialog):
                 lineedit.setText(file_path)
 
         browse_button.clicked.connect(browse_file)
+
+        layout.addWidget(lineedit)
+        layout.addWidget(browse_button)
+
+        self.treeWidget.setItemWidget(item, 1, widget)
+        self.setting_items[key] = (item, lineedit, default_value)
+    
+    def add_folder_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
+        """Adds a folder selection setting"""
+        item = QTreeWidgetItem([label, ""])
+        item.setSizeHint(1, QSize(150, 35))
+        if parent:
+            parent.addChild(item)
+
+        # Folder Selection Widget
+        widget = QWidget()
+        layout = QHBoxLayout(widget)
+        layout.setContentsMargins(0, 0, 0, 0)
+
+        lineedit = QLineEdit()
+        lineedit.setText(default_value)
+        lineedit.textChanged.connect(lambda text: self._on_setting_changed(key, text))
+
+        browse_button = QPushButton("Browse...")
+        browse_button.setFixedWidth(80)
+
+        def browse_folder():
+            folder_path = QFileDialog.getExistingDirectory(
+                self, f"Select {label}", lineedit.text()
+            )
+            if folder_path:
+                lineedit.setText(folder_path)
+
+        browse_button.clicked.connect(browse_folder)
 
         layout.addWidget(lineedit)
         layout.addWidget(browse_button)
