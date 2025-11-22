@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'settings_dialogxAHOGn.ui'
+## Form generated from reading UI file 'settings_dialogFKuFxx.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -18,6 +18,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
 from PySide6.QtWidgets import (QAbstractButton, QApplication, QDialog, QDialogButtonBox,
     QFrame, QLabel, QSizePolicy, QVBoxLayout,
     QWidget)
+from . import resource_rc
 
 class Ui_SettingsDialog(object):
     def setupUi(self, SettingsDialog):

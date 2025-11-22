@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowikjBsu.ui'
+## Form generated from reading UI file 'main_windowRvxicG.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -19,6 +19,7 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
 from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QLabel,
     QMainWindow, QSizePolicy, QStackedWidget, QVBoxLayout,
     QWidget)
+from . import resource_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
