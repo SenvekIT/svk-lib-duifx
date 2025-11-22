@@ -9,18 +9,12 @@ from PySide6.QtGui import QIcon, QCursor
 
 from duifx.gui.ui.ui_main_window import Ui_MainWindow
 from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
-from duifx.gui.resources.theme import palette
-
-RESOURCES_PATH = Path(__file__).parent / "resources"
-IMAGES_PATH = RESOURCES_PATH / "image"
-ICONS_PATH = RESOURCES_PATH / "icon"
 
 def load_stylesheet():
-    """Load the modern light theme stylesheet"""
     import os
-    
+
     style_path = os.path.join(os.path.dirname(__file__), "resources", "modern_light.qss")
-    
+
     try:
         with open(style_path, 'r', encoding='utf-8') as file:
             return file.read()
@@ -59,8 +53,6 @@ class HeaderMenuButton(QToolButton):
     def __init__(self, icon_path: str = "", label: str = "", tooltip= "", parent=None):
         super().__init__(parent)
 
-        icon_path = str(ICONS_PATH / Path(icon_path))
-
         if icon_path:
             icon = QIcon(icon_path)
             self.setIcon(icon)
@@ -77,8 +69,6 @@ class HeaderMenuButton(QToolButton):
 class SidebarMenuButton(QToolButton):
     def __init__(self, icon_path: str = "", tooltip= "", parent=None):
         super().__init__(parent)
-
-        icon_path = str(ICONS_PATH / Path(icon_path))
 
         if icon_path:
             icon = QIcon(icon_path)
@@ -105,7 +95,9 @@ class MainWindow(QMainWindow):
         self._ui.setupUi(self)
 
         self.setWindowTitle(description)  # set custom design title
-        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Dx.svg")))) # set a default icon
+        self.setWindowIcon(QIcon(":icons/icon/Dx.svg")) # set a default icon
+
+        from duifx.gui import load_stylesheet
 
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
@@ -135,11 +127,13 @@ class InfoDialog(QDialog):
         self._ui.setupUi(self)
 
         self.setWindowTitle(window_title)
-        self.setWindowIcon(QIcon(str(ICONS_PATH / Path("Info.svg")))) # set a default icon
+        self.setWindowIcon(QIcon(":icons/icon/Info.svg")) # set a default icon
 
         self._ui.labelMainTitle.setProperty("class", "title")
         self._ui.labelSubTitle.setProperty("class", "subtitle")
 
+        from duifx.gui import load_stylesheet
+        
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
 
@@ -153,6 +147,42 @@ class InfoDialog(QDialog):
 
     def set_info_text(self, text: str) -> None:
         self._ui.textEditInfo.setPlainText(text)
+
+class HeaderDialog(QDialog):
+    def __init__(self, parent=None, window_title: str = "Settings"):
+        super().__init__(parent)
+
+        from duifx.gui.ui.ui_settings_dialog import Ui_SettingsDialog
+
+        self._ui = Ui_SettingsDialog()
+        self._ui.setupUi(self)
+
+        self.setWindowTitle(window_title)
+        self.setWindowIcon(QIcon(":icons/icon/Settings.svg")) # set a default icon
+        # Show maximize and minimize buttons
+        self.setWindowFlags(self.windowFlags() | Qt.WindowType.WindowMinMaxButtonsHint)
+
+        self._ui.labelMainTitle.setProperty("class", "title")
+        self._ui.labelSubTitle.setProperty("class", "subtitle")
+
+        stylesheet = load_stylesheet()
+        self.setStyleSheet(stylesheet)
+
+        # Connect OK and Cancel buttons
+        self._ui.buttonBox.accepted.connect(self.accept)
+        self._ui.buttonBox.rejected.connect(self.reject)
+
+    def set_main_title(self, title: str) -> None:
+        self._ui.labelMainTitle.setText(title)
+
+    def set_sub_title(self, subtitle: str) -> None:
+        self._ui.labelSubTitle.setText(subtitle)
+
+    def add_content_widget(self, content: QWidget) -> None:
+        """
+        :param content: QWidget to add content to
+        """
+        self._ui.contentLayout.addWidget(content)
 
 
 

@@ -1,10 +1,8 @@
+from pathlib import Path
 from PySide6.QtWidgets import QSplashScreen, QApplication
 from PySide6.QtGui import QPixmap, QFont, QPainter
 from PySide6.QtCore import Qt, QTimer, QRectF
-from pathlib import Path
-from duifx.gui.resources.theme import palette
 from PySide6.QtSvg import QSvgRenderer
-from PySide6.QtGui import QPainter
 
 class DxSplashScreen(QSplashScreen):
     def __init__(self, app, title, sub_title):
@@ -82,10 +80,8 @@ class DxSplashScreen(QSplashScreen):
         painter.drawRoundedRect(QRectF(0, 0, base_width, base_height), 15, 15)
         
         # Render SVG icon
-        icon_path = Path(__file__).parent / "resources" / "icon" / "Dx.svg"
-        if icon_path.exists():
-            svg_renderer = QSvgRenderer(str(icon_path))
-            svg_renderer.render(painter, QRectF(30, 77, 96, 96))
+        svg_renderer = QSvgRenderer(":icons/icon/Dx.svg")
+        svg_renderer.render(painter, QRectF(30, 77, 96, 96))
         
         # Draw text
         painter.setPen(Qt.GlobalColor.black)
