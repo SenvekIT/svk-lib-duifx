@@ -3,9 +3,10 @@ import ctypes
 from typing import Callable, Optional
 from pathlib import Path
 
-from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog
+from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog, QLabel
 from PySide6.QtCore import Qt, QSize, Signal, Slot
-from PySide6.QtGui import QIcon, QCursor
+from PySide6.QtGui import QIcon, QCursor, QPixmap, QPainter
+from PySide6.QtSvg import QSvgRenderer
 
 from duifx.gui.ui.ui_main_window import Ui_MainWindow
 from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
@@ -31,6 +32,28 @@ def load_stylesheet():
             border-radius: 4px; 
         }
         """
+
+def set_svg_on_label(label: QLabel, svg_path: str, size: QSize | None = None) -> None:
+    """
+    Rendert die SVG aus `svg_path` in ein QPixmap und setzt es auf `label`.
+    Für Ressourcenpfade z.B. `:/icons/icon/Tick Box.svg` verwenden.
+    """
+    renderer = QSvgRenderer(svg_path)
+    if size is None:
+        default = renderer.defaultSize()
+        if default.isValid():
+            size = default
+        else:
+            size = QSize(label.width() or 64, label.height() or 64)
+
+    pixmap = QPixmap(size)
+    pixmap.fill(Qt.transparent)
+
+    painter = QPainter(pixmap)
+    renderer.render(painter)
+    painter.end()
+
+    label.setPixmap(pixmap)
 
 class Container(QWidget):
     def __init__(self, content=None):
@@ -119,6 +142,17 @@ class MainWindow(QMainWindow):
         if slot:
             button.clicked.connect(slot)
 
+    def add_header_logo(self, logo_path: str, size: QSize, format: str = "svg") -> None:
+        label_logo = QLabel()
+
+        if format == "svg":
+            set_svg_on_label(label_logo, logo_path, QSize(128, 32))
+        elif format == "png":
+            pixmap = QPixmap(logo_path)
+            pixmap = pixmap.scaled(size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
+            label_logo.setPixmap(pixmap)
+
+        self._ui.headerLogoLayout.addWidget(label_logo, 0, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
 class InfoDialog(QDialog):
     def __init__(self, parent=None, window_title: str = "Information"):
         super().__init__(parent)
