@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowRvxicG.ui'
+## Form generated from reading UI file 'main_windowRFcKDq.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -85,16 +85,10 @@ class Ui_MainWindow(object):
         sizePolicy3.setHeightForWidth(self.headerLogo.sizePolicy().hasHeightForWidth())
         self.headerLogo.setSizePolicy(sizePolicy3)
         self.headerLogo.setMinimumSize(QSize(150, 0))
-        self.horizontalLayout_3 = QHBoxLayout(self.headerLogo)
-        self.horizontalLayout_3.setSpacing(0)
-        self.horizontalLayout_3.setObjectName(u"horizontalLayout_3")
-        self.horizontalLayout_3.setContentsMargins(0, 0, 0, 0)
-        self.appLogo = QFrame(self.headerLogo)
-        self.appLogo.setObjectName(u"appLogo")
-        self.appLogo.setStyleSheet(u"")
-
-        self.horizontalLayout_3.addWidget(self.appLogo)
-
+        self.headerLogoLayout = QHBoxLayout(self.headerLogo)
+        self.headerLogoLayout.setSpacing(0)
+        self.headerLogoLayout.setObjectName(u"headerLogoLayout")
+        self.headerLogoLayout.setContentsMargins(0, 0, 0, 0)
 
         self.horizontalLayout.addWidget(self.headerLogo)
 
