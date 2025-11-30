@@ -5,7 +5,7 @@ Main entry point for the DUIFx application.
 import sys
 import logging
 from PySide6.QtWidgets import QApplication
-from PySide6.QtCore import QTimer
+from PySide6.QtCore import QTimer, Qt
 from duifx.gui import DxSplashScreen
 
 logger = logging.getLogger(__name__)
@@ -78,6 +78,10 @@ def on_info_button_clicked():
 
 def main():
     """Main entry point for the DUIFx application."""
+
+    # Enable high DPI scaling
+    QApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)
+
     # Create App
     app = QApplication(sys.argv)
 
