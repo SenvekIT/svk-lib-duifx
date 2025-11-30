@@ -3,8 +3,8 @@
 /* Custom Widgets */
 #header 
 {
-    background-color: #f3f4f6;
-    border-bottom: 1px solid #e9ecef;
+    background-color: #e5e7eb;
+    border-bottom: 1px solid #d1d5db;
 }
 
 #sidebar 
