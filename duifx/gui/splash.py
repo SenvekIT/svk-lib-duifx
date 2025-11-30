@@ -12,11 +12,6 @@ class DxSplashScreen(QSplashScreen):
         self.sub_title = sub_title
         self.message = "Loading..."
 
-        # Enable High DPI Scaling
-        QApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)
-        QApplication.setAttribute(Qt.ApplicationAttribute.AA_EnableHighDpiScaling, True)
-        QApplication.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps, True)
-
         pixmap = self.create_splash_screen(app)
         super().__init__(pixmap)
 
