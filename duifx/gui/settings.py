@@ -345,7 +345,7 @@ class SettingsDialog(HeaderDialog):
 
             # Update widget with saved value
             if isinstance(widget, QCheckBox):
-                widget.setChecked(bool(saved_value))
+                widget.setChecked(saved_value == 'true')
             elif isinstance(widget, QSpinBox):
                 widget.setValue(int(saved_value))
             elif isinstance(widget, QLineEdit):
