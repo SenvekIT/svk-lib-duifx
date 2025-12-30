@@ -212,9 +212,9 @@ QComboBox {
     background-color: #ffffff;
     border: 1px solid #ced4da;
     border-radius: 4px;
-    padding: 5px 36px 5px 10px; /* rechts Platz für das Drop-Down */
+    padding: 5px 36px 5px 10px;
     color: #495057;
-    min-height: 24px; /* etwas höher, damit das Icon nicht abgeschnitten wird */
+    min-height: 24px;
 }
 
 QComboBox::drop-down {
@@ -224,10 +224,9 @@ QComboBox::drop-down {
     border-left: 1px solid #ced4da;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    background: transparent; /* kein background-image hier */
+    background: transparent;
 }
 
-/* Verwende das dedicated pseudo-element für den Pfeil */
 QComboBox::down-arrow {
     image: url(:/icons/icon/arrow-down-icon.svg);
     width: 12px;
@@ -235,7 +234,6 @@ QComboBox::down-arrow {
     margin: 6px;
 }
 
-/* optional: Fallback falls du weiterhin background-image nutzen willst */
 QComboBox::drop-down[background-image] {
     background-position: center;
     background-repeat: no-repeat;
@@ -245,6 +243,7 @@ QComboBox::drop-down[background-image] {
 QComboBox QAbstractItemView {
     padding: 4px;
     border-radius: 4px;
+    color: #495057;
     background-color: #f8f9fa;
 }
 
