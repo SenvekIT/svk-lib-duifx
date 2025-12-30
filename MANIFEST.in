@@ -1,11 +1,11 @@
 include README.md
 include LICENSE
 include pyproject.toml
-recursive-include duifx *.py
-recursive-include duifx/gui/resources *.qss
-recursive-include duifx/gui/resources/image *
+include setup.py
+
+recursive-include duifx/gui/resources *.qss *.svg *.png *.jpg *.ico
 recursive-include duifx/gui/ui *.ui
-global-exclude *.pyc
+
 global-exclude __pycache__
-global-exclude .git*
+global-exclude *.py[co]
 global-exclude .DS_Store
