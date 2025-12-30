@@ -73,6 +73,8 @@ class DxSplashScreen(QSplashScreen):
         painter.setBrush(Qt.GlobalColor.white)
         painter.setPen(Qt.PenStyle.NoPen)
         painter.drawRoundedRect(QRectF(0, 0, base_width, base_height), 15, 15)
+
+        from duifx.gui.ui import resource_rc
         
         # Render SVG icon
         svg_renderer = QSvgRenderer(":icons/icon/Dx.svg")
