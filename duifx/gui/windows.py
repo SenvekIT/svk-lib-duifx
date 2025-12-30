@@ -1,7 +1,8 @@
 import sys
+from pathlib import Path
 import ctypes
 from typing import Callable, Optional
-from pathlib import Path
+import logging
 
 from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog, QLabel
 from PySide6.QtCore import Qt, QSize, Signal, Slot
@@ -11,15 +12,35 @@ from PySide6.QtSvg import QSvgRenderer
 from duifx.gui.ui.ui_main_window import Ui_MainWindow
 from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
 
+logger = logging.getLogger(__name__)
+
 def load_stylesheet():
-    import os
+    from duifx.gui.utils import get_resource_path
 
-    style_path = os.path.join(os.path.dirname(__file__), "resources", "modern_light.qss")
+    resource_path = get_resource_path("resources/modern_light.qss")
+    if Path(resource_path).exists():
+        logger.debug(f"Loading stylesheet from {resource_path}")
+        try:
+            with open(resource_path, 'r', encoding='utf-8') as file:
+                return file.read()
+        except FileNotFoundError:
+            logger.warning(f"Stylesheet not found at {resource_path}. Using fallback styles.")
 
-    try:
-        with open(style_path, 'r', encoding='utf-8') as file:
-            return file.read()
-    except FileNotFoundError:
+            # Return inline styles as fallback
+            return """
+            /* Fallback styles here */
+            QMainWindow { background-color: #ffffff; }
+            QPushButton { 
+                background-color: #007bff; 
+                color: white; 
+                border: none; 
+                padding: 8px 16px; 
+                border-radius: 4px; 
+            }
+            """
+    else:
+        print(f"load_stylesheet(): Resource path {resource_path} does not exist. Using fallback styles.")
+
         # Return inline styles as fallback
         return """
         /* Fallback styles here */
@@ -120,8 +141,6 @@ class MainWindow(QMainWindow):
         self.setWindowTitle(description)  # set custom design title
         self.setWindowIcon(QIcon(":icons/icon/Dx.svg")) # set a default icon
 
-        from duifx.gui import load_stylesheet
-
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
 
@@ -165,8 +184,6 @@ class InfoDialog(QDialog):
 
         self._ui.labelMainTitle.setProperty("class", "title")
         self._ui.labelSubTitle.setProperty("class", "subtitle")
-
-        from duifx.gui import load_stylesheet
         
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
@@ -183,7 +200,7 @@ class InfoDialog(QDialog):
         self._ui.textEditInfo.setPlainText(text)
 
 class HeaderDialog(QDialog):
-    def __init__(self, parent=None, window_title: str = "Settings"):
+    def __init__(self, parent=None, window_title: str = "Settings", icon_path: str = ":icons/icon/Settings.svg"):
         super().__init__(parent)
 
         from duifx.gui.ui.ui_settings_dialog import Ui_SettingsDialog
@@ -192,7 +209,7 @@ class HeaderDialog(QDialog):
         self._ui.setupUi(self)
 
         self.setWindowTitle(window_title)
-        self.setWindowIcon(QIcon(":icons/icon/Settings.svg")) # set a default icon
+        self.setWindowIcon(QIcon(icon_path)) # set a default icon
         # Show maximize and minimize buttons
         self.setWindowFlags(self.windowFlags() | Qt.WindowType.WindowMinMaxButtonsHint)
 
@@ -217,6 +234,12 @@ class HeaderDialog(QDialog):
         :param content: QWidget to add content to
         """
         self._ui.contentLayout.addWidget(content)
+
+    def hide_cancel_button(self) -> None:
+        self._ui.buttonBox.button(self._ui.buttonBox.StandardButton.Cancel).hide()
+
+    def hide_ok_button(self) -> None:
+        self._ui.buttonBox.button(self._ui.buttonBox.StandardButton.Ok).hide()
 
 
 
