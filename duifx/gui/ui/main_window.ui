@@ -137,7 +137,7 @@
            <height>0</height>
           </size>
          </property>
-         <layout class="QHBoxLayout" name="headerLogoLayout" stretch="">
+         <layout class="QHBoxLayout" name="headerLogoLayout">
           <property name="spacing">
            <number>0</number>
           </property>
