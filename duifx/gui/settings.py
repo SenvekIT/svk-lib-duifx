@@ -1,4 +1,5 @@
 from pathlib import Path
+import logging
 from typing import Any, Dict, Optional
 from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayout,
                               QCheckBox, QSpinBox, QComboBox, QLineEdit, QPushButton,
@@ -6,33 +7,13 @@ from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayou
 from PySide6.QtCore import QSettings, Qt, Signal, QSize
 from PySide6.QtGui import QColor, QPalette, QIcon
 
-from duifx.gui import HeaderDialog
+from duifx.gui.windows import HeaderDialog
 
 RESOURCES_PATH = Path(__file__).parent / "resources"
 IMAGES_PATH = RESOURCES_PATH / "image"
 ICONS_PATH = RESOURCES_PATH / "icon"
 
-def load_stylesheet():
-    import os
-    
-    style_path = os.path.join(os.path.dirname(__file__), "resources", "modern_light.qss")
-    
-    try:
-        with open(style_path, 'r', encoding='utf-8') as file:
-            return file.read()
-    except FileNotFoundError:
-        # Return inline styles as fallback
-        return """
-        /* Fallback styles here */
-        QMainWindow { background-color: #ffffff; }
-        QPushButton { 
-            background-color: #007bff; 
-            color: white; 
-            border: none; 
-            padding: 8px 16px; 
-            border-radius: 4px; 
-        }
-        """
+logger = logging.getLogger(__name__)
 
 def get_settings() -> QSettings:
     """Creates QSettings in application directory"""
@@ -97,10 +78,11 @@ class SettingsDialog(HeaderDialog):
 
     def create_log_folder(self):
         """Creates log folder if it does not exist"""
-        log_file_path = self.settings.value("log_directory", str(Path.home() / "logs"))
-        log_folder = Path(log_file_path)
-        print(f"Creating log folder at: {log_folder}")
-        log_folder.mkdir(parents=True, exist_ok=True)
+        log_file_path = self.settings.value("log_directory", str(Path.home() / "logs"), type=str)
+        log_folder = Path(str(log_file_path))
+        if not log_folder.exists():
+            logger.info(f"Creating log folder at: {log_folder}")
+            log_folder.mkdir(parents=True, exist_ok=True)
 
     def _create_default_settings(self):
         """Creates default settings"""
