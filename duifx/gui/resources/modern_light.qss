@@ -33,12 +33,6 @@ QMainWindow {
     border: 1px solid #e9ecef;
 }
 
-QMainWindow::separator {
-    background-color: #e9ecef;
-    width: 1px;
-    height: 1px;
-}
-
 /* Labels */
 QLabel {
     color: #495057;
@@ -57,6 +51,11 @@ QLabel[class="subtitle"] {
     font-size: 11pt;
     color: #6c757d;
     font-weight: 500;
+}
+
+QLabel[class="highlight"] {
+    color: #007bff;
+    font-weight: 600;
 }
 
 /* Push Buttons */
@@ -135,6 +134,9 @@ QSpinBox, QDoubleSpinBox {
     border-radius: 4px;
     padding: 6px 8px;
     min-height: 20px;
+    color: #495057;
+    selection-background-color: #007bff;
+    selection-color: white;
 }
 
 QSpinBox:hover{
