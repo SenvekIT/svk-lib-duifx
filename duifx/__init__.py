@@ -5,7 +5,7 @@ This package provides a comprehensive set of GUI components and utilities
 for creating modern desktop applications with PySide6.
 """
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"
 __author__ = "David Senoner Industrial Software & Electronics"
 __email__ = "david.senoner@davtec.it"
 
@@ -16,7 +16,7 @@ try:
     from duifx.gui.settings import get_settings, SettingsDialog
     from duifx.gui.splash import DxSplashScreen
     from duifx.gui.resources.theme import palette
-    from duifx.gui.utils import get_resource_path
+    from duifx.gui.utils import get_base_path, set_svg_on_label
     
     __all__ = [
         "__version__",
@@ -32,7 +32,8 @@ try:
         "DxSplashScreen",
         "get_settings",
         "palette",
-        "get_resource_path",
+        "get_base_path",
+        "set_svg_on_label",
     ]
 except ImportError as e:
     # Handle import errors gracefully during package installation
