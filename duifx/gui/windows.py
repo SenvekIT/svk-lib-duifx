@@ -15,44 +15,21 @@ from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
 logger = logging.getLogger(__name__)
 
 def load_stylesheet():
-    from duifx.gui.utils import get_resource_path
 
-    resource_path = get_resource_path("resources/modern_light.qss")
-    if Path(resource_path).exists():
+    from duifx.gui.utils import get_base_path
+
+    base_path = get_base_path()
+    if getattr(sys, 'frozen', False):
+        base_path = base_path.joinpath("duifx", "gui")
+
+    resource_path = base_path / "resources" / "modern_light.qss"
+    if resource_path.exists():
         logger.debug(f"Loading stylesheet from {resource_path}")
-        try:
-            with open(resource_path, 'r', encoding='utf-8') as file:
-                return file.read()
-        except FileNotFoundError:
-            logger.warning(f"Stylesheet not found at {resource_path}. Using fallback styles.")
 
-            # Return inline styles as fallback
-            return """
-            /* Fallback styles here */
-            QMainWindow { background-color: #ffffff; }
-            QPushButton { 
-                background-color: #007bff; 
-                color: white; 
-                border: none; 
-                padding: 8px 16px; 
-                border-radius: 4px; 
-            }
-            """
-    else:
-        print(f"load_stylesheet(): Resource path {resource_path} does not exist. Using fallback styles.")
+        with open(str(resource_path), 'r', encoding='utf-8') as file:
+            return file.read()
+    return None
 
-        # Return inline styles as fallback
-        return """
-        /* Fallback styles here */
-        QMainWindow { background-color: #ffffff; }
-        QPushButton { 
-            background-color: #007bff; 
-            color: white; 
-            border: none; 
-            padding: 8px 16px; 
-            border-radius: 4px; 
-        }
-        """
 
 def set_svg_on_label(label: QLabel, svg_path: str, size: QSize | None = None) -> None:
     """
@@ -184,6 +161,8 @@ class InfoDialog(QDialog):
 
         self._ui.labelMainTitle.setProperty("class", "title")
         self._ui.labelSubTitle.setProperty("class", "subtitle")
+
+        self._ui.textEditInfo.setReadOnly(True)
         
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
