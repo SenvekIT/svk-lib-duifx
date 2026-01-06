@@ -52,6 +52,7 @@ class SettingsDialog(HeaderDialog):
         # Initialize settings
         self.settings = get_settings()
         self.setting_items = {}  # key -> QTreeWidgetItem mapping
+        self.changed_setting_items = {}
 
         self.init_tree_widget()
 
@@ -286,15 +287,24 @@ class SettingsDialog(HeaderDialog):
 
     def _on_setting_changed(self, key: str, value: Any):
         """Called when a setting changes"""
-        # Save to QSettings
-        self.settings.setValue(key, value)
-        self.settings.sync()  # Write to disk immediately
+        self.changed_setting_items[key] = value
 
-        # Emit signal
-        self.setting_changed.emit(key, value)
+    def accept(self):
+        if not self.changed_setting_items:
+            return
+        for key, value in self.changed_setting_items.items():
+            self.settings.setValue(key, value)
+            logger.info("Setting changed: %s = %s", key, value)
+        self.settings.sync()
+        for key, value in self.changed_setting_items.items():
+            self.setting_changed.emit(key, value)
+        self.changed_setting_items.clear()
+        super().accept()
 
-    def get_setting(self, key: str, default_value: Any = None) -> Any:
+    def get_setting(self, key: str, default_value: Any = None, sync: bool = False) -> Any:
         """Gets a setting"""
+        if sync:
+            self.settings.sync()
         return self.settings.value(key, default_value)
 
     def set_setting(self, key: str, value: Any):
@@ -338,6 +348,8 @@ class SettingsDialog(HeaderDialog):
                 color_button, color_label = widget
                 color_button.setStyleSheet(f"background-color: {saved_value}")
                 color_label.setText(str(saved_value))
+        
+        self.changed_setting_items.clear()
 
     def reset_to_defaults(self):
         """Resets all settings to default values"""
