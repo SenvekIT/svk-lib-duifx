@@ -1,6 +1,6 @@
 from pathlib import Path
 import logging
-from typing import Any, Dict, Optional
+from typing import Any, Dict, Optional, Type, TypeVar
 from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayout,
                               QCheckBox, QSpinBox, QComboBox, QLineEdit, QPushButton,
                               QLabel, QColorDialog, QFileDialog, QApplication, QDialog)
@@ -14,6 +14,8 @@ IMAGES_PATH = RESOURCES_PATH / "image"
 ICONS_PATH = RESOURCES_PATH / "icon"
 
 logger = logging.getLogger(__name__)
+
+T = TypeVar('T')
 
 def get_settings() -> QSettings:
     """Creates QSettings in application directory"""
@@ -290,22 +292,25 @@ class SettingsDialog(HeaderDialog):
         self.changed_setting_items[key] = value
 
     def accept(self):
-        if not self.changed_setting_items:
-            return
-        for key, value in self.changed_setting_items.items():
-            self.settings.setValue(key, value)
-            logger.info("Setting changed: %s = %s", key, value)
-        self.settings.sync()
-        for key, value in self.changed_setting_items.items():
-            self.setting_changed.emit(key, value)
-        self.changed_setting_items.clear()
+        if self.changed_setting_items:
+            for key, value in self.changed_setting_items.items():
+                self.settings.setValue(key, value)
+                logger.info("Setting changed: %s = %s", key, value)
+            self.settings.sync()
+            for key, value in self.changed_setting_items.items():
+                self.setting_changed.emit(key, value)
+            self.changed_setting_items.clear()
         super().accept()
 
-    def get_setting(self, key: str, default_value: Any = None, sync: bool = False) -> Any:
+    def get_setting(self, key: str, default_value: Any = None, value_type: Type[T] = None, sync: bool = False) -> Any:
         """Gets a setting"""
         if sync:
             self.settings.sync()
-        return self.settings.value(key, default_value)
+
+        try:
+            return self.settings.value(key, default_value, type=value_type)
+        except (ValueError, TypeError) as e:
+            return default_value
 
     def set_setting(self, key: str, value: Any):
         """Sets a setting"""
@@ -337,17 +342,17 @@ class SettingsDialog(HeaderDialog):
 
             # Update widget with saved value
             if isinstance(widget, QCheckBox):
-                widget.setChecked(saved_value == 'true')
+                widget.setChecked(bool(self.settings.value(key, default_value, type=bool)))
             elif isinstance(widget, QSpinBox):
-                widget.setValue(int(saved_value))
+                widget.setValue(self.settings.value(key, default_value, type=int))
             elif isinstance(widget, QLineEdit):
-                widget.setText(str(saved_value))
+                widget.setText(str(self.settings.value(key, default_value, type=str)))
             elif isinstance(widget, QComboBox):
-                widget.setCurrentText(str(saved_value))
+                widget.setCurrentText(str(self.settings.value(key, default_value, type=str)))
             elif isinstance(widget, tuple):  # Color widget
                 color_button, color_label = widget
                 color_button.setStyleSheet(f"background-color: {saved_value}")
-                color_label.setText(str(saved_value))
+                color_label.setText(str(self.settings.value(key, default_value, type=str)))
         
         self.changed_setting_items.clear()
 
