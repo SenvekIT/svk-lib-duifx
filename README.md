@@ -24,6 +24,8 @@ pip install -r requirements-dev.txt
 2. Compile Qt resource file:
 ```
 pyside6-rcc -o resources_rc.py resources.qrc
+
+es. pyside6-rcc -o .\duifx\gui\ui\resource_rc.py .\duifx\gui\resources\resource.qrc
 ```
 
 3. Build package:
