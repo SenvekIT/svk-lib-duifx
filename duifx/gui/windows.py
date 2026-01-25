@@ -4,7 +4,7 @@ import ctypes
 from typing import Callable, Optional
 import logging
 
-from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog, QLabel
+from PySide6.QtWidgets import QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog, QLabel, QTabWidget
 from PySide6.QtCore import Qt, QSize, Signal, Slot
 from PySide6.QtGui import QIcon, QCursor, QPixmap, QPainter
 from PySide6.QtSvg import QSvgRenderer
@@ -121,6 +121,10 @@ class MainWindow(QMainWindow):
         stylesheet = load_stylesheet()
         self.setStyleSheet(stylesheet)
 
+        # initialize bottom tab panel
+        self._ui.bottomPanel.setMinimumHeight(0)
+        self._ui.bottomPanel.setMaximumHeight(0)
+
         self.show()
 
     def add_content_widget(self, content: QWidget) -> None:
@@ -149,6 +153,37 @@ class MainWindow(QMainWindow):
             label_logo.setPixmap(pixmap)
 
         self._ui.headerLogoLayout.addWidget(label_logo, 0, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
+
+    def add_bottom_panel_tab(self, widget: QWidget, text: str, closable: bool = False) -> None:
+        tw: QTabWidget = self._ui.tabWidgetBottomPanel
+
+        for i in range(tw.count()):
+            if tw.tabText(i) == text:
+                tw.setCurrentIndex(i)
+
+                if self._ui.bottomPanel.height() > 0:
+                    self._ui.bottomPanel.setFixedHeight(0)
+                else:
+                    self._ui.bottomPanel.setFixedHeight(200)
+
+                return
+
+        tw.setTabsClosable(closable)
+        tw.addTab(widget, text)
+        tw.setCurrentWidget(widget)
+        self._ui.bottomPanel.setFixedHeight(200)
+
+    def set_bottom_panel_tab(self, text: str):
+        tw: QTabWidget = self._ui.tabWidgetBottomPanel
+
+        for i in range(tw.count()):
+            if tw.tabText(i) == text:
+                tw.setCurrentIndex(i)
+                break
+
+        return
+
+
 class InfoDialog(QDialog):
     def __init__(self, parent=None, window_title: str = "Information"):
         super().__init__(parent)
