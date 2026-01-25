@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icon/record.svg</file>
+    <file>icon/qr.svg</file>
     <file>icon/Uncheck 1.svg</file>
     <file>icon/3d Pointer.svg</file>
     <file>icon/About.svg</file>
@@ -93,5 +95,4 @@
     <file>icon/X2.svg</file>
     <file>icon/Uncheck.svg</file>
   </qresource>
-  <qresource prefix="images"/>
 </RCC>
