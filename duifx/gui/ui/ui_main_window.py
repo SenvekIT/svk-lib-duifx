@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windownsOXJp.ui'
+## Form generated from reading UI file 'main_windowcLFGWC.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.10.1
+## Created by: Qt User Interface Compiler version 6.10.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -17,8 +17,8 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QPainter, QPalette, QPixmap, QRadialGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QLabel,
-    QMainWindow, QSizePolicy, QStackedWidget, QVBoxLayout,
-    QWidget)
+    QMainWindow, QSizePolicy, QStackedWidget, QTabWidget,
+    QVBoxLayout, QWidget)
 from . import resource_rc
 
 class Ui_MainWindow(object):
@@ -143,10 +143,55 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_8.addWidget(self.sidebar)
 
-        self.stackedWidgetContent = QStackedWidget(self.content)
+        self.verticalWidget = QWidget(self.content)
+        self.verticalWidget.setObjectName(u"verticalWidget")
+        self.main_content = QVBoxLayout(self.verticalWidget)
+        self.main_content.setSpacing(0)
+        self.main_content.setObjectName(u"main_content")
+        self.main_content.setContentsMargins(0, 0, 0, 0)
+        self.stackedContent = QFrame(self.verticalWidget)
+        self.stackedContent.setObjectName(u"stackedContent")
+        self.verticalLayout_4 = QVBoxLayout(self.stackedContent)
+        self.verticalLayout_4.setObjectName(u"verticalLayout_4")
+        self.stackedWidgetContent = QStackedWidget(self.stackedContent)
         self.stackedWidgetContent.setObjectName(u"stackedWidgetContent")
 
-        self.horizontalLayout_8.addWidget(self.stackedWidgetContent)
+        self.verticalLayout_4.addWidget(self.stackedWidgetContent)
+
+
+        self.main_content.addWidget(self.stackedContent)
+
+        self.bottomPanel = QFrame(self.verticalWidget)
+        self.bottomPanel.setObjectName(u"bottomPanel")
+        sizePolicy6 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
+        sizePolicy6.setHorizontalStretch(0)
+        sizePolicy6.setVerticalStretch(0)
+        sizePolicy6.setHeightForWidth(self.bottomPanel.sizePolicy().hasHeightForWidth())
+        self.bottomPanel.setSizePolicy(sizePolicy6)
+        self.bottomPanel.setMinimumSize(QSize(0, 200))
+        self.bottomPanel.setMaximumSize(QSize(16777215, 200))
+        self.bottomPanel.setFrameShape(QFrame.Shape.NoFrame)
+        self.bottomPanel.setFrameShadow(QFrame.Shadow.Raised)
+        self.verticalLayout_2 = QVBoxLayout(self.bottomPanel)
+        self.verticalLayout_2.setSpacing(0)
+        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.tabWidgetBottomPanel = QTabWidget(self.bottomPanel)
+        self.tabWidgetBottomPanel.setObjectName(u"tabWidgetBottomPanel")
+        sizePolicy7 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        sizePolicy7.setHorizontalStretch(0)
+        sizePolicy7.setVerticalStretch(0)
+        sizePolicy7.setHeightForWidth(self.tabWidgetBottomPanel.sizePolicy().hasHeightForWidth())
+        self.tabWidgetBottomPanel.setSizePolicy(sizePolicy7)
+        self.tabWidgetBottomPanel.setTabsClosable(True)
+
+        self.verticalLayout_2.addWidget(self.tabWidgetBottomPanel)
+
+
+        self.main_content.addWidget(self.bottomPanel)
+
+
+        self.horizontalLayout_8.addWidget(self.verticalWidget)
 
 
         self.appMargins.addWidget(self.content)
