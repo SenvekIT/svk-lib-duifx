@@ -5,7 +5,7 @@ This package provides a comprehensive set of GUI components and utilities
 for creating modern desktop applications with PySide6.
 """
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 __author__ = "David Senoner Industrial Software & Electronics"
 __email__ = "david.senoner@davtec.it"
 
