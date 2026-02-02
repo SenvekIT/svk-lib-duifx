@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icon/Download.svg</file>
     <file>icon/record.svg</file>
     <file>icon/qr.svg</file>
     <file>icon/Uncheck 1.svg</file>
