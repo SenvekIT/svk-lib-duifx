@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   width="48px"
+   height="48px"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="record.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="37.8125"
+     inkscape:cx="24.013223"
+     inkscape:cy="24"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="6901"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <radialGradient
+     id="w~INujfpQanMh___D7Au2a"
+     cx="24"
+     cy="24"
+     r="22"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset=".724"
+       stop-color="#ffed54"
+       id="stop1" />
+    <stop
+       offset=".779"
+       stop-color="#ffe649"
+       id="stop2" />
+    <stop
+       offset=".877"
+       stop-color="#ffd22d"
+       id="stop3" />
+    <stop
+       offset="1"
+       stop-color="#ffb300"
+       id="stop4" />
+  </radialGradient>
+  <linearGradient
+     id="w~INujfpQanMh___D7Au2b"
+     x1="8.092"
+     x2="35.996"
+     y1="8.092"
+     y2="35.996"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#fed100"
+       id="stop5" />
+    <stop
+       offset="1"
+       stop-color="#e36001"
+       id="stop6" />
+  </linearGradient>
+  <path
+     fill="url(#w~INujfpQanMh___D7Au2b)"
+     d="M24,7C14.611,7,7,14.611,7,24s7.611,17,17,17s17-7.611,17-17S33.389,7,24,7z"
+     id="path6"
+     style="fill:#ff0000" />
+</svg>

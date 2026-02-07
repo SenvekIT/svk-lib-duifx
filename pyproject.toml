@@ -1,97 +1,64 @@
 [build-system]
-requires = ["setuptools>=61.0", "wheel"]
+requires = ["setuptools>=65.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "duifx"
-version = "0.1.0"
-description = "UI Framework providing support utilities for Qt based applications"
+dynamic = ["version"]
+description = "A modern PySide6-based GUI framework"
 readme = "README.md"
 requires-python = ">=3.8"
-license = {text = "MIT"}
 authors = [
     {name = "David Senoner", email = "david.senoner@davtec.it"}
 ]
-keywords = ["gui", "pyside6", "desktop", "ui", "framework"]
+keywords = ["gui", "PySide6", "desktop", "ui", "framework", "usb", "can"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "Topic :: Software Development :: Libraries :: Python Modules",
-    "Topic :: Desktop Environment",
-    "Topic :: Software Development :: User Interfaces",
+    "Programming Language :: Python :: 3.12",
 ]
+
 dependencies = [
-    "PySide6>=6.10.0",
+    "PySide6>=6.5.0",
+    "pyusb>=1.2.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pytest>=6.0",
+    "pytest>=7.0",
     "pytest-qt>=4.0",
-    "black>=21.0",
-    "flake8>=3.8",
-    "mypy>=0.800",
-]
-docs = [
-    "sphinx>=4.0",
-    "sphinx-rtd-theme>=1.0",
+    "black>=22.0",
+    "flake8>=5.0",
+    "mypy>=0.990",
+    "build>=0.10",
+    "twine>=4.0",
 ]
 
 [project.urls]
 Homepage = "https://github.com/davidsenoner/DUIFx"
-Repository = "https://github.com/davidsenoner/DUIFx"
-Issues = "https://github.com/davidsenoner/DUIFx/issues"
 Documentation = "https://github.com/davidsenoner/DUIFx#readme"
+Repository = "https://github.com/davidsenoner/DUIFx"
+"Bug Tracker" = "https://github.com/davidsenoner/DUIFx/issues"
 
 [project.scripts]
 duifx = "duifx.main:main"
 
-[tool.setuptools.packages.find]
-where = ["."]
-include = ["duifx*"]
+[tool.setuptools]
+packages = ["duifx", "duifx.gui", "duifx.gui.resources", "duifx.gui.resources.icon", "duifx.gui.ui"]
+include-package-data = true
+
+[tool.setuptools.dynamic]
+version = {attr = "duifx.version.__version__"}
 
 [tool.setuptools.package-data]
 duifx = [
-    "gui_components/resources/*.qss",
-    "gui_components/resources/image/*",
-    "gui_components/resources/icon/*",
-    "gui_components/ui/*.ui",
+    "gui/resources/*.qss",
+    "gui/resources/icon/*.svg",
+    "gui/ui/*.ui",
 ]
-
-[tool.black]
-line-length = 88
-target-version = ['py38']
-include = '\.pyi?$'
-extend-exclude = '''
-/(
-  # directories
-  \.eggs
-  | \.git
-  | \.hg
-  | \.mypy_cache
-  | \.tox
-  | \.venv
-  | build
-  | dist
-)/
-'''
-
-[tool.mypy]
-python_version = "3.8"
-warn_return_any = true
-warn_unused_configs = true
-disallow_untyped_defs = true
-
-[tool.pytest.ini_options]
-testpaths = ["tests"]
-python_files = ["test_*.py"]
-python_classes = ["Test*"]
-python_functions = ["test_*"]
-addopts = "-v --tb=short"

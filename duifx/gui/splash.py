@@ -1,10 +1,8 @@
+from pathlib import Path
 from PySide6.QtWidgets import QSplashScreen, QApplication
 from PySide6.QtGui import QPixmap, QFont, QPainter
 from PySide6.QtCore import Qt, QTimer, QRectF
-from pathlib import Path
-from duifx.gui_components.resources.theme import palette
 from PySide6.QtSvg import QSvgRenderer
-from PySide6.QtGui import QPainter
 
 class DxSplashScreen(QSplashScreen):
     def __init__(self, app, title, sub_title):
@@ -14,12 +12,7 @@ class DxSplashScreen(QSplashScreen):
         self.sub_title = sub_title
         self.message = "Loading..."
 
-        # Enable High DPI Scaling
-        QApplication.setHighDpiScaleFactorRoundingPolicy(Qt.HighDpiScaleFactorRoundingPolicy.PassThrough)
-        QApplication.setAttribute(Qt.ApplicationAttribute.AA_EnableHighDpiScaling, True)
-        QApplication.setAttribute(Qt.ApplicationAttribute.AA_UseHighDpiPixmaps, True)
-
-        pixmap = self.create_splash_screen(app)
+        pixmap = self._create_splash_screen(app)
         super().__init__(pixmap)
 
         self.showMessage("Starting application...")
@@ -58,7 +51,7 @@ class DxSplashScreen(QSplashScreen):
             progress_width = (bar_width * self.progress_value) // 100
             painter.fillRect(bar_x, bar_y, progress_width, bar_height, Qt.GlobalColor.darkGray)
     
-    def create_splash_screen(self, app):
+    def _create_splash_screen(self, app):
         """Creates a splash screen with progress bar"""
         
         screen = app.primaryScreen()
@@ -80,12 +73,12 @@ class DxSplashScreen(QSplashScreen):
         painter.setBrush(Qt.GlobalColor.white)
         painter.setPen(Qt.PenStyle.NoPen)
         painter.drawRoundedRect(QRectF(0, 0, base_width, base_height), 15, 15)
+
+        from duifx.gui.ui import resource_rc
         
         # Render SVG icon
-        icon_path = Path(__file__).parent / "resources" / "icon" / "Dx.svg"
-        if icon_path.exists():
-            svg_renderer = QSvgRenderer(str(icon_path))
-            svg_renderer.render(painter, QRectF(30, 77, 96, 96))
+        svg_renderer = QSvgRenderer(":icons/icon/Dx.svg")
+        svg_renderer.render(painter, QRectF(30, 77, 96, 96))
         
         # Draw text
         painter.setPen(Qt.GlobalColor.black)

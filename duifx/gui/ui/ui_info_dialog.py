@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'info_dialogySZyBZ.ui'
+## Form generated from reading UI file 'info_dialogdvdCCN.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -17,6 +17,7 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QPalette, QPixmap, QRadialGradient, QTransform)
 from PySide6.QtWidgets import (QApplication, QDialog, QFrame, QLabel,
     QPlainTextEdit, QSizePolicy, QVBoxLayout, QWidget)
+from . import resource_rc
 
 class Ui_InfoDialog(object):
     def setupUi(self, InfoDialog):

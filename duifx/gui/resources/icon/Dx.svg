@@ -5,8 +5,30 @@
    height="48"
    version="1.1"
    id="svg24"
+   sodipodi:docname="Dx.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="31.083333"
+     inkscape:cx="23.983914"
+     inkscape:cy="24"
+     inkscape:window-width="3072"
+     inkscape:window-height="1796"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg24" />
   <defs
      id="defs24" />
   <path
@@ -125,6 +147,14 @@
      d="m 33,15 h 9 V 8 C 42,6.895 41.105,6 40,6 h -7 z"
      id="path12"
      style="fill:#25b0dd;fill-opacity:1" />
+  <path
+     style="font-weight:bold;font-size:18.6667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';fill:#ffffff"
+     d="m 28.491461,39.597523 4.498674,-5.898678 -0.056,1.605337 -4.312007,-5.749344 H 31.8888 l 2.725338,3.752007 -1.232002,0.03733 2.818672,-3.78934 h 3.098672 l -4.330674,5.693344 v -1.568003 l 4.480008,5.917344 h -3.304006 l -2.856005,-3.994674 1.213335,0.168 -2.837338,3.826674 z"
+     id="charX" />
+  <path
+     style="font-weight:normal;font-size:26.6667px;font-family:Montserrat;-inkscape-font-specification:Montserrat;fill:#ffffff"
+     d="M 9.4300967,39.597523 V 20.930832 h 7.6000093 q 2.986671,0 5.226674,1.200002 2.266669,1.173335 3.520004,3.280004 1.253335,2.106669 1.253335,4.85334 0,2.74667 -1.253335,4.853339 -1.253335,2.106669 -3.520004,3.306671 -2.240003,1.173335 -5.226674,1.173335 z m 1.9733363,-1.706669 h 5.520006 q 2.480004,0 4.293339,-0.960001 1.840003,-0.986668 2.853337,-2.693337 1.013335,-1.733336 1.013335,-3.973338 0,-2.26667 -1.013335,-3.973339 -1.013334,-1.706669 -2.853337,-2.66667 -1.813335,-0.986668 -4.293339,-0.986668 h -5.520006 z"
+     id="charD" />
   <radialGradient
      id="OFeT0s3pfN65mmreJUiYza"
      cx="31"
@@ -210,18 +240,4 @@
        stop-color="#fff"
        id="stop24" />
   </radialGradient>
-  <text
-     xml:space="preserve"
-     style="font-weight:bold;font-size:21.3333px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1"
-     x="6.3900928"
-     y="39.597523"
-     id="text24"><tspan
-       id="tspan24"
-       x="6.3900928"
-       y="39.597523"
-       style="font-size:21.3333px;fill:#ffffff;fill-opacity:1"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:Montserrat;-inkscape-font-specification:Montserrat"
-         id="tspan27">D</tspan><tspan
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:Montserrat;-inkscape-font-specification:'Montserrat Bold'"
-         id="tspan26">x</tspan></tspan></text>
 </svg>
