@@ -9,10 +9,6 @@ from PySide6.QtGui import QColor, QPalette, QIcon
 
 from duifx.gui.windows import HeaderDialog
 
-RESOURCES_PATH = Path(__file__).parent / "resources"
-IMAGES_PATH = RESOURCES_PATH / "image"
-ICONS_PATH = RESOURCES_PATH / "icon"
-
 logger = logging.getLogger(__name__)
 
 T = TypeVar('T')
@@ -56,7 +52,7 @@ class SettingsDialog(HeaderDialog):
         self.setting_items = {}  # key -> QTreeWidgetItem mapping
         self.changed_setting_items = {}
 
-        self.init_tree_widget()
+        self._init_tree_widget()
 
         # Add default settings if requested
         if create_defaults:
@@ -65,9 +61,9 @@ class SettingsDialog(HeaderDialog):
         # Load settings
         self.load_settings()
 
-        self.create_log_folder()
+        self._create_log_folder()
 
-    def init_tree_widget(self):
+    def _init_tree_widget(self):
         """Initializes the tree widget"""
         self.treeWidget = QTreeWidget(self)
 
@@ -79,7 +75,7 @@ class SettingsDialog(HeaderDialog):
         # add widget to layout
         self.add_content_widget(self.treeWidget)
 
-    def create_log_folder(self):
+    def _create_log_folder(self):
         """Creates log folder if it does not exist"""
         log_file_path = self.settings.value("log_directory", str(Path.home() / "logs"), type=str)
         log_folder = Path(str(log_file_path))
