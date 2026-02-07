@@ -16,7 +16,6 @@ def get_python_files_to_compile():
     files_to_compile = []
     exclude_patterns = [
         "__init__.py",  # Nicht kompilieren
-        "setup.py",
         "build_*.py",
         "test_*.py",
     ]
@@ -119,7 +118,7 @@ def build_cython_package():
     )
     
     # Read version
-    init_path = Path("duifx") / "__init__.py"
+    init_path = Path("duifx") / "version.py"
     version = {
         "__version__": read_package_version(init_path, "__version__"),
         "__author__": read_package_version(init_path, "__author__"),
@@ -141,7 +140,6 @@ def build_cython_package():
         package_data={
             'duifx': [
                 'gui/resources/*.qss',
-                'gui/resources/image/*',
                 'gui/resources/icon/*.svg',
                 #'gui/ui/*.ui',
                 '**/*.pyd',
@@ -150,12 +148,8 @@ def build_cython_package():
         },
         include_package_data=True,
         zip_safe=False,
-        install_requires=[
-            "PySide6>=6.5.0",
-            "pyusb>=1.2.0",
-        ],
         python_requires=">=3.8",
-        script_name='setup.py',
+        script_name='build_cython_enhanced.py',
         script_args=['build_ext', 'bdist_wheel'],
     )
     
