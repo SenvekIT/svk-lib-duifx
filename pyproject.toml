@@ -50,16 +50,15 @@ Repository = "https://github.com/davidsenoner/DUIFx"
 duifx = "duifx.main:main"
 
 [tool.setuptools]
-packages = ["duifx"]
+packages = ["duifx", "duifx.gui", "duifx.gui.resources", "duifx.gui.resources.icon", "duifx.gui.ui"]
 include-package-data = true
 
 [tool.setuptools.dynamic]
-version = {attr = "duifx.__version__"}
+version = {attr = "duifx.version.__version__"}
 
 [tool.setuptools.package-data]
 duifx = [
     "gui/resources/*.qss",
-    "gui/resources/image/*",
     "gui/resources/icon/*.svg",
     "gui/ui/*.ui",
 ]

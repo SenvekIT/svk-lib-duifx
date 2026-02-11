@@ -12,7 +12,7 @@ class DxSplashScreen(QSplashScreen):
         self.sub_title = sub_title
         self.message = "Loading..."
 
-        pixmap = self.create_splash_screen(app)
+        pixmap = self._create_splash_screen(app)
         super().__init__(pixmap)
 
         self.showMessage("Starting application...")
@@ -51,7 +51,7 @@ class DxSplashScreen(QSplashScreen):
             progress_width = (bar_width * self.progress_value) // 100
             painter.fillRect(bar_x, bar_y, progress_width, bar_height, Qt.GlobalColor.darkGray)
     
-    def create_splash_screen(self, app):
+    def _create_splash_screen(self, app):
         """Creates a splash screen with progress bar"""
         
         screen = app.primaryScreen()
