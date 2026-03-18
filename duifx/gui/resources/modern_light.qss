@@ -13,6 +13,12 @@
     border-right: 1px solid #e9ecef;
 }
 
+#rightSidebar
+{
+    background-color: #ffffff;
+    border-right: 1px solid #e9ecef;
+}
+
 #footer 
 {
     background-color: #f8f9fa;
@@ -155,23 +161,23 @@ QDoubleSpinBox:hover{
     border-color: #adb5bd;
 }
 
-QSpinBox::up-button {
+QSpinBox::up-button, QDoubleSpinBox::up-button {
     width: 32px;
     border-width: 1px;
 }
 
-QSpinBox::down-button {
+QSpinBox::down-button, QDoubleSpinBox::down-button {
     width: 32px;
     border-width: 1px;
 }
 
-QSpinBox::down-arrow {
+QSpinBox::down-arrow, QDoubleSpinBox::down-arrow {
     image: url(:/icons/icon/arrow-down-icon.svg);
     width: 12px;
     height: 12px;
 }
 
-QSpinBox::up-arrow {
+QSpinBox::up-arrow, QDoubleSpinBox::up-arrow {
     image: url(:/icons/icon/arrow-up-icon.svg);
     width: 12px;
     height: 12px;

@@ -51,6 +51,7 @@ class SettingsDialog(HeaderDialog):
         self.settings = get_settings()
         self.setting_items = {}  # key -> QTreeWidgetItem mapping
         self.changed_setting_items = {}
+        self._keys_to_restore = set()  # keys to remove from QSettings on accept
 
         self._init_tree_widget()
 
@@ -68,8 +69,9 @@ class SettingsDialog(HeaderDialog):
         self.treeWidget = QTreeWidget(self)
 
         # Configure tree widget
-        self.treeWidget.setHeaderLabels(["Setting", "Value"])
+        self.treeWidget.setHeaderLabels(["Setting", "Value", ""])
         self.treeWidget.setColumnWidth(0, 250)
+        self.treeWidget.setColumnWidth(2, 30)
         self.treeWidget.setAlternatingRowColors(True)
 
         # add widget to layout
@@ -128,6 +130,7 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, checkbox)
         self.setting_items[key] = (item, checkbox, default_value)
+        self._add_restore_button(item, key)
 
     def add_integer_setting(self, parent: QTreeWidgetItem, key: str, label: str,
                             default_value: int, min_val: int = 0, max_val: int = 100):
@@ -146,6 +149,7 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, spinbox)
         self.setting_items[key] = (item, spinbox, default_value)
+        self._add_restore_button(item, key)
 
     def add_text_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
         """Adds a text setting"""
@@ -162,6 +166,7 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, lineedit)
         self.setting_items[key] = (item, lineedit, default_value)
+        self._add_restore_button(item, key)
 
     def add_combo_setting(self, parent: QTreeWidgetItem, key: str, label: str,
                           options: list, default_value: str):
@@ -180,6 +185,7 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, combobox)
         self.setting_items[key] = (item, combobox, default_value)
+        self._add_restore_button(item, key)
 
     def add_color_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: QColor):
         """Adds a color setting"""
@@ -215,6 +221,7 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, widget)
         self.setting_items[key] = (item, (color_button, color_label), default_value.name())
+        self._add_restore_button(item, key)
 
     def add_file_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
         """Adds a file selection setting"""
@@ -248,7 +255,8 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, widget)
         self.setting_items[key] = (item, lineedit, default_value)
-    
+        self._add_restore_button(item, key)
+
     def add_folder_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
         """Adds a folder selection setting"""
         item = QTreeWidgetItem([label, ""])
@@ -282,12 +290,61 @@ class SettingsDialog(HeaderDialog):
 
         self.treeWidget.setItemWidget(item, 1, widget)
         self.setting_items[key] = (item, lineedit, default_value)
+        self._add_restore_button(item, key)
+
+    def _add_restore_button(self, item: QTreeWidgetItem, key: str):
+        """Adds a small restore button in column 2 for the given setting."""
+        btn = QPushButton("\u21ba")
+        btn.setToolTip("Restore")
+        btn.setFixedSize(26, 26)
+        btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        btn.clicked.connect(lambda: self._restore_setting(key))
+        self.treeWidget.setItemWidget(item, 2, btn)
+
+    def _restore_setting(self, key: str):
+        """Resets a single setting to its default value and marks it for removal from QSettings."""
+        if key not in self.setting_items:
+            return
+        item, widget, default_value = self.setting_items[key]
+
+        if isinstance(widget, tuple):  # Color widget
+            color_button, color_label = widget
+            color_button.setStyleSheet(f"background-color: {default_value}")
+            color_label.setText(str(default_value))
+        else:
+            widget.blockSignals(True)
+            if isinstance(widget, QCheckBox):
+                widget.setChecked(default_value)
+            elif isinstance(widget, QSpinBox):
+                widget.setValue(default_value)
+            elif isinstance(widget, QLineEdit):
+                widget.setText(str(default_value))
+            elif isinstance(widget, QComboBox):
+                widget.setCurrentText(str(default_value))
+            widget.blockSignals(False)
+
+        self._keys_to_restore.add(key)
+        self.changed_setting_items.pop(key, None)
 
     def _on_setting_changed(self, key: str, value: Any):
         """Called when a setting changes"""
         self.changed_setting_items[key] = value
+        self._keys_to_restore.discard(key)
 
     def accept(self):
+        # Remove restored settings from QSettings so defaults are used on next load
+        if self._keys_to_restore:
+            for key in self._keys_to_restore:
+                self.settings.remove(key)
+                self.changed_setting_items.pop(key, None)
+                logger.info("Setting restored to default: %s", key)
+            self.settings.sync()
+            for key in self._keys_to_restore:
+                if key in self.setting_items:
+                    _, _, default_value = self.setting_items[key]
+                    self.setting_changed.emit(key, default_value)
+            self._keys_to_restore.clear()
+
         if self.changed_setting_items:
             for key, value in self.changed_setting_items.items():
                 self.settings.setValue(key, value)

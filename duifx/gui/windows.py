@@ -13,24 +13,6 @@ from duifx.gui.utils import set_svg_on_label, load_stylesheet
 
 logger = logging.getLogger(__name__)
 
-
-class Container(QWidget):
-    def __init__(self, content=None):
-        super().__init__()
-        self.content = content
-
-        self.layout = QVBoxLayout()
-        if content:
-            self.layout.addWidget(content)
-        self.setLayout(self.layout)
-
-    def set_content(self, content):
-        if self.content:
-            self.layout.removeWidget(self.content)
-            self.content.deleteLater()
-        self.content = content
-        self.layout.addWidget(content)
-
 class HeaderMenuButton(QToolButton):
     def __init__(self, icon_path: str = "", label: str = "", tooltip= "", parent=None):
         super().__init__(parent)
@@ -89,7 +71,7 @@ class MainWindow(QMainWindow):
         self._ui.bottomPanel.setMinimumHeight(0)
         self._ui.bottomPanel.setMaximumHeight(16777215)
 
-        self._bottom_splitter = QSplitter(Qt.Orientation.Vertical, self._ui.verticalWidget)
+        self._bottom_splitter = QSplitter(Qt.Orientation.Vertical, self._ui.mainContent)
         self._bottom_splitter.setChildrenCollapsible(False)
         self._bottom_splitter.setHandleWidth(6)
         self._bottom_splitter.setStretchFactor(0, 4)
@@ -164,6 +146,10 @@ class MainWindow(QMainWindow):
         tw.setCurrentWidget(widget)
         self._bottom_panel_height = initial_height
         self._set_bottom_panel_height(initial_height)
+
+    def add_right_sidebar_widget(self, widget: QWidget, width: int = 200) -> None:
+        self._ui.rightSidebarLayout.addWidget(widget, 0, Qt.AlignmentFlag.AlignHCenter)
+        self._ui.rightSidebar.setFixedWidth(width)
 
     def set_bottom_panel_tab(self, text: str):
         tw: QTabWidget = self._ui.tabWidgetBottomPanel

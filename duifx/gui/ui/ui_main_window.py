@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowPCcvhU.ui'
+## Form generated from reading UI file 'main_windowVTnoMH.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.10.0
 ##
@@ -147,13 +147,24 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_8.addWidget(self.sidebar)
 
-        self.verticalWidget = QWidget(self.content)
-        self.verticalWidget.setObjectName(u"verticalWidget")
-        self.main_content = QVBoxLayout(self.verticalWidget)
+        self.rightSidebar = QFrame(self.content)
+        self.rightSidebar.setObjectName(u"rightSidebar")
+        sizePolicy4.setHeightForWidth(self.rightSidebar.sizePolicy().hasHeightForWidth())
+        self.rightSidebar.setSizePolicy(sizePolicy4)
+        self.rightSidebarLayout = QVBoxLayout(self.rightSidebar)
+        self.rightSidebarLayout.setSpacing(0)
+        self.rightSidebarLayout.setObjectName(u"rightSidebarLayout")
+        self.rightSidebarLayout.setContentsMargins(0, 0, 0, 0)
+
+        self.horizontalLayout_8.addWidget(self.rightSidebar)
+
+        self.mainContent = QWidget(self.content)
+        self.mainContent.setObjectName(u"mainContent")
+        self.main_content = QVBoxLayout(self.mainContent)
         self.main_content.setSpacing(0)
         self.main_content.setObjectName(u"main_content")
         self.main_content.setContentsMargins(0, 0, 0, 0)
-        self.stackedContent = QFrame(self.verticalWidget)
+        self.stackedContent = QFrame(self.mainContent)
         self.stackedContent.setObjectName(u"stackedContent")
         self.verticalLayout_4 = QVBoxLayout(self.stackedContent)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
@@ -165,7 +176,7 @@ class Ui_MainWindow(object):
 
         self.main_content.addWidget(self.stackedContent)
 
-        self.bottomPanel = QFrame(self.verticalWidget)
+        self.bottomPanel = QFrame(self.mainContent)
         self.bottomPanel.setObjectName(u"bottomPanel")
         sizePolicy7 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
         sizePolicy7.setHorizontalStretch(0)
@@ -195,7 +206,7 @@ class Ui_MainWindow(object):
         self.main_content.addWidget(self.bottomPanel)
 
 
-        self.horizontalLayout_8.addWidget(self.verticalWidget)
+        self.horizontalLayout_8.addWidget(self.mainContent)
 
 
         self.appMargins.addWidget(self.content)

@@ -5,7 +5,6 @@ from duifx.version import __version__, __author__, __email__
 from duifx.gui.windows import (
     MainWindow,
     HeaderMenuButton,
-    Container,
     SidebarMenuButton,
     InfoDialog,
     HeaderDialog,
@@ -22,7 +21,6 @@ __all__ = [
     "__email__",
     "MainWindow",
     "HeaderMenuButton",
-    "Container",
     "SidebarMenuButton",
     "InfoDialog",
     "HeaderDialog",
