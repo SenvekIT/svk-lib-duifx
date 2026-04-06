@@ -1,5 +1,8 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icon/Alert.svg</file>
+    <file>icon/File Error.svg</file>
+    <file>icon/Risk.svg</file>
     <file>icon/Download.svg</file>
     <file>icon/record.svg</file>
     <file>icon/qr.svg</file>
@@ -9,6 +12,7 @@
     <file>icon/Add Bookmark.svg</file>
     <file>icon/arrow-down-icon.svg</file>
     <file>icon/arrow-up-icon.svg</file>
+    <file>icon/object_directory.svg</file>
     <file>icon/Bebo.svg</file>
     <file>icon/Binoculars.svg</file>
     <file>icon/Bookmark.svg</file>
