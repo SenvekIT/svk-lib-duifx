@@ -169,12 +169,17 @@ def build_cython_package():
             print(f"  {file}")
             print(f"\nTo install: pip install {file}")
     
-    # Cleanup C-Dateien
-    print("\nCleaning up C files...")
-    for c_file in Path('.').rglob('*.c'):
-        if 'duifx' in str(c_file):
-            c_file.unlink()
-            print(f"  Removed: {c_file}")
+    # Cleanup intermediate build artifacts
+    print("\nCleaning up intermediate build artifacts...")
+    for pattern in ('*.c', '*.pyd'):
+        for f in Path('duifx').rglob(pattern):
+            f.unlink()
+            print(f"  Removed: {f}")
+
+    for directory in ['build', 'duifx.egg-info']:
+        if os.path.exists(directory):
+            shutil.rmtree(directory)
+            print(f"  Removed: {directory}/")
 
 if __name__ == "__main__":
     try:
