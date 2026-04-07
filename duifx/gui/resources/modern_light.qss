@@ -6,7 +6,7 @@
 
 #header {
     background-color: #e5e7eb;
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #d1d5db;
 }
 
 #sidebar {
@@ -16,7 +16,7 @@
 
 #rightSidebar {
     background-color: #ffffff;
-    border-left: 1px solid #e9ecef;
+    border-right: 1px solid #e9ecef;
 }
 
 #footer {
