@@ -3,9 +3,10 @@ import logging
 from typing import Any, Dict, Optional, Type, TypeVar
 from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayout,
                               QCheckBox, QSpinBox, QComboBox, QLineEdit, QPushButton,
-                              QLabel, QColorDialog, QFileDialog, QApplication, QDialog)
+                              QLabel, QColorDialog, QFileDialog, QApplication, QDialog,
+                              QHeaderView)
 from PySide6.QtCore import QSettings, Qt, Signal, QSize
-from PySide6.QtGui import QColor, QPalette, QIcon
+from PySide6.QtGui import QColor, QFont, QPalette, QIcon
 
 from duifx.gui.windows import HeaderDialog
 
@@ -50,6 +51,7 @@ class SettingsDialog(HeaderDialog):
         # Initialize settings
         self.settings = get_settings()
         self.setting_items = {}  # key -> QTreeWidgetItem mapping
+        self._restore_buttons = {}  # key -> QPushButton
         self.changed_setting_items = {}
         self._keys_to_restore = set()  # keys to remove from QSettings on accept
 
@@ -71,7 +73,12 @@ class SettingsDialog(HeaderDialog):
         # Configure tree widget
         self.treeWidget.setHeaderLabels(["Setting", "Value", ""])
         self.treeWidget.setColumnWidth(0, 250)
-        self.treeWidget.setColumnWidth(2, 30)
+        header = self.treeWidget.header()
+        header.setStretchLastSection(False)
+        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Interactive)
+        header.setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
+        header.setSectionResizeMode(2, QHeaderView.ResizeMode.Fixed)
+        header.resizeSection(2, 80)
         self.treeWidget.setAlternatingRowColors(True)
 
         # add widget to layout
@@ -298,8 +305,10 @@ class SettingsDialog(HeaderDialog):
         btn.setToolTip("Restore")
         btn.setFixedSize(26, 26)
         btn.setCursor(Qt.CursorShape.PointingHandCursor)
+        btn.setEnabled(False)
         btn.clicked.connect(lambda: self._restore_setting(key))
         self.treeWidget.setItemWidget(item, 2, btn)
+        self._restore_buttons[key] = btn
 
     def _restore_setting(self, key: str):
         """Resets a single setting to its default value and marks it for removal from QSettings."""
@@ -325,11 +334,25 @@ class SettingsDialog(HeaderDialog):
 
         self._keys_to_restore.add(key)
         self.changed_setting_items.pop(key, None)
+        self._update_item_style(key, modified=False)
+
+    def _update_item_style(self, key: str, modified: bool):
+        """Sets bold+italic on the label and enables/disables the restore button."""
+        if key not in self.setting_items:
+            return
+        item = self.setting_items[key][0]
+        font = item.font(0)
+        font.setBold(modified)
+        font.setItalic(modified)
+        item.setFont(0, font)
+        if key in self._restore_buttons:
+            self._restore_buttons[key].setEnabled(modified)
 
     def _on_setting_changed(self, key: str, value: Any):
         """Called when a setting changes"""
         self.changed_setting_items[key] = value
         self._keys_to_restore.discard(key)
+        self._update_item_style(key, modified=True)
 
     def accept(self):
         # Remove restored settings from QSettings so defaults are used on next load
@@ -392,6 +415,7 @@ class SettingsDialog(HeaderDialog):
         """Loads all settings from QSettings"""
         for key, (item, widget, default_value) in self.setting_items.items():
             saved_value = self.settings.value(key, default_value)
+            has_saved = self.settings.contains(key)
 
             # Update widget with saved value
             if isinstance(widget, QCheckBox):
@@ -406,6 +430,8 @@ class SettingsDialog(HeaderDialog):
                 color_button, color_label = widget
                 color_button.setStyleSheet(f"background-color: {saved_value}")
                 color_label.setText(str(self.settings.value(key, default_value, type=str)))
+
+            self._update_item_style(key, modified=has_saved)
         
         self.changed_setting_items.clear()
 
