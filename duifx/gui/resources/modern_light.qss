@@ -772,8 +772,9 @@ QTreeWidget, QTreeView {
 }
 
 QTreeWidget::item, QTreeView::item {
-    padding: 0px;
+    padding: 2px 2px;
     border-bottom: 1px solid #f8f9fa;
+    min-height: 22px;
 }
 
 QTreeWidget::item:selected, QTreeView::item:selected {
@@ -783,6 +784,77 @@ QTreeWidget::item:selected, QTreeView::item:selected {
 
 QTreeWidget::item:hover, QTreeView::item:hover {
     background-color: #f8f9fa;
+}
+
+/* ============================================
+   Compact Widgets inside QTreeWidget
+   (override of the global widget styles for items
+   embedded via setItemWidget — keep rows narrow)
+   Target: widget height ~24px to fit a 28px row hint
+   with ~2px breathing room top/bottom.
+   ============================================ */
+
+/* Shared sizing/shape — text inputs and buttons.
+   Widget content 18px → total 22px (with 1px padding + 1px border each side).
+   The widget's own size hint helps Qt grow the row; the item's
+   min-height (set on QTreeWidget::item) is a second guarantee. */
+QTreeWidget QSpinBox,
+QTreeWidget QDoubleSpinBox,
+QTreeWidget QLineEdit,
+QTreeWidget QPushButton {
+    padding: 1px 8px;
+    min-height: 18px;
+    max-height: 18px;
+}
+
+/* ComboBox needs extra right padding for its drop-down */
+QTreeWidget QComboBox {
+    padding: 1px 22px 1px 8px;
+    min-height: 18px;
+    max-height: 18px;
+}
+
+QTreeWidget QComboBox::drop-down {
+    width: 20px;
+    border-left: none;
+}
+
+QTreeWidget QComboBox::down-arrow {
+    width: 10px;
+    height: 10px;
+    margin: 4px;
+}
+
+/* CheckBox sits naturally — keep indicator centered, no border/padding override */
+QTreeWidget QCheckBox {
+    min-height: 18px;
+    max-height: 22px;
+    spacing: 6px;
+}
+
+/* Blue button look — only for QPushButton */
+QTreeWidget QPushButton {
+    background-color: #2563eb;
+    color: white;
+    min-width: 16px;
+    border: none;
+    border-radius: 4px;
+}
+
+QTreeWidget QPushButton:hover {
+    background-color: #1d4ed8;
+}
+
+QTreeWidget QPushButton:pressed {
+    background-color: #1e40af;
+}
+
+/* Compact restore button — keeps fixed size (20x20), padding overridden */
+QTreeWidget QPushButton#RestoreButton {
+    padding: 2px;
+    min-width: 16px;
+    min-height: 16px;
+    font-size: 12px;
 }
 
 /* ============================================

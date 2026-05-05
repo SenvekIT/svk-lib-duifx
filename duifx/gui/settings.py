@@ -4,9 +4,9 @@ from typing import Any, Dict, Optional, Type, TypeVar
 from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayout,
                               QCheckBox, QSpinBox, QComboBox, QLineEdit, QPushButton,
                               QLabel, QColorDialog, QFileDialog, QApplication, QDialog,
-                              QHeaderView)
-from PySide6.QtCore import QSettings, Qt, Signal, QSize
-from PySide6.QtGui import QColor, QFont, QPalette, QIcon
+                              QHeaderView, QMenu)
+from PySide6.QtCore import QSettings, Qt, Signal, QSize, QPoint
+from PySide6.QtGui import QColor, QFont, QPalette, QIcon, QAction, QKeySequence, QShortcut
 
 from duifx.gui.windows import HeaderDialog
 
@@ -77,12 +77,61 @@ class SettingsDialog(HeaderDialog):
         header.setStretchLastSection(False)
         header.setSectionResizeMode(0, QHeaderView.ResizeMode.Interactive)
         header.setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
-        header.setSectionResizeMode(2, QHeaderView.ResizeMode.Fixed)
-        header.resizeSection(2, 80)
+        header.setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
+        header.resizeSection(2, 40)
         self.treeWidget.setAlternatingRowColors(True)
 
-        # add widget to layout
+        # Context menu for expand/collapse all
+        self.treeWidget.setContextMenuPolicy(Qt.ContextMenuPolicy.CustomContextMenu)
+        self.treeWidget.customContextMenuRequested.connect(self._show_tree_context_menu)
+
+        # Keyboard shortcuts: '+' expands all, '-' collapses all
+        expand_shortcut = QShortcut(QKeySequence(Qt.Key.Key_Plus), self.treeWidget)
+        expand_shortcut.setContext(Qt.ShortcutContext.WidgetWithChildrenShortcut)
+        expand_shortcut.activated.connect(self.expand_all)
+
+        collapse_shortcut = QShortcut(QKeySequence(Qt.Key.Key_Minus), self.treeWidget)
+        collapse_shortcut.setContext(Qt.ShortcutContext.WidgetWithChildrenShortcut)
+        collapse_shortcut.activated.connect(self.collapse_all)
+
+        # Toolbar with expand/collapse all buttons above the tree
+        toolbar = QWidget()
+        toolbar_layout = QHBoxLayout(toolbar)
+        toolbar_layout.setContentsMargins(0, 0, 0, 0)
+
+        expand_button = QPushButton("Expand All")
+        expand_button.setToolTip("Expand all categories (+)")
+        expand_button.clicked.connect(self.expand_all)
+
+        collapse_button = QPushButton("Collapse All")
+        collapse_button.setToolTip("Collapse all categories (-)")
+        collapse_button.clicked.connect(self.collapse_all)
+
+        toolbar_layout.addWidget(expand_button)
+        toolbar_layout.addWidget(collapse_button)
+        toolbar_layout.addStretch()
+
+        # add widgets to layout
+        self.add_content_widget(toolbar)
         self.add_content_widget(self.treeWidget)
+
+    def _show_tree_context_menu(self, position: QPoint):
+        """Shows a context menu with expand/collapse all actions."""
+        menu = QMenu(self.treeWidget)
+
+        expand_action = QAction("Expand All\t+", menu)
+        expand_action.triggered.connect(self.expand_all)
+        menu.addAction(expand_action)
+
+        collapse_action = QAction("Collapse All\t-", menu)
+        collapse_action.triggered.connect(self.collapse_all)
+        menu.addAction(collapse_action)
+
+        menu.exec(self.treeWidget.viewport().mapToGlobal(position))
+
+    def collapse_all(self):
+        """Collapses all categories in the tree widget."""
+        self.treeWidget.collapseAll()
 
     def _create_log_folder(self):
         """Creates log folder if it does not exist"""
@@ -115,7 +164,7 @@ class SettingsDialog(HeaderDialog):
     def add_category(self, name: str) -> QTreeWidgetItem:
         """Adds a category"""
         item = QTreeWidgetItem([name, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         item.setFlags(Qt.ItemFlag.ItemIsEnabled)  # Not editable
         item.setBackground(0, QPalette().alternateBase())
         item.setBackground(1, QPalette().alternateBase())
@@ -125,7 +174,7 @@ class SettingsDialog(HeaderDialog):
     def add_boolean_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: bool):
         """Adds a boolean setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         parent.addChild(item)
 
         # CheckBox Widget
@@ -143,7 +192,7 @@ class SettingsDialog(HeaderDialog):
                             default_value: int, min_val: int = 0, max_val: int = 100):
         """Adds an integer setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         parent.addChild(item)
 
         # SpinBox Widget
@@ -161,7 +210,7 @@ class SettingsDialog(HeaderDialog):
     def add_text_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
         """Adds a text setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         parent.addChild(item)
 
         # LineEdit Widget
@@ -179,7 +228,7 @@ class SettingsDialog(HeaderDialog):
                           options: list, default_value: str):
         """Adds a ComboBox setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         parent.addChild(item)
 
         # ComboBox Widget
@@ -197,7 +246,7 @@ class SettingsDialog(HeaderDialog):
     def add_color_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: QColor):
         """Adds a color setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         parent.addChild(item)
 
         # Color Button Widget
@@ -233,7 +282,7 @@ class SettingsDialog(HeaderDialog):
     def add_file_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
         """Adds a file selection setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         parent.addChild(item)
 
         # File Selection Widget
@@ -267,7 +316,7 @@ class SettingsDialog(HeaderDialog):
     def add_folder_setting(self, parent: QTreeWidgetItem, key: str, label: str, default_value: str):
         """Adds a folder selection setting"""
         item = QTreeWidgetItem([label, ""])
-        item.setSizeHint(1, QSize(150, 35))
+        item.setSizeHint(1, QSize(150, 30))
         if parent:
             parent.addChild(item)
 
@@ -302,8 +351,9 @@ class SettingsDialog(HeaderDialog):
     def _add_restore_button(self, item: QTreeWidgetItem, key: str):
         """Adds a small restore button in column 2 for the given setting."""
         btn = QPushButton("\u21ba")
+        btn.setObjectName("RestoreButton")
         btn.setToolTip("Restore")
-        btn.setFixedSize(26, 26)
+        btn.setFixedSize(50, 20)
         btn.setCursor(Qt.CursorShape.PointingHandCursor)
         btn.setEnabled(False)
         btn.clicked.connect(lambda: self._restore_setting(key))

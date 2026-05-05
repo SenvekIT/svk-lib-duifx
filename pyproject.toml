@@ -46,11 +46,8 @@ Documentation = "https://github.com/davidsenoner/DUIFx#readme"
 Repository = "https://github.com/davidsenoner/DUIFx"
 "Bug Tracker" = "https://github.com/davidsenoner/DUIFx/issues"
 
-[project.scripts]
-duifx = "duifx.main:main"
-
 [tool.setuptools]
-packages = ["duifx", "duifx.gui", "duifx.gui.resources", "duifx.gui.resources.icon", "duifx.gui.ui"]
+packages = ["duifx", "duifx.gui", "duifx.gui.ui"]
 include-package-data = true
 
 [tool.setuptools.dynamic]
