@@ -4,9 +4,7 @@ from duifx.version import __version__, __author__, __email__
 
 from duifx.gui.windows import (
     MainWindow,
-    HeaderMenuButton,
-    Container,
-    SidebarMenuButton,
+    MenuButton,
     InfoDialog,
     HeaderDialog,
 )
@@ -14,16 +12,14 @@ from duifx.gui.settings import get_settings, SettingsDialog
 from duifx.gui.splash import DxSplashScreen
 from duifx.gui.resources.theme import palette
 from duifx.gui.utils import get_base_path, set_svg_on_label, load_stylesheet
-from duifx.gui.widgets import LogViewerWidget, QtLogHandler
+from duifx.gui.widgets import LogViewerWidget, QtLogHandler, ThreadMonitorWidget
 
 __all__ = [
     "__version__",
     "__author__",
     "__email__",
     "MainWindow",
-    "HeaderMenuButton",
-    "Container",
-    "SidebarMenuButton",
+    "MenuButton",
     "InfoDialog",
     "HeaderDialog",
     "get_settings",
@@ -35,6 +31,7 @@ __all__ = [
     "load_stylesheet",
     "LogViewerWidget",
     "QtLogHandler",
+    "ThreadMonitorWidget",
 ]
 
 

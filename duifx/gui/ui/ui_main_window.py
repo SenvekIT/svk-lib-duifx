@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowPCcvhU.ui'
+## Form generated from reading UI file 'main_windowbhpUgT.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.10.0
+## Created by: Qt User Interface Compiler version 6.10.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -17,7 +17,7 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QPainter, QPalette, QPixmap, QRadialGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QFrame, QHBoxLayout, QLabel,
-    QMainWindow, QSizePolicy, QStackedWidget, QTabWidget,
+    QMainWindow, QSizePolicy, QSpacerItem, QStackedWidget,
     QVBoxLayout, QWidget)
 from . import resource_rc
 
@@ -113,29 +113,32 @@ class Ui_MainWindow(object):
         self.sidebar.setSizePolicy(sizePolicy4)
         self.sidebar.setMinimumSize(QSize(50, 0))
         self.sidebarLayout = QVBoxLayout(self.sidebar)
-        self.sidebarLayout.setSpacing(0)
+        self.sidebarLayout.setSpacing(10)
         self.sidebarLayout.setObjectName(u"sidebarLayout")
         self.sidebarLayout.setContentsMargins(0, 0, 0, 0)
         self.sidebarTop = QFrame(self.sidebar)
         self.sidebarTop.setObjectName(u"sidebarTop")
-        sizePolicy5 = QSizePolicy(QSizePolicy.Policy.Maximum, QSizePolicy.Policy.Expanding)
+        sizePolicy5 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
         sizePolicy5.setHorizontalStretch(0)
         sizePolicy5.setVerticalStretch(0)
         sizePolicy5.setHeightForWidth(self.sidebarTop.sizePolicy().hasHeightForWidth())
         self.sidebarTop.setSizePolicy(sizePolicy5)
-        self.sidebarTop.setMaximumSize(QSize(50, 16777215))
+        self.sidebarTop.setMinimumSize(QSize(0, 50))
         self.sidebarTopLayout = QVBoxLayout(self.sidebarTop)
+        self.sidebarTopLayout.setSpacing(5)
         self.sidebarTopLayout.setObjectName(u"sidebarTopLayout")
+        self.sidebarTopLayout.setContentsMargins(5, -1, 5, 5)
 
         self.sidebarLayout.addWidget(self.sidebarTop)
 
+        self.verticalSpacer = QSpacerItem(20, 40, QSizePolicy.Policy.Minimum, QSizePolicy.Policy.Expanding)
+
+        self.sidebarLayout.addItem(self.verticalSpacer)
+
         self.sidebarBottom = QFrame(self.sidebar)
         self.sidebarBottom.setObjectName(u"sidebarBottom")
-        sizePolicy6 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Minimum)
-        sizePolicy6.setHorizontalStretch(0)
-        sizePolicy6.setVerticalStretch(0)
-        sizePolicy6.setHeightForWidth(self.sidebarBottom.sizePolicy().hasHeightForWidth())
-        self.sidebarBottom.setSizePolicy(sizePolicy6)
+        sizePolicy5.setHeightForWidth(self.sidebarBottom.sizePolicy().hasHeightForWidth())
+        self.sidebarBottom.setSizePolicy(sizePolicy5)
         self.sidebarBottom.setMinimumSize(QSize(0, 50))
         self.sidebarBottomLayout = QVBoxLayout(self.sidebarBottom)
         self.sidebarBottomLayout.setSpacing(5)
@@ -147,13 +150,25 @@ class Ui_MainWindow(object):
 
         self.horizontalLayout_8.addWidget(self.sidebar)
 
-        self.verticalWidget = QWidget(self.content)
-        self.verticalWidget.setObjectName(u"verticalWidget")
-        self.main_content = QVBoxLayout(self.verticalWidget)
+        self.rightSidebar = QFrame(self.content)
+        self.rightSidebar.setObjectName(u"rightSidebar")
+        sizePolicy4.setHeightForWidth(self.rightSidebar.sizePolicy().hasHeightForWidth())
+        self.rightSidebar.setSizePolicy(sizePolicy4)
+        self.rightSidebar.setMinimumSize(QSize(300, 0))
+        self.rightSidebarLayout = QVBoxLayout(self.rightSidebar)
+        self.rightSidebarLayout.setSpacing(0)
+        self.rightSidebarLayout.setObjectName(u"rightSidebarLayout")
+        self.rightSidebarLayout.setContentsMargins(0, 0, 0, 0)
+
+        self.horizontalLayout_8.addWidget(self.rightSidebar)
+
+        self.mainContent = QWidget(self.content)
+        self.mainContent.setObjectName(u"mainContent")
+        self.main_content = QVBoxLayout(self.mainContent)
         self.main_content.setSpacing(0)
         self.main_content.setObjectName(u"main_content")
         self.main_content.setContentsMargins(0, 0, 0, 0)
-        self.stackedContent = QFrame(self.verticalWidget)
+        self.stackedContent = QFrame(self.mainContent)
         self.stackedContent.setObjectName(u"stackedContent")
         self.verticalLayout_4 = QVBoxLayout(self.stackedContent)
         self.verticalLayout_4.setObjectName(u"verticalLayout_4")
@@ -165,37 +180,8 @@ class Ui_MainWindow(object):
 
         self.main_content.addWidget(self.stackedContent)
 
-        self.bottomPanel = QFrame(self.verticalWidget)
-        self.bottomPanel.setObjectName(u"bottomPanel")
-        sizePolicy7 = QSizePolicy(QSizePolicy.Policy.Preferred, QSizePolicy.Policy.Preferred)
-        sizePolicy7.setHorizontalStretch(0)
-        sizePolicy7.setVerticalStretch(0)
-        sizePolicy7.setHeightForWidth(self.bottomPanel.sizePolicy().hasHeightForWidth())
-        self.bottomPanel.setSizePolicy(sizePolicy7)
-        self.bottomPanel.setMinimumSize(QSize(0, 200))
-        self.bottomPanel.setMaximumSize(QSize(16777215, 200))
-        self.bottomPanel.setFrameShape(QFrame.Shape.NoFrame)
-        self.bottomPanel.setFrameShadow(QFrame.Shadow.Raised)
-        self.verticalLayout_2 = QVBoxLayout(self.bottomPanel)
-        self.verticalLayout_2.setSpacing(0)
-        self.verticalLayout_2.setObjectName(u"verticalLayout_2")
-        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
-        self.tabWidgetBottomPanel = QTabWidget(self.bottomPanel)
-        self.tabWidgetBottomPanel.setObjectName(u"tabWidgetBottomPanel")
-        sizePolicy8 = QSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
-        sizePolicy8.setHorizontalStretch(0)
-        sizePolicy8.setVerticalStretch(0)
-        sizePolicy8.setHeightForWidth(self.tabWidgetBottomPanel.sizePolicy().hasHeightForWidth())
-        self.tabWidgetBottomPanel.setSizePolicy(sizePolicy8)
-        self.tabWidgetBottomPanel.setTabsClosable(True)
 
-        self.verticalLayout_2.addWidget(self.tabWidgetBottomPanel)
-
-
-        self.main_content.addWidget(self.bottomPanel)
-
-
-        self.horizontalLayout_8.addWidget(self.verticalWidget)
+        self.horizontalLayout_8.addWidget(self.mainContent)
 
 
         self.appMargins.addWidget(self.content)

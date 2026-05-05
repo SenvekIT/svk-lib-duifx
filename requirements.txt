@@ -1,4 +1,8 @@
 # Requirements for DUIFx
 
+setuptools
+Cython
+
 # Core dependencies
 PySide6>=6.0.0
+
