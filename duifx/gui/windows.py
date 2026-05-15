@@ -77,6 +77,18 @@ class MainWindow(QMainWindow):
 
     def get_content_widget(self) -> QWidget | None:
         return self._ui.stackedWidgetContent.currentWidget()
+    
+    def set_right_sidebar_size(self, width: int) -> None:
+        self._ui.rightSidebar.setFixedWidth(width)
+    
+    def add_content_right_sidebar(self, content: QWidget) -> None:
+        self._ui.stackedWidgetRightSidebar.addWidget(content)
+
+    def set_right_sidebar_widget(self, index: int) -> None:
+        self._ui.stackedWidgetRightSidebar.setCurrentIndex(index)
+
+    def get_right_sidebar_widget(self) -> QWidget | None:
+        return self._ui.stackedWidgetRightSidebar.currentWidget()
 
     def add_menu_button(self, button: MenuButton, slot: Optional[Callable] = None) -> None:
         self._ui.headerContentLayout.addWidget(button, 0, Qt.AlignmentFlag.AlignLeft | Qt.AlignmentFlag.AlignVCenter)
@@ -107,10 +119,6 @@ class MainWindow(QMainWindow):
             label_logo.setPixmap(pixmap)
 
         self._ui.headerLogoLayout.addWidget(label_logo, 0, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
-
-    def add_right_sidebar_widget(self, widget: QWidget, width: int = 200) -> None:
-        self._ui.rightSidebarLayout.addWidget(widget, 0, Qt.AlignmentFlag.AlignHCenter)
-        self._ui.rightSidebar.setFixedWidth(width)
 
     def closeEvent(self, event) -> None:
         """Save window geometry before closing."""
