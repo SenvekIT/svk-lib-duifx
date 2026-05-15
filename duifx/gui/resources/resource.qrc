@@ -1,6 +1,11 @@
 <RCC>
   <qresource prefix="icons">
+    <file>icon/minus_bw.svg</file>
+    <file>icon/plus_bw.svg</file>
+    <file>icon/Channels.svg</file>
     <file>icon/Alert.svg</file>
+    <file>icon/Master.svg</file>
+    <file>icon/Slave.svg</file>
     <file>icon/File Error.svg</file>
     <file>icon/Risk.svg</file>
     <file>icon/Download.svg</file>

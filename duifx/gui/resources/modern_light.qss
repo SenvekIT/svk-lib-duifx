@@ -28,8 +28,7 @@
    Global Application Styles
    ============================================ */
 
-* {
-    background-color: #f8f9fa;
+* {    
     color: #212529;
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 9pt;
@@ -864,14 +863,14 @@ QTreeWidget QPushButton#RestoreButton {
 QTableWidget, QTableView {
     background-color: #ffffff;
     border: 1px solid #e9ecef;
-    border-radius: 4px;
+    border-radius: 0px;
     gridline-color: #f8f9fa;
     selection-background-color: #e3f2fd;
     outline: none;
 }
 
 QTableWidget::item, QTableView::item {
-    padding: 8px;
+    padding: 2px 6px;
     color: #495057;
 }
 
@@ -885,9 +884,10 @@ QHeaderView::section {
     border: none;
     border-right: 1px solid #e9ecef;
     border-bottom: 1px solid #e9ecef;
-    padding: 8px;
+    padding: 2px 6px;
     font-weight: bold;
     color: #343a40;
+    height: 20px;
 }
 
 /* ============================================
