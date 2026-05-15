@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'main_windowbhpUgT.ui'
+## Form generated from reading UI file 'main_windowSDBNwD.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.10.2
+## Created by: Qt User Interface Compiler version 6.11.0
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -159,6 +159,11 @@ class Ui_MainWindow(object):
         self.rightSidebarLayout.setSpacing(0)
         self.rightSidebarLayout.setObjectName(u"rightSidebarLayout")
         self.rightSidebarLayout.setContentsMargins(0, 0, 0, 0)
+        self.stackedWidgetRightSidebar = QStackedWidget(self.rightSidebar)
+        self.stackedWidgetRightSidebar.setObjectName(u"stackedWidgetRightSidebar")
+
+        self.rightSidebarLayout.addWidget(self.stackedWidgetRightSidebar)
+
 
         self.horizontalLayout_8.addWidget(self.rightSidebar)
 
