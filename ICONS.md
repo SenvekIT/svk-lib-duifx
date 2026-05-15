@@ -120,6 +120,7 @@ pyside6-rcc -o .\duifx\gui\ui\resource_rc.py .\duifx\gui\resources\resource.qrc
 | ![Myspace App](duifx/gui/resources/icon/Myspace%20App.svg) | Myspace App | `:icons/icon/Myspace App.svg` |
 | ![News](duifx/gui/resources/icon/News.svg) | News | `:icons/icon/News.svg` |
 | ![No Synchronize](duifx/gui/resources/icon/No%20Synchronize.svg) | No Synchronize | `:icons/icon/No Synchronize.svg` |
+| ![Nodes](duifx/gui/resources/icon/Nodes.svg) | Nodes | `:icons/icon/Nodes.svg` |
 | ![object_directory](duifx/gui/resources/icon/object_directory.svg) | object_directory | `:icons/icon/object_directory.svg` |
 | ![Opened Folder](duifx/gui/resources/icon/Opened%20Folder.svg) | Opened Folder | `:icons/icon/Opened Folder.svg` |
 | ![Padlock](duifx/gui/resources/icon/Padlock.svg) | Padlock | `:icons/icon/Padlock.svg` |
