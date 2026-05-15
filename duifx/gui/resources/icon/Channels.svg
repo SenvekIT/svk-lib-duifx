@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   width="48px"
+   height="48px"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="Channels.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="9.453125"
+     inkscape:cx="-30.466116"
+     inkscape:cy="23.008264"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="3061"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4" />
+  <path
+     fill="#0078d4"
+     d="M42,37c0,2.762-2.238,5-5,5H11c-2.761,0-5-2.238-5-5V11c0-2.762,2.239-5,5-5h26c2.762,0,5,2.238,5,5 V37z"
+     id="path1" />
+  <path
+     d="m 20.490948,26.529877 3.363281,1.066406 q -0.773438,2.8125 -2.578125,4.183594 -1.792969,1.359375 -4.558594,1.359375 -3.421875,0 -5.625,-2.332032 -2.2031248,-2.34375 -2.2031248,-6.398437 0,-4.289063 2.2148438,-6.65625 2.214844,-2.378906 5.824219,-2.378906 3.152343,0 5.121093,1.863281 1.171875,1.101562 1.757813,3.164062 l -3.433594,0.820313 q -0.304687,-1.335938 -1.277344,-2.109375 -0.960937,-0.773438 -2.34375,-0.773438 -1.910156,0 -3.105468,1.371094 -1.183594,1.371094 -1.183594,4.441406 0,3.257813 1.171875,4.640625 1.171875,1.382813 3.046875,1.382813 1.382812,0 2.378906,-0.878906 0.996094,-0.878907 1.429688,-2.765625 z m 9.597656,-10.863282 v 6.316407 q 1.59375,-1.863282 3.808594,-1.863282 1.136718,0 2.050781,0.421875 0.914062,0.421875 1.371094,1.078125 0.46875,0.65625 0.632812,1.453125 0.175781,0.796875 0.175781,2.472657 v 7.300781 h -3.292968 v -6.574219 q 0,-1.957031 -0.1875,-2.484375 -0.1875,-0.527344 -0.667969,-0.832031 -0.46875,-0.316406 -1.183594,-0.316406 -0.820312,0 -1.464844,0.398437 -0.644531,0.398438 -0.949218,1.207031 -0.292969,0.796875 -0.292969,2.367188 v 6.234375 H 26.795635 V 15.666595 Z"
+     id="text1"
+     style="font-weight:bold;font-size:24px;line-height:0;font-family:Arial;-inkscape-font-specification:'Arial Bold';text-align:center;text-anchor:middle;fill:#ffffff"
+     aria-label="Ch" />
+</svg>
