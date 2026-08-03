@@ -3,6 +3,11 @@
 Provides a performant log viewer with level filters, automatic file persistence
 (JSON Lines with per-session timestamped files), an in-memory ring buffer
 with batched UI updates and scroll-back loading of older entries from disk.
+
+Every start writes a new session file and nothing ever removed them, so the log
+directory grew without bound (896 files / 85 MB on one development machine after
+four months).  Startup now prunes the oldest sessions down to
+``log_retention_sessions``.
 """
 
 from __future__ import annotations
@@ -10,6 +15,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import threading
 from datetime import datetime
 from functools import lru_cache
@@ -37,6 +43,8 @@ from PySide6.QtWidgets import (
     QSizePolicy,
     QPushButton,
     QFileDialog,
+    QLabel,
+    QMessageBox,
     QLineEdit,
     QAbstractItemView,
 )
@@ -61,6 +69,112 @@ def _record_to_entry(record: logging.LogRecord) -> _LogEntry:
         lvl_no=record.levelno,
         msg=record.getMessage(),
     )
+
+
+#: Plain-text lines as written by ``LogViewerWidget._save_logs``:
+#: ``2026-08-03 11:50:13,123 - app.core.x - DEBUG   - message``
+_TEXT_LINE_RE = re.compile(
+    r"^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2},\d{3})"
+    r" - (\S+)\s+- (\w+)\s+- (.*)$",
+    re.DOTALL,
+)
+
+
+def _parse_log_line(raw: str) -> _LogEntry | None:
+    """Turn one line of a log file into an entry, or return None.
+
+    Accepts both formats the application produces: the JSON Lines session files
+    and the plain-text files written by "Save Log".  Loading a log the user
+    saved themselves is the obvious thing to try, so refusing it would be a
+    poor surprise.
+    """
+    raw = raw.strip()
+    if not raw:
+        return None
+
+    if raw.startswith("{"):
+        try:
+            entry = json.loads(raw)
+            # A foreign JSON file would parse but lack the fields we index on.
+            return _LogEntry(
+                ts=float(entry["ts"]),
+                name=str(entry["name"]),
+                lvl=str(entry["lvl"]),
+                lvl_no=int(entry["lvl_no"]),
+                msg=str(entry["msg"]),
+            )
+        except (json.JSONDecodeError, KeyError, TypeError, ValueError):
+            return None
+
+    match = _TEXT_LINE_RE.match(raw)
+    if not match:
+        return None
+
+    ts_str, name, level, msg = match.groups()
+    try:
+        ts = datetime.strptime(ts_str, "%Y-%m-%d %H:%M:%S,%f").timestamp()
+    except ValueError:
+        return None
+
+    # getLevelName maps a known name to its number and echoes the name back
+    # otherwise; anything unknown is treated as INFO so it stays visible.
+    lvl_no = logging.getLevelName(level)
+    if not isinstance(lvl_no, int):
+        lvl_no = logging.INFO
+
+    return _LogEntry(ts=ts, name=name, lvl=level, lvl_no=lvl_no, msg=msg)
+
+
+# ---------------------------------------------------------------------------
+# Session log retention
+# ---------------------------------------------------------------------------
+
+#: Number of session files kept when the setting is absent.  0 disables pruning.
+LOG_RETENTION_SESSIONS_DEFAULT = 30
+
+#: Name pattern of the per-session files, used both for writing and for pruning.
+LOG_SESSION_PREFIX = "app_"
+LOG_SESSION_SUFFIX = ".jsonl"
+
+
+def prune_session_logs(log_dir: str, keep: int) -> int:
+    """Delete all but the *keep* newest session logs in *log_dir*.
+
+    Only files matching the session naming pattern are considered, so anything
+    else the user keeps in that directory is left alone.  Sorting is by name:
+    the timestamp is fixed-width and zero-padded, so lexical order is
+    chronological order, and unlike mtime it survives a file copy.
+
+    Returns the number of files removed.  Failures are logged and swallowed --
+    housekeeping must never keep the application from starting.
+    """
+    if keep <= 0:
+        return 0
+
+    try:
+        entries = sorted(
+            name for name in os.listdir(log_dir)
+            if name.startswith(LOG_SESSION_PREFIX) and name.endswith(LOG_SESSION_SUFFIX)
+        )
+    except OSError as exc:
+        logging.getLogger(__name__).warning("Cannot list log directory %s: %s", log_dir, exc)
+        return 0
+
+    # The file for the session about to start does not exist yet, so keep one
+    # slot free for it: with keep=1 the previous session still goes away.
+    excess = len(entries) - max(keep - 1, 0)
+    if excess <= 0:
+        return 0
+
+    removed = 0
+    for name in entries[:excess]:
+        try:
+            os.remove(os.path.join(log_dir, name))
+            removed += 1
+        except OSError as exc:
+            logging.getLogger(__name__).warning("Cannot delete old log %s: %s", name, exc)
+
+    return removed
 
 
 # ---------------------------------------------------------------------------
@@ -143,11 +257,24 @@ class _LogTableModel(QAbstractTableModel):
         self._file_read_pos: int = 0
         self._file_exhausted: bool = True
 
+        # Review state -- a log file loaded for inspection.  While active the
+        # view shows the loaded file instead of the session; incoming records
+        # keep filling _live_records so returning to live is instant.
+        self._review_active: bool = False
+        self._review_records: List[_LogEntry] = []
+        self._review_path: str = ""
+        self._review_read_pos: int = 0
+        self._review_exhausted: bool = True
+        self._live_missed: int = 0
+
     # -- cached record list ----------------------------------------------------
 
     def _all_records(self) -> List[_LogEntry]:
         if self._cache is None:
-            self._cache = self._file_records + self._live_records
+            if self._review_active:
+                self._cache = list(self._review_records)
+            else:
+                self._cache = self._file_records + self._live_records
         return self._cache
 
     def _invalidate_cache(self) -> None:
@@ -244,6 +371,15 @@ class _LogTableModel(QAbstractTableModel):
             self._live_records = self._live_records[overflow:]
 
         self._live_records.extend(batch)
+
+        # While a file is under review the live entries are collected but not
+        # shown: mixing them into a log from another day would produce a table
+        # that reads as one continuous run but is not.  They stay in the ring
+        # buffer and appear as soon as the user returns to live.
+        if self._review_active:
+            self._live_missed += len(batch)
+            return
+
         self._invalidate_cache()
 
         # Compute new visible indices for the batch
@@ -279,25 +415,117 @@ class _LogTableModel(QAbstractTableModel):
             self._file_read_pos = 0
             self._file_exhausted = True
 
+    # Scroll-back reads from the session file normally and from the reviewed
+    # file while one is loaded.  Both use the same backward reader, so the state
+    # it needs is selected here instead of duplicating the reader.
+
+    @property
+    def _src_path(self) -> str:
+        return self._review_path if self._review_active else self._log_path
+
+    @property
+    def _src_pos(self) -> int:
+        return self._review_read_pos if self._review_active else self._file_read_pos
+
+    @_src_pos.setter
+    def _src_pos(self, value: int) -> None:
+        if self._review_active:
+            self._review_read_pos = value
+        else:
+            self._file_read_pos = value
+
     @property
     def file_exhausted(self) -> bool:
-        return self._file_exhausted
+        return self._review_exhausted if self._review_active else self._file_exhausted
+
+    @file_exhausted.setter
+    def file_exhausted(self, value: bool) -> None:
+        if self._review_active:
+            self._review_exhausted = value
+        else:
+            self._file_exhausted = value
+
+    @property
+    def review_active(self) -> bool:
+        return self._review_active
+
+    @property
+    def review_path(self) -> str:
+        return self._review_path
+
+    @property
+    def live_missed(self) -> int:
+        """Records that arrived while a file was under review."""
+        return self._live_missed
+
+    def active_log_path(self) -> str:
+        """Path of the file currently backing the view."""
+        return self._review_path if self._review_active else self._log_path
+
+    def has_records(self) -> bool:
+        return bool(self._file_records or self._live_records or self._pending)
+
+    # -- review mode -----------------------------------------------------------
+
+    def enter_review(self, path: str, count: int) -> int:
+        """Show the tail of *path* instead of the running session.
+
+        Returns the number of entries loaded.  Zero means the file held nothing
+        this widget can display, and review mode is not entered.
+        """
+        if not path or not os.path.isfile(path):
+            return 0
+
+        self.beginResetModel()
+        self._review_active = True
+        self._review_records = []
+        self._review_path = path
+        self._review_read_pos = os.path.getsize(path)
+        self._review_exhausted = self._review_read_pos == 0
+        self._live_missed = 0
+        self._invalidate_cache()
+        self._filtered = []
+        self.endResetModel()
+
+        loaded = self.load_older_entries(count)
+        if loaded == 0:
+            self.exit_review()
+        return loaded
+
+    def exit_review(self) -> None:
+        """Drop the reviewed file and show the running session again."""
+        if not self._review_active:
+            return
+
+        self.beginResetModel()
+        self._review_active = False
+        self._review_records = []
+        self._review_path = ""
+        self._review_read_pos = 0
+        self._review_exhausted = True
+        self._live_missed = 0
+        self._invalidate_cache()
+        self.endResetModel()
+        self.rebuild_filter()
 
     def load_older_entries(self, count: int = 500) -> int:
         """Read up to *count* older entries from the JSONL log file.
 
         Returns the number of entries actually loaded.
         """
-        if self._file_exhausted or not self._log_path:
+        if self.file_exhausted or not self._src_path:
             return 0
 
         loaded: List[_LogEntry] = []
         chunk_size = 8192
         remainder = b""
 
+        def decode(raw: bytes) -> _LogEntry | None:
+            return _parse_log_line(raw.decode("utf-8", errors="replace"))
+
         try:
-            with open(self._log_path, "rb") as fh:
-                pos = self._file_read_pos
+            with open(self._src_path, "rb") as fh:
+                pos = self._src_pos
                 while len(loaded) < count and pos > 0:
                     read_size = min(chunk_size, pos)
                     pos -= read_size
@@ -306,40 +534,39 @@ class _LogTableModel(QAbstractTableModel):
                     lines = chunk.split(b"\n")
                     remainder = lines[0]
                     for raw_line in reversed(lines[1:]):
-                        raw_line = raw_line.strip()
-                        if not raw_line:
+                        entry = decode(raw_line)
+                        if entry is None:
                             continue
-                        try:
-                            entry = json.loads(raw_line)
-                            loaded.append(entry)
-                            if len(loaded) >= count:
-                                break
-                        except (json.JSONDecodeError, KeyError):
-                            continue
+                        loaded.append(entry)
+                        if len(loaded) >= count:
+                            break
 
                 if pos == 0 and remainder.strip():
-                    try:
-                        loaded.append(json.loads(remainder))
-                    except (json.JSONDecodeError, KeyError):
-                        pass
+                    entry = decode(remainder)
+                    if entry is not None:
+                        loaded.append(entry)
                     remainder = b""
 
-                self._file_read_pos = pos + len(remainder)
-                if self._file_read_pos <= 0:
-                    self._file_exhausted = True
+                self._src_pos = pos + len(remainder)
+                if self._src_pos <= 0:
+                    self.file_exhausted = True
         except OSError:
-            self._file_exhausted = True
+            self.file_exhausted = True
             return 0
 
         if not loaded:
-            self._file_exhausted = True
+            self.file_exhausted = True
             return 0
 
         # loaded is newest-first; reverse to chronological order
         loaded.reverse()
 
         # Deduplicate against existing records
-        if self._file_records:
+        if self._review_active:
+            if self._review_records:
+                oldest_ts = self._review_records[0]["ts"]
+                loaded = [e for e in loaded if e["ts"] < oldest_ts]
+        elif self._file_records:
             oldest_ts = self._file_records[0]["ts"]
             loaded = [e for e in loaded if e["ts"] < oldest_ts]
         elif self._live_records:
@@ -351,7 +578,10 @@ class _LogTableModel(QAbstractTableModel):
 
         n = len(loaded)
         self.beginInsertRows(QModelIndex(), 0, n - 1)
-        self._file_records = loaded + self._file_records
+        if self._review_active:
+            self._review_records = loaded + self._review_records
+        else:
+            self._file_records = loaded + self._file_records
         self._invalidate_cache()
         # Shift existing filtered indices by n
         self._filtered = [i + n for i in self._filtered]
@@ -422,6 +652,10 @@ class LogViewerWidget(QWidget):
         self._btn_save = QPushButton("Save Log")
         self._btn_save.clicked.connect(self._save_logs)
 
+        self._btn_load = QPushButton("Load Log")
+        self._btn_load.setToolTip("Open a saved log file for inspection")
+        self._btn_load.clicked.connect(self._load_logs)
+
         self._search_input = QLineEdit()
         self._search_input.setPlaceholderText("Search...")
         self._search_input.setClearButtonEnabled(True)
@@ -435,7 +669,34 @@ class LogViewerWidget(QWidget):
         filters_layout.addWidget(self._checkbox_new_only)
         filters_layout.addWidget(self._search_input, 1)
         filters_layout.addWidget(self._btn_mark_seen)
+        filters_layout.addWidget(self._btn_load)
         filters_layout.addWidget(self._btn_save)
+
+        # --- review banner ----------------------------------------------------
+        #
+        # Hidden while live.  It is the only thing telling the user that what
+        # they see is a file and not the running application, so it also carries
+        # the way back.
+        self._review_label = QLabel()
+        self._review_label.setWordWrap(False)
+        self._btn_back_live = QPushButton("← Back to Live")
+        self._btn_back_live.clicked.connect(self._exit_review)
+
+        self._review_bar = QWidget()
+        review_layout = QHBoxLayout(self._review_bar)
+        review_layout.setContentsMargins(6, 3, 6, 3)
+        review_layout.addWidget(self._review_label, 1)
+        review_layout.addWidget(self._btn_back_live)
+        self._review_bar.setStyleSheet(
+            "QWidget { background: palette(highlight); }"
+            "QLabel { color: palette(highlighted-text); font-weight: bold; }"
+        )
+        self._review_bar.setVisible(False)
+
+        # Refreshes the "N new entries" counter while reviewing.
+        self._review_timer = QTimer(self)
+        self._review_timer.setInterval(1000)
+        self._review_timer.timeout.connect(self._update_review_label)
 
         # --- virtual table view -----------------------------------------------
         self._proxy = QSortFilterProxyModel(self)
@@ -470,24 +731,35 @@ class LogViewerWidget(QWidget):
 
         layout = QVBoxLayout()
         layout.addLayout(filters_layout)
+        layout.addWidget(self._review_bar)
         layout.addWidget(self._table)
         self.setLayout(layout)
 
     # --- file handler setup --------------------------------------------------
 
     def _setup_file_handler(self) -> None:
+        log_dir = str(Path.home() / "logs")
+        keep = LOG_RETENTION_SESSIONS_DEFAULT
         try:
             from duifx.gui.settings import get_settings
             settings = get_settings()
-            log_dir = settings.value("log_directory", str(Path.home() / "logs"), type=str)
+            log_dir = settings.value("log_directory", log_dir, type=str)
+            keep = settings.value("log_retention_sessions", keep, type=int)
         except Exception:
-            log_dir = str(Path.home() / "logs")
+            pass
 
         logging.debug(f"Setting up log file handler with directory: {log_dir}")
 
-        session_name = datetime.now().strftime("app_%Y%m%d_%H%M%S.jsonl")
+        session_name = datetime.now().strftime(
+            LOG_SESSION_PREFIX + "%Y%m%d_%H%M%S" + LOG_SESSION_SUFFIX)
         log_path = os.path.join(str(log_dir), session_name)
         os.makedirs(str(log_dir), exist_ok=True)
+
+        # Prune before opening the new file so the current session is never a
+        # candidate for deletion.
+        removed = prune_session_logs(str(log_dir), keep)
+        if removed:
+            logging.debug(f"Removed {removed} old session log(s), keeping the last {keep}")
 
         self._file_handler = _JsonLinesFileHandler(log_path)
         self._model.set_log_path(log_path)
@@ -523,11 +795,102 @@ class LogViewerWidget(QWidget):
         if not self._model._pending:
             self._flush_timer.stop()
             return
+        # While reviewing, flush_pending only fills the ring buffer and inserts
+        # no rows, so the scroll position must be left exactly where the user
+        # put it.
+        if self._model.review_active:
+            self._model.flush_pending()
+            return
         sb = self._table.verticalScrollBar()
         was_at_bottom = sb.value() >= sb.maximum() - 5
         self._model.flush_pending()
         if was_at_bottom:
             self._table.scrollToBottom()
+
+    # --- load / review --------------------------------------------------------
+
+    def _load_logs(self) -> None:
+        """Open a saved log file in place of the running session."""
+        if self._model.review_active:
+            # Already reviewing: swapping one file for another loses nothing,
+            # so go straight to the file dialog.
+            pass
+        elif self._model.has_records():
+            session_path = self._model._log_path or "(no session file)"
+            box = QMessageBox(self)
+            box.setIcon(QMessageBox.Icon.Question)
+            box.setWindowTitle("Replace displayed logs?")
+            box.setText("Replace the logs currently shown with a file?")
+            box.setInformativeText(
+                "The current logs are not lost. Every entry of this session is "
+                "already written to disk as it happens:\n\n"
+                f"{session_path}\n\n"
+                "New entries keep being recorded while you look at the loaded "
+                "file, and \"Back to Live\" brings this session back."
+            )
+            box.setStandardButtons(
+                QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel
+            )
+            box.setDefaultButton(QMessageBox.StandardButton.Cancel)
+            box.button(QMessageBox.StandardButton.Yes).setText("Load File")
+            if box.exec() != QMessageBox.StandardButton.Yes:
+                return
+
+        start_dir = ""
+        if self._model._log_path:
+            start_dir = os.path.dirname(self._model._log_path)
+
+        path, _ = QFileDialog.getOpenFileName(
+            self, "Load log file", start_dir,
+            "Log Files (*.jsonl *.log);;Session Logs (*.jsonl);;"
+            "Saved Logs (*.log);;All Files (*)",
+        )
+        if not path:
+            return
+
+        loaded = self._model.enter_review(path, self.BUFFER_MAX)
+        if loaded == 0:
+            QMessageBox.warning(
+                self, "Nothing to show",
+                f"No log entries could be read from:\n{path}\n\n"
+                "Expected a session file (.jsonl) or a log saved with "
+                "\"Save Log\".",
+            )
+            self._update_review_state()
+            return
+
+        self._sync_filter_state()
+        self._model.rebuild_filter()
+        self._table.scrollToBottom()
+        self._update_review_state()
+
+    def _exit_review(self) -> None:
+        self._model.exit_review()
+        self._sync_filter_state()
+        self._model.rebuild_filter()
+        self._table.scrollToBottom()
+        self._update_review_state()
+
+    def _update_review_state(self) -> None:
+        active = self._model.review_active
+        self._review_bar.setVisible(active)
+        # Marking entries of a foreign file as "seen" would move the unseen
+        # boundary of the live session, so that button rests while reviewing.
+        self._btn_mark_seen.setEnabled(not active)
+        self._checkbox_new_only.setEnabled(not active)
+        if active:
+            self._update_review_label()
+            self._review_timer.start()
+        else:
+            self._review_timer.stop()
+
+    def _update_review_label(self) -> None:
+        if not self._model.review_active:
+            return
+        name = os.path.basename(self._model.review_path)
+        missed = self._model.live_missed
+        suffix = f" — {missed} new live entr{'y' if missed == 1 else 'ies'} waiting" if missed else ""
+        self._review_label.setText(f"Reviewing file: {name}{suffix}")
 
     # --- filter handling ------------------------------------------------------
 
@@ -544,6 +907,8 @@ class LogViewerWidget(QWidget):
         self._model.rebuild_filter()
 
     def _mark_seen(self) -> None:
+        if self._model.review_active:
+            return
         all_count = len(self._model._file_records) + len(self._model._live_records)
         self._model.seen_count = all_count
         if self._checkbox_new_only.isChecked():
@@ -585,31 +950,33 @@ class LogViewerWidget(QWidget):
             finally:
                 self._file_handler.release()
 
-        log_path = self._model._log_path
+        # Save what is on screen: the reviewed file while one is loaded, the
+        # running session otherwise.
+        reviewing = self._model.review_active
+        log_path = self._model.active_log_path()
         lines: list[str] = []
         last_file_ts = 0.0
 
-        # 1) Read all entries from the JSONL session file (authoritative disk copy)
+        # 1) Read all entries from the backing file (authoritative disk copy)
         if log_path and os.path.isfile(log_path):
             try:
                 with open(log_path, "r", encoding="utf-8") as fh:
                     for raw_line in fh:
-                        raw_line = raw_line.strip()
-                        if not raw_line:
+                        entry = _parse_log_line(raw_line)
+                        if entry is None:
                             continue
-                        try:
-                            entry: _LogEntry = json.loads(raw_line)
-                            last_file_ts = entry["ts"]
-                            lines.append(self._format_entry(entry))
-                        except (json.JSONDecodeError, KeyError):
-                            continue
+                        last_file_ts = entry["ts"]
+                        lines.append(self._format_entry(entry))
             except OSError:
                 pass
 
-        # 2) Append any live entries not yet flushed to the disk file
-        for entry in self._model._live_records:
-            if entry["ts"] > last_file_ts:
-                lines.append(self._format_entry(entry))
+        # 2) Append any live entries not yet flushed to the disk file.  Skipped
+        #    while reviewing: those entries belong to the session, not to the
+        #    file being saved.
+        if not reviewing:
+            for entry in self._model._live_records:
+                if entry["ts"] > last_file_ts:
+                    lines.append(self._format_entry(entry))
 
         try:
             with open(path, "w", encoding="utf-8") as f:
