@@ -31,6 +31,7 @@ from PySide6.QtCore import (
     QTimer,
     QThread,
 )
+from PySide6.QtGui import QColor, QPainter
 from PySide6.QtWidgets import (
     QApplication,
     QWidget,
@@ -46,6 +47,10 @@ from PySide6.QtWidgets import (
     QMessageBox,
     QLineEdit,
     QAbstractItemView,
+    QStyle,
+    QStyleOptionSlider,
+    QStyledItemDelegate,
+    QScrollBar,
 )
 
 # ---------------------------------------------------------------------------
@@ -229,6 +234,147 @@ class QtLogHandler(logging.Handler):
 
 _COLUMNS = ("Time", "Module", "Level", "Message")
 
+#: Row background per severity, so errors and warnings stand out while
+#: scrolling. Matched by threshold (highest first) rather than by exact
+#: level number, so custom levels in between are coloured too.
+_LEVEL_BACKGROUNDS: tuple[tuple[int, QColor], ...] = (
+    (logging.CRITICAL, QColor("#f5c2c7")),   # red, stronger than ERROR
+    (logging.ERROR,    QColor("#f8d7da")),   # red
+    (logging.WARNING,  QColor("#faffb2")),   # orange
+)
+#: Tinted backgrounds are light, so the text colour is pinned to a dark one
+#: instead of inheriting a palette that may render it unreadable.
+_LEVEL_FOREGROUND = QColor("#212529")
+
+
+def _level_background(lvl_no: int) -> QColor | None:
+    for threshold, color in _LEVEL_BACKGROUNDS:
+        if lvl_no >= threshold:
+            return color
+    return None
+
+
+#: Marks on the overview scrollbar. Saturated on purpose: these are a few
+#: pixels tall and have to read against the scrollbar groove, unlike the
+#: pale row tints above.
+_LEVEL_MARKERS: tuple[tuple[int, QColor], ...] = (
+    (logging.CRITICAL, QColor("#b71c1c")),
+    (logging.ERROR,    QColor("#e53935")),
+    (logging.WARNING,  QColor("#fb8c00")),
+)
+
+
+def _marker_color(lvl_no: int) -> QColor | None:
+    for threshold, color in _LEVEL_MARKERS:
+        if lvl_no >= threshold:
+            return color
+    return None
+
+
+class _LogItemDelegate(QStyledItemDelegate):
+    """Paints the severity background behind each cell.
+
+    The view carries a ``QTableView::item`` stylesheet rule, which routes
+    item painting through QStyleSheetStyle -- and that ignores
+    ``Qt.BackgroundRole`` entirely. Filling the rect here keeps both the
+    stylesheet and the per-level tint. Selected rows are left to the style
+    so the selection stays visible.
+    """
+
+    def paint(self, painter, option, index) -> None:
+        if not option.state & QStyle.StateFlag.State_Selected:
+            background = index.data(Qt.ItemDataRole.BackgroundRole)
+            if background is not None:
+                painter.fillRect(option.rect, background)
+        super().paint(painter, option, index)
+
+
+class _OverviewScrollBar(QScrollBar):
+    """Vertical scrollbar that marks where the warnings and errors are.
+
+    The same idea as the overview ruler in editors like VS Code: every
+    visible row at WARNING or above leaves a coloured tick at its relative
+    position in the log, so the interesting parts can be found -- and
+    jumped to -- without scrolling through everything.
+    """
+
+    #: Rebuilds are coalesced. During live logging the model changes on
+    #: every batch flush (50 ms), and rescanning a six-figure row count that
+    #: often would cost more than the ruler is worth.
+    _REBUILD_DELAY_MS = 250
+    _MARK_HEIGHT = 2
+
+    def __init__(self, model: "_LogTableModel", parent: QWidget | None = None):
+        super().__init__(Qt.Orientation.Vertical, parent)
+        self._model = model
+        self._marks: List[tuple[int, int]] = []
+
+        self._rebuild_timer = QTimer(self)
+        self._rebuild_timer.setSingleShot(True)
+        self._rebuild_timer.setInterval(self._REBUILD_DELAY_MS)
+        self._rebuild_timer.timeout.connect(self._rebuild_marks)
+
+        for signal in (model.rowsInserted, model.rowsRemoved,
+                       model.modelReset, model.layoutChanged):
+            signal.connect(self._schedule_rebuild)
+
+    # -- mark maintenance ------------------------------------------------------
+
+    def _schedule_rebuild(self, *_args) -> None:
+        if not self._rebuild_timer.isActive():
+            self._rebuild_timer.start()
+
+    def _rebuild_marks(self) -> None:
+        self._marks = self._model.marker_rows()
+        self.update()
+
+    # -- painting --------------------------------------------------------------
+
+    def _groove_rect(self):
+        option = QStyleOptionSlider()
+        self.initStyleOption(option)
+        return self.style().subControlRect(
+            QStyle.ComplexControl.CC_ScrollBar, option,
+            QStyle.SubControl.SC_ScrollBarGroove, self,
+        )
+
+    def paintEvent(self, event) -> None:
+        super().paintEvent(event)
+        if not self._marks:
+            return
+        total = self._model.rowCount()
+        if total <= 0:
+            return
+        groove = self._groove_rect()
+        if groove.height() <= self._MARK_HEIGHT:
+            return
+
+        # Collapse to one mark per pixel row, strongest severity winning:
+        # a 100 000-row log would otherwise repaint the same few hundred
+        # pixels thousands of times.
+        span = groove.height() - self._MARK_HEIGHT
+        buckets: dict[int, int] = {}
+        for row, lvl_no in self._marks:
+            if row >= total:
+                continue
+            y = groove.top() + int(span * row / total)
+            if buckets.get(y, 0) < lvl_no:
+                buckets[y] = lvl_no
+        if not buckets:
+            return
+
+        # Drawn over the handle, not beside it: a mark hidden under the
+        # handle is a mark the user cannot find.
+        width = max(3, groove.width() // 2)
+        x = groove.right() - width + 1
+
+        painter = QPainter(self)
+        for y, lvl_no in buckets.items():
+            color = _marker_color(lvl_no)
+            if color is not None:
+                painter.fillRect(x, y, width, self._MARK_HEIGHT, color)
+        painter.end()
+
 
 class _LogTableModel(QAbstractTableModel):
     """Model backed by a flat record list with cached lookups and batched inserts."""
@@ -325,7 +471,9 @@ class _LogTableModel(QAbstractTableModel):
     def data(self, index: QModelIndex, role: int = Qt.ItemDataRole.DisplayRole):
         if not index.isValid():
             return None
-        if role not in (Qt.ItemDataRole.DisplayRole, Qt.ItemDataRole.UserRole):
+        if role not in (Qt.ItemDataRole.DisplayRole, Qt.ItemDataRole.UserRole,
+                        Qt.ItemDataRole.BackgroundRole,
+                        Qt.ItemDataRole.ForegroundRole):
             return None
         all_recs = self._all_records()
         filtered_idx = self._filtered[index.row()]
@@ -333,6 +481,13 @@ class _LogTableModel(QAbstractTableModel):
             return None
         entry = all_recs[filtered_idx]
         col = index.column()
+        if role == Qt.ItemDataRole.BackgroundRole:
+            return _level_background(entry["lvl_no"])
+        if role == Qt.ItemDataRole.ForegroundRole:
+            # Only override where a tinted background was applied.
+            if _level_background(entry["lvl_no"]) is not None:
+                return _LEVEL_FOREGROUND
+            return None
         if role == Qt.ItemDataRole.UserRole:
             # Raw sortable values
             if col == 0:
@@ -354,6 +509,23 @@ class _LogTableModel(QAbstractTableModel):
         if col == 3:
             return entry["msg"]
         return None
+
+    def marker_rows(self) -> List[tuple[int, int]]:
+        """Return ``(row, lvl_no)`` for every visible row at WARNING or above.
+
+        Feeds the overview scrollbar. Reads the record list directly rather
+        than going through :meth:`data`, which costs far more per row and is
+        paid across the whole (possibly six-figure) filtered list.
+        """
+        all_recs = self._all_records()
+        total = len(all_recs)
+        out: List[tuple[int, int]] = []
+        for row, idx in enumerate(self._filtered):
+            if idx < total:
+                lvl_no = all_recs[idx]["lvl_no"]
+                if lvl_no >= logging.WARNING:
+                    out.append((row, lvl_no))
+        return out
 
     # -- batched live append ---------------------------------------------------
 
@@ -790,6 +962,14 @@ class LogViewerWidget(QWidget):
             "QTableView { font-family: Consolas, 'Courier New', monospace; font-size: 12px; }"
             "QTableView::item { padding: 0px 4px; border: none; }"
         )
+        # The ::item rule above routes painting through QStyleSheetStyle,
+        # which ignores Qt.BackgroundRole -- the delegate paints the
+        # per-severity tint instead.
+        self._table.setItemDelegate(_LogItemDelegate(self._table))
+
+        # Installed before the valueChanged connection below, which would
+        # otherwise bind to the scrollbar this one replaces.
+        self._table.setVerticalScrollBar(_OverviewScrollBar(self._model, self._table))
 
         # scroll-back trigger
         self._table.verticalScrollBar().valueChanged.connect(self._on_scroll)
