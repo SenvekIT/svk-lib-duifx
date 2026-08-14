@@ -1,592 +1,102 @@
 # Resource object code (Python 3)
 # Created by: object code
-# Created by: The Resource Compiler for Qt version 6.11.0
+# Created by: The Resource Compiler for Qt version 6.11.1
 # WARNING! All changes made in this file will be lost!
 
 from PySide6 import QtCore
 
 qt_resource_data = b"\
-\x00\x00\x09A\
+\x00\x00\x00\xf7\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Uo\
-M~0_1BpfEneny~eP\
-S0ba\x22 x1=\x228.469\x22\
- x2=\x2242.33\x22 y1=\x22\
-8.469\x22 y2=\x2242.33\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#2aa4f4\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#007ad9\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#UoM~0_1Bp\
-fEneny~ePS0ba)\x22 \
-d=\x22M39,41H9c-1.1\
-,0-2-0.9-2-2V9c0\
--1.1,0.9-2,2-2h3\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <polygo\
+n points=\x2224,44 \
+12.3,30 35.7,30\x22\
+/>\x0a        <rect\
+ x=\x2220\x22 y=\x226\x22 wi\
+dth=\x228\x22 height=\x22\
+27\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x01\xbf\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#8BC34A\x22>\
+\x0a        <path d\
+=\x22M34,44H14c-1.1\
+,0-2-0.9-2-2V8c0\
+-1.1,0.9-2,2-2h2\
 0c1.1,0,2,0.9,2,\
-2v30C41,40.1,40.\
-1,41,39,41z\x22 />\x0d\
-\x0a  <path d=\x22M41,\
-7h-5.528L20.695,\
-21.777c-0.746,0.\
-746-0.746,1.954,\
-0,2.7l2.828,2.82\
-8 c0.746,0.746,1\
-.954,0.746,2.7,0\
-L41,12.528V7z\x22 o\
-pacity=\x22.018\x22 />\
-\x0d\x0a  <path d=\x22M41\
-,7h-5.4L20.759,2\
-1.841c-0.71,0.71\
--0.71,1.861,0,2.\
-571l2.828,2.828 \
-c0.71,0.71,1.861\
-,0.71,2.571,0L41\
-,12.4V7z\x22 opacit\
-y=\x22.036\x22 />\x0d\x0a  <\
-path d=\x22M41,7h-5\
-.271L20.823,21.9\
-06c-0.675,0.675-\
-0.675,1.768,0,2.\
-443l2.828,2.828 \
-c0.675,0.675,1.7\
-68,0.675,2.443,0\
-L41,12.271V7z\x22 o\
-pacity=\x22.054\x22 />\
-\x0d\x0a  <path d=\x22M41\
-,7h-5.143l-14.97\
-,14.97c-0.639,0.\
-639-0.639,1.675,\
-0,2.314l2.828,2.\
-828 c0.639,0.639\
-,1.675,0.639,2.3\
-14,0L41,12.143V7\
-z\x22 opacity=\x22.073\
-\x22 />\x0d\x0a  <path d=\
-\x22M41,7h-5.014L20\
-.952,22.034c-0.6\
-04,0.604-0.604,1\
-.582,0,2.186l2.8\
-28,2.828 c0.604,\
-0.604,1.582,0.60\
-4,2.186,0L41,12.\
-014V7z\x22 opacity=\
-\x22.091\x22 />\x0d\x0a  <pa\
-th d=\x22M41,7h-4.8\
-85L21.016,22.098\
-c-0.568,0.568-0.\
-568,1.489,0,2.05\
-7l2.828,2.828 c0\
-.568,0.568,1.489\
-,0.568,2.057,0L4\
-1,11.885V7z\x22 opa\
-city=\x22.109\x22 />\x0d\x0a\
-  <path d=\x22M41,7\
-h-4.757L21.081,2\
-2.163c-0.533,0.5\
-33-0.533,1.396,0\
-,1.928l2.828,2.8\
-28 c0.533,0.533,\
-1.396,0.533,1.92\
-8,0L41,11.757V7z\
-\x22 opacity=\x22.127\x22\
- />\x0d\x0a  <path d=\x22\
-M41,7h-4.628L21.\
-145,22.227c-0.49\
-7,0.497-0.497,1.\
-303,0,1.8l2.828,\
-2.828 c0.497,0.4\
-97,1.303,0.497,1\
-.8,0L41,11.628V7\
-z\x22 opacity=\x22.145\
-\x22 />\x0d\x0a  <path d=\
-\x22M41,7h-4.5L21.2\
-09,22.291c-0.462\
-,0.462-0.462,1.2\
-1,0,1.671l2.828,\
-2.828 c0.462,0.4\
-62,1.21,0.462,1.\
-671,0L41,11.5V7z\
-\x22 opacity=\x22.164\x22\
- />\x0d\x0a  <path d=\x22\
-M41,7h-4.371L21.\
-273,22.355c-0.42\
-6,0.426-0.426,1.\
-117,0,1.543l2.82\
-8,2.828 c0.426,0\
-.426,1.117,0.426\
-,1.543,0L41,11.3\
-71V7z\x22 opacity=\x22\
-.182\x22 />\x0d\x0a  <pat\
-h d=\x22M41,7h-4.24\
-3l-15.42,15.42c-\
-0.391,0.391-0.39\
-1,1.024,0,1.414l\
-2.828,2.828 c0.3\
-91,0.391,1.024,0\
-.391,1.414,0L41,\
-11.243V7z\x22 opaci\
-ty=\x22.2\x22 />\x0d\x0a  <p\
-ath fill=\x22#50e6f\
-f\x22 d=\x22M36.452,1.\
-379l2.963,2.963L\
-21.338,22.42c-0.\
-391,0.391-0.391,\
-1.024,0,1.414l2.\
-828,2.828 c0.391\
-,0.391,1.024,0.3\
-91,1.414,0L43.65\
-8,8.585l2.963,2.\
-963C47.13,12.057\
-,48,11.697,48,10\
-.977l0-9.361C48,\
-0.723,47.277,0,4\
-6.384,0 l-9.361,\
-0C36.303,0,35.94\
-3,0.87,36.452,1.\
-379z\x22 />\x0d\x0a</svg>\
-\
-\x00\x00\x02\xeb\
+2v34C36,43.1,35.\
+1,44,34,44z\x22/>\x0a \
+       <path d=\x22\
+M28,13h-8c-0.6,0\
+-1-0.4-1-1V5c0-0\
+.6,0.4-1,1-1h8c0\
+.6,0,1,0.4,1,1v7\
+C29,12.6,28.6,13\
+,28,13z\x22/>\x0a    <\
+/g>\x0a    <polygon\
+ fill=\x22#FFEB3B\x22 \
+points=\x2230,24 24\
+.5,24 26.7,13 18\
+,26 23.5,26 21.3\
+,37\x22/>\x0a</svg>\x0a\
+\x00\x00\x01@\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22YI\
-ohwmMMg1lAKHv~w_\
-I_ua\x22 x1=\x226.997\x22\
- x2=\x2240.749\x22 y1=\
-\x226.492\x22 y2=\x2241.2\
-47\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#ffd869\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#fec52b\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#YIohwmM\
-Mg1lAKHv~w_I_ua)\
-\x22 d=\x22M40,42H8c-1\
-.1,0-2-0.9-2-2V8\
-c0-1.1,0.9-2,2-2\
-h32c1.1,0,2,0.9,\
-2,2v32C42,41.1,4\
-1.1,42,40,42z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#fff8e6\x22 d=\x22M19\
-,6h10v5H19V6z\x22 /\
->\x0d\x0a  <rect width\
-=\x2210\x22 height=\x222\x22\
- x=\x2228\x22 y=\x2237\x22 f\
-ill=\x22#6b5f41\x22 />\
-\x0d\x0a  <polygon fil\
-l=\x22#6b5f41\x22 poin\
-ts=\x2238,32 36,30 \
-34,32 35,32 35,3\
-5 37,35 37,32\x22 /\
->\x0d\x0a  <polygon fi\
-ll=\x22#6b5f41\x22 poi\
-nts=\x2232,32 30,30\
- 28,32 29,32 29,\
-35 31,35 31,32\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x09\x87\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#FF\
+C107\x22 points=\x2233\
+,22 23.6,22 30,5\
+ 19,5 13,26 21.6\
+,26 17,45\x22/>\x0a   \
+ <path fill=\x22#F4\
+4336\x22 d=\x22M40.8,1\
+4.5h-4.3L35.6,17\
+H33l4.5-12h2.3l4\
+.5,12h-2.6L40.8,\
+14.5z M37.1,12.5\
+h3L38.6,8L37.1,1\
+2.5z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01)\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Kq\
-vtNEEoTqDWqFiskH\
-AUda\x22 x1=\x22-82.72\
-5\x22 x2=\x22-82.723\x22 \
-y1=\x2217.85\x22 y2=\x221\
-7.85\x22 gradientTr\
-ansform=\x22rotate(\
-9.32 -119.461 58\
-3.458)\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#ffc43\
-0\x22 />\x0d\x0a    <stop\
- offset=\x22.57\x22 st\
-op-color=\x22#f8bd2\
-9\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#f0b421\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#Kqv\
-tNEEoTqDWqFiskHA\
-Uda)\x22 d=\x22M8.36,3\
-1.275c0.001-0.00\
-7,0.004-0.012,0.\
-005-0.019l-0.002\
--0.001L8.36,31.2\
-75z\x22 />\x0d\x0a  <line\
-arGradient id=\x22K\
-qvtNEEoTqDWqFisk\
-HAUdb\x22 x1=\x2219.48\
-1\x22 x2=\x2244.976\x22 y\
-1=\x2222.192\x22 y2=\x224\
-8.669\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#ffc430\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.41\x22 sto\
-p-color=\x22#fec130\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.72\x22 sto\
-p-color=\x22#fcb730\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.998\x22 st\
-op-color=\x22#f7a72\
-f\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#f7a72f\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#Kqv\
-tNEEoTqDWqFiskHA\
-Udb)\x22 d=\x22M35.738\
-,20.902L23,19l0-\
-12.357c0-1.308-0\
-.941-2.499-2.242\
--2.63C19.261,3.8\
-63,18,5.034,18,6\
-.5 c0,0.237,0,34\
-.468,0,34.468C19\
-.461,42.268,21.3\
-47,43,23.314,43H\
-34c3.314,0,6-2.6\
-86,6-6V25.847 C4\
-0,23.371,38.188,\
-21.268,35.738,20\
-.902z\x22 />\x0d\x0a  <li\
-nearGradient id=\
-\x22KqvtNEEoTqDWqFi\
-skHAUdc\x22 x1=\x2223.\
-912\x22 x2=\x2222.163\x22\
- y1=\x2221.981\x22 y2=\
-\x2221.029\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x22.282\
-\x22 stop-color=\x22#f\
-fc430\x22 />\x0d\x0a    <\
-stop offset=\x22.40\
-1\x22 stop-color=\x22#\
-f8bd2d\x22 />\x0d\x0a    \
-<stop offset=\x22.5\
-74\x22 stop-color=\x22\
-#e5aa23\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-78\x22 stop-color=\x22\
-#c58a14\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#9\
-c6000\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <polygon fill=\
-\x22url(#KqvtNEEoTq\
-DWqFiskHAUdc)\x22 p\
-oints=\x2223,19 23,\
-25 25.61,19.39\x22 \
-/>\x0d\x0a  <circle cx\
-=\x2220.5\x22 cy=\x226.5\x22\
- r=\x221.5\x22 fill=\x22#\
-fff0c9\x22 />\x0d\x0a  <g\
->\x0d\x0a    <linearGr\
-adient id=\x22KqvtN\
-EEoTqDWqFiskHAUd\
-d\x22 x1=\x22-40.983\x22 \
-x2=\x22-32.536\x22 y1=\
-\x221042.153\x22 y2=\x221\
-033.823\x22 gradien\
-tTransform=\x22tran\
-slate(52.373 -10\
-08.646)\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a      \
-<stop offset=\x22.2\
-82\x22 stop-color=\x22\
-#ffc430\x22 />\x0d\x0a   \
-   <stop offset=\
-\x22.401\x22 stop-colo\
-r=\x22#f8bd2d\x22 />\x0d\x0a\
-      <stop offs\
-et=\x22.574\x22 stop-c\
-olor=\x22#e5aa23\x22 /\
->\x0d\x0a      <stop o\
-ffset=\x22.78\x22 stop\
--color=\x22#c58a14\x22\
- />\x0d\x0a      <stop\
- offset=\x221\x22 stop\
--color=\x22#9c6000\x22\
- />\x0d\x0a    </linea\
-rGradient>\x0d\x0a    \
-<path fill=\x22url(\
-#KqvtNEEoTqDWqFi\
-skHAUdd)\x22 d=\x22M8.\
-023,24c-1.72,0-2\
-.498,1.068-2.498\
-,2.492l12.085,14\
-.129 c0.124,0.12\
-4,0.259,0.236,0.\
-389,0.352V26.268\
-c-2.273,3.88-3.9\
-39,0.407-5.67,0.\
-81C12.33,27.078,\
-11.61,24,8.023,2\
-4z\x22 />\x0d\x0a  </g>\x0d\x0a\
-</svg>\
-\x00\x00\x0d\xfa\
-<\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0d\x0a<svg\x0d\x0a   \
-viewBox=\x220 0 48 \
-48\x22\x0d\x0a   width=\x224\
-8px\x22\x0d\x0a   height=\
-\x2248px\x22\x0d\x0a   versi\
-on=\x221.1\x22\x0d\x0a   id=\
-\x22svg6\x22\x0d\x0a   sodip\
-odi:docname=\x22Ris\
-k.svg\x22\x0d\x0a   inksc\
-ape:version=\x221.4\
-.2 (f4327f4, 202\
-5-05-13)\x22\x0d\x0a   xm\
-lns:inkscape=\x22ht\
-tp://www.inkscap\
-e.org/namespaces\
-/inkscape\x22\x0d\x0a   x\
-mlns:sodipodi=\x22h\
-ttp://sodipodi.s\
-ourceforge.net/D\
-TD/sodipodi-0.dt\
-d\x22\x0d\x0a   xmlns=\x22ht\
-tp://www.w3.org/\
-2000/svg\x22\x0d\x0a   xm\
-lns:svg=\x22http://\
-www.w3.org/2000/\
-svg\x22>\x0d\x0a  <defs\x0d\x0a\
-     id=\x22defs6\x22 \
-/>\x0d\x0a  <sodipodi:\
-namedview\x0d\x0a     \
-id=\x22namedview6\x22\x0d\
-\x0a     pagecolor=\
-\x22#ffffff\x22\x0d\x0a     \
-bordercolor=\x22#00\
-0000\x22\x0d\x0a     bord\
-eropacity=\x220.25\x22\
-\x0d\x0a     inkscape:\
-showpageshadow=\x22\
-2\x22\x0d\x0a     inkscap\
-e:pageopacity=\x220\
-.0\x22\x0d\x0a     inksca\
-pe:pagecheckerbo\
-ard=\x220\x22\x0d\x0a     in\
-kscape:deskcolor\
-=\x22#d1d1d1\x22\x0d\x0a    \
- inkscape:zoom=\x22\
-26.737476\x22\x0d\x0a    \
- inkscape:cx=\x2211\
-.519412\x22\x0d\x0a     i\
-nkscape:cy=\x2229.9\
-0185\x22\x0d\x0a     inks\
-cape:window-widt\
-h=\x223840\x22\x0d\x0a     i\
-nkscape:window-h\
-eight=\x222054\x22\x0d\x0a  \
-   inkscape:wind\
-ow-x=\x22-11\x22\x0d\x0a    \
- inkscape:window\
--y=\x22-11\x22\x0d\x0a     i\
-nkscape:window-m\
-aximized=\x221\x22\x0d\x0a  \
-   inkscape:curr\
-ent-layer=\x22svg6\x22\
- />\x0d\x0a  <linearGr\
-adient\x0d\x0a     id=\
-\x22lAPc856SqcrzVTE\
-vl7rUKa\x22\x0d\x0a     x\
-1=\x226.825\x22\x0d\x0a     \
-x2=\x2241.469\x22\x0d\x0a   \
-  y1=\x225.537\x22\x0d\x0a  \
-   y2=\x2242.78\x22\x0d\x0a \
-    gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop\x0d\x0a\
-       offset=\x220\
-\x22\x0d\x0a       stop-c\
-olor=\x22#33bef0\x22\x0d\x0a\
-       id=\x22stop1\
-\x22 />\x0d\x0a    <stop\x0d\
-\x0a       offset=\x22\
-1\x22\x0d\x0a       stop-\
-color=\x22#0a85d9\x22\x0d\
-\x0a       id=\x22stop\
-2\x22 />\x0d\x0a  </linea\
-rGradient>\x0d\x0a  <p\
-ath\x0d\x0a     d=\x22M 3\
-.8071884,35.9326\
-68 18.562721,10.\
-398734 v 0 a 7.7\
-518022,7.7518022\
- 0 0 1 2.745216,\
--2.8653194 5.394\
-3484,5.3943484 0\
- 0 1 5.490431,0 \
-7.7277815,7.7277\
-815 0 0 1 2.7211\
-93,2.8756144 l 0\
-.07893,0.150985 \
-14.439833,25.074\
-113 a 7.1753069,\
-7.1753069 0 0 1 \
-1.029455,3.71976\
-6 5.6414178,5.64\
-14178 0 0 1 -0.5\
-97084,2.54962 5.\
-3016973,5.301697\
-3 0 0 1 -1.96969\
-2,2.058912 7.206\
-1906,7.2061906 0\
- 0 1 -3.894775,0\
-.953961 v 0 H 9.\
-0230967 c -0.072\
-058,0 -0.1475548\
-,0 -0.2196173,0 \
-A 6.5198866,6.51\
-98866 0 0 1 6.11\
-66009,44.319302 \
-5.4320951,5.4320\
-951 0 0 1 3.8346\
-406,42.356473 5.\
-5796504,5.579650\
-4 0 0 1 2.949308\
-4,39.425955 7.43\
-26709,7.4326709 \
-0 0 1 3.7042428,\
-36.124834 c 0.03\
-4321,-0.06863 0.\
-06863,-0.137261 \
-0.1063788,-0.202\
-46 z\x22\x0d\x0a     id=\x22\
-path1\x22\x0d\x0a     sty\
-le=\x22stroke-width\
-:0.343152\x22 />\x0d\x0a \
- <path\x0d\x0a     cla\
-ss=\x22cls-1\x22\x0d\x0a    \
- d=\x22M 6.0685595,\
-37.229783 20.824\
-091,11.706141 c \
-1.791255,-3.0677\
-768 4.62912,-3.1\
-569964 6.454688,\
-0 l 14.52219,25.\
-218238 c 1.41378\
-7,2.330001 0.826\
-995,5.456114 -3.\
-194745,5.394347 \
-H 9.0230967 C 6.\
-3053339,42.38049\
-1 4.6650684,40.2\
-01479 6.0685595,\
-37.229783 Z\x22\x0d\x0a  \
-   id=\x22path2-2\x22\x0d\
-\x0a     style=\x22fil\
-l:#fec901;fill-r\
-ule:evenodd;stro\
-ke-width:0.34315\
-2\x22 />\x0d\x0a  <path\x0d\x0a\
-     class=\x22cls-\
-2\x22\x0d\x0a     d=\x22m 22\
-.697702,35.29783\
-8 a 1.877041,1.8\
-77041 0 0 1 2.00\
-7438,-0.418645 1\
-.9388084,1.93880\
-84 0 0 1 0.68630\
-4,0.446097 1.883\
-9041,1.8839041 0\
- 0 1 0.549044,1.\
-214758 1.7569378\
-,1.7569378 0 0 1\
- -0.02745,0.4804\
-12 1.791253,1.79\
-1253 0 0 1 -0.14\
-4123,0.459823 1.\
-8907672,1.890767\
-2 0 0 1 -1.78439\
-2,1.115245 1.931\
-9454,1.9319454 0\
- 0 1 -0.775523,-\
-0.181871 1.89076\
-72,1.8907672 0 0\
- 1 -0.964256,-1.\
-002004 2.0589116\
-,2.0589116 0 0 1\
- -0.113234,-0.44\
-9529 1.8118422,1\
-.8118422 0 0 1 0\
-,-0.449528 v 0 a\
- 2.0589116,2.058\
-9116 0 0 1 0.192\
-165,-0.686304 1.\
-5784989,1.578498\
-9 0 0 1 0.391194\
-,-0.535317 z m 2\
-.786393,-3.50358\
-1 c -0.0652,1.64\
-0265 -2.841298,1\
-.640265 -2.90306\
-5,0 -0.281385,-2\
-.810415 -1.00200\
-4,-9.481288 -0.9\
-77983,-12.120126\
- 0.02402,-0.8132\
-71 0.686303,-1.2\
-97115 1.561341,-\
-1.478986 a 3.997\
-72,3.99772 0 0 1\
- 0.851017,-0.085\
-79 4.3031253,4.3\
-031253 0 0 1 0.8\
-57879,0.08579 c \
-0.888765,0.19216\
-5 1.588795,0.686\
-304 1.588795,1.5\
-20164 v 0.08922 \
-l -0.974552,12.0\
-10318 z\x22\x0d\x0a     i\
-d=\x22path3-4\x22\x0d\x0a   \
-  style=\x22fill:#0\
-10101;stroke-wid\
-th:0.343152\x22 />\x0d\
-\x0a</svg>\x0d\x0a\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#00BCD4\x22>\
+\x0a        <polygo\
+n points=\x225,18 1\
+9,6.3 19,29.7\x22/>\
+\x0a        <path d\
+=\x22M28,14H16v8h12\
+c2.8,0,5,2.2,5,5\
+s-2.2,5-5,5h-3v8\
+h3c7.2,0,13-5.8,\
+13-13S35.2,14,28\
+,14z\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
 \x00\x00\x1a\xb6\
 <\
 ?xml version=\x221.\
@@ -1017,639 +527,175 @@ roke-width:1.572\
 39\x22\x0d\x0a     aria-l\
 abel=\x22D\x22 />\x0d\x0a</s\
 vg>\x0d\x0a\
-\x00\x00\x05\xc1\
+\x00\x00\x01\xce\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#eb6773\x22 d\
-=\x22M37,6c0-1.105-\
-0.895-2-2-2H13c-\
-1.105,0-2,0.895-\
-2,2v4h26V6z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-b31523\x22 d=\x22M11,4\
-1.72c0,0.996,1.0\
-92,1.606,1.94,1.\
-084L24,35.998l11\
-.06,6.806C35.908\
-,43.326,37,42.71\
-6,37,41.72 V30H1\
-1V41.72z\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x2212\x22 x=\x22\
-11\x22 y=\x2218\x22 fill=\
-\x22#cf1928\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x228\x22 x=\x221\
-1\x22 y=\x2210\x22 fill=\x22\
-#d9414f\x22 />\x0d\x0a  <\
-radialGradient i\
-d=\x22UWFgJDe0iEIL9\
-ZX2HjGCHa\x22 cx=\x223\
-7.181\x22 cy=\x2224.12\
-8\x22 r=\x2211.585\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x22.348\x22 />\x0d\x0a    <\
-stop offset=\x22.93\
-6\x22 stop-opacity=\
-\x22.098\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-opacity=\x220\x22\
- />\x0d\x0a  </radialG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#UWF\
-gJDe0iEIL9ZX2HjG\
-CHa)\x22 d=\x22M37,12.\
-051C30.851,12.56\
-2,26,17.72,26,24\
- s4.851,11.438,1\
-1,11.949V12.051z\
-\x22 opacity=\x22.3\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x22UWFgJDe\
-0iEIL9ZX2HjGCHb\x22\
- x1=\x2230.929\x22 x2=\
-\x2245.071\x22 y1=\x22-17\
-0.929\x22 y2=\x22-185.\
-071\x22 gradientTra\
-nsform=\x22matrix(1\
- 0 0 -1 0 -154)\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x220\x22 stop-colo\
-r=\x22#f44f5a\x22 />\x0d\x0a\
-    <stop offset\
-=\x22.443\x22 stop-col\
-or=\x22#ee3d4a\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#e52030\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#UWFgJDe0i\
-EIL9ZX2HjGCHb)\x22 \
-d=\x22M48,24c0,5.52\
-2-4.478,10-10,10\
-s-10-4.478-10-10\
-s4.478-10,10-10S\
-48,18.478,48,24z\
-\x22 />\x0d\x0a  <path fi\
-ll=\x22#fff\x22 d=\x22M43\
-.5,23.5v1c0,0.27\
-6-0.224,0.5-0.5,\
-0.5h-10c-0.276,0\
--0.5-0.224-0.5-0\
-.5v-1 c0-0.276,0\
-.224-0.5,0.5-0.5\
-h10C43.276,23,43\
-.5,23.223,43.5,2\
-3.5z\x22 />\x0d\x0a</svg>\
-\
-\x00\x00\x04\x87\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#8B\
+C34A\x22 points=\x2224\
+,3 28.7,6.6 34.5\
+,5.8 36.7,11.3 4\
+2.2,13.5 41.4,19\
+.3 45,24 41.4,28\
+.7 42.2,34.5 36.\
+7,36.7 34.5,42.2\
+ 28.7,41.4 24,45\
+ 19.3,41.4 13.5,\
+42.2 11.3,36.7 5\
+.8,34.5 6.6,28.7\
+ 3,24 6.6,19.3 5\
+.8,13.5 11.3,11.\
+3 13.5,5.8 19.3,\
+6.6\x22/>\x0a    <poly\
+gon fill=\x22#CCFF9\
+0\x22 points=\x2234.6,\
+14.6 21,28.2 15.\
+4,22.6 12.6,25.4\
+ 21,33.8 37.4,17\
+.4\x22/>\x0a</svg>\x0a\
+\x00\x00\x04<\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#64717c\x22 d\
-=\x22M38.526,12.292\
-l-3.052-2.584L25\
-.073,22H11v4h14.\
-072l10.402,12.29\
-2l3.052-2.584L28\
-.62,24 L38.526,1\
-2.292z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22vxgPzRsDITHnIz\
-t27yRPEa\x22 x1=\x224.\
-491\x22 x2=\x2215.13\x22 \
-y1=\x2218.976\x22 y2=\x22\
-28.678\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#33bef\
-0\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#0a85d9\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <cir\
-cle cx=\x2210\x22 cy=\x22\
-24\x22 r=\x226\x22 fill=\x22\
-url(#vxgPzRsDITH\
-nIzt27yRPEa)\x22 />\
-\x0d\x0a  <linearGradi\
-ent id=\x22vxgPzRsD\
-ITHnIzt27yRPEb\x22 \
-x1=\x2231.983\x22 x2=\x22\
-40.579\x22 y1=\x226.18\
-2\x22 y2=\x2214.437\x22 g\
-radientUnits=\x22us\
-erSpaceOnUse\x22>\x0d\x0a\
-    <stop offset\
-=\x220\x22 stop-color=\
-\x22#33bef0\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-0a85d9\x22 />\x0d\x0a  </\
-linearGradient>\x0d\
-\x0a  <circle cx=\x223\
-7\x22 cy=\x2211\x22 r=\x226\x22\
- fill=\x22url(#vxgP\
-zRsDITHnIzt27yRP\
-Eb)\x22 />\x0d\x0a  <line\
-arGradient id=\x22v\
-xgPzRsDITHnIzt27\
-yRPEc\x22 x1=\x2232.45\
-4\x22 x2=\x2242.411\x22 y\
-1=\x2232.26\x22 y2=\x2242\
-.642\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#33bef0\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#0a85d9\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <circl\
-e cx=\x2237\x22 cy=\x2237\
-\x22 r=\x226\x22 fill=\x22ur\
-l(#vxgPzRsDITHnI\
-zt27yRPEc)\x22 />\x0d\x0a\
-</svg>\
-\x00\x00\x07\xee\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#37474F\x22>\
+\x0a        <circle\
+ cx=\x2233\x22 cy=\x2216\x22\
+ r=\x226\x22/>\x0a       \
+ <circle cx=\x2215\x22\
+ cy=\x2216\x22 r=\x226\x22/>\
+\x0a        <path d\
+=\x22M46.7,25l-15.3\
+,3H16.7L1.4,25l4\
+.3-7.9c1.1-1.9,3\
+.1-3.1,5.3-3.1h2\
+6.2c2.2,0,4.2,1.\
+2,5.3,3.1L46.7,2\
+5z\x22/>\x0a        <c\
+ircle cx=\x2238\x22 cy\
+=\x2230\x22 r=\x2210\x22/>\x0a \
+       <circle c\
+x=\x2210\x22 cy=\x2230\x22 r\
+=\x2210\x22/>\x0a        \
+<circle cx=\x2224\x22 \
+cy=\x2228\x22 r=\x225\x22/>\x0a\
+    </g>\x0a    <ci\
+rcle fill=\x22#546E\
+7A\x22 cx=\x2224\x22 cy=\x22\
+28\x22 r=\x222\x22/>\x0a    \
+<g fill=\x22#a0f\x22>\x0a\
+        <circle \
+cx=\x2238\x22 cy=\x2230\x22 \
+r=\x227\x22/>\x0a        \
+<circle cx=\x2210\x22 \
+cy=\x2230\x22 r=\x227\x22/>\x0a\
+    </g>\x0a    <g \
+fill=\x22#CE93D8\x22>\x0a\
+        <path d=\
+\x22M41.7,27.7c-1-1\
+.1-2.3-1.7-3.7-1\
+.7s-2.8,0.6-3.7,\
+1.7c-0.4,0.4-0.3\
+,1,0.1,1.4c0.4,0\
+.4,1,0.3,1.4-0.1\
+ c1.2-1.3,3.3-1.\
+3,4.5,0c0.2,0.2,\
+0.5,0.3,0.7,0.3c\
+0.2,0,0.5-0.1,0.\
+7-0.3C42.1,28.7,\
+42.1,28.1,41.7,2\
+7.7z\x22/>\x0a        \
+<path d=\x22M10,26c\
+-1.4,0-2.8,0.6-3\
+.7,1.7c-0.4,0.4-\
+0.3,1,0.1,1.4c0.\
+4,0.4,1,0.3,1.4-\
+0.1c1.2-1.3,3.3-\
+1.3,4.5,0 c0.2,0\
+.2,0.5,0.3,0.7,0\
+.3c0.2,0,0.5-0.1\
+,0.7-0.3c0.4-0.4\
+,0.4-1,0.1-1.4C1\
+2.8,26.6,11.4,26\
+,10,26z\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x01\x0a\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x22w~\
-INujfpQanMh___D7\
-Au2a\x22 cx=\x2224\x22 cy\
-=\x2224\x22 r=\x2222\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-.724\x22 stop-color\
-=\x22#ffed54\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.779\x22 stop-colo\
-r=\x22#ffe649\x22 />\x0d\x0a\
-    <stop offset\
-=\x22.877\x22 stop-col\
-or=\x22#ffd22d\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#ffb300\x22 />\x0d\x0a \
- </radialGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#w~INujfpQ\
-anMh___D7Au2a)\x22 \
-d=\x22M24,2l1.421,1\
-.474c0.93,0.965,\
-2.388,1.196,3.57\
-1,0.566l1.807-0.\
-963l0.896,1.841 \
-c0.586,1.205,1.9\
-02,1.876,3.222,1\
-.641l2.016-0.357\
-l0.283,2.028c0.1\
-85,1.328,1.229,2\
-.371,2.557,2.557\
-l2.028,0.283l-0.\
-357,2.016 c-0.23\
-4,1.32,0.436,2.6\
-35,1.641,3.222l1\
-.841,0.896l-0.96\
-3,1.807c-0.631,1\
-.183-0.4,2.641,0\
-.566,3.571L46,24\
-l-1.474,1.421 c-\
-0.965,0.93-1.196\
-,2.388-0.566,3.5\
-71l0.963,1.807l-\
-1.841,0.896c-1.2\
-05,0.586-1.876,1\
-.902-1.641,3.222\
-l0.357,2.016l-2.\
-028,0.283 c-1.32\
-8,0.185-2.371,1.\
-229-2.557,2.557l\
--0.283,2.028l-2.\
-016-0.357c-1.32-\
-0.234-2.635,0.43\
-6-3.222,1.641l-0\
-.896,1.841l-1.80\
-7-0.963 c-1.183-\
-0.631-2.641-0.4-\
-3.571,0.566L24,4\
-6l-1.421-1.474c-\
-0.93-0.965-2.388\
--1.196-3.571-0.5\
-66l-1.807,0.963l\
--0.896-1.841 c-0\
-.586-1.205-1.902\
--1.876-3.222-1.6\
-41l-2.016,0.357l\
--0.283-2.028c-0.\
-185-1.328-1.229-\
-2.371-2.557-2.55\
-7l-2.028-0.283l0\
-.357-2.016 c0.23\
-4-1.32-0.436-2.6\
-35-1.641-3.222l-\
-1.841-0.896l0.96\
-3-1.807c0.631-1.\
-183,0.4-2.641-0.\
-566-3.571L2,24l1\
-.474-1.421 c0.96\
-5-0.93,1.196-2.3\
-88,0.566-3.571l-\
-0.963-1.807l1.84\
-1-0.896c1.205-0.\
-586,1.876-1.902,\
-1.641-3.222l-0.3\
-57-2.016l2.028-0\
-.283 c1.328-0.18\
-5,2.371-1.229,2.\
-557-2.557l0.283-\
-2.028l2.016,0.35\
-7c1.32,0.234,2.6\
-35-0.436,3.222-1\
-.641l0.896-1.841\
-l1.807,0.963 c1.\
-183,0.631,2.641,\
-0.4,3.571-0.566L\
-24,2z\x22 />\x0d\x0a  <li\
-nearGradient id=\
-\x22w~INujfpQanMh__\
-_D7Au2b\x22 x1=\x228.0\
-92\x22 x2=\x2235.996\x22 \
-y1=\x228.092\x22 y2=\x223\
-5.996\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#fed100\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#e36001\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#w~IN\
-ujfpQanMh___D7Au\
-2b)\x22 d=\x22M24,7C14\
-.611,7,7,14.611,\
-7,24s7.611,17,17\
-,17s17-7.611,17-\
-17S33.389,7,24,7\
-z\x22 />\x0d\x0a</svg>\
-\x00\x00\x09\x5c\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F4433\
+6\x22 d=\x22M34,9c-4.2\
+,0-7.9,2.1-10,5.\
+4C21.9,11.1,18.2\
+,9,14,9C7.4,9,2,\
+14.4,2,21c0,11.9\
+,22,24,22,24s22-\
+12,22-24 C46,14.\
+4,40.6,9,34,9z\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x02\xe6\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x22U8\
-2P9tORUQOQwN6q6f\
-q4Ja\x22 cx=\x2228.686\
-\x22 cy=\x2221.073\x22 r=\
-\x2217.032\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x22.683\
-\x22 stop-color=\x22#c\
-24717\x22 />\x0d\x0a    <\
-stop offset=\x22.75\
-6\x22 stop-color=\x22#\
-bb4417\x22 />\x0d\x0a    \
-<stop offset=\x22.8\
-62\x22 stop-color=\x22\
-#a83b18\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-987\x22 stop-color=\
-\x22#892c1a\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-852a1a\x22 />\x0d\x0a  </\
-radialGradient>\x0d\
-\x0a  <path fill=\x22u\
-rl(#U82P9tORUQOQ\
-wN6q6fq4Ja)\x22 d=\x22\
-M32.002,8.271l0.\
-162-0.496c0.33-1\
-.011-0.184-2.12-\
-1.18-2.493 C21.7\
-3,1.815,11.12,5.\
-639,6.348,14.597\
-c-3.137,5.89-3.0\
-31,12.643-0.305,\
-18.212l5.354-2.7\
-1c-1.876-3.885-1\
-.937-8.582,0.246\
--12.681 c3.363-6\
-.314,10.947-9.17\
-3,18.085-7.811C3\
-0.717,9.795,31.6\
-9,9.228,32.002,8\
-.271z\x22 />\x0d\x0a  <ra\
-dialGradient id=\
-\x22U82P9tORUQOQwN6\
-q6fq4Jb\x22 cx=\x22-24\
-3.314\x22 cy=\x22-250.\
-927\x22 r=\x2217.032\x22 \
-gradientTransfor\
-m=\x22rotate(180 -1\
-12 -112)\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x22.68\
-3\x22 stop-color=\x22#\
-c24717\x22 />\x0d\x0a    \
-<stop offset=\x22.7\
-56\x22 stop-color=\x22\
-#bb4417\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-862\x22 stop-color=\
-\x22#a83b18\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.987\x22 stop-color\
-=\x22#892c1a\x22 />\x0d\x0a \
-   <stop offset=\
-\x221\x22 stop-color=\x22\
-#852a1a\x22 />\x0d\x0a  <\
-/radialGradient>\
-\x0d\x0a  <path fill=\x22\
-url(#U82P9tORUQO\
-QwN6q6fq4Jb)\x22 d=\
-\x22M15.998,39.729l\
--0.162,0.496c-0.\
-33,1.011,0.184,2\
-.12,1.18,2.493 c\
-9.253,3.467,19.8\
-64-0.357,24.635-\
-9.315c3.137-5.89\
-,3.031-12.643,0.\
-305-18.212l-5.35\
-4,2.71c1.876,3.8\
-85,1.937,8.582-0\
-.246,12.681 c-3.\
-363,6.314-10.947\
-,9.173-18.085,7.\
-811C17.283,38.20\
-5,16.31,38.772,1\
-5.998,39.729z\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x22U82P9tO\
-RUQOQwN6q6fq4Jc\x22\
- x1=\x2212.838\x22 x2=\
-\x2234.961\x22 y1=\x227.6\
-78\x22 y2=\x2240.027\x22 \
-gradientUnits=\x22u\
-serSpaceOnUse\x22>\x0d\
-\x0a    <stop offse\
-t=\x220\x22 stop-color\
-=\x22#fed100\x22 />\x0d\x0a \
-   <stop offset=\
-\x221\x22 stop-color=\x22\
-#e36001\x22 />\x0d\x0a  <\
-/linearGradient>\
-\x0d\x0a  <path fill=\x22\
-url(#U82P9tORUQO\
-QwN6q6fq4Jc)\x22 d=\
-\x22M10,24c0,2.004,\
-0.436,4.006,1.29\
-1,5.861l2.48-1.2\
-6c0.699-0.355,1.\
-478,0.312,1.235,\
-1.057 l-2.439,7.\
-482c-0.214,0.656\
--0.919,1.014-1.5\
-75,0.8L3.51,35.5\
-01c-0.745-0.243-\
-0.824-1.265-0.12\
-6-1.62l2.563-1.3\
-03 c-3.528-7.427\
--2.235-16.574,3.\
-911-22.72C13.763\
-,5.953,18.881,4,\
-24,4C24,4,10,10,\
-10,24z M44.49,12\
-.499l-7.482-2.43\
-9 c-0.656-0.214-\
-1.361,0.145-1.57\
-5,0.8l-2.439,7.4\
-82c-0.243,0.745,\
-0.536,1.412,1.23\
-5,1.057l2.48-1.2\
-6C37.564,19.994,\
-38,21.996,38,24 \
-c0,14-14,20-14,2\
-0c5.119,0,10.237\
--1.952,14.142-5.\
-857c6.146-6.146,\
-7.439-15.293,3.9\
-11-22.72l2.563-1\
-.303 C45.315,13.\
-765,45.235,12.74\
-2,44.49,12.499z\x22\
- />\x0d\x0a</svg>\
-\x00\x00\x04\x0e\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22GC\
-WVriy4rQhfclYQVz\
-Rmda\x22 x1=\x229.812\x22\
- x2=\x2238.361\x22 y1=\
-\x229.812\x22 y2=\x2238.3\
-61\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#f44f5a\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.443\x22 stop-\
-color=\x22#ee3d4a\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#e52030\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#GCWVri\
-y4rQhfclYQVzRmda\
-)\x22 d=\x22M24,4C12.9\
-55,4,4,12.955,4,\
-24s8.955,20,20,2\
-0s20-8.955,20-20\
-C44,12.955,35.04\
-5,4,24,4z M24,38\
- c-7.732,0-14-6.\
-268-14-14s6.268-\
-14,14-14s14,6.26\
-8,14,14S31.732,3\
-8,24,38z\x22 />\x0d\x0a  \
-<linearGradient \
-id=\x22GCWVriy4rQhf\
-clYQVzRmdb\x22 x1=\x22\
-6.821\x22 x2=\x2241.08\
-\x22 y1=\x226.321\x22 y2=\
-\x2240.58\x22 gradient\
-Transform=\x22trans\
-late(-.146 .354)\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#f44f5a\x22 />\x0d\
-\x0a    <stop offse\
-t=\x22.443\x22 stop-co\
-lor=\x22#ee3d4a\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-colo\
-r=\x22#e52030\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <polygon \
-fill=\x22url(#GCWVr\
-iy4rQhfclYQVzRmd\
-b)\x22 points=\x2213.3\
-71,38.871 9.129,\
-34.629 34.629,9.\
-129 38.871,13.37\
-1\x22 />\x0d\x0a</svg>\
-\x00\x00\x03\x95\
-\x00\
-\x00\x0f\xa5x\xda\xe5WM\x8f\xdb6\x10\xbd\x17\xe8\x7f\
- \xb4\x97\x04\x90d\xce\xf0\xbbX\xe7P\x1f\xba(\x12\
-\xf4\xd0f\xefZY\xb6\x84x-\xc3Vlo\x7f}\
-G\x22\x1d\xcb[;\xb1\x03\xa1@[\xc8 \xa5\x11\xc9\
-yzO\xf3D\xdfo\xb6s\xb6\x7f^,7\xe3\xa8\
-l\x9a\xd5O\xa3\xd1n\xb7Kw\x22\xad\xd7\xf3\x11r\
-\xceG4\x22b\xdb\xaa\xd8\xfd\x5c\xef\xc7\x11g\x9cI\
-K\xbf\x88\xed\xaaiS\x8e#iW\xfb\x88\x95E5\
-/\x9bp\xf5\xee\xc7\x1f\x18\xbb_T\xcb\x22[\xff\xb2\
-\xce\xa6U\xb1lX5\x1dG\x9f\x96\xf0\x9c\xbf\xff\xf0\
-\xf0i\xa6\xb3G]O>;\xf1\xab\xcc\x22\xb6\x87q\
-\x84\x8ez\xa4\x150\x05\x89\x11{ic\x9az\xf4\xfd\
-<,\xf4qY5\x84\xf6\xf3\xa6X\xff\xbe\xca\xf2\xe2\
-\xb7\xe5\xc7M\xe1SR\xd2MS\xafX=\x9bm\x0a\
-\x02\xc3#\xd6^'y\xbd\xa8\xd7\xe3\xe8\xce\x81s\x19\
-Dltvt*\xb4|5\xc1J[8}i\x02\
-\xbc\x1a\xad\xa5\x01\x93\x1fF\xdf\x8fN\x09\xf0\xc1U\xd6\
-\x94lV-\x16\xf4\x04\xeb\xc5\x9b\xbb\xf3\x8c\xbc\x8d\x18\
-\xb1\xf5A\xf2\xd8\x95\x89\xcb\x13H\x81\xab\x98'\x18\xf3\
-\xd4:E=n\x05\xcfy\x1cn\xb4\xc1\x18\xdb\xa3t\
-y\x88\xc5\x98\x84x\x82\x8f\x00l\x221v]@\xfa\
-\x11.n\xd7\xff\xf3\x0b\xdek\xf5z\xf2z\x09\x1e\xf4\
-\x02\xaf\x95I\x95\x17\xab;\x19@-\xcc29\x93\xd7\
-\x92\xcf\xb9\xc9\xa6n\x00\xf2\x9f\x8e\xe4\xab\x8e|\x9e*\
-E\xc4'@<Ki\xa9\x87\xad,\x01\x1e\xf5DB\
-\xac\xda\x181\xd9\x0dR-\xa5\xeavJsO\xa9\xf1\
-\x8c\x82\xfdo1\x9a\x07F\xc1\xc4\xea\xc1NL\xc7\x98\
-\x8aM\xe0\xce\xc4\xfa\xc0'\xd8\x10\x03\x13\xf8l\xe7\xdc\
-\xce\xe7\xd4\xf3\x99 *Oi\x82\x00\xa9U\xf6\xb2\xad\
-\xfc\xb1\xce\x96\x9bY\xbd~\x1eG\xcfY\xb3\xae\xf6o\
-\x80\xb5f\x97\x00C\x01L\xe1\xdb\xff\x95\x05M\x8f\x9a\
-I\xf1`{\x16\x94\x04\x0b\xea\x5c%\xe7I\xcf\x82Z\
-_JN,\xe8hM\xe4Wl\x02\xe49\xd8\xdd\x03\
-\xdbuR\xc4]\x86\xdb%.\xbc\xc4$+Z\xaf\xb1\
-0)\xe0A\xe1P98L\xe1\x90\x08Sw\xb1p\
-R\xe9\xdck\x99M&\xb3\xfcZ\xd5\xcc\x94^\xcdo\
-\xa9V/^\xe6\xf5\xf2\x9b\xc2\x15$\xdc\xaa\xae\x96\xed\
-\xa3\xa2$\x9e\x19@h\x052\x8aP+Lh[\xa7\
-\x19\x9d\xae\x7f\x98\xeb\xc7\xa0;\xb4\xf4\xf45\xb1V5\
-/\xf4\xc0\xa0.\xce\xf3y\xc0\x1d\xdaK\xf3\xae\xd5y\
-\x16v\x07\xe0EF\xe3\x05\x06}0G\x7f\xf6\xefu\
-\xc7Y\xa84\xd41\xd0\x07G\x9e\xff\xe0`\xa9\xb7\x09\
-N\x904\xf3\x0e\x89\xba\x1b\x05T\x5c\xed\xc4\xdb\x0bh\
-\x1e\x88\xc5\x94\xdb\xb0\xf5\xa25y+XK\xb0\x10\x9e\
-\xde\xb6\x1f\xa2\x82\xac\xe3\xce\x5c\xf6=\x01\x7f/\xb9\xfc\
-+%\xa7\xf5\xeb\x923\xd6\xa2}\xfa\xc7\x8dr~\x94\
-O \xc9\xb7%O\x8c\x83\x82\xfeS\xd6\x1e%\xe6!\
-\x16C\x12\xe2\x09<\x0a<\xea\xd6\xcbv\xa7\xa6\xda\x19\
-\xe1\x17\x16.\xa52v\xa9\x01\xfd\xbew~\xfe5\xb1\
-g\x93\xf3s\xc9\xb7\x89\xa5=!]\xc6\xc8S\xd0d\
-\x0c.uJ\x84\xe5\xe3^\xaa\xf3\x18\x0f\x0cv\x18U\
-\x0f\xa3\x1a\x18\xa3\xd0=\x8c\xea\x04\xa3:\x83q~\xd0\
-\xff\x22X\xe8\x81\x85\xa1\xc1b\x0f,\x9c\x80\x853`\
-G\xf3+A\x83>\x82\xee\x9d\x0f\x03\x9av[_@\
-\xd3\xe2=\xd0\xbdT\xdf\x03\x1a{\xa0qh\xd0\xa2\x07\
-\x1aO@\xe3\xcd\xa0g&\xb7\x99\x07m\x8f\x98\xed\xc0\
-\x90\xdd\x11\xb1\xed\x03\xb6\x97\xf0\xde\xb7\xff\xbe\xdf\xfd\x05\
-\xfd,\x0dg\
-\x00\x00\x03E\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22ny\
-vBozV7VK1PdF3LtM\
-mOna\x22 x1=\x2218.405\
-\x22 x2=\x2233.814\x22 y1\
-=\x2210.91\x22 y2=\x2243.\
-484\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x220\x22 stop-\
-color=\x22#32bdef\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#1ea2e4\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#nyvBoz\
-V7VK1PdF3LtMmOna\
-)\x22 d=\x22M39,10l-2.\
-835,31.181C36.07\
-2,42.211,35.208,\
-43,34.174,43H13.\
-826 c-1.034,0-1.\
-898-0.789-1.992-\
-1.819L9,10H39z\x22 \
-/>\x0d\x0a  <path fill\
-=\x22#0176d0\x22 d=\x22M3\
-2,7c0-1.105-0.89\
-5-2-2-2H18c-1.10\
-5,0-2,0.895-2,2c\
-0,0,0,0.634,0,1h\
-16C32,7.634,32,7\
-,32,7z\x22 />\x0d\x0a  <p\
-ath fill=\x22#007ad\
-9\x22 d=\x22M7,9.886L7\
-,9.886C7,9.363,7\
-.358,8.912,7.868\
-,8.8C10.173,8.29\
-3,16.763,7,24,7s\
-13.827,1.293,16.\
-132,1.8 C40.642,\
-8.912,41,9.363,4\
-1,9.886v0C41,10.\
-501,40.501,11,39\
-.886,11H8.114C7.\
-499,11,7,10.501,\
-7,9.886z\x22 />\x0d\x0a</\
-svg>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#455A6\
+4\x22 d=\x22M36,4H26c0\
+,1.1-0.9,2-2,2s-\
+2-0.9-2-2H12C9.8\
+,4,8,5.8,8,8v32c\
+0,2.2,1.8,4,4,4h\
+24c2.2,0,4-1.8,4\
+-4V8 C40,5.8,38.\
+2,4,36,4z\x22/>\x0a   \
+ <path fill=\x22#ff\
+f\x22 d=\x22M36,41H12c\
+-0.6,0-1-0.4-1-1\
+V8c0-0.6,0.4-1,1\
+-1h24c0.6,0,1,0.\
+4,1,1v32C37,40.6\
+,36.6,41,36,41z\x22\
+/>\x0a    <g fill=\x22\
+#90A4AE\x22>\x0a      \
+  <path d=\x22M26,4\
+c0,1.1-0.9,2-2,2\
+s-2-0.9-2-2h-7v4\
+c0,1.1,0.9,2,2,2\
+h14c1.1,0,2-0.9,\
+2-2V4H26z\x22/>\x0a   \
+     <path d=\x22M2\
+4,0c-2.2,0-4,1.8\
+-4,4s1.8,4,4,4s4\
+-1.8,4-4S26.2,0,\
+24,0z M24,6c-1.1\
+,0-2-0.9-2-2s0.9\
+-2,2-2s2,0.9,2,2\
+ S25.1,6,24,6z\x22/\
+>\x0a    </g>\x0a    <\
+polygon fill=\x22#4\
+CAF50\x22 points=\x223\
+0.6,18.6 21.6,27\
+.6 17.4,23.3 14.\
+9,25.8 21.7,32.5\
+ 33.1,21.1\x22/>\x0a</\
+svg>\x0a\
 \x00\x00\x06\x18\
 <\
 ?xml version=\x221.\
@@ -1750,861 +796,4351 @@ ShapeGroup\x22>\x0d\x0a\x0d\x0a\
 </path>\x0d\x0a       \
  </g>\x0d\x0a    </g>\x0d\
 \x0a</svg>\
-\x00\x00\x04?\
+\x00\x00\x01\xb3\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#0078d4\x22 d\
-=\x22M43,8H24v32h19\
-c1.105,0,2-0.895\
-,2-2V10C45,8.895\
-,44.105,8,43,8z\x22\
- />\x0d\x0a  <path fil\
-l=\x22#1b9de2\x22 d=\x22M\
-24,8H5c-1.105,0-\
-2,0.895-2,2v28c0\
-,1.105,0.895,2,2\
-,2h19V8z\x22 />\x0d\x0a  \
-<path fill=\x22#1b9\
-de2\x22 d=\x22M21,38c0\
-,1.657,1.343,3,3\
-,3v-6C22.343,35,\
-21,36.343,21,38z\
-\x22 />\x0d\x0a  <path fi\
-ll=\x22#0078d4\x22 d=\x22\
-M27,38c0-1.657-1\
-.343-3-3-3v6C25.\
-657,41,27,39.657\
-,27,38z\x22 />\x0d\x0a  <\
-path fill=\x22#fff\x22\
- d=\x22M24,8H6C5.44\
-8,8,5,8.448,5,9v\
-28c0,0.552,0.448\
-,1,1,1h18V8z\x22 />\
-\x0d\x0a  <path fill=\x22\
-#f0f0f0\x22 d=\x22M42,\
-8H24v30h18c0.552\
-,0,1-0.448,1-1V9\
-C43,8.448,42.552\
-,8,42,8z\x22 />\x0d\x0a  \
-<path d=\x22M30,8v1\
-5.6c0,0.8,0.6,1.\
-4,1.4,1.4c0.2,0,\
-0.5-0.1,0.7-0.2L\
-35,23l2.9,1.8 c0\
-.2,0.1,0.4,0.2,0\
-.7,0.2c0.4,0,0.7\
--0.1,1-0.4c0.2-0\
-.3,0.4-0.6,0.4-1\
-V8H30z\x22 opacity=\
-\x22.05\x22 />\x0d\x0a  <pat\
-h d=\x22M30.5,8v15.\
-5c0,0.5,0.4,0.9,\
-0.9,0.9c0.2,0,0.\
-4,0,0.5-0.1l3.1-\
-1.9l3.1,2 c0.2,0\
-.1,0.3,0.1,0.5,0\
-.1c0.2,0,0.5-0.1\
-,0.6-0.4c0.2-0.1\
-,0.3-0.4,0.3-0.6\
-V8H30.5z\x22 opacit\
-y=\x22.07\x22 />\x0d\x0a  <p\
-ath fill=\x22#cf192\
-8\x22 d=\x22M39,8h-8v1\
-5.6c0,0.3,0.3,0.\
-5,0.6,0.3l3.4-2.\
-1l3.4,2.1c0.3,0.\
-2,0.6,0,0.6-0.3V\
-8z\x22 />\x0d\x0a</svg>\
-\x00\x00\x06q\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#42\
+A5F5\x22 points=\x2236\
+,44 8,44 8,8 28,\
+8 36,16\x22/>\x0a    <\
+polygon fill=\x22#9\
+0CAF9\x22 points=\x224\
+0,40 12,40 12,4 \
+32,4 40,12\x22/>\x0a  \
+  <polygon fill=\
+\x22#E1F5FE\x22 points\
+=\x2238.5,13 31,13 \
+31,5.5\x22/>\x0a    <p\
+olygon fill=\x22#19\
+76D2\x22 points=\x2234\
+,20 27,20 29.4,2\
+2.4 27,24.9 23,2\
+0.9 16.9,26.9 19\
+.1,29.1 23,25.1 \
+27,29.1 31.6,24.\
+6 34,27\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x03?\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22MK\
-omEWifiuPrQgaP9Q\
-vlCa\x22 x1=\x2241.945\
-\x22 x2=\x2237.951\x22 y1\
-=\x228.5\x22 y2=\x228.5\x22 \
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#FF\
+9800\x22 points=\x2224\
+,37 19,31 19,25 \
+29,25 29,31\x22/>\x0a \
+   <g fill=\x22#FFA\
+726\x22>\x0a        <c\
+ircle cx=\x2233\x22 cy\
+=\x2219\x22 r=\x222\x22/>\x0a  \
+      <circle cx\
+=\x2215\x22 cy=\x2219\x22 r=\
+\x222\x22/>\x0a    </g>\x0a \
+   <path fill=\x22#\
+FFB74D\x22 d=\x22M33,1\
+3c0-7.6-18-5-18,\
+0c0,1.1,0,5.9,0,\
+7c0,5,4,9,9,9s9-\
+4,9-9C33,18.9,33\
+,14.1,33,13z\x22/>\x0a\
+    <path fill=\x22\
+#FF5722\x22 d=\x22M24,\
+4c-6.1,0-10,4.9-\
+10,11c0,0.8,0,2.\
+3,0,2.3l2,1.7v-5\
+l12-4l4,4v5l2-1.\
+7c0,0,0-1.5,0-2.\
+3c0-4-1-8-6-9l-1\
+-2 H24z\x22/>\x0a    <\
+g fill=\x22#784719\x22\
+>\x0a        <circl\
+e cx=\x2228\x22 cy=\x2219\
+\x22 r=\x221\x22/>\x0a      \
+  <circle cx=\x2220\
+\x22 cy=\x2219\x22 r=\x221\x22/\
+>\x0a    </g>\x0a    <\
+path fill=\x22#CFD8\
+DC\x22 d=\x22M29,31L29\
+,31l-5,1l-5-1c0,\
+0-11,2-11,13h32C\
+40,33,29,31,29,3\
+1z\x22/>\x0a    <polyg\
+on fill=\x22#3F51B5\
+\x22 points=\x2223,35 \
+22,44 26,44 25,3\
+5 26,34 24,32 22\
+,34\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x8e\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#1565C0\x22>\
+\x0a        <polygo\
+n points=\x2246.1,2\
+4 33,35 33,13\x22/>\
+\x0a        <rect x\
+=\x2210\x22 y=\x2220\x22 wid\
+th=\x224\x22 height=\x228\
+\x22/>\x0a        <rec\
+t x=\x224\x22 y=\x2220\x22 w\
+idth=\x224\x22 height=\
+\x228\x22/>\x0a        <r\
+ect x=\x2216\x22 y=\x2220\
+\x22 width=\x224\x22 heig\
+ht=\x228\x22/>\x0a       \
+ <rect x=\x2222\x22 y=\
+\x2220\x22 width=\x2214\x22 \
+height=\x228\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x03(\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#90CAF9\x22>\
+\x0a        <path d\
+=\x22M17.4,33H15v-4\
+h4l0.4,1.5C19.7,\
+31.8,18.7,33,17.\
+4,33z\x22/>\x0a       \
+ <path d=\x22M37,36\
+c0,0-11.8-7-18-7\
+V15c5.8,0,18-7,1\
+8-7V36z\x22/>\x0a    <\
+/g>\x0a    <g fill=\
+\x22#283593\x22>\x0a     \
+   <circle cx=\x229\
+\x22 cy=\x2222\x22 r=\x225\x22/\
+>\x0a        <path \
+d=\x22M40,19h-3v6h3\
+c1.7,0,3-1.3,3-3\
+S41.7,19,40,19z\x22\
+/>\x0a        <path\
+ d=\x22M18.6,41.2c-\
+0.9,0.6-2.5,1.2-\
+4.6,1.4c-0.6,0.1\
+-1.2-0.3-1.4-1L8\
+.2,27.9c0,0,8.8-\
+6.2,8.8,1.1 c0,5\
+.5,1.5,8.4,2.2,9\
+.5c0.5,0.7,0.5,1\
+.6,0,2.3C19,41,1\
+8.8,41.1,18.6,41\
+.2z\x22/>\x0a    </g>\x0a\
+    <path fill=\x22\
+#3F51B5\x22 d=\x22M9,2\
+9h10V15H9c-1.1,0\
+-2,0.9-2,2v10C7,\
+28.1,7.9,29,9,29\
+z\x22/>\x0a    <path f\
+ill=\x22#42A5F5\x22 d=\
+\x22M38,38L38,38c-1\
+.1,0-2-0.9-2-2V8\
+c0-1.1,0.9-2,2-2\
+h0c1.1,0,2,0.9,2\
+,2v28C40,37.1,39\
+.1,38,38,38z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x01j\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFCCB\
+C\x22 d=\x22M7,40V8c0-\
+2.2,1.8-4,4-4h24\
+c2.2,0,4,1.8,4,4\
+v32c0,2.2-1.8,4-\
+4,4H11C8.8,44,7,\
+42.2,7,40z\x22/>\x0a  \
+  <g fill=\x22#FF57\
+22\x22>\x0a        <po\
+lygon points=\x2242\
+.7,24 32,33 32,1\
+5\x22/>\x0a        <re\
+ct x=\x2214\x22 y=\x2221\x22\
+ width=\x2223\x22 heig\
+ht=\x226\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x01\xb1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFC10\
+7\x22 d=\x22M21.2,44.8\
+l-18-18c-1.6-1.6\
+-1.6-4.1,0-5.7l1\
+8-18c1.6-1.6,4.1\
+-1.6,5.7,0l18,18\
+c1.6,1.6,1.6,4.1\
+,0,5.7l-18,18 C2\
+5.3,46.4,22.7,46\
+.4,21.2,44.8z\x22/>\
+\x0a    <g fill=\x22#3\
+7474F\x22>\x0a        \
+<circle cx=\x2224\x22 \
+cy=\x2224\x22 r=\x222\x22/>\x0a\
+        <circle \
+cx=\x2232\x22 cy=\x2224\x22 \
+r=\x222\x22/>\x0a        \
+<circle cx=\x2216\x22 \
+cy=\x2224\x22 r=\x222\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x021\
+\x00\
+\x00\x090x\xda\xa5\x96Ms\xa2@\x10\x86\xef\xf9\x15\
+S\x93\xeb\x00\xf3\x05NoI\x0ea\x93\xcae\xaf\xde\
+\x8da\xc1\x8a\xab)e!\x9b_\xbf=\x8dbR\x82\
+\x95\xaa\xb1)\x90vx\xdf\xee\x07\xe8r~h+\xd6\
+\x96\xfb\xc3z\xb7\xcd\xb9\xe2\xec\xfd\xcff{\xc8y\xdd\
+4o?\x92\xa4\xeb\xba\xb83\xf1n_%ZJ\x99\
+\xe0j\xce\xdau\xd9\xdd\xef\xdes.\x99d\xd6\xe1\xc6\
+Y\xb9]>o\xca\xe8y\xb9z\xad\xf6\xbb\xbf\xdb\x97\
+\x9co\xcb\x8e\x9dW\xdc\xdd0\xfc\xcc\xdf\x96M\xcd~\
+\xaf7\x9b\x9c\xdff\xca\x07g\xb8\xf6\x97\x95BeO\
+\xae\xd5v%\x85\x8e\xb5P\xb1\x13\xd6G\x8d)\x9f\x90\
+\xc2F\x94\x8c\xecBe\x1f<\x19Q\xb4\xdaG\xafh\
+2a\x9f\x94.\x80\x84\x9cH\xf1\x88\xd1Bm\xf4\xc2\
+\x15h\xe83\xc6\xa1\xb4\x15~\xf1\xb8$\x14E\x91\xa5\
+\x83\xa4\xf2\x9a\xabH\xc6\x99\x90\x91\xc2#\x16\x15\xa9\x85\
+[\xc9>\xe7\xcf\x05f|\xd5\x94\x10\xca'q\xaf\xda\
+\xb403\xa1\x0cfM\x16{)A\x82g\xdf\xead\
+jL\x06\xea\xe1\xc8\x8c~\xda\x97\xab\x86!rc8\
+\xfb\x877Jr\xd6\xad_\x9a:\xe7\xd8n]\xae\xab\
+\xba\xf1_\x93\x91K4|\xe7\x92yR\x8dt\xff\xf8\
+\x98\xea\xf4\x0cT\x9b:2\x17\xdd\xb7\x91\xbeh\xdf\x5c\
+t\xaf}\xf7Z\x9f\xba\xd7F\x90\xe0H\xf7\x0f\xd2\xc7\
+\xe7\xee\xa9$_\x83J\x03kPY_\x83J\xfb\x1a\
+H\xf0\xe3\x0b\xb7\xc1L\xeb@3\xd4'\xb3~\xe7O\
+\xae\x98A(]y\xf4\x81\xa3\x19L\x9b\xf9\xae!\x14\
+\xa3\x1b0\x02a\x84+\x18!\x14\xa3\x1b0\x02a\x84\
++\x18!\x14\xa3\x1b0B\xbfMc4i Fc\
+O\x18M*Hp\x1ac\x98\x99\x7f\xe3\xec\x09#\x9a\
+\x91\xe04\xc603\xc4\xd8\x9b\xc1\xd1\x0c\xa6\xcd\xb0k\
+\xab\x021Zy\xc2h\x95 \xc1i\x8caf\x88\x91\
+\xcc\x08#\x9a\x91\xe04\xc603\xc4\xd8\x9b\xc1\xd1\x0c\
+>\x9b\x9dg\xf60;\xef\x7f\xfa\x18\x9d\x9d~\xdcB\
+\xe8\xfcv\xc3\xfc\x06\x9a\xdfS\xaf\x86\xc9B\x1f\xa0Y\
+\xff\x00\x91\x19>@$8m\x16\x88y\xd6c&3\
+\xc4L\x82_1\xcf\xfd\x7f\x9f\xbb\x9b\xff\xd4Q\x03M\
+\
+\x00\x00\x02\x03\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#607D8\
+B\x22 d=\x22M44.7,11L3\
+6,19.6c0,0-2.6,0\
+-5.2-2.6s-2.6-5.\
+2-2.6-5.2l8.7-8.\
+7c-4.9-1.2-10.8,\
+0.4-14.4,4 c-5.4\
+,5.4-0.6,12.3-2,\
+13.7C12.9,28.7,5\
+.1,34.7,4.9,35c-\
+2.3,2.3-2.4,6-0.\
+2,8.2c2.2,2.2,5.\
+9,2.1,8.2-0.2c0.\
+3-0.3,6.7-8.4,14\
+.2-15.9 c1.4-1.4\
+,8,3.7,13.6-1.8C\
+44.2,21.7,45.9,1\
+5.9,44.7,11z M9.\
+4,41.1c-1.4,0-2.\
+5-1.1-2.5-2.5C6.\
+9,37.1,8,36,9.4,\
+36 c1.4,0,2.5,1.\
+1,2.5,2.5C11.9,3\
+9.9,10.8,41.1,9.\
+4,41.1z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x04n\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#558B2\
+F\x22 d=\x22M15,40h23l\
+6,6V25c0-2.2-1.8\
+-4-4-4H15c-2.2,0\
+-4,1.8-4,4v11C11\
+,38.2,12.8,40,15\
+,40z\x22/>\x0a    <pat\
+h fill=\x22#1B5E20\x22\
+ d=\x22M28.8,32.8h-\
+3.6l-0.7,2.1h-2.\
+2l3.7-10h1.9l3.7\
+,10h-2.2L28.8,32\
+.8z M25.7,31.2h2\
+.5L27,27.4L25.7,\
+31.2z\x22/>\x0a    <pa\
+th fill=\x22#8BC34A\
+\x22 d=\x22M33,25H10l-\
+6,6V8c0-2.2,1.8-\
+4,4-4h25c2.2,0,4\
+,1.8,4,4v13C37,2\
+3.2,35.2,25,33,2\
+5z\x22/>\x0a    <path \
+fill=\x22#fff\x22 d=\x22M\
+25.4,14.2c0,1-0.\
+2,1.8-0.5,2.5c-0\
+.3,0.7-0.7,1.3-1\
+.3,1.7l1.7,1.3L2\
+4,20.9l-2.2-1.7c\
+-0.2,0-0.5,0.1-0\
+.8,0.1 c-0.6,0-1\
+.2-0.1-1.8-0.3c-\
+0.5-0.2-1-0.6-1.\
+4-1c-0.4-0.4-0.7\
+-1-0.9-1.6c-0.2-\
+0.6-0.3-1.3-0.3-\
+2.1v-0.4c0-0.8,0\
+.1-1.5,0.3-2.1 c\
+0.2-0.6,0.5-1.2,\
+0.9-1.6c0.4-0.4,\
+0.8-0.8,1.4-1c0.\
+5-0.2,1.1-0.3,1.\
+8-0.3c0.6,0,1.2,\
+0.1,1.8,0.3c0.5,\
+0.2,1,0.6,1.4,1 \
+c0.4,0.4,0.7,1,0\
+.9,1.6c0.2,0.6,0\
+.3,1.3,0.3,2.1V1\
+4.2z M23.2,13.7c\
+0-1.1-0.2-1.9-0.\
+6-2.4c-0.4-0.6-0\
+.9-0.8-1.6-0.8 c\
+-0.7,0-1.3,0.3-1\
+.6,0.8c-0.4,0.6-\
+0.6,1.4-0.6,2.4v\
+0.5c0,0.5,0.1,1,\
+0.2,1.4c0.1,0.4,\
+0.2,0.8,0.4,1c0.\
+2,0.3,0.4,0.5,0.\
+7,0.6 c0.3,0.1,0\
+.6,0.2,0.9,0.2c0\
+.7,0,1.3-0.3,1.6\
+-0.8c0.4-0.6,0.6\
+-1.4,0.6-2.5V13.\
+7z\x22/>\x0a</svg>\x0a\
+\x00\x00\x03:\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22none\x22 \
+stroke=\x22#F44336\x22\
+ stroke-width=\x224\
+\x22 stroke-miterli\
+mit=\x2210\x22 d=\x22M7,2\
+0v-8c0-2.2,1.8-4\
+,4-4h14c1.2,0,2.\
+4,0.6,3.2,1.6 L3\
+5,18\x22/>\x0a    <g f\
+ill=\x22#37474F\x22>\x0a \
+       <circle c\
+x=\x2235\x22 cy=\x2237\x22 r\
+=\x225\x22/>\x0a        <\
+circle cx=\x2213\x22 c\
+y=\x2237\x22 r=\x225\x22/>\x0a \
+   </g>\x0a    <pat\
+h fill=\x22#F44336\x22\
+ d=\x22M40.2,17L33,\
+14H7c-1.2,0-2,0.\
+8-2,2v10c0,1.2,0\
+.8,2,2,2h1c0-2.8\
+,2.2-5,5-5s5,2.2\
+,5,5h12c0-2.8,2.\
+2-5,5-5 s5,2.2,5\
+,5h1c1.2,0,2-0.8\
+,2-2v-5.2C43,19.\
+2,41.8,17.6,40.2\
+,17z\x22/>\x0a    <g f\
+ill=\x22#546E7A\x22>\x0a \
+       <circle c\
+x=\x2224\x22 cy=\x2237\x22 r\
+=\x223\x22/>\x0a        <\
+circle cx=\x2235\x22 c\
+y=\x2237\x22 r=\x222\x22/>\x0a \
+       <circle c\
+x=\x2213\x22 cy=\x2237\x22 r\
+=\x222\x22/>\x0a        <\
+path d=\x22M30.4,39\
+c-0.3-0.6-0.4-1.\
+3-0.4-2s0.2-1.4,\
+0.4-2H17.6c0.3,0\
+.6,0.4,1.3,0.4,2\
+s-0.2,1.4-0.4,2H\
+30.4z\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x02\xec\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#455A6\
+4\x22 d=\x22M42,41H12c\
+-2.2,0-4-1.8-4-4\
+V17c0-2.2,1.8-4,\
+4-4h30c2.2,0,4,1\
+.8,4,4v20C46,39.\
+2,44.2,41,42,41z\
+\x22/>\x0a    <path fi\
+ll=\x22#78909C\x22 d=\x22\
+M36,36H6c-2.2,0-\
+4-1.8-4-4V12c0-2\
+.2,1.8-4,4-4h30c\
+2.2,0,4,1.8,4,4v\
+20C40,34.2,38.2,\
+36,36,36z\x22/>\x0a   \
+ <circle fill=\x22#\
+455A64\x22 cx=\x2226\x22 \
+cy=\x2222\x22 r=\x2210\x22/>\
+\x0a    <circle fil\
+l=\x22#42A5F5\x22 cx=\x22\
+26\x22 cy=\x2222\x22 r=\x227\
+\x22/>\x0a    <path fi\
+ll=\x22#90CAF9\x22 d=\x22\
+M29.7,19.7c-1-1.\
+1-2.3-1.7-3.7-1.\
+7s-2.8,0.6-3.7,1\
+.7c-0.4,0.4-0.3,\
+1,0.1,1.4c0.4,0.\
+4,1,0.3,1.4-0.1 \
+c1.2-1.3,3.3-1.3\
+,4.5,0c0.2,0.2,0\
+.5,0.3,0.7,0.3c0\
+.2,0,0.5-0.1,0.7\
+-0.3C30.1,20.7,3\
+0.1,20.1,29.7,19\
+.7z\x22/>\x0a    <rect\
+ x=\x226\x22 y=\x2212\x22 fi\
+ll=\x22#ADD8FB\x22 wid\
+th=\x226\x22 height=\x223\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x05\xc2\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x225\x22 y=\x2219\x22\
+ fill=\x22#CFD8DC\x22 \
+width=\x2238\x22 heigh\
+t=\x2219\x22/>\x0a    <re\
+ct x=\x225\x22 y=\x2238\x22 \
+fill=\x22#B0BEC5\x22 w\
+idth=\x2238\x22 height\
+=\x224\x22/>\x0a    <rect\
+ x=\x2227\x22 y=\x2224\x22 f\
+ill=\x22#455A64\x22 wi\
+dth=\x2212\x22 height=\
+\x2218\x22/>\x0a    <rect\
+ x=\x229\x22 y=\x2224\x22 fi\
+ll=\x22#E3F2FD\x22 wid\
+th=\x2214\x22 height=\x22\
+11\x22/>\x0a    <rect \
+x=\x2210\x22 y=\x2225\x22 fi\
+ll=\x22#1E88E5\x22 wid\
+th=\x2212\x22 height=\x22\
+9\x22/>\x0a    <path f\
+ill=\x22#90A4AE\x22 d=\
+\x22M36.5,33.5c-0.3\
+,0-0.5,0.2-0.5,0\
+.5v2c0,0.3,0.2,0\
+.5,0.5,0.5S37,36\
+.3,37,36v-2C37,3\
+3.7,36.8,33.5,36\
+.5,33.5z\x22/>\x0a    \
+<g fill=\x22#558B2F\
+\x22>\x0a        <circ\
+le cx=\x2224\x22 cy=\x221\
+9\x22 r=\x223\x22/>\x0a     \
+   <circle cx=\x223\
+6\x22 cy=\x2219\x22 r=\x223\x22\
+/>\x0a        <circ\
+le cx=\x2212\x22 cy=\x221\
+9\x22 r=\x223\x22/>\x0a    <\
+/g>\x0a    <path fi\
+ll=\x22#7CB342\x22 d=\x22\
+M40,6H8C6.9,6,6,\
+6.9,6,8v3h36V8C4\
+2,6.9,41.1,6,40,\
+6z\x22/>\x0a    <rect \
+x=\x2221\x22 y=\x2211\x22 fi\
+ll=\x22#7CB342\x22 wid\
+th=\x226\x22 height=\x228\
+\x22/>\x0a    <polygon\
+ fill=\x22#7CB342\x22 \
+points=\x2237,11 32\
+,11 33,19 39,19\x22\
+/>\x0a    <polygon \
+fill=\x22#7CB342\x22 p\
+oints=\x2211,11 16,\
+11 15,19 9,19\x22/>\
+\x0a    <g fill=\x22#F\
+FA000\x22>\x0a        \
+<circle cx=\x2230\x22 \
+cy=\x2219\x22 r=\x223\x22/>\x0a\
+        <path d=\
+\x22M45,19c0,1.7-1.\
+3,3-3,3s-3-1.3-3\
+-3s1.3-3,3-3L45,\
+19z\x22/>\x0a        <\
+circle cx=\x2218\x22 c\
+y=\x2219\x22 r=\x223\x22/>\x0a \
+       <path d=\x22\
+M3,19c0,1.7,1.3,\
+3,3,3s3-1.3,3-3s\
+-1.3-3-3-3L3,19z\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#FFC10\
+7\x22>\x0a        <pol\
+ygon points=\x2232,\
+11 27,11 27,19 3\
+3,19\x22/>\x0a        \
+<polygon points=\
+\x2242,11 37,11 39,\
+19 45,19\x22/>\x0a    \
+    <polygon poi\
+nts=\x2216,11 21,11\
+ 21,19 15,19\x22/>\x0a\
+        <polygon\
+ points=\x226,11 11\
+,11 9,19 3,19\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x01\xed\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x223\x22 y=\x2212\x22\
+ fill=\x22#80DEEA\x22 \
+width=\x2242\x22 heigh\
+t=\x2224\x22/>\x0a    <re\
+ct x=\x223\x22 y=\x2223\x22 \
+fill=\x22#03A9F4\x22 w\
+idth=\x2242\x22 height\
+=\x222\x22/>\x0a    <path\
+ fill=\x22none\x22 str\
+oke=\x22#3F51B5\x22 st\
+roke-width=\x224\x22 s\
+troke-miterlimit\
+=\x2210\x22 d=\x22M4,18l4\
+.5-1.5c0.9-0.3,1\
+.9,0.1,2.3,0.9l8\
+.7,14.3 c0.7,1.2\
+,2.4,1.3,3.2,0.2\
+l2.3-2.8c0.5-0.6\
+,1.4-0.9,2.2-0.6\
+l3,1c1,0.3,2.1-0\
+.2,2.5-1.1l4.3-1\
+0.1c0.5-1.1,1.9-\
+1.6,2.9-0.9l4,2.\
+7\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x0b\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x224,\
+29 18,17.3 18,40\
+.7\x22/>\x0a    <path \
+fill=\x22#3F51B5\x22 d\
+=\x22M42,21V8h-8v13\
+c0,2.2-1.8,4-4,4\
+H13v8h17C36.6,33\
+,42,27.6,42,21z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x03<\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#54\
+6E7A\x22 points=\x2238\
+,33 38,5 34,5 34\
+,33 28,33 36,43 \
+44,33\x22/>\x0a    <g \
+fill=\x22#2196F3\x22>\x0a\
+        <path d=\
+\x22M16.4,20h-3V8.6\
+L9.9,9.7V7.3L16,\
+5.1h0.3V20z\x22/>\x0a \
+       <path d=\x22\
+M19.4,43H9.2v-2l\
+4.8-5.1c0.4-0.4,\
+0.7-0.8,0.9-1.1c\
+0.2-0.3,0.5-0.6,\
+0.6-0.9c0.2-0.3,\
+0.3-0.5,0.3-0.8 \
+c0.1-0.2,0.1-0.5\
+,0.1-0.7c0-0.7-0\
+.2-1.2-0.5-1.6c-\
+0.3-0.4-0.8-0.6-\
+1.4-0.6c-0.3,0-0\
+.7,0.1-0.9,0.2c-\
+0.3,0.1-0.5,0.3-\
+0.7,0.5 c-0.2,0.\
+2-0.3,0.5-0.4,0.\
+8s-0.1,0.6-0.1,1\
+h-3c0-0.7,0.1-1.\
+3,0.4-1.9c0.2-0.\
+6,0.6-1.1,1-1.6c\
+0.5-0.4,1-0.8,1.\
+6-1.1 c0.6-0.3,1\
+.4-0.4,2.2-0.4c0\
+.8,0,1.5,0.1,2.1\
+,0.3c0.6,0.2,1.1\
+,0.5,1.5,0.8s0.7\
+,0.8,0.9,1.3s0.3\
+,1.1,0.3,1.8c0,0\
+.5-0.1,1-0.2,1.4\
+ S18.3,34.5,18,3\
+5s-0.6,0.9-1,1.4\
+c-0.4,0.5-0.9,1-\
+1.4,1.5L13,40.6h\
+6.4V43z\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x05\xeb\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22utf\
+-8\x22?>\x0d\x0a<!-- Gene\
+rator: Adobe Ill\
+ustrator 19.1.1,\
+ SVG Export Plug\
+-In . SVG Versio\
+n: 6.00 Build 0)\
+  -->\x0d\x0a<svg vers\
+ion=\x221.1\x22  xmlns\
+=\x22http://www.w3.\
+org/2000/svg\x22 xm\
+lns:xlink=\x22http:\
+//www.w3.org/199\
+9/xlink\x22 x=\x220px\x22\
+ y=\x220px\x22\x0d\x0a\x09 view\
+Box=\x220 0 48 48\x22 \
+enable-backgroun\
+d=\x22new 0 0 48 48\
+\x22 xml:space=\x22pre\
+serve\x22>\x0d\x0a<g>\x0d\x0a\x09<\
+path fill=\x22#CFD8\
+DC\x22 d=\x22M41,6H7C6\
+.4,6,6,6.4,6,7v3\
+5h36V7C42,6.4,41\
+.6,6,41,6z\x22/>\x0d\x0a<\
+/g>\x0d\x0a<rect x=\x228\x22\
+ y=\x2213\x22 fill=\x22#2\
+63238\x22 width=\x2232\
+\x22 height=\x2227\x22/>\x0d\
+\x0a<g>\x0d\x0a\x09<path fil\
+l=\x22#76FF03\x22 d=\x22M\
+22,27.6c-0.1,1.1\
+-0.4,1.9-1,2.5c-\
+0.6,0.6-1.4,0.9-\
+2.5,0.9c-1.1,0-2\
+-0.4-2.6-1.1c-0.\
+6-0.7-0.9-1.8-0.\
+9-3.1\x0d\x0a\x09\x09v-1.6c0\
+-1.3,0.3-2.4,0.9\
+-3.1c0.6-0.7,1.5\
+-1.1,2.6-1.1c1.1\
+,0,1.9,0.3,2.5,0\
+.9c0.6,0.6,0.9,1\
+.4,1,2.6h-2c0-0.\
+7-0.1-1.2-0.3-1.\
+4\x0d\x0a\x09\x09c-0.2-0.3-0\
+.6-0.4-1.1-0.4c-\
+0.5,0-0.9,0.2-1.\
+2,0.6c-0.2,0.4-0\
+.3,1-0.4,1.8v1.8\
+c0,1,0.1,1.6,0.3\
+,2c0.2,0.4,0.6,0\
+.5,1.1,0.5\x0d\x0a\x09\x09c0\
+.5,0,0.9-0.1,1.1\
+-0.4c0.2-0.3,0.3\
+-0.7,0.3-1.4H22z\
+\x22/>\x0d\x0a\x09<path fill\
+=\x22#76FF03\x22 d=\x22M2\
+4,24c0-0.3,0.1-0\
+.5,0.3-0.7c0.2-0\
+.2,0.4-0.3,0.7-0\
+.3c0.3,0,0.5,0.1\
+,0.7,0.3c0.2,0.2\
+,0.3,0.4,0.3,0.7\
+\x0d\x0a\x09\x09c0,0.3-0.1,0\
+.5-0.3,0.7S25.3,\
+25,25,25c-0.3,0-\
+0.5-0.1-0.7-0.3S\
+24,24.3,24,24z\x22/\
+>\x0d\x0a\x09<path fill=\x22\
+#76FF03\x22 d=\x22M24,\
+30c0-0.3,0.1-0.5\
+,0.3-0.7c0.2-0.2\
+,0.4-0.3,0.7-0.3\
+c0.3,0,0.5,0.1,0\
+.7,0.3c0.2,0.2,0\
+.3,0.4,0.3,0.7\x0d\x0a\
+\x09\x09c0,0.3-0.1,0.5\
+-0.3,0.7S25.3,31\
+,25,31c-0.3,0-0.\
+5-0.1-0.7-0.3S24\
+,30.3,24,30z\x22/>\x0d\
+\x0a\x09<path fill=\x22#7\
+6FF03\x22 d=\x22M28,21\
+h2l3,10h-2L28,21\
+z\x22/>\x0d\x0a</g>\x0d\x0a<g>\x0d\
+\x0a\x09<circle fill=\x22\
+#90A4AE\x22 cx=\x2213.\
+5\x22 cy=\x229.5\x22 r=\x221\
+.5\x22/>\x0d\x0a\x09<circle \
+fill=\x22#90A4AE\x22 c\
+x=\x229.5\x22 cy=\x229.5\x22\
+ r=\x221.5\x22/>\x0d\x0a</g>\
+\x0d\x0a</svg>\x0d\x0a\
+\x00\x00\x02\x0b\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#00\
+BCD4\x22 points=\x2226\
+.9,42 17,42 17,3\
+2.1\x22/>\x0a    <poly\
+gon fill=\x22#00BCD\
+4\x22 points=\x2230,6 \
+30,26.2 19.8,36.\
+4 22.6,39.2 34,2\
+7.8 34,6\x22/>\x0a    \
+<polygon fill=\x22#\
+2196F3\x22 points=\x22\
+15.9,31 6,31 6,2\
+1.1\x22/>\x0a    <poly\
+gon fill=\x22#2196F\
+3\x22 points=\x2220.2,\
+14 8.8,25.4 11.6\
+,28.2 21.8,18 41\
+,18 41,14\x22/>\x0a   \
+ <rect x=\x2222\x22 y=\
+\x22-2.9\x22 transform\
+=\x22matrix(.707 -.\
+707 .707 .707 -9\
+.941 24)\x22 fill=\x22\
+#37474F\x22 width=\x22\
+4\x22 height=\x2253.7\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x01\xf5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#CF\
+D8DC\x22 points=\x2235\
+,36 39,36 39,22 \
+26,22 26,13 22,1\
+3 22,22 9,22 9,3\
+6 13,36 13,26 22\
+,26 22,36 26,36 \
+26,26 35,26\x22/>\x0a \
+   <rect x=\x2217\x22 \
+y=\x226\x22 fill=\x22#3F5\
+1B5\x22 width=\x2214\x22 \
+height=\x2210\x22/>\x0a  \
+  <rect x=\x2232\x22 y\
+=\x2232\x22 fill=\x22#00B\
+CD4\x22 width=\x2210\x22 \
+height=\x2210\x22/>\x0a  \
+  <rect x=\x226\x22 y=\
+\x2232\x22 fill=\x22#00BC\
+D4\x22 width=\x2210\x22 h\
+eight=\x2210\x22/>\x0a   \
+ <rect x=\x2219\x22 y=\
+\x2232\x22 fill=\x22#00BC\
+D4\x22 width=\x2210\x22 h\
+eight=\x2210\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x04M\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#4CAF5\
+0\x22 d=\x22M6,10v28c0\
+,2.2,1.8,4,4,4h2\
+8c2.2,0,4-1.8,4-\
+4V10c0-2.2-1.8-4\
+-4-4H10C7.8,6,6,\
+7.8,6,10z\x22/>\x0a   \
+ <g fill=\x22#FFC10\
+7\x22>\x0a        <pat\
+h d=\x22M6.6,8l6,6c\
+-0.4,0.6-0.6,1.3\
+-0.6,2c0,2.2,1.8\
+,4,4,4s4-1.8,4-4\
+s-1.8-4-4-4c-0.7\
+,0-1.4,0.2-2,0.6\
+l-6-6 C7.4,6.9,6\
+.9,7.4,6.6,8z M1\
+6,14.5c0.8,0,1.5\
+,0.7,1.5,1.5s-0.\
+7,1.5-1.5,1.5s-1\
+.5-0.7-1.5-1.5S1\
+5.2,14.5,16,14.5\
+z\x22/>\x0a        <pa\
+th d=\x22M41.4,40l-\
+6-6c0.4-0.6,0.6-\
+1.3,0.6-2c0-2.2-\
+1.8-4-4-4s-4,1.8\
+-4,4s1.8,4,4,4c0\
+.7,0,1.4-0.2,2-0\
+.6l6,6 C40.6,41.\
+1,41.1,40.6,41.4\
+,40z M32,33.5c-0\
+.8,0-1.5-0.7-1.5\
+-1.5s0.7-1.5,1.5\
+-1.5s1.5,0.7,1.5\
+,1.5S32.8,33.5,3\
+2,33.5z\x22/>\x0a     \
+   <path d=\x22M16,\
+36c2.2,0,4-1.8,4\
+-4c0-0.7-0.2-1.4\
+-0.6-2L30,19.4c0\
+.6,0.4,1.3,0.6,2\
+,0.6c2.2,0,4-1.8\
+,4-4s-1.8-4-4-4 \
+s-4,1.8-4,4c0,0.\
+7,0.2,1.4,0.6,2L\
+18,28.6c-0.6-0.4\
+-1.3-0.6-2-0.6c-\
+2.2,0-4,1.8-4,4S\
+13.8,36,16,36z M\
+32,14.5c0.8,0,1.\
+5,0.7,1.5,1.5 s-\
+0.7,1.5-1.5,1.5s\
+-1.5-0.7-1.5-1.5\
+S31.2,14.5,32,14\
+.5z M16,30.5c0.8\
+,0,1.5,0.7,1.5,1\
+.5s-0.7,1.5-1.5,\
+1.5s-1.5-0.7-1.5\
+-1.5 S15.2,30.5,\
+16,30.5z\x22/>\x0a    \
+</g>\x0a</svg>\x0a\
+\x00\x00\x02&\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M43,30V18c\
+0-2.2-1.8-4-4-4H\
+9c-2.2,0-4,1.8-4\
+,4v12c0,2.2,1.8,\
+4,4,4h30C41.2,34\
+,43,32.2,43,30z \
+M9,18h30v12 L9,3\
+0V18z\x22/>\x0a    <ci\
+rcle fill=\x22#F443\
+36\x22 cx=\x2238\x22 cy=\x22\
+38\x22 r=\x2210\x22/>\x0a   \
+ <g fill=\x22#fff\x22>\
+\x0a        <rect x\
+=\x2236.5\x22 y=\x2232\x22 t\
+ransform=\x22matrix\
+(-.707 .707 -.70\
+7 -.707 91.74 38\
+)\x22 width=\x223\x22 hei\
+ght=\x2212\x22/>\x0a     \
+   <rect x=\x2236.5\
+\x22 y=\x2232\x22 transfo\
+rm=\x22matrix(-.707\
+ -.707 .707 -.70\
+7 38 91.74)\x22 wid\
+th=\x223\x22 height=\x221\
+2\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x02i\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#E6\
+4A19\x22 points=\x2229\
+,23 29,17 21,21 \
+21,23 17,23 17,2\
+7 13,27 13,23 5,\
+23 5,43 33,43 33\
+,23\x22/>\x0a    <rect\
+ x=\x2225\x22 y=\x2227\x22 f\
+ill=\x22#992B0A\x22 wi\
+dth=\x224\x22 height=\x22\
+4\x22/>\x0a    <rect x\
+=\x229\x22 y=\x2235\x22 fill\
+=\x22#992B0A\x22 width\
+=\x224\x22 height=\x224\x22/\
+>\x0a    <rect x=\x222\
+5\x22 y=\x2235\x22 fill=\x22\
+#992B0A\x22 width=\x22\
+4\x22 height=\x224\x22/>\x0a\
+    <rect x=\x2217\x22\
+ y=\x2235\x22 fill=\x22#9\
+92B0A\x22 width=\x224\x22\
+ height=\x224\x22/>\x0a  \
+  <rect x=\x2217\x22 y\
+=\x2227\x22 fill=\x22#992\
+B0A\x22 width=\x224\x22 h\
+eight=\x224\x22/>\x0a    \
+<polygon fill=\x22#\
+BF360C\x22 points=\x22\
+41.2,5 38,5 38,7\
+ 36,7 36,9 33.7,\
+9 32,43 43,43\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x01x\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#F5\
+7C00\x22 points=\x2229\
+,23 19,23 7,9 41\
+,9\x22/>\x0a    <g fil\
+l=\x22#FF9800\x22>\x0a   \
+     <polygon po\
+ints=\x2229,38 19,4\
+4 19,23 29,23\x22/>\
+\x0a        <path d\
+=\x22M41.5,9h-35C5.\
+7,9,5,8.3,5,7.5v\
+0C5,6.7,5.7,6,6.\
+5,6h35C42.3,6,43\
+,6.7,43,7.5v0C43\
+,8.3,42.3,9,41.5\
+,9z\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x01l\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#8BC34A\x22>\
+\x0a        <path d\
+=\x22M34,44H14c-1.1\
+,0-2-0.9-2-2V8c0\
+-1.1,0.9-2,2-2h2\
+0c1.1,0,2,0.9,2,\
+2v34C36,43.1,35.\
+1,44,34,44z\x22/>\x0a \
+       <path d=\x22\
+M28,13h-8c-0.6,0\
+-1-0.4-1-1V5c0-0\
+.6,0.4-1,1-1h8c0\
+.6,0,1,0.4,1,1v7\
+C29,12.6,28.6,13\
+,28,13z\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x01\x08\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2244\
+,29 30,17.3 30,4\
+0.7\x22/>\x0a    <path\
+ fill=\x22#3F51B5\x22 \
+d=\x22M6,21V8h8v13c\
+0,2.2,1.8,4,4,4h\
+17v8H18C11.4,33,\
+6,27.6,6,21z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x03\x82\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <circle\
+ cx=\x228\x22 cy=\x2238\x22 \
+r=\x223\x22/>\x0a        \
+<circle cx=\x2216\x22 \
+cy=\x2240\x22 r=\x223\x22/>\x0a\
+        <circle \
+cx=\x2224\x22 cy=\x2233\x22 \
+r=\x223\x22/>\x0a        \
+<circle cx=\x2232\x22 \
+cy=\x2235\x22 r=\x223\x22/>\x0a\
+        <circle \
+cx=\x2240\x22 cy=\x2231\x22 \
+r=\x223\x22/>\x0a        \
+<polygon points=\
+\x2239.1,29.2 31.8,\
+32.9 23.5,30.8 1\
+5.5,37.8 8.5,36.\
+1 7.5,39.9 16.5,\
+42.2 24.5,35.2 3\
+2.2,37.1 40.9,32\
+.8\x22/>\x0a    </g>\x0a \
+   <g fill=\x22#00B\
+CD4\x22>\x0a        <c\
+ircle cx=\x228\x22 cy=\
+\x2220\x22 r=\x223\x22/>\x0a   \
+     <circle cx=\
+\x2216\x22 cy=\x2222\x22 r=\x22\
+3\x22/>\x0a        <ci\
+rcle cx=\x2224\x22 cy=\
+\x2215\x22 r=\x223\x22/>\x0a   \
+     <circle cx=\
+\x2232\x22 cy=\x2220\x22 r=\x22\
+3\x22/>\x0a        <ci\
+rcle cx=\x2240\x22 cy=\
+\x228\x22 r=\x223\x22/>\x0a    \
+    <path d=\x22M38\
+.3,6.9c-2.1,3.2-\
+5.3,8-6.9,10.4c-\
+1.2-0.7-3.1-2-6.\
+4-4l-1.3-0.8l-8.\
+3,7.3l-7-1.7l-1,\
+3.9l9,2.3l7.7-6.\
+7 c2.6,1.6,5.8,3\
+.6,6.5,4.1l0.5,0\
+.5l0.9-0.1c1.1-0\
+.1,1.1-0.1,9.5-1\
+2.9L38.3,6.9z\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x03\xeb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <path d\
+=\x22M13,22H8v-8.5c\
+0-1.4,1.1-2.5,2.\
+5-2.5h0c1.4,0,2.\
+5,1.1,2.5,2.5V22\
+z\x22/>\x0a        <pa\
+th d=\x22M20,22h-5V\
+7.5C15,6.1,16.1,\
+5,17.5,5h0C18.9,\
+5,20,6.1,20,7.5V\
+22z\x22/>\x0a        <\
+path d=\x22M27,22h-\
+5V5.5C22,4.1,23.\
+1,3,24.5,3h0C25.\
+9,3,27,4.1,27,5.\
+5V22z\x22/>\x0a       \
+ <path d=\x22M34,22\
+h-5V8.5C29,7.1,3\
+0.1,6,31.5,6h0C3\
+2.9,6,34,7.1,34,\
+8.5V22z\x22/>\x0a     \
+   <path d=\x22M32.\
+1,43L27.1,38l10-\
+10c1.4-1.4,3.6-1\
+.4,4.9,0l0,0c1.4\
+,1.4,1.4,3.6,0,4\
+.9L32.1,43z\x22/>\x0a \
+       <path d=\x22\
+M29,21c0,0.6-0.4\
+,1-1,1s-1-0.4-1-\
+1h-5c0,0.6-0.4,1\
+-1,1s-1-0.4-1-1h\
+-5c0,0.6-0.4,1-1\
+,1s-1-0.4-1-1H8v\
+16 c0,4.4,3.6,8,\
+8,8h11.2c3.7,0,6\
+.8-3,6.8-6.8V21H\
+29z\x22/>\x0a    </g>\x0a\
+    <g fill=\x22#F4\
+4336\x22>\x0a        <\
+rect x=\x2220.2\x22 y=\
+\x2225.5\x22 transform\
+=\x22matrix(.707 -.\
+707 .707 .707 -1\
+6.897 25.224)\x22 w\
+idth=\x223.5\x22 heigh\
+t=\x2215\x22/>\x0a       \
+ <rect x=\x2220.2\x22 \
+y=\x2225.6\x22 transfo\
+rm=\x22matrix(.707 \
+.707 -.707 .707 \
+29.811 -5.877)\x22 \
+width=\x223.5\x22 heig\
+ht=\x2215\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01$\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x227,\
+7 25,7 7,25\x22/>\x0a \
+   <rect x=\x2222.6\
+\x22 y=\x2210.3\x22 trans\
+form=\x22matrix(-.7\
+07 .707 -.707 -.\
+707 64.28 26.626\
+)\x22 fill=\x22#3F51B5\
+\x22 width=\x228\x22 heig\
+ht=\x2232.7\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x02X\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M10,41V7c0\
+-2.2,1.8-4,4-4h2\
+0c2.2,0,4,1.8,4,\
+4v34c0,2.2-1.8,4\
+-4,4H14C11.8,45,\
+10,43.2,10,41z\x22/\
+>\x0a    <path fill\
+=\x22#BBDEFB\x22 d=\x22M3\
+4,6H14c-0.6,0-1,\
+0.4-1,1v34c0,0.6\
+,0.4,1,1,1h20c0.\
+6,0,1-0.4,1-1V7C\
+35,6.4,34.6,6,34\
+,6z\x22/>\x0a    <g fi\
+ll=\x22#3F51B5\x22>\x0a  \
+      <path d=\x22M\
+29,30H19c-0.6,0-\
+1-0.4-1-1v-6c0-0\
+.6,0.4-1,1-1h10c\
+0.6,0,1,0.4,1,1v\
+6C30,29.6,29.6,3\
+0,29,30z\x22/>\x0a    \
+    <path d=\x22M24\
+,16c-2.2,0-4,1.8\
+-4,4v3h2v-3c0-1.\
+1,0.9-2,2-2s2,0.\
+9,2,2v3h2v-3C28,\
+17.8,26.2,16,24,\
+16z\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x02\x0a\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M39,16v7h-\
+6v-7h-2v7h-6v-7h\
+-2v7h-7v2h7v6h-7\
+v2h7v6h-7v2h25V1\
+6H39z M39,25v6h-\
+6v-6H39z M25,25h\
+6v6h-6V25z M25,3\
+3h6v6h-6V33z M33\
+,39v-6h6v6H33z\x22/\
+>\x0a    <polygon f\
+ill=\x22#00BCD4\x22 po\
+ints=\x2240,8 8,8 8\
+,40 16,40 16,16 \
+40,16\x22/>\x0a    <pa\
+th fill=\x22#0097A7\
+\x22 d=\x22M7,7v34h10V\
+17h24V7H7z M9,23\
+v-6h6v6H9z M15,2\
+5v6H9v-6H15z M17\
+,9h6v6h-6V9z M25\
+,9h6v6h-6V9z M15\
+,9v6H9V9H15z M9,\
+39v-6h6v6H9z M39\
+,15h-6V9h6V15z\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x00\xe4\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00BCD\
+4\x22 d=\x22M33.7,5L22\
+,17l15,5L21.3,36\
+.7l5.1,2.8L12,43\
+l2.7-14.8l2.9,5.\
+1L27,24l-15-5L25\
+,5H33.7z\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x04T\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#EF6C0\
+0\x22 d=\x22M37.4,24.6\
+l-11.6-2.2l-3.9-\
+11.2l-3.8,1.3L22\
+,23.6l-7.8,9l3,2\
+.6l7.8-9l11.6,2.\
+2L37.4,24.6z\x22/>\x0a\
+    <g fill=\x22#FF\
+9800\x22>\x0a        <\
+path d=\x22M24,19c-\
+2.8,0-5,2.2-5,5c\
+0,2.8,2.2,5,5,5s\
+5-2.2,5-5C29,21.\
+2,26.8,19,24,19z\
+ M24,26c-1.1,0-2\
+-0.9-2-2 c0-1.1,\
+0.9-2,2-2s2,0.9,\
+2,2C26,25.1,25.1\
+,26,24,26z\x22/>\x0a  \
+      <path d=\x22M\
+40.7,27c0.2-1,0.\
+3-2,0.3-3c0-1-0.\
+1-2-0.3-3l3.3-2.\
+4c0.4-0.3,0.6-0.\
+9,0.3-1.4L40,9.8\
+ c-0.3-0.5-0.8-0\
+.7-1.3-0.4L35,11\
+c-1.5-1.3-3.3-2.\
+3-5.2-3l-0.4-4.1\
+c-0.1-0.5-0.5-0.\
+9-1-0.9h-8.6c-0.\
+5,0-1,0.4-1,0.9L\
+18.2,8 c-1.9,0.7\
+-3.7,1.7-5.2,3L9\
+.3,9.3C8.8,9.1,8\
+.2,9.3,8,9.8l-4.\
+3,7.4c-0.3,0.5-0\
+.1,1.1,0.3,1.4L7\
+.3,21C7.1,22,7,2\
+3,7,24 c0,1,0.1,\
+2,0.3,3L4,29.4c-\
+0.4,0.3-0.6,0.9-\
+0.3,1.4L8,38.2c0\
+.3,0.5,0.8,0.7,1\
+.3,0.4L13,37c1.5\
+,1.3,3.3,2.3,5.2\
+,3l0.4,4.1 c0.1,\
+0.5,0.5,0.9,1,0.\
+9h8.6c0.5,0,1-0.\
+4,1-0.9l0.4-4.1c\
+1.9-0.7,3.7-1.7,\
+5.2-3l3.7,1.7c0.\
+5,0.2,1.1,0,1.3-\
+0.4l4.3-7.4 c0.3\
+-0.5,0.1-1.1-0.3\
+-1.4L40.7,27z M2\
+4,35c-6.1,0-11-4\
+.9-11-11c0-6.1,4\
+.9-11,11-11s11,4\
+.9,11,11C35,30.1\
+,30.1,35,24,35z\x22\
+/>\x0a    </g>\x0a</sv\
+g>\x0a\
+\x00\x00\x03#\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#1976D2\x22>\
+\x0a        <path d\
+=\x22M17.5,27c-1.1,\
+1.2-2.7,2-4.5,2h\
+-3c-3.3,0-6-2.7-\
+6-6s2.7-6,6-6h3c\
+1.8,0,3.4,0.8,4.\
+5,2h4.7 c-1.5-3.\
+5-5.1-6-9.2-6h-3\
+C4.5,13,0,17.5,0\
+,23s4.5,10,10,10\
+h3c4.1,0,7.6-2.5\
+,9.2-6H17.5z\x22/>\x0a\
+        <path d=\
+\x22M38,13h-3c-4.1,\
+0-7.6,2.5-9.2,6h\
+4.7c1.1-1.2,2.7-\
+2,4.5-2h3c3.3,0,\
+6,2.7,6,6s-2.7,6\
+-6,6h-3 c-1.8,0-\
+3.4-0.8-4.5-2h-4\
+.7c1.5,3.5,5.1,6\
+,9.2,6h3c5.5,0,1\
+0-4.5,10-10S43.5\
+,13,38,13z\x22/>\x0a  \
+  </g>\x0a    <g fi\
+ll=\x22#00BCD4\x22>\x0a  \
+      <polygon p\
+oints=\x2219.5,4 16\
+,6 22.1,14.1 23.\
+4,13.3\x22/>\x0a      \
+  <polygon point\
+s=\x2228.5,4 32,6 2\
+5.9,14.1 24.6,13\
+.3\x22/>\x0a        <p\
+olygon points=\x222\
+8.5,44 32,42 25.\
+9,33.9 24.6,34.7\
+\x22/>\x0a        <pol\
+ygon points=\x2219.\
+5,44 16,42 22.1,\
+33.9 23.4,34.7\x22/\
+>\x0a    </g>\x0a</svg\
+>\x0a\
+\x00\x00\x00\xcd\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#43\
+A047\x22 points=\x2240\
+.6,12.1 17,35.7 \
+7.4,26.1 4.6,29 \
+17,41.3 43.4,14.\
+9\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\xae\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#2196F3\x22>\
+\x0a        <rect x\
+=\x226\x22 y=\x2222\x22 widt\
+h=\x224\x22 height=\x224\x22\
+/>\x0a        <rect\
+ x=\x226\x22 y=\x2214\x22 wi\
+dth=\x224\x22 height=\x22\
+4\x22/>\x0a        <re\
+ct x=\x226\x22 y=\x2230\x22 \
+width=\x224\x22 height\
+=\x224\x22/>\x0a        <\
+rect x=\x226\x22 y=\x226\x22\
+ width=\x224\x22 heigh\
+t=\x224\x22/>\x0a        \
+<rect x=\x226\x22 y=\x223\
+8\x22 width=\x224\x22 hei\
+ght=\x224\x22/>\x0a    </\
+g>\x0a    <g fill=\x22\
+#2196F3\x22>\x0a      \
+  <rect x=\x2214\x22 y\
+=\x2222\x22 width=\x2228\x22\
+ height=\x224\x22/>\x0a  \
+      <rect x=\x221\
+4\x22 y=\x2214\x22 width=\
+\x2228\x22 height=\x224\x22/\
+>\x0a        <rect \
+x=\x2214\x22 y=\x2230\x22 wi\
+dth=\x2228\x22 height=\
+\x224\x22/>\x0a        <r\
+ect x=\x2214\x22 y=\x226\x22\
+ width=\x2228\x22 heig\
+ht=\x224\x22/>\x0a       \
+ <rect x=\x2214\x22 y=\
+\x2238\x22 width=\x2228\x22 \
+height=\x224\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x05?\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#1565C\
+0\x22 d=\x22M38.8,28.2\
+C41.5,24.8,45,20\
+.1,45,12c0-0.6-0\
+.4-1-1-1s-1,0.4-\
+1,1c0,6.7-2.5,10\
+.7-5,13.9c-0.6-1\
+.9-1-4.2-1-6.9 c\
+0-0.5-0.4-1-1-1c\
+-0.5,0-1,0.4-1,1\
+c-0.1,1.7-0.6,3.\
+6-1,3.8c-0.4,0-0\
+.9-1.4-1-2.8c0-0\
+.5-0.5-0.9-1-0.9\
+c-0.5,0-1,0.3-1,\
+0.9 c-0.3,1.7-1.\
+1,4.1-2,4.1c-0.4\
+,0-0.6-0.1-0.7-0\
+.3c-0.3-0.3-0.4-\
+1-0.4-1.6c0-0.4,\
+0.1-0.8,0.1-1.2c\
+0-0.5-0.4-1-0.9-\
+1 c-0.5,0-1,0.3-\
+1.1,0.8c0,0.1-0.\
+1,0.5-0.1,1.1C25\
+.7,23.6,25.1,27,\
+23,27c-0.7,0-1.1\
+-0.2-1.4-0.7c-0.\
+5-0.8-0.5-2.1,0-\
+3.3c0,0,0,0,0-0.\
+1 c0.1-0.1,0.1-0\
+.3,0.2-0.4c0,0,0\
+,0,0,0c0.8-1.6,1\
+.7-2.5,3.2-2.5c0\
+.6,0,1-0.4,1-1s-\
+0.4-1-1-1c-4.2,0\
+-5.4,4.1-6.6,8 c\
+-1.4,4.8-2.7,8-6\
+.4,8c-5.1,0-7-6.\
+6-7-11c0-8.6,4.7\
+-14,9-14c2.9,0,4\
+,2.3,4.1,2.4c0.2\
+,0.5,0.8,0.7,1.3\
+,0.5c0.5-0.2,0.7\
+-0.8,0.5-1.3 C19\
+.8,10.4,18.2,7,1\
+4,7C8.6,7,3,13,3\
+,23c0,10.3,5.9,1\
+3,9,13c5.1,0,6.8\
+-4.5,8.1-8.5c0.7\
+,0.9,1.7,1.5,2.9\
+,1.5c2.2,0,3.5-1\
+.6,4.2-3.6 c0.5,\
+0.4,1.1,0.6,1.8,\
+0.6c1.4,0,2.4-1.\
+2,3-2.4c0.4,0.7,\
+1.1,1.2,2,1.2c0.\
+6,0,1.1-0.3,1.5-\
+0.7c0.3,1.4,0.7,\
+2.7,1,3.8 C35.1,\
+29.7,34,31.2,34,\
+33c0,1.7,1.3,3,3\
+,3c1.8,0,3-1.6,3\
+-3c0-1.3-0.5-2.7\
+-1.1-4.3C38.9,28\
+.5,38.8,28.4,38.\
+8,28.2z M37,34 c\
+-0.7,0-1-0.5-1-1\
+c0-0.9,0.5-1.8,1\
+.3-2.9c0.4,1.2,0\
+.7,2.1,0.7,2.9C3\
+8,33.3,37.7,34,3\
+7,34z\x22/>\x0a    <re\
+ct x=\x223\x22 y=\x2240\x22 \
+fill=\x22#90A4AE\x22 w\
+idth=\x2242\x22 height\
+=\x222\x22/>\x0a</svg>\x0a\
+\x00\x00\x07\xb8\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0d\x0a<svg\x0d\x0a   \
+viewBox=\x220 0 48 \
+48\x22\x0d\x0a   width=\x224\
+8px\x22\x0d\x0a   height=\
+\x2248px\x22\x0d\x0a   versi\
+on=\x221.1\x22\x0d\x0a   id=\
+\x22svg5\x22\x0d\x0a   sodip\
+odi:docname=\x22Unc\
+heck.svg\x22\x0d\x0a   in\
+kscape:version=\x22\
+1.4.2 (f4327f4, \
+2025-05-13)\x22\x0d\x0a  \
+ xmlns:inkscape=\
+\x22http://www.inks\
+cape.org/namespa\
+ces/inkscape\x22\x0d\x0a \
+  xmlns:sodipodi\
+=\x22http://sodipod\
+i.sourceforge.ne\
+t/DTD/sodipodi-0\
+.dtd\x22\x0d\x0a   xmlns=\
+\x22http://www.w3.o\
+rg/2000/svg\x22\x0d\x0a  \
+ xmlns:svg=\x22http\
+://www.w3.org/20\
+00/svg\x22>\x0d\x0a  <def\
+s\x0d\x0a     id=\x22defs\
+5\x22 />\x0d\x0a  <sodipo\
+di:namedview\x0d\x0a  \
+   id=\x22namedview\
+5\x22\x0d\x0a     pagecol\
+or=\x22#ffffff\x22\x0d\x0a  \
+   bordercolor=\x22\
+#000000\x22\x0d\x0a     b\
+orderopacity=\x220.\
+25\x22\x0d\x0a     inksca\
+pe:showpageshado\
+w=\x222\x22\x0d\x0a     inks\
+cape:pageopacity\
+=\x220.0\x22\x0d\x0a     ink\
+scape:pagechecke\
+rboard=\x220\x22\x0d\x0a    \
+ inkscape:deskco\
+lor=\x22#d1d1d1\x22\x0d\x0a \
+    inkscape:zoo\
+m=\x2231.083333\x22\x0d\x0a \
+    inkscape:cx=\
+\x2224\x22\x0d\x0a     inksc\
+ape:cy=\x2224\x22\x0d\x0a   \
+  inkscape:windo\
+w-width=\x223072\x22\x0d\x0a\
+     inkscape:wi\
+ndow-height=\x22179\
+6\x22\x0d\x0a     inkscap\
+e:window-x=\x22-12\x22\
+\x0d\x0a     inkscape:\
+window-y=\x22-12\x22\x0d\x0a\
+     inkscape:wi\
+ndow-maximized=\x22\
+1\x22\x0d\x0a     inkscap\
+e:current-layer=\
+\x22svg5\x22 />\x0d\x0a  <li\
+nearGradient\x0d\x0a  \
+   id=\x22TpFkpHq7A\
+GWb~Tkla4kyga\x22\x0d\x0a\
+     x1=\x2224\x22\x0d\x0a  \
+   x2=\x2224\x22\x0d\x0a    \
+ y1=\x226.121\x22\x0d\x0a   \
+  y2=\x2242.039\x22\x0d\x0a \
+    gradientUnit\
+s=\x22userSpaceOnUs\
+e\x22>\x0d\x0a    <stop\x0d\x0a\
+       offset=\x220\
+\x22\x0d\x0a       stop-c\
+olor=\x22#9dffce\x22\x0d\x0a\
+       id=\x22stop1\
+\x22 />\x0d\x0a    <stop\x0d\
+\x0a       offset=\x22\
+1\x22\x0d\x0a       stop-\
+color=\x22#50d18d\x22\x0d\
+\x0a       id=\x22stop\
+2\x22 />\x0d\x0a  </linea\
+rGradient>\x0d\x0a  <p\
+ath\x0d\x0a     fill=\x22\
+url(#TpFkpHq7AGW\
+b~Tkla4kyga)\x22\x0d\x0a \
+    d=\x22M40,42H8c\
+-1.1,0-2-0.9-2-2\
+V8c0-1.1,0.9-2,2\
+-2h32c1.1,0,2,0.\
+9,2,2v32C42,41.1\
+,41.1,42,40,42z\x22\
+\x0d\x0a     id=\x22path2\
+\x22 />\x0d\x0a  <linearG\
+radient\x0d\x0a     id\
+=\x22TpFkpHq7AGWb~T\
+kla4kygb\x22\x0d\x0a     \
+x1=\x2213\x22\x0d\x0a     x2\
+=\x2236\x22\x0d\x0a     y1=\x22\
+24.793\x22\x0d\x0a     y2\
+=\x2224.793\x22\x0d\x0a     \
 gradientUnits=\x22u\
 serSpaceOnUse\x22>\x0d\
-\x0a    <stop offse\
-t=\x220\x22 stop-color\
-=\x22#0d61a9\x22 />\x0d\x0a \
-   <stop offset=\
-\x221\x22 stop-color=\x22\
-#16528c\x22 />\x0d\x0a  <\
-/linearGradient>\
-\x0d\x0a  <path fill=\x22\
-url(#MKomEWifiuP\
-rQgaP9QvlCa)\x22 d=\
-\x22M37,11h5V8c0-1.\
-105-0.895-2-2-2h\
--3V11z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22MKomEWifiuPrQg\
-aP9QvlCb\x22 x1=\x2214\
-.002\x22 x2=\x2235.437\
-\x22 y1=\x226.793\x22 y2=\
-\x2242.14\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#7dd8f\
-3\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#45b0d0\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#MKo\
-mEWifiuPrQgaP9Qv\
-lCb)\x22 d=\x22M36,42H\
-10c-1.105,0-2-0.\
-895-2-2V8c0-1.10\
-5,0.895-2,2-2l30\
-,0c-1.105,0-2,0.\
-895-2,2v32 C38,4\
-1.105,37.105,42,\
-36,42z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22MKomEWifiuPrQg\
-aP9QvlCc\x22 x1=\x2220\
-\x22 x2=\x2220\x22 y1=\x2237\
-.284\x22 y2=\x2242.01\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x220\x22 stop-colo\
-r=\x22#0176d0\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#16538c\x22 />\x0d\x0a  \
-</linearGradient\
->\x0d\x0a  <path fill=\
-\x22url(#MKomEWifiu\
-PrQgaP9QvlCc)\x22 d\
-=\x22M34,40v-3H4v3c\
-0,1.105,0.895,2,\
-2,2h30C34.895,42\
-,34,41.105,34,40\
-z\x22 />\x0d\x0a  <path f\
-ill=\x22#057093\x22 d=\
-\x22M32.5,19h-19c-0\
-.276,0-0.5-0.224\
--0.5-0.5v-2c0-0.\
-276,0.224-0.5,0.\
-5-0.5h19c0.276,0\
-,0.5,0.224,0.5,0\
-.5 v2C33,18.776,\
-32.776,19,32.5,1\
-9z\x22 />\x0d\x0a  <path \
-fill=\x22#057093\x22 d\
-=\x22M32.5,25h-19c-\
-0.276,0-0.5-0.22\
-4-0.5-0.5v-2c0-0\
-.276,0.224-0.5,0\
-.5-0.5h19c0.276,\
-0,0.5,0.224,0.5,\
-0.5 v2C33,24.776\
-,32.776,25,32.5,\
-25z\x22 />\x0d\x0a  <path\
- fill=\x22#057093\x22 \
-d=\x22M32.5,31h-19c\
--0.276,0-0.5-0.2\
-24-0.5-0.5v-2c0-\
-0.276,0.224-0.5,\
-0.5-0.5h19c0.276\
-,0,0.5,0.224,0.5\
-,0.5 v2C33,30.77\
-6,32.776,31,32.5\
-,31z\x22 />\x0d\x0a</svg>\
+\x0a    <stop\x0d\x0a    \
+   offset=\x22.824\x22\
+\x0d\x0a       stop-co\
+lor=\x22#135d36\x22\x0d\x0a \
+      id=\x22stop3\x22\
+ />\x0d\x0a    <stop\x0d\x0a\
+       offset=\x22.\
+931\x22\x0d\x0a       sto\
+p-color=\x22#125933\
+\x22\x0d\x0a       id=\x22st\
+op4\x22 />\x0d\x0a    <st\
+op\x0d\x0a       offse\
+t=\x221\x22\x0d\x0a       st\
+op-color=\x22#11522\
+f\x22\x0d\x0a       id=\x22s\
+top5\x22 />\x0d\x0a  </li\
+nearGradient>\x0d\x0a<\
+/svg>\x0d\x0a\
+\x00\x00\x02j\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF6F0\
+0\x22 d=\x22M38.7,11.9\
+l-3.1,2.5c2.2,2.\
+7,3.4,6.1,3.4,9.\
+5c0,8.3-6.7,15-1\
+5,15c-0.9,0-1.9-\
+0.1-2.8-0.3l-0.7\
+,3.9 c1.2,0.2,2.\
+4,0.3,3.5,0.3c10\
+.5,0,19-8.5,19-1\
+9C43,19.6,41.5,1\
+5.3,38.7,11.9z\x22/\
+>\x0a    <polygon f\
+ill=\x22#FF6F02\x22 po\
+ints=\x2231,8 42.9,\
+9.6 33.1,19.4\x22/>\
+\x0a    <path fill=\
+\x22#FF6F00\x22 d=\x22M24\
+,5C13.5,5,5,13.5\
+,5,24c0,4.6,1.6,\
+9,4.6,12.4l3-2.6\
+C10.3,31.1,9,27.\
+6,9,24c0-8.3,6.7\
+-15,15-15 c0.9,0\
+,1.9,0.1,2.8,0.3\
+l0.7-3.9C26.4,5.\
+1,25.2,5,24,5z\x22/\
+>\x0a    <polygon f\
+ill=\x22#FF6F02\x22 po\
+ints=\x2217,40 5.1,\
+38.4 14.9,28.6\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x04A\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#607D8\
+B\x22 d=\x22M20,42H10c\
+-2.2,0-4-1.8-4-4\
+V15c0-5,4-9,9-9h\
+0c5,0,9,4,9,9v23\
+C24,40.2,22.2,42\
+,20,42z\x22/>\x0a    <\
+circle fill=\x22#45\
+5A64\x22 cx=\x2215\x22 cy\
+=\x2215\x22 r=\x227\x22/>\x0a  \
+  <circle fill=\x22\
+#42A5F5\x22 cx=\x2215\x22\
+ cy=\x2215\x22 r=\x225.2\x22\
+/>\x0a    <path fil\
+l=\x22#90CAF9\x22 d=\x22M\
+18.3,13c-0.8-0.9\
+-2-1.5-3.3-1.5S1\
+2.6,12,11.7,13c-\
+0.3,0.4-0.3,0.9,\
+0.1,1.2c0.4,0.3,\
+0.9,0.3,1.2-0.1 \
+c1-1.2,2.9-1.2,3\
+.9,0c0.2,0.2,0.4\
+,0.3,0.7,0.3c0.2\
+,0,0.4-0.1,0.6-0\
+.2C18.6,13.9,18.\
+6,13.3,18.3,13z\x22\
+/>\x0a    <path fil\
+l=\x22#607D8B\x22 d=\x22M\
+40,31H28c-1.1,0-\
+2-0.9-2-2V19c0-1\
+.1,0.9-2,2-2h12c\
+1.1,0,2,0.9,2,2v\
+10C42,30.1,41.1,\
+31,40,31z\x22/>\x0a   \
+ <rect x=\x2224\x22 y=\
+\x2219\x22 fill=\x22#455A\
+64\x22 width=\x222\x22 he\
+ight=\x2210\x22/>\x0a    \
+<rect x=\x2228\x22 y=\x22\
+19\x22 fill=\x22#03A9F\
+4\x22 width=\x2212\x22 he\
+ight=\x2210\x22/>\x0a    \
+<polygon fill=\x22#\
+4FC3F7\x22 points=\x22\
+33,22.2 29,28 37\
+,28\x22/>\x0a    <g fi\
+ll=\x22#B3E5FC\x22>\x0a  \
+      <circle cx\
+=\x2237.5\x22 cy=\x2221.5\
+\x22 r=\x221\x22/>\x0a      \
+  <polygon point\
+s=\x2236,24.2 33,28\
+ 39,28\x22/>\x0a    </\
+g>\x0a    <circle f\
+ill=\x22#455A64\x22 cx\
+=\x2215\x22 cy=\x2235\x22 r=\
+\x223\x22/>\x0a    <circl\
+e fill=\x22#F44336\x22\
+ cx=\x2215\x22 cy=\x2235\x22\
+ r=\x222\x22/>\x0a</svg>\x0a\
 \
-\x00\x00\x03\x8f\
+\x00\x00\x01\x8f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#42424\
+2\x22 d=\x22M24,4c-5.5\
+,0-10,4.5-10,10v\
+4h4v-4c0-3.3,2.7\
+-6,6-6s6,2.7,6,6\
+h4C34,8.5,29.5,4\
+,24,4z\x22/>\x0a    <p\
+ath fill=\x22#FB8C0\
+0\x22 d=\x22M36,44H12c\
+-2.2,0-4-1.8-4-4\
+V22c0-2.2,1.8-4,\
+4-4h24c2.2,0,4,1\
+.8,4,4v18C40,42.\
+2,38.2,44,36,44z\
+\x22/>\x0a    <circle \
+fill=\x22#C76E00\x22 c\
+x=\x2224\x22 cy=\x2231\x22 r\
+=\x223\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\x9f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2217\x22 y=\x2229\
+\x22 fill=\x22#039BE5\x22\
+ width=\x2214\x22 heig\
+ht=\x222\x22/>\x0a    <re\
+ct x=\x2213\x22 y=\x2233\x22\
+ fill=\x22#039BE5\x22 \
+width=\x2222\x22 heigh\
+t=\x222\x22/>\x0a    <rec\
+t x=\x229\x22 y=\x2237\x22 f\
+ill=\x22#039BE5\x22 wi\
+dth=\x2230\x22 height=\
+\x222\x22/>\x0a    <rect \
+x=\x225\x22 y=\x2241\x22 fil\
+l=\x22#039BE5\x22 widt\
+h=\x2238\x22 height=\x222\
+\x22/>\x0a    <path fi\
+ll=\x22#81D4FA\x22 d=\x22\
+M35,13c-0.4,0-0.\
+8,0-1.2,0.1C32.9\
+,8.5,28.9,5,24,5\
+c-4.1,0-7.6,2.5-\
+9.2,6c-0.3,0-0.5\
+,0-0.8,0 c-4.4,0\
+-8,3.6-8,8s3.6,8\
+,8,8c2.4,0,18.5,\
+0,21,0c3.9,0,7-3\
+.1,7-7C42,16.1,3\
+8.9,13,35,13z\x22/>\
+\x0a    <path fill=\
+\x22#039BE5\x22 d=\x22M28\
+,21c0-2.2-1.8-4-\
+4-4s-4,1.8-4,4c0\
+,0.5,0,6,0,6h8C2\
+8,27,28,21.5,28,\
+21z\x22/>\x0a</svg>\x0a\
+\x00\x00\x03\x8c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#8CBCD\
+6\x22 d=\x22M31,41H8c-\
+2.2,0-4-1.8-4-4V\
+11c0-2.2,1.8-4,4\
+-4h32c2.2,0,4,1.\
+8,4,4v17C44,35.2\
+,38.2,41,31,41z\x22\
+/>\x0a    <circle f\
+ill=\x22#B3DDF5\x22 cx\
+=\x2235\x22 cy=\x2216\x22 r=\
+\x223\x22/>\x0a    <polyg\
+on fill=\x22#9AC9E3\
+\x22 points=\x2220,16 \
+9,32 31,32\x22/>\x0a  \
+  <polygon fill=\
+\x22#B3DDF5\x22 points\
+=\x2231,22 23,32 39\
+,32\x22/>\x0a    <path\
+ fill=\x22#E57373\x22 \
+d=\x22M47.7,29.1l-2\
+.8-2.8c-0.4-0.4-\
+1.1-0.4-1.6,0L42\
+,27.6l4.4,4.4l1.\
+3-1.3C48.1,30.3,\
+48.1,29.6,47.7,2\
+9.1z\x22/>\x0a    <rec\
+t x=\x2227.1\x22 y=\x2235\
+.1\x22 transform=\x22m\
+atrix(.707 -.707\
+ .707 .707 -16.5\
+08 36.511)\x22 fill\
+=\x22#FF9800\x22 width\
+=\x2217.4\x22 height=\x22\
+6.2\x22/>\x0a    <rect\
+ x=\x2241.5\x22 y=\x2227.\
+8\x22 transform=\x22ma\
+trix(-.707 .707 \
+-.707 -.707 95.3\
+95 22.352)\x22 fill\
+=\x22#B0BEC5\x22 width\
+=\x223.1\x22 height=\x226\
+.2\x22/>\x0a    <polyg\
+on fill=\x22#FFC107\
+\x22 points=\x2227.5,4\
+2.2 26,48 31.8,4\
+6.5\x22/>\x0a    <poly\
+gon fill=\x22#37474\
+F\x22 points=\x2226.7,\
+45 26,48 29,47.3\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x03\xe3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#455A6\
+4\x22 d=\x22M4,31V8c0-\
+2.2,1.8-4,4-4h12\
+c2.2,0,4,1.8,4,4\
+v23c0,2.2-1.8,4-\
+4,4H8C5.8,35,4,3\
+3.2,4,31z\x22/>\x0a   \
+ <path fill=\x22#BB\
+DEFB\x22 d=\x22M20,7H8\
+C7.4,7,7,7.4,7,8\
+v21c0,0.6,0.4,1,\
+1,1h12c0.6,0,1-0\
+.4,1-1V8C21,7.4,\
+20.6,7,20,7z\x22/>\x0a\
+    <circle fill\
+=\x22#37474F\x22 cx=\x221\
+4\x22 cy=\x2232.5\x22 r=\x22\
+1.5\x22/>\x0a    <path\
+ fill=\x22#546E7A\x22 \
+d=\x22M14,36V13c0-2\
+.2,1.8-4,4-4h12c\
+2.2,0,4,1.8,4,4v\
+23c0,2.2-1.8,4-4\
+,4H18C15.8,40,14\
+,38.2,14,36z\x22/>\x0a\
+    <path fill=\x22\
+#BBDEFB\x22 d=\x22M30,\
+12H18c-0.6,0-1,0\
+.4-1,1v21c0,0.6,\
+0.4,1,1,1h12c0.6\
+,0,1-0.4,1-1V13C\
+31,12.4,30.6,12,\
+30,12z\x22/>\x0a    <c\
+ircle fill=\x22#374\
+74F\x22 cx=\x2224\x22 cy=\
+\x2237.5\x22 r=\x221.5\x22/>\
+\x0a    <path fill=\
+\x22#E38939\x22 d=\x22M24\
+,40V18c0-2.2,1.8\
+-4,4-4h12c2.2,0,\
+4,1.8,4,4v22c0,2\
+.2-1.8,4-4,4H28C\
+25.8,44,24,42.2,\
+24,40z\x22/>\x0a    <p\
+ath fill=\x22#FFF3E\
+0\x22 d=\x22M40,17H28c\
+-0.6,0-1,0.4-1,1\
+v20c0,0.6,0.4,1,\
+1,1h12c0.6,0,1-0\
+.4,1-1V18C41,17.\
+4,40.6,17,40,17z\
+\x22/>\x0a    <circle \
+fill=\x22#A6642A\x22 c\
+x=\x2234\x22 cy=\x2241.5\x22\
+ r=\x221.5\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x02\x8f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a  \
+  <circle fill=\x22\
+#43A047\x22 cx=\x2238\x22\
+ cy=\x2238\x22 r=\x2210\x22/\
+>\x0a    <g fill=\x22#\
+fff\x22>\x0a        <r\
+ect x=\x2236\x22 y=\x2232\
+\x22 width=\x224\x22 heig\
+ht=\x2212\x22/>\x0a      \
+  <rect x=\x2232\x22 y\
+=\x2236\x22 width=\x2212\x22\
+ height=\x224\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
+\x00\x00\x03B\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x227\x22 y=\x2231\x22\
+ fill=\x22#00BCD4\x22 \
+width=\x2210\x22 heigh\
+t=\x2210\x22/>\x0a    <pa\
+th fill=\x22#00BCD4\
+\x22 d=\x22M35.3,19.3l\
+-5.6-5.6c-0.4-0.\
+4-0.4-1,0-1.4l5.\
+6-5.6c0.4-0.4,1-\
+0.4,1.4,0l5.6,5.\
+6c0.4,0.4,0.4,1,\
+0,1.4 l-5.6,5.6C\
+36.3,19.7,35.7,1\
+9.7,35.3,19.3z\x22/\
+>\x0a    <circle fi\
+ll=\x22#3F51B5\x22 cx=\
+\x2212\x22 cy=\x2213\x22 r=\x22\
+6\x22/>\x0a    <circle\
+ fill=\x22#448AFF\x22 \
+cx=\x2236\x22 cy=\x2236\x22 \
+r=\x226\x22/>\x0a    <g f\
+ill=\x22#90A4AE\x22>\x0a \
+       <rect x=\x22\
+11\x22 y=\x2224\x22 width\
+=\x222\x22 height=\x225\x22/\
+>\x0a        <polyg\
+on points=\x2212,21\
+ 9,25 15,25\x22/>\x0a \
+   </g>\x0a    <g f\
+ill=\x22#90A4AE\x22>\x0a \
+       <rect x=\x22\
+20\x22 y=\x2212\x22 width\
+=\x225\x22 height=\x222\x22/\
+>\x0a        <polyg\
+on points=\x2228,13\
+ 24,10 24,16\x22/>\x0a\
+    </g>\x0a    <g \
+fill=\x22#90A4AE\x22>\x0a\
+        <rect x=\
+\x2235\x22 y=\x2221\x22 widt\
+h=\x222\x22 height=\x225\x22\
+/>\x0a        <poly\
+gon points=\x2236,2\
+9 39,25 33,25\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x00\xef\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2240\
+,45 8,45 8,3 30,\
+3 40,13\x22/>\x0a    <\
+polygon fill=\x22#E\
+1F5FE\x22 points=\x223\
+8.5,14 29,14 29,\
+4.5\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x9e\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#9C2\
+7B0\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <path fill=\x22#E\
+1BEE7\x22 d=\x22M19.3,\
+28.1c0.3,1.3,0.2\
+,4.1,4.6,4.1c0.9\
+,0,4.8,0.2,4.7-7\
+.2v-1.6c0-6.7-3.\
+2-7.2-4.8-7.2 c-\
+2.3,0-4.2,0.6-4.\
+5,4.3h-4.8c0.1-1\
+.2,0.8-8.2,9.3-8\
+.2c4.2,0,9.7,2.5\
+,9.7,11.2V25c0,9\
+.6-6.5,11.2-9.6,\
+11.2c-3.7,0-8.7-\
+1.6-9.3-8.1 H19.\
+3z\x22/>\x0a</svg>\x0a\
+\x00\x00\x03z\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#37474F\x22>\
+\x0a        <rect x\
+=\x2223\x22 y=\x225\x22 widt\
+h=\x222\x22 height=\x2236\
+\x22/>\x0a        <rec\
+t x=\x2220.5\x22 y=\x2231\
+.4\x22 transform=\x22m\
+atrix(.707 .707 \
+-.707 .707 33.52\
+3 -3.921)\x22 width\
+=\x222\x22 height=\x2214.\
+2\x22/>\x0a        <re\
+ct x=\x2225.5\x22 y=\x223\
+1.4\x22 transform=\x22\
+matrix(-.707 .70\
+7 -.707 -.707 72\
+.487 46.995)\x22 wi\
+dth=\x222\x22 height=\x22\
+14.2\x22/>\x0a    </g>\
+\x0a    <rect x=\x224\x22\
+ y=\x228\x22 fill=\x22#CF\
+D8DC\x22 width=\x2240\x22\
+ height=\x2228\x22/>\x0a \
+   <g fill=\x22#607\
+D8B\x22>\x0a        <r\
+ect x=\x223\x22 y=\x227\x22 \
+width=\x2242\x22 heigh\
+t=\x224\x22/>\x0a        \
+<rect x=\x223\x22 y=\x223\
+5\x22 width=\x2242\x22 he\
+ight=\x222\x22/>\x0a     \
+   <circle cx=\x223\
+1.5\x22 cy=\x2243.5\x22 r\
+=\x221.5\x22/>\x0a       \
+ <circle cx=\x2216.\
+5\x22 cy=\x2243.5\x22 r=\x22\
+1.5\x22/>\x0a    </g>\x0a\
+    <g fill=\x22#C5\
+1162\x22>\x0a        <\
+polygon points=\x22\
+31.9,18.9 26,24.\
+9 20,18.9 11.9,2\
+6.9 14.1,29.1 20\
+,23.1 26,29.1 34\
+.1,21.1\x22/>\x0a     \
+   <polygon poin\
+ts=\x2236,24 29,17 \
+36,17\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x02\xb5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90A4A\
+E\x22 d=\x22M40,35v5H8\
+v-5H4v5c0,2.2,1.\
+8,4,4,4h32c2.2,0\
+,4-1.8,4-4v-5H40\
+z\x22/>\x0a    <g fill\
+=\x22#1565C0\x22>\x0a    \
+    <polygon poi\
+nts=\x2224,23.4 17,\
+15 31,15\x22/>\x0a    \
+    <rect x=\x2222\x22\
+ y=\x224\x22 width=\x224\x22\
+ height=\x2214\x22/>\x0a \
+       <path d=\x22\
+M31.5,26.9L30.8,\
+28l3.5,1.9l0.6-1\
+.2c1.6-3,2.6-4.7\
+,3.5-5.2C39.3,23\
+,41,23,44,23v-4 \
+C36.3,19,35.6,19\
+.4,31.5,26.9z\x22/>\
+\x0a        <polygo\
+n points=\x2238.4,3\
+1 29.4,35 28,25\x22\
+/>\x0a        <path\
+ d=\x22M16.5,26.9l0\
+.6,1.2L13.6,30L1\
+3,28.8c-1.6-3-2.\
+6-4.7-3.5-5.2C8.\
+7,23,7,23,4,23v-\
+4 C11.7,19,12.4,\
+19.4,16.5,26.9z\x22\
+/>\x0a        <poly\
+gon points=\x2220,2\
+5 18.6,35 9.6,31\
+\x22/>\x0a    </g>\x0a</s\
+vg>\x0a\
+\x00\x00\x01#\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x227,\
+41 7,23 25,41\x22/>\
+\x0a    <rect x=\x2222\
+.6\x22 y=\x225\x22 transf\
+orm=\x22matrix(.707\
+ .707 -.707 .707\
+ 22.912 -12.567)\
+\x22 fill=\x22#3F51B5\x22\
+ width=\x228\x22 heigh\
+t=\x2232.7\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x01\xa6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x226\x22 y=\x226\x22 \
+fill=\x22#2196F3\x22 w\
+idth=\x224\x22 height=\
+\x224\x22/>\x0a    <rect \
+x=\x226\x22 y=\x2214\x22 fil\
+l=\x22#2196F3\x22 widt\
+h=\x2212\x22 height=\x224\
+\x22/>\x0a    <rect x=\
+\x226\x22 y=\x2222\x22 fill=\
+\x22#2196F3\x22 width=\
+\x2220\x22 height=\x224\x22/\
+>\x0a    <rect x=\x226\
+\x22 y=\x2230\x22 fill=\x22#\
+2196F3\x22 width=\x222\
+8\x22 height=\x224\x22/>\x0a\
+    <rect x=\x226\x22 \
+y=\x2238\x22 fill=\x22#21\
+96F3\x22 width=\x2236\x22\
+ height=\x224\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x04\x01\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#607D8\
+B\x22 d=\x22M39.6,27.2\
+c0.1-0.7,0.2-1.4\
+,0.2-2.2s-0.1-1.\
+5-0.2-2.2l4.5-3.\
+2c0.4-0.3,0.6-0.\
+9,0.3-1.4L40,10.\
+8 c-0.3-0.5-0.8-\
+0.7-1.3-0.4l-5,2\
+.3c-1.2-0.9-2.4-\
+1.6-3.8-2.2l-0.5\
+-5.5c-0.1-0.5-0.\
+5-0.9-1-0.9h-8.6\
+c-0.5,0-1,0.4-1,\
+0.9l-0.5,5.5 c-1\
+.4,0.6-2.7,1.3-3\
+.8,2.2l-5-2.3c-0\
+.5-0.2-1.1,0-1.3\
+,0.4l-4.3,7.4c-0\
+.3,0.5-0.1,1.1,0\
+.3,1.4l4.5,3.2c-\
+0.1,0.7-0.2,1.4-\
+0.2,2.2 s0.1,1.5\
+,0.2,2.2L4,30.4c\
+-0.4,0.3-0.6,0.9\
+-0.3,1.4L8,39.2c\
+0.3,0.5,0.8,0.7,\
+1.3,0.4l5-2.3c1.\
+2,0.9,2.4,1.6,3.\
+8,2.2l0.5,5.5 c0\
+.1,0.5,0.5,0.9,1\
+,0.9h8.6c0.5,0,1\
+-0.4,1-0.9l0.5-5\
+.5c1.4-0.6,2.7-1\
+.3,3.8-2.2l5,2.3\
+c0.5,0.2,1.1,0,1\
+.3-0.4l4.3-7.4 c\
+0.3-0.5,0.1-1.1-\
+0.3-1.4L39.6,27.\
+2z M24,35c-5.5,0\
+-10-4.5-10-10c0-\
+5.5,4.5-10,10-10\
+c5.5,0,10,4.5,10\
+,10C34,30.5,29.5\
+,35,24,35z\x22/>\x0a  \
+  <path fill=\x22#4\
+55A64\x22 d=\x22M24,13\
+c-6.6,0-12,5.4-1\
+2,12c0,6.6,5.4,1\
+2,12,12s12-5.4,1\
+2-12C36,18.4,30.\
+6,13,24,13z M24,\
+30 c-2.8,0-5-2.2\
+-5-5c0-2.8,2.2-5\
+,5-5s5,2.2,5,5C2\
+9,27.8,26.8,30,2\
+4,30z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x01u\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00968\
+8\x22 d=\x22M37,39H11l\
+-6,6V11c0-3.3,2.\
+7-6,6-6h26c3.3,0\
+,6,2.7,6,6v22C43\
+,36.3,40.3,39,37\
+,39z\x22/>\x0a    <g f\
+ill=\x22#fff\x22>\x0a    \
+    <circle cx=\x22\
+24\x22 cy=\x2222\x22 r=\x223\
+\x22/>\x0a        <cir\
+cle cx=\x2234\x22 cy=\x22\
+22\x22 r=\x223\x22/>\x0a    \
+    <circle cx=\x22\
+14\x22 cy=\x2222\x22 r=\x223\
+\x22/>\x0a    </g>\x0a</s\
+vg>\x0a\
+\x00\x00\x02X\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#42424\
+2\x22 d=\x22M27,7h-6c-\
+1.7,0-3,1.3-3,3v\
+3h2v-3c0-0.6,0.4\
+-1,1-1h6c0.6,0,1\
+,0.4,1,1v3h2v-3C\
+30,8.3,28.7,7,27\
+,7z\x22/>\x0a    <path\
+ fill=\x22#E65100\x22 \
+d=\x22M40,43H8c-2.2\
+,0-4-1.8-4-4V15c\
+0-2.2,1.8-4,4-4h\
+32c2.2,0,4,1.8,4\
+,4v24C44,41.2,42\
+.2,43,40,43z\x22/>\x0a\
+    <path fill=\x22\
+#FF6E40\x22 d=\x22M40,\
+28H8c-2.2,0-4-1.\
+8-4-4v-9c0-2.2,1\
+.8-4,4-4h32c2.2,\
+0,4,1.8,4,4v9C44\
+,26.2,42.2,28,40\
+,28z\x22/>\x0a    <pat\
+h fill=\x22#FFF3E0\x22\
+ d=\x22M26,26h-4c-0\
+.6,0-1-0.4-1-1v-\
+2c0-0.6,0.4-1,1-\
+1h4c0.6,0,1,0.4,\
+1,1v2C27,25.6,26\
+.6,26,26,26z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x00\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <polygo\
+n points=\x224,24 1\
+8,12.3 18,35.7\x22/\
+>\x0a        <rect \
+x=\x2215\x22 y=\x2220\x22 wi\
+dth=\x2227\x22 height=\
+\x228\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x01\xe9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#00BCD4\x22>\
+\x0a        <rect x\
+=\x2219\x22 y=\x2222\x22 wid\
+th=\x2210\x22 height=\x22\
+20\x22/>\x0a        <r\
+ect x=\x226\x22 y=\x228\x22 \
+width=\x2210\x22 heigh\
+t=\x2234\x22/>\x0a       \
+ <rect x=\x2232\x22 y=\
+\x2230\x22 width=\x2210\x22 \
+height=\x2212\x22/>\x0a  \
+  </g>\x0a    <g fi\
+ll=\x22#3F51B5\x22>\x0a  \
+      <polygon p\
+oints=\x2242,12 32,\
+22 42,22\x22/>\x0a    \
+    <rect x=\x2232\x22\
+ y=\x226.9\x22 transfo\
+rm=\x22matrix(.707 \
+-.707 .707 .707 \
+.059 28.142)\x22 wi\
+dth=\x224\x22 height=\x22\
+14.1\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x00\xc5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#21\
+96F3\x22 points=\x225,\
+30.9 8.1,34 24,1\
+8.1 39.9,34 43,3\
+0.9 24,12\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x01)\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#B2D\
+FDB\x22 cx=\x2224\x22 cy=\
+\x2231\x22 r=\x2214\x22/>\x0a  \
+  <g fill=\x22#0096\
+88\x22>\x0a        <po\
+lygon points=\x2224\
+,3.3 33,14 15,14\
+\x22/>\x0a        <rec\
+t x=\x2221\x22 y=\x2211\x22 \
+width=\x226\x22 height\
+=\x2223\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x02\x16\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#F44336\x22>\
+\x0a        <polygo\
+n points=\x2230.3,1\
+2.9 24,19.2 15.7\
+,10.9 12.9,13.7 \
+24,24.8 33.1,15.\
+7\x22/>\x0a        <po\
+lygon points=\x2236\
+,19 27,10 36,10\x22\
+/>\x0a    </g>\x0a    \
+<path fill=\x22#009\
+688\x22 d=\x22M44.5,30\
+.8l-2.4-2.4c-8.5\
+-8.3-28.9-7.1-36\
+.2,0l-2.4,2.4c-0\
+.7,0.7-0.7,1.7,0\
+,2.4l4.8,4.7 c0.\
+7,0.7,1.7,0.7,2.\
+4,0l5.3-5.1l-0.4\
+-5.6c1.7-1.7,15.\
+1-1.7,16.8,0L32.\
+1,33l5.1,4.9c0.7\
+,0.7,1.7,0.7,2.4\
+,0l4.8-4.7 C45.2\
+,32.5,45.2,31.4,\
+44.5,30.8z\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x02\x8a\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#E3893\
+9\x22 d=\x22M12,40V8c0\
+-2.2,1.8-4,4-4h1\
+6c2.2,0,4,1.8,4,\
+4v32c0,2.2-1.8,4\
+-4,4H16C13.8,44,\
+12,42.2,12,40z\x22/\
+>\x0a    <path fill\
+=\x22#FFF3E0\x22 d=\x22M3\
+2,7H16c-0.6,0-1,\
+0.4-1,1v29c0,0.6\
+,0.4,1,1,1h16c0.\
+6,0,1-0.4,1-1V8C\
+33,7.4,32.6,7,32\
+,7z\x22/>\x0a    <circ\
+le fill=\x22#A6642A\
+\x22 cx=\x2224\x22 cy=\x2241\
+\x22 r=\x221.5\x22/>\x0a    \
+<circle fill=\x22#E\
+91E63\x22 cx=\x2224\x22 c\
+y=\x2223\x22 r=\x222\x22/>\x0a \
+   <circle fill=\
+\x22none\x22 stroke=\x22#\
+F48FB1\x22 stroke-w\
+idth=\x222\x22 stroke-\
+miterlimit=\x2210\x22 \
+cx=\x2224\x22 cy=\x2223\x22 \
+r=\x224\x22/>\x0a    <cir\
+cle fill=\x22none\x22 \
+stroke=\x22#F8BBD0\x22\
+ stroke-miterlim\
+it=\x2210\x22 cx=\x2224\x22 \
+cy=\x2223\x22 r=\x226.5\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x03\x18\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2196F\
+3\x22 d=\x22M33.5,27c-\
+2.2-3-5.2-5-9.5-\
+5s-7.3,2-9.5,5H3\
+3.5z\x22/>\x0a    <pat\
+h fill=\x22#546E7A\x22\
+ d=\x22M34.1,43H13.\
+9c-1.1,0-1.9-0.8\
+-2-1.9l-0.8-13C1\
+1.1,27,12,26,13.\
+1,26h21.8c1.2,0,\
+2.1,1,2,2.1l-0.8\
+,13 C36,42.2,35.\
+2,43,34.1,43z\x22/>\
+\x0a    <circle fil\
+l=\x22#B0BEC5\x22 cx=\x22\
+34\x22 cy=\x2229\x22 r=\x221\
+\x22/>\x0a    <g fill=\
+\x22#FFB74D\x22>\x0a     \
+   <circle cx=\x222\
+4\x22 cy=\x2212\x22 r=\x228\x22\
+/>\x0a        <path\
+ d=\x22M16.1,42.4L1\
+5,43.5c-0.6,0.6-\
+1.6,0.6-2.2,0l-3\
+.3-3.3c-0.6-0.6-\
+0.6-1.6,0-2.2l1.\
+1-1.1c1.3-1.3,3.\
+1-1.3,4.4,0 l1.1\
+,1.1C17.3,39.3,1\
+7.3,41.2,16.1,42\
+.4z\x22/>\x0a        <\
+path d=\x22M31.9,38\
+l1.1-1.1c1.3-1.3\
+,3.1-1.3,4.4,0l1\
+.1,1.1c0.6,0.6,0\
+.6,1.6,0,2.2l-3.\
+3,3.3c-0.6,0.6-1\
+.6,0.6-2.2,0 l-1\
+.1-1.1C30.7,41.2\
+,30.7,39.3,31.9,\
+38z\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x01m\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <polygo\
+n points=\x2229,23 \
+19,23 7,9 41,9\x22/\
+>\x0a        <polyg\
+on points=\x2229,38\
+ 19,44 19,23 29,\
+23\x22/>\x0a        <p\
+ath d=\x22M41.5,9h-\
+35C5.7,9,5,8.3,5\
+,7.5v0C5,6.7,5.7\
+,6,6.5,6h35C42.3\
+,6,43,6.7,43,7.5\
+v0C43,8.3,42.3,9\
+,41.5,9z\x22/>\x0a    \
+</g>\x0a</svg>\x0a\
+\x00\x00\x02p\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M34.9,29.1\
+c-2.7-2.7-7.1-2.\
+7-9.8,0l-4,4c-1.\
+7,1.7-4.5,1.7-6.\
+2,0c-1.7-1.7-1.7\
+-4.5,0-6.2l4.5-4\
+.5l-2.8-2.8 l-4.\
+5,4.5c-3.3,3.3-3\
+.3,8.6,0,11.8c3.\
+3,3.3,8.6,3.3,11\
+.8,0l4-4c1.2-1.1\
+,3-1.1,4.2,0c1.1\
+,1.2,1.1,3,0,4.2\
+L27,41.2l2.8,2.8\
+l5.1-5.1 C37.6,3\
+6.2,37.6,31.8,34\
+.9,29.1z\x22/>\x0a    \
+<path fill=\x22#027\
+7BD\x22 d=\x22M16.1,22\
+.9L16.1,22.9c-2.\
+8-2.8-2.8-7.3,0-\
+10l6.8-6.8c2.8-2\
+.8,7.3-2.8,10,0l\
+0,0c2.8,2.8,2.8,\
+7.3,0,10 l-6.8,6\
+.8C23.3,25.7,18.\
+9,25.7,16.1,22.9\
+z\x22/>\x0a    <circle\
+ fill=\x22#B3E5FC\x22 \
+cx=\x2228\x22 cy=\x2211\x22 \
+r=\x224\x22/>\x0a</svg>\x0a\
+\x00\x00\x04\x10\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#546E7\
+A\x22 d=\x22M14,13H8v-\
+1.8C8,10.5,8.5,1\
+0,9.2,10h3.6c0.7\
+,0,1.2,0.5,1.2,1\
+.2V13z\x22/>\x0a    <p\
+ath fill=\x22#5E35B\
+1\x22 d=\x22M40,40H8c-\
+2.2,0-4-1.8-4-4V\
+22h40v14C44,38.2\
+,42.2,40,40,40z\x22\
+/>\x0a    <path fil\
+l=\x22#42257A\x22 d=\x22M\
+12.7,22c-0.4,1.3\
+-0.7,2.6-0.7,4c0\
+,6.6,5.4,12,12,1\
+2s12-5.4,12-12c0\
+-1.4-0.3-2.7-0.7\
+-4H12.7z\x22/>\x0a    \
+<path fill=\x22#789\
+09C\x22 d=\x22M8,12h32\
+c2.2,0,4,1.8,4,4\
+v6H4v-6C4,13.8,5\
+.8,12,8,12z\x22/>\x0a \
+   <path fill=\x22#\
+78909C\x22 d=\x22M33.9\
+,13.1H14.2L17.6,\
+8c0.4-0.6,1-0.9,\
+1.7-0.9h9.6c0.7,\
+0,1.3,0.3,1.7,0.\
+9L33.9,13.1z\x22/>\x0a\
+    <path fill=\x22\
+#455A64\x22 d=\x22M35.\
+3,22c-1.6-4.7-6.\
+1-8-11.3-8s-9.7,\
+3.3-11.3,8H35.3z\
+\x22/>\x0a    <circle \
+fill=\x22#B388FF\x22 c\
+x=\x2224\x22 cy=\x2226\x22 r\
+=\x229\x22/>\x0a    <path\
+ fill=\x22#C7A7FF\x22 \
+d=\x22M29,23c-1.2-1\
+.4-3-2.2-4.8-2.2\
+c-1.8,0-3.6,0.8-\
+4.8,2.2c-0.5,0.5\
+-0.4,1.3,0.1,1.8\
+c0.5,0.5,1.3,0.4\
+,1.8-0.1 c1.5-1.\
+7,4.3-1.7,5.8,0c\
+0.3,0.3,0.6,0.4,\
+1,0.4c0.3,0,0.6-\
+0.1,0.9-0.3C29.4\
+,24.4,29.5,23.5,\
+29,23z\x22/>\x0a    <r\
+ect x=\x2236\x22 y=\x2215\
+\x22 fill=\x22#DBE2E5\x22\
+ width=\x225\x22 heigh\
+t=\x224\x22/>\x0a</svg>\x0a\
+\x00\x00\x06\x12\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#E6510\
+0\x22 d=\x22M25.6,34.4\
+c0.1-0.4,0.1-0.9\
+,0.1-1.4s0-0.9-0\
+.1-1.4l2.8-2c0.3\
+-0.2,0.4-0.6,0.2\
+-0.9l-2.7-4.6 c-\
+0.2-0.3-0.5-0.4-\
+0.8-0.3L22,25.3c\
+-0.7-0.6-1.5-1-2\
+.4-1.4l-0.3-3.4c\
+0-0.3-0.3-0.6-0.\
+6-0.6h-5.3c-0.3,\
+0-0.6,0.3-0.6,0.\
+6L12.4,24 c-0.9,\
+0.3-1.6,0.8-2.4,\
+1.4l-3.1-1.4c-0.\
+3-0.1-0.7,0-0.8,\
+0.3l-2.7,4.6c-0.\
+2,0.3-0.1,0.7,0.\
+2,0.9l2.8,2c-0.1\
+,0.4-0.1,0.9-0.1\
+,1.4 s0,0.9,0.1,\
+1.4l-2.8,2c-0.3,\
+0.2-0.4,0.6-0.2,\
+0.9l2.7,4.6c0.2,\
+0.3,0.5,0.4,0.8,\
+0.3l3.1-1.4c0.7,\
+0.6,1.5,1,2.4,1.\
+4l0.3,3.4 c0,0.3\
+,0.3,0.6,0.6,0.6\
+h5.3c0.3,0,0.6-0\
+.3,0.6-0.6l0.3-3\
+.4c0.9-0.3,1.6-0\
+.8,2.4-1.4l3.1,1\
+.4c0.3,0.1,0.7,0\
+,0.8-0.3l2.7-4.6\
+ c0.2-0.3,0.1-0.\
+7-0.2-0.9L25.6,3\
+4.4z M16,38c-2.8\
+,0-5-2.2-5-5c0-2\
+.8,2.2-5,5-5c2.8\
+,0,5,2.2,5,5C21,\
+35.8,18.8,38,16,\
+38z\x22/>\x0a    <path\
+ fill=\x22#FFA000\x22 \
+d=\x22M41.9,15.3C42\
+,14.8,42,14.4,42\
+,14s0-0.8-0.1-1.\
+3l2.5-1.8c0.3-0.\
+2,0.3-0.5,0.2-0.\
+8l-2.5-4.3 c-0.2\
+-0.3-0.5-0.4-0.8\
+-0.2l-2.9,1.3c-0\
+.7-0.5-1.4-0.9-2\
+.2-1.3l-0.3-3.1C\
+36,2.2,35.8,2,35\
+.5,2h-4.9c-0.3,0\
+-0.6,0.2-0.6,0.5\
+l-0.3,3.1 c-0.8,\
+0.3-1.5,0.7-2.2,\
+1.3l-2.9-1.3c-0.\
+3-0.1-0.6,0-0.8,\
+0.2l-2.5,4.3c-0.\
+2,0.3-0.1,0.6,0.\
+2,0.8l2.5,1.8C24\
+,13.2,24,13.6,24\
+,14 s0,0.8,0.1,1\
+.3l-2.5,1.8c-0.3\
+,0.2-0.3,0.5-0.2\
+,0.8l2.5,4.3c0.2\
+,0.3,0.5,0.4,0.8\
+,0.2l2.9-1.3c0.7\
+,0.5,1.4,0.9,2.2\
+,1.3l0.3,3.1 c0,\
+0.3,0.3,0.5,0.6,\
+0.5h4.9c0.3,0,0.\
+6-0.2,0.6-0.5l0.\
+3-3.1c0.8-0.3,1.\
+5-0.7,2.2-1.3l2.\
+9,1.3c0.3,0.1,0.\
+6,0,0.8-0.2l2.5-\
+4.3 c0.2-0.3,0.1\
+-0.6-0.2-0.8L41.\
+9,15.3z M33,19c-\
+2.8,0-5-2.2-5-5c\
+0-2.8,2.2-5,5-5c\
+2.8,0,5,2.2,5,5C\
+38,16.8,35.8,19,\
+33,19z\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x02$\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <rect x=\x2216\x22 y=\
+\x2224\x22 fill=\x22#F443\
+36\x22 width=\x2216\x22 h\
+eight=\x224\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x02\xeb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x229\x22 y=\x224\x22 \
+fill=\x22#FBE9E7\x22 w\
+idth=\x2230\x22 height\
+=\x2240\x22/>\x0a    <g f\
+ill=\x22#F4511E\x22>\x0a \
+       <polygon \
+points=\x2230,37 32\
+.8,37 27.8,32 25\
+,34.8 30,39.8\x22/>\
+\x0a        <polygo\
+n points=\x2218,37 \
+15.2,37 20.2,32 \
+23,34.8 18,39.8\x22\
+/>\x0a    </g>\x0a    \
+<rect x=\x2215\x22 y=\x22\
+13\x22 fill=\x22#FF8A6\
+5\x22 width=\x2218\x22 he\
+ight=\x224\x22/>\x0a    <\
+rect x=\x2215\x22 y=\x222\
+0\x22 fill=\x22#FF8A65\
+\x22 width=\x2218\x22 hei\
+ght=\x222\x22/>\x0a    <p\
+ath fill=\x22#FF8A6\
+5\x22 d=\x22M24,26c-2.\
+8,0-5,2.2-5,5s2.\
+2,5,5,5s5-2.2,5-\
+5S26.8,26,24,26z\
+ M24,34c-1.7,0-3\
+-1.3-3-3s1.3-3,3\
+-3s3,1.3,3,3 S25\
+.7,34,24,34z\x22/>\x0a\
+    <path fill=\x22\
+#FF8A65\x22 d=\x22M8,3\
+v42h32V3H8z M38,\
+40c-1.7,0-3,1.3-\
+3,3H13c0-1.7-1.3\
+-3-3-3V8c1.7,0,3\
+-1.3,3-3h22c0,1.\
+7,1.3,3,3,3V40z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x06<\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0a<svg\x0a   vi\
+ewBox=\x220 0 48 48\
+\x22\x0a   width=\x2248px\
+\x22\x0a   height=\x2248p\
+x\x22\x0a   version=\x221\
+.1\x22\x0a   id=\x22svg4\x22\
+\x0a   sodipodi:doc\
+name=\x22Master.svg\
+\x22\x0a   inkscape:ve\
+rsion=\x221.4.2 (f4\
+327f4, 2025-05-1\
+3)\x22\x0a   xmlns:ink\
+scape=\x22http://ww\
+w.inkscape.org/n\
+amespaces/inksca\
+pe\x22\x0a   xmlns:sod\
+ipodi=\x22http://so\
+dipodi.sourcefor\
+ge.net/DTD/sodip\
+odi-0.dtd\x22\x0a   xm\
+lns=\x22http://www.\
+w3.org/2000/svg\x22\
+\x0a   xmlns:svg=\x22h\
+ttp://www.w3.org\
+/2000/svg\x22>\x0a  <d\
+efs\x0a     id=\x22def\
+s4\x22 />\x0a  <sodipo\
+di:namedview\x0a   \
+  id=\x22namedview4\
+\x22\x0a     pagecolor\
+=\x22#ffffff\x22\x0a     \
+bordercolor=\x22#00\
+0000\x22\x0a     borde\
+ropacity=\x220.25\x22\x0a\
+     inkscape:sh\
+owpageshadow=\x222\x22\
+\x0a     inkscape:p\
+ageopacity=\x220.0\x22\
+\x0a     inkscape:p\
+agecheckerboard=\
+\x220\x22\x0a     inkscap\
+e:deskcolor=\x22#d1\
+d1d1\x22\x0a     inksc\
+ape:zoom=\x2218.906\
+25\x22\x0a     inkscap\
+e:cx=\x2218.459504\x22\
+\x0a     inkscape:c\
+y=\x2222.241322\x22\x0a  \
+   inkscape:wind\
+ow-width=\x223840\x22\x0a\
+     inkscape:wi\
+ndow-height=\x22205\
+4\x22\x0a     inkscape\
+:window-x=\x223061\x22\
+\x0a     inkscape:w\
+indow-y=\x22-11\x22\x0a  \
+   inkscape:wind\
+ow-maximized=\x221\x22\
+\x0a     inkscape:c\
+urrent-layer=\x22sv\
+g4\x22 />\x0a  <path\x0a \
+    fill=\x22#0078d\
+4\x22\x0a     d=\x22M42,3\
+7c0,2.762-2.238,\
+5-5,5H11c-2.761,\
+0-5-2.238-5-5V11\
+c0-2.762,2.239-5\
+,5-5h26c2.762,0,\
+5,2.238,5,5 V37z\
+\x22\x0a     id=\x22path1\
+\x22 />\x0a  <path\x0a   \
+  d=\x22m 12.792046\
+,35.676033 v -22\
+.90625 h 6.92187\
+5 l 4.15625,15.6\
+25 4.109375,-15.\
+625 h 6.9375 v 2\
+2.90625 h -4.296\
+875 v -18.03125 \
+l -4.546875,18.0\
+3125 h -4.453125\
+ l -4.53125,-18.\
+03125 v 18.03125\
+ z\x22\x0a     id=\x22tex\
+t4\x22\x0a     style=\x22\
+font-weight:bold\
+;font-size:32px;\
+line-height:0;fo\
+nt-family:Arial;\
+-inkscape-font-s\
+pecification:'Ar\
+ial Bold';text-a\
+lign:center;text\
+-anchor:middle;f\
+ill:#ffffff\x22\x0a   \
+  aria-label=\x22M\x22\
+ />\x0a</svg>\x0a\
+\x00\x00\x02\x8c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#42\
+A5F5\x22 points=\x2236\
+,44 8,44 8,8 28,\
+8 36,16\x22/>\x0a    <\
+polygon fill=\x22#9\
+0CAF9\x22 points=\x224\
+0,40 12,40 12,4 \
+32,4 40,12\x22/>\x0a  \
+  <polygon fill=\
+\x22#E1F5FE\x22 points\
+=\x2238.5,13 31,13 \
+31,5.5\x22/>\x0a    <p\
+ath fill=\x22#1976D\
+2\x22 d=\x22M23.4,29.9\
+c0-0.2,0-0.4,0.1\
+-0.6s0.2-0.3,0.3\
+-0.5s0.3-0.2,0.5\
+-0.3s0.4-0.1,0.6\
+-0.1s0.5,0,0.7,0\
+.1 s0.4,0.2,0.5,\
+0.3s0.2,0.3,0.3,\
+0.5s0.1,0.4,0.1,\
+0.6s0,0.4-0.1,0.\
+6s-0.2,0.3-0.3,0\
+.5s-0.3,0.2-0.5,\
+0.3s-0.4,0.1-0.7\
+,0.1 s-0.5,0-0.6\
+-0.1s-0.4-0.2-0.\
+5-0.3s-0.2-0.3-0\
+.3-0.5S23.4,30.1\
+,23.4,29.9z M26.\
+1,26.8h-2.3L23.4\
+,17h3L26.1,26.8z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x02K\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#1976D2\x22>\
+\x0a        <path d\
+=\x22M38,13h-3c-5.5\
+,0-10,4.5-10,10s\
+4.5,10,10,10h3c5\
+.5,0,10-4.5,10-1\
+0S43.5,13,38,13z\
+ M38,29h-3 c-3.3\
+,0-6-2.7-6-6s2.7\
+-6,6-6h3c3.3,0,6\
+,2.7,6,6S41.3,29\
+,38,29z\x22/>\x0a     \
+   <path d=\x22M13,\
+13h-3C4.5,13,0,1\
+7.5,0,23s4.5,10,\
+10,10h3c5.5,0,10\
+-4.5,10-10S18.5,\
+13,13,13z M13,29\
+h-3 c-3.3,0-6-2.\
+7-6-6s2.7-6,6-6h\
+3c3.3,0,6,2.7,6,\
+6S16.3,29,13,29z\
+\x22/>\x0a    </g>\x0a   \
+ <path fill=\x22#42\
+A5F5\x22 d=\x22M33,21H\
+15c-1.1,0-2,0.9-\
+2,2s0.9,2,2,2h18\
+c1.1,0,2-0.9,2-2\
+S34.1,21,33,21z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x02\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <path fill=\x22#02\
+77BD\x22 d=\x22M21.8,2\
+9.6c0-6.6,5.1-6.\
+2,5.1-10.2c0-1-0\
+.3-3-2.9-3c-2.8,\
+0-3,2.3-3,2.8h-3\
+.8c0-1,0.4-6,6.8\
+-6 c6.5,0,6.7,5.\
+1,6.7,6c0,4.9-5.\
+4,5.6-5.4,10.3H2\
+1.8z M21.5,34.5c\
+0-0.3,0.1-2.1,2.\
+1-2.1c2,0,2.2,1.\
+8,2.2,2.1c0,0.6-\
+0.3,2-2.2,2 C21.\
+8,36.5,21.5,35.1\
+,21.5,34.5z\x22/>\x0a<\
+/svg>\x0a\
+\x00\x00\x01\x8e\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#1565C0\x22>\
+\x0a        <polygo\
+n points=\x2224,37.\
+1 13,24 35,24\x22/>\
+\x0a        <rect x\
+=\x2220\x22 y=\x224\x22 widt\
+h=\x228\x22 height=\x224\x22\
+/>\x0a        <rect\
+ x=\x2220\x22 y=\x2210\x22 w\
+idth=\x228\x22 height=\
+\x224\x22/>\x0a        <r\
+ect x=\x2220\x22 y=\x2216\
+\x22 width=\x228\x22 heig\
+ht=\x2211\x22/>\x0a      \
+  <rect x=\x226\x22 y=\
+\x2240\x22 width=\x2236\x22 \
+height=\x224\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x01\x22\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F4433\
+6\x22 d=\x22M38,42H10c\
+-2.2,0-4-1.8-4-4\
+V10c0-2.2,1.8-4,\
+4-4h28c2.2,0,4,1\
+.8,4,4v28C42,40.\
+2,40.2,42,38,42z\
+\x22/>\x0a    <polygon\
+ fill=\x22#fff\x22 poi\
+nts=\x2231,24 20,16\
+ 20,32\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x02\xca\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#F44336\x22>\
+\x0a        <rect x\
+=\x2240\x22 y=\x2234\x22 wid\
+th=\x224\x22 height=\x221\
+0\x22/>\x0a        <re\
+ct x=\x2234\x22 y=\x2229\x22\
+ width=\x224\x22 heigh\
+t=\x2215\x22/>\x0a       \
+ <rect x=\x2228\x22 y=\
+\x2233\x22 width=\x224\x22 h\
+eight=\x2211\x22/>\x0a   \
+     <rect x=\x2222\
+\x22 y=\x2225\x22 width=\x22\
+4\x22 height=\x2219\x22/>\
+\x0a        <rect x\
+=\x2216\x22 y=\x2228\x22 wid\
+th=\x224\x22 height=\x221\
+6\x22/>\x0a        <re\
+ct x=\x2210\x22 y=\x2224\x22\
+ width=\x224\x22 heigh\
+t=\x2220\x22/>\x0a       \
+ <rect x=\x224\x22 y=\x22\
+19\x22 width=\x224\x22 he\
+ight=\x2225\x22/>\x0a    \
+</g>\x0a    <g fill\
+=\x22#D32F2F\x22>\x0a    \
+    <polygon poi\
+nts=\x2234,13.2 30,\
+17.2 20,7.2 15,1\
+2.2 7.4,4.6 4.6,\
+7.4 15,17.8 20,1\
+2.8 30,22.8 34,1\
+8.8 40.1,24.9 42\
+.9,22.1\x22/>\x0a     \
+   <polygon poin\
+ts=\x2244,26 35,26 \
+44,17\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x00\xb0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x228\x22 y=\x2221\x22\
+ fill=\x22#5C6BC0\x22 \
+width=\x2232\x22 heigh\
+t=\x226\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xf5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2236\
+,13 36,9 22,9 22\
+,22 13,22 13,26 \
+22,26 22,39 36,3\
+9 36,35 26,35 26\
+,26 36,26 36,22 \
+26,22 26,13\x22/>\x0a \
+   <rect x=\x226\x22 y\
+=\x2217\x22 fill=\x22#D81\
+B60\x22 width=\x2210\x22 \
+height=\x2214\x22/>\x0a  \
+  <rect x=\x2232\x22 y\
+=\x226\x22 fill=\x22#2196\
+F3\x22 width=\x2210\x22 h\
+eight=\x2210\x22/>\x0a   \
+ <rect x=\x2232\x22 y=\
+\x2232\x22 fill=\x22#2196\
+F3\x22 width=\x2210\x22 h\
+eight=\x2210\x22/>\x0a   \
+ <rect x=\x2232\x22 y=\
+\x2219\x22 fill=\x22#2196\
+F3\x22 width=\x2210\x22 h\
+eight=\x2210\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x03\xf2\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#FF9\
+800\x22 cx=\x2228\x22 cy=\
+\x229\x22 r=\x225\x22/>\x0a    \
+<path fill=\x22#007\
+96B\x22 d=\x22M29,27.3\
+l-9.2-4.1c-1-0.5\
+-1.5,1-2,2c-0.5,\
+1-4.1,7.2-3.8,8.\
+3c0.3,0.9,1.1,1.\
+4,1.9,1.4c0.2,0,\
+0.4,0,0.6-0.1 L2\
+8.8,31c0.8-0.2,1\
+.4-1,1.4-1.8C30.\
+2,28.4,29.7,27.6\
+,29,27.3z\x22/>\x0a   \
+ <path fill=\x22#00\
+9688\x22 d=\x22M26.8,1\
+5.2l-2.2-1c-1.3-\
+0.6-2.9,0-3.5,1.\
+3L9.2,41.1c-0.5,\
+1,0,2.2,1,2.7c0.\
+3,0.1,0.6,0.2,0.\
+9,0.2 c0.8,0,1.5\
+-0.4,1.8-1.1c0,0\
+,9.6-13.3,10.4-1\
+4.9s4.9-9.3,4.9-\
+9.3C28.7,17.4,28\
+.2,15.8,26.8,15.\
+2z\x22/>\x0a    <path \
+fill=\x22#FF9800\x22 d\
+=\x22M40.5,15.7c-0.\
+7-0.8-2-1-2.8-0.\
+3l-5,4.2l-6.4-3.\
+5c-1.1-0.6-2.6-0\
+.4-3.3,0.9c-0.8,\
+1.3-0.4,2.9,0.8,\
+3.4 l8.3,3.4c0.3\
+,0.1,0.6,0.2,0.9\
+,0.2c0.5,0,0.9-0\
+.2,1.3-0.5l6-5C4\
+1.1,17.8,41.2,16\
+.6,40.5,15.7z\x22/>\
+\x0a    <path fill=\
+\x22#FF9800\x22 d=\x22M11\
+.7,23.1l3.4-5.1l\
+4.6,0.6l1.5-3.1c\
+0.4-0.9,1.2-1.4,\
+2.1-1.5c-0.1,0-0\
+.2,0-0.2,0h-9c-0\
+.7,0-1.3,0.3-1.7\
+,0.9 l-4,6c-0.6,\
+0.9-0.4,2.2,0.6,\
+2.8C9.2,23.9,9.6\
+,24,10,24C10.6,2\
+4,11.3,23.7,11.7\
+,23.1z\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x02\xc0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M4,39V7c0-\
+2.2,1.8-4,4-4h22\
+c2.2,0,4,1.8,4,4\
+v32c0,2.2-1.8,4-\
+4,4H8C5.8,43,4,4\
+1.2,4,39z\x22/>\x0a   \
+ <path fill=\x22#BB\
+DEFB\x22 d=\x22M30,6H8\
+C7.4,6,7,6.4,7,7\
+v29c0,0.6,0.4,1,\
+1,1h22c0.6,0,1-0\
+.4,1-1V7C31,6.4,\
+30.6,6,30,6z\x22/>\x0a\
+    <rect x=\x2215\x22\
+ y=\x2239\x22 fill=\x22#7\
+8909C\x22 width=\x226\x22\
+ height=\x222\x22/>\x0a  \
+  <path fill=\x22#E\
+38939\x22 d=\x22M24,41\
+V17c0-2.2,1.8-4,\
+4-4h12c2.2,0,4,1\
+.8,4,4v24c0,2.2-\
+1.8,4-4,4H28C25.\
+8,45,24,43.2,24,\
+41z\x22/>\x0a    <path\
+ fill=\x22#FFF3E0\x22 \
+d=\x22M40,16H28c-0.\
+6,0-1,0.4-1,1v22\
+c0,0.6,0.4,1,1,1\
+h12c0.6,0,1-0.4,\
+1-1V17C41,16.4,4\
+0.6,16,40,16z\x22/>\
+\x0a    <circle fil\
+l=\x22#A6642A\x22 cx=\x22\
+34\x22 cy=\x2242.5\x22 r=\
+\x221.5\x22/>\x0a</svg>\x0a\
+\x00\x00\x03\xd3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#E0E0E\
+0\x22 d=\x22M27.8,39.7\
+c-0.1,0-0.2,0-0.\
+4-0.1c-0.2-0.1-0\
+.4-0.3-0.6-0.5l-\
+3.7-8.6l-4.5,4.2\
+C18.5,34.9,18.3,\
+35,18,35 c-0.1,0\
+-0.3,0-0.4-0.1C1\
+7.3,34.8,17,34.4\
+,17,34l0-22c0-0.\
+4,0.2-0.8,0.6-0.\
+9C17.7,11,17.9,1\
+1,18,11c0.2,0,0.\
+5,0.1,0.7,0.3l16\
+,15 c0.3,0.3,0.4\
+,0.7,0.3,1.1c-0.\
+1,0.4-0.5,0.6-0.\
+9,0.7l-6.3,0.6l3\
+.9,8.5c0.1,0.2,0\
+.1,0.5,0,0.8c-0.\
+1,0.2-0.3,0.5-0.\
+5,0.6l-2.9,1.3 C\
+28.1,39.7,27.9,3\
+9.7,27.8,39.7z\x22/\
+>\x0a    <path fill\
+=\x22#212121\x22 d=\x22M1\
+8,12l16,15l-7.7,\
+0.7l4.5,9.8l-2.9\
+,1.3l-4.3-9.9L18\
+,34L18,12 M18,10\
+c-0.3,0-0.5,0.1-\
+0.8,0.2 c-0.7,0.\
+3-1.2,1-1.2,1.8l\
+0,22c0,0.8,0.5,1\
+.5,1.2,1.8C17.5,\
+36,17.8,36,18,36\
+c0.5,0,1-0.2,1.4\
+-0.5l3.4-3.2l3.1\
+,7.3 c0.2,0.5,0.\
+6,0.9,1.1,1.1c0.\
+2,0.1,0.5,0.1,0.\
+7,0.1c0.3,0,0.5-\
+0.1,0.8-0.2l2.9-\
+1.3c0.5-0.2,0.9-\
+0.6,1.1-1.1c0.2-\
+0.5,0.2-1.1,0-1.\
+5 l-3.3-7.2l4.9-\
+0.4c0.8-0.1,1.5-\
+0.6,1.7-1.3c0.3-\
+0.7,0.1-1.6-0.5-\
+2.1l-16-15C19,10\
+.2,18.5,10,18,10\
+L18,10z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x01\x03\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#B0\
+BEC5\x22 points=\x2243\
+,16 5,16 4,20 9,\
+23 7,20 41,20 39\
+,23 44,20\x22/>\x0a   \
+ <polygon fill=\x22\
+#78909C\x22 points=\
+\x227,20 41,20 37,3\
+6 11,36\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x01\xae\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#4CAF5\
+0\x22 d=\x22M48,24c0-6\
+.1-4.9-11-11-11s\
+-11,4.9-11,11c0,\
+2.7,0.9,5.1,2.5,\
+7h-9c1.6-1.9,2.5\
+-4.3,2.5-7c0-6.1\
+-4.9-11-11-11 S0\
+,17.9,0,24s4.9,1\
+1,11,11h27v-0.1C\
+43.6,34.4,48,29.\
+7,48,24z M4,24c0\
+-3.9,3.1-7,7-7s7\
+,3.1,7,7s-3.1,7-\
+7,7S4,27.9,4,24z\
+ M37,31 c-3.9,0-\
+7-3.1-7-7s3.1-7,\
+7-7c3.9,0,7,3.1,\
+7,7S40.9,31,37,3\
+1z\x22/>\x0a</svg>\x0a\
+\x00\x00\x03\x8d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#FF\
+9800\x22 points=\x2224\
+,37 19,31 19,25 \
+29,25 29,31\x22/>\x0a \
+   <g fill=\x22#FFA\
+726\x22>\x0a        <c\
+ircle cx=\x2233\x22 cy\
+=\x2219\x22 r=\x222\x22/>\x0a  \
+      <circle cx\
+=\x2215\x22 cy=\x2219\x22 r=\
+\x222\x22/>\x0a    </g>\x0a \
+   <path fill=\x22#\
+FFB74D\x22 d=\x22M33,1\
+3c0-7.6-18-5-18,\
+0c0,1.1,0,5.9,0,\
+7c0,5,4,9,9,9s9-\
+4,9-9C33,18.9,33\
+,14.1,33,13z\x22/>\x0a\
+    <path fill=\x22\
+#424242\x22 d=\x22M24,\
+4c-6.1,0-10,4.9-\
+10,11c0,0.8,0,2.\
+3,0,2.3l2,1.7v-5\
+l12-4l4,4v5l2-1.\
+7c0,0,0-1.5,0-2.\
+3c0-4-1-8-6-9l-1\
+-2 H24z\x22/>\x0a    <\
+g fill=\x22#784719\x22\
+>\x0a        <circl\
+e cx=\x2228\x22 cy=\x2219\
+\x22 r=\x221\x22/>\x0a      \
+  <circle cx=\x2220\
+\x22 cy=\x2219\x22 r=\x221\x22/\
+>\x0a    </g>\x0a    <\
+polygon fill=\x22#f\
+ff\x22 points=\x2224,4\
+3 19,31 24,32 29\
+,31\x22/>\x0a    <poly\
+gon fill=\x22#D32F2\
+F\x22 points=\x2223,35\
+ 22.3,39.5 24,43\
+.5 25.7,39.5 25,\
+35 26,34 24,32 2\
+2,34\x22/>\x0a    <pat\
+h fill=\x22#546E7A\x22\
+ d=\x22M29,31L29,31\
+l-5,12l-5-12c0,0\
+-11,2-11,13h32C4\
+0,33,29,31,29,31\
+z\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\x0d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#E6510\
+0\x22 d=\x22M41,42H13c\
+-2.2,0-4-1.8-4-4\
+V18c0-2.2,1.8-4,\
+4-4h28c2.2,0,4,1\
+.8,4,4v20C45,40.\
+2,43.2,42,41,42z\
+\x22/>\x0a    <path fi\
+ll=\x22#F57C00\x22 d=\x22\
+M35,36H7c-2.2,0-\
+4-1.8-4-4V12c0-2\
+.2,1.8-4,4-4h28c\
+2.2,0,4,1.8,4,4v\
+20C39,34.2,37.2,\
+36,35,36z\x22/>\x0a   \
+ <circle fill=\x22#\
+FFF9C4\x22 cx=\x2230\x22 \
+cy=\x2216\x22 r=\x223\x22/>\x0a\
+    <polygon fil\
+l=\x22#942A09\x22 poin\
+ts=\x2217,17.9 8,31\
+ 26,31\x22/>\x0a    <p\
+olygon fill=\x22#BF\
+360C\x22 points=\x2228\
+,23.5 22,31 34,3\
+1\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\x00\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#1565C0\x22>\
+\x0a        <path d\
+=\x22M13,13c0-3.3,2\
+.7-6,6-6h10c3.3,\
+0,6,2.7,6,6h4c0-\
+5.5-4.5-10-10-10\
+H19C13.5,3,9,7.5\
+,9,13v11.2h4V13z\
+\x22/>\x0a        <pol\
+ygon points=\x224.6\
+,22 11,30.4 17.4\
+,22\x22/>\x0a    </g>\x0a\
+    <g fill=\x22#15\
+65C0\x22>\x0a        <\
+path d=\x22M35,35c0\
+,3.3-2.7,6-6,6H1\
+9c-3.3,0-6-2.7-6\
+-6H9c0,5.5,4.5,1\
+0,10,10h10c5.5,0\
+,10-4.5,10-10V23\
+h-4V35z\x22/>\x0a     \
+   <polygon poin\
+ts=\x2230.6,26 37,1\
+7.6 43.4,26\x22/>\x0a \
+   </g>\x0a</svg>\x0a\
+\x00\x00\x01\xd6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x01\x03\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2242\
+,37 6,37 6,25 16\
+,10 30,17 42,6\x22/\
+>\x0a    <polygon f\
+ill=\x22#00BCD4\x22 po\
+ints=\x2242,42 6,42\
+ 6,32 16,24 30,2\
+6 42,17\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x02\xe0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#CF\
+D8DC\x22 points=\x2240\
+,9 40,7 31,7 31,\
+12 24,12 15,12 1\
+5,23 8,23 8,25 1\
+5,25 15,36 24,36\
+ 31,36 31,41 40,\
+41 40,39 33,39 3\
+3,31 40,31 40,29\
+ 31,29 31,34 24,\
+34 17,34 17,14 2\
+4,14 31,14 31,19\
+ 40,19 40,17 33,\
+17 33,9\x22/>\x0a    <\
+rect x=\x224\x22 y=\x2220\
+\x22 fill=\x22#00BCD4\x22\
+ width=\x228\x22 heigh\
+t=\x228\x22/>\x0a    <g f\
+ill=\x22#3F51B5\x22>\x0a \
+       <rect x=\x22\
+36\x22 y=\x2214\x22 width\
+=\x228\x22 height=\x228\x22/\
+>\x0a        <rect \
+x=\x2236\x22 y=\x224\x22 wid\
+th=\x228\x22 height=\x228\
+\x22/>\x0a        <rec\
+t x=\x2220\x22 y=\x229\x22 w\
+idth=\x228\x22 height=\
+\x228\x22/>\x0a        <r\
+ect x=\x2220\x22 y=\x2231\
+\x22 width=\x228\x22 heig\
+ht=\x228\x22/>\x0a       \
+ <rect x=\x2236\x22 y=\
+\x2236\x22 width=\x228\x22 h\
+eight=\x228\x22/>\x0a    \
+    <rect x=\x2236\x22\
+ y=\x2226\x22 width=\x228\
+\x22 height=\x228\x22/>\x0a \
+   </g>\x0a</svg>\x0a\
+\x00\x00\x02\xa4\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFA000\x22>\
+\x0a        <polygo\
+n points=\x2230,41 \
+26,45 22,45 18,4\
+1 18,21 30,21 30\
+,29 28,31 30,33 \
+30,35 28,37 30,3\
+9\x22/>\x0a        <pa\
+th d=\x22M38,7.8C37\
+.5,6,36,4.7,34.3\
+,4.2C31.9,3.7,28\
+.2,3,24,3s-7.9,0\
+.7-10.3,1.2C12,4\
+.7,10.5,6,10,7.8\
+ c-0.5,1.7-1,4.1\
+-1,6.7c0,2.6,0.5\
+,5,1,6.7c0.5,1.8\
+,1.9,3.1,3.7,3.5\
+C16.1,25.3,19.8,\
+26,24,26s7.9-0.7\
+,10.3-1.2 c1.8-0\
+.4,3.2-1.8,3.7-3\
+.5c0.5-1.7,1-4.1\
+,1-6.7C39,11.9,3\
+8.5,9.5,38,7.8z \
+M29,13H19c-1.1,0\
+-2-0.9-2-2V9c0-0\
+.6,3.1-1,7-1s7,0\
+.4,7,1v2 C31,12.\
+1,30.1,13,29,13z\
+\x22/>\x0a    </g>\x0a   \
+ <rect x=\x2223\x22 y=\
+\x2226\x22 fill=\x22#D686\
+00\x22 width=\x222\x22 he\
+ight=\x2219\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x02\xc8\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x22204\x22 fill\
+=\x22none\x22 width=\x224\
+8\x22 height=\x2248\x22/>\
+\x0a    <polygon fi\
+ll=\x22#90CAF9\x22 poi\
+nts=\x22244,45 212,\
+45 212,3 234,3 2\
+44,13\x22/>\x0a    <po\
+lygon fill=\x22#E1F\
+5FE\x22 points=\x22242\
+.5,14 233,14 233\
+,4.5\x22/>\x0a    <g f\
+ill=\x22#1976D2\x22>\x0a \
+       <circle c\
+x=\x22227\x22 cy=\x2230\x22 \
+r=\x224\x22/>\x0a        \
+<polygon points=\
+\x22234,21 229,19 2\
+29,30 231,30 231\
+,22.9 234,24\x22/>\x0a\
+    </g>\x0a    <po\
+lygon fill=\x22#90C\
+AF9\x22 points=\x2240,\
+45 8,45 8,3 30,3\
+ 40,13\x22/>\x0a    <p\
+olygon fill=\x22#E1\
+F5FE\x22 points=\x2238\
+.5,14 29,14 29,4\
+.5\x22/>\x0a    <g fil\
+l=\x22#1976D2\x22>\x0a   \
+     <circle cx=\
+\x2223\x22 cy=\x2230\x22 r=\x22\
+4\x22/>\x0a        <po\
+lygon points=\x2230\
+,21 25,19 25,30 \
+27,30 27,22.9 30\
+,24\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x01\xb4\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M10,10v28h\
+28V10H10z M34,34\
+H14V14h20V34z\x22/>\
+\x0a    <rect x=\x226\x22\
+ y=\x226\x22 fill=\x22#D8\
+1B60\x22 width=\x2212\x22\
+ height=\x2212\x22/>\x0a \
+   <g fill=\x22#219\
+6F3\x22>\x0a        <r\
+ect x=\x2230\x22 y=\x226\x22\
+ width=\x2212\x22 heig\
+ht=\x2212\x22/>\x0a      \
+  <rect x=\x226\x22 y=\
+\x2230\x22 width=\x2212\x22 \
+height=\x2212\x22/>\x0a  \
+      <rect x=\x223\
+0\x22 y=\x2230\x22 width=\
+\x2212\x22 height=\x2212\x22\
+/>\x0a    </g>\x0a</sv\
+g>\x0a\
+\x00\x00\x00\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <polygo\
+n points=\x2244,24 \
+30,35.7 30,12.3\x22\
+/>\x0a        <rect\
+ x=\x226\x22 y=\x2220\x22 wi\
+dth=\x2227\x22 height=\
+\x228\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x01f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2196F\
+3\x22 d=\x22M40,22h-8l\
+-4,4V12c0-2.2,1.\
+8-4,4-4h8c2.2,0,\
+4,1.8,4,4v6C44,2\
+0.2,42.2,22,40,2\
+2z\x22/>\x0a    <circl\
+e fill=\x22#FFA726\x22\
+ cx=\x2217\x22 cy=\x2219\x22\
+ r=\x228\x22/>\x0a    <pa\
+th fill=\x22#607D8B\
+\x22 d=\x22M30,36.7c0,\
+0-3.6-6.7-13-6.7\
+S4,36.7,4,36.7V4\
+0h26V36.7z\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x01\xba\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M43,30V18c\
+0-2.2-1.8-4-4-4H\
+9c-2.2,0-4,1.8-4\
+,4v12c0,2.2,1.8,\
+4,4,4h30C41.2,34\
+,43,32.2,43,30z \
+M9,18h30v12 L9,3\
+0V18z\x22/>\x0a    <ci\
+rcle fill=\x22#43A0\
+47\x22 cx=\x2238\x22 cy=\x22\
+38\x22 r=\x2210\x22/>\x0a   \
+ <g fill=\x22#fff\x22>\
+\x0a        <rect x\
+=\x2232\x22 y=\x2236\x22 wid\
+th=\x2212\x22 height=\x22\
+4\x22/>\x0a        <re\
+ct x=\x2236\x22 y=\x2232\x22\
+ width=\x224\x22 heigh\
+t=\x2212\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x03\x05\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2212\x22 y=\x2244\
+\x22 fill=\x22#263238\x22\
+ width=\x224\x22 heigh\
+t=\x222\x22/>\x0a    <rec\
+t x=\x2232\x22 y=\x2244\x22 \
+fill=\x22#263238\x22 w\
+idth=\x224\x22 height=\
+\x222\x22/>\x0a    <path \
+fill=\x22#607D8B\x22 d\
+=\x22M8,41V7c0-2.2,\
+1.8-4,4-4h24c2.2\
+,0,4,1.8,4,4v34c\
+0,2.2-1.8,4-4,4H\
+12C9.8,45,8,43.2\
+,8,41z\x22/>\x0a    <p\
+ath fill=\x22#B0BEC\
+5\x22 d=\x22M12,17V8c0\
+-0.6,0.4-1,1-1h2\
+2c0.6,0,1,0.4,1,\
+1v9H12z\x22/>\x0a    <\
+rect x=\x2212\x22 y=\x221\
+9\x22 fill=\x22#B0BEC5\
+\x22 width=\x2224\x22 hei\
+ght=\x2210\x22/>\x0a    <\
+path fill=\x22#B0BE\
+C5\x22 d=\x22M12,40v-9\
+h24v9c0,0.6-0.4,\
+1-1,1H13C12.4,41\
+,12,40.6,12,40z\x22\
+/>\x0a    <rect x=\x22\
+20\x22 y=\x2211\x22 fill=\
+\x22#546E7A\x22 width=\
+\x228\x22 height=\x222\x22/>\
+\x0a    <rect x=\x2220\
+\x22 y=\x2223\x22 fill=\x22#\
+546E7A\x22 width=\x228\
+\x22 height=\x222\x22/>\x0a \
+   <rect x=\x2220\x22 \
+y=\x2235\x22 fill=\x22#54\
+6E7A\x22 width=\x228\x22 \
+height=\x222\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02\x08\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#673AB\
+7\x22 d=\x22M40,7H8c-2\
+.2,0-4,1.8-4,4v2\
+6c0,2.2,1.8,4,4,\
+4h5v-1.3c-0.6-0.\
+3-1-1-1-1.7c0-1.\
+1,0.9-2,2-2s2,0.\
+9,2,2 c0,0.7-0.4\
+,1.4-1,1.7V41h18\
+v-1.3c-0.6-0.3-1\
+-1-1-1.7c0-1.1,0\
+.9-2,2-2s2,0.9,2\
+,2c0,0.7-0.4,1.4\
+-1,1.7V41h5c2.2,\
+0,4-1.8,4-4V11 C\
+44,8.8,42.2,7,40\
+,7z\x22/>\x0a    <g fi\
+ll=\x22#D1C4E9\x22>\x0a  \
+      <circle cx\
+=\x2224\x22 cy=\x2218\x22 r=\
+\x224\x22/>\x0a        <p\
+ath d=\x22M31,28c0,\
+0-1.9-4-7-4c-5.1\
+,0-7,4-7,4v2h14V\
+28z\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x00\xe0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#8BC34\
+A\x22 d=\x22M37,39H11l\
+-6,6V11c0-3.3,2.\
+7-6,6-6h26c3.3,0\
+,6,2.7,6,6v22C43\
+,36.3,40.3,39,37\
+,39z\x22/>\x0a</svg>\x0a\
+\x00\x00\x03z\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#40C4F\
+F\x22 d=\x22M42.9,6.3C\
+43.6,7.4,44,8.6,\
+44,10c0,3.9-3.1,\
+7-7,7c-0.7,0-1.3\
+-0.1-1.9-0.3c1.2\
+,2,3.4,3.3,5.9,3\
+.3 c3.9,0,7-3.1,\
+7-7C48,9.8,45.9,\
+7.1,42.9,6.3z\x22/>\
+\x0a    <g fill=\x22#B\
+39DDB\x22>\x0a        \
+<circle cx=\x2231\x22 \
+cy=\x2219\x22 r=\x222\x22/>\x0a\
+        <circle \
+cx=\x2213\x22 cy=\x2219\x22 \
+r=\x222\x22/>\x0a        \
+<polygon points=\
+\x2222,37 17,31 17,\
+25 27,25 27,31\x22/\
+>\x0a    </g>\x0a    <\
+path fill=\x22#D1C4\
+E9\x22 d=\x22M31,13c0-\
+7.6-18-5-18,0c0,\
+1.1,0,5.9,0,7c0,\
+5,4,9,9,9s9-4,9-\
+9C31,18.9,31,14.\
+1,31,13z\x22/>\x0a    \
+<g fill=\x22#673AB7\
+\x22>\x0a        <circ\
+le cx=\x2226\x22 cy=\x221\
+9\x22 r=\x221\x22/>\x0a     \
+   <circle cx=\x221\
+8\x22 cy=\x2219\x22 r=\x221\x22\
+/>\x0a        <path\
+ d=\x22M22,4c-6.1,0\
+-10,4.9-10,11c0,\
+0.8,0,2.3,0,2.3l\
+2,1.7v-5l12-4l4,\
+4v5l2-1.7c0,0,0-\
+1.5,0-2.3c0-4-1-\
+8-6-9l-1-2 H22z\x22\
+/>\x0a        <path\
+ d=\x22M27,31L27,31\
+c0,0-2,1-5,1s-5-\
+1-5-1S6,33,6,44h\
+32C38,33,27,31,2\
+7,31z\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x01\xae\
 \x00\
-\x00\x0c\x90x\xda\xcd\x97Ko\xdb8\x10\xc7\xef\x0b\xf4\
-;\x10\xca\xa5\x05H\x9a\xef\xc7\x22\xee\xa1F\xd1\x02\x8b\
-\xc5\xa2H\x9aC/\x85\xac\x87%@\xb5\x0cY\xb5\x93\
-\x1c\xf6\xb3\xefP\x92\xe3G\xed:I[t!\x83\x18\
-\x8d\x86\xc3?\x7fc\x8e\xec\xcb\xe5j\x86n\xbfT\xf3\
-\xe58*\xdav\xf1\xe7h\xb4^\xaf\xe9Z\xd2\xba\x99\
-\x8d\x04cl\x04\x11\x11Z\x95\xd9\xfaM};\x8e\x18\
-bH9\xf8Dh]\xa6m1\x8e\x94[\xdcF\xa8\
-\xc8\xcaY\xd1\x0ew\xaf_\xfc\x81\xd0eU\xce\xb3\xb8\
-y\xd7\xc4i\x99\xcd[T\xa60\xfb\xf3\xfb\xeb\xb7o\
-\xfd\x87\xfb\xbb\xbf\xa6\xff^\xad\xd3O<\xff\x14\xc7\x11\
-\xba\xe5\xe3\x88hA5\x98\xe2\xc1\xbc\x03\xafc\xd4;\
-\x0b6\xb8\xad\xa1B\xfb\x08\xcd\x86\x94\xd7M<_\xe6\
-u\xf3e\x1c5u\x1b\xb7\xd9K\xcf\x90P\xc8\x8bW\
-\xdb\xa0\x8f\xf3\xb2\x85\xcd}]f\xcd\xd5\x22N\xb2\x7f\
-\xe6\x1f\x97Y\xaf\x104.\xdbz\x81\xea<_f\xa0\
-\x9d\xca\x08\x05\x07I\xea\xaan\xc6\xd1\x85O\x8cf,\
-B\xa3\xe3\xe1F\xf3\x83\x09\xb9H\xa5\x8c7\x13.G\
-\xfb\x08zg\x93%\xed\x86\x9d\xde\x82\x83=\x02^\x19\
-\xb6=\x8e\xb8\x88P^V\x15\xe8n\xaa\x97\x17\xc7\xb1\
-\xbdzX\xe7\xb1\xa4\xa7\x03i\xb5\xe1\xac\xfe\x0f\x94y\
-l%\xb7\xdf\xa1|\x10o\xd2\xd4\x18\xff,\xc8n\x0f\
-\xb2?\x0fy\xfat\xc8\xc9\x00Y\xda\x01r0~;\
-df,\x8b\xd3\xc7Cfnj3\xf7\xe3\x90\x85=\
-\x0f9y:\xe4t\x80,\xfc\x009\x18\xc7 \xbb_\
-\xc9\x98\x1d\x9e\x7f\xed\x84\x8f\xf9\xe3)\xbb\x5c\xe5\xe7(\
-/\xe2\xb68\x8b0\x85-\x00\xab\xbf\x15\xc3\x8a\xaf\x88\
-)\x88^\xb9BN\xa4\xa7\x9ci\xac$\x0eOD\x7f\
-\x13b\xee\x9f\x8c<\xdb\xb4i\xbfm\xd3\xfe\xf7\xb4i\
-&\x0e8\xc6F\xe6F<\x9e{\xe6\xcc\xd4\xdb\x9f\xc0\
-=\xdbr\xb7\x09#<\x00&\x8c:\xaf\x89\x08WA\
-\xe4\xca\x16\xfa\xc6>\x9dw\xde\xf3\xe6\x92r)z\xe0\
-\x92Si\x06\xe2\x8aj\xa7z\xe0PWi\xd5\xb3X\
-\xb2\xc3\x17XbS==\x09\x92\xf9o\xdex\xce:\
-\xadO\x93w\x87\x8d(\xcd5\xb4\xfbS\x13\x0e\xd3\xa7\
-FM\x85\xfa\x09\x85\xca\x87BI{\xbcP\xef9\x9b\
-\xb8p\x8b5vXw\x96\xc3v%U\xc2p\x17\x8d\
-\xbbh,\xc2U\x08\x8d\x92\xc1\x8b\x05\x19\x9e\x10\xb1[\
-\xe7\xa01\xae\xce\xd7\x19~]%\xd0/\x05\x80J\xc2\
-[\x09\xdaA\xd3\xf5\xd3\xe7\x1c\x0d\xe5\xcc9\xb45\xe4\
-(\xdb\xbb\xae\xf6\x1b\xac\xfbZ{gR6I\x95\x9d\
-\xd0v\x0e\xf7\x0cp?,D\xf9\xc3\x17\xa4/V(\
-\x047X\xf2\x15t$\xae&\xc1V\x10\xa517\xd4\
-)\x8d%X\x96:\x07~]pF\x85\xb0\x13\xe1\xbb\
-\x08x$\xd9&<X2\xa4\xb8\x91\x1cAY5\x09\
-\xa7E\x11G,qW\x90V\x18\xdc-t\xbf+\x87\
-\x1d\x95CC:j\x84\xa9\xa0\xa4TI\x0e\x85g\xd4\
-z\x0b\xa3Q\x90\x87*h\xa3;c\x10\x06K'C\
-P\xef$;\xc1\xa4\x1bo \xab\x0e\xe2@\xb2sD\
-Po\x88\x05\x0d\x04V\xf4\x02F\xef\xfd\x84{*\xa5\
-\xc4BR\xad9\xee\xc4\x08\x03\xd5\x94xG\xd8\xfe&\
-\xb6\xed\xebt\xa5\xd4\xa6R\x17y\x9e\xefoz\xd7\x1f\
-\x00\x08\x0f\xab\x80J\x09\xbd\x04\xce\x04\xb5\xce\x826\xe6\
-=\x8c\xdci\xa2A\xa7\x0d:\xb5\x84\x03\x00{a\xa0\
-\xd3\x06\x95\xde\x98`\x81F\xa1\xc5\x8d\x94\x1d7\xad\x05\
-\x8cJ9\xcc\xc3\x85\x00V2x1'\xc3\x13\xc2\x01\
-\xcepb.\xc3\x1f\x8d\xd7\xff\x019`y\xd3\
-\x00\x00\x04\x12\
+\x00\x05\xddx\xda\xa5\x94Ao\xa30\x10\x85\xef\xfd\x15\
+\x96\xf7j\x83\xc73&\xc9*TjQ\xa3^z\xed\
+=\xa5l\x886%U\x92B\xd5_\xdf\xf1\x90\xd2K\
+\xab \x01\xc8\x92\x87\xf1\xfb\xcc\xd3\xc3\xcbc\xbbQm\
+u8n\xf7M\xaeA\xab\xf7\x97]s\xccu}:\
+\xbd\xfeM\xd3\xae\xeb\x92\x0e\x93\xfda\x93z\xe7\x5c\xca\
+\xddZ\xb5\xdb\xaa\xbb\xdd\xbf\xe7\xda)\xa7h\xce\x8fV\
+U\xb3~\xdaU\xf6i]\xfe\xdf\x1c\xf6o\xcds\xae\
+\x9b\xaaS\xdf\x1d\xd7W\x8a\xaf\xe5\xeb\xfaT\xab\x7f\xdb\
+\xdd.\xd7\x7f\x02ew\xb3\x1b\xad\xb8\xf7\x01\xbc!\xf7\
+\x08\xae\xf6\xae\xf4\x897\xce\x90\x81d\xce#\xb5>+\
+\x9d\xe1\xa2\x95\x82\xe5\xd2=d\x05`\x9cq\x17\xaf\x8c\
++D\xe1C\xa7?\x80hU\xe0j\xd6\x83\x90;\x91\
+\xd7\x97\xd6%\x99q\x16\x8cK\x88Gh\xe7L\x91Z\
+\xc2\xa2\xf1\xae\xb9K\x0a\x06\xac\x14-\xb4v^ \xb2\
+\x02O\xd1\xf3;@#\x8a?\x83o\xf1.\xac\x8a\xf3\
+\x17.\x0c\xba\xda\xfa\x01l\x05\x1c5\xa1t\xf6L\x8e\
+;\xb1P\xfb/\xf0\xd7nZ(<\x9b\xb0\x88\xc88\
+ \xbf\x8b\x82\x97\xb9>L\xe5f=\xd7\x87\x9e+\x82\
+\x97\xb9\x08\x13\xb9\xec\xabp\x11z\xae\x08\x8e\xf39L\
+\xf4\x19i\xf09\x88\xcfa\x9c\xcfa\xa2\xcf\xc2\xed}\
+\x0e\xe2s\x18\xe7s\x98\xe8\xb3p{\x9f\x83\xf8\x1cF\
+\xf9LS\xf3\x8cC\x9eI\xf2L\xe3\xf2LS\xf3\x8c\
+C\x9eI\xf2L\xe3\xf2LS\xf3\x8cC\x9eI\xf2\xfc\
+\x1b\x17g4\xa3\xd5\xd9gv\x88\xb9\xf4HL\x81$\
+*.,\xff\x1a\xd6\xd7\xae\x94\xb9\xf1\xb1\xc6\xa3\xe7\x03\
+T\x04\x97\xf1\xa0\xbe\xbe\xfa\x04\xa3\x12S\xa6\
+\x00\x00\x04\xb1\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22I2\
-vg6QP4VWcp_cFDGj\
-iLsa\x22 x1=\x2214.871\
-\x22 x2=\x2233.453\x22 y1\
-=\x226.33\x22 y2=\x2242.4\
-84\x22 gradientTran\
-sform=\x22translate\
-(.108 .186)\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-f44f5a\x22 />\x0d\x0a    \
-<stop offset=\x22.4\
-43\x22 stop-color=\x22\
-#ee3d4a\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#e\
-52030\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#I2vg6QP4VWcp_\
-cFDGjiLsa)\x22 d=\x22M\
-44,23.981C44.011\
-,35.026,35.064,4\
-3.989,24.019,44C\
-12.974,44.011,4.\
-011,35.064,4,24.\
-019 C3.989,12.97\
-4,12.936,4.011,2\
-3.981,4C35.026,3\
-.989,43.989,12.9\
-36,44,23.981z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#fff\x22 d=\x22M16,34\
-c-3.3,0-6-2.7-6-\
-6v-6h4v6c0,1.1,0\
-.9,2,2,2s2-0.9,2\
--2v-6.1h4V28C22,\
-31.3,19.3,34,16,\
-34z\x22 />\x0d\x0a  <path\
- fill=\x22#fff\x22 d=\x22\
-M20,25.1c-1.1,0-\
-2-0.9-2-2V18c0-3\
-.3,2.7-6,6-6s6,2\
-.7,6,6v3c0,1.1-0\
-.9,2-2,2s-2-0.9-\
-2-2v-3 c0-1.1-0.\
-9-2-2-2s-2,0.9-2\
-,2v5.1C22,24.2,2\
-1.1,25.1,20,25.1\
-z M34,22v6c0,1.1\
--0.9,2-2,2s-2-0.\
-9-2-2v-3.6c-0.6,\
-0.3-1.3,0.6-2,0.\
-6 s-1.4-0.2-2-0.\
-6V28c0,3.3,2.7,6\
-,6,6s6-2.7,6-6v-\
-6H34z\x22 />\x0d\x0a</svg\
->\
-\x00\x00\x04x\
+?xml version=\x221.\
+0\x22 encoding=\x22utf\
+-8\x22?>\x0d\x0a<!-- Gene\
+rator: Adobe Ill\
+ustrator 19.1.1,\
+ SVG Export Plug\
+-In . SVG Versio\
+n: 6.00 Build 0)\
+  -->\x0d\x0a<svg vers\
+ion=\x221.1\x22  xmlns\
+=\x22http://www.w3.\
+org/2000/svg\x22 xm\
+lns:xlink=\x22http:\
+//www.w3.org/199\
+9/xlink\x22 x=\x220px\x22\
+ y=\x220px\x22\x0d\x0a\x09 view\
+Box=\x220 0 48 48\x22 \
+enable-backgroun\
+d=\x22new 0 0 48 48\
+\x22 xml:space=\x22pre\
+serve\x22>\x0d\x0a<path f\
+ill=\x22#2196F3\x22 d=\
+\x22M37,42c-0.3,0-0\
+.7-0.1-1-0.3c-1-\
+0.5-1.3-1.8-0.8-\
+2.7c0-0.1,3.7-6.\
+8,3.7-15S35.3,9,\
+35.3,9\x0d\x0a\x09c-0.5-1\
+-0.2-2.2,0.8-2.7\
+c1-0.5,2.2-0.2,2\
+.7,0.8c0.2,0.3,4\
+.3,7.6,4.3,17s-4\
+.1,16.7-4.3,17C3\
+8.4,41.6,37.7,42\
+,37,42z M32.8,35\
+.8\x0d\x0a\x09c0.1-0.2,2.\
+2-5,2.2-11.8c0-6\
+.8-2.1-11.6-2.2-\
+11.8c-0.4-1-1.6-\
+1.5-2.6-1c-1,0.4\
+-1.5,1.6-1,2.6c0\
+,0,1.8,4.3,1.8,1\
+0.2\x0d\x0a\x09c0,5.9-1.8\
+,10.2-1.8,10.2c-\
+0.4,1,0,2.2,1,2.\
+6c0.3,0.1,0.5,0.\
+2,0.8,0.2C31.8,3\
+7,32.5,36.6,32.8\
+,35.8z M23.3,33c\
+0.6-0.1,1.1-0.5,\
+1.4-1\x0d\x0a\x09c0.1-0.2\
+,2.3-3.9,2.3-8c0\
+-4.1-2.2-7.9-2.3\
+-8c-0.6-1-1.8-1.\
+3-2.7-0.7c-1,0.6\
+-1.3,1.8-0.7,2.7\
+c0,0,1.7,3,1.7,6\
+c0,1.3-0.3,2.7-0\
+.7,3.7\x0d\x0a\x09l-13-11\
+.2c-0.5-0.4-1.2-\
+0.6-1.8-0.4c-0.6\
+,0.2-1.2,0.6-1.4\
+,1.3C6.1,17.5,5,\
+20.5,5,24c0,3.5,\
+1.1,6.5,1.1,6.7c\
+0.4,1,1.5,1.6,2.\
+6,1.2\x0d\x0a\x09c1-0.4,1\
+.6-1.5,1.2-2.6c0\
+,0-0.9-2.6-0.9-5\
+.3c0-0.8,0.1-1.6\
+,0.2-2.3l12.5,10\
+.8c0.4,0.3,0.8,0\
+.5,1.3,0.5C23.1,\
+33,23.2,33,23.3,\
+33z\x22/>\x0d\x0a</svg>\x0d\x0a\
+\
+\x00\x00\x02H\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Ho\
-iJCu43QtshzIrYCx\
-OfCa\x22 x1=\x2221.241\
-\x22 x2=\x223.541\x22 y1=\
-\x2239.241\x22 y2=\x2221.\
-541\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x22.108\x22 st\
-op-color=\x22#0d704\
-4\x22 />\x0d\x0a    <stop\
- offset=\x22.433\x22 s\
-top-color=\x22#1194\
-5a\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-HoiJCu43QtshzIrY\
-CxOfCa)\x22 d=\x22M16.\
-599,41.42L1.58,2\
-6.401c-0.774-0.7\
-74-0.774-2.028,0\
--2.802l4.019-4.0\
-19 c0.774-0.774,\
-2.028-0.774,2.80\
-2,0L23.42,34.599\
-c0.774,0.774,0.7\
-74,2.028,0,2.802\
-l-4.019,4.019 C1\
-8.627,42.193,17.\
-373,42.193,16.59\
-9,41.42z\x22 />\x0d\x0a  \
-<linearGradient \
-id=\x22HoiJCu43Qtsh\
-zIrYCxOfCb\x22 x1=\x22\
--15.77\x22 x2=\x2226.4\
-03\x22 y1=\x2243.228\x22 \
-y2=\x2243.228\x22 grad\
-ientTransform=\x22r\
-otate(134.999 21\
-.287 38.873)\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#2ac782\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#2\
-1b876\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#HoiJCu43Qtshz\
-IrYCxOfCb)\x22 d=\x22M\
-12.58,34.599L39.\
-599,7.58c0.774-0\
-.774,2.028-0.774\
-,2.802,0l4.019,4\
-.019 c0.774,0.77\
-4,0.774,2.028,0,\
-2.802L19.401,41.\
-42c-0.774,0.774-\
-2.028,0.774-2.80\
-2,0l-4.019-4.019\
- C11.807,36.627,\
-11.807,35.373,12\
-.58,34.599z\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x07\x1c\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#8CBCD\
+6\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4V\
+11c0-2.2,1.8-4,4\
+-4h32c2.2,0,4,1.\
+8,4,4v26C44,39.2\
+,42.2,41,40,41z\x22\
+/>\x0a    <circle f\
+ill=\x22#B3DDF5\x22 cx\
+=\x2235\x22 cy=\x2216\x22 r=\
+\x223\x22/>\x0a    <polyg\
+on fill=\x22#9AC9E3\
+\x22 points=\x2220,16 \
+9,32 31,32\x22/>\x0a  \
+  <polygon fill=\
+\x22#B3DDF5\x22 points\
+=\x2231,22 23,32 39\
+,32\x22/>\x0a    <circ\
+le fill=\x22#43A047\
+\x22 cx=\x2238\x22 cy=\x2238\
+\x22 r=\x2210\x22/>\x0a    <\
+g fill=\x22#fff\x22>\x0a \
+       <rect x=\x22\
+36\x22 y=\x2232\x22 width\
+=\x224\x22 height=\x2212\x22\
+/>\x0a        <rect\
+ x=\x2232\x22 y=\x2236\x22 w\
+idth=\x2212\x22 height\
+=\x224\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x03G\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22i9\
-gMV8RPRiXBVRoCh9\
-BlCa\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x2216.026\
-\x22 y2=\x2218.015\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#912fbd\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#9\
-332bf\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#i9gMV8RPRiXBV\
-RoCh9BlCa)\x22 d=\x22M\
-41,18H7c-0.552,0\
--1-0.448-1-1v0c0\
--0.552,0.448-1,1\
--1h34c0.552,0,1,\
-0.448,1,1v0 C42,\
-17.552,41.552,18\
-,41,18z\x22 />\x0d\x0a  <\
-linearGradient i\
-d=\x22i9gMV8RPRiXBV\
-RoCh9BlCb\x22 x1=\x222\
-4\x22 x2=\x2224\x22 y1=\x224\
-2.885\x22 y2=\x2210.32\
-3\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#912fbd\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-colo\
-r=\x22#9332bf\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <path fil\
-l=\x22url(#i9gMV8RP\
-RiXBVRoCh9BlCb)\x22\
- d=\x22M39,11v30c0,\
-1.105-0.895,2-2,\
-2H11c-1.105,0-2-\
-0.895-2-2V11H39z\
-\x22 />\x0d\x0a  <linearG\
-radient id=\x22i9gM\
-V8RPRiXBVRoCh9Bl\
-Cc\x22 x1=\x2224\x22 x2=\x22\
-24\x22 y1=\x227.171\x22 y\
-2=\x2214.301\x22 gradi\
-entUnits=\x22userSp\
-aceOnUse\x22>\x0d\x0a    \
-<stop offset=\x220\x22\
- stop-color=\x22#c9\
-65eb\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-color=\x22#c767\
-e5\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-i9gMV8RPRiXBVRoC\
-h9BlCc)\x22 d=\x22M8,1\
-1v-1c0-1.657,1.3\
-43-3,3-3h26c1.65\
-7,0,3,1.343,3,3v\
-1H8z\x22 />\x0d\x0a  <lin\
-earGradient id=\x22\
-i9gMV8RPRiXBVRoC\
-h9BlCd\x22 x1=\x2224\x22 \
-x2=\x2224\x22 y1=\x224.04\
-\x22 y2=\x227.022\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-ae4cd5\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#ac\
-4ad5\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#i9gMV8RPRiXBVR\
-oCh9BlCd)\x22 d=\x22M2\
-8,4h-8c-1.105,0-\
-2,0.895-2,2v1h12\
-V6C30,4.895,29.1\
-05,4,28,4z\x22 />\x0d\x0a\
-  <linearGradien\
-t id=\x22i9gMV8RPRi\
-XBVRoCh9BlCe\x22 x1\
-=\x2215\x22 x2=\x2233\x22 y1\
-=\x2227\x22 y2=\x2227\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#ae4cd5\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#a\
-c4ad5\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <rect width=\x221\
-8\x22 height=\x2232\x22 x\
-=\x2215\x22 y=\x2211\x22 fil\
-l=\x22url(#i9gMV8RP\
-RiXBVRoCh9BlCe)\x22\
- />\x0d\x0a</svg>\
-\x00\x00\x04Y\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22aw\
-SgIinfw5_FS5MLHI\
-~A9a\x22 x1=\x226.228\x22\
- x2=\x2242.077\x22 y1=\
-\x224.896\x22 y2=\x2243.4\
-32\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#0d61a9\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#16528c\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#awSgIin\
-fw5_FS5MLHI~A9a)\
-\x22 d=\x22M42,40c0,1.\
-105-0.895,2-2,2H\
-8c-1.105,0-2-0.8\
-95-2-2V8c0-1.105\
-,0.895-2,2-2h32 \
-c1.105,0,2,0.895\
-,2,2V40z\x22 />\x0d\x0a  \
-<path d=\x22M25,38V\
-27h-4v-6h4v-2.13\
-8c0-5.042,2.666-\
-7.818,7.505-7.81\
-8c1.995,0,3.077,\
-0.14,3.598,0.208\
- l0.858,0.111L37\
-,12.224L37,17h-3\
-.635C32.237,17,3\
-2,18.378,32,19.5\
-35V21h4.723l-0.9\
-28,6H32v11H25z\x22 \
-opacity=\x22.05\x22 />\
-\x0d\x0a  <path d=\x22M25\
-.5,37.5v-11h-4v-\
-5h4v-2.638c0-4.7\
-88,2.422-7.318,7\
-.005-7.318c1.971\
-,0,3.03,0.138,3.\
-54,0.204 l0.436,\
-0.057l0.02,0.442\
-V16.5h-3.135c-1.\
-623,0-1.865,1.90\
-1-1.865,3.035V21\
-.5h4.64l-0.773,5\
-H31.5v11H25.5z\x22 \
-opacity=\x22.07\x22 />\
-\x0d\x0a  <path fill=\x22\
-#fff\x22 d=\x22M33.365\
-,16H36v-3.754c-0\
-.492-0.064-1.531\
--0.203-3.495-0.2\
-03c-4.101,0-6.50\
-5,2.08-6.505,6.8\
-19V22h-4v4 h4v11\
-h5V26h3.938l0.61\
-8-4H31v-2.465C31\
-,17.661,31.612,1\
-6,33.365,16z\x22 />\
-\x0d\x0a</svg>\
-\x00\x00\x05\x08\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22M~\
-bdDD8~AbDFLBkBs2\
-hIZa\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x2227.973\
-\x22 y2=\x2246.018\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#e5a505\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-01\x22 stop-color=\x22\
-#e9a804\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-06\x22 stop-color=\x22\
-#f4b102\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-129\x22 stop-color=\
-\x22#fbb600\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.323\x22 stop-color\
-=\x22#fdb700\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#M~bdDD8~A\
-bDFLBkBs2hIZa)\x22 \
-d=\x22M27,40c0-0.81\
-5,0.396-1.532,1-\
-1.989v-3.289c-0.\
-595-0.346-1-0.98\
-4-1-1.723 c0-0.7\
-38,0.405-1.376,1\
--1.723V28h-8v15.\
-171c0,0.531,0.21\
-1,1.039,0.586,1.\
-414L22,46h3.639l\
-1.653-1.401 C27.\
-741,44.219,28,43\
-.661,28,43.073v-\
-1.084C27.396,41.\
-532,27,40.815,27\
-,40z\x22 />\x0d\x0a  <lin\
-earGradient id=\x22\
-M~bdDD8~AbDFLBkB\
-s2hIZb\x22 x1=\x2214.9\
-56\x22 x2=\x2231.715\x22 \
-y1=\x224.953\x22 y2=\x222\
-9.317\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#fede00\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#ffd000\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#M~bd\
-DD8~AbDFLBkBs2hI\
-Zb)\x22 d=\x22M37,15c0\
--7.18-5.82-13-13\
--13S11,7.82,11,1\
-5c0,0.338,0.025,\
-0.669,0.051,1H11\
-v8 c0,2.209,1.79\
-1,4,4,4h18c2.209\
-,0,4-1.791,4-4v-\
-8h-0.051C36.975,\
-15.669,37,15.338\
-,37,15z M24,7c2.\
-209,0,4,1.791,4,\
-4s-1.791,4-4,4 s\
--4-1.791-4-4S21.\
-791,7,24,7z\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x08<\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22KD\
-DiYn5xH8CQJ0gQlO\
-kcqa\x22 x1=\x226.995\x22\
- x2=\x2239.421\x22 y1=\
-\x223.514\x22 y2=\x2242.5\
-78\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#5961c3\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#3a41ac\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#KDDiYn5\
-xH8CQJ0gQlOkcqa)\
-\x22 d=\x22M42,38c0,2.\
-209-1.791,4-4,4H\
-10c-2.209,0-4-1.\
-791-4-4V10c0-2.2\
-09,1.791-4,4-4h2\
-8 c2.209,0,4,1.7\
-91,4,4V38z\x22 />\x0d\x0a\
-  <circle cx=\x2222\
-.5\x22 cy=\x2215.5\x22 r=\
-\x223.5\x22 opacity=\x22.\
-05\x22 />\x0d\x0a  <circl\
-e cx=\x2222.5\x22 cy=\x22\
-15.5\x22 r=\x223\x22 opac\
-ity=\x22.07\x22 />\x0d\x0a  \
-<circle cx=\x2222.5\
-\x22 cy=\x2215.5\x22 r=\x222\
-.5\x22 fill=\x22#fff\x22 \
-/>\x0d\x0a  <circle cx\
-=\x2230\x22 cy=\x2215\x22 r=\
-\x224\x22 opacity=\x22.05\
-\x22 />\x0d\x0a  <circle \
-cx=\x2230\x22 cy=\x2215\x22 \
-r=\x223.5\x22 opacity=\
-\x22.07\x22 />\x0d\x0a  <cir\
-cle cx=\x2230\x22 cy=\x22\
-15\x22 r=\x223\x22 fill=\x22\
-#fff\x22 />\x0d\x0a  <pat\
-h d=\x22M24.5,37c-0\
-.827,0-1.5-0.673\
--1.5-1.5V33h-3.5\
-c-0.827,0-1.5-0.\
-673-1.5-1.5V30h-\
-4.5 c-0.827,0-1.\
-5-0.673-1.5-1.5v\
--4.75c0-2.619,2.\
-019-4.75,4.5-4.7\
-5c1.422,0,2.753,\
-0.72,3.593,1.91C\
-20.935,20.32,21.\
-947,20,23,20 c1.\
-412,0,2.772,0.60\
-2,3.717,1.626C27\
-.582,21.216,28.5\
-36,21,29.5,21c0.\
-172,0,0.346,0.00\
-8,0.521,0.021 C3\
-3.374,21.283,36,\
-24.229,36,27.727\
-V35.5c0,0.827-0.\
-673,1.5-1.5,1.5H\
-24.5z\x22 opacity=\x22\
-.05\x22 />\x0d\x0a  <path\
- d=\x22M24.5,36.5c-\
-0.551,0-1-0.448-\
-1-1v-3h-4c-0.551\
-,0-1-0.448-1-1v-\
-2h-5c-0.551,0-1-\
-0.448-1-1v-4.75 \
-c0-2.344,1.794-4\
-.25,4-4.25c1.451\
-,0,2.763,0.839,3\
-.463,2.151C20.78\
-7,20.912,21.858,\
-20.5,23,20.5c1.4\
-13,0,2.748,0.661\
-,3.592,1.752 c0.\
-887-0.493,1.883-\
-0.752,2.908-0.75\
-2c0.159,0,0.32,0\
-.007,0.481,0.02c\
-3.095,0.242,5.51\
-9,2.969,5.519,6.\
-207V35.5c0,0.552\
--0.449,1-1,1 H24\
-.5z\x22 opacity=\x22.0\
-7\x22 />\x0d\x0a  <path f\
-ill=\x22#fff\x22 d=\x22M2\
-9.942,22.017c-1.\
-297-0.102-2.507,\
-0.249-3.494,0.90\
-8C25.756,21.78,2\
-4.48,21,23,21 c-\
-1.313,0-2.469,0.\
-617-3.198,1.556C\
-19.334,21.073,18\
-.04,20,16.5,20c-\
-1.934,0-3.5,1.67\
-8-3.5,3.75v4.75c\
-0,0.276,0.224,0.\
-5,0.5,0.5H19 v2.\
-5c0,0.276,0.224,\
-0.5,0.5,0.5H24v3\
-.5c0,0.276,0.224\
-,0.5,0.5,0.5h10c\
-0.276,0,0.5-0.22\
-4,0.5-0.5l0-7.77\
-4 C35,24.819,32.\
-841,22.245,29.94\
-2,22.017z\x22 />\x0d\x0a \
- <circle cx=\x2216\x22\
- cy=\x2216\x22 r=\x223\x22 o\
-pacity=\x22.05\x22 />\x0d\
-\x0a  <circle cx=\x221\
-6\x22 cy=\x2216\x22 r=\x222.\
-5\x22 opacity=\x22.07\x22\
- />\x0d\x0a  <circle c\
-x=\x2216\x22 cy=\x2216\x22 r\
-=\x222\x22 fill=\x22#fff\x22\
- />\x0d\x0a</svg>\
-\x00\x00\x04m\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <circl\
-e cx=\x2224\x22 cy=\x2226\
-\x22 r=\x2218\x22 fill=\x22n\
-one\x22 stroke=\x22#64\
-717c\x22 stroke-mit\
-erlimit=\x2210\x22 str\
-oke-width=\x224\x22 />\
-\x0d\x0a  <linearGradi\
-ent id=\x22NPMp5gry\
-GhBwFijU60RIra\x22 \
-x1=\x2220.022\x22 x2=\x22\
-28.425\x22 y1=\x225.02\
-2\x22 y2=\x2213.425\x22 g\
-radientUnits=\x22us\
-erSpaceOnUse\x22>\x0d\x0a\
-    <stop offset\
-=\x220\x22 stop-color=\
-\x22#33bef0\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-0a85d9\x22 />\x0d\x0a  </\
-linearGradient>\x0d\
-\x0a  <circle cx=\x222\
-4\x22 cy=\x229\x22 r=\x226\x22 \
-fill=\x22url(#NPMp5\
-gryGhBwFijU60RIr\
-a)\x22 />\x0d\x0a  <linea\
-rGradient id=\x22NP\
-Mp5gryGhBwFijU60\
-RIrb\x22 x1=\x2236.022\
-\x22 x2=\x2244.425\x22 y1\
-=\x2230.022\x22 y2=\x2238\
-.425\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#33bef0\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#0a85d9\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <circl\
-e cx=\x2240\x22 cy=\x2234\
-\x22 r=\x226\x22 fill=\x22ur\
-l(#NPMp5gryGhBwF\
-ijU60RIrb)\x22 />\x0d\x0a\
-  <linearGradien\
-t id=\x22NPMp5gryGh\
-BwFijU60RIrc\x22 x1\
-=\x224.022\x22 x2=\x2212.\
-425\x22 y1=\x2230.022\x22\
- y2=\x2238.425\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-33bef0\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#0a\
-85d9\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <circle cx=\x228\x22 \
-cy=\x2234\x22 r=\x226\x22 fi\
-ll=\x22url(#NPMp5gr\
-yGhBwFijU60RIrc)\
-\x22 />\x0d\x0a</svg>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3F51B\
+5\x22 d=\x22M42,29H20.\
+8c-0.5,0-1-0.2-1\
+.4-0.6l-3.7-3.7c\
+-0.4-0.4-0.4-1,0\
+-1.4l3.7-3.7c0.4\
+-0.4,0.9-0.6,1.4\
+-0.6H42 c0.6,0,1\
+,0.4,1,1v8C43,28\
+.6,42.6,29,42,29\
+z\x22/>\x0a    <rect x\
+=\x229\x22 y=\x226\x22 fill=\
+\x22#CFD8DC\x22 width=\
+\x222\x22 height=\x2236\x22/\
+>\x0a    <g fill=\x22#\
+90A4AE\x22>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2210\x22 r=\x223\x22/>\
+\x0a        <circle\
+ cx=\x2210\x22 cy=\x2224\x22\
+ r=\x223\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2238\x22 r=\x223\x22/>\
+\x0a    </g>\x0a    <p\
+ath fill=\x22#448AF\
+F\x22 d=\x22M34,43H20.\
+8c-0.5,0-1-0.2-1\
+.4-0.6l-3.7-3.7c\
+-0.4-0.4-0.4-1,0\
+-1.4l3.7-3.7c0.4\
+-0.4,0.9-0.6,1.4\
+-0.6H34 c0.6,0,1\
+,0.4,1,1v8C35,42\
+.6,34.6,43,34,43\
+z\x22/>\x0a    <path f\
+ill=\x22#00BCD4\x22 d=\
+\x22M35,15H20.8c-0.\
+5,0-1-0.2-1.4-0.\
+6l-3.7-3.7c-0.4-\
+0.4-0.4-1,0-1.4l\
+3.7-3.7C19.8,5.2\
+,20.3,5,20.8,5H3\
+5 c0.6,0,1,0.4,1\
+,1v8C36,14.6,35.\
+6,15,35,15z\x22/>\x0a<\
+/svg>\x0a\
 \x00\x00\x01\xf5\
 <\
 svg xmlns=\x22http:\
@@ -2639,1573 +5175,8150 @@ l-192.41 192.4-.\
 .87-7.86-7.87-20\
 .7 0-28.56z\x22/></\
 svg>\
-\x00\x00\x07y\
+\x00\x00\x02\x12\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22dy\
-oR47AMqzPbkc_5PO\
-ASHa\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x22-27.858\x22 y2=\x22-5\
-6.142\x22 gradientT\
-ransform=\x22matrix\
-(1 0 0 -1 0 -18)\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#9dffce\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#50d18d\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#dyoR47AMq\
-zPbkc_5POASHa)\x22 \
-d=\x22M44,24c0,11.0\
-45-8.955,20-20,2\
-0S4,35.045,4,24S\
-12.955,4,24,4S44\
-,12.955,44,24z\x22 \
-/>\x0d\x0a  <path d=\x22M\
-34,21h-7v-7c0-1.\
-105-0.895-2-2-2h\
--2c-1.105,0-2,0.\
-895-2,2v7h-7 c-1\
-.105,0-2,0.895-2\
-,2v2c0,1.105,0.8\
-95,2,2,2h7v7c0,1\
-.105,0.895,2,2,2\
-h2c1.105,0,2-0.8\
-95,2-2v-7h7c1.10\
-5,0,2-0.895,2-2v\
--2 C36,21.895,35\
-.105,21,34,21z\x22 \
-opacity=\x22.05\x22 />\
-\x0d\x0a  <path d=\x22M34\
-,21.5h-7.5V14c0-\
-0.828-0.672-1.5-\
-1.5-1.5h-2 c-0.8\
-28,0-1.5,0.672-1\
-.5,1.5v7.5H14c-0\
-.828,0-1.5,0.672\
--1.5,1.5v2c0,0.8\
-28,0.672,1.5,1.5\
-,1.5h7.5V34c0,0.\
-828,0.672,1.5,1.\
-5,1.5h2 c0.828,0\
-,1.5-0.672,1.5-1\
-.5v-7.5H34c0.828\
-,0,1.5-0.672,1.5\
--1.5v-2C35.5,22.\
-172,34.828,21.5,\
-34,21.5z\x22 opacit\
-y=\x22.07\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22dyoR47AMqzPbkc\
-_5POASHb\x22 x1=\x2222\
-\x22 x2=\x2226\x22 y1=\x2224\
-\x22 y2=\x2224\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x22.82\
-4\x22 stop-color=\x22#\
-135d36\x22 />\x0d\x0a    \
-<stop offset=\x22.9\
-31\x22 stop-color=\x22\
-#125933\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#1\
-1522f\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#dyoR47AMqzPbk\
-c_5POASHb)\x22 d=\x22M\
-23,13h2c0.552,0,\
-1,0.448,1,1v20c0\
-,0.552-0.448,1-1\
-,1h-2c-0.552,0-1\
--0.448-1-1V14 C2\
-2,13.448,22.448,\
-13,23,13z\x22 />\x0d\x0a \
- <linearGradient\
- id=\x22dyoR47AMqzP\
-bkc_5POASHc\x22 x1=\
-\x2213\x22 x2=\x2235\x22 y1=\
-\x2224\x22 y2=\x2224\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-.824\x22 stop-color\
-=\x22#135d36\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.931\x22 stop-colo\
-r=\x22#125933\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#11522f\x22 />\x0d\x0a  \
-</linearGradient\
->\x0d\x0a  <path fill=\
-\x22url(#dyoR47AMqz\
-Pbkc_5POASHc)\x22 d\
-=\x22M35,23v2c0,0.5\
-52-0.448,1-1,1H1\
-4c-0.552,0-1-0.4\
-48-1-1v-2c0-0.55\
-2,0.448-1,1-1h20\
- C34.552,22,35,2\
-2.448,35,23z\x22 />\
-\x0d\x0a</svg>\
-\x00\x00\x04k\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#B2E\
+BF2\x22 cx=\x2232\x22 cy=\
+\x2224\x22 r=\x229\x22/>\x0a   \
+ <path fill=\x22#4D\
+D0E1\x22 d=\x22M32,12c\
+-6.6,0-12,5.4-12\
+,12c0,6.6,5.4,12\
+,12,12s12-5.4,12\
+-12C44,17.4,38.6\
+,12,32,12z M32,3\
+2 c-4.4,0-8-3.6-\
+8-8s3.6-8,8-8s8,\
+3.6,8,8S36.4,32,\
+32,32z\x22/>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <polygo\
+n points=\x2225.4,2\
+2 19.8,5.1 13.6,\
+27.7 11.4,22 4,2\
+2 4,26 8.6,26 14\
+.4,40.3 20.2,18.\
+9 22.6,26 30,26 \
+30,22\x22/>\x0a       \
+ <circle cx=\x2232\x22\
+ cy=\x2224\x22 r=\x224\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x01\xf6\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22xG\
-Ih33lbYX9pWIYWeZ\
-suka\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x226.955\x22\
- y2=\x2223.167\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-eba600\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#c2\
-8200\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#xGIh33lbYX9pWI\
-YWeZsuka)\x22 d=\x22M2\
-4.414,10.414l-2.\
-536-2.536C21.316\
-,7.316,20.553,7,\
-19.757,7H5C3.895\
-,7,3,7.895,3,9v3\
-0 c0,1.105,0.895\
-,2,2,2h38c1.105,\
-0,2-0.895,2-2V13\
-c0-1.105-0.895-2\
--2-2H25.828C25.2\
-98,11,24.789,10.\
-789,24.414,10.41\
-4z\x22 />\x0d\x0a  <linea\
-rGradient id=\x22xG\
-Ih33lbYX9pWIYWeZ\
-sukb\x22 x1=\x2224.066\
-\x22 x2=\x2224.066\x22 y1\
-=\x2219.228\x22 y2=\x2233\
-.821\x22 gradientTr\
-ansform=\x22matrix(\
--1 0 0 1 48 0)\x22 \
-gradientUnits=\x22u\
-serSpaceOnUse\x22>\x0d\
-\x0a    <stop offse\
-t=\x220\x22 stop-color\
-=\x22#ffd869\x22 />\x0d\x0a \
-   <stop offset=\
-\x221\x22 stop-color=\x22\
-#fec52b\x22 />\x0d\x0a  <\
-/linearGradient>\
-\x0d\x0a  <path fill=\x22\
-url(#xGIh33lbYX9\
-pWIYWeZsukb)\x22 d=\
-\x22M24,23l3.854-3.\
-854C27.947,19.05\
-3,28.074,19,28.2\
-07,19H44.81c1.17\
-6,0,2.098,1.01,1\
-.992,2.181 l-1.6\
-36,18C45.072,40.\
-211,44.208,41,43\
-.174,41H4.79c-1.\
-019,0-1.875-0.76\
-6-1.988-1.779L1.\
-062,23.555C1.029\
-,23.259,1.261,23\
-,1.559,23 H24z\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x02]\
-\x00\
-\x00\x08\xafx\xda\xd5\x96Qk\xdb0\x10\xc7\xdf\x07\xfb\
-\x0eB}Y\xc1\xbe\xe8t\xb2l\x8d\xb8\x0f\xcd\xc6\x18\
-c\x8c\x11Z\xf6\xea*Nl\xe6%\xc1q\x93t\x9f\
-~\xe7X\x19\xdb\x08dyk\xb1\xb1\xce\x87|'\xfd\
-\xff?\x1b\x8f7\xdb\x85\xd8\xffh\x96\x9b\x5cV]\xb7\
-~;\x1a\xedv;\xd8\x11\xac\xda\xc5H+\xa5F<\
-C\x8am]\xeenW\xfb\x5c*\xa1\x84\xc9\xf8\x94b\
-W\xcf\xba*\x97&[\xef\xa5\xa8\xcazQu\xe1\xee\
-\xe6\xf5+!\xc6M\xbd,\x8b\xf6C[\xcc\xear\xd9\
-\x89z\x96KR\xfbO\xed\xbb\xfd\xe2{\xfa\xf5\xdb\xe3\
-\xc7\xa9~?\xbd\xad\xa8\x90b\x8f\xb9\xb4\x90!r\xa8\
-s\x89\x04\xe8\xb8\xc3\x13\xa7\x1d(4\x1cr\x9a\x08L\
-\xc2\xe9E(y\xb7\xac;^\xf7\xe3\xa6l\xa7\xeb\xc2\
-\x97_\x96w\x9brh\xce\xed7\xddj-V\xf3\xf9\
-\xa6\xe4e))\xfa\xfb\xd8\xaf\x9aU\x9b\xcb\xab\xc4Y\
-\xf4$\xc5\xe8\xe4l\xfcg6\x15\x06\x0b\x7f\x9c=\x1e\
-\xfd\xbd\xb3!\xb9.\xbaJ\xcc\xeb\xa6\xe1\x05\xb5\xcd\x9b\
-\xab\xd3[\xbd\x96\x82e\xf8\x8c\x08I\x84\xe9$\x03c\
-\x89\x83\xc8F\xe88\xd6\x1ch\x0d\xc9=i\xaf\x22\x05\
-I\xa2\xf9jL\x16a\x7fT\xce\x87\x5c\x84q\xc8\xc7\
-\xb8\x8d\x1d$b\xc2UB\x0d4\x90P\xda\x97\x0d}\
-~\xfe^\xfa\xffz\xf20x\x82\xdc\xce\xe9`\x8a\x85\
-\xa3'\x19(m\x83'\x1aL\xfaL-\xf1u\xeb\x9b\
-Rx\xc6\xb6\x17B\x0a\xfft\x8c\xb8\x04\xf5\xe39\xc3\
-\x1e\xae/\x96\xce\x07\xe9\x0cd\x8a\x06\xe94\x81\xa6d\
-\xd0.\x85\xf4 c\xaf\x1d#o\xf0%\xf3\xec\x03\xcf\
-\x9a\xe1\xcc|L@h\x22\x153\xc4`\xb3\x94G\xbb\
-E<I2\xaaS(\xdfk#&:\x8d\xb4\xea\x9f\
-\x8f\xb49\x14\xc4,:4\xb8\x1c\xe3Y\xf0\xc2\x81\xb5\
-\xe1\xdb\xa2\x19^G\x83\x17\x16(K\x83\x17\x09\x18\xc2\
-\xe7\x0f\xb2\xc6#\xc6\x07\x88\xcdy\x84g\x97#\x5c\x0e\
-\xb21\xb6\x89\xb1\x83l\xcc*&x\x94\xcd\xa64\xc8\
-f\x0c\x93M/\x19\xe12 L\xc4\xd4\xf9\xd8\x80K\
-\x99`\x17\x19P\xc4\x83\xdb\x22\x9d\x06\xd8\x9e\x06\xd8\x89\
-\x89\xd1=\xb9\x8a\x22J\xfbjZE\x87\xe2\x97\xe3;\
-\x1f| \x05)e\x83\x0f\x86\xdf1\x13\xf0e\xed\x13\
-\x17|@\xc8\xf4\xf3\xa7\xb7G\xe5\x0fz\xedyz\xe7\
-\x81\xdeq\xff\x1fr\xf3\x0b\xee\x0bds\
-\x00\x00\x05\xd9\
-\x00\
-\x00\x14\x93x\xda\xc5Xmo\xdbF\x0c\xfe>\xa0\xff\
-\xe1\xa0~I\x00\xfb|\xef/Y\xdc\x02C\xb1\xad+\
-\x86\x01m\xb3\x01\xfd&Kg[\x88-y\x92\x12\xdb\
-\xf9\xf5\xe3I\x96,\xc5q\x12\xb7\x09f'\x88E\xf2\
-x<\x92\x0f\x9fs.\xdfo\x96\x0bt\xeb\xf2\x22\xc9\
-\xd2q@1\x09\x90K\xa3,N\xd2\xd98\xb8\xfa\xfa\
-\xeb\xd0\x04\xa8(\xc34\x0e\x17Y\xea\xc6A\x9a\x05\xef\
-\xdf\xbd\xf9\xe9\xb2\xb8\x9d\xbd\xf9\x09!t\x9b\xb8\xf5/\
-\xd9f\x1c\x10D\x900\xf0\x13T\xf2u\x12\x97\xf3q\
- \xccjS\x0b\xe6.\x99\xcd\xcb\xae\xa4\xb3+\xad%\
-I<\x0e\xc01U\xf5c\x01a\xac\xe0\xf7\x22\xce\xa2\
-4\x5c\xc2\xee\x9f\xdd4w\xc5\x1c\x0d\xd1\xa7l\x958\
-\x0c\xc6\xbb\x95\xe9u\x11\x85+w\xd1q*0Cg\
-S\xc1\x99\x9e\x8a\x01b\x84\xc9!\x91C\xca\xcf\xeb%\
-p\xf0\xb4\xb8h\x16\x8e\x83yY\xae.F\xa3\xf5z\
-\x8d\x1b!\xce\xf2\xd9\xc8\xef\x5c\xac\xc2\xc8\x15\xa3F\xde\
-u\xd0\x04\xd9:h\x04\xb8\xc8n\xf2\xc8M\xc1\x87\xc3\
-\xa9+G\x1f\xbe~h\x95C\x82\xe32\xee\xf8\xe9\xed\
-\xbf\xe6\xd5\xce\x8c\x102j\x8f\xb8\xdb\xeev\xf6\xa8\xe9\
-;o{\x19\xbbiQ-\xaas\xea\x1f!\xa9hT\
-k\xdb\xbc\xfa\xa3\xc5\xbe\x82\x1d\xdbV\xd6T\x01\xa1U\
-8sQ\xb6\xc8\xf2q\xf0vZ\xbd\x1a\xcd$\xcbc\
-\x977:R\xbd\xfa\xba\x0c2\x97\x94[\xe8\x0f\xccd\
-\xa3j\xabU\xcc\xb3\xb5\xf7^\xcc\xc38[\x8f\x03v\
-`\xe1\xb5\x1d\x1f\xe4A\x83h\xee\xa2k\x97O\xb20\
-\x87\x13\x1c\xda\xc4\xae\xb8n\x82\x8c\xa9\x7f7&>\x80\
-\xd9M\x02\x06\xe3\xa0\xcco\x5cO\x9e\xfb|t\xa5\xad\
-\xc3\xbb,[B\x8b\xa9\x03E\x04H\x18R\x8a\x99\xa1\
-\x0f\x1c7\x8230\x82\xad2\xfaP\xb9NR\xc8\xc1\
-p\x07\x1cn\x049f\xd2@\x89\x11)\x8e\xd9@\x1c\
-\x9c(zL\xbd\xad\xc2<\xa6]\x86\x9bd\x99\xdc9\
-8\xfe\xa1Mt\x93\xe7.-\x87\x8bp\xeb\xf2\x06\xaf\
-\xefj\xab}kUI\xdd-\x85\x0e\xca\x8a\xa4\xac`\
-\xc9\x04&\x82*N\x07\x1c\x13k4\xb5m&\x10\xca\
-\xf2\x04<\x87\xb5%\x1d\x90\xbd\xc6W\xa2r\xb9\xcfy\
-'\xa4E\x06\xe5\x07\x8bi\xb8(\x5c\xd3\xe6\xcf\x89\x86\
-\x0a\xac9\x14C\x0f(\xc3\x94+\xc1\xcc\x91h\xc8`\
-H\x1f\x0aG\x9f\x10Nk\xe0;\xab\xef\x0b\x04\xac\xe3\
-\xff&MJ\xe8\xc8fR\xee\xa2\x99%\xe9\xa6\xd3\xde\
-\x8dl\xdb\x93\xf9Q\x05\xc3{\xd3)]+\xdc\xf6\x84\
-n\xb9\xda#\xd7Z'{\xaa\x0e\xe88\xa1V\x11\xdd\
-I\xcd\xb1u\x9dETX\xbf\xac\xbf\xdf.\x8eq\xd0\
-\xdd+\x0d'\x0bw\x0fi\x9eX\x8a\x04\xe4;\xf1)\
-5%\x03(+\xeb\x81\xecY\xad\xd5-\xc0\x8f\xb7\x16\
-\xd7\xd8\x1a\xc1\xb5\x1cP\x85\xb9%\x8a\x9d\x18\x0d{n\
-4\x97\xa3\xc3\x81^+\x16I\xea\xc2\xfc\xb7<\x8c\xfd\
-v\x9d!\xff\xd1\xf2\xd5?\x96\xff\xfb\xc7\x97\xaby\xf9\
-\xe5\xc3\xc7;\xfa\xf9\xdb\xa7\xb0\xd9pCa:0\xd1\
-\xd6{\xc3\xfc3o\x9f\xb7\x95\x9e\xb7\xb3g\xcb\xfa\xcf\
-\xb3\xdd\x86_\xf30-\x80\xff`T\xe6\x19\x9c\xd6\x9d\
-Q\xe3qD\x04\xa4\x86\x1b9\x18Z\x8d\xa5R\x8a\x9d\
-\xdf_zU\x03\xe0\xa6p\xf9\x17\xcf\xbd\x7f\xa5Wp\
-\xe06\xf9e\xb6\xda\xe7r:-\x1cLC\xccTg\
-6x\x93a\xd3\xa6\xd4\xda\xd0\xddK\xb27\xa0\xdd\x82\
->\xe8S\x1av\xcc\xa7\xb1&v\x87>\xd9\x93>\xb5\
-\x90\xc7|JKbu\xe8\x93?\xe9\xd3h~\xcc'\
-1<\xb2\x87>\xc5\x93>\xed\xd1\xb3\x13\xa3\xc9D\x1f\
-\xfa\x94O\xf9\xa4\xc7\x1cj\x15M\xf8\xa1\xc3\xfd\x9de\
-\xd4\xef\xe5Z\xb8\x0a\xcb\xf9n\xcd4Y,\xa0_\xf2\
-\xc5\xd9\xdb\x87\x9b\xbbm1p\xbdD\x15\x0d\x11\xca\xf4\
-@Pl\x94\x02\x0a@s\x04$`-\xa3\xc6\xa0\x08\
-\x11,%\x1b\x10D\x07pW\x13p\xb3\x85\x0f\x14\xdd\
-\xa2\xa1\xf0J/\x04=\xaau^3\xac\xf4\xbf\xb7\x9e\
-\x0d\xfa\x16t\x10\xe7Cm+\xbb\xc7k\x16\xbbr\xbb\
-\xf2\xb7\x8f\xa8\x80W\x14\xb5&\xe5\xd6\x0f?\x7f\xac\x8b\
-GO\xd5$\xe84\xacO\xbaX\xe7\xd82\xd1\x05;\
-\xd5\x98\x10\xda\x85\xbb\xc1\x80\xa1.\xde\xab\xb4\xe9\xe7\xc1\
-\xf6\xf8XX\x86e\x9el\xce\x086R\x0a%$\x8c\
-B\xff\xc6\x86\x0b\xae\xb4\x16~\x92+\xc3\xe0.\xe5\x13\
-\xae%\xa7\xc0E\xfa\xfc\xf1A@\x8e4\x19g\x13\xb8\
-\x08\x1f6\x99\xfe\xde\xae\xa5.dN\x1c:4/\xd6\
-\xb5\x93{]K\xb1\xe4\x12\xdau@9\xb02\xb4\x19\
-\xf5\x1dH(!\xdc\xdf`\xe0\xfe\xa2\x98\x82&\x84\x02\
-ZA\x85oU\xd0+\x98+\x5cB/\xc3g\xcb\x80\
-\x8b\xa0\xaf\xb1f\xd2V\xedk\x8c\xd0t\x00\xdf\xc1$\
-\x91V\xa0\x05\x92p'bB\x99\x81\xc4\xd2R\xb8\xa4\
-\xd5h \x90{\xbf\x10\x16Xn\x11\xc5P\x0ckE\
-Wb`K\x10t}\x0c{N\x04\x97\x82\xd7\x88\x02\
--\xec\x06\xf7\x04\x18\xdb\xc4\x02v\x9a\x00\xaa\x98,g\
-\xaa#\x03X)\xac\xe0\xe4L\xa3\xbfQux.\xf6\
-\x0d\xd9\x00\xcc<\x0a0\x8f\xb0\xe8t\x8cM\xce\x7f.\
-\xca<\xbbv\xf5\xd5\xfc\x02\xba\x13 /\xe9w\x22/\
-\xea\xb1,W\xb2\xc7\xb2\x5c\xca{,\x0b\xdfc5\xbb\
-\xc7\xb4=\xd9\x03\xb0*\xfd\xc7\x85'\x5c\xae=\xd7J\
-H0\xd3p\x91\x83\xfe\xe0\xff\x13\xd7\xdaW\xe0ZJ\
-^\x81l)}\x05\xb6\xa5\xec\x15\xe8\x96\xf2\x97\xe6[\
-*^ltE\xdd\xd1\xf5gE\x8b\xdcjm\x06\x5c\
-B\xfe\x88\xe2\xda\xcf)Rw'\xad\x07U\xcd\xb8\xc0\
-\xa45\xe3\xc2\x07\xcf\xb85\xe1\xd6|[\xd3-E^\
-3\xf7\x83\x00\xbe\x02\xc3E\x1f\xdd\xdd\x1f\x05T\x9c\x86\
-\xf2}\xb8\x8f\x91\xf3\xf7A>\xee\x91-\xf3\x83\xb3\x0b\
-z!\xba\x90\xd7X)\xdecZ\x98\xd5\xfbo2?\
-\x00\xdaSy\x91\xca\x97&F\xfa\xd8}\xee\xd2\xff\xff\
-\x0a\xfe\xfe\x07\xcd\x87?\xaf\
-\x00\x00\x04\xb5\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22hb\
-E9Evnj3wAjjA2RX0\
-We2a\x22 x1=\x227.534\x22\
- x2=\x2227.557\x22 y1=\
-\x227.534\x22 y2=\x2227.5\
-57\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#f44f5a\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.443\x22 stop-\
-color=\x22#ee3d4a\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#e52030\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#hbE9Ev\
-nj3wAjjA2RX0We2a\
-)\x22 d=\x22M42.42,12.\
-401c0.774-0.774,\
-0.774-2.028,0-2.\
-802L38.401,5.58c\
--0.774-0.774-2.0\
-28-0.774-2.802,0\
- L24,17.179L12.4\
-01,5.58c-0.774-0\
-.774-2.028-0.774\
--2.802,0L5.58,9.\
-599c-0.774,0.774\
--0.774,2.028,0,2\
-.802L17.179,24L5\
-.58,35.599 c-0.7\
-74,0.774-0.774,2\
-.028,0,2.802l4.0\
-19,4.019c0.774,0\
-.774,2.028,0.774\
-,2.802,0L42.42,1\
-2.401z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22hbE9Evnj3wAjjA\
-2RX0We2b\x22 x1=\x2227\
-.373\x22 x2=\x2240.507\
-\x22 y1=\x2227.373\x22 y2\
-=\x2240.507\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x220\x22 \
-stop-color=\x22#a81\
-42e\x22 />\x0d\x0a    <st\
-op offset=\x22.179\x22\
- stop-color=\x22#ba\
-1632\x22 />\x0d\x0a    <s\
-top offset=\x22.243\
-\x22 stop-color=\x22#c\
-21734\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#hbE9Evnj3wAjj\
-A2RX0We2b)\x22 d=\x22M\
-24,30.821L35.599\
-,42.42c0.774,0.7\
-74,2.028,0.774,2\
-.802,0l4.019-4.0\
-19 c0.774-0.774,\
-0.774-2.028,0-2.\
-802L30.821,24L24\
-,30.821z\x22 />\x0d\x0a</\
-svg>\
-\x00\x00\x06\xe2\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x22ks\
-wHaDlBT5hwNncEGH\
-a_oa\x22 cx=\x2223.617\
-\x22 cy=\x2227.953\x22 r=\
-\x2221.338\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x22.376\
-\x22 stop-color=\x22#2\
-61103\x22 />\x0d\x0a    <\
-stop offset=\x22.68\
-\x22 stop-color=\x22#4\
-31d06\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-color=\x22#662\
-c09\x22 />\x0d\x0a  </rad\
-ialGradient>\x0d\x0a  \
-<path fill=\x22url(\
-#kswHaDlBT5hwNnc\
-EGHa_oa)\x22 d=\x22M24\
-,8.645c-16.026,0\
--20,25.877-20,25\
-.877c0,4.607,2.1\
-39,8.643,6.62,9.\
-713 C14.457,45.1\
-51,19.286,46,24,\
-46s9.543-0.849,1\
-3.38-1.766c4.481\
--1.07,6.62-5.106\
-,6.62-9.713C44,3\
-4.521,40.026,8.6\
-45,24,8.645z\x22 />\
-\x0d\x0a  <radialGradi\
-ent id=\x22kswHaDlB\
-T5hwNncEGHa_ob\x22 \
-cx=\x22-252.69\x22 cy=\
-\x226.414\x22 r=\x2216.75\
-8\x22 gradientTrans\
-form=\x22matrix(-.9\
-667 0 0 .9667 -2\
-20.267 19.667)\x22 \
-gradientUnits=\x22u\
-serSpaceOnUse\x22>\x0d\
-\x0a    <stop offse\
-t=\x220\x22 stop-color\
-=\x22#ffcf54\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.261\x22 stop-colo\
-r=\x22#fdcb4d\x22 />\x0d\x0a\
-    <stop offset\
-=\x22.639\x22 stop-col\
-or=\x22#f7c13a\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#f0b421\x22 />\x0d\x0a \
- </radialGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#kswHaDlBT\
-5hwNncEGHa_ob)\x22 \
-d=\x22M24,7.733c6.9\
-08,0,14,2.8,14,1\
-7.733c0,1.195,0,\
-4.525,0,5.802C38\
-,36.6,29.426,44,\
-24,44 s-14-7.4-1\
-4-12.731c0-1.277\
-,0-4.607,0-5.802\
-C10,10.533,17.09\
-2,7.733,24,7.733\
-z\x22 />\x0d\x0a  <radial\
-Gradient id=\x22ksw\
-HaDlBT5hwNncEGHa\
-_oc\x22 cx=\x2213.053\x22\
- cy=\x223.729\x22 r=\x224\
-9.757\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#c26715\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.508\x22 st\
-op-color=\x22#b8551\
-5\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#ad3f16\x22\
- />\x0d\x0a  </radialG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#ksw\
-HaDlBT5hwNncEGHa\
-_oc)\x22 d=\x22M24,3c-\
-7.982,0-10,5-10,\
-5C10.755,8.479,4\
-,12.978,4,34.505\
-c0,5.848,2.928,7\
-.995,4,8.62 c-7.\
-76-22.812,10.021\
--20.171,7.375-32\
-.872c7.62,16.934\
-,32.175,1.963,25\
-.349,32.338C42.5\
-8,41.18,44,38.34\
-9,44,34.505 C44,\
-13.265,35.383,3,\
-24,3z\x22 />\x0d\x0a</svg\
->\
-\x00\x00\x05\x7f\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x2219\
-MjOokUIr~KulNhct\
-UtJa\x22 x1=\x228.955\x22\
- x2=\x2243.295\x22 y1=\
-\x227.613\x22 y2=\x2245.0\
-17\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#fc7d5b\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.06\x22 stop-c\
-olor=\x22#f8734f\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.18\x22 stop-c\
-olor=\x22#f3653d\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.326\x22 stop-\
-color=\x22#f05b31\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x22.523\x22 stop\
--color=\x22#ee552a\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#ed5328\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <path \
-fill=\x22url(#19MjO\
-okUIr~KulNhctUtJ\
-a)\x22 d=\x22M42,38c0,\
-2.209-1.791,4-4,\
-4H10c-2.209,0-4-\
-1.791-4-4V10c0-2\
-.209,1.791-4,4-4\
-h28 c2.209,0,4,1\
-.791,4,4V38z\x22 />\
-\x0d\x0a  <path d=\x22M24\
-,37c-8.701,0-11-\
-7.195-11-11V15c0\
--1.654,1.346-3,3\
--3s3,1.346,3,3v1\
-1c0,0.835,0.241,\
-5,5,5 s5-4.165,5\
--5c0-0.668-0.241\
--4-5-4c-1.654,0-\
-3-1.346-3-3s1.34\
-6-3,3-3c8.701,0,\
-11,6.541,11,10C3\
-5,29.805,32.701,\
-37,24,37z\x22 opaci\
-ty=\x22.05\x22 />\x0d\x0a  <\
-path d=\x22M24,36.5\
-c-8.306,0-10.5-6\
-.868-10.5-10.5V1\
-5c0-1.379,1.121-\
-2.5,2.5-2.5s2.5,\
-1.121,2.5,2.5v11\
- c0,0.563,0.154,\
-5.5,5.5,5.5s5.5-\
-4.938,5.5-5.5c0-\
-0.461-0.154-4.5-\
-5.5-4.5c-1.379,0\
--2.5-1.121-2.5-2\
-.5s1.121-2.5,2.5\
--2.5 c8.306,0,10\
-.5,6.214,10.5,9.\
-5C34.5,29.632,32\
-.306,36.5,24,36.\
-5z\x22 opacity=\x22.07\
-\x22 />\x0d\x0a  <path fi\
-ll=\x22#fff\x22 d=\x22M24\
-,36c-7.9,0-10-6.\
-5-10-10V15c0-1.1\
-,0.9-2,2-2s2,0.9\
-,2,2v11c0,1,0.4,\
-6,6,6s6-5,6-6c0-\
-0.8-0.4-5-6-5 c-\
-1.1,0-2-0.9-2-2s\
-0.9-2,2-2c7.9,0,\
-10,5.9,10,9C34,2\
-9.5,31.9,36,24,3\
-6z\x22 />\x0d\x0a</svg>\
-\x00\x00\x05\xd3\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22B7\
-tH1ezsFVrorVaJSU\
-tbja\x22 x1=\x2223.542\
-\x22 x2=\x2223.542\x22 y1\
-=\x225.842\x22 y2=\x2241.\
-729\x22 gradientTra\
-nsform=\x22translat\
-e(.435 .317)\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#f44f5a\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-443\x22 stop-color=\
-\x22#ee3d4a\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-e52030\x22 />\x0d\x0a  </\
-linearGradient>\x0d\
-\x0a  <path fill=\x22u\
-rl(#B7tH1ezsFVro\
-rVaJSUtbja)\x22 d=\x22\
-M40.004,41.969L8\
-.031,42c-1.099,0\
-.001-1.999-0.897\
--2-1.996L6,8.031\
- c-0.001-1.099,0\
-.897-1.999,1.996\
--2L39.969,6c1.09\
-9-0.001,1.999,0.\
-897,2,1.996L42,3\
-9.969C42.001,41.\
-068,41.103,41.96\
-8,40.004,41.969z\
-\x22 />\x0d\x0a  <path d=\
-\x22M29.5,15c-2.413\
-,0-4.455,1.451-5\
-.5,2.364C22.955,\
-16.451,20.913,15\
-,18.5,15 c-3.584\
-,0-6.5,2.916-6.5\
-,6.5c0,5.476,7.5\
-78,11.243,10.835\
-,13.468c0.354,0.\
-242,0.76,0.363,1\
-.166,0.363 c0.40\
-5,0,0.811-0.121,\
-1.165-0.363C28.4\
-23,32.741,36,26.\
-972,36,21.5C36,1\
-7.916,33.084,15,\
-29.5,15z\x22 opacit\
-y=\x22.05\x22 />\x0d\x0a  <p\
-ath d=\x22M29.5,15.\
-5c-2.547,0-4.669\
-,1.747-5.5,2.538\
-c-0.831-0.791-2.\
-953-2.538-5.5-2.\
-538c-3.309,0-6,2\
-.691-6,6 c0,5.38\
-4,8.127,11.354,1\
-0.618,13.056c0.2\
-68,0.183,0.576,0\
-.274,0.883,0.274\
-c0.307,0,0.615-0\
-.092,0.883-0.274\
- C27.374,32.854,\
-35.5,26.881,35.5\
-,21.5C35.5,18.19\
-1,32.809,15.5,29\
-.5,15.5z\x22 opacit\
-y=\x22.07\x22 />\x0d\x0a  <p\
-ath fill=\x22#fff\x22 \
-d=\x22M24,18.75c0,0\
-,2.463-2.75,5.5-\
-2.75s5.5,2.496,5\
-.5,5.5c0,5.17-8.\
-101,11.072-10.39\
-9,12.643 c-0.364\
-,0.249-0.837,0.2\
-49-1.201,0C21.10\
-1,32.572,13,26.6\
-7,13,21.5c0-3.00\
-4,2.463-5.5,5.5-\
-5.5S24,18.75,24,\
-18.75z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x09\xfa\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#64717c\x22 d\
-=\x22M24,18c-0.552,\
-0-1-0.448-1-1c0-\
-2.815,0.36-12,5-\
-12c1.173,0,2.037\
-,0.676,2.872,1.3\
-31 C31.919,7.151\
-,33.002,8,35,8h4\
-c0.552,0,1,0.448\
-,1,1s-0.448,1-1,\
-1h-4c-2.688,0-4.\
-233-1.211-5.362-\
-2.095C28.922,7.3\
-44,28.46,7,28,7 \
-c-1.738,0-3,4.20\
-6-3,10C25,17.552\
-,24.552,18,24,18\
-z\x22 />\x0d\x0a  <radial\
-Gradient id=\x22PTH\
-08zocUYAZh7xvCE~\
-aha\x22 cx=\x2236.257\x22\
- cy=\x2227.553\x22 r=\x22\
-11.69\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#bbc1c4\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.652\x22 st\
-op-color=\x22#bbc1c\
-4\x22 />\x0d\x0a    <stop\
- offset=\x22.74\x22 st\
-op-color=\x22#c1c7c\
-9\x22 />\x0d\x0a    <stop\
- offset=\x22.861\x22 s\
-top-color=\x22#d3d6\
-d8\x22 />\x0d\x0a    <sto\
-p offset=\x221\x22 sto\
-p-color=\x22#f0f0f0\
-\x22 />\x0d\x0a  </radial\
-Gradient>\x0d\x0a  <ci\
-rcle cx=\x2240\x22 cy=\
-\x2222\x22 r=\x225\x22 fill=\
-\x22url(#PTH08zocUY\
-AZh7xvCE~aha)\x22 /\
->\x0d\x0a  <radialGrad\
-ient id=\x22PTH08zo\
-cUYAZh7xvCE~ahb\x22\
- cx=\x2236.257\x22 cy=\
-\x2227.553\x22 r=\x2211.6\
-9\x22 gradientTrans\
-form=\x22matrix(-1 \
-0 0 1 48 0)\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-bbc1c4\x22 />\x0d\x0a    \
-<stop offset=\x22.6\
-52\x22 stop-color=\x22\
-#bbc1c4\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-74\x22 stop-color=\x22\
-#c1c7c9\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-861\x22 stop-color=\
-\x22#d3d6d8\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-f0f0f0\x22 />\x0d\x0a  </\
-radialGradient>\x0d\
-\x0a  <circle cx=\x228\
-\x22 cy=\x2222\x22 r=\x225\x22 \
-fill=\x22url(#PTH08\
-zocUYAZh7xvCE~ah\
-b)\x22 />\x0d\x0a  <linea\
-rGradient id=\x22PT\
-H08zocUYAZh7xvCE\
-~ahc\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x2214.955\
-\x22 y2=\x2242.955\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#f0f0f0\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#b\
-bc1c4\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <ellipse cx=\x222\
-4\x22 cy=\x2229\x22 fill=\
-\x22url(#PTH08zocUY\
-AZh7xvCE~ahc)\x22 r\
-x=\x2219\x22 ry=\x2214\x22 /\
->\x0d\x0a  <path fill=\
-\x22#d43a02\x22 d=\x22M30\
-,23c-1.656-0.001\
--2.999,1.341-3,2\
-.998c-0.001,1.65\
-6,1.341,2.999,2.\
-998,3c0.001,0,0.\
-002,0,0.002,0 c1\
-.656,0.001,2.999\
--1.341,3-2.998c0\
-.001-1.656-1.341\
--2.999-2.998-3C3\
-0.002,23,30.001,\
-23,30,23z\x22 />\x0d\x0a \
- <path fill=\x22#d4\
-3a02\x22 d=\x22M18,23c\
--1.656-0.001-2.9\
-99,1.341-3,2.998\
-c-0.001,1.656,1.\
-341,2.999,2.998,\
-3c0.001,0,0.002,\
-0,0.002,0 c1.656\
-,0.001,2.999-1.3\
-41,3-2.998c0.001\
--1.656-1.341-2.9\
-99-2.998-3C18.00\
-2,23,18.001,23,1\
-8,23z\x22 />\x0d\x0a  <pa\
-th fill=\x22#64717c\
-\x22 d=\x22M24.002,34.\
-902c-3.252,0-6.1\
-4-0.745-8.002-1.\
-902c1.024,2.044,\
-4.196,4,8.002,4 \
-c3.802,0,6.976-1\
-.956,7.998-4C30.\
-143,34.157,27.25\
-4,34.902,24.002,\
-34.902z\x22 />\x0d\x0a  <\
-linearGradient i\
-d=\x22PTH08zocUYAZh\
-7xvCE~ahd\x22 x1=\x223\
-6.995\x22 x2=\x2241.39\
-2\x22 y1=\x226.995\x22 y2\
-=\x2211.392\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x220\x22 \
-stop-color=\x22#f0f\
-0f0\x22 />\x0d\x0a    <st\
-op offset=\x221\x22 st\
-op-color=\x22#bbc1c\
-4\x22 />\x0d\x0a  </linea\
-rGradient>\x0d\x0a  <c\
-ircle cx=\x2239\x22 cy\
-=\x229\x22 r=\x223\x22 fill=\
-\x22url(#PTH08zocUY\
-AZh7xvCE~ahd)\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x08\x01\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22L4\
-rKfs~Qrm~k0Pk8MR\
-soza\x22 x1=\x2232.012\
-\x22 x2=\x2215.881\x22 y1\
-=\x2232.012\x22 y2=\x2215\
-.881\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#fff\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.242\x22 stop-c\
-olor=\x22#f2f2f2\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#ccc\x22 />\x0d\x0a  \
-</linearGradient\
->\x0d\x0a  <circle cx=\
-\x2224\x22 cy=\x2224\x22 r=\x22\
-11.5\x22 fill=\x22url(\
-#L4rKfs~Qrm~k0Pk\
-8MRsoza)\x22 />\x0d\x0a  \
-<linearGradient \
-id=\x22L4rKfs~Qrm~k\
-0Pk8MRsozb\x22 x1=\x22\
-17.45\x22 x2=\x2228.94\
-\x22 y1=\x2217.45\x22 y2=\
-\x2228.94\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#0d61a\
-9\x22 />\x0d\x0a    <stop\
- offset=\x22.363\x22 s\
-top-color=\x22#0e5f\
-a4\x22 />\x0d\x0a    <sto\
-p offset=\x22.78\x22 s\
-top-color=\x22#1357\
-96\x22 />\x0d\x0a    <sto\
-p offset=\x221\x22 sto\
-p-color=\x22#16528c\
-\x22 />\x0d\x0a  </linear\
-Gradient>\x0d\x0a  <ci\
-rcle cx=\x2224\x22 cy=\
-\x2224\x22 r=\x227\x22 fill=\
-\x22url(#L4rKfs~Qrm\
-~k0Pk8MRsozb)\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x22L4rKfs~\
-Qrm~k0Pk8MRsozc\x22\
- x1=\x225.326\x22 x2=\x22\
-38.082\x22 y1=\x225.34\
-4\x22 y2=\x2238.099\x22 g\
-radientUnits=\x22us\
-erSpaceOnUse\x22>\x0d\x0a\
-    <stop offset\
-=\x220\x22 stop-color=\
-\x22#889097\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.331\x22 stop-color\
-=\x22#848c94\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.669\x22 stop-colo\
-r=\x22#78828b\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#64717c\x22 />\x0d\x0a  \
-</linearGradient\
->\x0d\x0a  <path fill=\
-\x22url(#L4rKfs~Qrm\
-~k0Pk8MRsozc)\x22 d\
-=\x22M43.407,19.243\
-c-2.389-0.029-4.\
-702-1.274-5.983-\
-3.493c-1.233-2.1\
-36-1.208-4.649-0\
-.162-6.693 c-2.1\
-25-1.887-4.642-3\
-.339-7.43-4.188C\
-28.577,6.756,26.\
-435,8,24,8s-4.57\
-7-1.244-5.831-3.\
-131c-2.788,0.849\
--5.305,2.301-7.4\
-3,4.188 c1.046,2\
-.044,1.071,4.557\
--0.162,6.693c-1.\
-281,2.219-3.594,\
-3.464-5.983,3.49\
-3C4.22,20.77,4,2\
-2.358,4,24 c0,1.\
-284,0.133,2.535,\
-0.364,3.752c2.46\
-9-0.051,4.891,1.\
-208,6.213,3.498c\
-1.368,2.37,1.187\
-,5.204-0.22,7.34\
-5 c2.082,1.947,4\
-.573,3.456,7.34,\
-4.375C18.827,40.\
-624,21.221,39,24\
-,39s5.173,1.624,\
-6.303,3.971c2.76\
-7-0.919,5.258-2.\
-428,7.34-4.375 c\
--1.407-2.141-1.5\
-88-4.975-0.22-7.\
-345c1.322-2.29,3\
-.743-3.549,6.213\
--3.498C43.867,26\
-.535,44,25.284,4\
-4,24 C44,22.358,\
-43.78,20.77,43.4\
-07,19.243z M24,3\
-4.5c-5.799,0-10.\
-5-4.701-10.5-10.\
-5c0-5.799,4.701-\
-10.5,10.5-10.5S3\
-4.5,18.201,34.5,\
-24 C34.5,29.799,\
-29.799,34.5,24,3\
-4.5z\x22 />\x0d\x0a</svg>\
-\
-\x00\x00\x08*\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22 baseProfil\
-e=\x22basic\x22>\x0d\x0a  <p\
-ath fill=\x22#64717\
-c\x22 d=\x22M35.85,40.\
-219l-27-14C8.021\
-,25.79,7.5,24.93\
-4,7.5,24s0.521-1\
-.79,1.35-2.219l2\
-7-14l2.301,4.438\
- L15.431,24l22.7\
-2,11.781L35.85,4\
-0.219z\x22 />\x0d\x0a  <p\
-ath d=\x22M38.15,12\
-.22l-6.27,3.25l-\
-0.47,0.24c-1.2-1\
-.17-2.03-2.71-2.\
-31-4.43l0.48-0.2\
-5l6.27-3.25L38.1\
-5,12.22z\x22 opacit\
-y=\x22.05\x22 />\x0d\x0a  <p\
-ath d=\x22M38.15,12\
-.22l-6.27,3.25c-\
-1.23-1.14-2.07-2\
-.7-2.3-4.44l6.27\
--3.25L38.15,12.2\
-2z\x22 opacity=\x22.07\
-\x22 />\x0d\x0a  <path d=\
-\x22M38.15,35.78l-6\
-.27-3.25l-0.47-0\
-.24c-1.2,1.17-2.\
-03,2.71-2.31,4.4\
-3l0.48,0.25l6.27\
-,3.25L38.15,35.7\
-8z\x22 opacity=\x22.05\
-\x22 />\x0d\x0a  <path d=\
-\x22M38.15,35.78l-6\
-.27-3.25c-1.23,1\
-.14-2.07,2.7-2.3\
-,4.44l6.27,3.25L\
-38.15,35.78z\x22 op\
-acity=\x22.07\x22 />\x0d\x0a\
-  <linearGradien\
-t id=\x22JB_CPnxu2a\
-wqV7p5jbkOsa\x22 x1\
-=\x2232.05\x22 x2=\x2241.\
-95\x22 y1=\x225.05\x22 y2\
-=\x2214.95\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x220\x22 s\
-top-color=\x22#33be\
-f0\x22 />\x0d\x0a    <sto\
-p offset=\x221\x22 sto\
-p-color=\x22#0a85d9\
-\x22 />\x0d\x0a  </linear\
-Gradient>\x0d\x0a  <ci\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#1976D\
+2\x22 d=\x22M38.1,31.2\
+L19.4,24l18.7-7.\
+2c1.5-0.6,2.3-2.\
+3,1.7-3.9c-0.6-1\
+.5-2.3-2.3-3.9-1\
+.7l-26,10C8.8,21\
+.6,8,22.8,8,24 s\
+0.8,2.4,1.9,2.8l\
+26,10c0.4,0.1,0.\
+7,0.2,1.1,0.2c1.\
+2,0,2.3-0.7,2.8-\
+1.9C40.4,33.5,39\
+.6,31.8,38.1,31.\
+2z\x22/>\x0a    <g fil\
+l=\x22#1E88E5\x22>\x0a   \
+     <circle cx=\
+\x2211\x22 cy=\x2224\x22 r=\x22\
+7\x22/>\x0a        <ci\
 rcle cx=\x2237\x22 cy=\
-\x2210\x22 r=\x227\x22 fill=\
-\x22url(#JB_CPnxu2a\
-wqV7p5jbkOsa)\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x22JB_CPnx\
-u2awqV7p5jbkOsb\x22\
- x1=\x2232.05\x22 x2=\x22\
-41.95\x22 y1=\x2233.05\
-\x22 y2=\x2242.95\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-33bef0\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#0a\
-85d9\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <circle cx=\x2237\x22\
- cy=\x2238\x22 r=\x227\x22 f\
-ill=\x22url(#JB_CPn\
-xu2awqV7p5jbkOsb\
-)\x22 />\x0d\x0a  <path d\
-=\x22M18.35,25.51l0\
-.46,0.24c-0.38,1\
-.7-1.3,3.19-2.58\
-,4.29l-0.47-0.24\
-l-6.91-3.58 C8.0\
-2,25.79,7.5,24.9\
-3,7.5,24s0.52-1.\
-79,1.35-2.22l6.9\
-1-3.58l0.47-0.24\
-c1.28,1.1,2.2,2.\
-59,2.58,4.29l-0.\
-46,0.24L15.43,24\
- L18.35,25.51z\x22 \
-opacity=\x22.05\x22 />\
-\x0d\x0a  <path d=\x22M15\
-.43,24l2.92,1.51\
-c-0.35,1.71-1.29\
-,3.21-2.59,4.29l\
--6.91-3.58C8.02,\
-25.79,7.5,24.93,\
-7.5,24 s0.52-1.7\
-9,1.35-2.22l6.91\
--3.58c1.3,1.08,2\
-.24,2.58,2.59,4.\
-29L15.43,24z\x22 op\
-acity=\x22.07\x22 />\x0d\x0a\
-  <linearGradien\
-t id=\x22JB_CPnxu2a\
-wqV7p5jbkOsc\x22 x1\
-=\x226.05\x22 x2=\x2215.9\
-5\x22 y1=\x2219.05\x22 y2\
-=\x2228.95\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x220\x22 s\
-top-color=\x22#33be\
-f0\x22 />\x0d\x0a    <sto\
-p offset=\x221\x22 sto\
-p-color=\x22#0a85d9\
-\x22 />\x0d\x0a  </linear\
-Gradient>\x0d\x0a  <ci\
-rcle cx=\x2211\x22 cy=\
-\x2224\x22 r=\x227\x22 fill=\
-\x22url(#JB_CPnxu2a\
-wqV7p5jbkOsc)\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x06\x03\
+\x2214\x22 r=\x227\x22/>\x0a   \
+     <circle cx=\
+\x2237\x22 cy=\x2234\x22 r=\x22\
+7\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x03\xd9\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22 baseProfil\
-e=\x22basic\x22>\x0d\x0a  <l\
-inearGradient id\
-=\x22h92YKRkEnBR3oN\
-6T0Avu3a\x22 x1=\x227.\
-717\x22 x2=\x2233.49\x22 \
-y1=\x2211.281\x22 y2=\x22\
-44.269\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#0078d\
-3\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#0858a1\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#h92\
-YKRkEnBR3oN6T0Av\
-u3a)\x22 d=\x22M36.224\
-,27.737L17.09,8.\
-603V6.001h-3.064\
-C13.947,6.001,13\
-,6.043,13,7.054v\
-30.663 c0,0.638,\
-0.524,1.064,1.07\
-7,1.065v0.01h3.0\
-07v-2.188l4.755-\
-3.966l4.664,10.7\
-28c0.174,0.4,0.5\
-66,0.637,0.977,0\
-.632v0h2.978v-1.\
-204 l1.086-0.472\
-c0.533-0.232,0.7\
-77-0.852,0.545-1\
-.385l-4.628-10.6\
-47l8.1-0.726C36.\
-468,29.484,36.86\
-8,28.381,36.224,\
-27.737z\x22 />\x0d\x0a  <\
-linearGradient i\
-d=\x22h92YKRkEnBR3o\
-N6T0Avu3b\x22 x1=\x221\
-5.236\x22 x2=\x2224.42\
-8\x22 y1=\x2227.904\x22 y\
-2=\x2224.776\x22 gradi\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3949A\
+B\x22 d=\x22M40.6,40.1\
+h-1.4c-0.2,0-0.3\
+,0-0.5,0l-3.1-0.\
+4c-2.4-0.3-4.9-0\
+.2-7.3,0.4l-3.6,\
+0.9c-0.5,0.1-1.1\
+,0.1-1.6,0 L19.6\
+,40c-2.4-0.6-4.8\
+-0.7-7.3-0.4l-3.\
+1,0.4c-0.2,0-0.3\
+,0-0.5,0H7.4c-1.\
+9,0-3.4-1.5-3.4-\
+3.4v0c0-0.4,0.1-\
+0.9,0.2-1.3l0.2-\
+0.6 c1-2.5,1.1-5\
+.3,0.4-7.9l-0.6-\
+2c-0.2-0.7-0.2-1\
+.3,0-2l0.3-0.8c0\
+.9-2.7,0.8-5.7-0\
+.2-8.4l-0.1-0.3C\
+4.1,13.1,4,12.7,\
+4,12.3v-1 c0-1.9\
+,1.5-3.4,3.4-3.4\
+l1.4,0c0.2,0,0.3\
+,0,0.5,0l3.1,0.4\
+c2.4,0.3,4.9,0.2\
+,7.3-0.4l3.6-0.9\
+c0.5-0.1,1.1-0.1\
+,1.6,0L28.4,8 c2\
+.4,0.6,4.8,0.7,7\
+.3,0.4l3.1-0.4c0\
+.2,0,0.3,0,0.5,0\
+l1.4,0c1.9,0,3.4\
+,1.5,3.4,3.4v1c0\
+,0.4-0.1,0.9-0.2\
+,1.3l-0.1,0.3 c-\
+1.1,2.7-1.2,5.6-\
+0.2,8.4l0.3,0.8c\
+0.2,0.6,0.2,1.3,\
+0,2l-0.6,2c-0.7,\
+2.6-0.6,5.4,0.4,\
+7.9l0.2,0.6c0.2,\
+0.4,0.2,0.8,0.2,\
+1.3v0 C44,38.6,4\
+2.5,40.1,40.6,40\
+.1z\x22/>\x0a    <path\
+ fill=\x22#BBDEFB\x22 \
+d=\x22M38,36H10c-0.\
+6,0-1-0.4-1-1V13\
+c0-0.6,0.4-1,1-1\
+h28c0.6,0,1,0.4,\
+1,1v22C39,35.6,3\
+8.6,36,38,36z\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x03\xfc\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#E6\
+9329\x22 points=\x2211\
+.7,21.6 16.8,31.\
+5 26.3,27.6 30.7\
+,14.9 15.9,15.7\x22\
+/>\x0a    <circle f\
+ill=\x22#546E7A\x22 cx\
+=\x2215\x22 cy=\x2236\x22 r=\
+\x227.8\x22/>\x0a    <g f\
+ill=\x22#90A4AE\x22>\x0a \
+       <path d=\x22\
+M15,27c-5,0-9,4-\
+9,9c0,5,4,9,9,9s\
+9-4,9-9C24,31,20\
+,27,15,27z M15,4\
+3c-3.9,0-7-3.1-7\
+-7c0-3.9,3.1-7,7\
+-7 s7,3.1,7,7C22\
+,39.9,18.9,43,15\
+,43z\x22/>\x0a        \
+<rect x=\x2214\x22 y=\x22\
+33\x22 width=\x222\x22 he\
+ight=\x228\x22/>\x0a    <\
+/g>\x0a    <g fill=\
+\x22#FFB74D\x22>\x0a     \
+   <path d=\x22M12.\
+9,36L12.9,36c1,1\
+.9,3.2,2.7,5.1,1\
+.7l16.5-8.5c1-0.\
+5,1.7-1.2,2.2-1.\
+9c1.7-3.2,5.6-10\
+.7,8.2-17.2 l-18\
+.2,8.7L21.9,26l-\
+6.8,3.6C12.5,30.\
+9,11.7,33.8,12.9\
+,36z\x22/>\x0a        \
+<path d=\x22M30.2,3\
+L13.7,9.3c-0.7,0\
+.2-1.5,1-2.2,1.7\
+l-5.6,7.5c-1,1.5\
+-1.2,3.4-0.5,5.1\
+c0.4,1,1.7,3.4,3\
+.1,6.1 c1.6-1.7,\
+3.9-2.7,6.5-2.7c\
+0.4,0,0.9,0,1.3,\
+0.1l-2.1-4.2l4.6\
+-4.1h8c0,0,15.5-\
+2.2,18.2-8.7L30.\
+2,3z\x22/>\x0a    </g>\
+\x0a    <path fill=\
+\x22#FFCDD2\x22 d=\x22M18\
+.2,36c-1.3,0.6-2\
+.8,0-3.3-1.3c-0.\
+6-1.3,0-2.8,1.3-\
+3.3C17.4,30.8,19\
+.4,35.4,18.2,36z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x02z\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#FFA\
+726\x22 cx=\x2212\x22 cy=\
+\x2221\x22 r=\x225\x22/>\x0a   \
+ <g fill=\x22#455A6\
+4\x22>\x0a        <pat\
+h d=\x22M2,34.7c0,0\
+,2.8-6.3,10-6.3s\
+10,6.3,10,6.3V38\
+H2V34.7z\x22/>\x0a    \
+    <path d=\x22M46\
+,34.7c0,0-2.8-6.\
+3-10-6.3s-10,6.3\
+-10,6.3V38h20V34\
+.7z\x22/>\x0a    </g>\x0a\
+    <circle fill\
+=\x22#FFB74D\x22 cx=\x222\
+4\x22 cy=\x2217\x22 r=\x226\x22\
+/>\x0a    <path fil\
+l=\x22#607D8B\x22 d=\x22M\
+36,34.1c0,0-3.3-\
+7.5-12-7.5s-12,7\
+.5-12,7.5V38h24V\
+34.1z\x22/>\x0a    <ci\
+rcle fill=\x22#FFA7\
+26\x22 cx=\x2236\x22 cy=\x22\
+21\x22 r=\x225\x22/>\x0a    \
+<circle fill=\x22#F\
+FA726\x22 cx=\x2212\x22 c\
+y=\x2221\x22 r=\x225\x22/>\x0a \
+   <circle fill=\
+\x22#FFA726\x22 cx=\x2236\
+\x22 cy=\x2221\x22 r=\x225\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x01+\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#607D8B\x22>\
+\x0a        <rect x\
+=\x226\x22 y=\x2222\x22 widt\
+h=\x2236\x22 height=\x224\
+\x22/>\x0a        <rec\
+t x=\x226\x22 y=\x2210\x22 w\
+idth=\x2236\x22 height\
+=\x224\x22/>\x0a        <\
+rect x=\x226\x22 y=\x2234\
+\x22 width=\x2236\x22 hei\
+ght=\x224\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01Z\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00968\
+8\x22 d=\x22M39.1,7l-3\
+.7,0C22.2,7.2,7.\
+1,24.1,7,35.4l0,\
+3.7c0,1,0.8,1.9,\
+1.9,1.9l7.5-0.1c\
+1,0,1.9-0.9,1.9-\
+1.9l0.2-8.2 l-4.\
+7-4c0-2.6,10.5-1\
+3.1,13.2-13.2l4.\
+3,4.7l7.9-0.2c1,\
+0,1.9-0.9,1.9-1.\
+9L41,8.9C41,7.8,\
+40.2,7,39.1,7z\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x01'\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2241\
+,7 41,25 23,7\x22/>\
+\x0a    <rect x=\x2217\
+.4\x22 y=\x2210.3\x22 tra\
+nsform=\x22matrix(-\
+.707 -.707 .707 \
+-.707 17.661 60.\
+567)\x22 fill=\x22#3F5\
+1B5\x22 width=\x228\x22 h\
+eight=\x2232.7\x22/>\x0a<\
+/svg>\x0a\
+\x00\x00\x03\x16\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#8BC34\
+A\x22 d=\x22M43,36H29V\
+14h10.6c0.9,0,1.\
+6,0.6,1.9,1.4L45\
+,26v8C45,35.1,44\
+.1,36,43,36z\x22/>\x0a\
+    <path fill=\x22\
+#388E3C\x22 d=\x22M29,\
+36H5c-1.1,0-2-0.\
+9-2-2V9c0-1.1,0.\
+9-2,2-2h22c1.1,0\
+,2,0.9,2,2V36z\x22/\
+>\x0a    <g fill=\x22#\
+37474F\x22>\x0a       \
+ <circle cx=\x2237\x22\
+ cy=\x2236\x22 r=\x225\x22/>\
+\x0a        <circle\
+ cx=\x2213\x22 cy=\x2236\x22\
+ r=\x225\x22/>\x0a    </g\
+>\x0a    <g fill=\x22#\
+78909C\x22>\x0a       \
+ <circle cx=\x2237\x22\
+ cy=\x2236\x22 r=\x222\x22/>\
+\x0a        <circle\
+ cx=\x2213\x22 cy=\x2236\x22\
+ r=\x222\x22/>\x0a    </g\
+>\x0a    <path fill\
+=\x22#37474F\x22 d=\x22M4\
+1,25h-7c-0.6,0-1\
+-0.4-1-1v-7c0-0.\
+6,0.4-1,1-1h5.3c\
+0.4,0,0.8,0.3,0.\
+9,0.7l1.7,5.2c0,\
+0.1,0.1,0.2,0.1,\
+0.3V24 C42,24.6,\
+41.6,25,41,25z\x22/\
+>\x0a    <polygon f\
+ill=\x22#DCEDC8\x22 po\
+ints=\x2221.8,13.8 \
+13.9,21.7 10.2,1\
+7.9 8,20.1 13.9,\
+26 24,15.9\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x02^\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a  \
+  <g fill=\x22#F443\
+36\x22>\x0a        <re\
+ct x=\x2235\x22 y=\x2228\x22\
+ width=\x226\x22 heigh\
+t=\x2220\x22/>\x0a       \
+ <rect x=\x2228\x22 y=\
+\x2235\x22 width=\x2220\x22 \
+height=\x226\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x03\x7f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#C5\
+CAE9\x22 points=\x2242\
+,42 6,42 6,9 24,\
+2 42,9\x22/>\x0a    <r\
+ect x=\x226\x22 y=\x2242\x22\
+ fill=\x22#9FA8DA\x22 \
+width=\x2236\x22 heigh\
+t=\x222\x22/>\x0a    <rec\
+t x=\x2220\x22 y=\x2235\x22 \
+fill=\x22#BF360C\x22 w\
+idth=\x228\x22 height=\
+\x229\x22/>\x0a    <g fil\
+l=\x22#1565C0\x22>\x0a   \
+     <rect x=\x2231\
+\x22 y=\x2227\x22 width=\x22\
+6\x22 height=\x225\x22/>\x0a\
+        <rect x=\
+\x2221\x22 y=\x2227\x22 widt\
+h=\x226\x22 height=\x225\x22\
+/>\x0a        <rect\
+ x=\x2211\x22 y=\x2227\x22 w\
+idth=\x226\x22 height=\
+\x225\x22/>\x0a        <r\
+ect x=\x2231\x22 y=\x2235\
+\x22 width=\x226\x22 heig\
+ht=\x225\x22/>\x0a       \
+ <rect x=\x2211\x22 y=\
+\x2235\x22 width=\x226\x22 h\
+eight=\x225\x22/>\x0a    \
+    <rect x=\x2231\x22\
+ y=\x2219\x22 width=\x226\
+\x22 height=\x225\x22/>\x0a \
+       <rect x=\x22\
+21\x22 y=\x2219\x22 width\
+=\x226\x22 height=\x225\x22/\
+>\x0a        <rect \
+x=\x2211\x22 y=\x2219\x22 wi\
+dth=\x226\x22 height=\x22\
+5\x22/>\x0a        <re\
+ct x=\x2231\x22 y=\x2211\x22\
+ width=\x226\x22 heigh\
+t=\x225\x22/>\x0a        \
+<rect x=\x2221\x22 y=\x22\
+11\x22 width=\x226\x22 he\
+ight=\x225\x22/>\x0a     \
+   <rect x=\x2211\x22 \
+y=\x2211\x22 width=\x226\x22\
+ height=\x225\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
+\x00\x00\x01Y\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2196F\
+3\x22 d=\x22M37,40H11l\
+-6,6V12c0-3.3,2.\
+7-6,6-6h26c3.3,0\
+,6,2.7,6,6v22C43\
+,37.3,40.3,40,37\
+,40z\x22/>\x0a    <g f\
+ill=\x22#fff\x22>\x0a    \
+    <rect x=\x2222\x22\
+ y=\x2220\x22 width=\x224\
+\x22 height=\x2211\x22/>\x0a\
+        <circle \
+cx=\x2224\x22 cy=\x2215\x22 \
+r=\x222\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x04\xf5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#512DA\
+8\x22 d=\x22M33.9,12.1\
+H14.2L17.6,7c0.4\
+-0.6,1-0.9,1.7-0\
+.9h9.6c0.7,0,1.3\
+,0.3,1.7,0.9L33.\
+9,12.1z\x22/>\x0a    <\
+path fill=\x22#8667\
+C4\x22 d=\x22M14,11H8V\
+9.2C8,8.5,8.5,8,\
+9.2,8h3.6C13.5,8\
+,14,8.5,14,9.2V1\
+1z\x22/>\x0a    <path \
+fill=\x22#5E35B1\x22 d\
+=\x22M40,42H8c-2.2,\
+0-4-1.8-4-4V14c0\
+-2.2,1.8-4,4-4h3\
+2c2.2,0,4,1.8,4,\
+4v24C44,40.2,42.\
+2,42,40,42z\x22/>\x0a \
+   <circle fill=\
+\x22#512DA8\x22 cx=\x2224\
+\x22 cy=\x2226\x22 r=\x2212\x22\
+/>\x0a    <circle f\
+ill=\x22#B388FF\x22 cx\
+=\x2224\x22 cy=\x2226\x22 r=\
+\x229\x22/>\x0a    <path \
+fill=\x22#C7A7FF\x22 d\
+=\x22M28.8,23c-1.2-\
+1.4-3-2.2-4.8-2.\
+2s-3.6,0.8-4.8,2\
+.2c-0.5,0.5-0.4,\
+1.3,0.1,1.8c0.5,\
+0.5,1.3,0.4,1.8-\
+0.1 c1.5-1.7,4.3\
+-1.7,5.8,0c0.3,0\
+.3,0.6,0.4,1,0.4\
+c0.3,0,0.6-0.1,0\
+.9-0.3C29.2,24.4\
+,29.3,23.5,28.8,\
+23z\x22/>\x0a    <elli\
+pse fill=\x22#8667C\
+4\x22 cx=\x2211\x22 cy=\x221\
+3.5\x22 rx=\x222\x22 ry=\x22\
+1.5\x22/>\x0a    <path\
+ fill=\x22#8BC34A\x22 \
+d=\x22M48,33.8c0-1.\
+3-1.1-2.4-2.4-2.\
+4H42c-0.4,0-0.7-\
+0.5-0.4-0.8c0.4-\
+0.6,0.5-1.3,0.4-\
+2.1 c-0.2-1.2-1.\
+1-2.1-2.3-2.4C37\
+.7,25.7,36,27.1,\
+36,29c0,0.6,0.2,\
+1.1,0.4,1.6c0.2,\
+0.4,0,0.8-0.5,0.\
+8h-3.6c-1.3,0-2.\
+4,1.1-2.4,2.4V37\
+ c0,0.4,0.5,0.7,\
+0.8,0.4c0.6-0.4,\
+1.3-0.5,2.1-0.4c\
+1.2,0.2,2.1,1.1,\
+2.4,2.3c0.4,1.9-\
+1.1,3.6-2.9,3.6c\
+-0.6,0-1.1-0.2-1\
+.6-0.4 c-0.4-0.2\
+-0.8,0-0.8,0.5v2\
+.6c0,1.3,1.1,2.4\
+,2.4,2.4h13.2c1.\
+3,0,2.4-1.1,2.4-\
+2.4V33.8z\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02\x10\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FF9800\x22>\
+\x0a        <rect y\
+=\x2227\x22 width=\x2225\x22\
+ height=\x224\x22/>\x0a  \
+      <rect y=\x221\
+7\x22 width=\x2225\x22 he\
+ight=\x224\x22/>\x0a    <\
+/g>\x0a    <g fill=\
+\x22#3F51B5\x22>\x0a     \
+   <path d=\x22M46,\
+35c1.1,0,2-0.9,2\
+-2V15c0-1.1-0.9-\
+2-2-2H27v22H46z\x22\
+/>\x0a        <path\
+ d=\x22M21,13c-1.1,\
+0-2,0.9-2,2v18c0\
+,1.1,0.9,2,2,2h2\
+V13H21z\x22/>\x0a    <\
+/g>\x0a    <path fi\
+ll=\x22#303F9F\x22 d=\x22\
+M25,33c1.1,0,2,0\
+.9,2,2V13c0,1.1-\
+0.9,2-2,2c-1.1,0\
+-2-0.9-2-2v22C23\
+,33.9,23.9,33,25\
+,33z\x22/>\x0a</svg>\x0a\
+\x00\x00\x02Q\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#1565C\
+0\x22 d=\x22M25,22h13l\
+6,6V11c0-2.2-1.8\
+-4-4-4H25c-2.2,0\
+-4,1.8-4,4v7C21,\
+20.2,22.8,22,25,\
+22z\x22/>\x0a    <path\
+ fill=\x22#2196F3\x22 \
+d=\x22M23,19H10l-6,\
+6V8c0-2.2,1.8-4,\
+4-4h15c2.2,0,4,1\
+.8,4,4v7C27,17.2\
+,25.2,19,23,19z\x22\
+/>\x0a    <g fill=\x22\
+#FFA726\x22>\x0a      \
+  <circle cx=\x2212\
+\x22 cy=\x2231\x22 r=\x225\x22/\
+>\x0a        <circl\
+e cx=\x2236\x22 cy=\x2231\
+\x22 r=\x225\x22/>\x0a    </\
+g>\x0a    <g fill=\x22\
+#607D8B\x22>\x0a      \
+  <path d=\x22M20,4\
+2c0,0-2.2-4-8-4s\
+-8,4-8,4v2h16V42\
+z\x22/>\x0a        <pa\
+th d=\x22M44,42c0,0\
+-2.2-4-8-4s-8,4-\
+8,4v2h16V42z\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x02}\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <cir\
+cle cx=\x2224\x22 cy=\x22\
+25\x22 r=\x222\x22/>\x0a    \
+    <circle cx=\x22\
+32\x22 cy=\x2225\x22 r=\x222\
+\x22/>\x0a        <cir\
+cle cx=\x2216\x22 cy=\x22\
+25\x22 r=\x222\x22/>\x0a    \
+</g>\x0a</svg>\x0a\
+\x00\x00\x021\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#78909\
+C\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4l\
+0-20.9c0-1.3,0.6\
+-2.5,1.7-3.3L24,\
+0l18.3,12.8c1.1,\
+0.7,1.7,2,1.7,3.\
+3V37 C44,39.2,42\
+.2,41,40,41z\x22/>\x0a\
+    <rect x=\x2212\x22\
+ y=\x2211\x22 fill=\x22#f\
+ff\x22 width=\x2224\x22 h\
+eight=\x2222\x22/>\x0a   \
+ <path fill=\x22#CF\
+D8DC\x22 d=\x22M40,41H\
+8c-2.2,0-4-1.8-4\
+-4l0-20l20,13l20\
+-13v20C44,39.2,4\
+2.2,41,40,41z\x22/>\
+\x0a    <g fill=\x22#4\
+CAF50\x22>\x0a        \
+<rect x=\x2222\x22 y=\x22\
+14\x22 width=\x224\x22 he\
+ight=\x2212\x22/>\x0a    \
+    <rect x=\x2218\x22\
+ y=\x2218\x22 width=\x221\
+2\x22 height=\x224\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x02\xe1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00968\
+8\x22 d=\x22M39.2,8.4l\
+-1.8,1.8c-6.3,6.\
+5-5.4,22,0,27.6l\
+1.8,1.8c0.5,0.5,\
+1.3,0.5,1.8,0l3.\
+6-3.7c0.5-0.5,0.\
+5-1.3,0-1.8 l-3.\
+4-3.4h-4.8c-1.3-\
+1.3-1.3-12.1,0-1\
+3.4h4.8l3.3-3.4c\
+0.5-0.5,0.5-1.3,\
+0-1.8L41,8.4C40.\
+5,7.9,39.7,7.9,3\
+9.2,8.4z\x22/>\x0a    \
+<path fill=\x22#009\
+688\x22 d=\x22M11.2,8.\
+4l-1.8,1.8c-6.3,\
+6.5-5.4,22,0,27.\
+6l1.8,1.8c0.5,0.\
+5,1.3,0.5,1.8,0l\
+3.6-3.7c0.5-0.5,\
+0.5-1.3,0-1.8 l-\
+3.4-3.4H8.5c-1.3\
+-1.3-1.3-12.1,0-\
+13.4h4.8l3.3-3.4\
+c0.5-0.5,0.5-1.3\
+,0-1.8L13,8.4C12\
+.5,7.9,11.7,7.9,\
+11.2,8.4z\x22/>\x0a   \
+ <g fill=\x22#2196F\
+3\x22>\x0a        <pol\
+ygon points=\x2225.\
+3,18.6 30.7,24 2\
+5.3,29.4\x22/>\x0a    \
+    <rect x=\x2216\x22\
+ y=\x2222\x22 width=\x221\
+1\x22 height=\x224\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x02d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#673AB\
+7\x22 d=\x22M10,9c-2.2\
+,0-4,1.8-4,4v26c\
+0,2.2,1.8,4,4,4h\
+16c2.2,0,4-1.8,4\
+-4V13c0-2.2-1.8-\
+4-4-4\x22/>\x0a    <g \
+fill=\x22#311B92\x22>\x0a\
+        <rect x=\
+\x2214\x22 y=\x2213\x22 widt\
+h=\x222\x22 height=\x2226\
+\x22/>\x0a        <pat\
+h d=\x22M24,9V7c0-1\
+.2-0.8-2-2-2h-8c\
+-1.2,0-2,0.8-2,2\
+v2H24z\x22/>\x0a    </\
+g>\x0a    <path fil\
+l=\x22#D84315\x22 d=\x22M\
+30,13H16v26h14V1\
+3z M21,37h-3v-4h\
+3V37z M21,19h-3v\
+-4h3V19z M27,37h\
+-3v-4h3V37z M24,\
+19v-4h3v4H24z\x22/>\
+\x0a    <path fill=\
+\x22#FF5722\x22 d=\x22M30\
+,13v2h3v4h-3v14h\
+3v4h-3v2h12V13H3\
+0z M39,37h-3v-4h\
+3V37z M39,19h-3v\
+-4h3V19z\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x01\x80\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F4433\
+6\x22 d=\x22M34,9c-4.2\
+,0-7.9,2.1-10,5.\
+4C21.9,11.1,18.2\
+,9,14,9C7.4,9,2,\
+14.4,2,21c0,11.9\
+,22,24,22,24s22-\
+12,22-24 C46,14.\
+4,40.6,9,34,9z\x22/\
+>\x0a    <rect x=\x222\
+2\x22 y=\x22-2.9\x22 tran\
+sform=\x22matrix(.7\
+07 -.707 .707 .7\
+07 -9.941 24)\x22 f\
+ill=\x22#37474F\x22 wi\
+dth=\x224\x22 height=\x22\
+53.7\x22/>\x0a</svg>\x0a\
+\x00\x00\x024\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#607D8\
+B\x22 d=\x22M38,42H10c\
+-2.2,0-4-1.8-4-4\
+V10c0-2.2,1.8-4,\
+4-4h28c2.2,0,4,1\
+.8,4,4v28C42,40.\
+2,40.2,42,38,42z\
+\x22/>\x0a    <circle \
+fill=\x22#455A64\x22 c\
+x=\x2224\x22 cy=\x2224\x22 r\
+=\x2212\x22/>\x0a    <cir\
+cle fill=\x22#42A5F\
+5\x22 cx=\x2224\x22 cy=\x222\
+4\x22 r=\x229\x22/>\x0a    <\
+path fill=\x22#90CA\
+F9\x22 d=\x22M28.8,21c\
+-1.2-1.4-3-2.2-4\
+.8-2.2s-3.6,0.8-\
+4.8,2.2c-0.5,0.5\
+-0.4,1.3,0.1,1.8\
+c0.5,0.5,1.3,0.4\
+,1.8-0.1 c1.5-1.\
+7,4.3-1.7,5.8,0c\
+0.3,0.3,0.6,0.4,\
+1,0.4c0.3,0,0.6-\
+0.1,0.9-0.3C29.2\
+,22.4,29.3,21.5,\
+28.8,21z\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x04 \
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2216.7\x22 y=\x22\
+1.6\x22 transform=\x22\
+matrix(-.707 -.7\
+07 .707 -.707 24\
+ 57.941)\x22 fill=\x22\
+#FFA000\x22 width=\x22\
+14.6\x22 height=\x2244\
+.8\x22/>\x0a    <g fil\
+l=\x22#9E6400\x22>\x0a   \
+     <rect x=\x2217\
+.9\x22 y=\x2220.2\x22 tra\
+nsform=\x22matrix(-\
+.707 -.707 .707 \
+-.707 21.177 51.\
+125)\x22 width=\x226.6\
+\x22 height=\x222\x22/>\x0a \
+       <rect x=\x22\
+22.3\x22 y=\x2215.2\x22 t\
+ransform=\x22matrix\
+(-.707 -.707 .70\
+7 -.707 29.833 4\
+4.71)\x22 width=\x223.\
+7\x22 height=\x222\x22/>\x0a\
+        <rect x=\
+\x2225.9\x22 y=\x2212.2\x22 \
+transform=\x22matri\
+x(-.707 -.707 .7\
+07 -.707 40.49 4\
+3.125)\x22 width=\x226\
+.6\x22 height=\x222\x22/>\
+\x0a        <rect x\
+=\x2231.2\x22 y=\x226.3\x22 \
+transform=\x22matri\
+x(.707 -.707 .70\
+7 .707 3.643 25.\
+147)\x22 width=\x222\x22 \
+height=\x223.7\x22/>\x0a \
+       <rect x=\x22\
+6.3\x22 y=\x2231.2\x22 tr\
+ansform=\x22matrix(\
+-.707 -.707 .707\
+ -.707 -8.794 60\
+.71)\x22 width=\x223.7\
+\x22 height=\x222\x22/>\x0a \
+       <rect x=\x22\
+9.9\x22 y=\x2228.2\x22 tr\
+ansform=\x22matrix(\
+-.707 -.707 .707\
+ -.707 1.863 59.\
+125)\x22 width=\x226.6\
+\x22 height=\x222\x22/>\x0a \
+       <rect x=\x22\
+14.3\x22 y=\x2223.2\x22 t\
+ransform=\x22matrix\
+(-.707 -.707 .70\
+7 -.707 10.52 52\
+.71)\x22 width=\x223.7\
+\x22 height=\x222\x22/>\x0a \
+   </g>\x0a</svg>\x0a\
+\x00\x00\x03\x5c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x229\x22 y=\x2211\x22\
+ fill=\x22#424242\x22 \
+width=\x2230\x22 heigh\
+t=\x223\x22/>\x0a    <pat\
+h fill=\x22#616161\x22\
+ d=\x22M4,25h40v-7c\
+0-2.2-1.8-4-4-4H\
+8c-2.2,0-4,1.8-4\
+,4V25z\x22/>\x0a    <p\
+ath fill=\x22#42424\
+2\x22 d=\x22M8,36h32c2\
+.2,0,4-1.8,4-4v-\
+8H4v8C4,34.2,5.8\
+,36,8,36z\x22/>\x0a   \
+ <circle fill=\x22#\
+00E676\x22 cx=\x2240\x22 \
+cy=\x2218\x22 r=\x221\x22/>\x0a\
+    <rect x=\x2211\x22\
+ y=\x224\x22 fill=\x22#90\
+CAF9\x22 width=\x2226\x22\
+ height=\x2210\x22/>\x0a \
+   <path fill=\x22#\
+242424\x22 d=\x22M37.5\
+,31h-27C9.7,31,9\
+,30.3,9,29.5v0c0\
+-0.8,0.7-1.5,1.5\
+-1.5h27c0.8,0,1.\
+5,0.7,1.5,1.5v0 \
+C39,30.3,38.3,31\
+,37.5,31z\x22/>\x0a   \
+ <rect x=\x2211\x22 y=\
+\x2231\x22 fill=\x22#90CA\
+F9\x22 width=\x2226\x22 h\
+eight=\x2211\x22/>\x0a   \
+ <rect x=\x2211\x22 y=\
+\x2229\x22 fill=\x22#42A5\
+F5\x22 width=\x2226\x22 h\
+eight=\x222\x22/>\x0a    \
+<g fill=\x22#1976D2\
+\x22>\x0a        <rect\
+ x=\x2216\x22 y=\x2233\x22 w\
+idth=\x2217\x22 height\
+=\x222\x22/>\x0a        <\
+rect x=\x2216\x22 y=\x223\
+7\x22 width=\x2213\x22 he\
+ight=\x222\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x01\xe8\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#F5\
+7C00\x22 points=\x2229\
+,23 19,23 7,9 41\
+,9\x22/>\x0a    <g fil\
+l=\x22#FF9800\x22>\x0a   \
+     <polygon po\
+ints=\x2229,38 19,4\
+4 19,23 29,23\x22/>\
+\x0a        <path d\
+=\x22M41.5,9h-35C5.\
+7,9,5,8.3,5,7.5v\
+0C5,6.7,5.7,6,6.\
+5,6h35C42.3,6,43\
+,6.7,43,7.5v0C43\
+,8.3,42.3,9,41.5\
+,9z\x22/>\x0a    </g>\x0a\
+    <circle fill\
+=\x22#F44336\x22 cx=\x223\
+8\x22 cy=\x2238\x22 r=\x2210\
+\x22/>\x0a    <rect x=\
+\x2232\x22 y=\x2236\x22 fill\
+=\x22#fff\x22 width=\x221\
+2\x22 height=\x224\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x00\xcd\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F4433\
+6\x22 d=\x22M37,43l-13\
+-6l-13,6V9c0-2.2\
+,1.8-4,4-4h18c2.\
+2,0,4,1.8,4,4V43\
+z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xc1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M7,7v34h34\
+V7H7z M39,15h-6V\
+9h6V15z M25,15V9\
+h6v6H25z M31,17v\
+6h-6v-6H31z M23,\
+15h-6V9h6V15z M2\
+3,17v6h-6v-6 H23\
+z M15,23H9v-6h6V\
+23z M15,25v6H9v-\
+6H15z M17,25h6v6\
+h-6V25z M23,33v6\
+h-6v-6H23z M25,3\
+3h6v6h-6V33z M25\
+,31v-6h6v6H25z M\
+33,25h6v6h-6 V25\
+z M33,23v-6h6v6H\
+33z M15,9v6H9V9H\
+15z M9,33h6v6H9V\
+33z M33,39v-6h6v\
+6H33z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x03c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2E7D3\
+2\x22 d=\x22M5,24c0,18\
+.9,14.8,19,17,19\
+s4,0,4,0S24.1,26\
+.5,5,24z\x22/>\x0a    \
+<rect x=\x2222\x22 y=\x22\
+26\x22 fill=\x22#388E3\
+C\x22 width=\x224\x22 hei\
+ght=\x2217\x22/>\x0a    <\
+path fill=\x22#C628\
+28\x22 d=\x22M34,16c0,\
+5.1-5.2,8.2-8,8.\
+2s-2-3.1-2-8.2s5\
+-9.2,5-9.2S34,10\
+.9,34,16z\x22/>\x0a   \
+ <path fill=\x22#C6\
+2828\x22 d=\x22M14,16c\
+0,5.1,5.2,8.2,8,\
+8.2s2-3.1,2-8.2s\
+-5-9.2-5-9.2S14,\
+10.9,14,16z\x22/>\x0a \
+   <path fill=\x22#\
+E53935\x22 d=\x22M24,2\
+7c-2.2-1.6-1.9-4\
+.5,2.4-8.8C30.8,\
+13.8,32,7,32,7s5\
+,3.4,5,9C37,21.9\
+,31.3,27,24,27z\x22\
+/>\x0a    <path fil\
+l=\x22#E53935\x22 d=\x22M\
+24,27c2.2-1.6,1.\
+9-4.5-2.4-8.8C17\
+.2,13.8,16,7,16,\
+7s-5,3.4-5,9C11,\
+21.9,16.7,27,24,\
+27z\x22/>\x0a    <path\
+ fill=\x22#F44336\x22 \
+d=\x22M30,16c0,6.1-\
+2.7,11-6,11s-6-4\
+.9-6-11s6-11,6-1\
+1S30,9.9,30,16z\x22\
+/>\x0a    <path fil\
+l=\x22#4CAF50\x22 d=\x22M\
+22,43c0,0,1.8,0,\
+4,0s17-0.1,17-19\
+C23.9,26.5,22,43\
+,22,43z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x05t\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a  \
+  <path fill=\x22#6\
+07D8B\x22 d=\x22M45.2,\
+38.1c0.1-0.4,0.1\
+-0.8,0.1-1.1s0-0\
+.8-0.1-1.1l2.3-1\
+.7c0.2-0.2,0.3-0\
+.5,0.2-0.7l-2.3-\
+3.9 c-0.1-0.2-0.\
+4-0.3-0.7-0.2l-2\
+.6,1.2c-0.6-0.5-\
+1.3-0.9-2-1.2l-0\
+.3-2.9c0-0.3-0.3\
+-0.5-0.5-0.5h-4.\
+5c-0.3,0-0.5,0.2\
+-0.5,0.5l-0.3,2.\
+9 c-0.7,0.3-1.4,\
+0.7-2,1.2l-2.6-1\
+.2c-0.3-0.1-0.6,\
+0-0.7,0.2l-2.3,3\
+.9c-0.1,0.2-0.1,\
+0.6,0.2,0.7l2.3,\
+1.7c-0.1,0.4-0.1\
+,0.8-0.1,1.1 s0,\
+0.8,0.1,1.1l-2.3\
+,1.7c-0.2,0.2-0.\
+3,0.5-0.2,0.7l2.\
+3,3.9c0.1,0.2,0.\
+4,0.3,0.7,0.2l2.\
+6-1.2c0.6,0.5,1.\
+3,0.9,2,1.2l0.3,\
+2.9 c0,0.3,0.3,0\
+.5,0.5,0.5h4.5c0\
+.3,0,0.5-0.2,0.5\
+-0.5l0.3-2.9c0.7\
+-0.3,1.4-0.7,2-1\
+.2l2.6,1.2c0.3,0\
+.1,0.6,0,0.7-0.2\
+l2.3-3.9 c0.1-0.\
+2,0.1-0.6-0.2-0.\
+7L45.2,38.1z M37\
+,42.2c-2.9,0-5.2\
+-2.3-5.2-5.2c0-2\
+.9,2.3-5.2,5.2-5\
+.2c2.9,0,5.2,2.3\
+,5.2,5.2 C42.2,3\
+9.9,39.9,42.2,37\
+,42.2z\x22/>\x0a    <p\
+ath fill=\x22#455A6\
+4\x22 d=\x22M37,31c-3.\
+3,0-6,2.7-6,6c0,\
+3.3,2.7,6,6,6s6-\
+2.7,6-6C43,33.7,\
+40.3,31,37,31z M\
+37,40c-1.7,0-3-1\
+.3-3-3 c0-1.7,1.\
+3-3,3-3s3,1.3,3,\
+3C40,38.7,38.7,4\
+0,37,40z\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x01\x91\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#E91E6\
+3\x22 d=\x22M37,39H11l\
+-6,6V11c0-3.3,2.\
+7-6,6-6h26c3.3,0\
+,6,2.7,6,6v22C43\
+,36.3,40.3,39,37\
+,39z\x22/>\x0a    <pol\
+ygon fill=\x22#F48F\
+B1\x22 points=\x2220,1\
+6.5 10,31 30,31\x22\
+/>\x0a    <g fill=\x22\
+#F8BBD0\x22>\x0a      \
+  <circle cx=\x2234\
+\x22 cy=\x2215\x22 r=\x223\x22/\
+>\x0a        <polyg\
+on points=\x2230,21\
+ 22,31 38,31\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x03\x86\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M42,42H6V1\
+0c0-2.2,1.8-4,4-\
+4h28c2.2,0,4,1.8\
+,4,4V42z\x22/>\x0a    \
+<rect x=\x226\x22 y=\x224\
+2\x22 fill=\x22#64B5F6\
+\x22 width=\x2236\x22 hei\
+ght=\x222\x22/>\x0a    <g\
+ fill=\x22#1565C0\x22>\
+\x0a        <rect x\
+=\x2231\x22 y=\x2227\x22 wid\
+th=\x226\x22 height=\x225\
+\x22/>\x0a        <rec\
+t x=\x2221\x22 y=\x2227\x22 \
+width=\x226\x22 height\
+=\x225\x22/>\x0a        <\
+rect x=\x2211\x22 y=\x222\
+7\x22 width=\x226\x22 hei\
+ght=\x225\x22/>\x0a      \
+  <rect x=\x2231\x22 y\
+=\x2235\x22 width=\x226\x22 \
+height=\x225\x22/>\x0a   \
+     <rect x=\x2211\
+\x22 y=\x2235\x22 width=\x22\
+6\x22 height=\x225\x22/>\x0a\
+        <rect x=\
+\x2231\x22 y=\x2219\x22 widt\
+h=\x226\x22 height=\x225\x22\
+/>\x0a        <rect\
+ x=\x2221\x22 y=\x2219\x22 w\
+idth=\x226\x22 height=\
+\x225\x22/>\x0a        <r\
+ect x=\x2211\x22 y=\x2219\
+\x22 width=\x226\x22 heig\
+ht=\x225\x22/>\x0a       \
+ <rect x=\x2231\x22 y=\
+\x2211\x22 width=\x226\x22 h\
+eight=\x225\x22/>\x0a    \
+    <rect x=\x2221\x22\
+ y=\x2211\x22 width=\x226\
+\x22 height=\x225\x22/>\x0a \
+       <rect x=\x22\
+11\x22 y=\x2211\x22 width\
+=\x226\x22 height=\x225\x22/\
+>\x0a        <rect \
+x=\x2221\x22 y=\x2235\x22 wi\
+dth=\x226\x22 height=\x22\
+9\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x01;\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#FF\
+C107\x22 points=\x2233\
+,22 23.6,22 30,5\
+ 19,5 13,26 21.6\
+,26 17,45\x22/>\x0a   \
+ <rect x=\x2222\x22 y=\
+\x22-2.9\x22 transform\
+=\x22matrix(.707 -.\
+707 .707 .707 -9\
+.941 24)\x22 fill=\x22\
+#37474F\x22 width=\x22\
+4\x22 height=\x2253.7\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x04>\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h25.1c1.3-\
+1.3,4.9-0.9,4.9-\
+2v-6C40,19.9,39.\
+1,19,38,19z\x22/>\x0a \
+       <path d=\x22\
+M34.4,31H10c-1.1\
+,0-2,0.9-2,2v6c0\
+,1.1,0.9,2,2,2h2\
+8c1.1,0,2-0.9,2-\
+2v-2.4C40,33.5,3\
+7.5,31,34.4,31z\x22\
+/>\x0a    </g>\x0a    \
+<g fill=\x22#FFA000\
+\x22>\x0a        <poly\
+gon points=\x2243,4\
+6 41,48 39,48 37\
+,46 37,35.4 43,3\
+5.4 43,40 42,41 \
+43,42 43,43 42,4\
+4 43,45\x22/>\x0a     \
+   <path d=\x22M47.\
+5,28.5c-0.3-0.9-\
+1-1.6-2-1.8C44.2\
+,26.4,42.2,26,40\
+,26s-4.2,0.4-5.5\
+,0.6c-1,0.2-1.7,\
+0.9-2,1.8 C32.3,\
+29.4,32,30.6,32,\
+32c0,1.4,0.3,2.6\
+,0.5,3.5c0.3,0.9\
+,1,1.6,2,1.8c1.3\
+,0.3,3.2,0.6,5.5\
+,0.6s4.2-0.4,5.5\
+-0.6c1-0.2,1.7-0\
+.9,2-1.8 c0.3-0.\
+9,0.5-2.1,0.5-3.\
+5C48,30.6,47.7,2\
+9.4,47.5,28.5z M\
+42.9,31h-5.7c-0.\
+6,0-1.1-0.5-1.1-\
+1.1v-1.4c0-0.3,1\
+.8-0.6,4-0.6 s4,\
+0.3,4,0.6v1.4C44\
+,30.5,43.5,31,42\
+.9,31z\x22/>\x0a    </\
+g>\x0a    <rect x=\x22\
+39\x22 y=\x2237.1\x22 fil\
+l=\x22#D68600\x22 widt\
+h=\x221\x22 height=\x2210\
+.9\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x0d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2219\
+,4 30.7,18 7.3,1\
+8\x22/>\x0a    <path f\
+ill=\x22#3F51B5\x22 d=\
+\x22M27,42h13v-8H27\
+c-2.2,0-4-1.8-4-\
+4V13h-8v17C15,36\
+.6,20.4,42,27,42\
+z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01K\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFA00\
+0\x22 d=\x22M40,12H22l\
+-4-4H8c-2.2,0-4,\
+1.8-4,4v8h40v-4C\
+44,13.8,42.2,12,\
+40,12z\x22/>\x0a    <p\
+ath fill=\x22#FFCA2\
+8\x22 d=\x22M40,12H8c-\
+2.2,0-4,1.8-4,4v\
+20c0,2.2,1.8,4,4\
+,4h32c2.2,0,4-1.\
+8,4-4V16C44,13.8\
+,42.2,12,40,12z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x0f\xb7\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0d\x0a<svg\x0d\x0a   \
+viewBox=\x220 0 48 \
+48\x22\x0d\x0a   width=\x224\
+8px\x22\x0d\x0a   height=\
+\x2248px\x22\x0d\x0a   versi\
+on=\x221.1\x22\x0d\x0a   id=\
+\x22svg6\x22\x0d\x0a   sodip\
+odi:docname=\x22Ale\
+rt.svg\x22\x0d\x0a   inks\
+cape:version=\x221.\
+4.2 (f4327f4, 20\
+25-05-13)\x22\x0d\x0a   x\
+mlns:inkscape=\x22h\
+ttp://www.inksca\
+pe.org/namespace\
+s/inkscape\x22\x0d\x0a   \
+xmlns:sodipodi=\x22\
+http://sodipodi.\
+sourceforge.net/\
+DTD/sodipodi-0.d\
+td\x22\x0d\x0a   xmlns:xl\
+ink=\x22http://www.\
+w3.org/1999/xlin\
+k\x22\x0d\x0a   xmlns=\x22ht\
+tp://www.w3.org/\
+2000/svg\x22\x0d\x0a   xm\
+lns:svg=\x22http://\
+www.w3.org/2000/\
+svg\x22>\x0d\x0a  <defs\x0d\x0a\
+     id=\x22defs6\x22>\
+\x0d\x0a    <clipPath\x0d\
+\x0a       id=\x22SVGI\
+D_2_\x22>\x0d\x0a      <u\
+se\x0d\x0a         xli\
+nk:href=\x22#SVGID_\
+1_\x22\x0d\x0a         st\
+yle=\x22overflow:vi\
+sible\x22\x0d\x0a        \
+ id=\x22use1\x22 />\x0d\x0a \
+   </clipPath>\x0d\x0a\
+    <clipPath\x0d\x0a \
+      id=\x22SVGID_\
+4_\x22>\x0d\x0a      <use\
+\x0d\x0a         xlink\
+:href=\x22#SVGID_3_\
+\x22\x0d\x0a         styl\
+e=\x22overflow:visi\
+ble\x22\x0d\x0a         i\
+d=\x22use2\x22 />\x0d\x0a   \
+ </clipPath>\x0d\x0a  \
+  <path\x0d\x0a       \
+id=\x22SVGID_1_\x22\x0d\x0a \
+      d=\x22m 64.65\
+,0.68 c 1.01,0.4\
+9 1.81,1.22 2.41\
+,2.2 v 0 l 53.66\
+,84.17 c 0.02,0.\
+02 0.03,0.05 0.0\
+5,0.07 0.47,0.75\
+ 0.87,1.6 1.2,2.\
+54 0.31,0.89 0.5\
+7,1.88 0.77,2.96\
+ 0.1,0.52 0.14,0\
+.98 0.14,1.38 0,\
+0.98 -0.24,1.81 \
+-0.72,2.49 -0.55\
+,0.78 -1.33,1.26\
+ -2.33,1.45 -0.3\
+,0.06 -0.59,0.08\
+ -0.87,0.08 H 3.\
+92 C 3.64,98.02 \
+3.35,97.99 3.05,\
+97.94 2.05,97.75\
+ 1.27,97.27 0.72\
+,96.49 0.24,95.8\
+1 0,94.98 0,94 0\
+,93.6 0.05,93.14\
+ 0.15,92.62 0.35\
+,91.54 0.6,90.56\
+ 0.92,89.66 1.25\
+,88.72 1.65,87.8\
+8 2.12,87.12 v 0\
+ L 2.14,87.09 55\
+.82,2.89 55.83,2\
+.87 c 0.6,-0.98 \
+1.41,-1.71 2.41,\
+-2.2 0.93,-0.45 \
+2,-0.68 3.21,-0.\
+68 1.21,0 2.27,0\
+.24 3.2,0.69 z\x22 \
+/>\x0d\x0a    <rect\x0d\x0a \
+      id=\x22SVGID_\
+3_\x22\x0d\x0a       widt\
+h=\x22122.88\x22\x0d\x0a    \
+   height=\x2298.01\
+9997\x22\x0d\x0a       x=\
+\x220\x22\x0d\x0a       y=\x220\
+\x22 />\x0d\x0a    <linea\
+rGradient\x0d\x0a     \
+  id=\x22wRKXFJsqHC\
+xLE9yyOYHkza\x22\x0d\x0a \
+      x1=\x229.8579\
+998\x22\x0d\x0a       x2=\
+\x2238.141998\x22\x0d\x0a   \
+    y1=\x229.857999\
+8\x22\x0d\x0a       y2=\x223\
+8.141998\x22\x0d\x0a     \
+  gradientUnits=\
+\x22userSpaceOnUse\x22\
+\x0d\x0a       gradien\
+tTransform=\x22tran\
+slate(-0.0016529\
+,-0.05950413)\x22>\x0d\
+\x0a      <stop\x0d\x0a  \
+       offset=\x220\
+\x22\x0d\x0a         stop\
+-color=\x22#f44f5a\x22\
+\x0d\x0a         id=\x22s\
+top1-7\x22 />\x0d\x0a    \
+  <stop\x0d\x0a       \
+  offset=\x22.443\x22\x0d\
+\x0a         stop-c\
+olor=\x22#ee3d4a\x22\x0d\x0a\
+         id=\x22sto\
+p2-6\x22 />\x0d\x0a      \
+<stop\x0d\x0a         \
+offset=\x221\x22\x0d\x0a    \
+     stop-color=\
+\x22#e52030\x22\x0d\x0a     \
+    id=\x22stop3\x22 /\
+>\x0d\x0a    </linearG\
+radient>\x0d\x0a  </de\
+fs>\x0d\x0a  <sodipodi\
+:namedview\x0d\x0a    \
+ id=\x22namedview6\x22\
+\x0d\x0a     pagecolor\
+=\x22#ffffff\x22\x0d\x0a    \
+ bordercolor=\x22#0\
+00000\x22\x0d\x0a     bor\
+deropacity=\x220.25\
+\x22\x0d\x0a     inkscape\
+:showpageshadow=\
+\x222\x22\x0d\x0a     inksca\
+pe:pageopacity=\x22\
+0.0\x22\x0d\x0a     inksc\
+ape:pagecheckerb\
+oard=\x220\x22\x0d\x0a     i\
+nkscape:deskcolo\
+r=\x22#d1d1d1\x22\x0d\x0a   \
+  inkscape:zoom=\
+\x229.453125\x22\x0d\x0a    \
+ inkscape:cx=\x22-3\
+7.871074\x22\x0d\x0a     \
+inkscape:cy=\x2241.\
+309091\x22\x0d\x0a     in\
+kscape:window-wi\
+dth=\x223840\x22\x0d\x0a    \
+ inkscape:window\
+-height=\x222054\x22\x0d\x0a\
+     inkscape:wi\
+ndow-x=\x22-11\x22\x0d\x0a  \
+   inkscape:wind\
+ow-y=\x22-11\x22\x0d\x0a    \
+ inkscape:window\
+-maximized=\x221\x22\x0d\x0a\
+     inkscape:cu\
+rrent-layer=\x22svg\
+6\x22\x0d\x0a     showgui\
+des=\x22true\x22>\x0d\x0a   \
+ <sodipodi:guide\
+\x0d\x0a       positio\
+n=\x2223.960331,49.\
+930579\x22\x0d\x0a       \
+orientation=\x221,0\
+\x22\x0d\x0a       id=\x22gu\
+ide2\x22\x0d\x0a       in\
+kscape:locked=\x22f\
+alse\x22 />\x0d\x0a    <s\
+odipodi:guide\x0d\x0a \
+      position=\x22\
+22.4,24.066116\x22\x0d\
+\x0a       orientat\
+ion=\x220,-1\x22\x0d\x0a    \
+   id=\x22guide3\x22\x0d\x0a\
+       inkscape:\
+locked=\x22false\x22 /\
+>\x0d\x0a  </sodipodi:\
+namedview>\x0d\x0a  <l\
+inearGradient\x0d\x0a \
+    id=\x22lAPc856S\
+qcrzVTEvl7rUKa\x22\x0d\
+\x0a     x1=\x226.825\x22\
+\x0d\x0a     x2=\x2241.46\
+9\x22\x0d\x0a     y1=\x225.5\
+37\x22\x0d\x0a     y2=\x2242\
+.78\x22\x0d\x0a     gradi\
 entUnits=\x22userSp\
 aceOnUse\x22>\x0d\x0a    \
-<stop offset=\x22.0\
-22\x22 stop-color=\x22\
-#87efff\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#3\
-5c1f1\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#h92YKRkEnBR3o\
-N6T0Avu3b)\x22 d=\x22M\
-16,7.054v30.663 \
-c0,0.91,1.062,1.\
-407,1.761,0.824l\
-7.078-5.903l4.66\
-4,10.728c0.232,0\
-.533,0.851,0.777\
-,1.384,0.545l1.8\
-65-0.811L16.634,\
-6.091 C16.276,6.\
-246,16,6.593,16,\
-7.054z\x22 />\x0d\x0a  <p\
-olygon fill=\x22#35\
-c1f1\x22 points=\x2218\
-,35.737 25.608,2\
-9.392 30.959,41.\
-699 32.877,40.86\
-6 27.521,28.546 \
-36.408,27.75 18,\
-9.343\x22 />\x0d\x0a  <pa\
-th fill=\x22#199be2\
-\x22 d=\x22M35.089,40.\
-938l-4.628-10.64\
-7l8.1-0.726c0.90\
-7-0.081,1.307-1.\
-184,0.663-1.828L\
-17.796,6.31 c-0.\
-336-0.336-0.793-\
-0.379-1.162-0.21\
-9l16.118,37.011l\
-1.792-0.779C35.0\
-77,42.091,35.321\
-,41.471,35.089,4\
-0.938z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x053\
+<stop\x0d\x0a       of\
+fset=\x220\x22\x0d\x0a      \
+ stop-color=\x22#33\
+bef0\x22\x0d\x0a       id\
+=\x22stop1\x22 />\x0d\x0a   \
+ <stop\x0d\x0a       o\
+ffset=\x221\x22\x0d\x0a     \
+  stop-color=\x22#0\
+a85d9\x22\x0d\x0a       i\
+d=\x22stop2\x22 />\x0d\x0a  \
+</linearGradient\
+>\x0d\x0a  <path\x0d\x0a    \
+ fill=\x22url(#wRKX\
+FJsqHCxLE9yyOYHk\
+za)\x22\x0d\x0a     d=\x22m \
+43.998347,23.940\
+496 c 0,11.045 -\
+8.955,20 -20,20 \
+-11.045,0 -19.99\
+99998,-8.955 -19\
+.9999998,-20 0,-\
+11.045 8.9549998\
+,-20.0000002 19.\
+9999998,-20.0000\
+002 11.045,0 20,\
+8.9550002 20,20.\
+0000002 z\x22\x0d\x0a    \
+ id=\x22path3\x22\x0d\x0a   \
+  style=\x22fill:ur\
+l(#wRKXFJsqHCxLE\
+9yyOYHkza)\x22 />\x0d\x0a\
+  <path\x0d\x0a     fi\
+ll=\x22#ffffff\x22\x0d\x0a  \
+   d=\x22m 26.33248\
+8,27.967557 h -4\
+.749364 c -0.323\
+378,-3.92234 -4.\
+254257,-14.53296\
+5 2.382463,-14.5\
+32965 6.651289,0\
+ 2.690279,10.622\
+172 2.366901,14.\
+532965 z m -4.74\
+9364,2.366737 h \
+4.749364 v 4.207\
+061 h -4.749364 \
+z\x22\x0d\x0a     id=\x22pat\
+h3-9\x22\x0d\x0a     styl\
+e=\x22stroke-width:\
+0.167379\x22 />\x0d\x0a</\
+svg>\x0d\x0a\
+\x00\x00\x02\xef\
 <\
-svg xmlns=\x22http:\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#5E35B1\x22>\
+\x0a        <path d\
+=\x22M33.9,12.1H14.\
+2L17.6,7c0.4-0.6\
+,1-0.9,1.7-0.9h9\
+.6c0.7,0,1.3,0.3\
+,1.7,0.9L33.9,12\
+.1z\x22/>\x0a        <\
+path d=\x22M14,11H8\
+V9.2C8,8.5,8.5,8\
+,9.2,8h3.6C13.5,\
+8,14,8.5,14,9.2V\
+11z\x22/>\x0a        <\
+path d=\x22M40,42H8\
+c-2.2,0-4-1.8-4-\
+4V14c0-2.2,1.8-4\
+,4-4h32c2.2,0,4,\
+1.8,4,4v24C44,40\
+.2,42.2,42,40,42\
+z\x22/>\x0a    </g>\x0a  \
+  <path fill=\x22#E\
+8EAF6\x22 d=\x22M34,25\
+c0-5.5-4.5-10-10\
+-10c-2.4,0-4.6,0\
+.8-6.3,2.2l1.2,1\
+.6c1.4-1.1,3.1-1\
+.8,5.1-1.8c4.4,0\
+,8,3.6,8,8h-3.5 \
+l4.5,5.6l4.5-5.6\
+H34z\x22/>\x0a    <pat\
+h fill=\x22#E8EAF6\x22\
+ d=\x22M29.1,31.2C2\
+7.7,32.3,25.9,33\
+,24,33c-4.4,0-8-\
+3.6-8-8h3.5L15,1\
+9.4L10.5,25H14c0\
+,5.5,4.5,10,10,1\
+0 c2.4,0,4.6-0.8\
+,6.3-2.2L29.1,31\
+.2z\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\xdb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#37474F\x22>\
+\x0a        <rect x\
+=\x229\x22 y=\x2220\x22 widt\
+h=\x2230\x22 height=\x221\
+3\x22/>\x0a        <el\
+lipse cx=\x2224\x22 cy\
+=\x2233\x22 rx=\x2215\x22 ry\
+=\x226\x22/>\x0a    </g>\x0a\
+    <path fill=\x22\
+#78909C\x22 d=\x22M23.\
+1,8.2L0.6,18.1c-\
+0.8,0.4-0.8,1.5,\
+0,1.9l22.5,9.9c0\
+.6,0.2,1.2,0.2,1\
+.8,0l22.5-9.9c0.\
+8-0.4,0.8-1.5,0-\
+1.9 L24.9,8.2C24\
+.3,7.9,23.7,7.9,\
+23.1,8.2z\x22/>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <pat\
+h d=\x22M43.2,20.4l\
+-20-3.4c-0.5-0.1\
+-1.1,0.3-1.2,0.8\
+c-0.1,0.5,0.3,1.\
+1,0.8,1.2L42,22.\
+2V37c0,0.6,0.4,1\
+,1,1 s1-0.4,1-1V\
+21.4C44,20.9,43.\
+6,20.5,43.2,20.4\
+z\x22/>\x0a        <ci\
+rcle cx=\x2243\x22 cy=\
+\x2237\x22 r=\x222\x22/>\x0a   \
+     <path d=\x22M4\
+6,40c0,1.7-3,6-3\
+,6s-3-4.3-3-6s1.\
+3-3,3-3S46,38.3,\
+46,40z\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01\xb6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M30,5H18c-\
+2.2,0-4,1.8-4,4v\
+30c0,2.2,1.8,4,4\
+,4h12c2.2,0,4-1.\
+8,4-4V9C34,6.8,3\
+2.2,5,30,5z M18,\
+39V9h12l0,30 H18\
+z\x22/>\x0a    <circle\
+ fill=\x22#43A047\x22 \
+cx=\x2238\x22 cy=\x2238\x22 \
+r=\x2210\x22/>\x0a    <g \
+fill=\x22#fff\x22>\x0a   \
+     <rect x=\x2236\
+\x22 y=\x2232\x22 width=\x22\
+4\x22 height=\x2212\x22/>\
+\x0a        <rect x\
+=\x2232\x22 y=\x2236\x22 wid\
+th=\x2212\x22 height=\x22\
+4\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x01\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#42424\
+2\x22 d=\x22M24,4c-5.5\
+,0-10,4.5-10,10v\
+4h4v-4c0-3.3,2.7\
+-6,6-6s6,2.7,6,6\
+v4h4v-4C34,8.5,2\
+9.5,4,24,4z\x22/>\x0a \
+   <path fill=\x22#\
+FB8C00\x22 d=\x22M36,4\
+4H12c-2.2,0-4-1.\
+8-4-4V22c0-2.2,1\
+.8-4,4-4h24c2.2,\
+0,4,1.8,4,4v18C4\
+0,42.2,38.2,44,3\
+6,44z\x22/>\x0a    <ci\
+rcle fill=\x22#EFEB\
+E9\x22 cx=\x2224\x22 cy=\x22\
+31\x22 r=\x226\x22/>\x0a    \
+<circle fill=\x22#1\
+E88E5\x22 cx=\x2224\x22 c\
+y=\x2231\x22 r=\x223\x22/>\x0a \
+   <circle fill=\
+\x22#fff\x22 cx=\x2226\x22 c\
+y=\x2229\x22 r=\x221\x22/>\x0a<\
+/svg>\x0a\
+\x00\x00\x04A\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#37474F\x22>\
+\x0a        <path d\
+=\x22M38.5,44.6l-4-\
+4l2.1-2.1l4,4c0.\
+6,0.6,0.6,1.5,0,\
+2.1l0,0C40.1,45.\
+1,39.1,45.1,38.5\
+,44.6z\x22/>\x0a      \
+  <path d=\x22M9.5,\
+44.6l4-4l-2.1-2.\
+1l-4,4c-0.6,0.6-\
+0.6,1.5,0,2.1l0,\
+0C7.9,45.1,8.9,4\
+5.1,9.5,44.6z\x22/>\
+\x0a    </g>\x0a    <c\
+ircle fill=\x22#C62\
+828\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2220\x22/>\x0a  \
+  <circle fill=\x22\
+#eee\x22 cx=\x2224\x22 cy\
+=\x2224\x22 r=\x2216\x22/>\x0a \
+   <rect x=\x2219\x22 \
+y=\x2222.1\x22 transfo\
+rm=\x22matrix(-.707\
+ -.707 .707 -.70\
+7 12.904 62.537)\
+\x22 fill=\x22#E53935\x22\
+ width=\x22.8\x22 heig\
+ht=\x2213\x22/>\x0a    <r\
+ect x=\x2223\x22 y=\x2211\
+\x22 width=\x222\x22 heig\
+ht=\x2213\x22/>\x0a    <r\
+ect x=\x2226.1\x22 y=\x22\
+22.7\x22 transform=\
+\x22matrix(-.707 .7\
+07 -.707 -.707 6\
+5.787 27.25)\x22 wi\
+dth=\x222.3\x22 height\
+=\x229.2\x22/>\x0a    <ci\
+rcle cx=\x2224\x22 cy=\
+\x2224\x22 r=\x222\x22/>\x0a   \
+ <circle fill=\x22#\
+C62828\x22 cx=\x2224\x22 \
+cy=\x2224\x22 r=\x221\x22/>\x0a\
+    <rect x=\x2222\x22\
+ y=\x221\x22 fill=\x22#37\
+474F\x22 width=\x224\x22 \
+height=\x223\x22/>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <pat\
+h d=\x22M44.4,16.2c\
+2.5-3.5,2.1-8.4-\
+1-11.5c-3.1-3.1-\
+8-3.5-11.5-1L44.\
+4,16.2z\x22/>\x0a     \
+   <path d=\x22M3.6\
+,16.2c-2.5-3.5-2\
+.1-8.4,1-11.5c3.\
+1-3.1,8-3.5,11.5\
+-1L3.6,16.2z\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x02%\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F57C0\
+0\x22 d=\x22M4,9v32c0,\
+0,8.4-3,20-3s20,\
+3,20,3V9c0,0-6.7\
+,3-20,3S4,9,4,9z\
+\x22/>\x0a    <path fi\
+ll=\x22#942A09\x22 d=\x22\
+M24,34c0.1,0,0.3\
+,0,0.4,0L15,19L6\
+.9,36.2C10.3,35.\
+3,16.5,34,24,34z\
+\x22/>\x0a    <path fi\
+ll=\x22#BF360C\x22 d=\x22\
+M24,34c3.3,0,6.3\
+,0.2,9,0.6l-8-11\
+.8l-7.8,11.5C19.\
+3,34.1,21.6,34,2\
+4,34z\x22/>\x0a    <pa\
+th fill=\x22#E65100\
+\x22 d=\x22M40.7,36L35\
+,26.5l-5,7.8C34.\
+5,34.7,38.2,35.4\
+,40.7,36z\x22/>\x0a   \
+ <ellipse fill=\x22\
+#FFF9C4\x22 cx=\x2236\x22\
+ cy=\x2219.5\x22 rx=\x222\
+\x22 ry=\x222.5\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02\xe4\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#F4433\
+6\x22>\x0a        <rec\
+t x=\x2222\x22 y=\x2216.8\
+\x22 transform=\x22mat\
+rix(.707 -.707 .\
+707 .707 -11.355\
+ 24.586)\x22 width=\
+\x224\x22 height=\x2218.5\
+\x22/>\x0a        <rec\
+t x=\x2222\x22 y=\x2216.8\
+\x22 transform=\x22mat\
+rix(.707 .707 -.\
+707 .707 25.414 \
+-9.355)\x22 width=\x22\
+4\x22 height=\x2218.5\x22\
+/>\x0a    </g>\x0a</sv\
+g>\x0a\
+\x00\x00\x01\xea\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M33,9H11v4\
+h22c1.1,0,2,0.9,\
+2,2v20H23v4h16V1\
+5C39,11.7,36.3,9\
+,33,9z\x22/>\x0a    <r\
+ect x=\x226\x22 y=\x226\x22 \
+fill=\x22#D81B60\x22 w\
+idth=\x2210\x22 height\
+=\x2210\x22/>\x0a    <g f\
+ill=\x22#2196F3\x22>\x0a \
+       <rect x=\x22\
+32\x22 y=\x2217\x22 width\
+=\x2210\x22 height=\x2210\
+\x22/>\x0a        <rec\
+t x=\x2216\x22 y=\x2232\x22 \
+width=\x2210\x22 heigh\
+t=\x2210\x22/>\x0a       \
+ <circle cx=\x2226\x22\
+ cy=\x2211\x22 r=\x225\x22/>\
+\x0a        <circle\
+ cx=\x2237\x22 cy=\x2237\x22\
+ r=\x225\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x01\xa1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#4CAF5\
+0\x22 d=\x22M21.2,44.8\
+l-18-18c-1.6-1.6\
+-1.6-4.1,0-5.7l1\
+8-18c1.6-1.6,4.1\
+-1.6,5.7,0l18,18\
+c1.6,1.6,1.6,4.1\
+,0,5.7l-18,18 C2\
+5.3,46.4,22.7,46\
+.4,21.2,44.8z\x22/>\
+\x0a    <g fill=\x22#F\
+FEB3B\x22>\x0a        \
+<polygon points=\
+\x2224,33.4 17,25 3\
+1,25\x22/>\x0a        \
+<rect x=\x2222\x22 y=\x22\
+14.8\x22 width=\x224\x22 \
+height=\x2212.3\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x02\x12\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M10,41V7c0\
+-2.2,1.8-4,4-4h2\
+0c2.2,0,4,1.8,4,\
+4v34c0,2.2-1.8,4\
+-4,4H14C11.8,45,\
+10,43.2,10,41z\x22/\
+>\x0a    <path fill\
+=\x22#F3E5F5\x22 d=\x22M3\
+4,6H14c-0.6,0-1,\
+0.4-1,1v34c0,0.6\
+,0.4,1,1,1h20c0.\
+6,0,1-0.4,1-1V7C\
+35,6.4,34.6,6,34\
+,6z\x22/>\x0a    <poly\
+gon fill=\x22#9C27B\
+0\x22 points=\x2222,34\
+ 27.9,27 16.1,27\
+\x22/>\x0a    <path fi\
+ll=\x22#9C27B0\x22 d=\x22\
+M26,16c-3.3,0-6,\
+2.7-6,6v6h4v-6c0\
+-1.1,0.9-2,2-2s2\
+,0.9,2,2v2h4v-2C\
+32,18.7,29.3,16,\
+26,16z\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x05\x13\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#CFD8D\
+C\x22 d=\x22M12,40V20h\
+32v20c0,2.2-1.8,\
+4-4,4H16C13.8,44\
+,12,42.2,12,40z\x22\
+/>\x0a    <path fil\
+l=\x22#78909C\x22 d=\x22M\
+44,16v6H12v-6c0-\
+2.2,1.8-4,4-4h24\
+C42.2,12,44,13.8\
+,44,16z\x22/>\x0a    <\
+g fill=\x22#37474F\x22\
+>\x0a        <circl\
+e cx=\x2237\x22 cy=\x2216\
+\x22 r=\x223\x22/>\x0a      \
+  <circle cx=\x2220\
+\x22 cy=\x2216\x22 r=\x223\x22/\
+>\x0a    </g>\x0a    <\
+g fill=\x22#B0BEC5\x22\
+>\x0a        <path \
+d=\x22M37,10c-1.1,0\
+-2,0.9-2,2v4c0,1\
+.1,0.9,2,2,2s2-0\
+.9,2-2v-4C39,10.\
+9,38.1,10,37,10z\
+\x22/>\x0a        <pat\
+h d=\x22M20,10c-1.1\
+,0-2,0.9-2,2v4c0\
+,1.1,0.9,2,2,2s2\
+-0.9,2-2v-4C22,1\
+0.9,21.1,10,20,1\
+0z\x22/>\x0a    </g>\x0a \
+   <rect x=\x2232\x22 \
+y=\x2234\x22 fill=\x22#90\
+A4AE\x22 width=\x224\x22 \
+height=\x224\x22/>\x0a   \
+ <rect x=\x2226\x22 y=\
+\x2234\x22 fill=\x22#90A4\
+AE\x22 width=\x224\x22 he\
+ight=\x224\x22/>\x0a    <\
+rect x=\x2220\x22 y=\x223\
+4\x22 fill=\x22#90A4AE\
+\x22 width=\x224\x22 heig\
+ht=\x224\x22/>\x0a    <re\
+ct x=\x2232\x22 y=\x2228\x22\
+ fill=\x22#90A4AE\x22 \
+width=\x224\x22 height\
+=\x224\x22/>\x0a    <rect\
+ x=\x2226\x22 y=\x2228\x22 f\
+ill=\x22#90A4AE\x22 wi\
+dth=\x224\x22 height=\x22\
+4\x22/>\x0a    <rect x\
+=\x2220\x22 y=\x2228\x22 fil\
+l=\x22#90A4AE\x22 widt\
+h=\x224\x22 height=\x224\x22\
+/>\x0a    <circle f\
+ill=\x22#F44336\x22 cx\
+=\x2216\x22 cy=\x2215\x22 r=\
+\x2212\x22/>\x0a    <circ\
+le fill=\x22#eee\x22 c\
+x=\x2216\x22 cy=\x2215\x22 r\
+=\x229\x22/>\x0a    <rect\
+ x=\x2215\x22 y=\x228\x22 wi\
+dth=\x222\x22 height=\x22\
+7\x22/>\x0a    <rect x\
+=\x2216.9\x22 y=\x2214.2\x22\
+ transform=\x22matr\
+ix(-.707 .707 -.\
+707 -.707 42.506\
+ 16.192)\x22 width=\
+\x221.9\x22 height=\x225.\
+4\x22/>\x0a    <circle\
+ cx=\x2216\x22 cy=\x2215\x22\
+ r=\x221.5\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x01\x8d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#FFB\
+74D\x22 cx=\x2224\x22 cy=\
+\x2211\x22 r=\x226\x22/>\x0a   \
+ <path fill=\x22#60\
+7D8B\x22 d=\x22M36,26.\
+1c0,0-3.3-7.1-12\
+-7.1s-12,7.1-12,\
+7.1V30h24V26.1z\x22\
+/>\x0a    <polygon \
+fill=\x22#B0BEC5\x22 p\
+oints=\x2241,25 7,2\
+5 6,29 11,32 9,2\
+9 39,29 37,32 42\
+,29\x22/>\x0a    <poly\
+gon fill=\x22#78909\
+C\x22 points=\x229,29 \
+39,29 35,41 13,4\
+1\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\xfb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a  \
+  <circle fill=\x22\
+#F44336\x22 cx=\x2238\x22\
+ cy=\x2238\x22 r=\x2210\x22/\
+>\x0a    <g fill=\x22#\
+fff\x22>\x0a        <r\
+ect x=\x2236.5\x22 y=\x22\
+32\x22 transform=\x22m\
+atrix(-.707 .707\
+ -.707 -.707 91.\
+74 38)\x22 width=\x223\
+\x22 height=\x2212\x22/>\x0a\
+        <rect x=\
+\x2236.5\x22 y=\x2232\x22 tr\
+ansform=\x22matrix(\
+-.707 -.707 .707\
+ -.707 38 91.74)\
+\x22 width=\x223\x22 heig\
+ht=\x2212\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01\xad\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#4CAF5\
+0\x22 d=\x22M8,12h22c2\
+.2,0,4,1.8,4,4v1\
+6c0,2.2-1.8,4-4,\
+4H8c-2.2,0-4-1.8\
+-4-4V16C4,13.8,5\
+.8,12,8,12z\x22/>\x0a \
+   <polygon fill\
+=\x22#388E3C\x22 point\
+s=\x2244,35 34,29 3\
+4,19 44,13\x22/>\x0a  \
+  <line fill=\x22no\
+ne\x22 stroke=\x22#212\
+121\x22 stroke-widt\
+h=\x224\x22 stroke-lin\
+ejoin=\x22round\x22 st\
+roke-miterlimit=\
+\x2210\x22 x1=\x225\x22 y1=\x22\
+5\x22 x2=\x2243\x22 y2=\x224\
+3\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xa5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FF9800\x22>\
+\x0a        <rect x\
+=\x223\x22 y=\x2228\x22 widt\
+h=\x2226\x22 height=\x224\
+\x22/>\x0a        <rec\
+t x=\x223\x22 y=\x2216\x22 w\
+idth=\x2226\x22 height\
+=\x224\x22/>\x0a    </g>\x0a\
+    <path fill=\x22\
+#2196F3\x22 d=\x22M43,\
+11H20v26h23c1.1,\
+0,2-0.9,2-2V13C4\
+5,11.9,44.1,11,4\
+3,11z\x22/>\x0a    <pa\
+th fill=\x22#64B5F6\
+\x22 d=\x22M20,9h-2v30\
+h2c1.1,0,2-0.9,2\
+-2V11C22,9.9,21.\
+1,9,20,9z\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x01\x9c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#0097A\
+7\x22 d=\x22M24,5C14.1\
+,5,6,13.1,6,23v1\
+5h4V23c0-7.7,6.3\
+-14,14-14s14,6.3\
+,14,14v15h4V23C4\
+2,13.1,33.9,5,24\
+,5z\x22/>\x0a    <path\
+ fill=\x22#37474F\x22 \
+d=\x22M38,43h-4V31h\
+4c2.2,0,4,1.8,4,\
+4v4C42,41.2,40.2\
+,43,38,43z\x22/>\x0a  \
+  <path fill=\x22#3\
+7474F\x22 d=\x22M10,43\
+h4V31h-4c-2.2,0-\
+4,1.8-4,4v4C6,41\
+.2,7.8,43,10,43z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x00\xc5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#21\
+96F3\x22 points=\x2217\
+.1,5 14,8.1 29.9\
+,24 14,39.9 17.1\
+,43 36,24\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02@\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <polygo\
+n points=\x2217.8,1\
+8.1 10.4,25.4 6.\
+2,21.3 4,23.5 10\
+.4,29.9 20,20.3\x22\
+/>\x0a        <poly\
+gon points=\x2217.8\
+,5.1 10.4,12.4 6\
+.2,8.3 4,10.5 10\
+.4,16.9 20,7.3\x22/\
+>\x0a        <polyg\
+on points=\x2217.8,\
+31.1 10.4,38.4 6\
+.2,34.3 4,36.5 1\
+0.4,42.9 20,33.3\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#90CAF\
+9\x22>\x0a        <rec\
+t x=\x2224\x22 y=\x2222\x22 \
+width=\x2220\x22 heigh\
+t=\x224\x22/>\x0a        \
+<rect x=\x2224\x22 y=\x22\
+9\x22 width=\x2220\x22 he\
+ight=\x224\x22/>\x0a     \
+   <rect x=\x2224\x22 \
+y=\x2235\x22 width=\x2220\
+\x22 height=\x224\x22/>\x0a \
+   </g>\x0a</svg>\x0a\
+\x00\x00\x02\x22\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M30,5H18c-\
+2.2,0-4,1.8-4,4v\
+30c0,2.2,1.8,4,4\
+,4h12c2.2,0,4-1.\
+8,4-4V9C34,6.8,3\
+2.2,5,30,5z M18,\
+39V9h12l0,30 H18\
+z\x22/>\x0a    <circle\
+ fill=\x22#F44336\x22 \
+cx=\x2238\x22 cy=\x2238\x22 \
+r=\x2210\x22/>\x0a    <g \
+fill=\x22#fff\x22>\x0a   \
+     <rect x=\x2236\
+.5\x22 y=\x2232\x22 trans\
+form=\x22matrix(-.7\
+07 .707 -.707 -.\
+707 91.74 38)\x22 w\
+idth=\x223\x22 height=\
+\x2212\x22/>\x0a        <\
+rect x=\x2236.5\x22 y=\
+\x2232\x22 transform=\x22\
+matrix(-.707 -.7\
+07 .707 -.707 38\
+ 91.74)\x22 width=\x22\
+3\x22 height=\x2212\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x01\xa5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF704\
+3\x22 d=\x22M38,44H12V\
+4h26c2.2,0,4,1.8\
+,4,4v32C42,42.2,\
+40.2,44,38,44z\x22/\
+>\x0a    <path fill\
+=\x22#BF360C\x22 d=\x22M1\
+0,4h2v40h-2c-2.2\
+,0-4-1.8-4-4V8C6\
+,5.8,7.8,4,10,4z\
+\x22/>\x0a    <g fill=\
+\x22#AB300B\x22>\x0a     \
+   <circle cx=\x222\
+6\x22 cy=\x2220\x22 r=\x224\x22\
+/>\x0a        <path\
+ d=\x22M33,30c0,0-1\
+.9-4-7-4c-5.1,0-\
+7,4-7,4v2h14V30z\
+\x22/>\x0a    </g>\x0a</s\
+vg>\x0a\
+\x00\x00\x02\xf9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#78909\
+C\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4l\
+0-20.9c0-1.3,0.6\
+-2.5,1.7-3.3L24,\
+0l18.3,12.8c1.1,\
+0.7,1.7,2,1.7,3.\
+3V37 C44,39.2,42\
+.2,41,40,41z\x22/>\x0a\
+    <rect x=\x2214\x22\
+ y=\x221\x22 fill=\x22#AE\
+D581\x22 width=\x2220\x22\
+ height=\x2231\x22/>\x0a \
+   <g fill=\x22#558\
+B2F\x22>\x0a        <p\
+ath d=\x22M13,0v33h\
+22V0H13z M33,31H\
+15V2h18V31z\x22/>\x0a \
+       <path d=\x22\
+M34,3c0,1.7-0.3,\
+3-2,3c-1.7,0-3-1\
+.3-3-3s1.3-2,3-2\
+C33.7,1,34,1.3,3\
+4,3z\x22/>\x0a        \
+<path d=\x22M16,1c1\
+.7,0,3,0.3,3,2s-\
+1.3,3-3,3s-2-1.3\
+-2-3S14.3,1,16,1\
+z\x22/>\x0a        <ci\
+rcle cx=\x2224\x22 cy=\
+\x228\x22 r=\x222\x22/>\x0a    \
+    <circle cx=\x22\
+24\x22 cy=\x2220\x22 r=\x226\
+\x22/>\x0a    </g>\x0a   \
+ <path fill=\x22#CF\
+D8DC\x22 d=\x22M40,41H\
+8c-2.2,0-4-1.8-4\
+-4l0-20l20,13l20\
+-13v20C44,39.2,4\
+2.2,41,40,41z\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x02\x03\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#B0\
+BEC5\x22 points=\x2241\
+,12 7,12 6,16 11\
+,19 9,16 39,16 3\
+7,19 42,16\x22/>\x0a  \
+  <polygon fill=\
+\x22#78909C\x22 points\
+=\x229,16 39,16 35,\
+28 13,28\x22/>\x0a    \
+<circle fill=\x22#F\
+FB74D\x22 cx=\x2224\x22 c\
+y=\x2228\x22 r=\x224\x22/>\x0a \
+   <circle fill=\
+\x22#FFB74D\x22 cx=\x2236\
+\x22 cy=\x2228\x22 r=\x224\x22/\
+>\x0a    <circle fi\
+ll=\x22#FFB74D\x22 cx=\
+\x2212\x22 cy=\x2228\x22 r=\x22\
+4\x22/>\x0a    <circle\
+ fill=\x22#FFB74D\x22 \
+cx=\x2218\x22 cy=\x2237\x22 \
+r=\x225\x22/>\x0a    <cir\
+cle fill=\x22#FFB74\
+D\x22 cx=\x2230\x22 cy=\x223\
+7\x22 r=\x225\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x03A\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#512DA\
+8\x22 d=\x22M33.9,12.1\
+H14.2L17.6,7c0.4\
+-0.6,1-0.9,1.7-0\
+.9h9.6c0.7,0,1.3\
+,0.3,1.7,0.9L33.\
+9,12.1z\x22/>\x0a    <\
+path fill=\x22#8667\
+C4\x22 d=\x22M14,11H8V\
+9.2C8,8.5,8.5,8,\
+9.2,8h3.6C13.5,8\
+,14,8.5,14,9.2V1\
+1z\x22/>\x0a    <path \
+fill=\x22#5E35B1\x22 d\
+=\x22M40,42H8c-2.2,\
+0-4-1.8-4-4V14c0\
+-2.2,1.8-4,4-4h3\
+2c2.2,0,4,1.8,4,\
+4v24C44,40.2,42.\
+2,42,40,42z\x22/>\x0a \
+   <circle fill=\
+\x22#512DA8\x22 cx=\x2224\
+\x22 cy=\x2226\x22 r=\x2212\x22\
+/>\x0a    <circle f\
+ill=\x22#B388FF\x22 cx\
+=\x2224\x22 cy=\x2226\x22 r=\
+\x229\x22/>\x0a    <path \
+fill=\x22#C7A7FF\x22 d\
+=\x22M29,23c-1.2-1.\
+4-3-2.2-4.8-2.2c\
+-1.8,0-3.6,0.8-4\
+.8,2.2c-0.5,0.5-\
+0.4,1.3,0.1,1.8c\
+0.5,0.5,1.3,0.4,\
+1.8-0.1 c1.5-1.7\
+,4.3-1.7,5.8,0c0\
+.3,0.3,0.6,0.4,1\
+,0.4c0.3,0,0.6-0\
+.1,0.9-0.3C29.4,\
+24.4,29.5,23.5,2\
+9,23z\x22/>\x0a    <el\
+lipse fill=\x22#866\
+7C4\x22 cx=\x2211\x22 cy=\
+\x2213.5\x22 rx=\x222\x22 ry\
+=\x221.5\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x01/\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#00BCD4\x22>\
+\x0a        <rect x\
+=\x2219\x22 y=\x2222\x22 wid\
+th=\x2210\x22 height=\x22\
+20\x22/>\x0a        <r\
+ect x=\x226\x22 y=\x2212\x22\
+ width=\x2210\x22 heig\
+ht=\x2230\x22/>\x0a      \
+  <rect x=\x2232\x22 y\
+=\x226\x22 width=\x2210\x22 \
+height=\x2236\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
+\x00\x00\x01\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F4433\
+6\x22 d=\x22M43.5,16.8\
+l-2.3-2.3c-8.1-7\
+.9-27.5-6.8-34.5\
+,0l-2.3,2.3c-0.6\
+,0.6-0.6,1.6,0,2\
+.3l4.6,4.5 c0.6,\
+0.6,1.7,0.6,2.3,\
+0l5.1-4.9L16,13.\
+4c1.6-1.6,14.4-1\
+.6,16,0l-0.3,5.5\
+l4.9,4.7c0.6,0.6\
+,1.7,0.6,2.3,0l4\
+.6-4.5 C44.2,18.\
+4,44.2,17.4,43.5\
+,16.8z\x22/>\x0a    <g\
+ fill=\x22#B71C1C\x22>\
+\x0a        <polygo\
+n points=\x2224,40.\
+5 16,31 32,31\x22/>\
+\x0a        <rect x\
+=\x2221\x22 y=\x2224\x22 wid\
+th=\x226\x22 height=\x227\
+.5\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x02\xd1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#616161\x22>\
+\x0a        <rect x\
+=\x2234.6\x22 y=\x2228.1\x22\
+ transform=\x22matr\
+ix(.707 -.707 .7\
+07 .707 -15.154 \
+36.586)\x22 width=\x22\
+4\x22 height=\x2217\x22/>\
+\x0a        <circle\
+ cx=\x2220\x22 cy=\x2220\x22\
+ r=\x2216\x22/>\x0a    </\
+g>\x0a    <rect x=\x22\
+36.2\x22 y=\x2232.1\x22 t\
+ransform=\x22matrix\
+(.707 -.707 .707\
+ .707 -15.839 38\
+.239)\x22 fill=\x22#37\
+474F\x22 width=\x224\x22 \
+height=\x2212.3\x22/>\x0a\
+    <circle fill\
+=\x22#64B5F6\x22 cx=\x222\
+0\x22 cy=\x2220\x22 r=\x2213\
+\x22/>\x0a    <path fi\
+ll=\x22#BBDEFB\x22 d=\x22\
+M26.9,14.2c-1.7-\
+2-4.2-3.2-6.9-3.\
+2s-5.2,1.2-6.9,3\
+.2c-0.4,0.4-0.3,\
+1.1,0.1,1.4c0.4,\
+0.4,1.1,0.3,1.4-\
+0.1 C16,13.9,17.\
+9,13,20,13s4,0.9\
+,5.4,2.5c0.2,0.2\
+,0.5,0.4,0.8,0.4\
+c0.2,0,0.5-0.1,0\
+.6-0.2C27.2,15.3\
+,27.2,14.6,26.9,\
+14.2z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x02F\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <polygon fill=\x22\
+#4CAF50\x22 points=\
+\x2232.6,18.6 22.3,\
+28.9 17.4,24 14.\
+6,26.8 22.3,34.5\
+ 35.4,21.4\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x01\xee\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3F51B\
+5\x22 d=\x22M43,39V24h\
+-4v15c0,5,4,9,9,\
+9v-4C45.2,44,43,\
+41.8,43,39z\x22/>\x0a \
+   <circle fill=\
+\x22#90A4AE\x22 cx=\x2224\
+\x22 cy=\x2224\x22 r=\x2219\x22\
+/>\x0a    <circle f\
+ill=\x22#37474F\x22 cx\
+=\x2224\x22 cy=\x2224\x22 r=\
+\x222\x22/>\x0a    <g fil\
+l=\x22#253278\x22>\x0a   \
+     <circle cx=\
+\x2224\x22 cy=\x2214\x22 r=\x22\
+5\x22/>\x0a        <ci\
+rcle cx=\x2224\x22 cy=\
+\x2234\x22 r=\x225\x22/>\x0a   \
+     <circle cx=\
+\x2234\x22 cy=\x2224\x22 r=\x22\
+5\x22/>\x0a        <ci\
+rcle cx=\x2214\x22 cy=\
+\x2224\x22 r=\x225\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x03A\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#42A5F\
+5\x22 d=\x22M39,45H9c0\
+,0-3-0.1-3-8h36C\
+42,44.9,39,45,39\
+,45z\x22/>\x0a    <rec\
+t x=\x228\x22 y=\x223\x22 fi\
+ll=\x22#90CAF9\x22 wid\
+th=\x2232\x22 height=\x22\
+34\x22/>\x0a    <g fil\
+l=\x22#1976D2\x22>\x0a   \
+     <rect x=\x2218\
+\x22 y=\x2215\x22 width=\x22\
+16\x22 height=\x222\x22/>\
+\x0a        <rect x\
+=\x2218\x22 y=\x2219\x22 wid\
+th=\x2216\x22 height=\x22\
+2\x22/>\x0a        <re\
+ct x=\x2218\x22 y=\x2223\x22\
+ width=\x2216\x22 heig\
+ht=\x222\x22/>\x0a       \
+ <rect x=\x2218\x22 y=\
+\x2227\x22 width=\x2216\x22 \
+height=\x222\x22/>\x0a   \
+     <rect x=\x2218\
+\x22 y=\x2231\x22 width=\x22\
+16\x22 height=\x222\x22/>\
+\x0a    </g>\x0a    <g\
+ fill=\x22#1976D2\x22>\
+\x0a        <rect x\
+=\x2214\x22 y=\x2215\x22 wid\
+th=\x222\x22 height=\x222\
+\x22/>\x0a        <rec\
+t x=\x2214\x22 y=\x2219\x22 \
+width=\x222\x22 height\
+=\x222\x22/>\x0a        <\
+rect x=\x2214\x22 y=\x222\
+3\x22 width=\x222\x22 hei\
+ght=\x222\x22/>\x0a      \
+  <rect x=\x2214\x22 y\
+=\x2227\x22 width=\x222\x22 \
+height=\x222\x22/>\x0a   \
+     <rect x=\x2214\
+\x22 y=\x2231\x22 width=\x22\
+2\x22 height=\x222\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x04\x0b\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFCDD\
+2\x22 d=\x22M5,38V14h3\
+8v24c0,2.2-1.8,4\
+-4,4H9C6.8,42,5,\
+40.2,5,38z\x22/>\x0a  \
+  <path fill=\x22#F\
+44336\x22 d=\x22M43,10\
+v6H5v-6c0-2.2,1.\
+8-4,4-4h30C41.2,\
+6,43,7.8,43,10z\x22\
+/>\x0a    <g fill=\x22\
+#B71C1C\x22>\x0a      \
+  <circle cx=\x2233\
+\x22 cy=\x2210\x22 r=\x223\x22/\
+>\x0a        <circl\
+e cx=\x2215\x22 cy=\x2210\
+\x22 r=\x223\x22/>\x0a    </\
+g>\x0a    <g fill=\x22\
+#BDBDBD\x22>\x0a      \
+  <path d=\x22M33,3\
+c-1.1,0-2,0.9-2,\
+2v5c0,1.1,0.9,2,\
+2,2s2-0.9,2-2V5C\
+35,3.9,34.1,3,33\
+,3z\x22/>\x0a        <\
+path d=\x22M15,3c-1\
+.1,0-2,0.9-2,2v5\
+c0,1.1,0.9,2,2,2\
+s2-0.9,2-2V5C17,\
+3.9,16.1,3,15,3z\
+\x22/>\x0a    </g>\x0a   \
+ <path fill=\x22#F4\
+4336\x22 d=\x22M22.2,3\
+5.3c0-0.2,0-0.5,\
+0.1-0.7c0.1-0.2,\
+0.2-0.4,0.4-0.5s\
+0.3-0.3,0.5-0.3c\
+0.2-0.1,0.5-0.1,\
+0.7-0.1 s0.5,0,0\
+.7,0.1c0.2,0.1,0\
+.4,0.2,0.6,0.3s0\
+.3,0.3,0.4,0.5c0\
+.1,0.2,0.1,0.4,0\
+.1,0.7c0,0.2,0,0\
+.5-0.1,0.7c-0.1,\
+0.2-0.2,0.4-0.4,\
+0.5 c-0.2,0.1-0.\
+3,0.3-0.6,0.3S24\
+.3,37,24,37s-0.5\
+,0-0.7-0.1c-0.2-\
+0.1-0.4-0.2-0.5-\
+0.3c-0.2-0.1-0.3\
+-0.3-0.4-0.5 C22\
+.3,35.8,22.2,35.\
+6,22.2,35.3z M25\
+.3,31h-2.6l-0.4-\
+11h3.3L25.3,31z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x01j\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F8BBD\
+0\x22 d=\x22M7,40V8c0-\
+2.2,1.8-4,4-4h24\
+c2.2,0,4,1.8,4,4\
+v32c0,2.2-1.8,4-\
+4,4H11C8.8,44,7,\
+42.2,7,40z\x22/>\x0a  \
+  <g fill=\x22#E91E\
+63\x22>\x0a        <po\
+lygon points=\x2213\
+.3,24 24,15 24,3\
+3\x22/>\x0a        <re\
+ct x=\x2219\x22 y=\x2221\x22\
+ width=\x2223\x22 heig\
+ht=\x226\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x08\x0d\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0d\x0a<svg\x0d\x0a   \
+viewBox=\x220 0 48 \
+48\x22\x0d\x0a   width=\x224\
+8px\x22\x0d\x0a   height=\
+\x2248px\x22\x0d\x0a   versi\
+on=\x221.1\x22\x0d\x0a   id=\
+\x22svg6\x22\x0d\x0a   sodip\
+odi:docname=\x22rec\
+ord.svg\x22\x0d\x0a   ink\
+scape:version=\x221\
+.4.2 (f4327f4, 2\
+025-05-13)\x22\x0d\x0a   \
+xmlns:inkscape=\x22\
+http://www.inksc\
+ape.org/namespac\
+es/inkscape\x22\x0d\x0a  \
+ xmlns:sodipodi=\
+\x22http://sodipodi\
+.sourceforge.net\
+/DTD/sodipodi-0.\
+dtd\x22\x0d\x0a   xmlns=\x22\
+http://www.w3.or\
+g/2000/svg\x22\x0d\x0a   \
+xmlns:svg=\x22http:\
 //www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x2252\
-OGP6ofDoPraLbQHh\
-ywRa\x22 cx=\x2248.477\
-\x22 cy=\x2236.475\x22 r=\
-\x2222.942\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x220\x22 s\
-top-color=\x22#ffcf\
-7b\x22 />\x0d\x0a    <sto\
-p offset=\x22.195\x22 \
-stop-color=\x22#fec\
-d76\x22 />\x0d\x0a    <st\
-op offset=\x22.439\x22\
- stop-color=\x22#fa\
-c666\x22 />\x0d\x0a    <s\
-top offset=\x22.71\x22\
- stop-color=\x22#f3\
-bc4d\x22 />\x0d\x0a    <s\
-top offset=\x22.997\
-\x22 stop-color=\x22#e\
-aad29\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-color=\x22#eaa\
-d29\x22 />\x0d\x0a  </rad\
-ialGradient>\x0d\x0a  \
-<path fill=\x22url(\
-#52OGP6ofDoPraLb\
-QHhywRa)\x22 d=\x22M40\
-,6H8C6.895,6,6,6\
-.895,6,8v32c0,1.\
-105,0.895,2,2,2h\
-32c1.105,0,2-0.8\
-95,2-2V8 C42,6.8\
-95,41.105,6,40,6\
-z\x22 />\x0d\x0a  <path f\
-ill=\x22#d6742d\x22 d=\
-\x22M32.065,23.065c\
--1.149-1.149-3.0\
-05-1.174-4.185-0\
-.057L18,32.368V4\
-2h22c1.105,0,2-0\
-.895,2-2v-7 L32.\
-065,23.065z\x22 />\x0d\
-\x0a  <circle cx=\x223\
-0.5\x22 cy=\x2214.5\x22 r\
-=\x223.5\x22 fill=\x22#ff\
-f8de\x22 />\x0d\x0a  <lin\
-earGradient id=\x22\
-52OGP6ofDoPraLbQ\
-HhywRb\x22 x1=\x2223.9\
-1\x22 x2=\x2223.91\x22 y1\
-=\x2218.133\x22 y2=\x2242\
-.415\x22 gradientUn\
+0/svg\x22>\x0d\x0a  <defs\
+\x0d\x0a     id=\x22defs6\
+\x22 />\x0d\x0a  <sodipod\
+i:namedview\x0d\x0a   \
+  id=\x22namedview6\
+\x22\x0d\x0a     pagecolo\
+r=\x22#ffffff\x22\x0d\x0a   \
+  bordercolor=\x22#\
+000000\x22\x0d\x0a     bo\
+rderopacity=\x220.2\
+5\x22\x0d\x0a     inkscap\
+e:showpageshadow\
+=\x222\x22\x0d\x0a     inksc\
+ape:pageopacity=\
+\x220.0\x22\x0d\x0a     inks\
+cape:pagechecker\
+board=\x220\x22\x0d\x0a     \
+inkscape:deskcol\
+or=\x22#d1d1d1\x22\x0d\x0a  \
+   inkscape:zoom\
+=\x2237.8125\x22\x0d\x0a    \
+ inkscape:cx=\x2224\
+.013223\x22\x0d\x0a     i\
+nkscape:cy=\x2224\x22\x0d\
+\x0a     inkscape:w\
+indow-width=\x22384\
+0\x22\x0d\x0a     inkscap\
+e:window-height=\
+\x222054\x22\x0d\x0a     ink\
+scape:window-x=\x22\
+6901\x22\x0d\x0a     inks\
+cape:window-y=\x22-\
+11\x22\x0d\x0a     inksca\
+pe:window-maximi\
+zed=\x221\x22\x0d\x0a     in\
+kscape:current-l\
+ayer=\x22svg6\x22 />\x0d\x0a\
+  <radialGradien\
+t\x0d\x0a     id=\x22w~IN\
+ujfpQanMh___D7Au\
+2a\x22\x0d\x0a     cx=\x2224\
+\x22\x0d\x0a     cy=\x2224\x22\x0d\
+\x0a     r=\x2222\x22\x0d\x0a  \
+   gradientUnits\
+=\x22userSpaceOnUse\
+\x22>\x0d\x0a    <stop\x0d\x0a \
+      offset=\x22.7\
+24\x22\x0d\x0a       stop\
+-color=\x22#ffed54\x22\
+\x0d\x0a       id=\x22sto\
+p1\x22 />\x0d\x0a    <sto\
+p\x0d\x0a       offset\
+=\x22.779\x22\x0d\x0a       \
+stop-color=\x22#ffe\
+649\x22\x0d\x0a       id=\
+\x22stop2\x22 />\x0d\x0a    \
+<stop\x0d\x0a       of\
+fset=\x22.877\x22\x0d\x0a   \
+    stop-color=\x22\
+#ffd22d\x22\x0d\x0a      \
+ id=\x22stop3\x22 />\x0d\x0a\
+    <stop\x0d\x0a     \
+  offset=\x221\x22\x0d\x0a  \
+     stop-color=\
+\x22#ffb300\x22\x0d\x0a     \
+  id=\x22stop4\x22 />\x0d\
+\x0a  </radialGradi\
+ent>\x0d\x0a  <linearG\
+radient\x0d\x0a     id\
+=\x22w~INujfpQanMh_\
+__D7Au2b\x22\x0d\x0a     \
+x1=\x228.092\x22\x0d\x0a    \
+ x2=\x2235.996\x22\x0d\x0a  \
+   y1=\x228.092\x22\x0d\x0a \
+    y2=\x2235.996\x22\x0d\
+\x0a     gradientUn\
 its=\x22userSpaceOn\
 Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#c26715\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.508\x22 sto\
-p-color=\x22#b85515\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#ad3f16\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#52OG\
-P6ofDoPraLbQHhyw\
-Rb)\x22 d=\x22M8,42h32\
-c0.811,0,1.507-0\
-.485,1.82-1.18L2\
-0.065,19.065c-1.\
-149-1.149-3.005-\
-1.174-4.185-0.05\
-7 L6,28.368V40C6\
-,41.105,6.895,42\
-,8,42z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x069\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22wi\
-9reJZsYu2bf~DD3z\
-afra\x22 x1=\x2227\x22 x2\
-=\x2227\x22 y1=\x2212.101\
-\x22 y2=\x2242.032\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#21ad64\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#0\
-88242\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#wi9reJZsYu2bf\
-~DD3zafra)\x22 d=\x22M\
-40,42H14c-1.1,0-\
-2-0.9-2-2V14c0-1\
-.1,0.9-2,2-2h26c\
-1.1,0,2,0.9,2,2v\
-26C42,41.1,41.1,\
-42,40,42z\x22 />\x0d\x0a \
- <path d=\x22M38,12\
-H12v26h22.319C36\
-.352,38,38,36.35\
-2,38,34.319V12z\x22\
- opacity=\x22.05\x22 /\
->\x0d\x0a  <path d=\x22M3\
-7,12H12v25h22.16\
-1C35.729,37,37,3\
-5.729,37,34.161V\
-12z\x22 opacity=\x22.0\
-7\x22 />\x0d\x0a  <linear\
-Gradient id=\x22wi9\
-reJZsYu2bf~DD3za\
-frb\x22 x1=\x2221\x22 x2=\
-\x2221\x22 y1=\x226.101\x22 \
-y2=\x2236.032\x22 grad\
-ientUnits=\x22userS\
-paceOnUse\x22>\x0d\x0a   \
- <stop offset=\x220\
-\x22 stop-color=\x22#9\
-dffce\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-color=\x22#50d\
-18d\x22 />\x0d\x0a  </lin\
+\x0d\x0a       offset=\
+\x220\x22\x0d\x0a       stop\
+-color=\x22#fed100\x22\
+\x0d\x0a       id=\x22sto\
+p5\x22 />\x0d\x0a    <sto\
+p\x0d\x0a       offset\
+=\x221\x22\x0d\x0a       sto\
+p-color=\x22#e36001\
+\x22\x0d\x0a       id=\x22st\
+op6\x22 />\x0d\x0a  </lin\
 earGradient>\x0d\x0a  \
-<path fill=\x22url(\
-#wi9reJZsYu2bf~D\
-D3zafrb)\x22 d=\x22M34\
-,36H8c-1.1,0-2-0\
-.9-2-2V8c0-1.1,0\
-.9-2,2-2h26c1.1,\
-0,2,0.9,2,2v26C3\
-6,35.1,35.1,36,3\
-4,36z\x22 />\x0d\x0a  <li\
-nearGradient id=\
-\x22wi9reJZsYu2bf~D\
-D3zafrc\x22 x1=\x2212\x22\
- x2=\x2231\x22 y1=\x2220.\
-793\x22 y2=\x2220.793\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x22.824\x22 stop-c\
-olor=\x22#135d36\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.931\x22 stop-\
-color=\x22#125933\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#11522f\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#wi9reJ\
-ZsYu2bf~DD3zafrc\
-)\x22 d=\x22M18.293,27\
-.707l-6-6c-0.391\
--0.391-0.391-1.0\
-24,0-1.414l1.414\
--1.414 c0.391-0.\
-391,1.024-0.391,\
-1.414,0L19,22.75\
-8l8.879-8.879c0.\
-391-0.391,1.024-\
-0.391,1.414,0l1.\
-414,1.414 c0.391\
-,0.391,0.391,1.0\
-24,0,1.414l-11,1\
-1C19.317,28.098,\
-18.683,28.098,18\
-.293,27.707z\x22 />\
-\x0d\x0a</svg>\
-\x00\x00\x03\xe2\
+<path\x0d\x0a     fill\
+=\x22url(#w~INujfpQ\
+anMh___D7Au2b)\x22\x0d\
+\x0a     d=\x22M24,7C1\
+4.611,7,7,14.611\
+,7,24s7.611,17,1\
+7,17s17-7.611,17\
+-17S33.389,7,24,\
+7z\x22\x0d\x0a     id=\x22pa\
+th6\x22\x0d\x0a     style\
+=\x22fill:#ff0000\x22 \
+/>\x0d\x0a</svg>\x0d\x0a\
+\x00\x00\x01E\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#007ad9\x22 d\
-=\x22M14,9h20c5.523\
-,0,10,4.477,10,1\
-0v21c0,1.105-0.8\
-95,2-2,2H14V9z\x22 \
-/>\x0d\x0a  <linearGra\
-dient id=\x22kaYchZ\
-IaFDSq7yXfSigRUa\
-\x22 x1=\x227.205\x22 x2=\
-\x2220.183\x22 y1=\x22379\
-.03\x22 y2=\x22345.055\
-\x22 gradientTransf\
-orm=\x22matrix(1 0 \
-0 -1 0 390)\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-32bdef\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#1e\
-a2e4\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#kaYchZIaFDSq7y\
-XfSigRUa)\x22 d=\x22M1\
-4,9C8.477,9,4,13\
-.477,4,19v21c0,1\
-.105,0.895,2,2,2\
-h16c1.105,0,2-0.\
-895,2-2V19 C24,1\
-3.477,19.523,9,1\
-4,9z\x22 />\x0d\x0a  <pat\
-h fill=\x22#007ad9\x22\
- d=\x22M17,21h-7c-0\
-.552,0-1-0.448-1\
--1l0,0c0-0.552,0\
-.448-1,1-1h7c0.5\
-52,0,1,0.448,1,1\
-l0,0 C18,20.552,\
-17.552,21,17,21z\
-\x22 />\x0d\x0a  <rect wi\
-dth=\x2215\x22 height=\
-\x222\x22 x=\x2230\x22 y=\x2217\
-\x22 fill=\x22#cf1928\x22\
- />\x0d\x0a  <path fil\
-l=\x22#cf1928\x22 d=\x22M\
-42,22v-5h3c0.552\
-,0,1,0.448,1,1v4\
-c0,0.552-0.448,1\
--1,1h-2C42.448,2\
-3,42,22.552,42,2\
-2z\x22 />\x0d\x0a  <circl\
-e cx=\x2230\x22 cy=\x2218\
-\x22 r=\x222\x22 fill=\x22#d\
-9414f\x22 />\x0d\x0a</svg\
->\
-\x00\x00\x04\xe4\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22>\x0a    <pat\
+h fill=\x22#3F51B5\x22\
+ d=\x22M39,43H9c-2.\
+2,0-4-1.8-4-4V9c\
+0-2.2,1.8-4,4-4h\
+30c2.2,0,4,1.8,4\
+,4v30C43,41.2,41\
+.2,43,39,43z\x22/>\x0a\
+    <path fill=\x22\
+#80DEEA\x22 d=\x22M33.\
+2,5l-9.8,10.1L36\
+,19.3L22.8,31.7l\
+4.3,2.4L15,37l2.\
+3-12.5l2.4,4.3l8\
+-7.8L15,16.8L25.\
+9,5H33.2z\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x022\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Ky\
-FrNLDKpevI2gK_Wo\
-Rffa\x22 x1=\x2214.242\
-\x22 x2=\x2230.172\x22 y1\
-=\x228.358\x22 y2=\x2238.\
-695\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x220\x22 stop-\
-color=\x22#2aa4f4\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#007ad9\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#KyFrNL\
-DKpevI2gK_WoRffa\
-)\x22 d=\x22M48,26c0,6\
-.63-5.37,12-12,1\
-2c-1.8,0-24.66,0\
--26.5,0C4.25,38,\
-0,33.75,0,28.5 c\
-0-4.54,3.18-8.34\
-,7.45-9.28C9.15,\
-12.21,15.46,7,23\
-,7c5.51,0,10.36,\
-2.78,13.24,7.01C\
-42.76,14.13,48,1\
-9.45,48,26z\x22 />\x0d\
-\x0a  <path d=\x22M27,\
-25v-7c0-1.105-0.\
-895-2-2-2h-2c-1.\
-105,0-2,0.895-2,\
-2v7h-2.648c-1.33\
-6,0-2.006,1.616-\
-1.061,2.561 l5.2\
-95,5.295c0.781,0\
-.781,2.047,0.781\
-,2.828,0l5.295-5\
-.295C31.654,26.6\
-16,30.985,25,29.\
-648,25H27z\x22 opac\
-ity=\x22.05\x22 />\x0d\x0a  \
-<path d=\x22M26.5,2\
-5.5V18c0-0.828-0\
-.672-1.5-1.5-1.5\
-h-2c-0.828,0-1.5\
-,0.672-1.5,1.5v7\
-.5h-3.021 c-0.93\
-8,0-1.408,1.134-\
-0.745,1.798l5.12\
-9,5.13c0.627,0.6\
-27,1.644,0.627,2\
-.271,0l5.129-5.1\
-3c0.663-0.663,0.\
-194-1.798-0.745-\
-1.798 H26.5z\x22 op\
-acity=\x22.07\x22 />\x0d\x0a\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#880E4\
+F\x22 d=\x22M38,43H10c\
+-2.2,0-4-1.8-4-4\
+V11c0-2.2,1.8-4,\
+4-4h28c2.2,0,4,1\
+.8,4,4v28C42,41.\
+2,40.2,43,38,43z\
+\x22/>\x0a    <g fill=\
+\x22#FFD54F\x22>\x0a     \
+   <path d=\x22M15.\
+9,28l2.1-9.1h2.8\
+l-3.6,12.6h-2.6L\
+11,18.9h2.8L15.9\
+,28z\x22/>\x0a        \
+<path d=\x22M25.6,3\
+1.5h-2.5V18.9h2.\
+5V31.5z\x22/>\x0a     \
+   <path d=\x22M31.\
+2,27.1v4.4h-2.5V\
+18.9h4.3c3.7,0,4\
+.1,3.4,4.1,4.2c0\
+,1.2-0.5,4-4.1,4\
+H31.2z M31.2,24.\
+9h1.7 c1.3,0,1.5\
+-1.1,1.5-1.9c0-1\
+.6-0.9-2.1-1.5-2\
+.1h-1.7V24.9z\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x01\xa1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#9C2\
+7B0\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <path fill=\x22#E\
+1BEE7\x22 d=\x22M33.5,\
+28.1c-0.6,6.4-5.\
+6,8.1-9.3,8.1c-3\
+.1,0-9.6-1.6-9.6\
+-11.2v-1.5c0-8.7\
+,5.5-11.2,9.7-11\
+.2 c8.5,0,9.2,7,\
+9.3,8.2h-4.8c-0.\
+3-3.6-2.2-4.3-4.\
+5-4.3c-1.6,0-4.8\
+,0.5-4.8,7.2V25c\
+-0.1,7.5,3.8,7.2\
+,4.7,7.2c4.3,0,4\
+.3-2.9,4.6-4.1 H\
+33.5z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x01\xc2\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00BCD\
+4\x22 d=\x22M24,30c-3.\
+3,0-6-2.7-6-6s2.\
+7-6,6-6V5C13.5,5\
+,5,13.5,5,24s8.5\
+,19,19,19c4.4,0,\
+8.5-1.5,11.8-4.1\
+l-8-10.2 C26.7,2\
+9.5,25.4,30,24,3\
+0z\x22/>\x0a    <path \
+fill=\x22#448AFF\x22 d\
+=\x22M30,24h13c0-10\
+.5-8.5-19-19-19v\
+13C27.3,18,30,20\
+.7,30,24z\x22/>\x0a   \
+ <path fill=\x22#3F\
+51B5\x22 d=\x22M43,24H\
+30c0,1.9-0.9,3.6\
+-2.3,4.7l8,10.2C\
+40.2,35.4,43,30,\
+43,24z\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x01+\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#4CA\
+F50\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <g fill=\x22#fff\x22\
+>\x0a        <rect \
+x=\x2221\x22 y=\x2214\x22 wi\
+dth=\x226\x22 height=\x22\
+20\x22/>\x0a        <r\
+ect x=\x2214\x22 y=\x2221\
+\x22 width=\x2220\x22 hei\
+ght=\x226\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x02\xb3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F4433\
+6\x22 d=\x22M21.2,44.8\
+l-18-18c-1.6-1.6\
+-1.6-4.1,0-5.7l1\
+8-18c1.6-1.6,4.1\
+-1.6,5.7,0l18,18\
+c1.6,1.6,1.6,4.1\
+,0,5.7l-18,18 C2\
+5.3,46.4,22.7,46\
+.4,21.2,44.8z\x22/>\
+\x0a    <path fill=\
+\x22#fff\x22 d=\x22M21.6,\
+32.7c0-0.3,0.1-0\
+.6,0.2-0.9c0.1-0\
+.3,0.3-0.5,0.5-0\
+.7c0.2-0.2,0.5-0\
+.4,0.8-0.5s0.6-0\
+.2,1-0.2 s0.7,0.\
+1,1,0.2c0.3,0.1,\
+0.6,0.3,0.8,0.5c\
+0.2,0.2,0.4,0.4,\
+0.5,0.7c0.1,0.3,\
+0.2,0.6,0.2,0.9s\
+-0.1,0.6-0.2,0.9\
+s-0.3,0.5-0.5,0.\
+7 c-0.2,0.2-0.5,\
+0.4-0.8,0.5c-0.3\
+,0.1-0.6,0.2-1,0\
+.2s-0.7-0.1-1-0.\
+2s-0.5-0.3-0.8-0\
+.5c-0.2-0.2-0.4-\
+0.4-0.5-0.7S21.6\
+,33.1,21.6,32.7z\
+ M25.8,28.1h-3.6\
+L21.7,13h4.6L25.\
+8,28.1z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x0d\xfa\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0d\x0a<svg\x0d\x0a   \
+viewBox=\x220 0 48 \
+48\x22\x0d\x0a   width=\x224\
+8px\x22\x0d\x0a   height=\
+\x2248px\x22\x0d\x0a   versi\
+on=\x221.1\x22\x0d\x0a   id=\
+\x22svg6\x22\x0d\x0a   sodip\
+odi:docname=\x22Ris\
+k.svg\x22\x0d\x0a   inksc\
+ape:version=\x221.4\
+.2 (f4327f4, 202\
+5-05-13)\x22\x0d\x0a   xm\
+lns:inkscape=\x22ht\
+tp://www.inkscap\
+e.org/namespaces\
+/inkscape\x22\x0d\x0a   x\
+mlns:sodipodi=\x22h\
+ttp://sodipodi.s\
+ourceforge.net/D\
+TD/sodipodi-0.dt\
+d\x22\x0d\x0a   xmlns=\x22ht\
+tp://www.w3.org/\
+2000/svg\x22\x0d\x0a   xm\
+lns:svg=\x22http://\
+www.w3.org/2000/\
+svg\x22>\x0d\x0a  <defs\x0d\x0a\
+     id=\x22defs6\x22 \
+/>\x0d\x0a  <sodipodi:\
+namedview\x0d\x0a     \
+id=\x22namedview6\x22\x0d\
+\x0a     pagecolor=\
+\x22#ffffff\x22\x0d\x0a     \
+bordercolor=\x22#00\
+0000\x22\x0d\x0a     bord\
+eropacity=\x220.25\x22\
+\x0d\x0a     inkscape:\
+showpageshadow=\x22\
+2\x22\x0d\x0a     inkscap\
+e:pageopacity=\x220\
+.0\x22\x0d\x0a     inksca\
+pe:pagecheckerbo\
+ard=\x220\x22\x0d\x0a     in\
+kscape:deskcolor\
+=\x22#d1d1d1\x22\x0d\x0a    \
+ inkscape:zoom=\x22\
+26.737476\x22\x0d\x0a    \
+ inkscape:cx=\x2211\
+.519412\x22\x0d\x0a     i\
+nkscape:cy=\x2229.9\
+0185\x22\x0d\x0a     inks\
+cape:window-widt\
+h=\x223840\x22\x0d\x0a     i\
+nkscape:window-h\
+eight=\x222054\x22\x0d\x0a  \
+   inkscape:wind\
+ow-x=\x22-11\x22\x0d\x0a    \
+ inkscape:window\
+-y=\x22-11\x22\x0d\x0a     i\
+nkscape:window-m\
+aximized=\x221\x22\x0d\x0a  \
+   inkscape:curr\
+ent-layer=\x22svg6\x22\
+ />\x0d\x0a  <linearGr\
+adient\x0d\x0a     id=\
+\x22lAPc856SqcrzVTE\
+vl7rUKa\x22\x0d\x0a     x\
+1=\x226.825\x22\x0d\x0a     \
+x2=\x2241.469\x22\x0d\x0a   \
+  y1=\x225.537\x22\x0d\x0a  \
+   y2=\x2242.78\x22\x0d\x0a \
+    gradientUnit\
+s=\x22userSpaceOnUs\
+e\x22>\x0d\x0a    <stop\x0d\x0a\
+       offset=\x220\
+\x22\x0d\x0a       stop-c\
+olor=\x22#33bef0\x22\x0d\x0a\
+       id=\x22stop1\
+\x22 />\x0d\x0a    <stop\x0d\
+\x0a       offset=\x22\
+1\x22\x0d\x0a       stop-\
+color=\x22#0a85d9\x22\x0d\
+\x0a       id=\x22stop\
+2\x22 />\x0d\x0a  </linea\
+rGradient>\x0d\x0a  <p\
+ath\x0d\x0a     d=\x22M 3\
+.8071884,35.9326\
+68 18.562721,10.\
+398734 v 0 a 7.7\
+518022,7.7518022\
+ 0 0 1 2.745216,\
+-2.8653194 5.394\
+3484,5.3943484 0\
+ 0 1 5.490431,0 \
+7.7277815,7.7277\
+815 0 0 1 2.7211\
+93,2.8756144 l 0\
+.07893,0.150985 \
+14.439833,25.074\
+113 a 7.1753069,\
+7.1753069 0 0 1 \
+1.029455,3.71976\
+6 5.6414178,5.64\
+14178 0 0 1 -0.5\
+97084,2.54962 5.\
+3016973,5.301697\
+3 0 0 1 -1.96969\
+2,2.058912 7.206\
+1906,7.2061906 0\
+ 0 1 -3.894775,0\
+.953961 v 0 H 9.\
+0230967 c -0.072\
+058,0 -0.1475548\
+,0 -0.2196173,0 \
+A 6.5198866,6.51\
+98866 0 0 1 6.11\
+66009,44.319302 \
+5.4320951,5.4320\
+951 0 0 1 3.8346\
+406,42.356473 5.\
+5796504,5.579650\
+4 0 0 1 2.949308\
+4,39.425955 7.43\
+26709,7.4326709 \
+0 0 1 3.7042428,\
+36.124834 c 0.03\
+4321,-0.06863 0.\
+06863,-0.137261 \
+0.1063788,-0.202\
+46 z\x22\x0d\x0a     id=\x22\
+path1\x22\x0d\x0a     sty\
+le=\x22stroke-width\
+:0.343152\x22 />\x0d\x0a \
+ <path\x0d\x0a     cla\
+ss=\x22cls-1\x22\x0d\x0a    \
+ d=\x22M 6.0685595,\
+37.229783 20.824\
+091,11.706141 c \
+1.791255,-3.0677\
+768 4.62912,-3.1\
+569964 6.454688,\
+0 l 14.52219,25.\
+218238 c 1.41378\
+7,2.330001 0.826\
+995,5.456114 -3.\
+194745,5.394347 \
+H 9.0230967 C 6.\
+3053339,42.38049\
+1 4.6650684,40.2\
+01479 6.0685595,\
+37.229783 Z\x22\x0d\x0a  \
+   id=\x22path2-2\x22\x0d\
+\x0a     style=\x22fil\
+l:#fec901;fill-r\
+ule:evenodd;stro\
+ke-width:0.34315\
+2\x22 />\x0d\x0a  <path\x0d\x0a\
+     class=\x22cls-\
+2\x22\x0d\x0a     d=\x22m 22\
+.697702,35.29783\
+8 a 1.877041,1.8\
+77041 0 0 1 2.00\
+7438,-0.418645 1\
+.9388084,1.93880\
+84 0 0 1 0.68630\
+4,0.446097 1.883\
+9041,1.8839041 0\
+ 0 1 0.549044,1.\
+214758 1.7569378\
+,1.7569378 0 0 1\
+ -0.02745,0.4804\
+12 1.791253,1.79\
+1253 0 0 1 -0.14\
+4123,0.459823 1.\
+8907672,1.890767\
+2 0 0 1 -1.78439\
+2,1.115245 1.931\
+9454,1.9319454 0\
+ 0 1 -0.775523,-\
+0.181871 1.89076\
+72,1.8907672 0 0\
+ 1 -0.964256,-1.\
+002004 2.0589116\
+,2.0589116 0 0 1\
+ -0.113234,-0.44\
+9529 1.8118422,1\
+.8118422 0 0 1 0\
+,-0.449528 v 0 a\
+ 2.0589116,2.058\
+9116 0 0 1 0.192\
+165,-0.686304 1.\
+5784989,1.578498\
+9 0 0 1 0.391194\
+,-0.535317 z m 2\
+.786393,-3.50358\
+1 c -0.0652,1.64\
+0265 -2.841298,1\
+.640265 -2.90306\
+5,0 -0.281385,-2\
+.810415 -1.00200\
+4,-9.481288 -0.9\
+77983,-12.120126\
+ 0.02402,-0.8132\
+71 0.686303,-1.2\
+97115 1.561341,-\
+1.478986 a 3.997\
+72,3.99772 0 0 1\
+ 0.851017,-0.085\
+79 4.3031253,4.3\
+031253 0 0 1 0.8\
+57879,0.08579 c \
+0.888765,0.19216\
+5 1.588795,0.686\
+304 1.588795,1.5\
+20164 v 0.08922 \
+l -0.974552,12.0\
+10318 z\x22\x0d\x0a     i\
+d=\x22path3-4\x22\x0d\x0a   \
+  style=\x22fill:#0\
+10101;stroke-wid\
+th:0.343152\x22 />\x0d\
+\x0a</svg>\x0d\x0a\
+\x00\x00\x01\xe2\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FF9800\x22>\
+\x0a        <rect x\
+=\x2236.1\x22 y=\x228.1\x22 \
+transform=\x22matri\
+x(.707 .707 -.70\
+7 .707 21.201 -2\
+5.184)\x22 width=\x229\
+.9\x22 height=\x229.9\x22\
+/>\x0a        <rect\
+ x=\x2236\x22 y=\x228\x22 wi\
+dth=\x2210\x22 height=\
+\x2210\x22/>\x0a    </g>\x0a\
+    <circle fill\
+=\x22#FFEB3B\x22 cx=\x224\
+1\x22 cy=\x2213\x22 r=\x223\x22\
+/>\x0a    <polygon \
+fill=\x22#2E7D32\x22 p\
+oints=\x2216.5,18 0\
+,42 33,42\x22/>\x0a   \
+ <polygon fill=\x22\
+#4CAF50\x22 points=\
+\x2233.6,24 19.2,42\
+ 48,42\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x02m\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#4CAF5\
+0\x22>\x0a        <rec\
+t x=\x2222\x22 y=\x2216\x22 \
+width=\x224\x22 height\
+=\x2218\x22/>\x0a        \
+<rect x=\x2215\x22 y=\x22\
+23\x22 width=\x2218\x22 h\
+eight=\x224\x22/>\x0a    \
+</g>\x0a</svg>\x0a\
+\x00\x00\x02z\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h25.1c1.3-\
+1.3,4.9-0.9,4.9-\
+2v-6C40,19.9,39.\
+1,19,38,19z\x22/>\x0a \
+       <path d=\x22\
+M34.4,31H10c-1.1\
+,0-2,0.9-2,2v6c0\
+,1.1,0.9,2,2,2h2\
+8c1.1,0,2-0.9,2-\
+2v-2.4C40,33.5,3\
+7.5,31,34.4,31z\x22\
+/>\x0a    </g>\x0a    \
+<path fill=\x22#009\
+688\x22 d=\x22M46,25H3\
+2c-1.1,0-2,0.9-2\
+,2v11.8c0,1.3,0.\
+6,2.4,1.6,3.2l7.\
+4,5.5l7.4-5.5c1-\
+0.8,1.6-1.9,1.6-\
+3.2V27 C48,25.9,\
+47.1,25,46,25z\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x01\xe3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#FF\
+8A65\x22 points=\x2224\
+,21.3 12.7,10 26\
+,1.7 38.3,10\x22/>\x0a\
+    <polygon fil\
+l=\x22#FFAB91\x22 poin\
+ts=\x2224,21.3 12.7\
+,10 17,4.7 38.3,\
+10\x22/>\x0a    <path \
+fill=\x22#B39DDB\x22 d\
+=\x22M30.6,44H17.4c\
+-2,0-3.7-1.4-4-3\
+.4L9,11h30l-4.5,\
+29.6C34.2,42.6,3\
+2.5,44,30.6,44z\x22\
+/>\x0a    <path fil\
+l=\x22#7E57C2\x22 d=\x22M\
+38,13H10c-1.1,0-\
+2-0.9-2-2v0c0-1.\
+1,0.9-2,2-2h28c1\
+.1,0,2,0.9,2,2v0\
+C40,12.1,39.1,13\
+,38,13z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x02T\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#CFD8D\
+C\x22 d=\x22M38.4,13L2\
+4.1,6.4L4.6,12.1\
+l8.8,13.2l-2.2,1\
+5.1h22.7l6.6-13.\
+3L38.4,13z M32.1\
+,37.5H14.7l1.8-1\
+2.9L9.4,13.9 l14\
+.5-4.3L35.6,15l1\
+.8,11.7L32.1,37.\
+5z\x22/>\x0a    <g fil\
+l=\x22#00BCD4\x22>\x0a   \
+     <circle cx=\
+\x2224\x22 cy=\x228\x22 r=\x224\
+\x22/>\x0a        <cir\
+cle cx=\x2237\x22 cy=\x22\
+14\x22 r=\x224\x22/>\x0a    \
+    <circle cx=\x22\
+39\x22 cy=\x2227\x22 r=\x224\
+\x22/>\x0a        <cir\
+cle cx=\x227\x22 cy=\x221\
+3\x22 r=\x224\x22/>\x0a     \
+   <circle cx=\x221\
+3\x22 cy=\x2239\x22 r=\x224\x22\
+/>\x0a        <circ\
+le cx=\x2215\x22 cy=\x222\
+5\x22 r=\x224\x22/>\x0a     \
+   <circle cx=\x223\
+3\x22 cy=\x2239\x22 r=\x224\x22\
+/>\x0a    </g>\x0a</sv\
+g>\x0a\
+\x00\x00\x02\xb3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#009688\x22>\
+\x0a        <rect x\
+=\x2222\x22 y=\x2235\x22 wid\
+th=\x224\x22 height=\x221\
+1\x22/>\x0a        <po\
+lygon points=\x2224\
+,29.6 31,38 17,3\
+8\x22/>\x0a    </g>\x0a  \
+  <g fill=\x22#0096\
+88\x22>\x0a        <re\
+ct x=\x2222\x22 y=\x222\x22 \
+width=\x224\x22 height\
+=\x2211\x22/>\x0a        \
+<polygon points=\
+\x2224,18.4 17,10 3\
+1,10\x22/>\x0a    </g>\
+\x0a    <g fill=\x22#0\
+09688\x22>\x0a        \
+<rect x=\x222\x22 y=\x222\
+2\x22 width=\x2211\x22 he\
+ight=\x224\x22/>\x0a     \
+   <polygon poin\
+ts=\x2218.4,24 10,3\
+1 10,17\x22/>\x0a    <\
+/g>\x0a    <g fill=\
+\x22#009688\x22>\x0a     \
+   <rect x=\x2235\x22 \
+y=\x2222\x22 width=\x2211\
+\x22 height=\x224\x22/>\x0a \
+       <polygon \
+points=\x2229.6,24 \
+38,17 38,31\x22/>\x0a \
+   </g>\x0a    <cir\
+cle fill=\x22#F4433\
+6\x22 cx=\x2224\x22 cy=\x222\
+4\x22 r=\x223\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x01\x9c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2240\
+,45 8,45 8,3 30,\
+3 40,13\x22/>\x0a    <\
+polygon fill=\x22#E\
+1F5FE\x22 points=\x223\
+8.5,14 29,14 29,\
+4.5\x22/>\x0a    <poly\
+gon fill=\x22#1565C\
+0\x22 points=\x2221,23\
+ 14,33 28,33\x22/>\x0a\
+    <polygon fil\
+l=\x22#1976D2\x22 poin\
+ts=\x2228,26.4 23,3\
+3 33,33\x22/>\x0a    <\
+circle fill=\x22#19\
+76D2\x22 cx=\x2231.5\x22 \
+cy=\x2224.5\x22 r=\x221.5\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x03A\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#5E35B\
+1\x22 d=\x22M40,10h-7.\
+6l-2-3c-0.4-0.6-\
+1-0.9-1.7-0.9h-9\
+.6c-0.7,0-1.3,0.\
+3-1.7,0.9l-2,3H8\
+c-2.2,0-4,1.8-4,\
+4v24 c0,2.2,1.8,\
+4,4,4h32c2.2,0,4\
+-1.8,4-4V14C44,1\
+1.8,42.2,10,40,1\
+0z\x22/>\x0a    <path \
+fill=\x22#F57C00\x22 d\
+=\x22M11,16h20c0.6,\
+0,1,0.4,1,1v16c0\
+,0.6-0.4,1-1,1H1\
+1c-0.6,0-1-0.4-1\
+-1V17C10,16.4,10\
+.4,16,11,16z\x22/>\x0a\
+    <polygon fil\
+l=\x22#942A09\x22 poin\
+ts=\x2218.9,22 12,3\
+2 25.8,32\x22/>\x0a   \
+ <circle fill=\x22#\
+FFF9C4\x22 cx=\x2227\x22 \
+cy=\x2221\x22 r=\x222\x22/>\x0a\
+    <polygon fil\
+l=\x22#BF360C\x22 poin\
+ts=\x2225.2,26 20.4\
+,32 30,32\x22/>\x0a   \
+ <g fill=\x22#8667C\
+4\x22>\x0a        <pat\
+h d=\x22M34,10h6V9.\
+2C40,8.5,39.5,8,\
+38.8,8h-3.6C34.5\
+,8,34,8.5,34,9.2\
+V10z\x22/>\x0a        \
+<circle cx=\x2238\x22 \
+cy=\x2218\x22 r=\x222\x22/>\x0a\
+        <circle \
+cx=\x2238\x22 cy=\x2224\x22 \
+r=\x222\x22/>\x0a        \
+<circle cx=\x2238\x22 \
+cy=\x2230\x22 r=\x222\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x02\xb4\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#8CBCD\
+6\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4V\
+11c0-2.2,1.8-4,4\
+-4h32c2.2,0,4,1.\
+8,4,4v26C44,39.2\
+,42.2,41,40,41z\x22\
+/>\x0a    <circle f\
+ill=\x22#B3DDF5\x22 cx\
+=\x2235\x22 cy=\x2216\x22 r=\
+\x223\x22/>\x0a    <polyg\
+on fill=\x22#9AC9E3\
+\x22 points=\x2220,16 \
+9,32 31,32\x22/>\x0a  \
+  <polygon fill=\
+\x22#B3DDF5\x22 points\
+=\x2231,22 23,32 39\
+,32\x22/>\x0a    <circ\
+le fill=\x22#F44336\
+\x22 cx=\x2238\x22 cy=\x2238\
+\x22 r=\x2210\x22/>\x0a    <\
+g fill=\x22#fff\x22>\x0a \
+       <rect x=\x22\
+36.5\x22 y=\x2232\x22 tra\
+nsform=\x22matrix(-\
+.707 .707 -.707 \
+-.707 91.74 38)\x22\
+ width=\x223\x22 heigh\
+t=\x2212\x22/>\x0a       \
+ <rect x=\x2236.5\x22 \
+y=\x2232\x22 transform\
+=\x22matrix(-.707 -\
+.707 .707 -.707 \
+38 91.74)\x22 width\
+=\x223\x22 height=\x2212\x22\
+/>\x0a    </g>\x0a</sv\
+g>\x0a\
+\x00\x00\x02}\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2196F\
+3\x22 d=\x22M26.4,33.9\
+c0,0,4-2.6,4.8-3\
+c0.8-0.4,1.7-0.6\
+,2.2-0.2c0.8,0.5\
+,7.5,4.9,8.1,5.3\
+c0.6,0.4,0.8,1.5\
+,0.1,2.6 c-0.8,1\
+.1-4.3,5.5-5.8,5\
+.4c-1.5,0-8.4,0.\
+4-20.3-11.4C3.6,\
+20.7,4,13.8,4,12\
+.3c0-1.5,4.3-5.1\
+,5.4-5.8c1.1-0.8\
+,2.2-0.5,2.6,0.1\
+ c0.4,0.6,4.8,7.\
+3,5.3,8.1c0.3,0.\
+5,0.2,1.4-0.2,2.\
+2c-0.4,0.8-3,4.8\
+-3,4.8s0.7,2.8,5\
+,7.2C23.5,33.2,2\
+6.4,33.9,26.4,33\
+.9z\x22/>\x0a    <g fi\
+ll=\x22#3F51B5\x22>\x0a  \
+      <path d=\x22M\
+35,9H25v4h10c1.1\
+,0,2,0.9,2,2v10h\
+4V15C41,11.7,38.\
+3,9,35,9z\x22/>\x0a   \
+     <polygon po\
+ints=\x2228,16 21.3\
+,11 28,6\x22/>\x0a    \
+</g>\x0a</svg>\x0a\
+\x00\x00\x01)\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#B3E\
+5FC\x22 cx=\x2224\x22 cy=\
+\x2230\x22 r=\x2215\x22/>\x0a  \
+  <g fill=\x22#1565\
+C0\x22>\x0a        <po\
+lygon points=\x2224\
+,38.7 15,28 33,2\
+8\x22/>\x0a        <re\
+ct x=\x2221\x22 y=\x225\x22 \
+width=\x226\x22 height\
+=\x2226\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x00\xc5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#21\
+96F3\x22 points=\x2230\
+.9,43 34,39.9 18\
+.1,24 34,8.1 30.\
+9,5 12,24\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02w\
+\x00\
+\x00\x0d3x\xda\x9dWQo\xda0\x10~\xef\xaf\xb0\
+\xbc\xd7\xc4\xf1\xd9N\x1cO\xa4\xd2\x1a\x09\xf1\xb2W\xde\
+i\x9a%h\x0c*\xc8H\xcb\xaf\xdf\xd9\x98V\x9a\x80\
+r`\x92Xg\x7f\xf7\xdd\xd9w\x17g\xb2\xdbwl\
+\xdfnw\xcb\xcd\xba\xe2\xc0\xd9\xdb\x9f\xd5zW\xf1~\
+\x18^\xbfg\xd98\x8eb\xd4b\xb3\xed2%\xa5\xcc\
+p6g\xfbe;>m\xde*.\x99d\xa6\xc4?\
+g\xedz\xf1\xbcj\xd3\xe7E\xf3\xbb\xdbn\xfe\xae_\
+*\xbenG\xf69\xe3\xf1\x81\xe1o\xf2\xba\x18z\xf6\
+k\xb9ZU\xfc\xdbt\x9a[\xa58\xc3\xb9?\x8b\x04\
+\xe4^\x95\x8dL\x94P\x09\x8821\xbe\xf5(\xf2\x02\
+\x99\x984\x08S3\x07\xd9\xc8\x14\x85^\x90\x1a\xdff\
+ k\x8b\xa3\x05\xb6\xe3\x13\xe4\x81g\x91\xb2;\xf1=\
+Mu!\xebhI\x18\xda\xb6\xcd\xc0\xd0\x91\x82\xb3\xf7\
+\x8a\xeb\x9c\xb3q\xf92\xf4\xd8EI\xdf.\xbb~\xa8\
+\xb8:i:\x07\x81\x1b \xc1\xe7\xe0\xa4\x80D\xbbF\
+z\x87\xd0L)\xd0P\x91\xe3\xa5\x12\xd5k-\x14\x0e\
+\x15\xa9\xf4\xa2\x14\xc22\xa8T\xcd\x10u\xb8\xac\xcf\xf5\
+:\x17\xb6A\x94\xc2\xabL\xbd\x06T\x9a\x1e\xb1V\x98\
+\xba@*\x8b:\x0b\xa1\x93\x12\xb5\x06\xd4\xe1\x8aSJ\
+\x93\xd7AY2\x04\xe8\xab\x0d@\x87\xb8\xeb\x90I\xd6\
+\xfd\x1f&\xd3i\xf9\xa3\xc8\xcf\x85\x89\xf7\xf2=h\x8e\
+*\xd5\xa7\xc6\xfc\xac\x11\x11\x01\xfa\x1c\xa4\xb8\x06Q\xee\
+v\x88\x8f\xc2Kv\xc1Y\x84_\x96\xfbH\x08\x08\x1f\
+G4\xb3\x22B\xe5d\x12\x82Y'\xdf\x81L\x02\x96\
+\x0c\xd1w\xec<\xc10\xed\xc8,\x11B\xf1%Bn\
+\xd9\x96\x8f\xda\xa4\x9d/4s\xdb\x83(j#C\xdd\
+)\xb0\xfa\xe1\xcd\x17\xa2\xe3\xf0\xe1Z\xa4\xddb\xe1\x07\
+\x9d\xf1\xc5\xd4\xc0L\xbb\xbd\x14\xae\x0e<\x06\x84M\x02\
+5\xf6L\x12\xa7\x5c\xe0\xcc\xc9\x89\x1a\xcd$\xad}N\
+O;G\x8d\xef\x13\x09\x90]\xa1\xe4]d\xd1\xf6\xf6\
+b\x18!\x84\xf2\x19\xed2@.!$\x88%\xbb\x12\
+k\x08\x05b\xe9A\xed|D\xe3+\xbc\xf1G\x02\x89\
+!\x0cx\xb7x,(\xf0\xe9\xe6\xe6\xd2\xb9\x00!\x89\
+\x9d\xb99fX]b\xdf'\x5c8\x17\x09\x7f>\xc2\
+\xb1\xc3\x15\x0b)\xf1l\xc9ac\xc9\xd5\x1a\xc8)\x03\
+9\xb9\xc2E\x08\xc5\xf7\x08\xa1\xdbE\x7fM\x132&\
+rP\xb6$B(\x19s\xda\x14 \xef#\xc5\x15\xb8\
+7-)U<\xb2|\x01\x09\xc7\xc4\x89\xff\xfcy|\
+\xf8\x07\xfd\x8b8\x9c\
+\x00\x00\x02V\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#546E7\
+A\x22 d=\x22M44,30H4V1\
+1c0-2.2,1.8-4,4-\
+4h32c2.2,0,4,1.8\
+,4,4V30z\x22/>\x0a    \
+<path fill=\x22#64B\
+5F6\x22 d=\x22M40,27H8\
+c-0.6,0-1-0.4-1-\
+1V11c0-0.6,0.4-1\
+,1-1h32c0.6,0,1,\
+0.4,1,1v15C41,26\
+.6,40.6,27,40,27\
+z\x22/>\x0a    <path f\
+ill=\x22#78909C\x22 d=\
+\x22M40,41H8c-2.2,0\
+-4-1.8-4-4v-7h40\
+v7C44,39.2,42.2,\
+41,40,41z\x22/>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <rec\
+t x=\x2227\x22 y=\x2234\x22 \
+width=\x2212\x22 heigh\
+t=\x222\x22/>\x0a        \
+<rect x=\x229\x22 y=\x223\
+4\x22 width=\x2212\x22 he\
+ight=\x222\x22/>\x0a     \
+   <path d=\x22M18,\
+35c0,1.1-1.3,2-3\
+,2s-3-0.9-3-2H18\
+z\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x01\x16\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#219\
+6F3\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <rect x=\x2222\x22 y\
+=\x2222\x22 fill=\x22#fff\
+\x22 width=\x224\x22 heig\
+ht=\x2211\x22/>\x0a    <c\
+ircle fill=\x22#fff\
+\x22 cx=\x2224\x22 cy=\x2216\
+.5\x22 r=\x222.5\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x03\x07\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#80DEE\
+A\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4V\
+11c0-2.2,1.8-4,4\
+-4h32c2.2,0,4,1.\
+8,4,4v26C44,39.2\
+,42.2,41,40,41z\x22\
+/>\x0a    <g fill=\x22\
+#2962FF\x22>\x0a      \
+  <polygon point\
+s=\x2236,17 31,17 2\
+9,15 31,13 36,13\
+ 38,15\x22/>\x0a      \
+  <polygon point\
+s=\x2236,35 31,35 2\
+9,33 31,31 36,31\
+ 38,33\x22/>\x0a      \
+  <polygon point\
+s=\x2237,30 37,18 3\
+9,16 41,18 41,30\
+ 39,32\x22/>\x0a      \
+  <polygon point\
+s=\x2226,30 26,18 2\
+8,16 30,18 30,30\
+ 28,32\x22/>\x0a      \
+  <polygon point\
+s=\x2217,17 12,17 1\
+0,15 12,13 17,13\
+ 19,15\x22/>\x0a      \
+  <polygon point\
+s=\x2217,35 12,35 1\
+0,33 12,31 17,31\
+ 19,33\x22/>\x0a      \
+  <polygon point\
+s=\x2218,30 18,18 2\
+0,16 22,18 22,30\
+ 20,32\x22/>\x0a      \
+  <polygon point\
+s=\x227,30 7,18 9,1\
+6 11,18 11,30 9,\
+32\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x01w\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x224\x22 y=\x227\x22 \
+fill=\x22#BBDEFB\x22 w\
+idth=\x2240\x22 height\
+=\x2234\x22/>\x0a    <rec\
+t x=\x229\x22 y=\x2212\x22 f\
+ill=\x22#3F51B5\x22 wi\
+dth=\x2230\x22 height=\
+\x225\x22/>\x0a    <g fil\
+l=\x22#2196F3\x22>\x0a   \
+     <rect x=\x229\x22\
+ y=\x2221\x22 width=\x221\
+3\x22 height=\x2216\x22/>\
+\x0a        <rect x\
+=\x2226\x22 y=\x2221\x22 wid\
+th=\x2213\x22 height=\x22\
+16\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x01\xfb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF980\
+0\x22 d=\x22M44,18v-4H\
+34V4h-4v10h-4V4h\
+-4v10h-4V4h-4v10\
+H4v4h10v4H4v4h10\
+v4H4v4h10v10h4V3\
+4h4v10h4V34h4v10\
+h4V34h10v-4H34 v\
+-4h10v-4H34v-4H4\
+4z\x22/>\x0a    <path \
+fill=\x22#4CAF50\x22 d\
+=\x22M8,12v24c0,2.2\
+,1.8,4,4,4h24c2.\
+2,0,4-1.8,4-4V12\
+c0-2.2-1.8-4-4-4\
+H12C9.8,8,8,9.8,\
+8,12z\x22/>\x0a    <pa\
+th fill=\x22#37474F\
+\x22 d=\x22M31,31H17c-\
+1.1,0-2-0.9-2-2V\
+19c0-1.1,0.9-2,2\
+-2h14c1.1,0,2,0.\
+9,2,2v10C33,30.1\
+,32.1,31,31,31z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x01\xcd\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#00A\
+CC1\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2220\x22/>\x0a  \
+  <circle fill=\x22\
+#eee\x22 cx=\x2224\x22 cy\
+=\x2224\x22 r=\x2216\x22/>\x0a \
+   <rect x=\x2223\x22 \
+y=\x2211\x22 width=\x222\x22\
+ height=\x2213\x22/>\x0a \
+   <rect x=\x2226.1\
+\x22 y=\x2222.7\x22 trans\
+form=\x22matrix(-.7\
+07 .707 -.707 -.\
+707 65.787 27.25\
+)\x22 width=\x222.3\x22 h\
+eight=\x229.2\x22/>\x0a  \
+  <circle cx=\x2224\
+\x22 cy=\x2224\x22 r=\x222\x22/\
+>\x0a    <circle fi\
+ll=\x22#00ACC1\x22 cx=\
+\x2224\x22 cy=\x2224\x22 r=\x22\
+1\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xc5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#CFD8DC\x22>\
+\x0a        <path d\
+=\x22M34,44H14c-1.1\
+,0-2-0.9-2-2V8c0\
+-1.1,0.9-2,2-2h2\
+0c1.1,0,2,0.9,2,\
+2v34C36,43.1,35.\
+1,44,34,44z\x22/>\x0a \
+       <path d=\x22\
+M28,13h-8c-0.6,0\
+-1-0.4-1-1V5c0-0\
+.6,0.4-1,1-1h8c0\
+.6,0,1,0.4,1,1v7\
+C29,12.6,28.6,13\
+,28,13z\x22/>\x0a    <\
+/g>\x0a    <path fi\
+ll=\x22#8BC34A\x22 d=\x22\
+M34,44H14c-1.1,0\
+-2-0.9-2-2v-9h24\
+v9C36,43.1,35.1,\
+44,34,44z\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02\x9b\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#455A6\
+4\x22 d=\x22M36.5,44H1\
+1.5c-1.1,0-1.8-1\
+.2-1.3-2.2L13,37\
+h22l2.7,4.8C38.3\
+,42.8,37.6,44,36\
+.5,44z\x22/>\x0a    <c\
+ircle fill=\x22#789\
+09C\x22 cx=\x2224\x22 cy=\
+\x2223\x22 r=\x2218\x22/>\x0a  \
+  <path fill=\x22#4\
+55A64\x22 d=\x22M24,35\
+c-6.6,0-12-5.4-1\
+2-12c0-6.6,5.4-1\
+2,12-12s12,5.4,1\
+2,12C36,29.6,30.\
+6,35,24,35z\x22/>\x0a \
+   <circle fill=\
+\x22#42A5F5\x22 cx=\x2224\
+\x22 cy=\x2223\x22 r=\x229\x22/\
+>\x0a    <path fill\
+=\x22#90CAF9\x22 d=\x22M2\
+8.8,20c-1.2-1.4-\
+3-2.2-4.8-2.2s-3\
+.6,0.8-4.8,2.2c-\
+0.5,0.5-0.4,1.3,\
+0.1,1.8c0.5,0.5,\
+1.3,0.4,1.8-0.1 \
+c1.5-1.7,4.3-1.7\
+,5.8,0c0.3,0.3,0\
+.6,0.4,1,0.4c0.3\
+,0,0.6-0.1,0.9-0\
+.3C29.2,21.4,29.\
+3,20.5,28.8,20z\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x01\xf0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#8BC34\
+A\x22 d=\x22M39,15c0-2\
+.2-1.8-4-4-4h-6c\
+-0.7,0-1.1-0.8-0\
+.7-1.4c0.6-1,0.9\
+-2.2,0.6-3.5c-0.\
+4-2-1.9-3.6-3.8-\
+4 C21.8,1.4,19,3\
+.9,19,7c0,1,0.3,\
+1.8,0.7,2.6c0.4,\
+0.6,0,1.4-0.8,1.\
+4h-6c-2.2,0-4,1.\
+8-4,4v7c0,0.7,0.\
+8,1.1,1.4,0.7 c1\
+-0.6,2.2-0.9,3.5\
+-0.6c2,0.4,3.6,1\
+.9,4,3.8c0.7,3.2\
+-1.8,6.1-4.9,6.1\
+c-1,0-1.8-0.3-2.\
+6-0.7C9.8,30.9,9\
+,31.3,9,32v6c0,2\
+.2,1.8,4,4,4 h22\
+c2.2,0,4-1.8,4-4\
+V15z\x22/>\x0a</svg>\x0a\
+\x00\x00\x04\x1b\
+\x00\
+\x00\x1b\xc2x\xda\xad\x99\xddn\xdb8\x10F\xef\xfb\x14\
+\x82\xf6V\x96\xc9\x99\xe1_\x11\x17h\x03\xf4n\x1f\x22\
+u\xbdn\xb0\xae\x13\xc4\xd9\xb8\xed\xd3/9\xa4\xd8\xc5\
+\x16\x9a\x16,\x83\xc4\x8cMF\xe7\x086g>)7\
+\x97\x97\xe3\xf0rx\xba\xdc?\x9cw\xa3\x1e\x87/\x9f\
+O\xe7\xcbn\xfc\xf4\xfc\xfc\xf8z\xbb\xbd^\xaf\xf3\x15\
+\xe7\x87\xa7\xe3\x16\x94R\xdb\xb8z\x1c^\xee\x0f\xd7w\
+\x0f_v\xa3\x1a\xd4@>~\x8f\xc3\xe1|\xf7\xe1t\
+\xd8|\xb8\xdb\xff}|z\xf8\xe7\xfcq7\x9e\x0f\xd7\
+\xe1\xfb\x8a7\xaf\x86\xf8us\x1c\xfe\xba?\x9dv\xe3\
+\x1f\xef\xdf\xbf\x8d\x07,/\xf3\xd4\xe3\xdd\xf3\xa7!\xfe\
+\xdd\x9f\xe8'\x8d\xfb\x0d\xce8\xa9\x8d\xdd\xa89\xc4G\
+\xd8\xabI\xcd4\xa9I\xcf6>\xa6\xe7z\xd6\x13\xcc\
+n\x82\xc9Np\xe1\x95\x13\xaf\xdc\xf0\xca\x0d\xaf\xdc\xc0\
+-\xd1\xa4!\xae%\x1d\x0f\xa9qb\xc0\xf0m\xdc\xae\
+\xd1Ugz\xa8p\xc5p%\xb0m\xef37\x15n\
+\x19n\xa53\x0f\xbd\xe9\xbe\xd2\x03\xd3\x83@\x07\xe8L\
+\x07\xbd\xd0\x01&\x06Ht\xd3\x9bN\x95n\x98n$\
+\xba\xefMw\x95\xee\x99\xee\x05:\xea\xcetT\x0b\x1d\
+\xf5\xc4\x00\x89N\xbd\xe9X\xe9\xc4t\x92\xe8\xae7\xdd\
+V\xbac\xba\x13\xe8\xd4\xbb\xd6`-6\xc4\xc5\x86\xd4\
+w\xfa\xcd\xf6\xf8c\x1d\xbe\xd5\xca\xfd\xb7\x0e\x1fN\xa7\
+\xfb\xc7\xcba\xd8\xc7\x0a\x8f\xb1\xb4\xef\xbf\xee\xc68<\
+\xc5\xa76\x0e\xf1\x19\xac\xd7\x8f\xb8\x83a\xf6\xd1%V\
+\x9d\xe8f\xe3\xe8\xa3\x9d\xb9\xc5T\x80\xb5\x8a\xe7\x80\x90\
+F\xcf\xa3\xfe\xc9\xb9A\xfcI\xc7\xc1\xf2\xbb\x19n)\
+\xbd\xb7Z\xc7\xd3\xa6t\x14\xcd\x1b[\x83P\xd3\x8c\xec\
+\x84\xc5\x09\x8b\x13\xb5:Qu\xe2\xed\xae\x8d\xe0\xe4e\
+'[\x9clqr\xadN\xae:q\x11\xd0^\xa8@\
+Zv\x0a\xc5)d'P\x8dN\xa0\x16'\xe0\xd2\x00\
+Zp\x22\xd1\x09 ;\x01\x14'lu\xc2\xea\xc4\x05\
+\x03Hpr\xb2\x93)N\xa68\xd9V'[\x9d\xb8\
+\x8c\x80\x13j\x98\x92\x9d|q\xf2\xc5)\xb4:\x85\xc5\
+\x09\xb9\xb8\xa0\x90d\x10E'\xd4\xd9)\x8e\xec\x84\xd0\
+\xe8\x14\x8f\xb68q\xb4C\x14\x9c\xac\xecD\xc5\x89\x8a\
+\x93iu2\xd5\x89C\x17Z\xc1)\xc8N\xae8\xb9\
+\xe2\xe4[\x9d|u\xe2(\x86A\xee\x0b\xab\xf9<\x86\
+\xd8\xbe91\x06S\xce\x89\x1asNd\xc0Z\xcfL\
+\x93\xb67\xddT\xbae\xba\x15\xe8}Sj\x04rJ\
+e:\xa4\xd6(\xa4\xd44iz\xd3\xa9\xd2\x0d\xd3\x8d\
+D\xf7\xbd\xe9\xae\xd2=\xd3\xbd@\xef\x9bR\xd3\xe5\x90\
+Z\xe8\xa8\xf9\xdaLKt\xeaM\xc7J'\xa6\x93D\
+w\xbd\xe9\xb6\xd2\x1d\xd3\x9d@\xef\x9bR\x13=,\xf4\
+\x98R\x19\xf0\x1b)U\xab\x9cR5\xfdJLM\xfb\
+{5~\xd1\x92\xbe(\x87/j\xca^\xb9\x9e\xa4\xec\
+\xa5!g/\x86\x0a\xfbJ\x8bB!\x0b\x05\x16j\x09\
+^,\xc4\xc1\x8b\x85\x80?\xed\xab\xc1+\xcd\x91$\xc4\
+\xb9\x8br\xec\xa2\xa6\xd4\x95\x85\xb0\x0a\xf1\x06XM]\
+i\xce\x89B&\x0b\x99,d[\x85l\x15\xe2=\xb1\
+\x1a\xb9\xd2~Q\xa2\x90\xcfB>\x0b\x85V\xa1\xb0\x08\
+!o\x93\xd5\xbc\x95\xe6P\x12\xe2\xb8E9mQS\
+\xd8b!\x0e[Y(\xdf\xcdBA\xc8\x8aB\x94\x85\
+(\x0b\x99V!S\x85\xb8u\xaf&\xad4\x17D!\
+\x97\x85\x5c\x16\xf2\xadB\xbe\x0aq\x92i\x8eY@\x9d\
+\xdb-\xaa\xdcn\xe3\x03\xb7[\x06\xac\x15\xfd4iz\
+\xd3\xa9\xd2\x0d\xd3\x8d@\xef\xdb\xec\xd3\xe5\x8aZ\xe8\xb1\
+\xd93@\xa2So:V:1\x9d$\xba\xebM\xb7\
+\x95\xee\x98\xee\x04z\xdff\x9f\xe8a\xa1S\xfa\x10\xfc\
+^\xb3\x07\xca\xcd\x1e\xf0W\x9a}\xfa\x94\xadv\x0e\xbe\
+\xe8\xe0\xd6\xa1}\xee\x1dilh\x1e\x10\x96\xe6\x016\
+7\x0f\xe6\x0ao\xb0\x92\x9d|q\xf2\xc5)\xb4:\x85\
+\xc5\x89\xb7\xdfz\xffHs(:q\x03Iw\x91t\
+\xb9\x9b\x04\x8dN\xdcB\xb2\x13\xb2\x13\x0aNVv\xa2\
+\xe2D\xc5\xc9\xb4:\x99\xead\xd9\xc9\x0aNAvr\
+\xc5\xc9-w\xddZ\x9d|u\x0a\xec\xf4\xbfFr\x93\
+\xfe\x1b\xf7\xe6\xd5\xbf\xc3\xfc\xb3Q\
+\x00\x00\x02i\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#81D4F\
+A\x22 d=\x22M28,7.1v2c\
+7.3,1,13,7.3,13,\
+14.9s-5.7,13.9-1\
+3,14.9v2c8.4-1,1\
+5-8.2,15-16.9S36\
+.4,8.1,28,7.1z\x22/\
+>\x0a    <path fill\
+=\x22#546E7A\x22 d=\x22M1\
+4,32H7c-1.1,0-2-\
+0.9-2-2V18c0-1.1\
+,0.9-2,2-2h7V32z\
+\x22/>\x0a    <polygon\
+ fill=\x22#78909C\x22 \
+points=\x2226,42 14\
+,32 14,16 26,6\x22/\
+>\x0a    <path fill\
+=\x22#03A9F4\x22 d=\x22M2\
+8,17.3v2.1c1.8,0\
+.8,3,2.5,3,4.6s-\
+1.2,3.8-3,4.6v2.\
+1c2.9-0.9,5-3.5,\
+5-6.7S30.9,18.2,\
+28,17.3z\x22/>\x0a    \
+<path fill=\x22#4FC\
+3F7\x22 d=\x22M28,12.2\
+v2c4.6,0.9,8,5,8\
+,9.8s-3.4,8.9-8,\
+9.8v2c5.7-1,10-5\
+.9,10-11.8S33.7,\
+13.1,28,12.2z\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x01(\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2240\
+,45 8,45 8,3 30,\
+3 40,13\x22/>\x0a    <\
+polygon fill=\x22#E\
+1F5FE\x22 points=\x223\
+8.5,14 29,14 29,\
+4.5\x22/>\x0a    <poly\
+gon fill=\x22#1976D\
+2\x22 points=\x2230,28\
+ 20,22 20,34\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x04:\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2213\x22 y=\x2230\
+\x22 fill=\x22#BF360C\x22\
+ width=\x2222\x22 heig\
+ht=\x2212\x22/>\x0a    <g\
+ fill=\x22#FFA726\x22>\
+\x0a        <circle\
+ cx=\x2210\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2238\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a    </g>\x0a    <p\
+ath fill=\x22#FFB74\
+D\x22 d=\x22M39,19c0-1\
+2.7-30-8.3-30,0c\
+0,1.8,0,8.2,0,10\
+c0,8.3,6.7,15,15\
+,15s15-6.7,15-15\
+C39,27.2,39,20.8\
+,39,19z\x22/>\x0a    <\
+g fill=\x22#784719\x22\
+>\x0a        <circl\
+e cx=\x2230\x22 cy=\x2226\
+\x22 r=\x222\x22/>\x0a      \
+  <circle cx=\x2218\
+\x22 cy=\x2226\x22 r=\x222\x22/\
+>\x0a    </g>\x0a    <\
+path fill=\x22#FF57\
+22\x22 d=\x22M24,2C15.\
+5,2,3,7.8,3,35.6\
+L13,42V24l16.8-9\
+.8L35,21v21l10-8\
+.2c0-5.6-0.9-29-\
+15.4-29L28.2,2H2\
+4z\x22/>\x0a    <path \
+fill=\x22#757575\x22 d\
+=\x22M45,24c-0.6,0-\
+1,0.4-1,1v-7c0-8\
+.8-7.2-16-16-16h\
+-9c-0.6,0-1,0.4-\
+1,1s0.4,1,1,1h9c\
+7.7,0,14,6.3,14,\
+14v10 c0,0.6,0.4\
+,1,1,1s1-0.4,1-1\
+v2c0,3.9-3.1,7-7\
+,7H24c-0.6,0-1,0\
+.4-1,1s0.4,1,1,1\
+h13c5,0,9-4,9-9v\
+-5C46,24.4,45.6,\
+24,45,24z\x22/>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <pat\
+h d=\x22M45,22h-1c-\
+1.1,0-2,0.9-2,2v\
+4c0,1.1,0.9,2,2,\
+2h1c1.1,0,2-0.9,\
+2-2v-4C47,22.9,4\
+6.1,22,45,22z\x22/>\
+\x0a        <circle\
+ cx=\x2224\x22 cy=\x2238\x22\
+ r=\x222\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x07\xed\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#3F5\
+1B5\x22 cx=\x2218\x22 cy=\
+\x2218\x22 r=\x2215\x22/>\x0a  \
+  <path fill=\x22#F\
+FF59D\x22 d=\x22M20.3,\
+16v1.7h-3.8v1.4h\
+3.8v1.7h-3.8c0,0\
+.6,0.1,1.2,0.3,1\
+.6c0.2,0.4,0.4,0\
+.8,0.7,1c0.3,0.3\
+,0.7,0.4,1.1,0.6\
+ c0.4,0.1,0.9,0.\
+2,1.4,0.2c0.4,0,\
+0.7,0,1.1-0.1c0.\
+4-0.1,0.7-0.1,1-\
+0.3l0.4,2.7c-0.4\
+,0.1-0.9,0.2-1.4\
+,0.2c-0.5,0.1-1,\
+0.1-1.5,0.1 c-0.\
+9,0-1.8-0.1-2.6-\
+0.4c-0.8-0.2-1.5\
+-0.6-2-1.1c-0.6-\
+0.5-1-1.1-1.4-1.\
+9c-0.3-0.7-0.5-1\
+.6-0.5-2.6h-1.9v\
+-1.7h1.9v-1.4h-1\
+.9V16h1.9 c0.1-1\
+,0.3-1.8,0.6-2.6\
+c0.4-0.7,0.8-1.4\
+,1.4-1.9c0.6-0.5\
+,1.3-0.9,2.1-1.1\
+c0.8-0.3,1.7-0.4\
+,2.6-0.4c0.4,0,0\
+.9,0,1.3,0.1 c0.\
+4,0.1,0.9,0.1,1.\
+3,0.3l-0.4,2.7c-\
+0.3-0.1-0.6-0.2-\
+1-0.3c-0.4-0.1-0\
+.7-0.1-1.1-0.1c-\
+0.5,0-1,0.1-1.4,\
+0.2c-0.4,0.1-0.8\
+,0.3-1,0.6 c-0.3\
+,0.3-0.5,0.6-0.7\
+,1s-0.3,0.9-0.3,\
+1.5H20.3z\x22/>\x0a   \
+ <circle fill=\x22#\
+4CAF50\x22 cx=\x2230\x22 \
+cy=\x2230\x22 r=\x2215\x22/>\
+\x0a    <path fill=\
+\x22#fff\x22 d=\x22M28.4,\
+27c0.1,0.2,0.2,0\
+.4,0.4,0.6c0.2,0\
+.2,0.4,0.4,0.7,0\
+.5c0.3,0.2,0.7,0\
+.3,1.1,0.5c0.7,0\
+.3,1.4,0.6,2,0.9\
+ c0.6,0.3,1.1,0.\
+7,1.5,1.1c0.4,0.\
+4,0.8,0.9,1,1.4c\
+0.2,0.5,0.4,1.2,\
+0.4,1.9c0,0.7-0.\
+1,1.3-0.3,1.8c-0\
+.2,0.5-0.5,1-0.9\
+,1.4 s-0.9,0.7-1\
+.4,0.9c-0.6,0.2-\
+1.2,0.4-1.8,0.5v\
+2.2h-1.8v-2.2c-0\
+.6-0.1-1.2-0.2-1\
+.8-0.4s-1.1-0.5-\
+1.5-1c-0.5-0.4-0\
+.8-1-1.1-1.6 c-0\
+.3-0.6-0.4-1.4-0\
+.4-2.3h3.3c0,0.5\
+,0.1,1,0.2,1.3c0\
+.1,0.4,0.3,0.6,0\
+.6,0.9c0.2,0.2,0\
+.5,0.4,0.8,0.5c0\
+.3,0.1,0.6,0.1,0\
+.9,0.1 c0.4,0,0.\
+7,0,0.9-0.1c0.3-\
+0.1,0.5-0.2,0.7-\
+0.4c0.2-0.2,0.3-\
+0.4,0.4-0.6c0.1-\
+0.2,0.1-0.5,0.1-\
+0.8c0-0.3,0-0.6-\
+0.1-0.8 c-0.1-0.\
+2-0.2-0.5-0.4-0.\
+7s-0.4-0.4-0.7-0\
+.5c-0.3-0.2-0.7-\
+0.3-1.1-0.5c-0.7\
+-0.3-1.4-0.6-2-0\
+.9c-0.6-0.3-1.1-\
+0.7-1.5-1.1 c-0.\
+4-0.4-0.8-0.9-1-\
+1.4c-0.2-0.5-0.4\
+-1.2-0.4-1.9c0-0\
+.6,0.1-1.2,0.3-1\
+.7c0.2-0.5,0.5-1\
+,0.9-1.4c0.4-0.4\
+,0.9-0.7,1.4-1 c\
+0.5-0.2,1.2-0.4,\
+1.8-0.5v-2.4h1.8\
+v2.4c0.6,0.1,1.2\
+,0.3,1.8,0.6c0.5\
+,0.3,1,0.6,1.3,1\
+.1c0.4,0.4,0.7,1\
+,0.9,1.6c0.2,0.6\
+,0.3,1.3,0.3,2 h\
+-3.3c0-0.9-0.2-1\
+.6-0.6-2c-0.4-0.\
+4-0.9-0.7-1.5-0.\
+7c-0.3,0-0.6,0.1\
+-0.9,0.2c-0.2,0.\
+1-0.4,0.2-0.6,0.\
+4c-0.2,0.2-0.3,0\
+.4-0.3,0.6 c-0.1\
+,0.2-0.1,0.5-0.1\
+,0.8C28.3,26.5,2\
+8.4,26.8,28.4,27\
+z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xeb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#00BCD4\x22>\
+\x0a        <rect x\
+=\x2219\x22 y=\x2222\x22 wid\
+th=\x2210\x22 height=\x22\
+20\x22/>\x0a        <r\
+ect x=\x2232\x22 y=\x228\x22\
+ width=\x2210\x22 heig\
+ht=\x2234\x22/>\x0a      \
+  <rect x=\x226\x22 y=\
+\x2230\x22 width=\x2210\x22 \
+height=\x2212\x22/>\x0a  \
+  </g>\x0a    <g fi\
+ll=\x22#3F51B5\x22>\x0a  \
+      <polygon p\
+oints=\x2211,8 21,1\
+8 21,8\x22/>\x0a      \
+  <rect x=\x2211\x22 y\
+=\x228.9\x22 transform\
+=\x22matrix(-.707 -\
+.707 .707 -.707 \
+10.879 36.506)\x22 \
+width=\x224\x22 height\
+=\x2214.1\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01S\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3F51B\
+5\x22 d=\x22M45,9H3v30\
+h42V9z M22,37v-4\
+h4v4H22z M30,37v\
+-4h4v4H30z M38,3\
+7v-4h4v4H38z M14\
+,37v-4h4v4H14z M\
+6,37v-4h4v4H6 z \
+M22,15v-4h4v4H22\
+z M30,15v-4h4v4H\
+30z M38,15v-4h4v\
+4H38z M14,15v-4h\
+4v4H14z M6,15v-4\
+h4v4H6z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x01\x08\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2229\
+,44 17.3,30 40.7\
+,30\x22/>\x0a    <path\
+ fill=\x22#3F51B5\x22 \
+d=\x22M21,6H8v8h13c\
+2.2,0,4,1.8,4,4v\
+17h8V18C33,11.4,\
+27.6,6,21,6z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x02\xf9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a  \
+  <g fill=\x22#2196\
+F3\x22>\x0a        <po\
+lygon points=\x2231\
+,30 38,35.6 38,2\
+4.4\x22/>\x0a        <\
+path d=\x22M38,28c-\
+0.3,0-0.7,0-1,0.\
+1v4c0.3-0.1,0.7-\
+0.1,1-0.1c3.3,0,\
+6,2.7,6,6s-2.7,6\
+-6,6s-6-2.7-6-6 \
+c0-0.3,0-0.6,0.1\
+-0.9l-3.4-2.7C28\
+.3,35.5,28,36.7,\
+28,38c0,5.5,4.5,\
+10,10,10s10-4.5,\
+10-10S43.5,28,38\
+,28z\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x02\x7f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#1565C0\x22>\
+\x0a        <polygo\
+n points=\x2243.4,1\
+3 35,20 35,6\x22/>\x0a\
+        <rect x=\
+\x224\x22 y=\x2211\x22 width\
+=\x2234\x22 height=\x224\x22\
+/>\x0a    </g>\x0a    \
+<g fill=\x22#2196F3\
+\x22>\x0a        <rect\
+ x=\x2240\x22 y=\x2223\x22 w\
+idth=\x224\x22 height=\
+\x2219\x22/>\x0a        <\
+rect x=\x2234\x22 y=\x222\
+3\x22 width=\x224\x22 hei\
+ght=\x2219\x22/>\x0a     \
+   <rect x=\x2228\x22 \
+y=\x2223\x22 width=\x224\x22\
+ height=\x2219\x22/>\x0a \
+       <rect x=\x22\
+22\x22 y=\x2223\x22 width\
+=\x224\x22 height=\x2219\x22\
+/>\x0a        <rect\
+ x=\x2216\x22 y=\x2223\x22 w\
+idth=\x224\x22 height=\
+\x2219\x22/>\x0a        <\
+rect x=\x2210\x22 y=\x222\
+3\x22 width=\x224\x22 hei\
+ght=\x2219\x22/>\x0a     \
+   <rect x=\x224\x22 y\
+=\x2223\x22 width=\x224\x22 \
+height=\x2219\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
+\x00\x00\x03H\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#54\
+6E7A\x22 points=\x2238\
+,33 38,5 34,5 34\
+,33 28,33 36,43 \
+44,33\x22/>\x0a    <g \
+fill=\x22#2196F3\x22>\x0a\
+        <path d=\
+\x22M19.2,20H9v-2l4\
+.8-5.1c0.4-0.4,0\
+.7-0.8,0.9-1.1c0\
+.2-0.3,0.5-0.6,0\
+.6-0.9c0.2-0.3,0\
+.3-0.5,0.3-0.8 c\
+0.1-0.2,0.1-0.5,\
+0.1-0.7c0-0.7-0.\
+2-1.2-0.5-1.6c-0\
+.3-0.4-0.8-0.6-1\
+.4-0.6c-0.3,0-0.\
+7,0.1-0.9,0.2c-0\
+.3,0.1-0.5,0.3-0\
+.7,0.5 c-0.2,0.2\
+-0.3,0.5-0.4,0.8\
+s-0.1,0.6-0.1,1h\
+-3c0-0.7,0.1-1.3\
+,0.4-1.9c0.2-0.6\
+,0.6-1.1,1-1.6c0\
+.5-0.4,1-0.8,1.6\
+-1.1 c0.6-0.3,1.\
+4-0.4,2.2-0.4c0.\
+8,0,1.5,0.1,2.1,\
+0.3c0.6,0.2,1.1,\
+0.5,1.5,0.8s0.7,\
+0.8,0.9,1.3c0.2,\
+0.5,0.3,1.1,0.3,\
+1.8 c0,0.5-0.1,1\
+-0.2,1.4s-0.4,0.\
+9-0.7,1.4s-0.6,0\
+.9-1,1.4c-0.4,0.\
+5-0.9,1-1.4,1.5l\
+-2.6,2.8h6.4V20z\
+\x22/>\x0a        <pat\
+h d=\x22M16.2,43h-3\
+V31.6l-3.5,1.1v-\
+2.4l6.2-2.2h0.3V\
+43z\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x02\x8f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#CF\
+D8DC\x22 points=\x229,\
+39 9,6 7,6 7,41 \
+42,41 42,39\x22/>\x0a \
+   <g fill=\x22#00B\
+CD4\x22>\x0a        <c\
+ircle cx=\x2214\x22 cy\
+=\x2211\x22 r=\x222\x22/>\x0a  \
+      <circle cx\
+=\x2232\x22 cy=\x2211\x22 r=\
+\x222\x22/>\x0a        <c\
+ircle cx=\x2239\x22 cy\
+=\x2211\x22 r=\x222\x22/>\x0a  \
+      <circle cx\
+=\x2223\x22 cy=\x2211\x22 r=\
+\x224\x22/>\x0a        <c\
+ircle cx=\x2214\x22 cy\
+=\x2233\x22 r=\x222\x22/>\x0a  \
+      <circle cx\
+=\x2230\x22 cy=\x2233\x22 r=\
+\x222\x22/>\x0a        <c\
+ircle cx=\x2222\x22 cy\
+=\x2233\x22 r=\x223\x22/>\x0a  \
+      <circle cx\
+=\x2238\x22 cy=\x2233\x22 r=\
+\x224\x22/>\x0a        <c\
+ircle cx=\x2214\x22 cy\
+=\x2222\x22 r=\x222\x22/>\x0a  \
+      <circle cx\
+=\x2239\x22 cy=\x2222\x22 r=\
+\x222\x22/>\x0a        <c\
+ircle cx=\x2232\x22 cy\
+=\x2222\x22 r=\x223\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
+\x00\x00\x01y\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFA00\
+0\x22 d=\x22M38,12H22l\
+-4-4H8c-2.2,0-4,\
+1.8-4,4v24c0,2.2\
+,1.8,4,4,4h31c1.\
+7,0,3-1.3,3-3V16\
+C42,13.8,40.2,12\
+,38,12z\x22/>\x0a    <\
+path fill=\x22#FFCA\
+28\x22 d=\x22M42.2,18H\
+15.3c-1.9,0-3.6,\
+1.4-3.9,3.3L8,40\
+h31.7c1.9,0,3.6-\
+1.4,3.9-3.3l2.5-\
+14C46.6,20.3,44.\
+7,18,42.2,18z\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x02N\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2196F\
+3\x22 d=\x22M38,24v12c\
+0,1.1-0.9,2-2,2H\
+12c-1.1,0-2-0.9-\
+2-2V24c0-3.3-2.7\
+-6-6-6h0v4h0c1.1\
+,0,2,0.9,2,2v12 \
+c0,3.3,2.7,6,6,6\
+h24c3.3,0,6-2.7,\
+6-6V24c0-1.1,0.9\
+-2,2-2h0v-4h0C40\
+.7,18,38,20.7,38\
+,24z\x22/>\x0a    <g f\
+ill=\x22#3F51B5\x22>\x0a \
+       <polygon \
+points=\x2238.6,5.6\
+ 29,15.2 29,28 3\
+3,28 33,16.8 41.\
+4,8.4\x22/>\x0a       \
+ <polygon points\
+=\x226.6,8.4 15,16.\
+8 15,28 19,28 19\
+,15.2 9.4,5.6\x22/>\
+\x0a        <polygo\
+n points=\x2237,27 \
+31,33 25,27\x22/>\x0a \
+       <polygon \
+points=\x2223,27 17\
+,33 11,27\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x00\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#3F51B5\x22>\
+\x0a        <polygo\
+n points=\x2224,4 3\
+5.7,18 12.3,18\x22/\
+>\x0a        <rect \
+x=\x2220\x22 y=\x2215\x22 wi\
+dth=\x228\x22 height=\x22\
+27\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x01|\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF980\
+0\x22 d=\x22M38,42H10c\
+-2.2,0-4-1.8-4-4\
+V10c0-2.2,1.8-4,\
+4-4h28c2.2,0,4,1\
+.8,4,4v28C42,40.\
+2,40.2,42,38,42z\
+\x22/>\x0a    <path fi\
+ll=\x22#8A5100\x22 d=\x22\
+M29.5,16h-11c-0.\
+8,0-1.5-0.7-1.5-\
+1.5v0c0-0.8,0.7-\
+1.5,1.5-1.5h11c0\
+.8,0,1.5,0.7,1.5\
+,1.5v0 C31,15.3,\
+30.3,16,29.5,16z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x03\xbc\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3F51B\
+5\x22 d=\x22M43.4,8.3L\
+4,15l-0.3-2c-0.4\
+-2.2,1.1-4.2,3.3\
+-4.6l31.6-5.3c2.\
+2-0.4,4.2,1.1,4.\
+6,3.3L43.4,8.3z\x22\
+/>\x0a    <path fil\
+l=\x22#3F51B5\x22 d=\x22M\
+40,41H8c-2.2,0-4\
+-1.8-4-4V15h40v2\
+2C44,39.2,42.2,4\
+1,40,41z\x22/>\x0a    \
+<g fill=\x22#9FA8DA\
+\x22>\x0a        <poly\
+gon points=\x2218.8\
+,6.4 23.7,11.7 2\
+7.7,11 22.7,5.7\x22\
+/>\x0a        <poly\
+gon points=\x2210.9\
+,7.7 15.8,13 19.\
+8,12.3 14.8,7.1\x22\
+/>\x0a        <poly\
+gon points=\x2226.7\
+,5.1 31.6,10.3 3\
+5.5,9.7 30.6,4.4\
+\x22/>\x0a        <pol\
+ygon points=\x2234.\
+5,3.8 39.5,9 43.\
+4,8.3 38.5,3.1\x22/\
+>\x0a    </g>\x0a    <\
+circle fill=\x22#9F\
+A8DA\x22 cx=\x227.5\x22 c\
+y=\x2211.5\x22 r=\x221.5\x22\
+/>\x0a    <g fill=\x22\
+#9FA8DA\x22>\x0a      \
+  <polygon point\
+s=\x2240,15 36,21 4\
+0,21 44,15\x22/>\x0a  \
+      <polygon p\
+oints=\x2232,15 28,\
+21 32,21 36,15\x22/\
+>\x0a        <polyg\
+on points=\x2224,15\
+ 20,21 24,21 28,\
+15\x22/>\x0a        <p\
+olygon points=\x221\
+6,15 12,21 16,21\
+ 20,15\x22/>\x0a      \
+  <polygon point\
+s=\x228,15 4,21 8,2\
+1 12,15\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x01\xcd\
+\x00\
+\x00\x08[x\xda\xd5\x96\xc1n\x9c0\x10\x86\xefy\x0a\
+\xcb\xbd\x1a\xe3\x19{\x8d\xa9\x96H\xe9FU\x0e\xed\xb5\
+\xf7\x0d\xa1\x80\xbae\xa3\x85B\xda\xa7\xef\xd8\x10\x91D\
+%I\xabV\xa2\x08\x0c\xd83\xe3\xef\xb7=\x98m\xdb\
+\x97\xac/Nm}l2\x0e\x9c\xdd}=4m\xc6\
+\xab\xae\xbb}\x1b\xc7\xc30\xc8A\xcb\xe3\xa9\x8cQ)\
+\x15\x935g}]\x0c\xef\x8ew\x19WL1\xe3\xe8\
+\xe4\xach\xf6\xd7\x87\x22\xba\xde\xe7_\xca\xd3\xf1[s\
+\x93\xf1\xa6\x18\xd8lq~\xc6\xe8\xd8\x96\xecs}8\
+d\xfc\x8d\x83K\xf3\xfeb\xaa\x0eM\xa7\x22\xef\x18E\
+E\xc3\xd9w\xbaQ\xd4\xa1\xbe\xe9*\xc2\xa2\xc7\xaa\xa8\
+\xcb\xaa\xa3g\xc3\xe3_8\xd9\xe0\x03j\xf6\xc1\xd9G\
+\xe3\xbd\xcf6.\x9f\x82@\x9a\xd8K|\x08r\xbb\xef\
+*F\x02>\x82\x15\xae\x8a0W\x02$DJ\xa6\x02\
+#\x14\xd8F\xe8_\xa8\xc4+\xf7\xb4\xb1\xc7\x1c$\x0a\
+%Pj\xaa\xdd\x08\x1d\x814\xb9\x92\x89P\xd2\x91\xad\
+\xbf\x8c\xd0\xbed\xed+\x8c\xfa\x08w`)<PO\
+V\xa4\x12\xfc\xcd\xfdx4\x0c\x0f\x91\xc1\xac\x88\xd9\x86\
+s3B\x83Y\xa6F\xb5\x1ejDO\x8b0R\xa3\
+z\x86\xda\xae\x88\xda\x05\xdad\xa2\xb6\xcb\xd4\x1a\xd7C\
+\xad\x8d\xa7\xd5z\xa4\xd6\xf8\x0c\xf5\x8ar\xd1\x84\x5c\xd4\
+S2\xea\xa5l$\xb3\x97\xc6\xfa\xb7[{d\xafW\
+\xd5\xfe%\x1b\x12\xcevF\x8d\xf3\xe5U\xf9\xf9\x0a\xea\
+\x96\x95\xbf\x94\x1b\xff\x9br\xca/\xaf*\x19\x95/\xe6\
+\x97\x1f\x15\xf7\x07\xda\xfe\xc1R\x0d\xd8\xc4\xe3\x91\xd2i\
+\xc2\xe6\xa5:\xef\x85\x81}\xda\x0e\xcdfsai\x07\
+\xf6R\xd0\x7f\xb7S\x89\x1f4Pg\x06\xaf\xc0}\xb2\
+\x95\x96\xb8C?\xff\xf4\x911\xd4eB]\xde[\x86\
+\xe0[\xff\x9bp~\xf6\x13k\x14\xca\x17\
+\x00\x00\x02\xf8\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFCC80\x22>\
+\x0a        <circle\
+ cx=\x2238\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2210\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a        <path d\
+=\x22M39,19c0-12.7-\
+30-8.3-30,0c0,1.\
+8,0,8.2,0,10c0,8\
+.3,6.7,15,15,15s\
+15-6.7,15-15C39,\
+27.2,39,20.8,39,\
+19z\x22/>\x0a        <\
+path d=\x22M24,4C15\
+.2,4,8,11.2,8,20\
+c0,1.2,0,3.5,0,3\
+.5l2.1,0.6V19l19\
+.5-6.3l8.2,6.3v5\
+.1l2.1-0.6c0,0,0\
+-2.3,0-3.5 C40,1\
+2.5,34.6,4,24,4z\
+\x22/>\x0a    </g>\x0a   \
+ <polygon fill=\x22\
+#FF5722\x22 points=\
+\x2224,23.5 24,12.5\
+ 30.6,18\x22/>\x0a    \
+<path fill=\x22#FF5\
+722\x22 d=\x22M28.9,24\
+.4c0,0.2,0.1,0.4\
+,0.1,0.6c0,2.8-2\
+.2,5-5,5s-5-2.2-\
+5-5s2.2-5,5-5c0.\
+7,0,1.4,0.2,2,0.\
+4v-4.2 c-0.6-0.1\
+-1.3-0.2-2-0.2c-\
+5,0-9,4-9,9s4,9,\
+9,9s9-4,9-9c0-1.\
+2-0.2-2.4-0.7-3.\
+4L28.9,24.4z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x02K\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#9C2\
+7B0\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <g fill=\x22#E1BE\
+E7\x22>\x0a        <pa\
+th d=\x22M16.7,28.2\
+c0-3.8-7.3-2.2-7\
+.3-8.1c0-0.7,0.4\
+-4.8,5.5-4.8c5.1\
+,0,5.4,4.5,5.4,5\
+.3h-3.5c0-0.4,0-\
+2.5-2-2.5 c-1.8,\
+0-1.9,1.7-1.9,2c\
+0,3,7.4,2,7.4,8.\
+1c0,2-1.1,4.8-5.\
+3,4.8C10.3,33,9,\
+29.6,9,27.3h3.5c\
+0,0.5-0.2,2.8,2.\
+5,2.8 C16.8,30.2\
+,16.7,28.5,16.7,\
+28.2z\x22/>\x0a       \
+ <path d=\x22M27.1,\
+15.6L30.3,28l3.2\
+-12.4h4.5v17.2h-\
+3.5v-4.6l0.3-7.2\
+l-3.4,11.8h-2.4l\
+-3.4-11.8l0.3,7.\
+2v4.6h-3.5V15.6 \
+H27.1z\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01x\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#D5000\
+0\x22 d=\x22M24,6C14.1\
+,6,6,14.1,6,24s8\
+.1,18,18,18s18-8\
+.1,18-18S33.9,6,\
+24,6z M24,10c3.1\
+,0,6,1.1,8.4,2.8\
+L12.8,32.4 C11.1\
+,30,10,27.1,10,2\
+4C10,16.3,16.3,1\
+0,24,10z M24,38c\
+-3.1,0-6-1.1-8.4\
+-2.8l19.6-19.6C3\
+6.9,18,38,20.9,3\
+8,24C38,31.7,31.\
+7,38,24,38 z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x02Y\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M7,10h34c2\
+.2,0,4,1.8,4,4v2\
+0c0,2.2-1.8,4-4,\
+4H7c-2.2,0-4-1.8\
+-4-4V14C3,11.8,4\
+.8,10,7,10z\x22/>\x0a \
+   <path fill=\x22#\
+BBDEFB\x22 d=\x22M42,3\
+4V14c0-0.6-0.4-1\
+-1-1H7c-0.6,0-1,\
+0.4-1,1v20c0,0.6\
+,0.4,1,1,1h34C41\
+.6,35,42,34.6,42\
+,34z\x22/>\x0a    <g f\
+ill=\x22#3F51B5\x22>\x0a \
+       <path d=\x22\
+M29,31H19c-0.6,0\
+-1-0.4-1-1v-6c0-\
+0.6,0.4-1,1-1h10\
+c0.6,0,1,0.4,1,1\
+v6C30,30.6,29.6,\
+31,29,31z\x22/>\x0a   \
+     <path d=\x22M2\
+4,17c-2.2,0-4,1.\
+8-4,4v3h2v-3c0-1\
+.1,0.9-2,2-2s2,0\
+.9,2,2v3h2v-3C28\
+,18.8,26.2,17,24\
+,17z\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x05\x9d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#512DA\
+8\x22 d=\x22M33.9,12.1\
+H14.2L17.6,7c0.4\
+-0.6,1-0.9,1.7-0\
+.9h9.6c0.7,0,1.3\
+,0.3,1.7,0.9L33.\
+9,12.1z\x22/>\x0a    <\
+path fill=\x22#8667\
+C4\x22 d=\x22M14,11H8V\
+9.2C8,8.5,8.5,8,\
+9.2,8h3.6C13.5,8\
+,14,8.5,14,9.2V1\
+1z\x22/>\x0a    <path \
+fill=\x22#5E35B1\x22 d\
+=\x22M40,42H8c-2.2,\
+0-4-1.8-4-4V14c0\
+-2.2,1.8-4,4-4h3\
+2c2.2,0,4,1.8,4,\
+4v24C44,40.2,42.\
+2,42,40,42z\x22/>\x0a \
+   <circle fill=\
+\x22#512DA8\x22 cx=\x2224\
+\x22 cy=\x2226\x22 r=\x2212\x22\
+/>\x0a    <circle f\
+ill=\x22#B388FF\x22 cx\
+=\x2224\x22 cy=\x2226\x22 r=\
+\x229\x22/>\x0a    <g fil\
+l=\x22#616161\x22>\x0a   \
+     <rect x=\x2242\
+.2\x22 y=\x2238.3\x22 tra\
+nsform=\x22matrix(.\
+707 -.707 .707 .\
+707 -18.002 43.4\
+6)\x22 width=\x222.4\x22 \
+height=\x2210.4\x22/>\x0a\
+        <circle \
+cx=\x2235\x22 cy=\x2235\x22 \
+r=\x2210\x22/>\x0a    </g\
+>\x0a    <rect x=\x224\
+3.9\x22 y=\x2242.4\x22 tr\
+ansform=\x22matrix(\
+.707 -.707 .707 \
+.707 -18.709 45.\
+167)\x22 fill=\x22#374\
+74F\x22 width=\x222.4\x22\
+ height=\x225.6\x22/>\x0a\
+    <circle fill\
+=\x22#64B5F6\x22 cx=\x223\
+5\x22 cy=\x2235\x22 r=\x228\x22\
+/>\x0a    <path fil\
+l=\x22#BBDEFB\x22 d=\x22M\
+39.3,31.4c-1.1-1\
+.3-2.6-2-4.2-2s-\
+3.2,0.7-4.2,2c-0\
+.2,0.3-0.2,0.6,0\
+.1,0.9c0.3,0.2,0\
+.6,0.2,0.9-0.1 c\
+0.8-1,2-1.5,3.3-\
+1.5s2.5,0.6,3.3,\
+1.5c0.1,0.1,0.3,\
+0.2,0.5,0.2c0.1,\
+0,0.3,0,0.4-0.1C\
+39.5,32.1,39.5,3\
+1.7,39.3,31.4z\x22/\
+>\x0a    <path fill\
+=\x22#C7A7FF\x22 d=\x22M2\
+9,23c-1.2-1.4-3-\
+2.2-4.8-2.2c-1.8\
+,0-3.6,0.8-4.8,2\
+.2c-0.5,0.5-0.4,\
+1.3,0.1,1.8c0.5,\
+0.5,1.3,0.4,1.8-\
+0.1 c1.5-1.7,4.3\
+-1.7,5.8,0c0.3,0\
+.3,0.6,0.4,1,0.4\
+c0.3,0,0.6-0.1,0\
+.9-0.3C29.4,24.4\
+,29.5,23.5,29,23\
+z\x22/>\x0a    <ellips\
+e fill=\x22#8667C4\x22\
+ cx=\x2211\x22 cy=\x2213.\
+5\x22 rx=\x222\x22 ry=\x221.\
+5\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\xac\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x224\x22 y=\x229\x22 \
+fill=\x22#E8EAF6\x22 w\
+idth=\x2240\x22 height\
+=\x2230\x22/>\x0a    <g f\
+ill=\x22#5C6BC0\x22>\x0a \
+       <polygon \
+points=\x2230,34 32\
+.8,34 27.8,29 25\
+,31.8 30,36.8\x22/>\
+\x0a        <polygo\
+n points=\x2218,34 \
+15.2,34 20.2,29 \
+23,31.8 18,36.8\x22\
+/>\x0a    </g>\x0a    \
+<rect x=\x2211\x22 y=\x22\
+15\x22 fill=\x22#9FA8D\
+A\x22 width=\x2226\x22 he\
+ight=\x224\x22/>\x0a    <\
+path fill=\x22#9FA8\
+DA\x22 d=\x22M24,23c-2\
+.8,0-5,2.2-5,5s2\
+.2,5,5,5s5-2.2,5\
+-5S26.8,23,24,23\
+z M24,31c-1.7,0-\
+3-1.3-3-3s1.3-3,\
+3-3s3,1.3,3,3 S2\
+5.7,31,24,31z\x22/>\
+\x0a    <path fill=\
+\x22#9FA8DA\x22 d=\x22M3,\
+8v32h42V8H3z M43\
+,35c-1.7,0-3,1.3\
+-3,3H8c0-1.7-1.3\
+-3-3-3V13c1.7,0,\
+3-1.3,3-3h32c0,1\
+.7,1.3,3,3,3V35z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x02(\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#5C6BC\
+0\x22 d=\x22M40,40c-6.\
+9,0-16,4-16,4V22\
+c0,0,9-4,18-4L40\
+,40z\x22/>\x0a    <pat\
+h fill=\x22#7986CB\x22\
+ d=\x22M8,40c6.9,0,\
+16,4,16,4V22c0,0\
+-9-4-18-4L8,40z\x22\
+/>\x0a    <g fill=\x22\
+#FFB74D\x22>\x0a      \
+  <circle cx=\x2224\
+\x22 cy=\x2212\x22 r=\x228\x22/\
+>\x0a        <path \
+d=\x22M41,32h1c0.6,\
+0,1-0.4,1-1v-4c0\
+-0.6-0.4-1-1-1h-\
+1c-1.7,0-3,1.3-3\
+,3v0C38,30.7,39.\
+3,32,41,32z\x22/>\x0a \
+       <path d=\x22\
+M7,26H6c-0.6,0-1\
+,0.4-1,1v4c0,0.6\
+,0.4,1,1,1h1c1.7\
+,0,3-1.3,3-3v0C1\
+0,27.3,8.7,26,7,\
+26z\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x045\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFB74\
+D\x22 d=\x22M29,43v-4.\
+6l2.6,0.5c2.9,0.\
+6,5.6-1.5,5.8-4.\
+4L38,28l2.9-1.2c\
+1-0.4,1.4-1.6,0.\
+8-2.6L38,18 c-0.\
+6-7.6-4.9-15-16-\
+15C10.6,3,5,11.4\
+,5,20c0,3.7,1.3,\
+6.9,3.3,9.6c1.8,\
+2.5,2.7,5.5,2.7,\
+8.5l0,4.8H29z\x22/>\
+\x0a    <polygon fi\
+ll=\x22#FF9800\x22 poi\
+nts=\x2229,43 29,38\
+.4 22,37 22,43\x22/\
+>\x0a    <circle fi\
+ll=\x22#784719\x22 cx=\
+\x2233.5\x22 cy=\x2221.5\x22\
+ r=\x221.5\x22/>\x0a    <\
+path fill=\x22#FF57\
+22\x22 d=\x22M21.4,3C1\
+2.3,3,5,10.3,5,1\
+9.4c0,11.1,6,11.\
+4,6,18.6l2.6-0.9\
+c2.1-0.7,3.9-2.3\
+,4.7-4.4l2.8-6.8\
+L27,23v-6 c0,0,7\
+-3.8,7-10.3C31,4\
+.2,25.7,3,21.4,3\
+z\x22/>\x0a    <g fill\
+=\x22#546E7A\x22>\x0a    \
+    <path d=\x22M21\
+,2.1c-0.6,0-1,0.\
+4-1,1v13.9c0,0.6\
+,0.4,1,1,1s1-0.4\
+,1-1V3.1C22,2.5,\
+21.6,2.1,21,2.1z\
+\x22/>\x0a        <pat\
+h d=\x22M36.9,31.9c\
+-7.9,0-10.3-4.9-\
+10.4-5.1c-0.2-0.\
+5-0.8-0.7-1.3-0.\
+5c-0.5,0.2-0.7,0\
+.8-0.5,1.3 c0.1,\
+0.3,3,6.3,12.2,6\
+.3c0.6,0,1-0.4,1\
+-1S37.4,31.9,36.\
+9,31.9z\x22/>\x0a    <\
+/g>\x0a    <circle \
+fill=\x22#37474F\x22 c\
+x=\x2237\x22 cy=\x2233\x22 r\
+=\x222\x22/>\x0a    <circ\
+le fill=\x22#37474F\
+\x22 cx=\x2221\x22 cy=\x2223\
+\x22 r=\x227\x22/>\x0a    <c\
+ircle fill=\x22#546\
+E7A\x22 cx=\x2221\x22 cy=\
+\x2223\x22 r=\x224\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x02i\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#D1C4E9\x22>\
+\x0a        <path d\
+=\x22M38,7H10C8.9,7\
+,8,7.9,8,9v6c0,1\
+.1,0.9,2,2,2h28c\
+1.1,0,2-0.9,2-2V\
+9C40,7.9,39.1,7,\
+38,7z\x22/>\x0a       \
+ <path d=\x22M38,19\
+H10c-1.1,0-2,0.9\
+-2,2v6c0,1.1,0.9\
+,2,2,2h28c1.1,0,\
+2-0.9,2-2v-6C40,\
+19.9,39.1,19,38,\
+19z\x22/>\x0a        <\
+path d=\x22M38,31H1\
+0c-1.1,0-2,0.9-2\
+,2v6c0,1.1,0.9,2\
+,2,2h28c1.1,0,2-\
+0.9,2-2v-6C40,31\
+.9,39.1,31,38,31\
+z\x22/>\x0a    </g>\x0a  \
+  <circle fill=\x22\
+#43A047\x22 cx=\x2238\x22\
+ cy=\x2238\x22 r=\x2210\x22/\
+>\x0a    <polygon f\
+ill=\x22#DCEDC8\x22 po\
+ints=\x2242.5,33.3 \
+36.8,39 34.1,36.\
+3 32,38.5 36.8,4\
+3.3 44.6,35.5\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x07&\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFB74\
+D\x22 d=\x22M10,12c-2.\
+8,0-5-2.2-5-5s2.\
+2-5,5-5s5,2.2,5,\
+5S12.8,12,10,12z\
+\x22/>\x0a    <path fi\
+ll=\x22#607D8B\x22 d=\x22\
+M2,22v8l3,2l1,14\
+h8l1-14l3-2v-8c0\
+-4.4-3.6-8-8-8h0\
+C5.6,14,2,17.6,2\
+,22z\x22/>\x0a    <g f\
+ill=\x22#263238\x22>\x0a \
+       <path d=\x22\
+M22.4,40.4c-0.6,\
+2.5-1,3.6-2.4,3.\
+6c-0.6,0-1.2-0.5\
+-1.9-1.1c-1-0.8-\
+2.2-1.9-4.1-1.9v\
+2c1.1,0,1.9,0.7,\
+2.8,1.4 c0.9,0.7\
+,1.9,1.6,3.2,1.6\
+c3.1,0,3.8-2.9,4\
+.4-5.2C25,38.2,2\
+5.4,37,27,37v-2C\
+23.7,35,22.9,38.\
+1,22.4,40.4z\x22/>\x0a\
+        <polygon\
+ points=\x2214.4,40\
+ 10,40 10,44 14.\
+1,44\x22/>\x0a    </g>\
+\x0a    <circle fil\
+l=\x22#4CAF50\x22 cx=\x22\
+36\x22 cy=\x2236\x22 r=\x221\
+0\x22/>\x0a    <path f\
+ill=\x22#fff\x22 d=\x22M3\
+5,34c0.1,0.2,0.1\
+,0.3,0.3,0.4c0.1\
+,0.1,0.3,0.2,0.5\
+,0.4c0.2,0.1,0.5\
+,0.2,0.8,0.3c0.5\
+,0.2,0.9,0.4,1.3\
+,0.6 c0.4,0.2,0.\
+7,0.4,1,0.7c0.3,\
+0.3,0.5,0.6,0.7,\
+0.9c0.2,0.4,0.2,\
+0.8,0.2,1.3c0,0.\
+4-0.1,0.8-0.2,1.\
+2c-0.1,0.4-0.3,0\
+.7-0.6,0.9 c-0.3\
+,0.3-0.6,0.5-0.9\
+,0.6c-0.4,0.2-0.\
+8,0.3-1.2,0.3v1.\
+5h-1.2v-1.5c-0.4\
+,0-0.8-0.1-1.2-0\
+.3c-0.4-0.2-0.7-\
+0.4-1-0.6 c-0.3-\
+0.3-0.5-0.6-0.7-\
+1.1c-0.2-0.4-0.3\
+-0.9-0.3-1.5h2.2\
+c0,0.4,0,0.7,0.1\
+,0.9c0.1,0.2,0.2\
+,0.4,0.4,0.6c0.2\
+,0.1,0.3,0.2,0.5\
+,0.3 c0.2,0.1,0.\
+4,0.1,0.6,0.1c0.\
+2,0,0.4,0,0.6-0.\
+1c0.2-0.1,0.3-0.\
+2,0.4-0.3c0.1-0.\
+1,0.2-0.3,0.3-0.\
+4c0.1-0.2,0.1-0.\
+3,0.1-0.5 c0-0.2\
+,0-0.4-0.1-0.6c-\
+0.1-0.2-0.1-0.3-\
+0.3-0.4c-0.1-0.1\
+-0.3-0.3-0.5-0.4\
+c-0.2-0.1-0.4-0.\
+2-0.7-0.3c-0.5-0\
+.2-0.9-0.4-1.3-0\
+.6 c-0.4-0.2-0.7\
+-0.4-1-0.7c-0.3-\
+0.3-0.5-0.6-0.7-\
+0.9c-0.2-0.4-0.2\
+-0.8-0.2-1.3c0-0\
+.4,0.1-0.8,0.2-1\
+.2c0.1-0.3,0.3-0\
+.7,0.6-0.9 c0.3-\
+0.3,0.6-0.5,0.9-\
+0.6c0.4-0.2,0.8-\
+0.3,1.2-0.3v-1.6\
+h1.2v1.6c0.4,0.1\
+,0.8,0.2,1.2,0.4\
+c0.4,0.2,0.6,0.4\
+,0.9,0.7 c0.2,0.\
+3,0.4,0.6,0.6,1c\
+0.1,0.4,0.2,0.9,\
+0.2,1.4h-2.2c0-0\
+.6-0.1-1-0.4-1.3\
+c-0.2-0.3-0.6-0.\
+4-1-0.4c-0.2,0-0\
+.4,0-0.6,0.1 c-0\
+.2,0.1-0.3,0.2-0\
+.4,0.3C35.1,32.7\
+,35,32.8,35,33s-\
+0.1,0.3-0.1,0.5C\
+34.9,33.7,34.9,3\
+3.9,35,34z\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x03\xa8\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#00A\
+CC1\x22 cx=\x2217\x22 cy=\
+\x2217\x22 r=\x2214\x22/>\x0a  \
+  <circle fill=\x22\
+#eee\x22 cx=\x2217\x22 cy\
+=\x2217\x22 r=\x2211\x22/>\x0a \
+   <rect x=\x2216\x22 \
+y=\x228\x22 width=\x222\x22 \
+height=\x229\x22/>\x0a   \
+ <rect x=\x2218.2\x22 \
+y=\x2216\x22 transform\
+=\x22matrix(-.707 .\
+707 -.707 -.707 \
+46.834 19.399)\x22 \
+width=\x222.4\x22 heig\
+ht=\x226.8\x22/>\x0a    <\
+circle cx=\x2217\x22 c\
+y=\x2217\x22 r=\x222\x22/>\x0a \
+   <circle fill=\
+\x22#00ACC1\x22 cx=\x2217\
+\x22 cy=\x2217\x22 r=\x221\x22/\
+>\x0a    <path fill\
+=\x22#FFC107\x22 d=\x22M1\
+1.9,42l14.4-24.1\
+c0.8-1.3,2.7-1.3\
+,3.4,0L44.1,42c0\
+.8,1.3-0.2,3-1.7\
+,3H13.6C12.1,45,\
+11.1,43.3,11.9,4\
+2z\x22/>\x0a    <path \
+fill=\x22#263238\x22 d\
+=\x22M26.4,39.9c0-0\
+.2,0-0.4,0.1-0.6\
+s0.2-0.3,0.3-0.5\
+s0.3-0.2,0.5-0.3\
+s0.4-0.1,0.6-0.1\
+s0.5,0,0.7,0.1 s\
+0.4,0.2,0.5,0.3s\
+0.2,0.3,0.3,0.5s\
+0.1,0.4,0.1,0.6s\
+0,0.4-0.1,0.6s-0\
+.2,0.3-0.3,0.5s-\
+0.3,0.2-0.5,0.3s\
+-0.4,0.1-0.7,0.1\
+ s-0.5,0-0.6-0.1\
+s-0.4-0.2-0.5-0.\
+3s-0.2-0.3-0.3-0\
+.5S26.4,40.1,26.\
+4,39.9z M29.2,36\
+.8h-2.3L26.5,27h\
+3L29.2,36.8z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x02(\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#7CB342\x22>\
+\x0a        <polygo\
+n points=\x2231,29 \
+24,36 17,29\x22/>\x0a \
+       <rect x=\x22\
+22\x22 y=\x227\x22 width=\
+\x224\x22 height=\x2225\x22/\
+>\x0a        <path \
+d=\x22M42,18c-3.3,0\
+-6,2.7-6,6v12c0,\
+1.1-0.9,2-2,2H14\
+c-1.1,0-2-0.9-2-\
+2V24c0-3.3-2.7-6\
+-6-6H4v4h2c1.1,0\
+,2,0.9,2,2 v12c0\
+,3.3,2.7,6,6,6h2\
+0c3.3,0,6-2.7,6-\
+6V24c0-1.1,0.9-2\
+,2-2h2v-4H42z\x22/>\
+\x0a    </g>\x0a    <r\
+ect x=\x2222\x22 y=\x22-2\
+.9\x22 transform=\x22m\
+atrix(.707 -.707\
+ .707 .707 -9.94\
+1 24)\x22 fill=\x22#37\
+474F\x22 width=\x224\x22 \
+height=\x2253.7\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x01\x0a\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFCDD\
+2\x22 d=\x22M34,9c-4.2\
+,0-7.9,2.1-10,5.\
+4C21.9,11.1,18.2\
+,9,14,9C7.4,9,2,\
+14.4,2,21c0,11.9\
+,22,24,22,24s22-\
+12,22-24 C46,14.\
+4,40.6,9,34,9z\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x01\xa9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#54\
+6E7A\x22 points=\x2238\
+,33 38,5 34,5 34\
+,33 28,33 36,43 \
+44,33\x22/>\x0a    <g \
+fill=\x22#2196F3\x22>\x0a\
+        <path d=\
+\x22M16.8,17.2h-5.3\
+l-1.1,3H6.9L12.6\
+,5h2.9l5.7,15.2h\
+-3.2L16.8,17.2z \
+M12.2,14.5H16l-1\
+.9-5.7L12.2,14.5\
+z\x22/>\x0a        <pa\
+th d=\x22M12.4,40.5\
+H20V43H8.4v-1.9L\
+16,30.3H8.4v-2.5\
+h11.4v1.7L12.4,4\
+0.5z\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x03\xfb\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF980\
+0\x22 d=\x22M22,38c-4.\
+8,0-5-7-5-7v-6h1\
+0v6C27,31,26.8,3\
+8,22,38z\x22/>\x0a    \
+<g fill=\x22#FFA726\
+\x22>\x0a        <circ\
+le cx=\x2231\x22 cy=\x221\
+9\x22 r=\x222\x22/>\x0a     \
+   <circle cx=\x221\
+3\x22 cy=\x2219\x22 r=\x222\x22\
+/>\x0a    </g>\x0a    \
+<path fill=\x22#FFB\
+74D\x22 d=\x22M31,13c0\
+-7.6-18-5-18,0c0\
+,1.1,0,5.9,0,7c0\
+,5,4,9,9,9s9-4,9\
+-9C31,18.9,31,14\
+.1,31,13z\x22/>\x0a   \
+ <path fill=\x22#42\
+4242\x22 d=\x22M22,4c-\
+6.1,0-10,4.9-10,\
+11c0,0.8,0,2.3,0\
+,2.3l2,1.7v-5l12\
+-4l4,4v5l2-1.7c0\
+,0,0-1.5,0-2.3c0\
+-4-1-8-6-9l-1-2 \
+H22z\x22/>\x0a    <g f\
+ill=\x22#784719\x22>\x0a \
+       <circle c\
+x=\x2226\x22 cy=\x2219\x22 r\
+=\x221\x22/>\x0a        <\
+circle cx=\x2218\x22 c\
+y=\x2219\x22 r=\x221\x22/>\x0a \
+   </g>\x0a    <pat\
+h fill=\x22#009688\x22\
+ d=\x22M27,31L27,31\
+c0,0-1.8,2-5,2s-\
+5-2-5-2S6,33,6,4\
+4h32C38,33,27,31\
+,27,31z\x22/>\x0a    <\
+g fill=\x22#FF9800\x22\
+>\x0a        <rect \
+x=\x2236.1\x22 y=\x226.1\x22\
+ transform=\x22matr\
+ix(.707 .707 -.7\
+07 .707 19.787 -\
+25.77)\x22 width=\x229\
+.9\x22 height=\x229.9\x22\
+/>\x0a        <rect\
+ x=\x2236\x22 y=\x226\x22 wi\
+dth=\x2210\x22 height=\
+\x2210\x22/>\x0a    </g>\x0a\
+    <circle fill\
+=\x22#FFEB3B\x22 cx=\x224\
+1\x22 cy=\x2211\x22 r=\x223\x22\
+/>\x0a</svg>\x0a\
+\x00\x00\x04\xe9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#CFD8D\
+C\x22 d=\x22M5,38V14h3\
+8v24c0,2.2-1.8,4\
+-4,4H9C6.8,42,5,\
+40.2,5,38z\x22/>\x0a  \
+  <path fill=\x22#F\
+44336\x22 d=\x22M43,10\
+v6H5v-6c0-2.2,1.\
+8-4,4-4h30C41.2,\
+6,43,7.8,43,10z\x22\
+/>\x0a    <g fill=\x22\
+#B71C1C\x22>\x0a      \
+  <circle cx=\x2233\
+\x22 cy=\x2210\x22 r=\x223\x22/\
+>\x0a        <circl\
+e cx=\x2215\x22 cy=\x2210\
+\x22 r=\x223\x22/>\x0a    </\
+g>\x0a    <g fill=\x22\
+#B0BEC5\x22>\x0a      \
+  <path d=\x22M33,3\
+c-1.1,0-2,0.9-2,\
+2v5c0,1.1,0.9,2,\
+2,2s2-0.9,2-2V5C\
+35,3.9,34.1,3,33\
+,3z\x22/>\x0a        <\
+path d=\x22M15,3c-1\
+.1,0-2,0.9-2,2v5\
+c0,1.1,0.9,2,2,2\
+s2-0.9,2-2V5C17,\
+3.9,16.1,3,15,3z\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#90A4A\
+E\x22>\x0a        <rec\
+t x=\x2213\x22 y=\x2220\x22 \
+width=\x224\x22 height\
+=\x224\x22/>\x0a        <\
+rect x=\x2219\x22 y=\x222\
+0\x22 width=\x224\x22 hei\
+ght=\x224\x22/>\x0a      \
+  <rect x=\x2225\x22 y\
+=\x2220\x22 width=\x224\x22 \
+height=\x224\x22/>\x0a   \
+     <rect x=\x2231\
+\x22 y=\x2220\x22 width=\x22\
+4\x22 height=\x224\x22/>\x0a\
+        <rect x=\
+\x2213\x22 y=\x2226\x22 widt\
+h=\x224\x22 height=\x224\x22\
+/>\x0a        <rect\
+ x=\x2219\x22 y=\x2226\x22 w\
+idth=\x224\x22 height=\
+\x224\x22/>\x0a        <r\
+ect x=\x2225\x22 y=\x2226\
+\x22 width=\x224\x22 heig\
+ht=\x224\x22/>\x0a       \
+ <rect x=\x2231\x22 y=\
+\x2226\x22 width=\x224\x22 h\
+eight=\x224\x22/>\x0a    \
+    <rect x=\x2213\x22\
+ y=\x2232\x22 width=\x224\
+\x22 height=\x224\x22/>\x0a \
+       <rect x=\x22\
+19\x22 y=\x2232\x22 width\
+=\x224\x22 height=\x224\x22/\
+>\x0a        <rect \
+x=\x2225\x22 y=\x2232\x22 wi\
+dth=\x224\x22 height=\x22\
+4\x22/>\x0a        <re\
+ct x=\x2231\x22 y=\x2232\x22\
+ width=\x224\x22 heigh\
+t=\x224\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x02n\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#9C2\
+7B0\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <path fill=\x22#E\
+1BEE7\x22 d=\x22M20.7,\
+27.2v8.4h-3.9V12\
+.9h8.7c1.3,0,2.5\
+,0.2,3.5,0.5c1,0\
+.4,1.9,0.9,2.6,1\
+.5c0.7,0.6,1.2,1\
+.4,1.6,2.3 c0.4,\
+0.9,0.6,1.8,0.6,\
+2.9c0,1.1-0.2,2.\
+1-0.6,3c-0.4,0.9\
+-0.9,1.6-1.6,2.2\
+c-0.7,0.6-1.6,1.\
+1-2.6,1.4c-1,0.3\
+-2.2,0.5-3.5,0.5\
+H20.7z M20.7,24h\
+4.7c0.8,0,1.4-0.\
+1,2-0.3c0.5-0.2,\
+1-0.5,1.4-0.8c0.\
+4-0.3,0.6-0.8,0.\
+8-1.2c0.2-0.5,0.\
+2-1,0.2-1.6c0-0.\
+5-0.1-1-0.2-1.5 \
+c-0.2-0.5-0.4-0.\
+9-0.8-1.3c-0.4-0\
+.4-0.8-0.7-1.4-0\
+.9c-0.5-0.2-1.2-\
+0.3-2-0.3h-4.7V2\
+4z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xa3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#2196F3\x22>\
+\x0a        <path d\
+=\x22M16.8,40h-5.3l\
+-1.1,3H6.9l5.7-1\
+5.2h2.9L21.1,43h\
+-3.2L16.8,40z M1\
+2.2,37.3H16l-1.9\
+-5.7L12.2,37.3z\x22\
+/>\x0a        <path\
+ d=\x22M12.4,17.7H2\
+0v2.5H8.4v-1.9L1\
+6,7.5H8.4V5h11.4\
+v1.7L12.4,17.7z\x22\
+/>\x0a    </g>\x0a    \
+<polygon fill=\x22#\
+546E7A\x22 points=\x22\
+38,33 38,5 34,5 \
+34,33 28,33 36,4\
+3 44,33\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x02\xf9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#45\
+5A64\x22 points=\x2212\
+.1,42 17.2,42 16\
+.5,18.2 10.9,20.\
+2\x22/>\x0a    <circle\
+ fill=\x22#FFB74D\x22 \
+cx=\x2236.5\x22 cy=\x2210\
+\x22 r=\x225\x22/>\x0a    <p\
+olygon fill=\x22#60\
+7D8B\x22 points=\x2211\
+,42 6,42 7.8,18.\
+6 14.2,20.9\x22/>\x0a \
+   <path fill=\x22#\
+607D8B\x22 d=\x22M31.7\
+,15.9c-0.6-2-1.3\
+-4-2.5-5.8c-1.3-\
+1.6-3.2-3.1-6.1-\
+2c-3.1,1.3-9.2,3\
+.6-11.2,4.5 c-2.\
+3,1.1-4.1,2.7-4.\
+1,5.9c0,3.4,4.3,\
+5.3,4.3,5.3l14.7\
+-6.1l1.7,4.5l5.3\
+,0.1C33.8,22.4,3\
+2.3,17.9,31.7,15\
+.9z\x22/>\x0a    <path\
+ fill=\x22#B39DDB\x22 \
+d=\x22M37.9,42h-7.9\
+c-1,0-1.8-0.7-2-\
+1.7l-2.6-17.1h17\
+l-2.6,17.1C39.8,\
+41.3,38.9,42,37.\
+9,42z\x22/>\x0a    <pa\
+th fill=\x22#7E57C2\
+\x22 d=\x22M42,24H26c-\
+0.6,0-1-0.4-1-1v\
+0c0-0.6,0.4-1,1-\
+1h16c0.6,0,1,0.4\
+,1,1v0C43,23.6,4\
+2.6,24,42,24z\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x04\xfd\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFA72\
+6\x22 d=\x22M33.5,20C3\
+1.2,17.7,30,13.9\
+,30,9c0-3.2,0-3,\
+0-3H18c0,0,0-0.2\
+,0,3c0,4.9-1.2,8\
+.7-3.5,11 C12.1,\
+20.2,9,22,9,25.4\
+c0,4.5,5.1,4.6,6\
+,4.6c1.2,0,6.1,4\
+,8,4c0,0,0.7,0,1\
+,0s1,0,1,0c1.9,0\
+,6.8-4,8-4c0.9,0\
+,6-0.1,6-4.6 C39\
+,22,35.9,20.2,33\
+.5,20z\x22/>\x0a    <p\
+ath fill=\x22#FFA72\
+6\x22 d=\x22M33.5,20C3\
+1.2,17.7,30,13.9\
+,30,9c0-3.2,0-3,\
+0-3H18c0,0,0-0.2\
+,0,3c0,4.9-1.2,8\
+.7-3.5,11 C12.1,\
+20.2,9,22,9,25.4\
+c0,4.5,5.1,4.6,6\
+,4.6c1.2,0,6.1,4\
+,8,4c0,0,0.7,0,1\
+,0s1,0,1,0c1.9,0\
+,6.8-4,8-4c0.9,0\
+,6-0.1,6-4.6 C39\
+,22,35.9,20.2,33\
+.5,20z\x22/>\x0a    <p\
+ath fill=\x22#FFB74\
+D\x22 d=\x22M26,9c0-3.\
+2,0-3,0-3h-4c0,0\
+,0-0.2,0,3c0,4.9\
+-3,19-3,19s1.6,2\
+,5,2s5-2,5-2S26,\
+13.9,26,9z\x22/>\x0a  \
+  <path fill=\x22#C\
+C861E\x22 d=\x22M23,34\
+c-3.3,0-6.4-3.1-\
+8-4c0,0,0.7,0,1.\
+8,0C19.9,30,21.3\
+,34,23,34z\x22/>\x0a  \
+  <path fill=\x22#C\
+C861E\x22 d=\x22M25,34\
+c3.3,0,6.4-3.1,8\
+-4c0,0-0.7,0-1.8\
+,0C28.1,30,26.7,\
+34,25,34z\x22/>\x0a   \
+ <rect x=\x2222\x22 y=\
+\x22-2.9\x22 transform\
+=\x22matrix(.707 -.\
+707 .707 .707 -9\
+.941 24)\x22 fill=\x22\
+#37474F\x22 width=\x22\
+4\x22 height=\x2253.7\x22\
+/>\x0a    <g fill=\x22\
+#FF5722\x22>\x0a      \
+  <polygon point\
+s=\x2218,35 22,39 1\
+4,39\x22/>\x0a        \
+<rect x=\x2217\x22 y=\x22\
+38\x22 width=\x222\x22 he\
+ight=\x224\x22/>\x0a     \
+   <polygon poin\
+ts=\x2230,35 34,39 \
+26,39\x22/>\x0a       \
+ <rect x=\x2229\x22 y=\
+\x2238\x22 width=\x222\x22 h\
+eight=\x224\x22/>\x0a    \
+</g>\x0a</svg>\x0a\
+\x00\x00\x094\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0a<svg\x0a   vi\
+ewBox=\x220 0 48 48\
+\x22\x0a   width=\x2248px\
+\x22\x0a   height=\x2248p\
+x\x22\x0a   version=\x221\
+.1\x22\x0a   id=\x22svg4\x22\
+\x0a   sodipodi:doc\
+name=\x22Slave.svg\x22\
+\x0a   inkscape:ver\
+sion=\x221.4.2 (f43\
+27f4, 2025-05-13\
+)\x22\x0a   xmlns:inks\
+cape=\x22http://www\
+.inkscape.org/na\
+mespaces/inkscap\
+e\x22\x0a   xmlns:sodi\
+podi=\x22http://sod\
+ipodi.sourceforg\
+e.net/DTD/sodipo\
+di-0.dtd\x22\x0a   xml\
+ns=\x22http://www.w\
+3.org/2000/svg\x22\x0a\
+   xmlns:svg=\x22ht\
+tp://www.w3.org/\
+2000/svg\x22>\x0a  <de\
+fs\x0a     id=\x22defs\
+4\x22 />\x0a  <sodipod\
+i:namedview\x0a    \
+ id=\x22namedview4\x22\
+\x0a     pagecolor=\
+\x22#ffffff\x22\x0a     b\
+ordercolor=\x22#000\
+000\x22\x0a     border\
+opacity=\x220.25\x22\x0a \
+    inkscape:sho\
+wpageshadow=\x222\x22\x0a\
+     inkscape:pa\
+geopacity=\x220.0\x22\x0a\
+     inkscape:pa\
+gecheckerboard=\x22\
+0\x22\x0a     inkscape\
+:deskcolor=\x22#d1d\
+1d1\x22\x0a     inksca\
+pe:zoom=\x2218.9062\
+5\x22\x0a     inkscape\
+:cx=\x2218.459504\x22\x0a\
+     inkscape:cy\
+=\x2222.241322\x22\x0a   \
+  inkscape:windo\
+w-width=\x223840\x22\x0a \
+    inkscape:win\
+dow-height=\x222054\
+\x22\x0a     inkscape:\
+window-x=\x223061\x22\x0a\
+     inkscape:wi\
+ndow-y=\x22-11\x22\x0a   \
+  inkscape:windo\
+w-maximized=\x221\x22\x0a\
+     inkscape:cu\
+rrent-layer=\x22svg\
+4\x22 />\x0a  <path\x0a  \
+   fill=\x22#0078d4\
+\x22\x0a     d=\x22M42,37\
+c0,2.762-2.238,5\
+-5,5H11c-2.761,0\
+-5-2.238-5-5V11c\
+0-2.762,2.239-5,\
+5-5h26c2.762,0,5\
+,2.238,5,5 V37z\x22\
+\x0a     id=\x22path1\x22\
+ />\x0a  <path\x0a    \
+ d=\x22m 14.338921,\
+28.222908 4.5,-0\
+.4375 q 0.40625,\
+2.265625 1.64062\
+5,3.328125 1.25,\
+1.0625 3.359375,\
+1.0625 2.234375,\
+0 3.359375,-0.93\
+75 1.140625,-0.9\
+53125 1.140625,-\
+2.21875 0,-0.812\
+5 -0.484375,-1.3\
+75 -0.46875,-0.5\
+78125 -1.65625,-\
+1 -0.8125,-0.281\
+25 -3.703125,-1 \
+-3.71875,-0.9218\
+75 -5.21875,-2.2\
+65625 -2.109375,\
+-1.890625 -2.109\
+375,-4.609375 0,\
+-1.75 0.984375,-\
+3.265625 1,-1.53\
+125 2.859375,-2.\
+328125 1.875,-0.\
+796875 4.515625,\
+-0.796875 4.3125\
+,0 6.484375,1.89\
+0625 2.1875,1.89\
+0625 2.296875,5.\
+046875 l -4.625,\
+0.203125 q -0.29\
+6875,-1.765625 -\
+1.28125,-2.53125\
+ -0.96875,-0.781\
+25 -2.921875,-0.\
+78125 -2.015625,\
+0 -3.15625,0.828\
+125 -0.734375,0.\
+53125 -0.734375,\
+1.421875 0,0.812\
+5 0.6875,1.39062\
+5 0.875,0.734375\
+ 4.25,1.53125 3.\
+375,0.796875 4.9\
+84375,1.65625 1.\
+625,0.84375 2.53\
+125,2.328125 0.9\
+21875,1.46875 0.\
+921875,3.640625 \
+0,1.96875 -1.093\
+75,3.6875 -1.093\
+75,1.71875 -3.09\
+375,2.5625 -2,0.\
+828125 -4.984375\
+,0.828125 -4.343\
+75,0 -6.671875,-\
+2 -2.328125,-2.0\
+15625 -2.78125,-\
+5.859375 z\x22\x0a    \
+ id=\x22text4\x22\x0a    \
+ style=\x22font-wei\
+ght:bold;font-si\
+ze:32px;line-hei\
+ght:0;font-famil\
+y:Arial;-inkscap\
+e-font-specifica\
+tion:'Arial Bold\
+';text-align:cen\
+ter;text-anchor:\
+middle;fill:#fff\
+fff\x22\x0a     aria-l\
+abel=\x22S\x22 />\x0a</sv\
+g>\x0a\
+\x00\x00\x02P\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#9C2\
+7B0\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <path fill=\x22#E\
+1BEE7\x22 d=\x22M25,26\
+.8h-4.5v9h-4V12.\
+5h8.2c1.3,0,2.5,\
+0.2,3.6,0.5c1,0.\
+3,1.9,0.8,2.6,1.\
+3c0.7,0.6,1.3,1.\
+3,1.6,2.2 s0.6,1\
+.9,0.6,3c0,1.6-0\
+.4,2.9-1.1,3.9c-\
+0.8,1-1.8,1.9-3.\
+1,2.4l5.2,9.7v0.\
+2h-4.3L25,26.8z \
+M20.5,23.6h4.2c0\
+.7,0,1.4-0.1,1.9\
+-0.3 c0.5-0.2,1-\
+0.5,1.4-0.8c0.4-\
+0.3,0.6-0.7,0.8-\
+1.2c0.2-0.5,0.3-\
+1,0.3-1.6c0-0.6-\
+0.1-1.1-0.3-1.6c\
+-0.2-0.5-0.4-0.9\
+-0.8-1.2 c-0.4-0\
+.3-0.8-0.6-1.4-0\
+.8c-0.5-0.2-1.2-\
+0.3-2-0.3h-4.1V2\
+3.6z\x22/>\x0a</svg>\x0a\
+\x00\x00\x03\xf1\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#673AB\
+7\x22 d=\x22M38,44H12V\
+4h26c2.2,0,4,1.8\
+,4,4v32C42,42.2,\
+40.2,44,38,44z\x22/\
+>\x0a    <path fill\
+=\x22#311B92\x22 d=\x22M1\
+0,4h2v40h-2c-2.2\
+,0-4-1.8-4-4V8C6\
+,5.8,7.8,4,10,4z\
+\x22/>\x0a    <path fi\
+ll=\x22#fff\x22 d=\x22M36\
+,24.2c-0.1,4.8-3\
+.1,6.9-5.3,6.7c-\
+0.6-0.1-2.1-0.1-\
+2.9-1.6c-0.8,1-1\
+.8,1.6-3.1,1.6c-\
+2.6,0-3.3-2.5-3.\
+4-3.1 c-0.1-0.7-\
+0.2-1.4-0.1-2.2c\
+0.1-1,1.1-6.5,5.\
+7-6.5c2.2,0,3.5,\
+1.1,3.7,1.3L30,2\
+7.2c0,0.3-0.2,1.\
+6,1.1,1.6c2.1,0,\
+2.4-3.9,2.4-4.6 \
+c0.1-1.2,0.3-8.2\
+-7-8.2c-6.9,0-7.\
+9,7.4-8,9.2c-0.5\
+,8.5,6,8.5,7.2,8\
+.5c1.7,0,3.7-0.7\
+,3.9-0.8l0.4,2c-\
+0.3,0.2-2,1.1-4.\
+4,1.1 c-2.2,0-10\
+.1-0.4-9.8-10.8C\
+16.1,23.1,17.4,1\
+4,26.6,14C35.8,1\
+4,36,22.1,36,24.\
+2z M24.1,25.5c-0\
+.1,1,0,1.8,0.2,2\
+.3 c0.2,0.5,0.6,\
+0.8,1.2,0.8c0.1,\
+0,0.3,0,0.4-0.1c\
+0.2-0.1,0.3-0.1,\
+0.5-0.3c0.2-0.1,\
+0.3-0.3,0.5-0.6c\
+0.2-0.2,0.3-0.6,\
+0.4-1l0.5-5.4 c-\
+0.2-0.1-0.5-0.1-\
+0.7-0.1c-0.5,0-0\
+.9,0.1-1.2,0.3c-\
+0.3,0.2-0.6,0.5-\
+0.9,0.8c-0.2,0.4\
+-0.4,0.8-0.6,1.3\
+S24.2,24.8,24.1,\
+25.5z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x02\xc0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M6,36V8c0-\
+2.2,1.8-4,4-4h14\
+c2.2,0,4,1.8,4,4\
+v28c0,2.2-1.8,4-\
+4,4H10C7.8,40,6,\
+38.2,6,36z\x22/>\x0a  \
+  <path fill=\x22#B\
+BDEFB\x22 d=\x22M24,7H\
+10C9.4,7,9,7.4,9\
+,8v25c0,0.6,0.4,\
+1,1,1h14c0.6,0,1\
+-0.4,1-1V8C25,7.\
+4,24.6,7,24,7z\x22/\
+>\x0a    <rect x=\x221\
+4\x22 y=\x2236\x22 fill=\x22\
+#78909C\x22 width=\x22\
+6\x22 height=\x222\x22/>\x0a\
+    <path fill=\x22\
+#E38939\x22 d=\x22M20,\
+40V12c0-2.2,1.8-\
+4,4-4h14c2.2,0,4\
+,1.8,4,4v28c0,2.\
+2-1.8,4-4,4H24C2\
+1.8,44,20,42.2,2\
+0,40z\x22/>\x0a    <pa\
+th fill=\x22#FFF3E0\
+\x22 d=\x22M38,11H24c-\
+0.6,0-1,0.4-1,1v\
+25c0,0.6,0.4,1,1\
+,1h14c0.6,0,1-0.\
+4,1-1V12C39,11.4\
+,38.6,11,38,11z\x22\
+/>\x0a    <circle f\
+ill=\x22#A6642A\x22 cx\
+=\x2231\x22 cy=\x2241\x22 r=\
+\x221.5\x22/>\x0a</svg>\x0a\
+\x00\x00\x09\xe3\
+<\
+?xml version=\x221.\
+0\x22 encoding=\x22UTF\
+-8\x22 standalone=\x22\
+no\x22?>\x0a<svg\x0a   vi\
+ewBox=\x220 0 48 48\
+\x22\x0a   width=\x2248px\
+\x22\x0a   height=\x2248p\
+x\x22\x0a   version=\x221\
+.1\x22\x0a   id=\x22svg4\x22\
+\x0a   sodipodi:doc\
+name=\x22Channels.s\
+vg\x22\x0a   inkscape:\
+version=\x221.4.2 (\
+f4327f4, 2025-05\
+-13)\x22\x0a   xmlns:i\
+nkscape=\x22http://\
+www.inkscape.org\
+/namespaces/inks\
+cape\x22\x0a   xmlns:s\
+odipodi=\x22http://\
+sodipodi.sourcef\
+orge.net/DTD/sod\
+ipodi-0.dtd\x22\x0a   \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22\x0a   xmlns:svg=\
+\x22http://www.w3.o\
+rg/2000/svg\x22>\x0a  \
+<defs\x0a     id=\x22d\
+efs4\x22 />\x0a  <sodi\
+podi:namedview\x0a \
+    id=\x22namedvie\
+w4\x22\x0a     pagecol\
+or=\x22#ffffff\x22\x0a   \
+  bordercolor=\x22#\
+000000\x22\x0a     bor\
+deropacity=\x220.25\
+\x22\x0a     inkscape:\
+showpageshadow=\x22\
+2\x22\x0a     inkscape\
+:pageopacity=\x220.\
+0\x22\x0a     inkscape\
+:pagecheckerboar\
+d=\x220\x22\x0a     inksc\
+ape:deskcolor=\x22#\
+d1d1d1\x22\x0a     ink\
+scape:zoom=\x229.45\
+3125\x22\x0a     inksc\
+ape:cx=\x22-30.4661\
+16\x22\x0a     inkscap\
+e:cy=\x2223.008264\x22\
+\x0a     inkscape:w\
+indow-width=\x22384\
+0\x22\x0a     inkscape\
+:window-height=\x22\
+2054\x22\x0a     inksc\
+ape:window-x=\x2230\
+61\x22\x0a     inkscap\
+e:window-y=\x22-11\x22\
+\x0a     inkscape:w\
+indow-maximized=\
+\x221\x22\x0a     inkscap\
+e:current-layer=\
+\x22svg4\x22 />\x0a  <pat\
+h\x0a     fill=\x22#00\
+78d4\x22\x0a     d=\x22M4\
+2,37c0,2.762-2.2\
+38,5-5,5H11c-2.7\
+61,0-5-2.238-5-5\
+V11c0-2.762,2.23\
+9-5,5-5h26c2.762\
+,0,5,2.238,5,5 V\
+37z\x22\x0a     id=\x22pa\
+th1\x22 />\x0a  <path\x0a\
+     d=\x22m 20.490\
+948,26.529877 3.\
+363281,1.066406 \
+q -0.773438,2.81\
+25 -2.578125,4.1\
+83594 -1.792969,\
+1.359375 -4.5585\
+94,1.359375 -3.4\
+21875,0 -5.625,-\
+2.332032 -2.2031\
+248,-2.34375 -2.\
+2031248,-6.39843\
+7 0,-4.289063 2.\
+2148438,-6.65625\
+ 2.214844,-2.378\
+906 5.824219,-2.\
+378906 3.152343,\
+0 5.121093,1.863\
+281 1.171875,1.1\
+01562 1.757813,3\
+.164062 l -3.433\
+594,0.820313 q -\
+0.304687,-1.3359\
+38 -1.277344,-2.\
+109375 -0.960937\
+,-0.773438 -2.34\
+375,-0.773438 -1\
+.910156,0 -3.105\
+468,1.371094 -1.\
+183594,1.371094 \
+-1.183594,4.4414\
+06 0,3.257813 1.\
+171875,4.640625 \
+1.171875,1.38281\
+3 3.046875,1.382\
+813 1.382812,0 2\
+.378906,-0.87890\
+6 0.996094,-0.87\
+8907 1.429688,-2\
+.765625 z m 9.59\
+7656,-10.863282 \
+v 6.316407 q 1.5\
+9375,-1.863282 3\
+.808594,-1.86328\
+2 1.136718,0 2.0\
+50781,0.421875 0\
+.914062,0.421875\
+ 1.371094,1.0781\
+25 0.46875,0.656\
+25 0.632812,1.45\
+3125 0.175781,0.\
+796875 0.175781,\
+2.472657 v 7.300\
+781 h -3.292968 \
+v -6.574219 q 0,\
+-1.957031 -0.187\
+5,-2.484375 -0.1\
+875,-0.527344 -0\
+.667969,-0.83203\
+1 -0.46875,-0.31\
+6406 -1.183594,-\
+0.316406 -0.8203\
+12,0 -1.464844,0\
+.398437 -0.64453\
+1,0.398438 -0.94\
+9218,1.207031 -0\
+.292969,0.796875\
+ -0.292969,2.367\
+188 v 6.234375 H\
+ 26.795635 V 15.\
+666595 Z\x22\x0a     i\
+d=\x22text1\x22\x0a     s\
+tyle=\x22font-weigh\
+t:bold;font-size\
+:24px;line-heigh\
+t:0;font-family:\
+Arial;-inkscape-\
+font-specificati\
+on:'Arial Bold';\
+text-align:cente\
+r;text-anchor:mi\
+ddle;fill:#fffff\
+f\x22\x0a     aria-lab\
+el=\x22Ch\x22 />\x0a</svg\
+>\x0a\
+\x00\x00\x01\x0a\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2219\
+,44 30.7,30 7.3,\
+30\x22/>\x0a    <path \
+fill=\x22#3F51B5\x22 d\
+=\x22M27,6h13v8H27c\
+-2.2,0-4,1.8-4,4\
+v17h-8V18C15,11.\
+4,20.4,6,27,6z\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x03\x91\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#455A6\
+4\x22 d=\x22M36,4H26c0\
+,1.1-0.9,2-2,2s-\
+2-0.9-2-2H12C9.8\
+,4,8,5.8,8,8v32c\
+0,2.2,1.8,4,4,4h\
+24c2.2,0,4-1.8,4\
+-4V8 C40,5.8,38.\
+2,4,36,4z\x22/>\x0a   \
+ <path fill=\x22#ff\
+f\x22 d=\x22M36,41H12c\
+-0.6,0-1-0.4-1-1\
+V8c0-0.6,0.4-1,1\
+-1h24c0.6,0,1,0.\
+4,1,1v32C37,40.6\
+,36.6,41,36,41z\x22\
+/>\x0a    <g fill=\x22\
+#90A4AE\x22>\x0a      \
+  <path d=\x22M26,4\
+c0,1.1-0.9,2-2,2\
+s-2-0.9-2-2h-7v4\
+c0,1.1,0.9,2,2,2\
+h14c1.1,0,2-0.9,\
+2-2V4H26z\x22/>\x0a   \
+     <path d=\x22M2\
+4,0c-2.2,0-4,1.8\
+-4,4s1.8,4,4,4s4\
+-1.8,4-4S26.2,0,\
+24,0z M24,6c-1.1\
+,0-2-0.9-2-2s0.9\
+-2,2-2s2,0.9,2,2\
+ S25.1,6,24,6z\x22/\
+>\x0a    </g>\x0a    <\
+g fill=\x22#CFD8DC\x22\
+>\x0a        <rect \
+x=\x2221\x22 y=\x2220\x22 wi\
+dth=\x2212\x22 height=\
+\x222\x22/>\x0a        <r\
+ect x=\x2215\x22 y=\x2219\
+\x22 width=\x224\x22 heig\
+ht=\x224\x22/>\x0a    </g\
+>\x0a    <g fill=\x22#\
+03A9F4\x22>\x0a       \
+ <rect x=\x2221\x22 y=\
+\x2229\x22 width=\x2212\x22 \
+height=\x222\x22/>\x0a   \
+     <rect x=\x2215\
+\x22 y=\x2228\x22 width=\x22\
+4\x22 height=\x224\x22/>\x0a\
+    </g>\x0a</svg>\x0a\
+\
+\x00\x00\x01\x8e\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#009688\x22>\
+\x0a        <polygo\
+n points=\x2224,10.\
+9 35,24 13,24\x22/>\
+\x0a        <rect x\
+=\x2220\x22 y=\x2240\x22 wid\
+th=\x228\x22 height=\x224\
+\x22/>\x0a        <rec\
+t x=\x2220\x22 y=\x2234\x22 \
+width=\x228\x22 height\
+=\x224\x22/>\x0a        <\
+rect x=\x2220\x22 y=\x222\
+1\x22 width=\x228\x22 hei\
+ght=\x2211\x22/>\x0a     \
+   <rect x=\x226\x22 y\
+=\x224\x22 width=\x2236\x22 \
+height=\x224\x22/>\x0a   \
+ </g>\x0a</svg>\x0a\
+\x00\x00\x01\x0c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x224,\
+19 18,30.7 18,7.\
+3\x22/>\x0a    <path f\
+ill=\x22#3F51B5\x22 d=\
+\x22M42,27v13h-8V27\
+c0-2.2-1.8-4-4-4\
+H13v-8h17C36.6,1\
+5,42,20.4,42,27z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x04\xc9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFC10\
+7\x22 d=\x22M44,36H30V\
+16c0-1.1,0.9-2,2\
+-2h8c0.6,0,1.2,0\
+.3,1.6,0.8l6,7.7\
+c0.3,0.4,0.4,0.8\
+,0.4,1.2V32 C48,\
+34.2,46.2,36,44,\
+36z\x22/>\x0a    <g fi\
+ll=\x22#9575CD\x22>\x0a  \
+      <path d=\x22M\
+8,36h22V13c0-2.2\
+-1.8-4-4-4H4v23C\
+4,34.2,5.8,36,8,\
+36z\x22/>\x0a        <\
+rect y=\x229\x22 width\
+=\x2210\x22 height=\x222\x22\
+/>\x0a        <rect\
+ y=\x2214\x22 width=\x221\
+0\x22 height=\x222\x22/>\x0a\
+        <rect y=\
+\x2219\x22 width=\x2210\x22 \
+height=\x222\x22/>\x0a   \
+     <rect y=\x2224\
+\x22 width=\x2210\x22 hei\
+ght=\x222\x22/>\x0a    </\
+g>\x0a    <g fill=\x22\
+#7E57C2\x22>\x0a      \
+  <rect x=\x224\x22 y=\
+\x2211\x22 width=\x2216\x22 \
+height=\x222\x22/>\x0a   \
+     <rect x=\x224\x22\
+ y=\x2216\x22 width=\x221\
+2\x22 height=\x222\x22/>\x0a\
+        <rect x=\
+\x224\x22 y=\x2221\x22 width\
+=\x228\x22 height=\x222\x22/\
+>\x0a        <rect \
+x=\x224\x22 y=\x2226\x22 wid\
+th=\x224\x22 height=\x222\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <cir\
+cle cx=\x2239\x22 cy=\x22\
+36\x22 r=\x225\x22/>\x0a    \
+    <circle cx=\x22\
+16\x22 cy=\x2236\x22 r=\x225\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#78909\
+C\x22>\x0a        <cir\
+cle cx=\x2239\x22 cy=\x22\
+36\x22 r=\x222.5\x22/>\x0a  \
+      <circle cx\
+=\x2216\x22 cy=\x2236\x22 r=\
+\x222.5\x22/>\x0a    </g>\
+\x0a    <path fill=\
+\x22#455A64\x22 d=\x22M44\
+,26h-3.6c-0.3,0-\
+0.5-0.1-0.7-0.3l\
+-1.4-1.4c-0.2-0.\
+2-0.4-0.3-0.7-0.\
+3H34c-0.6,0-1-0.\
+4-1-1v-6 c0-0.6,\
+0.4-1,1-1h5.5c0.\
+3,0,0.6,0.1,0.8,\
+0.4l4.5,5.4c0.1,\
+0.2,0.2,0.4,0.2,\
+0.6V25C45,25.6,4\
+4.6,26,44,26z\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x04\xb3\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#AD145\
+7\x22 d=\x22M36,4c0,9.\
+3-6,13.2-12.8,17\
+.8C16.1,26.5,8,3\
+1.8,8,44h4c0-10.\
+1,6.5-14.4,13.4-\
+18.9C32.2,20.6,4\
+0,15.4,40,4 H36z\
+\x22/>\x0a    <path fi\
+ll=\x22#AD1457\x22 d=\x22\
+M38,41H11c-0.6,0\
+-1-0.4-1-1s0.4-1\
+,1-1h27c0.6,0,1,\
+0.4,1,1S38.6,41,\
+38,41z\x22/>\x0a    <p\
+ath fill=\x22#AD145\
+7\x22 d=\x22M36,37H12c\
+-0.6,0-1-0.4-1-1\
+s0.4-1,1-1h24c0.\
+6,0,1,0.4,1,1S36\
+.6,37,36,37z\x22/>\x0a\
+    <path fill=\x22\
+#AD1457\x22 d=\x22M34,\
+33H14c-0.6,0-1-0\
+.4-1-1s0.4-1,1-1\
+h20c0.6,0,1,0.4,\
+1,1S34.6,33,34,3\
+3z\x22/>\x0a    <path \
+fill=\x22#AD1457\x22 d\
+=\x22M29,29H19c-0.6\
+,0-1-0.4-1-1s0.4\
+-1,1-1h10c0.6,0,\
+1,0.4,1,1S29.6,2\
+9,29,29z\x22/>\x0a    \
+<path fill=\x22#E91\
+E63\x22 d=\x22M37,9H10\
+C9.4,9,9,8.6,9,8\
+s0.4-1,1-1h27c0.\
+6,0,1,0.4,1,1S37\
+.6,9,37,9z\x22/>\x0a  \
+  <path fill=\x22#E\
+91E63\x22 d=\x22M36,13\
+H12c-0.6,0-1-0.4\
+-1-1s0.4-1,1-1h2\
+4c0.6,0,1,0.4,1,\
+1S36.6,13,36,13z\
+\x22/>\x0a    <path fi\
+ll=\x22#E91E63\x22 d=\x22\
+M34,17H14c-0.6,0\
+-1-0.4-1-1s0.4-1\
+,1-1h20c0.6,0,1,\
+0.4,1,1S34.6,17,\
+34,17z\x22/>\x0a    <p\
+ath fill=\x22#E91E6\
+3\x22 d=\x22M29,21H19c\
+-0.6,0-1-0.4-1-1\
+s0.4-1,1-1h10c0.\
+6,0,1,0.4,1,1S29\
+.6,21,29,21z\x22/>\x0a\
+    <path fill=\x22\
+#E91E63\x22 d=\x22M40,\
+44h-4c0-10.1-6.5\
+-14.4-13.4-18.9C\
+15.8,20.6,8,15.4\
+,8,4h4c0,9.3,6,1\
+3.2,12.8,17.8 C3\
+1.9,26.5,40,31.8\
+,40,44z\x22/>\x0a</svg\
+>\x0a\
+\x00\x00\x037\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#546E7A\x22>\
+\x0a        <rect x\
+=\x2238\x22 y=\x224\x22 widt\
+h=\x222\x22 height=\x2220\
+\x22/>\x0a        <rec\
+t x=\x2215\x22 y=\x227\x22 w\
+idth=\x222\x22 height=\
+\x2217\x22/>\x0a        <\
+rect x=\x228\x22 y=\x2227\
+\x22 width=\x222\x22 heig\
+ht=\x2217\x22/>\x0a      \
+  <rect x=\x2228\x22 y\
+=\x2219\x22 width=\x222\x22 \
+height=\x2222\x22/>\x0a  \
+  </g>\x0a    <path\
+ fill=\x22#4CAF50\x22 \
+d=\x22M36,7h6c1.1,0\
+,2,0.9,2,2v10c0,\
+1.1-0.9,2-2,2h-6\
+c-1.1,0-2-0.9-2-\
+2V9C34,7.9,34.9,\
+7,36,7z\x22/>\x0a    <\
+path fill=\x22#4CAF\
+50\x22 d=\x22M13,10h6c\
+1.1,0,2,0.9,2,2v\
+7c0,1.1-0.9,2-2,\
+2h-6c-1.1,0-2-0.\
+9-2-2v-7C11,10.9\
+,11.9,10,13,10z\x22\
+/>\x0a    <path fil\
+l=\x22#F44336\x22 d=\x22M\
+6,30h6c1.1,0,2,0\
+.9,2,2v7c0,1.1-0\
+.9,2-2,2H6c-1.1,\
+0-2-0.9-2-2v-7C4\
+,30.9,4.9,30,6,3\
+0z\x22/>\x0a    <path \
+fill=\x22#F44336\x22 d\
+=\x22M26,22h6c1.1,0\
+,2,0.9,2,2v12c0,\
+1.1-0.9,2-2,2h-6\
+c-1.1,0-2-0.9-2-\
+2V24C24,22.9,24.\
+9,22,26,22z\x22/>\x0a<\
+/svg>\x0a\
+\x00\x00\x01l\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#CFD8DC\x22>\
+\x0a        <path d\
+=\x22M34,44H14c-1.1\
+,0-2-0.9-2-2V8c0\
+-1.1,0.9-2,2-2h2\
+0c1.1,0,2,0.9,2,\
+2v34C36,43.1,35.\
+1,44,34,44z\x22/>\x0a \
+       <path d=\x22\
+M28,13h-8c-0.6,0\
+-1-0.4-1-1V5c0-0\
+.6,0.4-1,1-1h8c0\
+.6,0,1,0.4,1,1v7\
+C29,12.6,28.6,13\
+,28,13z\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x02\xca\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#4CAF50\x22>\
+\x0a        <rect x\
+=\x2240\x22 y=\x2221\x22 wid\
+th=\x224\x22 height=\x222\
+3\x22/>\x0a        <re\
+ct x=\x2234\x22 y=\x2228\x22\
+ width=\x224\x22 heigh\
+t=\x2216\x22/>\x0a       \
+ <rect x=\x2228\x22 y=\
+\x2223\x22 width=\x224\x22 h\
+eight=\x2221\x22/>\x0a   \
+     <rect x=\x2222\
+\x22 y=\x2229\x22 width=\x22\
+4\x22 height=\x2215\x22/>\
+\x0a        <rect x\
+=\x2216\x22 y=\x2232\x22 wid\
+th=\x224\x22 height=\x221\
+2\x22/>\x0a        <re\
+ct x=\x2210\x22 y=\x2230\x22\
+ width=\x224\x22 heigh\
+t=\x2214\x22/>\x0a       \
+ <rect x=\x224\x22 y=\x22\
+34\x22 width=\x224\x22 he\
+ight=\x2210\x22/>\x0a    \
+</g>\x0a    <g fill\
+=\x22#388E3C\x22>\x0a    \
+    <polygon poi\
+nts=\x2240.1,9.1 34\
+,15.2 30,11.2 20\
+,21.2 15,16.2 4.\
+6,26.6 7.4,29.4 \
+15,21.8 20,26.8 \
+30,16.8 34,20.8 \
+42.9,11.9\x22/>\x0a   \
+     <polygon po\
+ints=\x2244,8 35,8 \
+44,17\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x02L\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#5E35B1\x22>\
+\x0a        <path d\
+=\x22M33.9,12.1H14.\
+2L17.6,7c0.4-0.6\
+,1-0.9,1.7-0.9h9\
+.6c0.7,0,1.3,0.3\
+,1.7,0.9L33.9,12\
+.1z\x22/>\x0a        <\
+path d=\x22M14,11H8\
+V9.2C8,8.5,8.5,8\
+,9.2,8h3.6C13.5,\
+8,14,8.5,14,9.2V\
+11z\x22/>\x0a        <\
+path d=\x22M40,42H8\
+c-2.2,0-4-1.8-4-\
+4V14c0-2.2,1.8-4\
+,4-4h32c2.2,0,4,\
+1.8,4,4v24C44,40\
+.2,42.2,42,40,42\
+z\x22/>\x0a    </g>\x0a  \
+  <path fill=\x22#E\
+8EAF6\x22 d=\x22M34,25\
+c0-5.5-4.5-10-10\
+-10s-10,4.5-10,1\
+0s4.5,10,10,10v-\
+2c-4.4,0-8-3.6-8\
+-8s3.6-8,8-8s8,3\
+.6,8,8h-3.5 l4.5\
+,5.6l4.5-5.6H34z\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x07!\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x228\x22 y=\x2239\x22\
+ fill=\x22#455A64\x22 \
+width=\x226\x22 height\
+=\x223\x22/>\x0a    <rect\
+ x=\x2234\x22 y=\x2239\x22 f\
+ill=\x22#455A64\x22 wi\
+dth=\x226\x22 height=\x22\
+3\x22/>\x0a    <path f\
+ill=\x22#78909C\x22 d=\
+\x22M40,41H8c-2.2,0\
+-4-1.8-4-4V11c0-\
+2.2,1.8-4,4-4h32\
+c2.2,0,4,1.8,4,4\
+v26C44,39.2,42.2\
+,41,40,41z\x22/>\x0a  \
+  <path fill=\x22#9\
+0A4AE\x22 d=\x22M40,38\
+H8c-0.6,0-1-0.4-\
+1-1V11c0-0.6,0.4\
+-1,1-1h32c0.6,0,\
+1,0.4,1,1v26C41,\
+37.6,40.6,38,40,\
+38z\x22/>\x0a    <path\
+ fill=\x22#37474F\x22 \
+d=\x22M29,14c-5.5,0\
+-10,4.5-10,10c0,\
+5.5,4.5,10,10,10\
+s10-4.5,10-10C39\
+,18.5,34.5,14,29\
+,14z M29,31 c-3.\
+9,0-7-3.1-7-7c0-\
+3.9,3.1-7,7-7s7,\
+3.1,7,7C36,27.9,\
+32.9,31,29,31z\x22/\
+>\x0a    <g fill=\x22#\
+B0BEC5\x22>\x0a       \
+ <path d=\x22M35.3,\
+19.1l0.4-0.4c0.4\
+-0.4,0.4-1,0-1.4\
+s-1-0.4-1.4,0l-0\
+.4,0.4C34.4,18.1\
+,34.9,18.6,35.3,\
+19.1z\x22/>\x0a       \
+ <path d=\x22M22.7,\
+19.1c0.4-0.5,0.9\
+-1,1.4-1.4l-0.4-\
+0.4c-0.4-0.4-1-0\
+.4-1.4,0s-0.4,1,\
+0,1.4L22.7,19.1z\
+\x22/>\x0a        <pat\
+h d=\x22M21,24c0-0.\
+3,0-0.7,0.1-1h-0\
+.6c-0.6,0-1,0.4-\
+1,1s0.4,1,1,1h0.\
+6C21,24.7,21,24.\
+3,21,24z\x22/>\x0a    \
+    <path d=\x22M29\
+,16c0.3,0,0.7,0,\
+1,0.1v-0.6c0-0.6\
+-0.4-1-1-1s-1,0.\
+4-1,1v0.6C28.3,1\
+6,28.7,16,29,16z\
+\x22/>\x0a        <pat\
+h d=\x22M35.3,28.9c\
+-0.4,0.5-0.9,1-1\
+.4,1.4l0.4,0.4c0\
+.2,0.2,0.5,0.3,0\
+.7,0.3s0.5-0.1,0\
+.7-0.3c0.4-0.4,0\
+.4-1,0-1.4 L35.3\
+,28.9z\x22/>\x0a      \
+  <path d=\x22M22.7\
+,28.9l-0.4,0.4c-\
+0.4,0.4-0.4,1,0,\
+1.4c0.2,0.2,0.5,\
+0.3,0.7,0.3s0.5-\
+0.1,0.7-0.3l0.4-\
+0.4 C23.6,29.9,2\
+3.1,29.4,22.7,28\
+.9z\x22/>\x0a        <\
+path d=\x22M37.5,23\
+h-0.6c0,0.3,0.1,\
+0.7,0.1,1s0,0.7-\
+0.1,1h0.6c0.6,0,\
+1-0.4,1-1S38.1,2\
+3,37.5,23z\x22/>\x0a  \
+      <path d=\x22M\
+29,32c-0.3,0-0.7\
+,0-1-0.1v0.6c0,0\
+.6,0.4,1,1,1s1-0\
+.4,1-1v-0.6C29.7\
+,32,29.3,32,29,3\
+2z\x22/>\x0a    </g>\x0a \
+   <path fill=\x22#\
+455A64\x22 d=\x22M12,2\
+0c-1.1,0-2,0.9-2\
+,2v8c0,1.1,0.9,2\
+,2,2s2-0.9,2-2v-\
+8C14,20.9,13.1,2\
+0,12,20z\x22/>\x0a    \
+<path fill=\x22#CFD\
+8DC\x22 d=\x22M12,18c-\
+1.1,0-2,0.9-2,2v\
+8c0,1.1,0.9,2,2,\
+2s2-0.9,2-2v-8C1\
+4,18.9,13.1,18,1\
+2,18z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x01\x22\
+\x00\
+\x00\x04\x12x\xda\x9d\x93Qo\xc2 \x10\x80\xdf\xfd\x15\
+\x97\xdb\xab\xb3\xb4`\xd5\xa5\xf8\xb0e\xfe\x0fEF\xc9\
+:h\xda\xae\xd4\x7f?Zu\x1a\xd7\x99 !<\x1c\
+|w\x97\xfbBV\xb7\x0aZY\xd5\xda\x1a\x8e1B\
+\xf7U\x98\x9ac\xde4\xe5K\x149\xe7f\x8e\xcel\
+\xa5\xa2\x84\x10\x12\xf9\xd7\x08\xad\x96\xee\xd5v\x1c\x09\x10\
+`K\xbf\x11\xa4\xd9\xee\x0a\xf9\xbc\xdb\x8aOU\xd9o\
+\xb3\xe7h\xa4\x83\xcb\x8b\xf5\x04\xfc\xca\x14|\xe8\xa2\xe0\
+\xf8\xb4\xd9\xac\x96\x84\x9c\xc2\xc3U%E\x03\xdd\xd0\xc4\
+\x81#\xf5I\x9d\xde79G\x96\x22\xe4R\xab\xbc\xe1\
+\x98`4\x82$\xf3\x81\x89\xaf\x98\x0b\x12\xa7\xa3\x0c\x8d\
+\x1f`\x16\xe1L\xbcz\x80\xa1\xe1L@k\xa5-\x0e\
+\xca\x1a(\xad6\x8d\x97\xcd\xe84Na~:($\
+l\xca\xa0\x0f\xd2\xd1J\xc7aS\xf6[\xa9w\xf5G\
+P\x16\xa9[\xe7\xef\x9b\xf4m\xdc\xf9Y`:\xd6}\
+r\xd7_\x08\xb2\x08F\xce\xf6B\x10\x1a\x8c\x84\xf7u\
+\xacA\xaf\x88\xe4?D\xe8J\x14\x12D?f\x9fW\
+\xf4\x95\xfc\xec\xaa[WY\xff\xbb\xd7\x93\x1f\xc5\xe3\x04\
+\x8a\
+\x00\x00\x02H\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3F51B\
+5\x22 d=\x22M6,10v28c0\
+,2.2,1.8,4,4,4h2\
+8c2.2,0,4-1.8,4-\
+4V10c0-2.2-1.8-4\
+-4-4H10C7.8,6,6,\
+7.8,6,10z\x22/>\x0a   \
+ <path fill=\x22#CC\
+F2F6\x22 d=\x22M27.9,2\
+8.9h-5.8l-8.4,7.\
+2l6-7.2v-2.4l-3,\
+0.8l3-1.9v-1.5c0\
+-0.8,0.1-1.7,0.6\
+-2.4l-7.5-8.3l8.\
+7,7.2 c0.7-0.7,1\
+.5-1.1,2.5-1.2l0\
+.6-7.3l1.1,7.3c0\
+.3,0,0.6,0.1,0.8\
+,0.1l1.2-1.2l-0.\
+3,1.7c0.3,0.1,0.\
+4,0.3,0.7,0.6l4.\
+4-2.8l-3.6,3.9 c\
+0.3,0.4,0.6,1,0.\
+7,1.7l2.2,0.1l-2\
+.2,0.8c0,0.3,0,1\
+.5,0,1.5l2.6,1.4\
+l-2.6-0.3c0,0,0,\
+1.8,0,2.2l6.2,7.\
+1L27.9,28.9z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x01\x94\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#42424\
+2\x22 d=\x22M24,4c-5.5\
+,0-10,4.5-10,10v\
+4h4v-4c0-3.3,2.7\
+-6,6-6s6,2.7,6,6\
+v4h4v-4C34,8.5,2\
+9.5,4,24,4z\x22/>\x0a \
+   <path fill=\x22#\
+FB8C00\x22 d=\x22M36,4\
+4H12c-2.2,0-4-1.\
+8-4-4V22c0-2.2,1\
+.8-4,4-4h24c2.2,\
+0,4,1.8,4,4v18C4\
+0,42.2,38.2,44,3\
+6,44z\x22/>\x0a    <ci\
+rcle fill=\x22#C76E\
+00\x22 cx=\x2224\x22 cy=\x22\
+31\x22 r=\x223\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x023\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#CF\
+D8DC\x22 points=\x2239\
+.4,23 38.6,19 26\
+,21.6 26,8 22,8 \
+22,20.3 8.1,11.3\
+ 5.9,14.7 21.1,2\
+4.5 9.4,39.8 12.\
+6,42.2 23.9,27.4\
+ 32.3,40.1 35.7,\
+37.9 27.3,25.4\x22/\
+>\x0a    <circle fi\
+ll=\x22#3F51B5\x22 cx=\
+\x2224\x22 cy=\x2224\x22 r=\x22\
+7\x22/>\x0a    <g fill\
+=\x22#00BCD4\x22>\x0a    \
+    <circle cx=\x22\
+24\x22 cy=\x228\x22 r=\x225\x22\
+/>\x0a        <circ\
+le cx=\x2239\x22 cy=\x222\
+1\x22 r=\x225\x22/>\x0a     \
+   <circle cx=\x227\
+\x22 cy=\x2213\x22 r=\x225\x22/\
+>\x0a        <circl\
+e cx=\x2211\x22 cy=\x2241\
+\x22 r=\x225\x22/>\x0a      \
+  <circle cx=\x2234\
+\x22 cy=\x2239\x22 r=\x225\x22/\
+>\x0a    </g>\x0a</svg\
+>\x0a\
+\x00\x00\x01'\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#F44\
+336\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <polygon fill=\
+\x22#FFCA28\x22 points\
+=\x2224,11 27.9,18.\
+9 36.6,20.2 30.3\
+,26.3 31.8,35 24\
+,30.9 16.2,35 17\
+.7,26.3 11.4,20.\
+2 20.1,18.9\x22/>\x0a<\
+/svg>\x0a\
+\x00\x00\x00\xc5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#FF\
+C107\x22 points=\x2233\
+,22 23.6,22 30,5\
+ 19,5 13,26 21.6\
+,26 17,45\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x05\xaa\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2212.3\x22 y=\x22\
+12.3\x22 transform=\
+\x22matrix(.948 .31\
+8 -.318 .948 9.7\
+25 -6.994)\x22 fill\
+=\x22#64B5F6\x22 width\
+=\x2228\x22 height=\x2228\
+\x22/>\x0a    <rect x=\
+\x2215.6\x22 y=\x2215.4\x22 \
+transform=\x22matri\
+x(.951 .31 -.31 \
+.951 9.176 -6.97\
+7)\x22 fill=\x22#1E88E\
+5\x22 width=\x2222\x22 he\
+ight=\x2220\x22/>\x0a    \
+<rect x=\x228.1\x22 y=\
+\x228.1\x22 transform=\
+\x22matrix(.983 .18\
+1 -.181 .983 4.3\
+85 -3.65)\x22 fill=\
+\x22#90CAF9\x22 width=\
+\x2228\x22 height=\x2228\x22\
+/>\x0a    <rect x=\x22\
+11.3\x22 y=\x2211.2\x22 t\
+ransform=\x22matrix\
+(.985 .175 -.175\
+ .985 4.048 -3.5\
+66)\x22 fill=\x22#42A5\
+F5\x22 width=\x2222\x22 h\
+eight=\x2220\x22/>\x0a   \
+ <rect x=\x224\x22 y=\x22\
+4\x22 fill=\x22#BBDEFB\
+\x22 width=\x2228\x22 hei\
+ght=\x2228\x22/>\x0a    <\
+rect x=\x227\x22 y=\x227\x22\
+ fill=\x22#4CAF50\x22 \
+width=\x2222\x22 heigh\
+t=\x2220\x22/>\x0a    <pa\
+th fill=\x22#fff\x22 d\
+=\x22M16,13c0-1.1,0\
+.9-2,2-2s2,0.9,2\
+,2s-2,4-2,4S16,1\
+4.1,16,13z\x22/>\x0a  \
   <path fill=\x22#f\
-ff\x22 d=\x22M29.393,2\
-6H26v-8c0-0.552-\
-0.448-1-1-1h-2c-\
-0.552,0-1,0.448-\
-1,1v8h-3.393 c-0\
-.54,0-0.81,0.653\
--0.428,1.034l4.9\
-64,4.964c0.473,0\
-.473,1.241,0.473\
-,1.714,0l4.964-4\
-.964C30.203,26.6\
-53,29.933,26,29.\
-393,26z\x22 />\x0d\x0a</s\
-vg>\
+ff\x22 d=\x22M20,21c0,\
+1.1-0.9,2-2,2s-2\
+-0.9-2-2s2-4,2-4\
+S20,19.9,20,21z\x22\
+/>\x0a    <path fil\
+l=\x22#fff\x22 d=\x22M13.\
+5,16.7c-1-0.6-1.\
+3-1.8-0.7-2.7c0.\
+6-1,1.8-1.3,2.7-\
+0.7c1,0.6,2.5,3.\
+7,2.5,3.7S14.5,1\
+7.3,13.5,16.7z\x22/\
+>\x0a    <path fill\
+=\x22#fff\x22 d=\x22M22.5\
+,17.3c1,0.6,1.3,\
+1.8,0.7,2.7c-0.6\
+,1-1.8,1.3-2.7,0\
+.7C19.5,20.2,18,\
+17,18,17S21.5,16\
+.7,22.5,17.3z\x22/>\
+\x0a    <path fill=\
+\x22#fff\x22 d=\x22M22.5,\
+16.7c1-0.6,1.3-1\
+.8,0.7-2.7c-0.6-\
+1-1.8-1.3-2.7-0.\
+7C19.5,13.8,18,1\
+7,18,17S21.5,17.\
+3,22.5,16.7z\x22/>\x0a\
+    <path fill=\x22\
+#fff\x22 d=\x22M13.5,1\
+7.3c-1,0.6-1.3,1\
+.8-0.7,2.7c0.6,1\
+,1.8,1.3,2.7,0.7\
+c1-0.6,2.5-3.7,2\
+.5-3.7S14.5,16.7\
+,13.5,17.3z\x22/>\x0a \
+   <circle fill=\
+\x22#FFC107\x22 cx=\x2218\
+\x22 cy=\x2217\x22 r=\x222\x22/\
+>\x0a</svg>\x0a\
+\x00\x00\x04\xce\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#B0BEC\
+5\x22 d=\x22M37,42H5V3\
+2h32c2.8,0,5,2.2\
+,5,5v0C42,39.8,3\
+9.8,42,37,42z\x22/>\
+\x0a    <path fill=\
+\x22#37474F\x22 d=\x22M10\
+,34c-1.7,0-3,1.3\
+-3,3s1.3,3,3,3s3\
+-1.3,3-3S11.7,34\
+,10,34z M10,38c-\
+0.6,0-1-0.4-1-1c\
+0-0.6,0.4-1,1-1 \
+s1,0.4,1,1C11,37\
+.6,10.6,38,10,38\
+z\x22/>\x0a    <path f\
+ill=\x22#37474F\x22 d=\
+\x22M19,34c-1.7,0-3\
+,1.3-3,3s1.3,3,3\
+,3s3-1.3,3-3S20.\
+7,34,19,34z M19,\
+38c-0.6,0-1-0.4-\
+1-1c0-0.6,0.4-1,\
+1-1 s1,0.4,1,1C2\
+0,37.6,19.6,38,1\
+9,38z\x22/>\x0a    <pa\
+th fill=\x22#37474F\
+\x22 d=\x22M37,34c-1.7\
+,0-3,1.3-3,3s1.3\
+,3,3,3s3-1.3,3-3\
+S38.7,34,37,34z \
+M37,38c-0.6,0-1-\
+0.4-1-1c0-0.6,0.\
+4-1,1-1 s1,0.4,1\
+,1C38,37.6,37.6,\
+38,37,38z\x22/>\x0a   \
+ <path fill=\x22#37\
+474F\x22 d=\x22M28,34c\
+-1.7,0-3,1.3-3,3\
+s1.3,3,3,3s3-1.3\
+,3-3S29.7,34,28,\
+34z M28,38c-0.6,\
+0-1-0.4-1-1c0-0.\
+6,0.4-1,1-1 s1,0\
+.4,1,1C29,37.6,2\
+8.6,38,28,38z\x22/>\
+\x0a    <path fill=\
+\x22#FF9800\x22 d=\x22M35\
+,31H11c-1.1,0-2-\
+0.9-2-2V7c0-1.1,\
+0.9-2,2-2h24c1.1\
+,0,2,0.9,2,2v22C\
+37,30.1,36.1,31,\
+35,31z\x22/>\x0a    <p\
+ath fill=\x22#8A510\
+0\x22 d=\x22M26.5,13h-\
+7c-0.8,0-1.5-0.7\
+-1.5-1.5v0c0-0.8\
+,0.7-1.5,1.5-1.5\
+h7c0.8,0,1.5,0.7\
+,1.5,1.5v0 C28,1\
+2.3,27.3,13,26.5\
+,13z\x22/>\x0a    <pat\
+h fill=\x22#607D8B\x22\
+ d=\x22M37,31H5v2h3\
+2c2.2,0,4,1.8,4,\
+4s-1.8,4-4,4H5v2\
+h32c3.3,0,6-2.7,\
+6-6S40.3,31,37,3\
+1z\x22/>\x0a</svg>\x0a\
+\x00\x00\x04\x02\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2227\x22 y=\x228\x22\
+ fill=\x22#37474F\x22 \
+width=\x2210\x22 heigh\
+t=\x224\x22/>\x0a    <pat\
+h fill=\x22#607D8B\x22\
+ d=\x22M27,8h-9.7c-\
+1.5,0-2.8,0.8-3.\
+5,2.1l-3.3,6L14,\
+18l3.3-6H27v7.2h\
+4V12C31,9.8,29.2\
+,8,27,8z\x22/>\x0a    \
+<path fill=\x22#607\
+D8B\x22 d=\x22M30,40H6\
+c-2.2,0-4-1.8-4-\
+4V20c0-2.2,1.8-4\
+,4-4h24c2.2,0,4,\
+1.8,4,4v16C34,38\
+.2,32.2,40,30,40\
+z\x22/>\x0a    <path f\
+ill=\x22#607D8B\x22 d=\
+\x22M38,35l5,5h3V18\
+h-3l-5,5V35z\x22/>\x0a\
+    <path fill=\x22\
+#546E7A\x22 d=\x22M22,\
+35H8c-1.1,0-2-0.\
+9-2-2V23c0-1.1,0\
+.9-2,2-2h14c1.1,\
+0,2,0.9,2,2v10C2\
+4,34.1,23.1,35,2\
+2,35z\x22/>\x0a    <re\
+ct x=\x2234\x22 y=\x2223\x22\
+ fill=\x22#455A64\x22 \
+width=\x224\x22 height\
+=\x2212\x22/>\x0a    <pat\
+h fill=\x22#263238\x22\
+ d=\x22M41,13h-4c-0\
+.6,0-1-0.4-1-1V8\
+c0-0.6,0.4-1,1-1\
+h4c1.7,0,3,1.3,3\
+,3v0C44,11.7,42.\
+7,13,41,13z\x22/>\x0a \
+   <rect x=\x228\x22 y\
+=\x2223\x22 fill=\x22#03A\
+9F4\x22 width=\x2214\x22 \
+height=\x2210\x22/>\x0a  \
+  <polygon fill=\
+\x22#4FC3F7\x22 points\
+=\x2213.5,25.5 9,32\
+ 18,32\x22/>\x0a    <g\
+ fill=\x22#B3E5FC\x22>\
+\x0a        <circle\
+ cx=\x2219.5\x22 cy=\x222\
+5.5\x22 r=\x221.5\x22/>\x0a \
+       <polygon \
+points=\x2217.5,27.\
+6 14,32 21,32\x22/>\
+\x0a    </g>\x0a</svg>\
+\x0a\
+\x00\x00\x03\xc2\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#CFD8D\
+C\x22 d=\x22M5,38V14h3\
+8v24c0,2.2-1.8,4\
+-4,4H9C6.8,42,5,\
+40.2,5,38z\x22/>\x0a  \
+  <path fill=\x22#F\
+44336\x22 d=\x22M43,10\
+v6H5v-6c0-2.2,1.\
+8-4,4-4h30C41.2,\
+6,43,7.8,43,10z\x22\
+/>\x0a    <g fill=\x22\
+#B71C1C\x22>\x0a      \
+  <circle cx=\x2233\
+\x22 cy=\x2210\x22 r=\x223\x22/\
+>\x0a        <circl\
+e cx=\x2215\x22 cy=\x2210\
+\x22 r=\x223\x22/>\x0a    </\
+g>\x0a    <g fill=\x22\
+#B0BEC5\x22>\x0a      \
+  <path d=\x22M33,3\
+c-1.1,0-2,0.9-2,\
+2v5c0,1.1,0.9,2,\
+2,2s2-0.9,2-2V5C\
+35,3.9,34.1,3,33\
+,3z\x22/>\x0a        <\
+path d=\x22M15,3c-1\
+.1,0-2,0.9-2,2v5\
+c0,1.1,0.9,2,2,2\
+s2-0.9,2-2V5C17,\
+3.9,16.1,3,15,3z\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#B0BEC\
+5\x22>\x0a        <rec\
+t x=\x2213\x22 y=\x2221\x22 \
+width=\x226\x22 height\
+=\x226\x22/>\x0a        <\
+rect x=\x2221\x22 y=\x222\
+1\x22 width=\x226\x22 hei\
+ght=\x226\x22/>\x0a      \
+  <rect x=\x2229\x22 y\
+=\x2221\x22 width=\x226\x22 \
+height=\x226\x22/>\x0a   \
+     <rect x=\x2213\
+\x22 y=\x2229\x22 width=\x22\
+6\x22 height=\x226\x22/>\x0a\
+        <rect x=\
+\x2221\x22 y=\x2229\x22 widt\
+h=\x226\x22 height=\x226\x22\
+/>\x0a    </g>\x0a    \
+<rect x=\x2229\x22 y=\x22\
+29\x22 fill=\x22#F4433\
+6\x22 width=\x226\x22 hei\
+ght=\x226\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x05\xcd\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#546E7A\x22>\
+\x0a        <rect x\
+=\x225\x22 y=\x2234\x22 widt\
+h=\x226\x22 height=\x223\x22\
+/>\x0a        <rect\
+ x=\x2237\x22 y=\x2234\x22 w\
+idth=\x226\x22 height=\
+\x223\x22/>\x0a    </g>\x0a \
+   <path fill=\x22#\
+78909C\x22 d=\x22M44,3\
+5H4c-2.2,0-4-1.8\
+-4-4V17c0-2.2,1.\
+8-4,4-4h40c2.2,0\
+,4,1.8,4,4v14C48\
+,33.2,46.2,35,44\
+,35z\x22/>\x0a    <g f\
+ill=\x22#37474F\x22>\x0a \
+       <rect x=\x22\
+5\x22 y=\x2219\x22 width=\
+\x222\x22 height=\x222\x22/>\
+\x0a        <rect x\
+=\x225\x22 y=\x2223\x22 widt\
+h=\x222\x22 height=\x222\x22\
+/>\x0a        <rect\
+ x=\x225\x22 y=\x2227\x22 wi\
+dth=\x222\x22 height=\x22\
+2\x22/>\x0a        <re\
+ct x=\x229\x22 y=\x2219\x22 \
+width=\x222\x22 height\
+=\x222\x22/>\x0a        <\
+rect x=\x229\x22 y=\x2223\
+\x22 width=\x222\x22 heig\
+ht=\x222\x22/>\x0a       \
+ <rect x=\x229\x22 y=\x22\
+27\x22 width=\x222\x22 he\
+ight=\x222\x22/>\x0a     \
+   <rect x=\x2213\x22 \
+y=\x2219\x22 width=\x222\x22\
+ height=\x222\x22/>\x0a  \
+      <rect x=\x221\
+3\x22 y=\x2223\x22 width=\
+\x222\x22 height=\x222\x22/>\
+\x0a        <rect x\
+=\x2213\x22 y=\x2227\x22 wid\
+th=\x222\x22 height=\x222\
+\x22/>\x0a        <rec\
+t x=\x2217\x22 y=\x2219\x22 \
+width=\x222\x22 height\
+=\x222\x22/>\x0a        <\
+rect x=\x2217\x22 y=\x222\
+3\x22 width=\x222\x22 hei\
+ght=\x222\x22/>\x0a      \
+  <rect x=\x2217\x22 y\
+=\x2227\x22 width=\x222\x22 \
+height=\x222\x22/>\x0a   \
+     <rect x=\x2221\
+\x22 y=\x2219\x22 width=\x22\
+2\x22 height=\x222\x22/>\x0a\
+        <rect x=\
+\x2221\x22 y=\x2223\x22 widt\
+h=\x222\x22 height=\x222\x22\
+/>\x0a        <rect\
+ x=\x2221\x22 y=\x2227\x22 w\
+idth=\x222\x22 height=\
+\x222\x22/>\x0a    </g>\x0a \
+   <circle fill=\
+\x22#37474F\x22 cx=\x2237\
+\x22 cy=\x2224\x22 r=\x228\x22/\
+>\x0a    <circle fi\
+ll=\x22#a0f\x22 cx=\x2237\
+\x22 cy=\x2224\x22 r=\x226\x22/\
+>\x0a    <path fill\
+=\x22#EA80FC\x22 d=\x22M4\
+0.7,21.7c-1-1.1-\
+2.3-1.7-3.7-1.7s\
+-2.8,0.6-3.7,1.7\
+c-0.4,0.4-0.3,1,\
+0.1,1.4c0.4,0.4,\
+1,0.3,1.4-0.1 c1\
+.2-1.3,3.3-1.3,4\
+.5,0c0.2,0.2,0.5\
+,0.3,0.7,0.3c0.2\
+,0,0.5-0.1,0.7-0\
+.3C41.1,22.7,41.\
+1,22.1,40.7,21.7\
+z\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\x08\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M41,38H7c-\
+2.2,0-4-1.8-4-4V\
+14c0-2.2,1.8-4,4\
+-4h34c2.2,0,4,1.\
+8,4,4v20C45,36.2\
+,43.2,38,41,38z\x22\
+/>\x0a    <path fil\
+l=\x22#F3E5F5\x22 d=\x22M\
+6,14v20c0,0.6,0.\
+4,1,1,1h34c0.6,0\
+,1-0.4,1-1V14c0-\
+0.6-0.4-1-1-1H7C\
+6.4,13,6,13.4,6,\
+14z\x22/>\x0a    <poly\
+gon fill=\x22#9C27B\
+0\x22 points=\x2226,15\
+ 20.1,22 31.9,22\
+\x22/>\x0a    <path fi\
+ll=\x22#9C27B0\x22 d=\x22\
+M24,21v6c0,1.1-0\
+.9,2-2,2s-2-0.9-\
+2-2v-2h-4v2c0,3.\
+3,2.7,6,6,6s6-2.\
+7,6-6v-6H24z\x22/>\x0a\
+</svg>\x0a\
+\x00\x00\x03\x94\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#9C27B0\x22>\
+\x0a        <polygo\
+n points=\x2231,8 4\
+2.9,9.6 33.1,19.\
+4\x22/>\x0a        <po\
+lygon points=\x2217\
+,40 5.1,38.4 14.\
+9,28.6\x22/>\x0a      \
+  <polygon point\
+s=\x228,17 9.6,5.1 \
+19.4,14.9\x22/>\x0a   \
+     <path d=\x22M9\
+.3,21.2L5.1,22C5\
+,22.7,5,23.3,5,2\
+4c0,4.6,1.6,9,4.\
+6,12.4l3-2.6C10.\
+3,31.1,9,27.6,9,\
+24 C9,23.1,9.1,2\
+2.1,9.3,21.2z\x22/>\
+\x0a        <path d\
+=\x22M24,5c-5.4,0-1\
+0.2,2.3-13.7,5.9\
+l2.8,2.8C15.9,10\
+.8,19.7,9,24,9c0\
+.9,0,1.9,0.1,2.8\
+,0.3l0.7-3.9 C26\
+.4,5.1,25.2,5,24\
+,5z\x22/>\x0a        <\
+path d=\x22M38.7,26\
+.8l4.2-0.8c0.1-0\
+.7,0.1-1.3,0.1-2\
+c0-4.4-1.5-8.7-4\
+.3-12.1l-3.1,2.5\
+c2.2,2.7,3.4,6.1\
+,3.4,9.5 C39,24.\
+9,38.9,25.9,38.7\
+,26.8z\x22/>\x0a      \
+  <path d=\x22M34.9\
+,34.3C32.1,37.2,\
+28.3,39,24,39c-0\
+.9,0-1.9-0.1-2.8\
+-0.3l-0.7,3.9c1.\
+2,0.2,2.4,0.3,3.\
+5,0.3 c5.4,0,10.\
+2-2.3,13.7-5.9L3\
+4.9,34.3z\x22/>\x0a   \
+     <polygon po\
+ints=\x2240,31 38.4\
+,42.9 28.6,33.1\x22\
+/>\x0a    </g>\x0a</sv\
+g>\x0a\
+\x00\x00\x01\x8c\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#9C2\
+7B0\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <g fill=\x22#E1BE\
+E7\x22>\x0a        <pa\
+th d=\x22M20.6,18.5\
+h-4.2v14.2h-3.5V\
+18.5H8.7v-2.9h11\
+.9V18.5z\x22/>\x0a    \
+    <path d=\x22M27\
+.1,15.6L30.3,28l\
+3.2-12.4h4.5v17.\
+1h-3.5v-4.6l0.3-\
+7.1l-3.4,11.8h-2\
+.4L25.7,21l0.3,7\
+.1v4.6h-3.5V15.6\
+ H27.1z\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x04\x05\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2233\
+,42 5,42 5,4 24,\
+4 33,13\x22/>\x0a    <\
+polygon fill=\x22#E\
+1F5FE\x22 points=\x223\
+1.5,14 23,14 23,\
+5.5\x22/>\x0a    <rect\
+ x=\x2238.3\x22 y=\x2234.\
+8\x22 transform=\x22ma\
+trix(.707 -.707 \
+.707 .707 -17.17\
+7 40.055)\x22 fill=\
+\x22#616161\x22 width=\
+\x222.8\x22 height=\x2212\
+\x22/>\x0a    <circle \
+fill=\x22#616161\x22 c\
+x=\x2228\x22 cy=\x2229\x22 r\
+=\x2211\x22/>\x0a    <cir\
+cle fill=\x22#90CAF\
+9\x22 cx=\x2228\x22 cy=\x222\
+9\x22 r=\x229\x22/>\x0a    <\
+rect x=\x2239.5\x22 y=\
+\x2237.6\x22 transform\
+=\x22matrix(.707 -.\
+707 .707 .707 -1\
+7.661 41.223)\x22 f\
+ill=\x22#37474F\x22 wi\
+dth=\x222.8\x22 height\
+=\x228.7\x22/>\x0a    <g \
+fill=\x22#1976D2\x22>\x0a\
+        <path d=\
+\x22M30,31h-9.7c0.4\
+,1.6,1.3,3,2.5,4\
+H30V31z\x22/>\x0a     \
+   <path d=\x22M20.\
+3,27H30v-4h-7.3C\
+21.5,24,20.7,25.\
+4,20.3,27z\x22/>\x0a  \
+      <path d=\x22M\
+20.1,20H11v2h7.3\
+C18.8,21.3,19.4,\
+20.6,20.1,20z\x22/>\
+\x0a        <path d\
+=\x22M17.1,24H11v2h\
+5.4C16.6,25.3,16\
+.8,24.6,17.1,24z\
+\x22/>\x0a        <pat\
+h d=\x22M16,29c0-0.\
+3,0-0.7,0.1-1H11\
+v2h5.1C16,29.7,1\
+6,29.3,16,29z\x22/>\
+\x0a        <path d\
+=\x22M16.4,32H11v2h\
+6.1C16.8,33.4,16\
+.6,32.7,16.4,32z\
+\x22/>\x0a    </g>\x0a</s\
+vg>\x0a\
+\x00\x00\x09O\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#7CB34\
+2\x22 d=\x22M24,4C13,4\
+,4,13,4,24s9,20,\
+20,20s20-9,20-20\
+S35,4,24,4z\x22/>\x0a \
+   <path fill=\x22#\
+0277BD\x22 d=\x22M45,2\
+4c0,11.7-9.5,21-\
+21,21S3,35.7,3,2\
+4S12.3,3,24,3S45\
+,12.3,45,24z M23\
+.8,33.7c0-0.4-0.\
+2-0.6-0.6-0.8 c-\
+1.3-0.4-2.5-0.4-\
+3.6-1.5c-0.2-0.4\
+-0.2-0.8-0.4-1.3\
+c-0.4-0.4-1.5-0.\
+6-2.1-0.8c-0.8,0\
+-1.7,0-2.7,0c-0.\
+4,0-1.1,0-1.5,0 \
+c-0.6-0.2-1.1-1.\
+1-1.5-1.7c0-0.2,\
+0-0.6-0.4-0.6c-0\
+.4-0.2-0.8,0.2-1\
+.3,0c-0.2-0.2-0.\
+2-0.4-0.2-0.6c0-\
+0.6,0.4-1.3,0.8-\
+1.7 c0.6-0.4,1.3\
+,0.2,1.9,0.2c0.2\
+,0,0.2,0,0.4,0.2\
+c0.6,0.2,0.8,1,0\
+.8,1.7c0,0.2,0,0\
+.4,0,0.4c0,0.2,0\
+.2,0.2,0.4,0.2 c\
+0.2-1.1,0.2-2.1,\
+0.4-3.2c0-1.3,1.\
+3-2.5,2.3-2.9c0.\
+4-0.2,0.6,0.2,1.\
+1,0c1.3-0.4,4.4-\
+1.7,3.8-3.4c-0.4\
+-1.5-1.7-2.9-3.4\
+-2.7 c-0.4,0.2-0\
+.6,0.4-1,0.6c-0.\
+6,0.4-1.9,1.7-2.\
+5,1.7c-1.1-0.2-1\
+.1-1.7-0.8-2.3c0\
+.2-0.8,2.1-3.6,3\
+.4-3.1c0.2,0.2,0\
+.6,0.6,0.8,0.8 c\
+0.4,0.2,1.1,0.2,\
+1.7,0.2c0.2,0,0.\
+4,0,0.6-0.2c0.2-\
+0.2,0.2-0.2,0.2-\
+0.4c0-0.6-0.6-1.\
+3-1-1.7c-0.4-0.4\
+-1.1-0.8-1.7-1.1\
+ c-2.1-0.6-5.5,0\
+.2-7.1,1.7s-2.9,\
+4-3.8,6.1c-0.4,1\
+.3-0.8,2.9-1,4.4\
+c-0.2,1-0.4,1.9,\
+0.2,2.9c0.6,1.3,\
+1.9,2.5,3.2,3.4 \
+c0.8,0.6,2.5,0.6\
+,3.4,1.7c0.6,0.8\
+,0.4,1.9,0.4,2.9\
+c0,1.3,0.8,2.3,1\
+.3,3.4c0.2,0.6,0\
+.4,1.5,0.6,2.1c0\
+,0.2,0.2,1.5,0.2\
+,1.7 c1.3,0.6,2.\
+3,1.3,3.8,1.7c0.\
+2,0,1-1.3,1-1.5c\
+0.6-0.6,1.1-1.5,\
+1.7-1.9c0.4-0.2,\
+0.8-0.4,1.3-0.8c\
+0.4-0.4,0.6-1.3,\
+0.8-1.9 C23.8,35\
+.1,24,34.3,23.8,\
+33.7z M24.2,14.3\
+c0.2,0,0.4-0.2,0\
+.8-0.4c0.6-0.4,1\
+.3-1.1,1.9-1.5c0\
+.6-0.4,1.3-1.1,1\
+.7-1.5 c0.6-0.4,\
+1.1-1.3,1.3-1.9c\
+0.2-0.4,0.8-1.3,\
+0.6-1.9c-0.2-0.4\
+-1.3-0.6-1.7-0.8\
+c-1.7-0.4-3.1-0.\
+6-4.8-0.6c-0.6,0\
+-1.5,0.2-1.7,0.8\
+ c-0.2,1.1,0.6,0\
+.8,1.5,1.1c0,0,0\
+.2,1.7,0.2,1.9c0\
+.2,1-0.4,1.7-0.4\
+,2.7c0,0.6,0,1.7\
+,0.4,2.1L24.2,14\
+.3z M41.8,29 c0.\
+2-0.4,0.2-1.1,0.\
+4-1.5c0.2-1,0.2-\
+2.1,0.2-3.1c0-2.\
+1-0.2-4.2-0.8-6.\
+1c-0.4-0.6-0.6-1\
+.3-0.8-1.9c-0.4-\
+1.1-1-2.1-1.9-2.\
+9 c-0.8-1.1-1.9-\
+4-3.8-3.1c-0.6,0\
+.2-1,1-1.5,1.5c-\
+0.4,0.6-0.8,1.3-\
+1.3,1.9c-0.2,0.2\
+-0.4,0.6-0.2,0.8\
+c0,0.2,0.2,0.2,0\
+.4,0.2 c0.4,0.2,\
+0.6,0.2,1,0.4c0.\
+2,0,0.4,0.2,0.2,\
+0.4c0,0,0,0.2-0.\
+2,0.2c-1,1.1-2.1\
+,1.9-3.1,2.9c-0.\
+2,0.2-0.4,0.6-0.\
+4,0.8 c0,0.2,0.2\
+,0.2,0.2,0.4c0,0\
+.2-0.2,0.2-0.4,0\
+.4c-0.4,0.2-0.8,\
+0.4-1.1,0.6c-0.2\
+,0.4,0,1.1-0.2,1\
+.5c-0.2,1.1-0.8,\
+1.9-1.3,2.9 c-0.\
+4,0.6-0.6,1.3-1,\
+1.9c0,0.8-0.2,1.\
+5,0.2,2.1c1,1.5,\
+2.9,0.6,4.4,1.3c\
+0.4,0.2,0.8,0.2,\
+1.1,0.6c0.6,0.6,\
+0.6,1.7,0.8,2.3 \
+c0.2,0.8,0.4,1.7\
+,0.8,2.5c0.2,1,0\
+.6,2.1,0.8,2.9c1\
+.9-1.5,3.6-3.1,4\
+.8-5.2C40.6,32.4\
+,41.2,30.7,41.8,\
+29z\x22/>\x0a</svg>\x0a\
+\x00\x00\x02P\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#42\
+A5F5\x22 points=\x2236\
+,44 8,44 8,8 28,\
+8 36,16\x22/>\x0a    <\
+polygon fill=\x22#9\
+0CAF9\x22 points=\x224\
+0,40 12,40 12,4 \
+32,4 40,12\x22/>\x0a  \
+  <polygon fill=\
+\x22#E1F5FE\x22 points\
+=\x2238.5,13 31,13 \
+31,5.5\x22/>\x0a    <p\
+ath fill=\x22#1976D\
+2\x22 d=\x22M24.5,28.3\
+c0-4.7,3.6-4.4,3\
+.6-7.2c0-0.7-0.2\
+-2.1-2-2.1c-2,0-\
+2.1,1.6-2.1,2h-2\
+.7c0-0.7,0.3-4.2\
+,4.8-4.2 c4.6,0,\
+4.7,3.6,4.7,4.3c\
+0,3.5-3.8,4-3.8,\
+7.3H24.5z M24.3,\
+31.8c0-0.2,0-1.5\
+,1.5-1.5c1.4,0,1\
+.5,1.3,1.5,1.5c0\
+,0.4-0.2,1.4-1.5\
+,1.4 C24.5,33.2,\
+24.3,32.2,24.3,3\
+1.8z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x05\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#4CA\
+F50\x22 cx=\x2224\x22 cy=\
+\x2224\x22 r=\x2221\x22/>\x0a  \
+  <polygon fill=\
+\x22#CCFF90\x22 points\
+=\x2234.6,14.6 21,2\
+8.2 15.4,22.6 12\
+.6,25.4 21,33.8 \
+37.4,17.4\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x01\xc6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#CFD8DC\x22>\
+\x0a        <path d\
+=\x22M34,44H14c-1.1\
+,0-2-0.9-2-2V8c0\
+-1.1,0.9-2,2-2h2\
+0c1.1,0,2,0.9,2,\
+2v34C36,43.1,35.\
+1,44,34,44z\x22/>\x0a \
+       <path d=\x22\
+M28,13h-8c-0.6,0\
+-1-0.4-1-1V5c0-0\
+.6,0.4-1,1-1h8c0\
+.6,0,1,0.4,1,1v7\
+C29,12.6,28.6,13\
+,28,13z\x22/>\x0a    <\
+/g>\x0a    <path fi\
+ll=\x22#8BC34A\x22 d=\x22\
+M34,44H14c-1.1,0\
+-2-0.9-2-2V23h24\
+v19C36,43.1,35.1\
+,44,34,44z\x22/>\x0a</\
+svg>\x0a\
 \x00\x00\x01\xf7\
 <\
 svg xmlns=\x22http:\
@@ -4240,120 +13353,182 @@ l-43.07 43.07-.3\
 -7.87 7.86-7.87 \
 20.7 0 28.56z\x22/>\
 </svg>\
-\x00\x00\x06\xf3\
+\x00\x00\x03\xb7\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#eb6773\x22 d\
-=\x22M37,6c0-1.105-\
-0.895-2-2-2H13c-\
-1.105,0-2,0.895-\
-2,2v4h26V6z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-b31523\x22 d=\x22M11,4\
-1.72c0,0.996,1.0\
-92,1.606,1.94,1.\
-084L24,35.998l11\
-.06,6.806C35.908\
-,43.326,37,42.71\
-6,37,41.72 V30H1\
-1V41.72z\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x2212\x22 x=\x22\
-11\x22 y=\x2218\x22 fill=\
-\x22#cf1928\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x228\x22 x=\x221\
-1\x22 y=\x2210\x22 fill=\x22\
-#d9414f\x22 />\x0d\x0a  <\
-radialGradient i\
-d=\x22ubywhEL8b9KRX\
-kgPKUsFqa\x22 cx=\x223\
-7.181\x22 cy=\x2224.12\
-8\x22 r=\x2211.585\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x22.348\x22 />\x0d\x0a    <\
-stop offset=\x22.93\
-6\x22 stop-opacity=\
-\x22.098\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-opacity=\x220\x22\
- />\x0d\x0a  </radialG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#uby\
-whEL8b9KRXkgPKUs\
-Fqa)\x22 d=\x22M37,12.\
-051C30.851,12.56\
-2,26,17.72,26,24\
- s4.851,11.438,1\
-1,11.949V12.051z\
-\x22 opacity=\x22.3\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x22ubywhEL\
-8b9KRXkgPKUsFqb\x22\
- x1=\x2230.929\x22 x2=\
-\x2245.071\x22 y1=\x22-17\
-0.929\x22 y2=\x22-185.\
-071\x22 gradientTra\
-nsform=\x22matrix(1\
- 0 0 -1 0 -154)\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x220\x22 stop-colo\
-r=\x22#f44f5a\x22 />\x0d\x0a\
-    <stop offset\
-=\x22.443\x22 stop-col\
-or=\x22#ee3d4a\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#e52030\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#ubywhEL8b\
-9KRXkgPKUsFqb)\x22 \
-d=\x22M48,24c0,5.52\
-2-4.478,10-10,10\
-s-10-4.478-10-10\
-s4.478-10,10-10S\
-48,18.478,48,24z\
-\x22 />\x0d\x0a  <path fi\
-ll=\x22#fff\x22 d=\x22M41\
-.536,19.757l0.70\
-7,0.707c0.195,0.\
-195,0.195,0.512,\
-0,0.707l-7.071,7\
-.071 c-0.195,0.1\
-95-0.512,0.195-0\
-.707,0l-0.707-0.\
-707c-0.195-0.195\
--0.195-0.512,0-0\
-.707l7.071-7.071\
- C41.024,19.562,\
-41.34,19.562,41.\
-536,19.757z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-fff\x22 d=\x22M42.243,\
-27.536l-0.707,0.\
-707c-0.195,0.195\
--0.512,0.195-0.7\
-07,0l-7.071-7.07\
-1 c-0.195-0.195-\
-0.195-0.512,0-0.\
-707l0.707-0.707c\
-0.195-0.195,0.51\
-2-0.195,0.707,0l\
-7.071,7.071 C42.\
-438,27.024,42.43\
-8,27.34,42.243,2\
-7.536z\x22 />\x0d\x0a</sv\
-g>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#3F51B\
+5\x22 d=\x22M39,43H9c-\
+2.2,0-4-1.8-4-4V\
+9c0-2.2,1.8-4,4-\
+4h30c2.2,0,4,1.8\
+,4,4v30C43,41.2,\
+41.2,43,39,43z\x22/\
+>\x0a    <path fill\
+=\x22#B3E5FC\x22 d=\x22M3\
+3.6,25.4c0.1-0.4\
+,0.1-0.9,0.1-1.4\
+s0-0.9-0.1-1.4l2\
+.8-2c0.3-0.2,0.4\
+-0.6,0.2-0.9l-2.\
+7-4.6 c-0.2-0.3-\
+0.5-0.4-0.8-0.3L\
+30,16.3c-0.7-0.6\
+-1.5-1-2.4-1.4l-\
+0.3-3.4c0-0.3-0.\
+3-0.6-0.6-0.6h-5\
+.3c-0.3,0-0.6,0.\
+3-0.6,0.6L20.4,1\
+5 c-0.9,0.3-1.6,\
+0.8-2.4,1.4l-3.1\
+-1.4c-0.3-0.1-0.\
+7,0-0.8,0.3l-2.7\
+,4.6c-0.2,0.3-0.\
+1,0.7,0.2,0.9l2.\
+8,2c-0.1,0.4-0.1\
+,0.9-0.1,1.4 s0,\
+0.9,0.1,1.4l-2.8\
+,2c-0.3,0.2-0.4,\
+0.6-0.2,0.9l2.7,\
+4.6c0.2,0.3,0.5,\
+0.4,0.8,0.3l3.1-\
+1.4c0.7,0.6,1.5,\
+1,2.4,1.4l0.3,3.\
+4 c0,0.3,0.3,0.6\
+,0.6,0.6h5.3c0.3\
+,0,0.6-0.3,0.6-0\
+.6l0.3-3.4c0.9-0\
+.3,1.6-0.8,2.4-1\
+.4l3.1,1.4c0.3,0\
+.1,0.7,0,0.8-0.3\
+l2.7-4.6 c0.2-0.\
+3,0.1-0.7-0.2-0.\
+9L33.6,25.4z M24\
+,29c-2.8,0-5-2.2\
+-5-5c0-2.8,2.2-5\
+,5-5c2.8,0,5,2.2\
+,5,5C29,26.8,26.\
+8,29,24,29z\x22/>\x0a<\
+/svg>\x0a\
+\x00\x00\x02\x91\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#E8\
+EAF6\x22 points=\x2242\
+,39 6,39 6,23 24\
+,6 42,23\x22/>\x0a    \
+<g fill=\x22#C5CAE9\
+\x22>\x0a        <poly\
+gon points=\x2239,2\
+1 34,16 34,9 39,\
+9\x22/>\x0a        <re\
+ct x=\x226\x22 y=\x2239\x22 \
+width=\x2236\x22 heigh\
+t=\x225\x22/>\x0a    </g>\
+\x0a    <polygon fi\
+ll=\x22#B71C1C\x22 poi\
+nts=\x2224,4.3 4,22\
+.9 6,25.1 24,8.4\
+ 42,25.1 44,22.9\
+\x22/>\x0a    <rect x=\
+\x2218\x22 y=\x2228\x22 fill\
+=\x22#D84315\x22 width\
+=\x2212\x22 height=\x2216\
+\x22/>\x0a    <rect x=\
+\x2221\x22 y=\x2217\x22 fill\
+=\x22#01579B\x22 width\
+=\x226\x22 height=\x226\x22/\
+>\x0a    <path fill\
+=\x22#FF8A65\x22 d=\x22M2\
+7.5,35.5c-0.3,0-\
+0.5,0.2-0.5,0.5v\
+2c0,0.3,0.2,0.5,\
+0.5,0.5S28,38.3,\
+28,38v-2C28,35.7\
+,27.8,35.5,27.5,\
+35.5z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x01\x9d\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M12,40V8c0\
+-2.2,1.8-4,4-4h1\
+6c2.2,0,4,1.8,4,\
+4v32c0,2.2-1.8,4\
+-4,4H16C13.8,44,\
+12,42.2,12,40z\x22/\
+>\x0a    <path fill\
+=\x22#BBDEFB\x22 d=\x22M3\
+2,7H16c-0.6,0-1,\
+0.4-1,1v29c0,0.6\
+,0.4,1,1,1h16c0.\
+6,0,1-0.4,1-1V8C\
+33,7.4,32.6,7,32\
+,7z\x22/>\x0a    <rect\
+ x=\x2221\x22 y=\x2240\x22 f\
+ill=\x22#78909C\x22 wi\
+dth=\x226\x22 height=\x22\
+2\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x8f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#F57C0\
+0\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4V\
+11c0-2.2,1.8-4,4\
+-4h32c2.2,0,4,1.\
+8,4,4v26C44,39.2\
+,42.2,41,40,41z\x22\
+/>\x0a    <circle f\
+ill=\x22#FFF9C4\x22 cx\
+=\x2235\x22 cy=\x2216\x22 r=\
+\x223\x22/>\x0a    <polyg\
+on fill=\x22#942A09\
+\x22 points=\x2220,16 \
+9,32 31,32\x22/>\x0a  \
+  <polygon fill=\
+\x22#BF360C\x22 points\
+=\x2231,22 23,32 39\
+,32\x22/>\x0a</svg>\x0a\
+\x00\x00\x00\xc5\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#21\
+96F3\x22 points=\x2243\
+,17.1 39.9,14 24\
+,29.9 8.1,14 5,1\
+7.1 24,36\x22/>\x0a</s\
+vg>\x0a\
 \x00\x00\x10V\
 <\
 ?xml version=\x221.\
@@ -4618,450 +13793,116 @@ h -2.401364 c -0\
 \x22stroke-width:0.\
 0846298\x22 />\x0d\x0a</s\
 vg>\x0d\x0a\
-\x00\x00\x05&\
+\x00\x00\x02\xd9\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#c48c00\x22 d\
-=\x22M44,37H4v5c0,1\
-.105,0.895,2,2,2\
-h36c1.105,0,2-0.\
-895,2-2V37z\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x22mqGAn~AfK\
-UNcLhPwXVdula\x22 x\
-1=\x2224\x22 x2=\x2224\x22 y\
-1=\x2215.647\x22 y2=\x22-\
-.296\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#92a3b0\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.015\x22 sto\
-p-color=\x22#a3b5c4\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.032\x22 st\
-op-color=\x22#aec2d\
-1\x22 />\x0d\x0a    <stop\
- offset=\x22.046\x22 s\
-top-color=\x22#b2c6\
-d6\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-mqGAn~AfKUNcLhPw\
-XVdula)\x22 d=\x22M11,\
-13v3h4v-3c0-4.97\
-1,4.029-9,9-9h0c\
-4.971,0,9,4.029,\
-9,9v3h4v-3c0-7.1\
-8-5.82-13-13-13h\
-0 C16.82,0,11,5.\
-82,11,13z\x22 />\x0d\x0a \
- <path fill=\x22#fa\
-d500\x22 d=\x22M44,23H\
-4v-5c0-1.105,0.8\
-95-2,2-2h36c1.10\
-5,0,2,0.895,2,2V\
-23z\x22 />\x0d\x0a  <rect\
- width=\x2240\x22 heig\
-ht=\x227\x22 x=\x224\x22 y=\x22\
-23\x22 fill=\x22#edbe0\
-0\x22 />\x0d\x0a  <rect w\
-idth=\x2240\x22 height\
-=\x227\x22 x=\x224\x22 y=\x2230\
-\x22 fill=\x22#e3a600\x22\
- />\x0d\x0a  <linearGr\
-adient id=\x22mqGAn\
-~AfKUNcLhPwXVdul\
-b\x22 x1=\x2224\x22 x2=\x222\
-4\x22 y1=\x2235.373\x22 y\
-2=\x2227.155\x22 gradi\
-entUnits=\x22userSp\
-aceOnUse\x22>\x0d\x0a    \
-<stop offset=\x220\x22\
- stop-color=\x22#4b\
-4b4b\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-color=\x22#3b3b\
-3b\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-mqGAn~AfKUNcLhPw\
-XVdulb)\x22 d=\x22M27,\
-29c0-1.657-1.343\
--3-3-3s-3,1.343-\
-3,3c0,1.304,0.83\
-7,2.403,2,2.816V\
-35c0,0.552,0.448\
-,1,1,1 s1-0.448,\
-1-1v-3.184C26.16\
-3,31.403,27,30.3\
-04,27,29z\x22 />\x0d\x0a<\
-/svg>\
-\x00\x00\x07\xb8\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#546E7\
+A\x22 d=\x22M4,28V8c0-\
+2.2,1.8-4,4-4h28\
+c2.2,0,4,1.8,4,4\
+v20c0,2.2-1.8,4-\
+4,4H8C5.8,32,4,3\
+0.2,4,28z\x22/>\x0a   \
+ <path fill=\x22#BB\
+DEFB\x22 d=\x22M36,7H8\
+C7.4,7,7,7.4,7,8\
+v20c0,0.6,0.4,1,\
+1,1h28c0.6,0,1-0\
+.4,1-1V8C37,7.4,\
+36.6,7,36,7z\x22/>\x0a\
+    <path fill=\x22\
+#37474F\x22 d=\x22M38,\
+33H6c-2.2,0-4-1.\
+8-4-4v0h40v0C42,\
+31.2,40.2,33,38,\
+33z\x22/>\x0a    <path\
+ fill=\x22#E38939\x22 \
+d=\x22M24,40V16c0-2\
+.2,1.8-4,4-4h12c\
+2.2,0,4,1.8,4,4v\
+24c0,2.2-1.8,4-4\
+,4H28C25.8,44,24\
+,42.2,24,40z\x22/>\x0a\
+    <path fill=\x22\
+#FFF3E0\x22 d=\x22M40,\
+15H28c-0.6,0-1,0\
+.4-1,1v22c0,0.6,\
+0.4,1,1,1h12c0.6\
+,0,1-0.4,1-1V16C\
+41,15.4,40.6,15,\
+40,15z\x22/>\x0a    <c\
+ircle fill=\x22#A66\
+42A\x22 cx=\x2234\x22 cy=\
+\x2241.5\x22 r=\x221.5\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x03\xbf\
 <\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0d\x0a<svg\x0d\x0a   \
-viewBox=\x220 0 48 \
-48\x22\x0d\x0a   width=\x224\
-8px\x22\x0d\x0a   height=\
-\x2248px\x22\x0d\x0a   versi\
-on=\x221.1\x22\x0d\x0a   id=\
-\x22svg5\x22\x0d\x0a   sodip\
-odi:docname=\x22Unc\
-heck.svg\x22\x0d\x0a   in\
-kscape:version=\x22\
-1.4.2 (f4327f4, \
-2025-05-13)\x22\x0d\x0a  \
- xmlns:inkscape=\
-\x22http://www.inks\
-cape.org/namespa\
-ces/inkscape\x22\x0d\x0a \
-  xmlns:sodipodi\
-=\x22http://sodipod\
-i.sourceforge.ne\
-t/DTD/sodipodi-0\
-.dtd\x22\x0d\x0a   xmlns=\
-\x22http://www.w3.o\
-rg/2000/svg\x22\x0d\x0a  \
- xmlns:svg=\x22http\
-://www.w3.org/20\
-00/svg\x22>\x0d\x0a  <def\
-s\x0d\x0a     id=\x22defs\
-5\x22 />\x0d\x0a  <sodipo\
-di:namedview\x0d\x0a  \
-   id=\x22namedview\
-5\x22\x0d\x0a     pagecol\
-or=\x22#ffffff\x22\x0d\x0a  \
-   bordercolor=\x22\
-#000000\x22\x0d\x0a     b\
-orderopacity=\x220.\
-25\x22\x0d\x0a     inksca\
-pe:showpageshado\
-w=\x222\x22\x0d\x0a     inks\
-cape:pageopacity\
-=\x220.0\x22\x0d\x0a     ink\
-scape:pagechecke\
-rboard=\x220\x22\x0d\x0a    \
- inkscape:deskco\
-lor=\x22#d1d1d1\x22\x0d\x0a \
-    inkscape:zoo\
-m=\x2231.083333\x22\x0d\x0a \
-    inkscape:cx=\
-\x2224\x22\x0d\x0a     inksc\
-ape:cy=\x2224\x22\x0d\x0a   \
-  inkscape:windo\
-w-width=\x223072\x22\x0d\x0a\
-     inkscape:wi\
-ndow-height=\x22179\
-6\x22\x0d\x0a     inkscap\
-e:window-x=\x22-12\x22\
-\x0d\x0a     inkscape:\
-window-y=\x22-12\x22\x0d\x0a\
-     inkscape:wi\
-ndow-maximized=\x22\
-1\x22\x0d\x0a     inkscap\
-e:current-layer=\
-\x22svg5\x22 />\x0d\x0a  <li\
-nearGradient\x0d\x0a  \
-   id=\x22TpFkpHq7A\
-GWb~Tkla4kyga\x22\x0d\x0a\
-     x1=\x2224\x22\x0d\x0a  \
-   x2=\x2224\x22\x0d\x0a    \
- y1=\x226.121\x22\x0d\x0a   \
-  y2=\x2242.039\x22\x0d\x0a \
-    gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop\x0d\x0a\
-       offset=\x220\
-\x22\x0d\x0a       stop-c\
-olor=\x22#9dffce\x22\x0d\x0a\
-       id=\x22stop1\
-\x22 />\x0d\x0a    <stop\x0d\
-\x0a       offset=\x22\
-1\x22\x0d\x0a       stop-\
-color=\x22#50d18d\x22\x0d\
-\x0a       id=\x22stop\
-2\x22 />\x0d\x0a  </linea\
-rGradient>\x0d\x0a  <p\
-ath\x0d\x0a     fill=\x22\
-url(#TpFkpHq7AGW\
-b~Tkla4kyga)\x22\x0d\x0a \
-    d=\x22M40,42H8c\
--1.1,0-2-0.9-2-2\
-V8c0-1.1,0.9-2,2\
--2h32c1.1,0,2,0.\
-9,2,2v32C42,41.1\
-,41.1,42,40,42z\x22\
-\x0d\x0a     id=\x22path2\
-\x22 />\x0d\x0a  <linearG\
-radient\x0d\x0a     id\
-=\x22TpFkpHq7AGWb~T\
-kla4kygb\x22\x0d\x0a     \
-x1=\x2213\x22\x0d\x0a     x2\
-=\x2236\x22\x0d\x0a     y1=\x22\
-24.793\x22\x0d\x0a     y2\
-=\x2224.793\x22\x0d\x0a     \
-gradientUnits=\x22u\
-serSpaceOnUse\x22>\x0d\
-\x0a    <stop\x0d\x0a    \
-   offset=\x22.824\x22\
-\x0d\x0a       stop-co\
-lor=\x22#135d36\x22\x0d\x0a \
-      id=\x22stop3\x22\
- />\x0d\x0a    <stop\x0d\x0a\
-       offset=\x22.\
-931\x22\x0d\x0a       sto\
-p-color=\x22#125933\
-\x22\x0d\x0a       id=\x22st\
-op4\x22 />\x0d\x0a    <st\
-op\x0d\x0a       offse\
-t=\x221\x22\x0d\x0a       st\
-op-color=\x22#11522\
-f\x22\x0d\x0a       id=\x22s\
-top5\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a<\
-/svg>\x0d\x0a\
-\x00\x00\x04\xa7\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22_H\
-zYuvX_qbk4PQEDGR\
-3ELa\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#33bef0\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#22a5e2\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#_HzYuvX\
-_qbk4PQEDGR3ELa)\
-\x22 d=\x22M44,24c0,11\
-.045-8.955,20-20\
-,20S4,35.045,4,2\
-4S12.955,4,24,4S\
-44,12.955,44,24z\
-\x22 />\x0d\x0a  <radialG\
-radient id=\x22_HzY\
-uvX_qbk4PQEDGR3E\
-Lb\x22 cx=\x2224\x22 cy=\x22\
-24\x22 r=\x2218.5\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-.847\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-opacity=\x220\x22 \
-/>\x0d\x0a  </radialGr\
-adient>\x0d\x0a  <circ\
-le cx=\x2224\x22 cy=\x222\
-4\x22 r=\x2218.5\x22 fill\
-=\x22url(#_HzYuvX_q\
-bk4PQEDGR3ELb)\x22 \
-opacity=\x22.15\x22 />\
-\x0d\x0a  <radialGradi\
-ent id=\x22_HzYuvX_\
-qbk4PQEDGR3ELc\x22 \
-cx=\x2214.575\x22 cy=\x22\
-11.186\x22 r=\x2233.45\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#fafafb\x22 />\x0d\
-\x0a    <stop offse\
-t=\x22.293\x22 stop-co\
-lor=\x22#f6f7f8\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.566\x22 stop-c\
-olor=\x22#ebecee\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.832\x22 stop-\
-color=\x22#d8dcdf\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#c8cdd1\x22 />\
-\x0d\x0a  </radialGrad\
-ient>\x0d\x0a  <circle\
- cx=\x2224\x22 cy=\x2224\x22\
- r=\x2217\x22 fill=\x22ur\
-l(#_HzYuvX_qbk4P\
-QEDGR3ELc)\x22 />\x0d\x0a\
-</svg>\
-\x00\x00\x02\xc3\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#ed3675\x22 d\
-=\x22M20,24c-5.523,\
-0-10,4.477-10,10\
-s4.477,10,10,10s\
-10-4.477,10-10S2\
-5.523,24,20,24z\x22\
- />\x0d\x0a  <linearGr\
-adient id=\x22thMIb\
-MD7~VnYoyixFJ5D6\
-a\x22 x1=\x2230\x22 x2=\x224\
-1\x22 y1=\x228\x22 y2=\x228\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x220\x22 stop-colo\
-r=\x22#bd1949\x22 />\x0d\x0a\
-    <stop offset\
-=\x22.108\x22 stop-col\
-or=\x22#c31a4b\x22 />\x0d\
-\x0a    <stop offse\
-t=\x22.38\x22 stop-col\
-or=\x22#ca1b4d\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#cc1b4e\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#thMIbMD7~\
-VnYoyixFJ5D6a)\x22 \
-d=\x22M39,12h-9V4h9\
-c1.105,0,2,0.895\
-,2,2v4C41,11.105\
-,40.105,12,39,12\
-z\x22 />\x0d\x0a  <path f\
-ill=\x22#ed3675\x22 d=\
-\x22M30,4h-2c-2.209\
-,0-4,1.791-4,4v2\
-6h6V4z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x06\xac\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#eb6773\x22 d\
-=\x22M37,6c0-1.105-\
-0.895-2-2-2H13c-\
-1.105,0-2,0.895-\
-2,2v4h26V6z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-b31523\x22 d=\x22M11,4\
-1.72c0,0.996,1.0\
-92,1.606,1.94,1.\
-084L24,35.998l11\
-.06,6.806C35.908\
-,43.326,37,42.71\
-6,37,41.72 V30H1\
-1V41.72z\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x2212\x22 x=\x22\
-11\x22 y=\x2218\x22 fill=\
-\x22#cf1928\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x228\x22 x=\x221\
-1\x22 y=\x2210\x22 fill=\x22\
-#d9414f\x22 />\x0d\x0a  <\
-path d=\x22M37,13.8\
-68c-0.143,0.134-\
-0.27,0.287-0.354\
-,0.476l-2.417,5.\
-419l-5.902,0.623\
- c-0.59,0.063-1.\
-07,0.454-1.253,1\
-.019c-0.184,0.56\
-5-0.023,1.164,0.\
-418,1.56l4.408,3\
-.973l-1.232,5.80\
-5 c-0.093,0.439,\
-0.015,0.892,0.29\
-7,1.24c0.28,0.34\
-6,0.712,0.553,1.\
-155,0.553c0.256,\
-0,0.512-0.068,0.\
-741-0.199L37,31.\
-947V13.868z\x22 opa\
-city=\x22.05\x22 />\x0d\x0a \
- <path d=\x22M37,14\
-.777l-2.431,5.45\
-3l-6.188,0.653c-\
-0.392,0.042-0.71\
-,0.302-0.831,0.6\
-76 c-0.122,0.375\
--0.015,0.771,0.2\
-77,1.034l4.622,4\
-.165l-1.292,6.08\
-7c-0.062,0.292,0\
-.01,0.592,0.196,\
-0.822s0.473,0.36\
-7,0.767,0.367 c0\
-.17,0,0.34-0.046\
-,0.491-0.132L37,\
-31.37V14.777z\x22 o\
-pacity=\x22.07\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x22sVVMIiOtU\
-ETG57~p7RkEia\x22 x\
-1=\x2230.747\x22 x2=\x224\
-4.819\x22 y1=\x22-371.\
-32\x22 y2=\x22-390.147\
-\x22 gradientTransf\
-orm=\x22matrix(1 0 \
-0 -1 0 -356)\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#ffda1c\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#f\
-eb705\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#sVVMIiOtUETG5\
-7~p7RkEia)\x22 d=\x22M\
-38.442,14.751l2.\
-651,5.946l6.474,\
-0.684c0.417,0.04\
-4,0.584,0.56,0.2\
-73,0.841l-4.836,\
-4.358 l1.351,6.3\
-69c0.087,0.41-0.\
-352,0.729-0.715,\
-0.52L38,30.215l-\
-5.639,3.253c-0.3\
-63,0.209-0.802-0\
-.11-0.715-0.52l1\
-.351-6.369 l-4.8\
-36-4.358c-0.311-\
-0.28-0.143-0.797\
-,0.273-0.841l6.4\
-74-0.684l2.651-5\
-.946C37.728,14.3\
-69,38.271,14.369\
-,38.442,14.751z\x22\
- />\x0d\x0a</svg>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF572\
+2\x22 d=\x22M32,15v28H\
+10c-2.2,0-4-1.8-\
+4-4V15H32z\x22/>\x0a  \
+  <path fill=\x22#F\
+FCCBC\x22 d=\x22M14,5v\
+34c0,2.2-1.8,4-4\
+,4h29c2.2,0,4-1.\
+8,4-4V5H14z\x22/>\x0a \
+   <g fill=\x22#FF5\
+722\x22>\x0a        <r\
+ect x=\x2220\x22 y=\x2210\
+\x22 width=\x2218\x22 hei\
+ght=\x224\x22/>\x0a      \
+  <rect x=\x2220\x22 y\
+=\x2217\x22 width=\x228\x22 \
+height=\x222\x22/>\x0a   \
+     <rect x=\x2230\
+\x22 y=\x2217\x22 width=\x22\
+8\x22 height=\x222\x22/>\x0a\
+        <rect x=\
+\x2220\x22 y=\x2221\x22 widt\
+h=\x228\x22 height=\x222\x22\
+/>\x0a        <rect\
+ x=\x2230\x22 y=\x2221\x22 w\
+idth=\x228\x22 height=\
+\x222\x22/>\x0a        <r\
+ect x=\x2220\x22 y=\x2225\
+\x22 width=\x228\x22 heig\
+ht=\x222\x22/>\x0a       \
+ <rect x=\x2230\x22 y=\
+\x2225\x22 width=\x228\x22 h\
+eight=\x222\x22/>\x0a    \
+    <rect x=\x2220\x22\
+ y=\x2229\x22 width=\x228\
+\x22 height=\x222\x22/>\x0a \
+       <rect x=\x22\
+30\x22 y=\x2229\x22 width\
+=\x228\x22 height=\x222\x22/\
+>\x0a        <rect \
+x=\x2220\x22 y=\x2233\x22 wi\
+dth=\x228\x22 height=\x22\
+2\x22/>\x0a        <re\
+ct x=\x2230\x22 y=\x2233\x22\
+ width=\x228\x22 heigh\
+t=\x222\x22/>\x0a        \
+<rect x=\x2220\x22 y=\x22\
+37\x22 width=\x228\x22 he\
+ight=\x222\x22/>\x0a     \
+   <rect x=\x2230\x22 \
+y=\x2237\x22 width=\x228\x22\
+ height=\x222\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
 \x00\x00\x07\xd5\
 <\
 ?xml version=\x221.\
@@ -5190,138 +14031,128 @@ color=\x22#11522f\x22\x0d\
 5\x22 />\x0d\x0a  </linea\
 rGradient>\x0d\x0a</sv\
 g>\x0d\x0a\
-\x00\x00\x08\x17\
+\x00\x00\x02!\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x223Z\
-iVhXF2zC5Hwg7NbM\
-ctDa\x22 cx=\x2230.146\
-\x22 cy=\x2217.914\x22 r=\
-\x2217.08\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x22.771\x22\
- stop-color=\x22#78\
-7f85\x22 />\x0d\x0a    <s\
-top offset=\x22.819\
-\x22 stop-color=\x22#8\
-38a91\x22 />\x0d\x0a    <\
-stop offset=\x22.93\
-1\x22 stop-color=\x22#\
-99a1aa\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#a1\
-aab3\x22 />\x0d\x0a  </ra\
-dialGradient>\x0d\x0a \
- <path fill=\x22url\
-(#3ZiVhXF2zC5Hwg\
-7NbMctDa)\x22 d=\x22M1\
-7.464,21.808l8.7\
-28,8.728L14.536,\
-42.192c-2.41,2.4\
-1-6.318,2.41-8.7\
-28,0l0,0 c-2.41-\
-2.41-2.41-6.318,\
-0-8.728L17.464,2\
-1.808z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x223ZiVhXF2zC5Hwg\
-7NbMctDb\x22 x1=\x2219\
-.314\x22 x2=\x2238.806\
-\x22 y1=\x228.669\x22 y2=\
-\x2228.161\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x220\x22 s\
-top-color=\x22#a1aa\
-b3\x22 />\x0d\x0a    <sto\
-p offset=\x221\x22 sto\
-p-color=\x22#8f979e\
-\x22 />\x0d\x0a  </linear\
-Gradient>\x0d\x0a  <pa\
-th fill=\x22url(#3Z\
-iVhXF2zC5Hwg7NbM\
-ctDb)\x22 d=\x22M36.88\
-3,19.304c-2.261,\
-2.261-5.927,2.26\
-1-8.188,0c-2.261\
--2.261-2.261-5.9\
-27,0-8.188 c0.55\
-2-0.552,2.775-2.\
-775,5.04-5.04c0.\
-543-0.543,0.302-\
-1.492-0.444-1.67\
-5c-1.836-0.452-3\
-.811-0.546-5.866\
--0.159 c-6.026,1\
-.136-10.725,6.17\
-8-11.35,12.279c-\
-0.912,8.895,6.51\
-1,16.317,15.406,\
-15.403c6.1-0.627\
-,11.141-5.326,12\
-.276-11.352 c0.3\
-87-2.054,0.292-4\
-.028-0.159-5.864\
-c-0.184-0.746-1.\
-132-0.987-1.675-\
-0.444C39.658,16.\
-529,37.435,18.75\
-3,36.883,19.304z\
-\x22 />\x0d\x0a  <linearG\
-radient id=\x223ZiV\
-hXF2zC5Hwg7NbMct\
-Dc\x22 x1=\x2212.789\x22 \
-x2=\x227.182\x22 y1=\x224\
-0.789\x22 y2=\x2235.18\
-2\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#fff\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.242\x22 stop-colo\
-r=\x22#f2f2f2\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#ccc\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <circle cx=\x2210\
-\x22 cy=\x2238\x22 r=\x224\x22 \
-fill=\x22url(#3ZiVh\
-XF2zC5Hwg7NbMctD\
-c)\x22 />\x0d\x0a  <linea\
-rGradient id=\x223Z\
-iVhXF2zC5Hwg7NbM\
-ctDd\x22 x1=\x228.129\x22\
- x2=\x2211.411\x22 y1=\
-\x2236.129\x22 y2=\x2239.\
-411\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x220\x22 stop-\
-color=\x22#0d61a9\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x22.363\x22 stop\
--color=\x22#0e5fa4\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.78\x22 stop\
--color=\x22#135796\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#16528c\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <circl\
-e cx=\x2210\x22 cy=\x2238\
-\x22 r=\x222\x22 fill=\x22ur\
-l(#3ZiVhXF2zC5Hw\
-g7NbMctDd)\x22 />\x0d\x0a\
-</svg>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#263238\x22>\
+\x0a        <path d\
+=\x22M11,44H9c-0.6,\
+0-1-0.4-1-1v-2h4\
+v2C12,43.6,11.6,\
+44,11,44z\x22/>\x0a   \
+     <path d=\x22M3\
+9,44h-2c-0.6,0-1\
+-0.4-1-1v-2h4v2C\
+40,43.6,39.6,44,\
+39,44z\x22/>\x0a    </\
+g>\x0a    <path fil\
+l=\x22#37474F\x22 d=\x22M\
+27,7h-6c-1.7,0-3\
+,1.3-3,3v3h2v-3c\
+0-0.6,0.4-1,1-1h\
+6c0.6,0,1,0.4,1,\
+1v3h2v-3C30,8.3,\
+28.7,7,27,7z\x22/>\x0a\
+    <path fill=\x22\
+#78909C\x22 d=\x22M40,\
+43H8c-2.2,0-4-1.\
+8-4-4V15c0-2.2,1\
+.8-4,4-4h32c2.2,\
+0,4,1.8,4,4v24C4\
+4,41.2,42.2,43,4\
+0,43z\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x01\x99\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#37474\
+F\x22 d=\x22M8,41V7c0-\
+2.2,1.8-4,4-4h24\
+c2.2,0,4,1.8,4,4\
+v34c0,2.2-1.8,4-\
+4,4H12C9.8,45,8,\
+43.2,8,41z\x22/>\x0a  \
+  <path fill=\x22#B\
+BDEFB\x22 d=\x22M36,6H\
+12c-0.6,0-1,0.4-\
+1,1v31c0,0.6,0.4\
+,1,1,1h24c0.6,0,\
+1-0.4,1-1V7C37,6\
+.4,36.6,6,36,6z\x22\
+/>\x0a    <rect x=\x22\
+21\x22 y=\x2241\x22 fill=\
+\x22#78909C\x22 width=\
+\x226\x22 height=\x222\x22/>\
+\x0a</svg>\x0a\
+\x00\x00\x01b\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00BCD\
+4\x22 d=\x22M24,6C14.1\
+,6,6,14.1,6,24s8\
+.1,18,18,18c5.2,\
+0,9.9-2.2,13.1-5\
+.7L24,24V6z\x22/>\x0a \
+   <path fill=\x22#\
+448AFF\x22 d=\x22M42,2\
+4c0-9.9-8.1-18-1\
+8-18v18H42z\x22/>\x0a \
+   <path fill=\x22#\
+3F51B5\x22 d=\x22M24,2\
+4l13.1,12.3c3-3.\
+2,4.9-7.5,4.9-12\
+.3H24z\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x01\xdf\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2240\
+,45 8,45 8,3 30,\
+3 40,13\x22/>\x0a    <\
+polygon fill=\x22#E\
+1F5FE\x22 points=\x223\
+8.5,14 29,14 29,\
+4.5\x22/>\x0a    <g fi\
+ll=\x22#1976D2\x22>\x0a  \
+      <rect x=\x221\
+6\x22 y=\x2221\x22 width=\
+\x2217\x22 height=\x222\x22/\
+>\x0a        <rect \
+x=\x2216\x22 y=\x2225\x22 wi\
+dth=\x2213\x22 height=\
+\x222\x22/>\x0a        <r\
+ect x=\x2216\x22 y=\x2229\
+\x22 width=\x2217\x22 hei\
+ght=\x222\x22/>\x0a      \
+  <rect x=\x2216\x22 y\
+=\x2233\x22 width=\x2213\x22\
+ height=\x222\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
 \x00\x00\x05R\
 <\
 ?xml version=\x221.\
@@ -5410,259 +14241,25 @@ roup\x22>\x0d\x0a\x0d\x0a</path\
 >\x0d\x0a        </g>\x0d\
 \x0a    </g>\x0d\x0a</svg\
 >\
-\x00\x00\x07\xce\
+\x00\x00\x01\x0b\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22g5\
-dniRY~PPjSqIO9PS\
-W_ia\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x228.979\x22\
- y2=\x226.308\x22 grad\
-ientUnits=\x22userS\
-paceOnUse\x22>\x0d\x0a   \
- <stop offset=\x220\
-\x22 stop-color=\x22#b\
-33f20\x22 />\x0d\x0a    <\
-stop offset=\x22.12\
-9\x22 stop-color=\x22#\
-c74724\x22 />\x0d\x0a    \
-<stop offset=\x22.2\
-95\x22 stop-color=\x22\
-#d94f29\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-469\x22 stop-color=\
-\x22#e4532b\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.659\x22 stop-color\
-=\x22#e8552c\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#g5dniRY~P\
-PjSqIO9PSW_ia)\x22 \
-d=\x22M28.5,6h-9C18\
-.672,6,18,6.672,\
-18,7.5V9h12V7.5C\
-30,6.672,29.328,\
-6,28.5,6z\x22 />\x0d\x0a \
- <radialGradient\
- id=\x22g5dniRY~PPj\
-SqIO9PSW_ib\x22 cx=\
-\x2223.832\x22 cy=\x225.9\
-92\x22 r=\x2245.74\x22 gr\
-adientTransform=\
-\x22matrix(1 0 0 .8\
-044 0 1.172)\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#40150b\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-156\x22 stop-color=\
-\x22#622110\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.417\x22 stop-color\
-=\x22#953218\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.645\x22 stop-colo\
-r=\x22#ba3f1e\x22 />\x0d\x0a\
-    <stop offset\
-=\x22.828\x22 stop-col\
-or=\x22#d14722\x22 />\x0d\
-\x0a    <stop offse\
-t=\x22.944\x22 stop-co\
-lor=\x22#d94a23\x22 />\
-\x0d\x0a  </radialGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#g5dniR\
-Y~PPjSqIO9PSW_ib\
-)\x22 d=\x22M42,41H6c-\
-1.1,0-2-0.9-2-2V\
-13c0-2.2,1.8-4,4\
--4h32c2.2,0,4,1.\
-8,4,4v26C44,40.1\
-,43.1,41,42,41z\x22\
- />\x0d\x0a  <linearGr\
-adient id=\x22g5dni\
-RY~PPjSqIO9PSW_i\
-c\x22 x1=\x2224\x22 x2=\x222\
-4\x22 y1=\x229.028\x22 y2\
-=\x2226.927\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x220\x22 \
-stop-color=\x22#fc7\
-d5b\x22 />\x0d\x0a    <st\
-op offset=\x22.06\x22 \
-stop-color=\x22#f87\
-34f\x22 />\x0d\x0a    <st\
-op offset=\x22.18\x22 \
-stop-color=\x22#f36\
-53d\x22 />\x0d\x0a    <st\
-op offset=\x22.326\x22\
- stop-color=\x22#f0\
-5b31\x22 />\x0d\x0a    <s\
-top offset=\x22.523\
-\x22 stop-color=\x22#e\
-e552a\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-color=\x22#ed5\
-328\x22 />\x0d\x0a  </lin\
-earGradient>\x0d\x0a  \
-<path fill=\x22url(\
-#g5dniRY~PPjSqIO\
-9PSW_ic)\x22 d=\x22M42\
-.297,25.255L24,2\
-8L5.703,25.255C4\
-.724,25.109,4,24\
-.268,4,23.278V13\
-c0-2.2,1.8-4,4-4\
-h32 c2.2,0,4,1.8\
-,4,4v10.278C44,2\
-4.268,43.276,25.\
-109,42.297,25.25\
-5z\x22 />\x0d\x0a  <path \
-fill=\x22#f6eca5\x22 d\
-=\x22M25.5,21h-3c-0\
-.276,0-0.5,0.224\
--0.5,0.5v3c0,0.2\
-76,0.224,0.5,0.5\
-,0.5h3c0.276,0,0\
-.5-0.224,0.5-0.5\
-v-3 C26,21.224,2\
-5.776,21,25.5,21\
-z\x22 />\x0d\x0a</svg>\
-\x00\x00\x05!\
-\x00\
-\x00\x15\x1dx\xda\xc5\x98Mo\xdb8\x10\x86\xef\x0b\xec\
-\x7f\x10\x94\xcb.0\x96\xf9%QZ\xc4=\xac\x0f\x9b\
-KP\x14\x8b\xe6\xd0[\xa2\xd8\x96\x17N\x1c\xd8^;\
-\xe9\xaf\xdf\x19\x0eE\xd1vY,\x8a\xc0E\x0br8\
-\xf3\x8azLQ~\x19_o\xf7\x8b\xec\xf5i\xf5\xbc\
-\x9d\xe4\xddn\xf7\xf2\xc7x|8\x1c\x8a\x83.\xd6\x9b\
-\xc5X\x09!\xc6\xa8\xc8\xb3\xfdrv\xf8s\xfd:\xc9\
-E&2S\xe3\xff<;,\x1fw\xdd$7\xf5\xcb\
-k\x9eu\xb3\xe5\xa2\xdb\xf9\xd1\x87_\x7f\xc9\xb2\xeb\xd5\
-\xf2yv\xbf\xf9ks\xff\xb8\x9c=\xef\xb2\xe5\xe3$\
-\x9fN\x9b\xf5\x97/\xb7_\xff\xd9>-\x1f>\xdd>\
-\xedo\xdf>\x1e\xee\xf3\xecUNre\xb0W\xdc\xbf\
-\xe1X\xdaB\x94\x1ac\xcc\x19Q\xc8\xaa\xca\xb3\x85\x9f\
-\xec\xf3\xf3r\x87\xc4\xffng\x9b\xbf_\xee\xdb\xd9\xc7\
-\xe7\xcf\xdb\x19\xdf\x16o\xbc\xdd\xad_\xb2\xf5|\xbe\x9d\
-!PQ#*eF\xedz\xb5\xdeL\xf2\xab\xd6\xca\
-F\xe1d\xe3\x94^\x9f\x5c\xf0P\xcaJ\xe9\xef\x5cP\
-\x9d\x5c\xd0\xb4R\xcby\x7f\xc1\xf5\xf8x%8\xf9r\
-\xbf\xeb\xb2\xf9r\xb5\xc2\x8f\xb1Y\xfdv\xf5\xed\xa5\xf9\
-=\xcfp\xd9n\x0dH\xdb\x19\xb1W\xb2\x15 \x0b)\
-\xca\x91(\xea\xa6\x045R\xa0n\xaav\xe4\x92 F\
-\x8a\x0b\xd8\xab;i\xbf\x06\x86\xe8vW\xb3\x87\xcaZ\
-\xedg\xa6\xa9\xf7#]H\xabZ\x81\x17\x97\x1a\x1b%\
-%\xce(tC\x89\xba\xc2\xd8H\xb3\xc2\xaeV5\xb7\
-S#I\x05\xd2\x89\x01\x1f\x90\x15\x0aG\x14\xe1T\x18\
-\xddX\xd2e\xad\x9b\x13\xc9\xdc|\xd0\xcf\x8d\xf3\x81\x9b\
-\xdb\xcf\x0a~V\x9eT\x15\xb6n\x00\xd1t\xa1\x9a\x9a\
-\x03,\xe3'\xba1f\xf8P\xffw\x87=\xf0\x0e\x93\
-\x15\xef0\xadx\x87\xd5E\xc9\xdb\xcb\x05?\xb0\xb7\xc4\
-\xc9s/g\xf4/\xb5Q\xe4\xa9\xda\xd0\xbfw\xd8%\
-\x0f~\x97h\x5cP\xb0\xddH\xea\xa9\xac\x8a\x0a\x9f\x82\
-\x05Y\x81u!\x06\xf81\xef\xa4\xe8du\x87\xd1T\
-+_\xd1\xb2\xd0\xf8\x00,\xf0\xf5'{\xc6MlA\
-\xc9\xa2\x11M7R\xb4\xd5Di\xdc\x03\xc5\x0cm\xb7\
-\xb2\xf4\xb1k\xf7#\xd3\x8a^4\x14!\x92t*k\
-\xbd\x80\xd3,\x84H\xb87S]\xbb\xa1b%\x8e\xa8\
-c\x0e\x08DH\xbb\xc6\xa7\xb4\xdc\xbd\xe1\x9b(d\x9d\
-\x82\xafe\xdd\xc3\x0b\x86\xc7\x0c\xc1K\xe3c\xd7\x06x\
-\xe1\xe0\xfb\x22D\x12\x0f/\x18\x9e\x8aN\x08\x91\x90\xe1\
-i\xa8XI\xf0\xc2x\x0e\x08D\xc7\xf0\xbaJ\xc1[\
-e\x1d\xbc(\x1a\xbf\xf2\x98\xc1\x11\xbe\xc5>v-\xc3\
-{\xd1P\x84HB\xf0^\xc0i\x16B$dx\x1a\
-*Vj\xeb:\xe6\x80@t\x0c\x1fm\xe4\x13\xf8J\
-W=\xbc_y\xcc\x10\xbc\xd6>vm\x80w+\x1f\
-\x8a\x10I<\xbc_y*:!DB\x86\xa7\xa1b\
-%\xc1\xf3\xcaS2\x10\x1d\xc3[\x9d\x82\xc77\xd4\xc3\
-\xd7~\xe51\x83\xa3\xaaQ>vm\x0f\xefDC\x11\
-\x22\x09\xc3\xd7~\xe5\xa9\xe8\x84\x10\x09\x19\x9e\x86\x8a\x95\
-\x08_\xf3\xcaS2\x10\x1d\xc372\x05o\xca\x00/\
-\xf8\x1b\x183\x04_J\x1f\xbb6\xc0\x93h(B$\
-\xf1\xf0$\xe04\x0b!\x122<\x0d\x15+\x09\x1e;\
-\xe6\x80@t\x04/E\x93\x82\xd7\x95\xf1\xf0\xd6\xdb\x07\
-f\x08\xde\xd9\x07\xc5\xae\xed\xe1\x9dh(B$ax\
-'\xe04\x0b!\x122<\x0d\x15+\x11\x9e:\xe6\x80\
-@t\x0c\xafl\x0a^Y\xdd\xc3\xfb\x95\xc7\x0c\x19\xa1\
-\xf5\xa1k\x03\xbb[\xf8\xbe\x06\x91\xc2\xa3\xfbu\xa7\x22\
-\xe9 \xd219\x0d\x15\x0b\x89\x9c\x97\x9d\x92\x01\xe7\x98\
-\xdc\x94)rY+O^\xf9e\xc7\x0c\x91\xab\xc6\xc7\
-\xae\xed\xd1\x9dh(B$a\xf6\xca/;\x15\x9d\x10\
-\x22!\xc3\xd3P\xb1\x12\xe1+^vJ\x06\xa2c\xf8\
-*\xf9U\x83\xefB\x0f\x8f\x87\x11\xf7=\xdeH\x1c\x99\
-\xba\xf6\xb1k\x03<\x89\x86\x22D\x12\x0fO\x02N\xb3\
-\x10\x22!\xc3\xd3P\xb1\x92\xe0\xb1c\x0e\x08D\xc7\xf0\
-\xb5J\xc0{\xf0\xb2t\xe0\x04m\x90k\x14`]\x81\
-\x93\x80\xe9\x0eOk\x9c\x03\xc9y\xec\x91)C(\x02\
-\xa2\x12\x02Q\xa7<\xcc\x11\xc8\x80\xb1\xe8\x0f+\x81G\
-\xea\x9fa\xf7\xd2\xc4v\x8f\xa3\xc8\xee\x03Q\xca\xee\xcf\
-\xf1/m\xf8\x08\x1c\x19>\xe1\x0f\x86\x1f\x88R\x86\x7f\
-\x8e\x7fi\xcbG\xe0\xc8\xf2\xf1\xb8\x1dY~ JY\
-\xfe9\xfe\xa5M\x1f\xf1#\xd3'\xfc\xc1\xf4\x03Q\xca\
-\xf4\xcf\xf1/m\xfb\x88\x1f\xd9>\xfd\xb13\xd8~ \
-J\xd9\xfe9\xfe\xa5\x8d\x1f\xf1#\xe3'\xfc\xc1\xf8\x03\
-Q\xca\xf8\xcf\xf1/m\xfd\x88\x1fY?\xe2G\xd6\x1f\
-\x88R\xd6\x7f\x8e\x7fQ\xf3G\xf6\xc8\xfc\x89}0\xff\
-\x80\x932\xffs\xf6K\xdb?\xe2G\xf6\x8f\xf8\x91\xfd\
-\x07\xa2\x94\xfd\x9f\xe3_\xfa\x00@_\xf3\xc3\x01\x80\xf0\
-\x87\x03@ J\x1d\x00\xce\xf0\xdf\xed\x08 M\x7f\x04\
-@$\x7f\x04pwH\x1c\x01\xc6\x8b\xf3\x1f\x89\xe6\xf3\
-\xb9\xffU\x01\xdf\xe12u\xafV\x80\xcb\x8f|\x8e\xc8\
-\xbe\xf31\xf0t\x82\xafT\xe9\xb4\xda\xf0%\xf8\xb7\x01\
-\xdd\xe1\xdb?U\x05\x0azi\xdf\x8fB\x8a\x9eB\x8a\
-\x9e\xc2\xdd\xc1S\x5c\xd3\xaf\x9e\x1f\xfe\x03\x8c\x8d\xc0\x12\
-\
-\x00\x00\x02k\
-\x00\
-\x00\x08|x\xda\xddV\xcb\x8e\xd30\x14\xdd#\xf1\x0f\
-\x96\xbb\x01)q\xfc\xcc\x035\xb3\xa0\x82\x8eDF\xb3\
-@3[\xe4\xe6\xd1\x06\x85&JB[\xe6\xeb\xb9\xae\
-\xd3\xd7\xa8\xa02\x9d\x15j\x93\xdb\xeb\xf8\x1c\xdf\xe3s\
-\xe5t\xdc\xad\xe6h\xf3\xa3Zv1^\xf4}\xf3\xc1\
-\xf3\xd6\xeb5Y\x0bR\xb7s\x8fSJ=\x98\x81\xd1\
-\xaa\xcc\xd7\x1f\xebM\x8c)\xa2H\x86\xf0\xc5h]f\
-\xfd\x22\xc62l6\x18-\xf2r\xbe\xe8\x87\xec\xe6\xed\
-\x1b\x84\xc6U\xb9\xccu;muV\xe6\xcb\x1e\x95Y\
-\x8c'\xd3\xe4\xdb\xf4\xcbd\xf3\xd4\xe4\x93G\xf6\xf9\xfe\
-\xf6SW|\xd7\x18mX\x8c\x99\x82\xc8m\xfc\x05\xb9\
-`\x10!\x97\x10\xe7\x03\xc9\xc3\xb2\xec\xa1\xd2\x9f]\xde\
-~mt\x9a\xdf/\x1f\xba\xdc.\x07\x0bv}\xdd\xa0\
-\xba(\xba\x1c\x0a\xa1\x18\x99\xdcM\xeb\xaanc<\xd2\
-L\xeb\x99\xc0\xc8;;\x9b=\x9b\x1d\x16Q\x10\xe5\xbb\
-\xd9c\xefT\x8b\x1dlt\xbf@EYUPP[\
-\xbd\x1b\x9d\x17\xf7\x1e#\x10~\xc7\x84#\x02\x12=\x0a\
-\x9eR\x97\x12\x1f.\xe92\xf3\xe9\x5c\xe6l\x13\x87\xad\
-\x14\x89R\xea0\x12\xc1\xc5\x1dA\x98#\xcc}\xe5\xf2\
-\x09\x13D9\x02\x1e\xc0HHl\x04\xc2't\xc7\xc2\
-k\xa9\xc3\x81:\x1c\xa8-\xe1\xd3^\xfe\xa5N\xce\xac\
-\x93<\xb2N\x9a\xf8\xff89\x1b\x9c\xe4\xc1\x95\xdb\xcd\
-\x03\xbb\xdd\x86\xc8l\xf7@\x08N\x0a~%\xb5\xe0\x96\
-\xda\x10\x19\xea\x81\xf0\xe0\xe4\x91\xd2\x91\x92\x99.\x0a+\
-J*p=\x11\xcc\x09*\x178\xa4t\xa0H\xe5'\
-\xdb\xf1\xf3p\xa1RV0\x0b7\xc0\xc4w\x98\x04\xb4\
-\xe3W\x5c\x12\xa9|W\x11)\xe5\x96\xf4\x0f\x0cB\x17\
-yzT@\xe52\xdf,\xee\x0a\x83\xac\x18\x91\x01\x0c\
-S\x12=\xaf\xe3\xd2\x86L\x87\xa3\xc5'\x91\xbf;^\
-\x86\xdf\xa61\x994\x22ms\xf2\xe0U\x9aS0=\
-3\x9a.kN\xa6B\x9e\xa9Wh\xcethN\xe9\
-pz\xb2\xfd\xc7\x9b\xa8\xa0\xd5\x123\xe3\xbc\x1d\x94\x07\
-:\x93\xa7v(B\xfd\x08z\x01\xf8\x12\x01\xad\xc5\xff\
-\xd6\x11T)\xa1\x07\x02\xb3\x96)$\x12\xd0\xbd\xc6S\
-\x0b\xbf\xb5U\x1c\xf0m\x9e\xf6\xbb7\x09?\xbcF\x88\
-q\x0b\xf6\xcb\x9c\x1cp\x80\xc0\x93\x1a\x8c({H\x08\
-\x0d.E\xfb\xd7\xa0\xb9\xba\x06-\xe8U\x95\xeft\x9b\
-\xfc\x08\xaf\xfeU\xf9\x0b\xf1{\xed/\xc4\xef\xd5\x9f\xc7\
-\x8f\xcd\x9f\x8a\x9b\xdfh+;|\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2229\
+,4 17.3,18 40.7,\
+18\x22/>\x0a    <path \
+fill=\x22#3F51B5\x22 d\
+=\x22M21,42H8v-8h13\
+c2.2,0,4-1.8,4-4\
+V13h8v17C33,36.6\
+,27.6,42,21,42z\x22\
+/>\x0a</svg>\x0a\
 \x00\x00\x06\x0d\
 \x00\
 \x00\x18\xedx\xda\xc5X]\x8f\x9bF\x14}\xaf\x94\xff\
@@ -5762,5234 +14359,1205 @@ bz\xc8\xc4\xd7\xb0\xb38\xce\xce\xfe\xea\xb2\xec\xa8\xb3\
 *\x82\x9fS\x95\xb8\xaf\x0aw\xa9\xd3\xd7e_\xaf\x03\
 \x0d\xc76\xe9\x7f\x0fQ\x84\xb8\x84(\xf2\xbc\xa2\xa8\x13\
 \xa2\x5c\x99W\xe5\xf8\xfd\x17Ri6\x95\
-\x00\x00\x05x\
+\x00\x00\x02\x82\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22 fill-rule=\
-\x22evenodd\x22 clip-r\
-ule=\x22evenodd\x22>\x0d\x0a\
-  <circle cx=\x2224\
-\x22 cy=\x2224\x22 r=\x2219.\
-375\x22 fill=\x22#ed36\
-75\x22 />\x0d\x0a  <path \
-fill=\x22#bd1949\x22 f\
-ill-rule=\x22evenod\
-d\x22 d=\x22M24,4C12.9\
-59,4,4,12.959,4,\
-24c0,11.041,8.95\
-9,20,20,20 c11.0\
-2,0,20-8.959,20-\
-20C44,12.959,35.\
-02,4,24,4z M37.2\
-1,13.219c2.386,2\
-.907,3.818,6.616\
-,3.861,10.629 c-\
-0.564-0.108-6.20\
-4-1.258-11.887-0\
-.542c-0.13-0.282\
--0.239-0.586-0.3\
-69-0.889c-0.347-\
-0.824-0.738-1.67\
--1.128-2.473 C33\
-.978,17.384,36.8\
-42,13.696,37.21,\
-13.219z M24,6.95\
-c4.338,0,8.308,1\
-.627,11.323,4.29\
-5c-0.304,0.434-2\
-.885,3.883-8.959\
-,6.16 c-2.798-5.\
-141-5.9-9.349-6.\
-377-10C21.267,7.\
-102,22.612,6.95,\
-24,6.95z M16.733\
-,8.555c0.455,0.6\
-07,3.492,4.837,6\
-.334,9.87 c-7.98\
-3,2.126-15.033,2\
-.083-15.792,2.08\
-3C8.382,15.215,1\
-1.961,10.811,16.\
-733,8.555z M6.90\
-7,24.022c0-0.174\
-,0-0.347,0-0.521\
- c0.738,0.022,9.\
-024,0.13,17.549-\
-2.43c0.499,0.954\
-,0.954,1.931,1.3\
-88,2.907c-0.217,\
-0.065-0.456,0.13\
--0.672,0.195 c-8\
-.807,2.842-13.49\
-2,10.607-13.883,\
-11.258C8.577,32.\
-417,6.907,28.403\
-,6.907,24.022z M\
-24,41.093c-3.948\
-,0-7.592-1.345-1\
-0.477-3.601 c0.3\
-04-0.629,3.774-7\
-.31,13.406-10.67\
-2c0.043-0.022,0.\
-065-0.022,0.109-\
-0.043c2.408,6.22\
-6,3.384,11.453,3\
-.644,12.95 C28.6\
-2,40.616,26.364,\
-41.093,24,41.093\
-z M33.523,38.165\
-c-0.174-1.041-1.\
-085-6.03-3.319-1\
-2.169 c5.358-0.8\
-46,10.043,0.542,\
-10.629,0.738C40.\
-096,31.484,37.36\
-2,35.583,33.523,\
-38.165z\x22 clip-ru\
-le=\x22evenodd\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x02\x18\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#50e6ff\x22 d\
-=\x22M39,16v25c0,1.\
-105-0.895,2-2,2H\
-11c-1.105,0-2-0.\
-895-2-2V7c0-1.10\
-5,0.895-2,2-2h17\
-L39,16z\x22 />\x0d\x0a  <\
-linearGradient i\
-d=\x22F8F33TU9HxDNW\
-NbQYRyY3a\x22 x1=\x222\
-8.529\x22 x2=\x2233.6\x22\
- y1=\x2215.472\x22 y2=\
-\x2210.4\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#3079d6\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#297cd2\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#F8F3\
-3TU9HxDNWNbQYRyY\
-3a)\x22 d=\x22M28,5v9c\
-0,1.105,0.895,2,\
-2,2h9L28,5z\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x05>\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#c48c00\x22 d\
-=\x22M44,37H4v5c0,1\
-.105,0.895,2,2,2\
-h36c1.105,0,2-0.\
-895,2-2V37z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-fad500\x22 d=\x22M44,2\
-3H4v-5c0-1.105,0\
-.895-2,2-2h36c1.\
-105,0,2,0.895,2,\
-2V23z\x22 />\x0d\x0a  <re\
-ct width=\x2240\x22 he\
-ight=\x227\x22 x=\x224\x22 y\
-=\x2223\x22 fill=\x22#edb\
-e00\x22 />\x0d\x0a  <rect\
- width=\x2240\x22 heig\
-ht=\x227\x22 x=\x224\x22 y=\x22\
-30\x22 fill=\x22#e3a60\
-0\x22 />\x0d\x0a  <linear\
-Gradient id=\x22BE6\
-4rKT34nsQLqY4TZO\
-69a\x22 x1=\x2224\x22 x2=\
-\x2224\x22 y1=\x2235.373\x22\
- y2=\x2227.155\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-4b4b4b\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#3b\
-3b3b\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#BE64rKT34nsQLq\
-Y4TZO69a)\x22 d=\x22M2\
-7,29c0-1.657-1.3\
-43-3-3-3s-3,1.34\
-3-3,3c0,1.304,0.\
-837,2.403,2,2.81\
-6V35c0,0.552,0.4\
-48,1,1,1 s1-0.44\
-8,1-1v-3.184C26.\
-163,31.403,27,30\
-.304,27,29z\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x22BE64rKT34\
-nsQLqY4TZO69b\x22 x\
-1=\x2223.814\x22 x2=\x222\
-3.814\x22 y1=\x2215.64\
-7\x22 y2=\x22-.296\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#92a3b0\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-015\x22 stop-color=\
-\x22#a3b5c4\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.032\x22 stop-color\
-=\x22#aec2d1\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.046\x22 stop-colo\
-r=\x22#b2c6d6\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <path fil\
-l=\x22url(#BE64rKT3\
-4nsQLqY4TZO69b)\x22\
- d=\x22M32.472,10h4\
-.157C35.274,4.27\
-,30.145,0,24,0c-\
-7.18,0-13,5.82-1\
-3,13v3h4v-3 c0-4\
-.971,4.029-9,9-9\
-C27.916,4,31.236\
-,6.507,32.472,10\
-z\x22 />\x0d\x0a</svg>\
-\x00\x00\x0a\xaf\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x22jG\
-jNtSHABG~Zzut38x\
-~Dha\x22 cx=\x2228.686\
-\x22 cy=\x22-583.073\x22 \
-r=\x2217.032\x22 gradi\
-entTransform=\x22ma\
-trix(1 0 0 -1 0 \
--562)\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x22.683\x22 \
-stop-color=\x22#c24\
-717\x22 />\x0d\x0a    <st\
-op offset=\x22.756\x22\
- stop-color=\x22#bb\
-4417\x22 />\x0d\x0a    <s\
-top offset=\x22.862\
-\x22 stop-color=\x22#a\
-83b18\x22 />\x0d\x0a    <\
-stop offset=\x22.98\
-7\x22 stop-color=\x22#\
-892c1a\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#85\
-2a1a\x22 />\x0d\x0a  </ra\
-dialGradient>\x0d\x0a \
- <path fill=\x22url\
-(#jGjNtSHABG~Zzu\
-t38x~Dha)\x22 d=\x22M3\
-2.002,8.271l0.16\
-2-0.496c0.33-1.0\
-11-0.184-2.12-1.\
-18-2.493 C21.73,\
-1.815,11.12,5.63\
-9,6.348,14.597c-\
-3.137,5.89-3.031\
-,12.643-0.305,18\
-.212l5.354-2.71c\
--1.876-3.885-1.9\
-37-8.582,0.246-1\
-2.681 c3.363-6.3\
-14,10.947-9.173,\
-18.085-7.811C30.\
-717,9.795,31.69,\
-9.228,32.002,8.2\
-71z\x22 />\x0d\x0a  <radi\
-alGradient id=\x22j\
-GjNtSHABG~Zzut38\
-x~Dhb\x22 cx=\x22-1217\
-.314\x22 cy=\x221750.9\
-27\x22 r=\x2217.032\x22 g\
-radientTransform\
-=\x22matrix(-1 0 0 \
-1 -1198 -1724)\x22 \
-gradientUnits=\x22u\
-serSpaceOnUse\x22>\x0d\
-\x0a    <stop offse\
-t=\x22.683\x22 stop-co\
-lor=\x22#c24717\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.756\x22 stop-c\
-olor=\x22#bb4417\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.862\x22 stop-\
-color=\x22#a83b18\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x22.987\x22 stop\
--color=\x22#892c1a\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#852a1a\x22 /\
->\x0d\x0a  </radialGra\
-dient>\x0d\x0a  <path \
-fill=\x22url(#jGjNt\
-SHABG~Zzut38x~Dh\
-b)\x22 d=\x22M15.998,3\
-9.729l-0.162,0.4\
-96c-0.33,1.011,0\
-.184,2.12,1.18,2\
-.493 c9.253,3.46\
-7,19.864-0.357,2\
-4.635-9.315c3.13\
-7-5.89,3.031-12.\
-643,0.305-18.212\
-l-5.354,2.71c1.8\
-76,3.885,1.937,8\
-.582-0.246,12.68\
-1 c-3.363,6.314-\
-10.947,9.173-18.\
-085,7.811C17.283\
-,38.205,16.31,38\
-.772,15.998,39.7\
-29z\x22 />\x0d\x0a  <line\
-arGradient id=\x22j\
-GjNtSHABG~Zzut38\
-x~Dhc\x22 x1=\x2217.57\
-1\x22 x2=\x2247.758\x22 y\
-1=\x22-576.599\x22 y2=\
-\x22-620.739\x22 gradi\
-entTransform=\x22ma\
-trix(1 0 0 -1 0 \
--562)\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#fed100\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#e36001\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#jGjN\
-tSHABG~Zzut38x~D\
-hc)\x22 d=\x22M10,24c0\
-,2.004,0.436,4.0\
-06,1.291,5.861l2\
-.48-1.26c0.699-0\
-.355,1.478,0.312\
-,1.235,1.057 l-2\
-.439,7.482c-0.21\
-4,0.656-0.919,1.\
-014-1.575,0.8L3.\
-51,35.501c-0.745\
--0.243-0.824-1.2\
-65-0.126-1.62l2.\
-563-1.303 c-3.52\
-8-7.427-2.235-16\
-.574,3.911-22.72\
-C13.763,5.953,18\
-.881,4,24,4C24,4\
-,10,10,10,24z M4\
-4.49,12.499l-7.4\
-82-2.439 c-0.656\
--0.214-1.361,0.1\
-45-1.575,0.8l-2.\
-439,7.482c-0.243\
-,0.745,0.536,1.4\
-12,1.235,1.057l2\
-.48-1.26C37.564,\
-19.994,38,21.996\
-,38,24 c0,14-14,\
-20-14,20c5.119,0\
-,10.237-1.952,14\
-.142-5.857c6.146\
--6.146,7.439-15.\
-293,3.911-22.72l\
-2.563-1.303 C45.\
-315,13.765,45.23\
-5,12.742,44.49,1\
-2.499z\x22 />\x0d\x0a  <p\
-ath fill=\x22#e5203\
-0\x22 d=\x22M44.888,42\
-.734L5.266,3.112\
-c-0.149-0.149-0.\
-39-0.149-0.539,0\
-L3.112,4.728 c-0\
-.149,0.149-0.149\
-,0.39,0,0.539l39\
-.622,39.622c0.14\
-9,0.149,0.39,0.1\
-49,0.539,0l1.616\
--1.616 C45.037,4\
-3.124,45.037,42.\
-882,44.888,42.73\
-4z\x22 />\x0d\x0a</svg>\
-\x00\x00\x04&\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#199be2\x22 d\
-=\x22M35.983,32.448\
-l-3.536,3.536l7.\
-87,7.87c0.195,0.\
-195,0.512,0.195,\
-0.707,0l2.828-2.\
-828 c0.195-0.195\
-,0.195-0.512,0-0\
-.707L35.983,32.4\
-48z\x22 />\x0d\x0a  <radi\
-alGradient id=\x22K\
-Gt2acGa95QyN2j07\
-oBX6a\x22 cx=\x2220.02\
-4\x22 cy=\x2220.096\x22 r\
-=\x2219.604\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x22.69\
-3\x22 stop-color=\x22#\
-006185\x22 />\x0d\x0a    \
-<stop offset=\x22.9\
-21\x22 stop-color=\x22\
-#35c1f1\x22 />\x0d\x0a  <\
-/radialGradient>\
-\x0d\x0a  <polygon fil\
-l=\x22url(#KGt2acGa\
-95QyN2j07oBX6a)\x22\
- points=\x2231.601,\
-28.065 28.065,31\
-.601 32.448,35.9\
-83 35.983,32.448\
-\x22 />\x0d\x0a  <linearG\
-radient id=\x22KGt2\
-acGa95QyN2j07oBX\
-6b\x22 x1=\x228.911\x22 x\
-2=\x2231.339\x22 y1=\x228\
-.911\x22 y2=\x2231.339\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#a3ffff\x22 />\x0d\
-\x0a    <stop offse\
-t=\x22.223\x22 stop-co\
-lor=\x22#9dfbff\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.53\x22 stop-co\
-lor=\x22#8bf1ff\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.885\x22 stop-c\
-olor=\x22#6ee0ff\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#63daff\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <circle \
-cx=\x2220\x22 cy=\x2220\x22 \
-r=\x2216\x22 fill=\x22url\
-(#KGt2acGa95QyN2\
-j07oBX6b)\x22 />\x0d\x0a<\
-/svg>\
-\x00\x00\x05\x0d\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22I9\
-GV0SozQFknxHSR6D\
-Cx5a\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#21ad64\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#088242\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#I9GV0So\
-zQFknxHSR6DCx5a)\
-\x22 d=\x22M44,24c0,11\
-.045-8.955,20-20\
-,20S4,35.045,4,2\
-4S12.955,4,24,4S\
-44,12.955,44,24z\
-\x22 />\x0d\x0a  <path d=\
-\x22M32.172,16.172L\
-22,26.344l-5.172\
--5.172c-0.781-0.\
-781-2.047-0.781-\
-2.828,0l-1.414,1\
-.414 c-0.781,0.7\
-81-0.781,2.047,0\
-,2.828l8,8c0.781\
-,0.781,2.047,0.7\
-81,2.828,0l13-13\
-c0.781-0.781,0.7\
-81-2.047,0-2.828\
-L35,16.172 C34.2\
-19,15.391,32.953\
-,15.391,32.172,1\
-6.172z\x22 opacity=\
-\x22.05\x22 />\x0d\x0a  <pat\
-h d=\x22M20.939,33.\
-061l-8-8c-0.586-\
-0.586-0.586-1.53\
-6,0-2.121l1.414-\
-1.414c0.586-0.58\
-6,1.536-0.586,2.\
-121,0 L22,27.051\
-l10.525-10.525c0\
-.586-0.586,1.536\
--0.586,2.121,0l1\
-.414,1.414c0.586\
-,0.586,0.586,1.5\
-36,0,2.121l-13,1\
-3 C22.475,33.646\
-,21.525,33.646,2\
-0.939,33.061z\x22 o\
-pacity=\x22.07\x22 />\x0d\
-\x0a  <path fill=\x22#\
-fff\x22 d=\x22M21.293,\
-32.707l-8-8c-0.3\
-91-0.391-0.391-1\
-.024,0-1.414l1.4\
-14-1.414c0.391-0\
-.391,1.024-0.391\
-,1.414,0 L22,27.\
-758l10.879-10.87\
-9c0.391-0.391,1.\
-024-0.391,1.414,\
-0l1.414,1.414c0.\
-391,0.391,0.391,\
-1.024,0,1.414l-1\
-3,13 C22.317,33.\
-098,21.683,33.09\
-8,21.293,32.707z\
-\x22 />\x0d\x0a</svg>\
-\x00\x00\x04\x16\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22IM\
-oH7gpu5un5Dx2vID\
-39Ra\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#9dffce\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#50d18d\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#IMoH7gp\
-u5un5Dx2vID39Ra)\
-\x22 d=\x22M44,24c0,11\
-.045-8.955,20-20\
-,20S4,35.045,4,2\
-4S12.955,4,24,4S\
-44,12.955,44,24z\
-\x22 />\x0d\x0a  <linearG\
-radient id=\x22IMoH\
-7gpu5un5Dx2vID39\
-Rb\x22 x1=\x2213\x22 x2=\x22\
-36\x22 y1=\x2224.793\x22 \
-y2=\x2224.793\x22 grad\
-ientUnits=\x22userS\
-paceOnUse\x22>\x0d\x0a   \
- <stop offset=\x22.\
-824\x22 stop-color=\
-\x22#135d36\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.931\x22 stop-color\
-=\x22#125933\x22 />\x0d\x0a \
-   <stop offset=\
-\x221\x22 stop-color=\x22\
-#11522f\x22 />\x0d\x0a  <\
-/linearGradient>\
-\x0d\x0a  <path fill=\x22\
-url(#IMoH7gpu5un\
-5Dx2vID39Rb)\x22 d=\
-\x22M21.293,32.707l\
--8-8c-0.391-0.39\
-1-0.391-1.024,0-\
-1.414l1.414-1.41\
-4 c0.391-0.391,1\
-.024-0.391,1.414\
-,0L22,27.758l10.\
-879-10.879c0.391\
--0.391,1.024-0.3\
-91,1.414,0l1.414\
-,1.414 c0.391,0.\
-391,0.391,1.024,\
-0,1.414l-13,13C2\
-2.317,33.098,21.\
-683,33.098,21.29\
-3,32.707z\x22 />\x0d\x0a<\
-/svg>\
-\x00\x00\x05\xaa\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#0078d4\x22 d\
-=\x22M42,37c0,2.762\
--2.238,5-5,5H11c\
--2.761,0-5-2.238\
--5-5V11c0-2.762,\
-2.239-5,5-5h26c2\
-.762,0,5,2.238,5\
-,5 V37z\x22 />\x0d\x0a  <\
-path d=\x22M30,37V2\
-6.901c0-1.689-0.\
-819-2.698-2.192-\
-2.698c-0.815,0-1\
-.414,0.459-1.779\
-,1.364 c-0.017,0\
-.064-0.041,0.325\
--0.031,1.114L26,\
-37h-7V18h7v1.061\
-C27.022,18.356,2\
-8.275,18,29.738,\
-18c4.547,0,7.261\
-,3.093,7.261,8.2\
-74 L37,37H30z M1\
-1,37V18h3.457C12\
-.454,18,11,16.52\
-8,11,14.499C11,1\
-2.472,12.478,11,\
-14.514,11c2.012,\
-0,3.445,1.431,3.\
-486,3.479 C18,16\
-.523,16.521,18,1\
-4.485,18H18v19H1\
-1z\x22 opacity=\x22.05\
-\x22 />\x0d\x0a  <path d=\
-\x22M30.5,36.5v-9.5\
-99c0-1.973-1.031\
--3.198-2.692-3.1\
-98c-1.295,0-1.93\
-5,0.912-2.243,1.\
-677 c-0.082,0.19\
-9-0.071,0.989-0.\
-067,1.326L25.5,3\
-6.5h-6v-18h6v1.6\
-38c0.795-0.823,2\
-.075-1.638,4.238\
--1.638 c4.233,0,\
-6.761,2.906,6.76\
-1,7.774L36.5,36.\
-5H30.5z M11.5,36\
-.5v-18h6v18H11.5\
-z M14.457,17.5c-\
-1.713,0-2.957-1.\
-262-2.957-3.001 \
-c0-1.738,1.268-2\
-.999,3.014-2.999\
-c1.724,0,2.951,1\
-.229,2.986,2.989\
-c0,1.749-1.268,3\
-.011-3.015,3.011\
-H14.457z\x22 opacit\
-y=\x22.07\x22 />\x0d\x0a  <p\
-ath fill=\x22#fff\x22 \
-d=\x22M12,19h5v17h-\
-5V19z M14.485,17\
-h-0.028C12.965,1\
-7,12,15.888,12,1\
-4.499C12,13.08,1\
-2.995,12,14.514,\
-12 c1.521,0,2.45\
-8,1.08,2.486,2.4\
-99C17,15.887,16.\
-035,17,14.485,17\
-z M36,36h-5v-9.0\
-99c0-2.198-1.225\
--3.698-3.192-3.6\
-98 c-1.501,0-2.3\
-13,1.012-2.707,1\
-.99C24.957,25.54\
-3,25,26.511,25,2\
-7v9h-5V19h5v2.61\
-6C25.721,20.5,26\
-.85,19,29.738,19\
- c3.578,0,6.261,\
-2.25,6.261,7.274\
-L36,36L36,36z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x05f\
-\x00\
-\x00\x1e_x\xda\xed\x99\xdbn\x1bG\x0c\x86\xef\x0b\xf4\
-\x1d\x06\x9b\x9b\x04\x98\x19\xcd\x81s*\xac\x5c\xd4(\x82\
-\x06(\x0a\xb4M\xdb[y\xb5:8\xb2dHJl\
-\xe7\xe9Kr\xd6\x87\x08qm\x15F\xdd\x06B\x82\xc5\
-h\xc4\xe5\x90\x1f\xb9\xfcW\xf0\xd1\xe6\xe3T\x5c\x9e-\
-\x96\x9ba3\xdbn\xcf\xbf\x1b\x0c...\xf4\x85\xd7\
-\xab\xf5t\xe0\x8c1\x03\xb4h\xc4\xc7yw\xf1\xfd\xea\
-r\xd8\x18a\x04d\xfc\xdf\x88\x8b\xf9x;\x1b6\x90\
-\xcf/\x1b1\xeb\xe6\xd3\xd9\xb6\xff\xf4\xfa\xdbo\x848\
-Z\xcc\x97\xddh\xfdf=\x1a\xcf\xbb\xe5V\xcc\xc7\xc3\
-\xe6\xa7\xd3\xf5\xf2\xed\xdb\xdf\x7f)o.?\xfcy6\
-Y\xfd\xb0\xf8\xf1\x8f8j\xc4\xa5\x1d6Y[\x88\xb8\
-t\xc3\xc6E\x1d\x034\xe2\x0a\xb7\x1d\xd4\xfd+\xdc\x07\
-W\xf7\xa7\xbd\xcfw\xcb\xf9\x16\x03\xff\xb0\xe9\xd6\xbf\x9e\
-\x8f\xda\xee\xe7\xe5\xbbMWO\xc7\xf37\xdb\xd5\xb9X\
-M&\x9b\x0e\xe32\x8d\xa0\xcf\xaa]-V\xeba\xf3\
-\x22\xe7bJj\xc4\xe0\x8b\xd6\xda{\xbb{\x03\xe4\xb6\
-\xc0\xbd7\xc4XvnH9\xbb|r\xdf\x0d\xbb\xee\
-#$\x9b\xdak\xeb\xa3\xc1\xe7\xf0\xea\xe6\xf9h;\x13\
-\x93\xf9b\x81)\xaf\x17/_|\x99\xe6\xabF\x10i\
-Wt\xf4\x12\xaf%\xe6VY\x1d\x824\xda\x96\xa4\xbc\
-\xb6\xbe(\xa3\x83+\xb8\xc6\x0d[M\x8c\xce\x1e\xd7\xe0\
-3.c\x0cd\x98\x12\xde\xe4\xb2\x02\x0d\xce\x0ar\x03\
-1\xe3\xd5\x17\xc0\xaf]\x88\xcai\x08*h\x07\xe4\xcc\
-\xf8r\xec\x8c69K\x87^3H\x9b\xd1\x15\x86\xe1\
-\xa5Mx\xdd\x90Q&\x0f\xc6F\x5c\xc7b\xc9C$\
-\xcf\xa5x<,\x90\x9f\x94\xad\xb4:^{\x96\xecY\
-\x1c\x17mL\x90\xd8\x10\x19\xfd\x15M\x1e\xa3\x0e\xd1\xc9\
-\xac=H\xd7\xe7 k\x0e\xe8\xd6\x16\xe9\xb4\xe5LJ\
-\x92\x9c\xe61v\x93O\xd2\x1b]\xc0I\x90\x1ew\x03\
-\xd0\xc2\xb7\x06M\x0cD\xc2\x84&N\x9b\x90qM\xd6\
-x\xbc\x13-1T\xccP2C\x8a\xd6\xcb[\xdf\xed\
-\xed\xe9\x92\x09J&\xa8\x88\xa0d\x82-\xf3\x93\xccO\
-2?I\xfc\xe4gYZ\xf4h16 F\xd2\x06\
-\xec\xc5$\x81\x01\x82\xdf0?\xc9\xfc$\xf3\x93\xcc\x8f\
-\xf1QQ\xc9\x0d\xe2S\x8cO\xde)\x0c\xc1)H\xd4\
-\xe2\x16\xe0\xd5ZB_\xb2Ww+|\xdb\x04\x92\x01\
-*\x06(o\xfb\xe4\x18;*cE}`>\xdeH\
-\x0fL\x8dV\xfe\x98\xae\x15\xe9\xb5]%}\xb7\x1b?\
-\xddt\xf9c'\xc4I\x9d\x10\xd8S9\xa5:\x22,\
-\xd7\xa7\x8e\x08\x9f\xea>\x8d\x08\x97\xeb\xfe\x13\x8c\x88\xc9\
-dr\xef\xe3\xee\xc0\xedZ;\xfa\xf7\xd8\xc7\xbdm\x1f\
-x\xd6\xdb\xf9\xba]t\xa2\xc5\x91k1\xb5\xf6\x0a\xd3\
-\xf4\x8d\xc0{\xf1\xd3C3\xe0\xe4\xd5\xde\x88\xdb\x8a\x18\
-\x9b\xcfX\xdfOa|\x92M\xea\xa7p\xa9\xfb\x84\xd8\
-\xc7\xba\xff\x04\x88\xcd8\xdaQ\xb9\x7f\x0aG\xbf{C\
-\x17&\xa3\xfb\xa7p\xca;\xf6\xd6\x87T\xe2c\xab\x82\
-\xad\x8eS\xe4\x9f\x16\x06\xb4\x8b\xf6\xe1\xe2\xb4\xfb\x17g\
-|P\xc8'T\xc8\xf1A!\x0f\x0a\xf9\x95)dw\
-P\xc8\xbd\x14\xb2\xdb\x7f\x08On\x14\xd2\x85k\xc4\x85\
-\x1e\xb4\x1b\x85\xe4}V\xc8P\xf7\x0f\x0a\xb9\xa3\x90\x0f\
-\x17f\xb2\x7fa\xa6}\xef\xe3k\x89\xef\xe5\x11\xacN\
-6\xd4\xc2`\xbb\xdb\xdc\xb7>\xcd\x83;\xad\xff\xdbz\
-\xb4\xdcLV\xeb\xb3a\xb3^mG\xdb\xee\xa5\xb2\x80\
-s\xa2\x08zH\x8c\x13\xd6\xbf:h\xe9\xdf\x95k\xda\
-k) \xd9\x84*\x93\xa0\x90R9G\x22\x11\x0c\x0d\
-\xd0\x98IW] \x91\x89\xa4\x9c\x09x\xd2\x96\xd0_\
-i\xde\xb2\xc8\x05\xe0o\xc9.\x15\xd6\xd2`H\x1c\xb2\
-\xa5\x09\xed\x8c#\xd3\x82\x83\xb8DZz\x1f\xc9\x11I\
-0~\xb0<\xb2\x1d\xcb\x05k[\xa6\xc1\x9fIQ\x9d\
-N,K\x81\x5c\xa3\x22\xa3\x17\x03\xbd\x7f\x87\xb1\x15\x9e\
-\xe2\xc9{\x12\xc3\xc4\xaa\xebH%\xa2\xcf\xed\xb5\xe0e\
-K\x82\x1b\x22\xdb\x14\xd2\x17[\xc8&\x84DA\xf8\x08\
-\x14\x04j39E\x09\xd6\x1e\xc3\xc5\xf3I\x82)\x16\
-\x12\x0e\xe3H\xbf3\x14\x16P\x12\xc2d\xc8\xb7\x8f\x14\
-6\xca4\xda8G\xdf\xe6\xc0\xfc\x22\xd9\xe0\xfb\x1c\xc5\
-\x18YoZf\xab\x98\xadd\xb6\x8a\xd9R\xb4\xa4\xa9\
-\x09\xe8 \xa4*\xeb\x95\xd92\x13\xe0o%\xb3m\x99\
-,gE9 Y2,\x92\xc9\xcaJ\x96\xc1*\x06\
-K\xc9:.P\xae\xc9(\x06Kz\xef\xa3\xe5\xec)\
-\xe3\xc4\xefO\x81\xce\xc0\xf0\x192\x1f\xe4\x14#\x96\x8c\
-X1b\xc9\x88UE\xac\x981\xd7\x99T\x19\xb3V\
-\xccX1c\xc5\x8c)+d\xac\x98\xb1d\xc6\x8a\x19\
-Kf\x5c\xebM\x85@\xc6\x8a\x19+f\xac\x981\x87\
-H\x19 \xe3c|m\x00\x83>\x90\x1b\xbec\xd0K\
-\x04\x06^4\x94(\xeft\xf1\xfe\x12<\xabc\x08\xa5\
-6\xc6\xdc\xbf\xa5\x17\x0c\xb7N!\x94\x8a\x18\xea\x14\xb2\
-\x04\xd8=\xc3\x14\xfa\xaf\xc8\xb5\x87\xaa\x0a\x16X\x15\x82\
-.\xfeaa\x98\xed/\x0c\xf3\xbe\x22\xd4\x95\xa5V\x84\
-~\xbb\xe6\xfew\x13\xbe Y\xb0}M\x90t\x8c\xcf\
-P\x93\xff\xb7\xbe\xefT\x12\x1f\x9fG\xfc\x00\x9e\xef_\
-\xc9\xd3\x83\xc4?\x9b\xc4\x9f\x1e$\xfe \xf1\x07\x89\xa7\
-G\xe1\xfd\x13H\xfc\x96\x96\x0b\x1aD\x1a\xa2\x17D\xc3\
-\x96\x83\xbe\xc7\xf7\xfb\xab\xc2\xe2F\xdf}\xecU\x01\x7f\
-y\x17\x97o\xf4\xddC/\x0b6a\x7f\xfe\xdb\xf5\xf8\
-\xca\xb4\xdd\xe7\xf2p\x19\x17}\x19\x8f\xe8\xef\xc6\xaf\xff\
-\x02\xda]\xcaq\
-\x00\x00\x04\xfa\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x220p\
-tTM7js1LRNIAHonm\
-3lla\x22 x1=\x2214.242\
-\x22 x2=\x2230.172\x22 y1\
-=\x228.358\x22 y2=\x2238.\
-695\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x220\x22 stop-\
-color=\x22#2aa4f4\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#007ad9\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#0ptTM7\
-js1LRNIAHonm3lla\
-)\x22 d=\x22M48,26c0,6\
-.63-5.37,12-12,1\
-2c-1.8,0-24.66,0\
--26.5,0C4.25,38,\
-0,33.75,0,28.5 c\
-0-4.54,3.18-8.34\
-,7.45-9.28C9.15,\
-12.21,15.46,7,23\
-,7c5.51,0,10.36,\
-2.78,13.24,7.01C\
-42.76,14.13,48,1\
-9.45,48,26z\x22 />\x0d\
-\x0a  <path d=\x22M21,\
-24.441v7c0,1.105\
-,0.895,2,2,2h2c1\
-.105,0,2-0.895,2\
--2v-7h2.648c1.33\
-6,0,2.006-1.616,\
-1.061-2.561 l-5.\
-295-5.295c-0.781\
--0.781-2.047-0.7\
-81-2.828,0l-5.29\
-5,5.295c-0.945,0\
-.945-0.276,2.561\
-,1.061,2.561H21z\
-\x22 opacity=\x22.05\x22 \
-/>\x0d\x0a  <path d=\x22M\
-21.5,23.941v7.5c\
-0,0.828,0.672,1.\
-5,1.5,1.5h2c0.82\
-8,0,1.5-0.672,1.\
-5-1.5v-7.5h3.021\
- c0.938,0,1.408-\
-1.134,0.745-1.79\
-8l-5.129-5.13c-0\
-.627-0.627-1.644\
--0.627-2.271,0l-\
-5.129,5.13c-0.66\
-3,0.663-0.194,1.\
-798,0.745,1.798 \
-H21.5z\x22 opacity=\
-\x22.07\x22 />\x0d\x0a  <pat\
-h fill=\x22#fff\x22 d=\
-\x22M18.607,23.441H\
-22v8c0,0.552,0.4\
-48,1,1,1h2c0.552\
-,0,1-0.448,1-1v-\
-8h3.393 c0.54,0,\
-0.81-0.653,0.428\
--1.034l-4.964-4.\
-964c-0.473-0.473\
--1.241-0.473-1.7\
-14,0l-4.964,4.96\
-4 C17.797,22.788\
-,18.067,23.441,1\
-8.607,23.441z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x0f\xb7\
-<\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0d\x0a<svg\x0d\x0a   \
-viewBox=\x220 0 48 \
-48\x22\x0d\x0a   width=\x224\
-8px\x22\x0d\x0a   height=\
-\x2248px\x22\x0d\x0a   versi\
-on=\x221.1\x22\x0d\x0a   id=\
-\x22svg6\x22\x0d\x0a   sodip\
-odi:docname=\x22Ale\
-rt.svg\x22\x0d\x0a   inks\
-cape:version=\x221.\
-4.2 (f4327f4, 20\
-25-05-13)\x22\x0d\x0a   x\
-mlns:inkscape=\x22h\
-ttp://www.inksca\
-pe.org/namespace\
-s/inkscape\x22\x0d\x0a   \
-xmlns:sodipodi=\x22\
-http://sodipodi.\
-sourceforge.net/\
-DTD/sodipodi-0.d\
-td\x22\x0d\x0a   xmlns:xl\
-ink=\x22http://www.\
-w3.org/1999/xlin\
-k\x22\x0d\x0a   xmlns=\x22ht\
-tp://www.w3.org/\
-2000/svg\x22\x0d\x0a   xm\
-lns:svg=\x22http://\
-www.w3.org/2000/\
-svg\x22>\x0d\x0a  <defs\x0d\x0a\
-     id=\x22defs6\x22>\
-\x0d\x0a    <clipPath\x0d\
-\x0a       id=\x22SVGI\
-D_2_\x22>\x0d\x0a      <u\
-se\x0d\x0a         xli\
-nk:href=\x22#SVGID_\
-1_\x22\x0d\x0a         st\
-yle=\x22overflow:vi\
-sible\x22\x0d\x0a        \
- id=\x22use1\x22 />\x0d\x0a \
-   </clipPath>\x0d\x0a\
-    <clipPath\x0d\x0a \
-      id=\x22SVGID_\
-4_\x22>\x0d\x0a      <use\
-\x0d\x0a         xlink\
-:href=\x22#SVGID_3_\
-\x22\x0d\x0a         styl\
-e=\x22overflow:visi\
-ble\x22\x0d\x0a         i\
-d=\x22use2\x22 />\x0d\x0a   \
- </clipPath>\x0d\x0a  \
-  <path\x0d\x0a       \
-id=\x22SVGID_1_\x22\x0d\x0a \
-      d=\x22m 64.65\
-,0.68 c 1.01,0.4\
-9 1.81,1.22 2.41\
-,2.2 v 0 l 53.66\
-,84.17 c 0.02,0.\
-02 0.03,0.05 0.0\
-5,0.07 0.47,0.75\
- 0.87,1.6 1.2,2.\
-54 0.31,0.89 0.5\
-7,1.88 0.77,2.96\
- 0.1,0.52 0.14,0\
-.98 0.14,1.38 0,\
-0.98 -0.24,1.81 \
--0.72,2.49 -0.55\
-,0.78 -1.33,1.26\
- -2.33,1.45 -0.3\
-,0.06 -0.59,0.08\
- -0.87,0.08 H 3.\
-92 C 3.64,98.02 \
-3.35,97.99 3.05,\
-97.94 2.05,97.75\
- 1.27,97.27 0.72\
-,96.49 0.24,95.8\
-1 0,94.98 0,94 0\
-,93.6 0.05,93.14\
- 0.15,92.62 0.35\
-,91.54 0.6,90.56\
- 0.92,89.66 1.25\
-,88.72 1.65,87.8\
-8 2.12,87.12 v 0\
- L 2.14,87.09 55\
-.82,2.89 55.83,2\
-.87 c 0.6,-0.98 \
-1.41,-1.71 2.41,\
--2.2 0.93,-0.45 \
-2,-0.68 3.21,-0.\
-68 1.21,0 2.27,0\
-.24 3.2,0.69 z\x22 \
-/>\x0d\x0a    <rect\x0d\x0a \
-      id=\x22SVGID_\
-3_\x22\x0d\x0a       widt\
-h=\x22122.88\x22\x0d\x0a    \
-   height=\x2298.01\
-9997\x22\x0d\x0a       x=\
-\x220\x22\x0d\x0a       y=\x220\
-\x22 />\x0d\x0a    <linea\
-rGradient\x0d\x0a     \
-  id=\x22wRKXFJsqHC\
-xLE9yyOYHkza\x22\x0d\x0a \
-      x1=\x229.8579\
-998\x22\x0d\x0a       x2=\
-\x2238.141998\x22\x0d\x0a   \
-    y1=\x229.857999\
-8\x22\x0d\x0a       y2=\x223\
-8.141998\x22\x0d\x0a     \
-  gradientUnits=\
-\x22userSpaceOnUse\x22\
-\x0d\x0a       gradien\
-tTransform=\x22tran\
-slate(-0.0016529\
-,-0.05950413)\x22>\x0d\
-\x0a      <stop\x0d\x0a  \
-       offset=\x220\
-\x22\x0d\x0a         stop\
--color=\x22#f44f5a\x22\
-\x0d\x0a         id=\x22s\
-top1-7\x22 />\x0d\x0a    \
-  <stop\x0d\x0a       \
-  offset=\x22.443\x22\x0d\
-\x0a         stop-c\
-olor=\x22#ee3d4a\x22\x0d\x0a\
-         id=\x22sto\
-p2-6\x22 />\x0d\x0a      \
-<stop\x0d\x0a         \
-offset=\x221\x22\x0d\x0a    \
-     stop-color=\
-\x22#e52030\x22\x0d\x0a     \
-    id=\x22stop3\x22 /\
->\x0d\x0a    </linearG\
-radient>\x0d\x0a  </de\
-fs>\x0d\x0a  <sodipodi\
-:namedview\x0d\x0a    \
- id=\x22namedview6\x22\
-\x0d\x0a     pagecolor\
-=\x22#ffffff\x22\x0d\x0a    \
- bordercolor=\x22#0\
-00000\x22\x0d\x0a     bor\
-deropacity=\x220.25\
-\x22\x0d\x0a     inkscape\
-:showpageshadow=\
-\x222\x22\x0d\x0a     inksca\
-pe:pageopacity=\x22\
-0.0\x22\x0d\x0a     inksc\
-ape:pagecheckerb\
-oard=\x220\x22\x0d\x0a     i\
-nkscape:deskcolo\
-r=\x22#d1d1d1\x22\x0d\x0a   \
-  inkscape:zoom=\
-\x229.453125\x22\x0d\x0a    \
- inkscape:cx=\x22-3\
-7.871074\x22\x0d\x0a     \
-inkscape:cy=\x2241.\
-309091\x22\x0d\x0a     in\
-kscape:window-wi\
-dth=\x223840\x22\x0d\x0a    \
- inkscape:window\
--height=\x222054\x22\x0d\x0a\
-     inkscape:wi\
-ndow-x=\x22-11\x22\x0d\x0a  \
-   inkscape:wind\
-ow-y=\x22-11\x22\x0d\x0a    \
- inkscape:window\
--maximized=\x221\x22\x0d\x0a\
-     inkscape:cu\
-rrent-layer=\x22svg\
-6\x22\x0d\x0a     showgui\
-des=\x22true\x22>\x0d\x0a   \
- <sodipodi:guide\
-\x0d\x0a       positio\
-n=\x2223.960331,49.\
-930579\x22\x0d\x0a       \
-orientation=\x221,0\
-\x22\x0d\x0a       id=\x22gu\
-ide2\x22\x0d\x0a       in\
-kscape:locked=\x22f\
-alse\x22 />\x0d\x0a    <s\
-odipodi:guide\x0d\x0a \
-      position=\x22\
-22.4,24.066116\x22\x0d\
-\x0a       orientat\
-ion=\x220,-1\x22\x0d\x0a    \
-   id=\x22guide3\x22\x0d\x0a\
-       inkscape:\
-locked=\x22false\x22 /\
->\x0d\x0a  </sodipodi:\
-namedview>\x0d\x0a  <l\
-inearGradient\x0d\x0a \
-    id=\x22lAPc856S\
-qcrzVTEvl7rUKa\x22\x0d\
-\x0a     x1=\x226.825\x22\
-\x0d\x0a     x2=\x2241.46\
-9\x22\x0d\x0a     y1=\x225.5\
-37\x22\x0d\x0a     y2=\x2242\
-.78\x22\x0d\x0a     gradi\
-entUnits=\x22userSp\
-aceOnUse\x22>\x0d\x0a    \
-<stop\x0d\x0a       of\
-fset=\x220\x22\x0d\x0a      \
- stop-color=\x22#33\
-bef0\x22\x0d\x0a       id\
-=\x22stop1\x22 />\x0d\x0a   \
- <stop\x0d\x0a       o\
-ffset=\x221\x22\x0d\x0a     \
-  stop-color=\x22#0\
-a85d9\x22\x0d\x0a       i\
-d=\x22stop2\x22 />\x0d\x0a  \
-</linearGradient\
->\x0d\x0a  <path\x0d\x0a    \
- fill=\x22url(#wRKX\
-FJsqHCxLE9yyOYHk\
-za)\x22\x0d\x0a     d=\x22m \
-43.998347,23.940\
-496 c 0,11.045 -\
-8.955,20 -20,20 \
--11.045,0 -19.99\
-99998,-8.955 -19\
-.9999998,-20 0,-\
-11.045 8.9549998\
-,-20.0000002 19.\
-9999998,-20.0000\
-002 11.045,0 20,\
-8.9550002 20,20.\
-0000002 z\x22\x0d\x0a    \
- id=\x22path3\x22\x0d\x0a   \
-  style=\x22fill:ur\
-l(#wRKXFJsqHCxLE\
-9yyOYHkza)\x22 />\x0d\x0a\
-  <path\x0d\x0a     fi\
-ll=\x22#ffffff\x22\x0d\x0a  \
-   d=\x22m 26.33248\
-8,27.967557 h -4\
-.749364 c -0.323\
-378,-3.92234 -4.\
-254257,-14.53296\
-5 2.382463,-14.5\
-32965 6.651289,0\
- 2.690279,10.622\
-172 2.366901,14.\
-532965 z m -4.74\
-9364,2.366737 h \
-4.749364 v 4.207\
-061 h -4.749364 \
-z\x22\x0d\x0a     id=\x22pat\
-h3-9\x22\x0d\x0a     styl\
-e=\x22stroke-width:\
-0.167379\x22 />\x0d\x0a</\
-svg>\x0d\x0a\
-\x00\x00\x08\xcb\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22jv\
-689zNUBazMNK6AOy\
-Xtga\x22 x1=\x226\x22 x2=\
-\x2242\x22 y1=\x2241\x22 y2=\
-\x2241\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x220\x22 stop-\
-color=\x22#c8d3de\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#c8d3de\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#jv689z\
-NUBazMNK6AOyXtga\
-)\x22 d=\x22M42,39H6v2\
-c0,1.105,0.895,2\
-,2,2h32c1.105,0,\
-2-0.895,2-2V39z\x22\
- />\x0d\x0a  <linearGr\
-adient id=\x22jv689\
-zNUBazMNK6AOyXtg\
-b\x22 x1=\x2214.095\x22 x\
-2=\x2231.385\x22 y1=\x221\
-0.338\x22 y2=\x2243.78\
-7\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#fcfcfc\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.495\x22 stop-c\
-olor=\x22#f4f4f4\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.946\x22 stop-\
-color=\x22#e8e8e8\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#e8e8e8\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#jv689z\
-NUBazMNK6AOyXtgb\
-)\x22 d=\x22M42,39H6V2\
-0L24,3l18,17V39z\
-\x22 />\x0d\x0a  <path fi\
-ll=\x22#de490d\x22 d=\x22\
-M13,25h10c0.552,\
-0,1,0.448,1,1v17\
-H12V26C12,25.448\
-,12.448,25,13,25\
-z\x22 />\x0d\x0a  <path d\
-=\x22M24,4c-0.474,0\
--0.948,0.168-1.3\
-26,0.503l-5.359,\
-4.811L6,20v5.39L\
-24,9.428L42,25.3\
-9V20L30.685,9.31\
-4 l-5.359-4.811C\
-24.948,4.168,24.\
-474,4,24,4z\x22 opa\
-city=\x22.05\x22 />\x0d\x0a \
- <path d=\x22M24,3c\
--0.474,0-0.948,0\
-.167-1.326,0.5l-\
-5.359,4.784L6,18\
-.909v5.359L24,8.\
-397l18,15.871v-5\
-.359 L30.685,8.2\
-84L25.326,3.5C24\
-.948,3.167,24.47\
-4,3,24,3z\x22 opaci\
-ty=\x22.07\x22 />\x0d\x0a  <\
-linearGradient i\
-d=\x22jv689zNUBazMN\
-K6AOyXtgc\x22 x1=\x222\
-4\x22 x2=\x2224\x22 y1=\x221\
-.684\x22 y2=\x2223.696\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#d43a02\x22 />\x0d\
-\x0a    <stop offse\
-t=\x221\x22 stop-color\
-=\x22#b9360c\x22 />\x0d\x0a \
- </linearGradien\
-t>\x0d\x0a  <path fill\
-=\x22url(#jv689zNUB\
-azMNK6AOyXtgc)\x22 \
-d=\x22M44.495,19.50\
-7L25.326,2.503C2\
-4.948,2.168,24.4\
-74,2,24,2s-0.948\
-,0.168-1.326,0.5\
-03 L3.505,19.507\
-c-0.42,0.374-0.4\
-49,1.02-0.064,1.\
-43l1.636,1.745c0\
-.369,0.394,0.984\
-,0.424,1.39,0.06\
-7L24,7.428L41.53\
-3,22.75 c0.405,0\
-.356,1.021,0.327\
-,1.39-0.067l1.63\
-6-1.745C44.944,2\
-0.527,44.915,19.\
-881,44.495,19.50\
-7z\x22 />\x0d\x0a  <linea\
-rGradient id=\x22jv\
-689zNUBazMNK6AOy\
-Xtgd\x22 x1=\x2228.05\x22\
- x2=\x2235.614\x22 y1=\
-\x2225.05\x22 y2=\x2232.6\
-14\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#33bef0\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#0a85d9\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#jv689zN\
-UBazMNK6AOyXtgd)\
-\x22 d=\x22M29,25h6c0.\
-552,0,1,0.448,1,\
-1v6c0,0.552-0.44\
-8,1-1,1h-6c-0.55\
-2,0-1-0.448-1-1v\
--6 C28,25.448,28\
-.448,25,29,25z\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x11\xda\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22lA\
-Pc856SqcrzVTEvl7\
-rUKa\x22 x1=\x226.825\x22\
- x2=\x2241.469\x22 y1=\
-\x225.537\x22 y2=\x2242.7\
-8\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#33bef0\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-colo\
-r=\x22#0a85d9\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <path fil\
-l=\x22url(#lAPc856S\
-qcrzVTEvl7rUKa)\x22\
- d=\x22M42,38c0,2.2\
-09-1.791,4-4,4H1\
-0c-2.209,0-4-1.7\
-91-4-4V10c0-2.20\
-9,1.791-4,4-4h28\
- c2.209,0,4,1.79\
-1,4,4V38z\x22 />\x0d\x0a \
- <path d=\x22M25.1,\
-37l-1.491-2.625L\
-22.095,37H17.12l\
-3.939-5.683L17.3\
-8,25.5h4.924l1.4\
-45,2.721l1.523-2\
-.721h2.711 v-2.3\
-09l0.398-0.301c0\
-.309-0.232,0.628\
--0.438,0.949-0.6\
-13c0.321-0.176,0\
-.663-0.327,1.017\
--0.447c0.348-0.1\
-2,0.722-0.212,1.\
-11-0.271 c0.378-\
-0.057,0.781-0.08\
-6,1.199-0.086c0.\
-699,0,1.353,0.09\
-6,1.939,0.285c0.\
-621,0.201,1.162,\
-0.504,1.609,0.89\
-9 c0.459,0.405,0\
-.817,0.915,1.063\
-,1.513c0.237,0.5\
-79,0.358,1.238,0\
-.358,1.958c0,0.6\
-38-0.082,1.226-0\
-.244,1.748 c-0.1\
-61,0.518-0.392,1\
-.007-0.686,1.454\
-c-0.283,0.432-0.\
-63,0.846-1.028,1\
-.229c-0.364,0.35\
--0.769,0.711-1.2\
-16,1.08 c-0.373,\
-0.301-0.736,0.58\
-9-1.096,0.869c-0\
-.284,0.22-0.544,\
-0.434-0.778,0.64\
-5h5.252V37H25.1z\
- M27.705,33.487 \
-c0-0.002,0.001-0\
-.003,0.001-0.005\
-c0.143-0.442,0.3\
-34-0.864,0.572-1\
-.255c0.235-0.385\
-,0.509-0.746,0.8\
-14-1.076 c0.289-\
-0.313,0.597-0.61\
-4,0.925-0.904c0.\
-316-0.281,0.64-0\
-.553,0.968-0.814\
-c0.311-0.245,0.6\
-12-0.491,0.908-0\
-.739 c0.262-0.22\
-1,0.502-0.44,0.7\
-19-0.654c0.188-0\
-.185,0.349-0.376\
-,0.479-0.568c0.1\
-15-0.171,0.207-0\
-.354,0.271-0.543\
- c0.058-0.171,0.\
-087-0.365,0.087-\
-0.576c0-0.219-0.\
-029-0.401-0.088-\
-0.543c-0.052-0.1\
-26-0.116-0.221-0\
-.201-0.298 c-0.0\
-92-0.083-0.203-0\
-.146-0.34-0.192c\
--0.16-0.055-0.34\
-6-0.082-0.552-0.\
-082c-0.398,0-0.8\
-19,0.099-1.251,0\
-.293 c-0.452,0.2\
-04-0.901,0.521-1\
-.335,0.944l-0.70\
-8,0.691l-2.724,4\
-.137L27.705,33.4\
-87z\x22 opacity=\x22.0\
-5\x22 />\x0d\x0a  <path d\
-=\x22M31.47,33.654c\
-0.013-0.021,0.02\
-5-0.04,0.039-0.0\
-61c0.153-0.229,0\
-.361-0.465,0.616\
--0.701 c0.273-0.\
-254,0.583-0.513,\
-0.927-0.778c0.35\
-7-0.277,0.718-0.\
-563,1.084-0.859c\
-0.437-0.36,0.832\
--0.713,1.188-1.0\
-55 c0.371-0.357,\
-0.693-0.742,0.95\
-7-1.144c0.268-0.\
-407,0.479-0.854,\
-0.626-1.328c0.14\
-7-0.476,0.222-1.\
-014,0.222-1.6 c0\
--0.655-0.108-1.2\
-5-0.321-1.768c-0\
-.217-0.527-0.531\
--0.975-0.933-1.3\
-29c-0.395-0.35-0\
-.876-0.618-1.431\
--0.798 c-0.537-0\
-.173-1.138-0.261\
--1.786-0.261c-0.\
-396,0-0.774,0.02\
-7-1.124,0.08c-0.\
-359,0.055-0.704,\
-0.139-1.023,0.24\
-9 c-0.322,0.11-0\
-.639,0.249-0.939\
-,0.414c-0.302,0.\
-164-0.601,0.357-\
-0.888,0.573l-0.1\
-99,0.15V26h-2.91\
-8l-1.828,3.265L2\
-2.003,26h-3.715 \
-l3.371,5.33l-3.5\
-84,5.17h3.73l1.8\
-07-3.132l1.778,3\
-.132h11.941v-2.8\
-46H31.47z M30.34\
-9,30.621c-0.315,\
-0.279-0.611,0.56\
-9-0.889,0.869 c-\
-0.284,0.308-0.53\
-8,0.644-0.755,0.\
-997c-0.217,0.356\
--0.393,0.742-0.5\
-22,1.147c-0.119,\
-0.37-0.177,0.771\
--0.189,1.188l-2.\
-343-3.519 l2.935\
--4.459l0.747-0.7\
-29c0.476-0.464,0\
-.974-0.814,1.479\
--1.042c0.496-0.2\
-24,0.986-0.337,1\
-.456-0.337 c0.26\
-,0,0.499,0.036,0\
-.712,0.108c0.202\
-,0.068,0.371,0.1\
-65,0.515,0.295c0\
-.141,0.127,0.248\
-,0.284,0.329,0.4\
-79 c0.083,0.202,\
-0.125,0.448,0.12\
-5,0.732c0,0.265-\
-0.038,0.513-0.11\
-3,0.736c-0.078,0\
-.23-0.189,0.454-\
-0.33,0.663 c-0.1\
-47,0.218-0.329,0\
-.435-0.541,0.644\
-c-0.226,0.223-0.\
-476,0.451-0.749,\
-0.682c-0.299,0.2\
-51-0.604,0.5-0.9\
-18,0.748 C30.976\
-,30.08,30.659,30\
-.346,30.349,30.6\
-21z\x22 opacity=\x22.0\
-7\x22 />\x0d\x0a  <path f\
-ill=\x22#fff\x22 d=\x22M2\
-8.214,26.5h-2.35\
-5l-2.125,3.795h-\
-0.027c-0.118-0.2\
-42-0.238-0.477-0\
-.362-0.705l-1.64\
-2-3.09h-2.506 l3\
-.063,4.843L19.03\
-,36h2.486l1.697-\
-2.941c0.235-0.40\
-1,0.365-0.631,0.\
-39-0.686h0.037c0\
-.143,0.277,0.266\
-,0.507,0.371,0.6\
-86L25.682,36 h2.\
-495l-3.126-4.694\
-L28.214,26.5z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#fff\x22 d=\x22M36.83\
-2,36v-1.846h-6.0\
-03v-0.047c0-0.26\
-6,0.089-0.53,0.2\
-65-0.793 c0.177-\
-0.263,0.407-0.52\
-5,0.691-0.789c0.\
-284-0.263,0.604-\
-0.531,0.96-0.807\
-s0.713-0.559,1.0\
-72-0.85 c0.426-0\
-.352,0.813-0.695\
-,1.159-1.029s0.6\
-42-0.687,0.886-1\
-.058s0.433-0.771\
-,0.566-1.201c0.1\
-33-0.43,0.199-0.\
-914,0.199-1.452 \
-c0-0.594-0.095-1\
-.119-0.283-1.577\
-s-0.456-0.84-0.8\
-03-1.146c-0.346-\
-0.307-0.764-0.53\
-8-1.252-0.696 c-\
-0.488-0.157-1.03\
-3-0.236-1.633-0.\
-236c-0.371,0-0.7\
-21,0.024-1.049,0\
-.074c-0.327,0.05\
--0.64,0.125-0.93\
-7,0.228 c-0.297,\
-0.102-0.585,0.22\
-9-0.862,0.38c-0.\
-279,0.152-0.554,\
-0.329-0.826,0.53\
-4v2.068c0.52-0.5\
-07,1.061-0.888,1\
-.623-1.141 c0.56\
-3-0.254,1.117-0.\
-381,1.661-0.381c\
-0.315,0,0.606,0.\
-045,0.872,0.135s\
-0.496,0.223,0.69\
-1,0.398 c0.194,0\
-.177,0.346,0.396\
-,0.454,0.659s0.1\
-63,0.57,0.163,0.\
-923c0,0.321-0.04\
-7,0.62-0.14,0.89\
-6s-0.223,0.536-0\
-.39,0.784 c-0.16\
-7,0.247-0.368,0.\
-486-0.604,0.719c\
--0.234,0.231-0.4\
-94,0.469-0.779,0\
-.709c-0.303,0.25\
-4-0.611,0.506-0.\
-928,0.757 c-0.31\
-4,0.25-0.624,0.5\
-1-0.928,0.779c-0\
-.303,0.269-0.587\
-,0.547-0.854,0.8\
-35c-0.266,0.287-\
-0.497,0.594-0.69\
-5,0.918 c-0.198,\
-0.325-0.355,0.67\
-2-0.473,1.039c-0\
-.118,0.368-0.177\
-,0.763-0.177,1.1\
-84V36H36.832z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x07\xb8\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22i0\
-tLBt0kkU3aFZYS2N\
-QZna\x22 x1=\x2240\x22 x2\
-=\x2240\x22 y1=\x2210.336\
-\x22 y2=\x2239.926\x22 gr\
-adientTransform=\
-\x22matrix(1 0 0 -1\
- 0 54)\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#0362b\
-0\x22 />\x0d\x0a    <stop\
- offset=\x22.112\x22 s\
-top-color=\x22#036a\
-bd\x22 />\x0d\x0a    <sto\
-p offset=\x22.258\x22 \
-stop-color=\x22#036\
-fc5\x22 />\x0d\x0a    <st\
-op offset=\x22.5\x22 s\
-top-color=\x22#0370\
-c8\x22 />\x0d\x0a    <sto\
-p offset=\x22.742\x22 \
-stop-color=\x22#036\
-fc5\x22 />\x0d\x0a    <st\
-op offset=\x22.888\x22\
- stop-color=\x22#03\
-6abd\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-color=\x22#0362\
-b0\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-i0tLBt0kkU3aFZYS\
-2NQZna)\x22 d=\x22M41.\
-828,38.172L37,43\
-V29c0-0.552,0.44\
-8-1,1-1h4c0.552,\
-0,1,0.448,1,1v6.\
-343 C43,36.404,4\
-2.579,37.421,41.\
-828,38.172z\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x22i0tLBt0kk\
-U3aFZYS2NQZnb\x22 x\
-1=\x225\x22 x2=\x2237\x22 y1\
-=\x2224\x22 y2=\x2224\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#32bdef\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#1\
-ea2e4\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#i0tLBt0kkU3aF\
-ZYS2NQZnb)\x22 d=\x22M\
-37,37v6H9c-2.209\
-,0-4-1.791-4-4V6\
-c0-0.55,0.45-1,1\
--1h4c0.55,0,1,0.\
-45,1,1v30 c0,0.5\
-52,0.448,1,1,1H3\
-7z\x22 />\x0d\x0a  <linea\
-rGradient id=\x22i0\
-tLBt0kkU3aFZYS2N\
-QZnc\x22 x1=\x2220\x22 x2\
-=\x2220\x22 y1=\x2233\x22 y2\
-=\x2218.052\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x22.27\
-3\x22 stop-color=\x22#\
-107c42\x22 />\x0d\x0a    \
-<stop offset=\x22.6\
-11\x22 stop-color=\x22\
-#117a41\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-795\x22 stop-color=\
-\x22#13723e\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.94\x22 stop-color=\
-\x22#16643a\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-185c37\x22 />\x0d\x0a  </\
-linearGradient>\x0d\
-\x0a  <path fill=\x22u\
-rl(#i0tLBt0kkU3a\
-FZYS2NQZnc)\x22 d=\x22\
-M24,18v13c0,1.10\
-5-0.895,2-2,2h-4\
-c-1.105,0-2-0.89\
-5-2-2V18H24z\x22 />\
-\x0d\x0a  <path fill=\x22\
-#33c481\x22 d=\x22M44.\
-643,13.357l-9.09\
-1-9.091c-0.26-0.\
-26-0.65-0.337-0.\
-991-0.197C34.221\
-,4.21,34,4.541,3\
-4,4.909V10 h-6.6\
-86c-2.122,0-4.15\
-7,0.843-5.657,2.\
-343L16,18h18v5.0\
-91c0,0.368,0.221\
-,0.699,0.561,0.8\
-4C34.674,23.977,\
-34.792,24,34.909\
-,24 c0.236,0,0.4\
-69-0.092,0.643-0\
-.266l9.091-9.091\
-C44.998,14.288,4\
-4.998,13.712,44.\
-643,13.357z\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x04S\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x223n\
-qy5kGZO56mC60HvT\
-vRja\x22 x1=\x2227\x22 x2\
-=\x2227\x22 y1=\x22-166.1\
-01\x22 y2=\x22-196.032\
-\x22 gradientTransf\
-orm=\x22matrix(1 0 \
-0 -1 0 -154)\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#21ad64\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#0\
-88242\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#3nqy5kGZO56mC\
-60HvTvRja)\x22 d=\x22M\
-40,42H14c-1.1,0-\
-2-0.9-2-2V14c0-1\
-.1,0.9-2,2-2h26c\
-1.1,0,2,0.9,2,2v\
-26C42,41.1,41.1,\
-42,40,42z\x22 />\x0d\x0a \
- <path d=\x22M38,12\
-H12v26h22.319C36\
-.352,38,38,36.35\
-2,38,34.319V12z\x22\
- opacity=\x22.05\x22 /\
->\x0d\x0a  <path d=\x22M3\
-7,12H12v25h22.16\
-1C35.729,37,37,3\
-5.729,37,34.161V\
-12z\x22 opacity=\x22.0\
-7\x22 />\x0d\x0a  <linear\
-Gradient id=\x223nq\
-y5kGZO56mC60HvTv\
-Rjb\x22 x1=\x2221\x22 x2=\
-\x2221\x22 y1=\x22-160.10\
-1\x22 y2=\x22-190.032\x22\
- gradientTransfo\
-rm=\x22matrix(1 0 0\
- -1 0 -154)\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-9dffce\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#50\
-d18d\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#3nqy5kGZO56mC6\
-0HvTvRjb)\x22 d=\x22M3\
-4,36H8c-1.1,0-2-\
-0.9-2-2V8c0-1.1,\
-0.9-2,2-2h26c1.1\
-,0,2,0.9,2,2v26C\
-36,35.1,35.1,36,\
-34,36z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x031\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <circl\
-e cx=\x2222\x22 cy=\x229\x22\
- r=\x222\x22 fill=\x22#c7\
-67e5\x22 />\x0d\x0a  <cir\
-cle cx=\x2212\x22 cy=\x22\
-9\x22 r=\x222\x22 fill=\x22#\
-c767e5\x22 />\x0d\x0a  <p\
-ath fill=\x22#c767e\
-5\x22 d=\x22M34,9c0-1.\
-1-0.9-2-2-2H22l-\
-2,2c0,3,3,3,3,7c\
-0,0.702-0.127,1.\
-374-0.349,2H34V9\
-z\x22 />\x0d\x0a  <path f\
-ill=\x22#c767e5\x22 d=\
-\x22M11,16c0-4,3-4,\
-3-7l-2-2H2C0.9,7\
-,0,7.9,0,9v9h11.\
-349C11.127,17.37\
-4,11,16.702,11,1\
-6z\x22 />\x0d\x0a  <path \
-fill=\x22#a238c2\x22 d\
-=\x22M34,39v-9H0v9c\
-0,1.1,0.9,2,2,2h\
-30C33.1,41,34,40\
-.1,34,39z\x22 />\x0d\x0a \
- <path fill=\x22#ba\
-54d9\x22 d=\x22M34,29.\
-806c0-1.854,2.20\
-4-2.772,3.558-1.\
-507C38.513,29.19\
-,39.75,30,42,30 \
-c3.675,0,6.578-3\
-.303,5.902-7.102\
-c-0.572-3.218-3.\
-665-5.24-6.909-4\
-.838c-1.663,0.20\
-6-2.671,0.92-3.4\
-79,1.684 C36.185\
-,20.998,34,20.02\
-8,34,18.2V18H22.\
-651c-0.825,2.329\
--3.04,4-5.651,4s\
--4.827-1.671-5.6\
-51-4H0v12h34V29.\
-806z\x22 />\x0d\x0a</svg>\
-\
-\x00\x00\x0a\x06\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22iC\
-KXIOPdkM~UA8JX4z\
-rana\x22 x1=\x2239.001\
-\x22 x2=\x2241.528\x22 y1\
-=\x2229.5\x22 y2=\x2229.5\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x220\x22 stop-col\
-or=\x22#c48f0c\x22 />\x0d\
-\x0a    <stop offse\
-t=\x22.251\x22 stop-co\
-lor=\x22#d19b16\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.619\x22 stop-c\
-olor=\x22#dca51f\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#e0a922\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#iCKXIOP\
-dkM~UA8JX4zrana)\
-\x22 d=\x22M38.999,25H\
-38v9h1.333c0.975\
-,0,1.808-0.703,1\
-.972-1.664l0.653\
--3.832 C42.269,2\
-6.672,40.857,25,\
-38.999,25z\x22 />\x0d\x0a\
-  <linearGradien\
-t id=\x22iCKXIOPdkM\
-~UA8JX4zranb\x22 x1\
-=\x22-201\x22 x2=\x22-198\
-.472\x22 y1=\x2229.5\x22 \
-y2=\x2229.5\x22 gradie\
-ntTransform=\x22mat\
-rix(-1 0 0 1 -19\
-2 0)\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#c48f0c\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.251\x22 sto\
-p-color=\x22#d19b16\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.619\x22 st\
-op-color=\x22#dca51\
-f\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#e0a922\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#iCK\
-XIOPdkM~UA8JX4zr\
-anb)\x22 d=\x22M9.001,\
-25H10v9H8.667c-0\
-.975,0-1.808-0.7\
-03-1.972-1.664l-\
-0.653-3.832 C5.7\
-31,26.672,7.143,\
-25,9.001,25z\x22 />\
-\x0d\x0a  <radialGradi\
-ent id=\x22iCKXIOPd\
-kM~UA8JX4zranc\x22 \
-cx=\x2224\x22 cy=\x2225.5\
-\x22 r=\x2217.396\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-ffcf54\x22 />\x0d\x0a    \
-<stop offset=\x22.2\
-61\x22 stop-color=\x22\
-#fdcb4d\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-639\x22 stop-color=\
-\x22#f7c13a\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-f0b421\x22 />\x0d\x0a  </\
-radialGradient>\x0d\
-\x0a  <path fill=\x22u\
-rl(#iCKXIOPdkM~U\
-A8JX4zranc)\x22 d=\x22\
-M24,6C16.598,6,9\
-,9,9,25c0,1.281,\
-0,5.92,0,7.288C9\
-,38,18,45,24,45s\
-15-7,15-12.712 c\
-0-1.368,0-6.007,\
-0-7.288C39,9,31.\
-402,6,24,6z\x22 />\x0d\
-\x0a  <radialGradie\
-nt id=\x22iCKXIOPdk\
-M~UA8JX4zrand\x22 c\
-x=\x229.386\x22 cy=\x225.\
-933\x22 r=\x2242.765\x22 \
-gradientUnits=\x22u\
-serSpaceOnUse\x22>\x0d\
-\x0a    <stop offse\
-t=\x220\x22 stop-color\
-=\x22#c26715\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.508\x22 stop-colo\
-r=\x22#b85515\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#ad3f16\x22 />\x0d\x0a  \
-</radialGradient\
->\x0d\x0a  <path fill=\
-\x22url(#iCKXIOPdkM\
-~UA8JX4zrand)\x22 d\
-=\x22M24,4c-7.982,0\
--10,3-10,3c-3.24\
-5,0.479-7,4.566-\
-7,10c0,3.032,0.6\
-53,4.439,2,12c1-\
-12,2-16,4-16 c3,\
-0,3,2,11.778,2C2\
-9.801,15,32,13,3\
-4,13c5,0,5,14.10\
-8,5,16c0.806-7.4\
-05,1-9.351,1-12C\
-40,10.712,35.383\
-,4,24,4z\x22 />\x0d\x0a  \
-<radialGradient \
-id=\x22iCKXIOPdkM~U\
-A8JX4zrane\x22 cx=\x22\
-20.832\x22 cy=\x229.17\
-8\x22 r=\x2253.981\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#c26715\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-508\x22 stop-color=\
-\x22#b85515\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-ad3f16\x22 />\x0d\x0a  </\
-radialGradient>\x0d\
-\x0a  <path fill=\x22u\
-rl(#iCKXIOPdkM~U\
-A8JX4zrane)\x22 d=\x22\
-M24,3c-7.982,0-1\
-0,4-10,4c-0.08,2\
-.125,1,4,1,4s1.4\
-6,3,9.778,3C29.8\
-01,14,37,11.003,\
-37,3 C37,3,35.38\
-3,3,24,3z\x22 />\x0d\x0a<\
-/svg>\
-\x00\x00\x02\xd1\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#35c1f1\x22 d\
-=\x22M34.764,4H13.2\
-36c-0.758,0-1.45\
-,0.428-1.789,1.1\
-06L10,8h28l-1.44\
-7-2.894 C36.214,\
-4.428,35.521,4,3\
-4.764,4z\x22 />\x0d\x0a  \
-<path fill=\x22#50e\
-6ff\x22 d=\x22M38,8H10\
-c-1.105,0-2,0.89\
-5-2,2v1h32v-1C40\
-,8.895,39.105,8,\
-38,8z\x22 />\x0d\x0a  <li\
-nearGradient id=\
-\x22PRD6BAhJCUgoCQF\
-brJdIZa\x22 x1=\x2216.\
-313\x22 x2=\x2231.386\x22\
- y1=\x228.394\x22 y2=\x22\
-40.021\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#2aa4f\
-4\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#007ad9\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#PRD\
-6BAhJCUgoCQFbrJd\
-IZa)\x22 d=\x22M38.5,1\
-1h-29l1.627,30.1\
-08C11.184,42.169\
-,12.061,43,13.12\
-4,43h21.752 c1.0\
-63,0,1.94-0.831,\
-1.997-1.892L38.5\
-,11z\x22 />\x0d\x0a</svg>\
-\
-\x00\x00\x0a\xf7\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x226V\
-QqqCzoqWNhAAr4mA\
-5jta\x22 x1=\x228.514\x22\
- x2=\x2239.323\x22 y1=\
-\x224.665\x22 y2=\x2243.1\
-33\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#5961c3\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#3a41ac\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#6VQqqCz\
-oqWNhAAr4mA5jta)\
-\x22 d=\x22M37,8c1.7,0\
-,3,1.3,3,3v26c0,\
-1.7-1.3,3-3,3H11\
-c-1.7,0-3-1.3-3-\
-3V11c0-1.7,1.3-3\
-,3-3H37 M37,6 H1\
-1c-2.8,0-5,2.2-5\
-,5v26c0,2.8,2.2,\
-5,5,5h26c2.8,0,5\
--2.2,5-5V11C42,8\
-.2,39.8,6,37,6L3\
-7,6z\x22 />\x0d\x0a  <pat\
-h d=\x22M11,41c-2.2\
-43,0-4-1.757-4-4\
-V11c0-2.243,1.75\
-7-4,4-4h26c2.243\
-,0,4,1.757,4,4v2\
-6c0,2.243-1.757,\
-4-4,4 H11z\x22 opac\
-ity=\x22.05\x22 />\x0d\x0a  \
-<path d=\x22M11,40.\
-5c-1.963,0-3.5-1\
-.537-3.5-3.5V11c\
-0-1.963,1.537-3.\
-5,3.5-3.5h26c1.9\
-63,0,3.5,1.537,3\
-.5,3.5v26 c0,1.9\
-63-1.537,3.5-3.5\
-,3.5H11z\x22 opacit\
-y=\x22.07\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x226VQqqCzoqWNhAA\
-r4mA5jtb\x22 x1=\x227.\
-666\x22 x2=\x2241.943\x22\
- y1=\x225.567\x22 y2=\x22\
-44.248\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#fafaf\
-b\x22 />\x0d\x0a    <stop\
- offset=\x221\x22 stop\
--color=\x22#c8cdd1\x22\
- />\x0d\x0a  </linearG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#6VQ\
-qqCzoqWNhAAr4mA5\
-jtb)\x22 d=\x22M37,8H1\
-1c-1.7,0-3,1.3-3\
-,3v26c0,1.7,1.3,\
-3,3,3h26c1.7,0,3\
--1.3,3-3V11C40,9\
-.3,38.7,8,37,8z\x22\
- />\x0d\x0a  <linearGr\
-adient id=\x226VQqq\
-CzoqWNhAAr4mA5jt\
-c\x22 x1=\x2218.673\x22 x\
-2=\x2234.077\x22 y1=\x221\
-0.626\x22 y2=\x2230.24\
-3\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#5961c3\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-colo\
-r=\x22#3a41ac\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <circle c\
-x=\x2222.5\x22 cy=\x2215.\
-5\x22 r=\x222.5\x22 fill=\
-\x22url(#6VQqqCzoqW\
-NhAAr4mA5jtc)\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x226VQqqCz\
-oqWNhAAr4mA5jtd\x22\
- x1=\x2223.555\x22 x2=\
-\x2238.959\x22 y1=\x226.7\
-93\x22 y2=\x2226.41\x22 g\
-radientUnits=\x22us\
-erSpaceOnUse\x22>\x0d\x0a\
-    <stop offset\
-=\x220\x22 stop-color=\
-\x22#5961c3\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-3a41ac\x22 />\x0d\x0a  </\
-linearGradient>\x0d\
-\x0a  <circle cx=\x223\
-0\x22 cy=\x2215\x22 r=\x223\x22\
- fill=\x22url(#6VQq\
-qCzoqWNhAAr4mA5j\
-td)\x22 />\x0d\x0a  <line\
-arGradient id=\x226\
-VQqqCzoqWNhAAr4m\
-A5jte\x22 x1=\x2214.40\
-9\x22 x2=\x2229.814\x22 y\
-1=\x2213.974\x22 y2=\x223\
-3.591\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#5961c3\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#3a41ac\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <circ\
-le cx=\x2216\x22 cy=\x221\
-6\x22 r=\x222\x22 fill=\x22u\
-rl(#6VQqqCzoqWNh\
-AAr4mA5jte)\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x226VQqqCzoq\
-WNhAAr4mA5jtf\x22 x\
-1=\x2213.949\x22 x2=\x222\
-9.228\x22 y1=\x2214.39\
-\x22 y2=\x2233.847\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#5961c3\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#3\
-a41ac\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#6VQqqCzoqWNhA\
-Ar4mA5jtf)\x22 d=\x22M\
-30.011,22.024c-1\
-.306-0.124-2.541\
-,0.233-3.548,0.9\
-11C25.774,21.785\
-,24.486,21,23,21\
- c-1.305,0-2.458\
-,0.606-3.189,1.5\
-31C19.347,21.008\
-,18.029,19.9,16.\
-5,19.9c-1.9,0-3.\
-5,1.7-3.5,3.8v4.\
-8c0,0.276,0.224,\
-0.5,0.5,0.5H19 v\
-2.5c0,0.276,0.22\
-4,0.5,0.5,0.5H24\
-v3.5c0,0.276,0.2\
-24,0.5,0.5,0.5h1\
-0c0.276,0,0.5-0.\
-224,0.5-0.5l0-7.\
-74 C35,24.872,32\
-.887,22.297,30.0\
-11,22.024z\x22 />\x0d\x0a\
-</svg>\
-\x00\x00\x02\x1a\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x227F\
-BwdJGmyx7gvPnWMo\
-~IMa\x22 x1=\x2212.686\
-\x22 x2=\x2235.58\x22 y1=\
-\x224.592\x22 y2=\x2241.8\
-41\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#21ad64\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#088242\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#7FBwdJG\
-myx7gvPnWMo~IMa)\
-\x22 d=\x22M42,8H6c-1.\
-105,0-2,0.895-2,\
-2v26c0,1.105,0.8\
-95,2,2,2h8v7.998\
- c0,0.891,1.077,\
-1.337,1.707,0.70\
-7L24.412,38H42c1\
-.105,0,2-0.895,2\
--2V10C44,8.895,4\
-3.105,8,42,8z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x12\x95\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22If\
-hrvZkWi8LOXjspG~\
-Pupa\x22 x1=\x2214.899\
-\x22 x2=\x2233.481\x22 y1\
-=\x2243.815\x22 y2=\x227.\
-661\x22 gradientTra\
-nsform=\x22matrix(1\
- 0 0 -1 .108 50.\
-317)\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#f22543\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.422\x22 sto\
-p-color=\x22#eb2239\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#e52030\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#Ifhr\
-vZkWi8LOXjspG~Pu\
-pa)\x22 d=\x22M44,23.9\
-810009C44.011001\
-6,35.026001,35.0\
-639992,43.988998\
-4,24.0189991,44 \
-S4.0110002,35.06\
-39992,4,24.01899\
-91C3.9890001,12.\
-974,12.9359999,4\
-.0110002,23.9810\
-009,4 C35.026001\
-,3.9890001,43.98\
-89984,12.9359999\
-,44,23.9810009z\x22\
- />\x0d\x0a  <path d=\x22\
-M37.7729988,22.9\
-680004c0-7.15600\
-01-5.7299995-12.\
-552-13.3299999-1\
-2.552 c-9.767000\
-2,0-14.2150002,6\
-.7919998-14.2150\
-002,13.1040001c0\
-,3.1480007,1.625\
-,7.2519989,4.637\
-0001,8.6549988 c\
-0.4860001,0.2270\
-012,0.9300003,0.\
-2439995,1.321000\
-1,0.0550003c0.26\
-09997-0.1259995,\
-0.6030006-0.4029\
-999,0.7420006-0.\
-9950008 l0.55599\
-98-2.2689991c0.1\
-259995-0.5289993\
-,0.0130005-1.013\
-9999-0.3390007-1\
-.4419994 c-0.625\
-9995-0.7600002-1\
-.2609997-2.35400\
-01-1.2609997-3.9\
-300003c0-3.72299\
-96,2.8139992-7.6\
-800003,8.0299988\
--7.6800003 c4.32\
-99999,0,7.354000\
-1,2.9349995,7.35\
-40001,7.1369991c\
-0,4.7270012-2.22\
-3999,8.1580009-5\
-.2870007,8.15800\
-09 c-0.6819992,0\
--1.289999-0.2740\
-002-1.6679993-0.\
-7520008c-0.35099\
-98-0.4440002-0.4\
-640007-1.0230007\
--0.3209991-1.631\
-0005 c0.1959991-\
-0.8260002,0.4650\
-002-1.6940002,0.\
-7240009-2.534000\
-4c0.4939995-1.59\
-79996,0.9599991-\
-3.1070004,0.9599\
-991-4.3549995 c0\
--2.282999-1.4190\
-006-3.816-3.5300\
-007-3.816c-2.590\
-0002,0-4.618,2.5\
-720005-4.618,5.8\
-55999 c0,1.41300\
-01,0.3430004,2.5\
-170002,0.5499992\
-,3.0559998c-0.36\
-49998,1.5440006-\
-1.9489994,8.2490\
-005-2.2700005,9.\
-6269989 c-0.3839\
-998,1.6399994-0.\
-3070002,3.804000\
-9-0.1479998,5.50\
-09995c1.0940008,\
-0.5029984,2.2400\
-007,0.9059982,3.\
-4299994,1.207000\
-7 c0.7719994-1.2\
-789993,1.9710007\
--3.4389992,2.441\
-9994-5.2490005c0\
-.132-0.5079994,0\
-.4880009-1.86600\
-11,0.7859993-3.0\
-009995 c1.097999\
-6,0.7939987,2.58\
-5001,1.2910004,4\
-.0760002,1.29100\
-04C32.882,36.408\
-0009,37.7729988,\
-30.6299992,37.77\
-29988,22.9680004\
-z\x22 opacity=\x22.05\x22\
- />\x0d\x0a  <path d=\x22\
-M37.2729988,22.9\
-680004c0-6.87100\
-03-5.5159988-12.\
-052-12.8299999-1\
-2.052 c-9.423000\
-3,0-13.7150002,6\
-.5330009-13.7150\
-002,12.6040001c0\
-,3.0359993,1.626\
-0004,6.934,4.349\
-,8.2019997 c0.12\
-69999,0.0599995,\
-0.5159998,0.2409\
-992,0.8920002,0.\
-059c0.2379999-0.\
-1159992,0.397999\
-8-0.3390007,0.47\
-4-0.6620007 l0.5\
-550003-2.2679996\
-c0.0890007-0.374\
-0005,0.0119991-0\
-.7040005-0.23900\
-03-1.0079994 c-0\
-.809-0.9820004-1\
-.375-2.7290001-1\
-.375-4.2479992c0\
--3.9650002,2.989\
-9998-8.1800003,8\
-.5299988-8.18000\
-03 c4.6240005,0,\
-7.8540001,3.1399\
-994,7.8540001,7.\
-637001c0,5.01700\
-02-2.434,8.65800\
-09-5.7870007,8.6\
-580009 c-0.83499\
-91,0-1.5860004-0\
-.3430004-2.05999\
-95-0.9419994c-0.\
-448-0.566-0.5949\
-993-1.2970009-0.\
-4150009-2.056999\
-2 c0.2000008-0.8\
-42001,0.4710007-\
-1.7180004,0.7329\
-998-2.566c0.4820\
-004-1.5610008,0.\
-9379997-3.034999\
-8,0.9379997-4.20\
-80002 c0-1.98399\
-93-1.2180004-3.3\
-16-3.0300007-3.3\
-16c-2.309,0-4.11\
-8,2.3530006-4.11\
-8,5.3560009 c0,1\
-.493,0.3990002,2\
-.6049995,0.573,3\
-.0179996c-0.2789\
-993,1.1800003-1.\
-9729996,8.347997\
-7-2.3059998,9.77\
-90012 c-0.390999\
-8,1.6749992-0.28\
-19996,3.9440002-\
-0.1070004,5.6409\
-988c0.7730007,0.\
-3279991,1.576999\
-7,0.5940018,2.39\
-59999,0.8240013 \
-c0.7520008-1.233\
-0017,1.993-3.435\
-0014,2.4640007-5\
-.2449989c0.16399\
-96-0.6300011,0.6\
-709995-2.5629997\
-,0.9860001-3.762\
-001 c1.0139999,1\
-.0089989,2.68099\
-98,1.6780014,4.3\
-600006,1.6780014\
-C32.5970001,35.9\
-080009,37.272998\
-8,30.3449993,37.\
-2729988,22.96800\
-04z\x22 opacity=\x22.0\
-7\x22 />\x0d\x0a  <path f\
-ill=\x22#FFF\x22 d=\x22M2\
-4.4430008,11.416\
-9998c-8.632,0-13\
-.2150002,5.79500\
-01-13.2150002,12\
-.1030006 c0,2.93\
-30006,1.5620003,\
-6.5849991,4.0599\
-995,7.7480011c0.\
-3780003,0.177,0.\
-5819998,0.100000\
-4,0.6680002-0.26\
-70002 c0.0670004\
--0.2779999,0.403\
-0008-1.6369991,0\
-.5549994-2.26799\
-96c0.0480003-0.2\
-019997,0.0249996\
--0.375-0.1380005\
--0.573 c-0.82699\
-97-1.0030003-1.4\
-879999-2.8470001\
--1.4879999-4.565\
-0005c0-4.4120007\
-,3.3399992-8.680\
-0003,9.0299997-8\
-.6800003 c4.9130\
-001,0,8.3529987,\
-3.3479996,8.3529\
-987,8.137001c0,5\
-.4099998-2.73200\
-04,9.1580009-6.2\
-870007,9.1580009\
- c-1.9629993,0-3\
-.4330006-1.62299\
-92-2.9619999-3.6\
-149998c0.5650005\
--2.3770008,1.656\
-9996-4.9419994,1\
-.6569996-6.65799\
-9 c0-1.5349998-0\
-.823-2.8169994-2\
-.5300007-2.81699\
-94c-2.007,0-3.61\
-8,2.0750008-3.61\
-8,4.8570004 c0,1\
-.7700005,0.59799\
-96,2.9680004,0.5\
-979996,2.9680004\
-s-1.9820004,8.38\
-19981-2.3449993,\
-9.9419994 c-0.40\
-20004,1.7220001-\
-0.2460003,4.1409\
-988-0.0709991,5.\
-7229996c0.451000\
-2,0.1769981,0.90\
-20004,0.3540001,\
-1.3689995,0.4990\
-005 c0.8169994-1\
-.3279991,2.03400\
-04-3.5060005,2.4\
-860001-5.2420006\
-c0.243-0.9370003\
-,1.2469997-4.755\
-0011,1.2469997-4\
-.7550011 c0.6520\
-004,1.243,2.5569\
-992,2.2970009,4.\
-5830002,2.297000\
-9c6.0320015,0,10\
-.3779984-5.54700\
-09,10.3779984-12\
-.4399986 C36.772\
-9988,16.3600006,\
-31.382,11.416999\
-8,24.4430008,11.\
-4169998z\x22 />\x0d\x0a</\
-svg>\
-\x00\x00\x08\xba\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22v3\
-tlMT4~zKpyDBb1xi\
-0jWa\x22 x1=\x226.825\x22\
- x2=\x2241.469\x22 y1=\
-\x225.537\x22 y2=\x2242.7\
-8\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#0d61a9\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-colo\
-r=\x22#16528c\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <path fil\
-l=\x22url(#v3tlMT4~\
-zKpyDBb1xi0jWa)\x22\
- d=\x22M42,38c0,2.2\
-09-1.791,4-4,4H1\
-0c-2.209,0-4-1.7\
-91-4-4V10c0-2.20\
-9,1.791-4,4-4h28\
- c2.209,0,4,1.79\
-1,4,4V38z\x22 />\x0d\x0a \
- <path d=\x22M24.94\
-7,38c-6.7,0-6.89\
-4-7.308-6.894-8.\
-141L18.007,23h-1\
-.679C15.596,23,1\
-5,22.403,15,21.6\
-71V18.57 c0-0.54\
-1,0.336-1.038,0.\
-837-1.238c0.047-\
-0.02,4.542-1.875\
-,4.542-6.004c0-0\
-.732,0.596-1.329\
-,1.327-1.329h2.9\
-66 C25.405,10.00\
-4,26,10.601,26,1\
-1.329V17h4.67c0.\
-733,0,1.33,0.596\
-,1.33,1.328v3.34\
-5C32,22.404,31.4\
-03,23,30.67,23H2\
-6v6.676 c0.048,0\
-.313,0.327,1.555\
-,1.76,1.555c1.69\
-1,0,3.206-0.901,\
-3.222-0.91c0.194\
--0.124,0.442-0.1\
-95,0.69-0.195 c0\
-.22,0,0.438,0.05\
-5,0.632,0.159C32\
-.735,30.521,33,3\
-0.97,33,31.455v3\
-.436c0,0.388-0.1\
-66,0.753-0.455,1\
-.003 C32.301,36.\
-107,29.996,38,24\
-.947,38z\x22 opacit\
-y=\x22.05\x22 />\x0d\x0a  <p\
-ath d=\x22M24.947,3\
-7.5c-6.214,0-6.3\
-94-6.858-6.394-7\
-.641L18.503,22.5\
-h-2.175c-0.457,0\
--0.828-0.372-0.8\
-28-0.829 V18.57c\
-0-0.338,0.21-0.6\
-49,0.522-0.774c0\
-.053-0.021,4.856\
--1.979,4.856-6.4\
-68c0-0.457,0.371\
--0.829,0.827-0.8\
-29h2.966 c0.458,\
-0.003,0.828,0.37\
-5,0.828,0.83V17.\
-5h5.17c0.458,0,0\
-.83,0.371,0.83,0\
-.828v3.345c0,0.4\
-56-0.372,0.827-0\
-.83,0.827H25.5v7\
-.211 c0.002,0,0.\
-211,2.02,2.26,2.\
-02c1.827,0,3.413\
--0.942,3.479-0.9\
-82c0.123-0.078,0\
-.275-0.123,0.433\
--0.123c0.137,0,0\
-.273,0.034,0.396\
-,0.1 c0.27,0.148\
-,0.433,0.427,0.4\
-33,0.73v3.436c0,\
-0.242-0.103,0.47\
--0.282,0.625C31.\
-988,35.717,29.81\
-6,37.5,24.947,37\
-.5z\x22 opacity=\x22.0\
-7\x22 />\x0d\x0a  <path f\
-ill=\x22#fff\x22 d=\x22M3\
-2,34.891c0,0.095\
--0.037,0.184-0.1\
-09,0.247C31.803,\
-35.215,29.723,37\
-,24.947,37 c-5.7\
-26,0-5.893-6.409\
--5.893-7.141L19,\
-22h-2.672C16.146\
-,22,16,21.853,16\
-,21.671V18.57c0-\
-0.135,0.083-0.25\
-9,0.208-0.309 c0\
-.052-0.02,5.171-\
-2.083,5.171-6.93\
-3c0-0.183,0.146-\
-0.329,0.327-0.32\
-9h2.966C24.854,1\
-1,25,11.146,25,1\
-1.329V18h5.67 c0\
-.182,0,0.33,0.14\
-6,0.33,0.328v3.3\
-45C31,21.856,30.\
-852,22,30.67,22H\
-25v7.711c0,0.101\
-,0.316,2.519,2.7\
-6,2.519 c2.023,0\
-,3.721-1.044,3.7\
-4-1.055c0.1-0.06\
-4,0.227-0.066,0.\
-333-0.009C31.936\
-,31.223,32,31.33\
-4,32,31.455V34.8\
-91L32,34.891z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x01\xce\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22 fill-rule=\
-\x22evenodd\x22 clip-r\
-ule=\x22evenodd\x22 ba\
-seProfile=\x22basic\
-\x22>\x0d\x0a  <polygon f\
-ill=\x22#616161\x22 po\
-ints=\x2241,6 9.929\
-,42 6.215,42 37.\
-287,6\x22 />\x0d\x0a  <po\
-lygon fill=\x22#fff\
-\x22 fill-rule=\x22eve\
-nodd\x22 points=\x2231\
-.143,41 7.82,7 1\
-6.777,7 40.1,41\x22\
- clip-rule=\x22even\
-odd\x22 />\x0d\x0a  <path\
- fill=\x22#616161\x22 \
-d=\x22M15.724,9l20.\
-578,30h-4.106L11\
-.618,9H15.724 M1\
-7.304,6H5.922l24\
-.694,36h11.382L1\
-7.304,6L17.304,6\
-z\x22 />\x0d\x0a</svg>\
-\x00\x00\x05\xbb\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Od\
-X3C1xulekUyisLoP\
-B4ba\x22 x1=\x2212.686\
-\x22 x2=\x2235.58\x22 y1=\
-\x224.592\x22 y2=\x2241.8\
-41\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#33bef0\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#0a85d9\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#OdX3C1x\
-ulekUyisLoPB4ba)\
-\x22 d=\x22M42,8H6c-1.\
-105,0-2,0.895-2,\
-2v26c0,1.105,0.8\
-95,2,2,2h8v7.998\
- c0,0.891,1.077,\
-1.337,1.707,0.70\
-7L24.412,38H42c1\
-.105,0,2-0.895,2\
--2V10C44,8.895,4\
-3.105,8,42,8z\x22 /\
->\x0d\x0a  <path d=\x22M2\
-2,34h4c0.552,0,1\
--0.448,1-1V21c0-\
-0.552-0.448-1-1-\
-1h-4c-0.552,0-1,\
-0.448-1,1v12 C21\
-,33.552,21.448,3\
-4,22,34z\x22 opacit\
-y=\x22.05\x22 />\x0d\x0a  <p\
-ath d=\x22M22.227,3\
-3.5h3.547c0.401,\
-0,0.727-0.325,0.\
-727-0.727V21.227\
-c0-0.401-0.325-0\
-.727-0.727-0.727\
-h-3.547 c-0.401,\
-0-0.727,0.325-0.\
-727,0.727v11.547\
-C21.5,33.175,21.\
-825,33.5,22.227,\
-33.5z\x22 opacity=\x22\
-.07\x22 />\x0d\x0a  <radi\
-alGradient id=\x22O\
-dX3C1xulekUyisLo\
-PB4bb\x22 cx=\x22-71.4\
-49\x22 cy=\x2244.231\x22 \
-r=\x225.108\x22 gradie\
-ntTransform=\x22mat\
-rix(.7808 0 0 .7\
-066 79.788 -15.8\
-53)\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x22.516\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-opac\
-ity=\x220\x22 />\x0d\x0a  </\
-radialGradient>\x0d\
-\x0a  <ellipse cx=\x22\
-24\x22 cy=\x2215.402\x22 \
-fill=\x22url(#OdX3C\
-1xulekUyisLoPB4b\
-b)\x22 opacity=\x22.15\
-\x22 rx=\x223.988\x22 ry=\
-\x223.609\x22 />\x0d\x0a  <p\
-ath fill=\x22#fff\x22 \
-d=\x22M24,17.732c1.\
-7,0,2.65-1.068,2\
-.65-2.388C26.65,\
-14.024,25.647,13\
-,24,13s-2.65,1.0\
-24-2.65,2.344 C2\
-1.35,16.664,22.3\
-,17.732,24,17.73\
-2z\x22 />\x0d\x0a  <rect \
-width=\x224\x22 height\
-=\x2212\x22 x=\x2222\x22 y=\x22\
-21\x22 fill=\x22#fff\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x03r\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#c94f60\x22 d\
-=\x22M42.583,9.067l\
--3.651-3.65c-0.5\
-55-0.556-1.459-0\
-.556-2.015,0l-1.\
-718,1.72l5.664,5\
-.664l1.72-1.718 \
-C43.139,10.526,4\
-3.139,9.625,42.5\
-83,9.067\x22 />\x0d\x0a  \
-<path fill=\x22#f0f\
-0f0\x22 d=\x22M6.905,3\
-5.43L5,43l7.571-\
-1.906l0.794-6.56\
-7L6.905,35.43z\x22 \
-/>\x0d\x0a  <path fill\
-=\x22#edbe00\x22 d=\x22M3\
-6.032,17.632l-23\
-.46,23.461l-5.66\
-5-5.665l23.46-23\
-.461L36.032,17.6\
-32z\x22 />\x0d\x0a  <line\
-arGradient id=\x22Y\
-oPixpDbHWOyk~b00\
-5eF1a\x22 x1=\x2235.61\
-2\x22 x2=\x2235.612\x22 y\
-1=\x227.494\x22 y2=\x2217\
-.921\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#dedede\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#d6d6d6\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <path \
-fill=\x22url(#YoPix\
-pDbHWOyk~b005eF1\
-a)\x22 d=\x22M30.363,1\
-1.968l4.832-4.83\
-4l5.668,5.664l-4\
-.832,4.834L30.36\
-3,11.968z\x22 />\x0d\x0a \
- <path fill=\x22#78\
-7878\x22 d=\x22M5.965,\
-39.172L5,43l3.82\
-7-0.965L5.965,39\
-.172z\x22 />\x0d\x0a</svg\
->\
-\x00\x00\x06<\
-<\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0a<svg\x0a   vi\
-ewBox=\x220 0 48 48\
-\x22\x0a   width=\x2248px\
-\x22\x0a   height=\x2248p\
-x\x22\x0a   version=\x221\
-.1\x22\x0a   id=\x22svg4\x22\
-\x0a   sodipodi:doc\
-name=\x22Master.svg\
-\x22\x0a   inkscape:ve\
-rsion=\x221.4.2 (f4\
-327f4, 2025-05-1\
-3)\x22\x0a   xmlns:ink\
-scape=\x22http://ww\
-w.inkscape.org/n\
-amespaces/inksca\
-pe\x22\x0a   xmlns:sod\
-ipodi=\x22http://so\
-dipodi.sourcefor\
-ge.net/DTD/sodip\
-odi-0.dtd\x22\x0a   xm\
-lns=\x22http://www.\
-w3.org/2000/svg\x22\
-\x0a   xmlns:svg=\x22h\
-ttp://www.w3.org\
-/2000/svg\x22>\x0a  <d\
-efs\x0a     id=\x22def\
-s4\x22 />\x0a  <sodipo\
-di:namedview\x0a   \
-  id=\x22namedview4\
-\x22\x0a     pagecolor\
-=\x22#ffffff\x22\x0a     \
-bordercolor=\x22#00\
-0000\x22\x0a     borde\
-ropacity=\x220.25\x22\x0a\
-     inkscape:sh\
-owpageshadow=\x222\x22\
-\x0a     inkscape:p\
-ageopacity=\x220.0\x22\
-\x0a     inkscape:p\
-agecheckerboard=\
-\x220\x22\x0a     inkscap\
-e:deskcolor=\x22#d1\
-d1d1\x22\x0a     inksc\
-ape:zoom=\x2218.906\
-25\x22\x0a     inkscap\
-e:cx=\x2218.459504\x22\
-\x0a     inkscape:c\
-y=\x2222.241322\x22\x0a  \
-   inkscape:wind\
-ow-width=\x223840\x22\x0a\
-     inkscape:wi\
-ndow-height=\x22205\
-4\x22\x0a     inkscape\
-:window-x=\x223061\x22\
-\x0a     inkscape:w\
-indow-y=\x22-11\x22\x0a  \
-   inkscape:wind\
-ow-maximized=\x221\x22\
-\x0a     inkscape:c\
-urrent-layer=\x22sv\
-g4\x22 />\x0a  <path\x0a \
-    fill=\x22#0078d\
-4\x22\x0a     d=\x22M42,3\
-7c0,2.762-2.238,\
-5-5,5H11c-2.761,\
-0-5-2.238-5-5V11\
-c0-2.762,2.239-5\
-,5-5h26c2.762,0,\
-5,2.238,5,5 V37z\
-\x22\x0a     id=\x22path1\
-\x22 />\x0a  <path\x0a   \
-  d=\x22m 12.792046\
-,35.676033 v -22\
-.90625 h 6.92187\
-5 l 4.15625,15.6\
-25 4.109375,-15.\
-625 h 6.9375 v 2\
-2.90625 h -4.296\
-875 v -18.03125 \
-l -4.546875,18.0\
-3125 h -4.453125\
- l -4.53125,-18.\
-03125 v 18.03125\
- z\x22\x0a     id=\x22tex\
-t4\x22\x0a     style=\x22\
-font-weight:bold\
-;font-size:32px;\
-line-height:0;fo\
-nt-family:Arial;\
--inkscape-font-s\
-pecification:'Ar\
-ial Bold';text-a\
-lign:center;text\
--anchor:middle;f\
-ill:#ffffff\x22\x0a   \
-  aria-label=\x22M\x22\
- />\x0a</svg>\x0a\
-\x00\x00\x05\x8a\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x22oP\
-XJPSjF6nlxQ7ZAIb\
-FD6a\x22 cx=\x2224\x22 cy\
-=\x2225\x22 r=\x2219\x22 gra\
-dientTransform=\x22\
-matrix(1 0 0 -1 \
-0 48)\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x22.078\x22 \
-stop-color=\x22#fff\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.202\x22 st\
-op-color=\x22#fff5a\
-3\x22 />\x0d\x0a    <stop\
- offset=\x22.216\x22 s\
-top-color=\x22#fff3\
-92\x22 />\x0d\x0a    <sto\
-p offset=\x22.263\x22 \
-stop-color=\x22#ffe\
-e5f\x22 />\x0d\x0a    <st\
-op offset=\x22.307\x22\
- stop-color=\x22#ff\
-ea37\x22 />\x0d\x0a    <s\
-top offset=\x22.347\
-\x22 stop-color=\x22#f\
-fe71a\x22 />\x0d\x0a    <\
-stop offset=\x22.38\
-2\x22 stop-color=\x22#\
-ffe508\x22 />\x0d\x0a    \
-<stop offset=\x22.4\
-08\x22 stop-color=\x22\
-#ffe402\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-545\x22 stop-color=\
-\x22#fdde02\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-.736\x22 stop-color\
-=\x22#f9cc01\x22 />\x0d\x0a \
-   <stop offset=\
-\x22.956\x22 stop-colo\
-r=\x22#f2af00\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#f0a800\x22 />\x0d\x0a  \
-</radialGradient\
->\x0d\x0a  <circle cx=\
-\x2224\x22 cy=\x2223\x22 r=\x22\
-19\x22 fill=\x22url(#o\
-PXJPSjF6nlxQ7ZAI\
-bFD6a)\x22 />\x0d\x0a  <r\
-adialGradient id\
-=\x22oPXJPSjF6nlxQ7\
-ZAIbFD6b\x22 cx=\x2221\
-.677\x22 cy=\x2210.537\
-\x22 r=\x2210.066\x22 gra\
-dientTransform=\x22\
-matrix(1 0 0 -1 \
-0 48)\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#6e757b\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#4a4e52\x22 \
-/>\x0d\x0a  </radialGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#oPXJ\
-PSjF6nlxQ7ZAIbFD\
-6b)\x22 d=\x22M29,38H1\
-9c0,0.7,0,2,0,2c\
-0,2.8,2.2,5,5,5s\
-5-2.2,5-5C29,40,\
-29,38.7,29,38z\x22 \
-/>\x0d\x0a  <path fill\
-=\x22#fefefe\x22 d=\x22M3\
-4,23c0-5.5-4.5-1\
-0-10-10s-10,4.5-\
-10,10c0,5,5,9,5,\
-14v1h10v-1C29,32\
-,34,28,34,23z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x0c\x17\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22VX\
-n9TpuXrZVOn0kgjT\
-Voja\x22 x1=\x2227.373\
-\x22 x2=\x2240.507\x22 y1\
-=\x22226.627\x22 y2=\x222\
-13.493\x22 gradient\
-Transform=\x22matri\
-x(1 0 0 -1 0 254\
-)\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#a8142e\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.179\x22 stop-c\
-olor=\x22#ba1632\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.243\x22 stop-\
-color=\x22#c21734\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#VXn9\
-TpuXrZVOn0kgjTVo\
-ja)\x22 d=\x22M24,30.8\
-21l9.684,9.684l6\
-.747-0.116l1.988\
--1.988c0.774-0.7\
-74,0.774-2.028,0\
--2.802L30.821,24\
- L24,30.821z\x22 />\
-\x0d\x0a  <linearGradi\
-ent id=\x22VXn9TpuX\
-rZVOn0kgjTVojb\x22 \
-x1=\x227.534\x22 x2=\x222\
-7.557\x22 y1=\x22246.4\
-66\x22 y2=\x22226.443\x22\
- gradientTransfo\
-rm=\x22matrix(1 0 0\
- -1 0 254)\x22 grad\
-ientUnits=\x22userS\
-paceOnUse\x22>\x0d\x0a   \
- <stop offset=\x220\
-\x22 stop-color=\x22#f\
-44f5a\x22 />\x0d\x0a    <\
-stop offset=\x22.44\
-3\x22 stop-color=\x22#\
-ee3d4a\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#e5\
-2030\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#VXn9TpuXrZVOn0\
-kgjTVojb)\x22 d=\x22M4\
-2.42,12.401c0.77\
-4-0.774,0.774-2.\
-028,0-2.802L38.4\
-01,5.58c-0.774-0\
-.774-2.028-0.774\
--2.802,0 L24,17.\
-179L12.401,5.58c\
--0.774-0.774-2.0\
-28-0.774-2.802,0\
-L5.58,9.599c-0.7\
-74,0.774-0.774,2\
-.028,0,2.802L17.\
-179,24L5.58,35.5\
-99 c-0.774,0.774\
--0.774,2.028,0,2\
-.802l4.019,4.019\
-c0.774,0.774,2.0\
-28,0.774,2.802,0\
-L42.42,12.401z\x22 \
-/>\x0d\x0a  <linearGra\
-dient id=\x22VXn9Tp\
-uXrZVOn0kgjTVojc\
-\x22 x1=\x22702.071\x22 x\
-2=\x22702.071\x22 y1=\x22\
-205.431\x22 y2=\x22212\
-.45\x22 gradientTra\
-nsform=\x22rotate(1\
-80 373.536 127)\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x22.478\x22 stop-c\
-olor=\x22#ad4bd5\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.758\x22 stop-\
-color=\x22#9f3dc8\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x22.787\x22 stop\
--color=\x22#9a38c4\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.868\x22 sto\
-p-color=\x22#9533c0\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#912fbd\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#VXn9\
-TpuXrZVOn0kgjTVo\
-jc)\x22 d=\x22M48,40.9\
-57v6.102C48,47.5\
-79,47.581,48,47.\
-065,48h-4.129C42\
-.419,48,42,47.57\
-9,42,47.059v-6.1\
-02 H48z\x22 />\x0d\x0a  <\
-path d=\x22M27.442,\
-34.263l6.243,6.2\
-43l6.747-0.116l1\
-.988-1.988c0.774\
--0.774,0.774-2.0\
-28,0-2.802l-0.03\
-3-0.033 c-0.885-\
-0.298-1.824-0.46\
-1-2.786-0.461h-6\
-.653V32.65c0-0.6\
-54-0.402-1.233-1\
-.027-1.477c-0.19\
-1-0.074-0.393-0.\
-111-0.599-0.111 \
-c-0.423,0-0.828,\
-0.162-1.151,0.46\
-6L27.442,34.263z\
-\x22 opacity=\x22.05\x22 \
-/>\x0d\x0a  <path d=\x22M\
-27.795,34.616l5.\
-889,5.889l6.747-\
-0.116l1.988-1.98\
-8c0.572-0.572,0.\
-719-1.407,0.444-\
-2.116 c-1.012-0.\
-44-2.12-0.679-3.\
-264-0.679h-7.153\
-V32.65c0-0.446-0\
-.276-0.842-0.707\
--1.01c-0.134-0.0\
-52-0.275-0.078-0\
-.419-0.078 c-0.2\
-95,0-0.574,0.109\
--0.797,0.319L27.\
-795,34.616z\x22 opa\
-city=\x22.07\x22 />\x0d\x0a \
- <linearGradient\
- id=\x22VXn9TpuXrZV\
-On0kgjTVojd\x22 x1=\
-\x22699.071\x22 x2=\x2272\
-2.147\x22 y1=\x22215.4\
-69\x22 y2=\x22215.469\x22\
- gradientTransfo\
-rm=\x22rotate(180 3\
-73.536 127)\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-c965eb\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#c7\
-67e5\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#VXn9TpuXrZVOn0\
-kgjTVojd)\x22 d=\x22M2\
-5.186,37.94c-0.3\
-49,0.328-0.349,0\
-.856,0,1.183l5.6\
-92,5.705 C30.998\
-,44.94,31.158,45\
-,31.321,45c0.081\
-,0,0.162-0.015,0\
-.24-0.045c0.234-\
-0.091,0.387-0.30\
-5,0.387-0.543v-3\
-.455H48l-3.415-3\
-.006 c-1.346-1.1\
-85-3.13-1.845-4.\
-984-1.845h-7.653\
-V32.65c0-0.238-0\
-.152-0.452-0.387\
--0.543c-0.235-0.\
-091-0.504-0.041-\
-0.683,0.127 L25.\
-186,37.94z\x22 />\x0d\x0a\
-</svg>\
-\x00\x00\x08\xb0\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22I9\
-3pW93qJSUhtSDIz1\
-RZKa\x22 x1=\x22-248\x22 \
-x2=\x22-238\x22 y1=\x22-2\
-34\x22 y2=\x22-234\x22 gr\
-adientTransform=\
-\x22rotate(180 -112\
- -112)\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x22.266\x22\
- stop-color=\x22#19\
-9ae0\x22 />\x0d\x0a    <s\
-top offset=\x22.582\
-\x22 stop-color=\x22#1\
-898de\x22 />\x0d\x0a    <\
-stop offset=\x22.74\
-5\x22 stop-color=\x22#\
-1590d6\x22 />\x0d\x0a    \
-<stop offset=\x22.8\
-73\x22 stop-color=\x22\
-#1083c9\x22 />\x0d\x0a   \
- <stop offset=\x22.\
-982\x22 stop-color=\
-\x22#0870b7\x22 />\x0d\x0a  \
-  <stop offset=\x22\
-1\x22 stop-color=\x22#\
-076cb3\x22 />\x0d\x0a  </\
-linearGradient>\x0d\
-\x0a  <path fill=\x22u\
-rl(#I93pW93qJSUh\
-tSDIz1RZKa)\x22 d=\x22\
-M14,13h9c0.552,0\
-,1-0.448,1-1V8c0\
--0.552-0.448-1-1\
--1h-9V13z\x22 />\x0d\x0a \
- <linearGradient\
- id=\x22I93pW93qJSU\
-htSDIz1RZKb\x22 x1=\
-\x223.924\x22 x2=\x2217.0\
-01\x22 y1=\x228.199\x22 y\
-2=\x2241.867\x22 gradi\
-entUnits=\x22userSp\
-aceOnUse\x22>\x0d\x0a    \
-<stop offset=\x220\x22\
- stop-color=\x22#32\
-bdef\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-color=\x22#1ea2\
-e4\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-I93pW93qJSUhtSDI\
-z1RZKb)\x22 d=\x22M18.\
-19,32H14V7l-4.82\
-8,4.828C8.421,12\
-.579,8,13.596,8,\
-14.657V32H3.81 c\
--0.72,0-1.08,0.8\
-7-0.571,1.379l6.\
-701,6.701c0.586,\
-0.586,1.536,0.58\
-6,2.121,0l6.701-\
-6.701C19.271,32.\
-87,18.91,32,18.1\
-9,32z\x22 />\x0d\x0a  <li\
-nearGradient id=\
-\x22I93pW93qJSUhtSD\
-Iz1RZKc\x22 x1=\x22-36\
-5\x22 x2=\x22-355\x22 y1=\
-\x22-231.472\x22 y2=\x22-\
-231.472\x22 gradien\
-tTransform=\x22tran\
-slate(389 269.47\
-2)\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x22.266\x22 sto\
-p-color=\x22#199ae0\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.582\x22 st\
-op-color=\x22#1898d\
-e\x22 />\x0d\x0a    <stop\
- offset=\x22.745\x22 s\
-top-color=\x22#1590\
-d6\x22 />\x0d\x0a    <sto\
-p offset=\x22.873\x22 \
-stop-color=\x22#108\
-3c9\x22 />\x0d\x0a    <st\
-op offset=\x22.982\x22\
- stop-color=\x22#08\
-70b7\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-color=\x22#076c\
-b3\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-I93pW93qJSUhtSDI\
-z1RZKc)\x22 d=\x22M34,\
-35h-9c-0.552,0-1\
-,0.448-1,1v4c0,0\
-.552,0.448,1,1,1\
-h9V35z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22I93pW93qJSUhtS\
-DIz1RZKd\x22 x1=\x2232\
-.313\x22 x2=\x2244\x22 y1\
-=\x227.663\x22 y2=\x2240.\
-775\x22 gradientUni\
-ts=\x22userSpaceOnU\
-se\x22>\x0d\x0a    <stop \
-offset=\x220\x22 stop-\
-color=\x22#32bdef\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#1ea2e4\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#I93pW9\
-3qJSUhtSDIz1RZKd\
-)\x22 d=\x22M29.81,16H\
-34v25l4.828-4.82\
-8c0.75-0.75,1.17\
-2-1.768,1.172-2.\
-828V16h4.19 c0.7\
-2,0,1.08-0.87,0.\
-571-1.379L38.061\
-,7.92c-0.586-0.5\
-86-1.536-0.586-2\
-.121,0l-6.701,6.\
-701C28.729,15.13\
-,29.09,16,29.81,\
-16z\x22 />\x0d\x0a</svg>\
-\x00\x00\x08\xd8\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22SK\
-7n3APNjcs6R_Z9A0\
-y6Ca\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#f44f5a\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.443\x22 stop-\
-color=\x22#ee3d4a\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#e52030\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#SK7n3A\
-PNjcs6R_Z9A0y6Ca\
-)\x22 d=\x22M44,24c0,1\
-1.045-8.955,20-2\
-0,20S4,35.045,4,\
-24S12.955,4,24,4\
-S44,12.955,44,24\
-z\x22 />\x0d\x0a  <path d\
-=\x22M28.765,21H18v\
-5h5.91c-1.466,2.\
-417-3.225,3-4.91\
-,3c-3.314,0-5-2.\
-967-5-5c0-1.939,\
-2.06-5,5-5 c1.5,\
-0,2.868,0.554,3.\
-92,1.465l3.151-3\
-.106C24.471,15.8\
-94,22.728,14,19,\
-14c-4.971,0-10,4\
-.173-10,10c0,4.9\
-71,3.995,10,10,1\
-0 c6.225,0,10-5.\
-029,10-10C29,22.\
-834,28.765,21,28\
-.765,21z\x22 opacit\
-y=\x22.05\x22 />\x0d\x0a  <p\
-ath d=\x22M28.265,2\
-1.5H18.5v4h5.91c\
--0.971,2.627-3.0\
-82,4-5.41,4c-3.3\
-14,0-5.5-2.826-5\
-.5-5.5 c0-2.627,\
-2.373-5.5,5.5-5.\
-5c1.5,0,2.868,0.\
-554,3.92,1.465l2\
-.651-2.606C23.97\
-1,15.894,22.034,\
-14.5,19,14.5 c-4\
-.971,0-9.5,4.101\
--9.5,9.5c0,4.971\
-,4.012,9.5,9.5,9\
-.5c5.598,0,9.5-4\
-.529,9.5-9.5C28.\
-5,22.834,28.265,\
-21.5,28.265,21.5\
-z\x22 opacity=\x22.07\x22\
- />\x0d\x0a  <path fil\
-l=\x22#fff\x22 d=\x22M27.\
-815,22.2l-0.05-0\
-.2H19v3h5.91c-0.\
-477,2.837-2.938,\
-5-5.91,5c-3.314,\
-0-6-2.686-6-6s2.\
-686-6,6-6 c1.5,0\
-,2.868,0.554,3.9\
-2,1.465l2.151-2.\
-106C23.471,15.89\
-4,21.34,15,19,15\
-c-4.971,0-9,4.02\
-9-9,9s4.029,9,9,\
-9s9-4.029,9-9 C2\
-8,23.383,27.934,\
-22.782,27.815,22\
-.2z\x22 />\x0d\x0a  <path\
- d=\x22M38.5,21H37v\
--1.5c0-0.828-0.6\
-72-1.5-1.5-1.5h-\
-1c-0.828,0-1.5,0\
-.672-1.5,1.5V21h\
--1.5 c-0.828,0-1\
-.5,0.672-1.5,1.5\
-v1c0,0.828,0.672\
-,1.5,1.5,1.5H33v\
-1.5c0,0.828,0.67\
-2,1.5,1.5,1.5h1c\
-0.828,0,1.5-0.67\
-2,1.5-1.5V25h1.5\
- c0.828,0,1.5-0.\
-672,1.5-1.5v-1C4\
-0,21.672,39.328,\
-21,38.5,21z\x22 opa\
-city=\x22.05\x22 />\x0d\x0a \
- <path d=\x22M38.5,\
-21.5h-2v-2c0-0.5\
-52-0.448-1-1-1h-\
-1c-0.552,0-1,0.4\
-48-1,1v2h-2c-0.5\
-52,0-1,0.448-1,1\
-v1 c0,0.552,0.44\
-8,1,1,1h2v2c0,0.\
-552,0.448,1,1,1h\
-1c0.552,0,1-0.44\
-8,1-1v-2h2c0.552\
-,0,1-0.448,1-1v-\
-1 C39.5,21.948,3\
-9.052,21.5,38.5,\
-21.5z\x22 opacity=\x22\
-.07\x22 />\x0d\x0a  <path\
- fill=\x22#fff\x22 d=\x22\
-M34.5,19h1c0.276\
-,0,0.5,0.224,0.5\
-,0.5v7c0,0.276-0\
-.224,0.5-0.5,0.5\
-h-1c-0.276,0-0.5\
--0.224-0.5-0.5v-\
-7 C34,19.224,34.\
-224,19,34.5,19z\x22\
- />\x0d\x0a  <path fil\
-l=\x22#fff\x22 d=\x22M31.\
-5,22h7c0.276,0,0\
-.5,0.224,0.5,0.5\
-v1c0,0.276-0.224\
-,0.5-0.5,0.5h-7c\
--0.276,0-0.5-0.2\
-24-0.5-0.5v-1 C3\
-1,22.224,31.224,\
-22,31.5,22z\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x05\xd5\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#eb6773\x22 d\
-=\x22M37,6c0-1.105-\
-0.895-2-2-2H13c-\
-1.105,0-2,0.895-\
-2,2v4h26V6z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-b31523\x22 d=\x22M11,4\
-1.72c0,0.996,1.0\
-92,1.606,1.94,1.\
-084L24,35.998l11\
-.06,6.806C35.908\
-,43.326,37,42.71\
-6,37,41.72 V30H1\
-1V41.72z\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x2212\x22 x=\x22\
-11\x22 y=\x2218\x22 fill=\
-\x22#cf1928\x22 />\x0d\x0a  \
-<rect width=\x2226\x22\
- height=\x228\x22 x=\x221\
-1\x22 y=\x2210\x22 fill=\x22\
-#d9414f\x22 />\x0d\x0a  <\
-radialGradient i\
-d=\x228vh1TYA_Ozqvw\
-TN~y4NyIa\x22 cx=\x223\
-7.181\x22 cy=\x2224.12\
-8\x22 r=\x2211.585\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x22.348\x22 />\x0d\x0a    <\
-stop offset=\x22.93\
-6\x22 stop-opacity=\
-\x22.098\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-opacity=\x220\x22\
- />\x0d\x0a  </radialG\
-radient>\x0d\x0a  <pat\
-h fill=\x22url(#8vh\
-1TYA_OzqvwTN~y4N\
-yIa)\x22 d=\x22M37,12.\
-051C30.851,12.56\
-2,26,17.72,26,24\
- s4.851,11.438,1\
-1,11.949V12.051z\
-\x22 opacity=\x22.3\x22 /\
->\x0d\x0a  <linearGrad\
-ient id=\x228vh1TYA\
-_OzqvwTN~y4NyIb\x22\
- x1=\x2228\x22 x2=\x2248\x22\
- y1=\x221786\x22 y2=\x221\
-786\x22 gradientTra\
-nsform=\x22translat\
-e(0 -1762)\x22 grad\
-ientUnits=\x22userS\
-paceOnUse\x22>\x0d\x0a   \
- <stop offset=\x220\
-\x22 stop-color=\x22#2\
-1ad64\x22 />\x0d\x0a    <\
-stop offset=\x221\x22 \
-stop-color=\x22#088\
-242\x22 />\x0d\x0a  </lin\
-earGradient>\x0d\x0a  \
-<circle cx=\x2238\x22 \
-cy=\x2224\x22 r=\x2210\x22 f\
-ill=\x22url(#8vh1TY\
-A_OzqvwTN~y4NyIb\
-)\x22 />\x0d\x0a  <path f\
-ill=\x22#fff\x22 d=\x22M3\
-8.5,29h-1c-0.276\
-,0-0.5-0.224-0.5\
--0.5v-9c0-0.276,\
-0.224-0.5,0.5-0.\
-5h1c0.276,0,0.5,\
-0.224,0.5,0.5v9 \
-C39,28.776,38.77\
-6,29,38.5,29z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#fff\x22 d=\x22M33,24\
-.5v-1c0-0.276,0.\
-224-0.5,0.5-0.5h\
-9c0.276,0,0.5,0.\
-224,0.5,0.5v1c0,\
-0.276-0.224,0.5-\
-0.5,0.5h-9 C33.2\
-24,25,33,24.776,\
-33,24.5z\x22 />\x0d\x0a</\
-svg>\
-\x00\x00\x04\xe3\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22EI\
-Pc0qTNCX0EujYwtx\
-KaXa\x22 x1=\x2212.066\
-\x22 x2=\x2234.891\x22 y1\
-=\x22.066\x22 y2=\x2222.8\
-91\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x22.237\x22 sto\
-p-color=\x22#3bc9f3\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.85\x22 sto\
-p-color=\x22#1591d8\
-\x22 />\x0d\x0a  </linear\
-Gradient>\x0d\x0a  <pa\
-th fill=\x22url(#EI\
-Pc0qTNCX0EujYwtx\
-KaXa)\x22 d=\x22M43,15\
-H5c-1.1,0-2-0.9-\
-2-2v-2c0-1.1,0.9\
--2,2-2h38c1.1,0,\
-2,0.9,2,2v2C45,1\
-4.1,44.1,15,43,1\
-5z\x22 />\x0d\x0a  <linea\
-rGradient id=\x22EI\
-Pc0qTNCX0EujYwtx\
-KaXb\x22 x1=\x2212.066\
-\x22 x2=\x2234.891\x22 y1\
-=\x2212.066\x22 y2=\x2234\
-.891\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x22.237\x22 s\
-top-color=\x22#3bc9\
-f3\x22 />\x0d\x0a    <sto\
-p offset=\x22.85\x22 s\
-top-color=\x22#1591\
-d8\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-EIPc0qTNCX0EujYw\
-txKaXb)\x22 d=\x22M43,\
-27H5c-1.1,0-2-0.\
-9-2-2v-2c0-1.1,0\
-.9-2,2-2h38c1.1,\
-0,2,0.9,2,2v2C45\
-,26.1,44.1,27,43\
-,27z\x22 />\x0d\x0a  <lin\
-earGradient id=\x22\
-EIPc0qTNCX0EujYw\
-txKaXc\x22 x1=\x2212.0\
-66\x22 x2=\x2234.891\x22 \
-y1=\x2224.066\x22 y2=\x22\
-46.891\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x22.237\x22\
- stop-color=\x22#3b\
-c9f3\x22 />\x0d\x0a    <s\
-top offset=\x22.85\x22\
- stop-color=\x22#15\
-91d8\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#EIPc0qTNCX0Euj\
-YwtxKaXc)\x22 d=\x22M4\
-3,39H5c-1.1,0-2-\
-0.9-2-2v-2c0-1.1\
-,0.9-2,2-2h38c1.\
-1,0,2,0.9,2,2v2C\
-45,38.1,44.1,39,\
-43,39z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x07\x9b\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x2295\
-F_jjTRbyNtAmgVFg\
-~qQa\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#05acb3\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#038387\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#95F_jjT\
-RbyNtAmgVFg~qQa)\
-\x22 d=\x22M44,24c0,11\
-.045-8.955,20-20\
-,20S4,35.045,4,2\
-4S12.955,4,24,4S\
-44,12.955,44,24z\
-\x22 />\x0d\x0a  <path d=\
-\x22M33.015,15.079c\
--0.297-0.301-0.7\
-78-0.317-1.077-0\
-.018l-2.795,2.79\
-5 c-0.272,0.272-\
-0.269,0.699-0.02\
-1,0.993c3.257,3.\
-865,1.569,9.537-\
-1.962,11.534c-1.\
-291,0.73-5.064,0\
-.858-7.126-0.57 \
-c-2.249-1.557-5.\
-077-6.463-2.162-\
-9.942l2.147,2.14\
-7C20.75,22.75,22\
-,22.232,22,21.19\
-7V13c0-0.552-0.4\
-48-1-1-1h-8.468 \
-c-0.934,0-1.402,\
-1.13-0.742,1.791\
-l2.25,2.25c-4.18\
-3,4.705-4.045,12\
-.078,0.374,16.73\
-5c4.55,4.794,12.\
-973,5.637,17.651\
-,1.435 C37.02,29\
-.76,39.608,21.75\
-1,33.015,15.079z\
-\x22 opacity=\x22.05\x22 \
-/>\x0d\x0a  <path d=\x22M\
-33.015,15.579c-0\
-.289-0.308-0.778\
--0.317-1.077-0.0\
-18l-2.287,2.287 \
-c-0.277,0.277-0.\
-273,0.711-0.022,\
-1.01c3.109,3.7,1\
-.964,9.273-1.846\
-,11.674c-1.969,1\
-.24-5.624,1.314-\
-7.972-0.285 c-3.\
-181-2.162-4.879-\
-7.369-1.941-10.8\
-76l2.037,2.037c0\
-.587,0.587,1.592\
-,0.171,1.592-0.6\
-59V13.5c0-0.552-\
-0.448-1-1-1h-7.3\
-84 c-0.781,0-1.1\
-72,0.944-0.62,1.\
-496l2.044,2.044c\
--4.235,4.764-4.0\
-35,12.185,0.595,\
-16.754c4.541,4.4\
-95,12.363,4.917,\
-16.969,0.719 C36\
-.995,29.055,38.4\
-19,21.342,33.015\
-,15.579z\x22 opacit\
-y=\x22.07\x22 />\x0d\x0a  <p\
-ath fill=\x22#fff\x22 \
-d=\x22M28.409,30.68\
-2c-2.634,1.771-6\
-.184,1.771-8.817\
-,0c-4.323-2.907-\
-4.739-8.848-1.24\
-8-12.339 l-2.828\
--2.828c-4.79,4.7\
-9-4.676,12.654,0\
-.341,17.298c4.53\
-2,4.195,11.754,4\
-.196,16.287,0.00\
-2c4.826-4.465,5.\
-117-11.911,0.873\
--16.736 c-0.279-\
-0.317-0.778-0.31\
-7-1.077-0.018L30\
-.16,17.84c-0.282\
-,0.282-0.278,0.7\
-23-0.022,1.028 C\
-33.098,22.404,32\
-.522,27.916,28.4\
-09,30.682z\x22 />\x0d\x0a\
-  <path fill=\x22#f\
-ff\x22 d=\x22M20,13h-6\
-.3c-0.627,0-0.94\
-1,0.758-0.498,1.\
-202l6.596,6.596C\
-20.242,21.242,21\
-,20.927,21,20.3V\
-14 C21,13.448,20\
-.552,13,20,13z\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x094\
-<\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0a<svg\x0a   vi\
-ewBox=\x220 0 48 48\
-\x22\x0a   width=\x2248px\
-\x22\x0a   height=\x2248p\
-x\x22\x0a   version=\x221\
-.1\x22\x0a   id=\x22svg4\x22\
-\x0a   sodipodi:doc\
-name=\x22Slave.svg\x22\
-\x0a   inkscape:ver\
-sion=\x221.4.2 (f43\
-27f4, 2025-05-13\
-)\x22\x0a   xmlns:inks\
-cape=\x22http://www\
-.inkscape.org/na\
-mespaces/inkscap\
-e\x22\x0a   xmlns:sodi\
-podi=\x22http://sod\
-ipodi.sourceforg\
-e.net/DTD/sodipo\
-di-0.dtd\x22\x0a   xml\
-ns=\x22http://www.w\
-3.org/2000/svg\x22\x0a\
-   xmlns:svg=\x22ht\
-tp://www.w3.org/\
-2000/svg\x22>\x0a  <de\
-fs\x0a     id=\x22defs\
-4\x22 />\x0a  <sodipod\
-i:namedview\x0a    \
- id=\x22namedview4\x22\
-\x0a     pagecolor=\
-\x22#ffffff\x22\x0a     b\
-ordercolor=\x22#000\
-000\x22\x0a     border\
-opacity=\x220.25\x22\x0a \
-    inkscape:sho\
-wpageshadow=\x222\x22\x0a\
-     inkscape:pa\
-geopacity=\x220.0\x22\x0a\
-     inkscape:pa\
-gecheckerboard=\x22\
-0\x22\x0a     inkscape\
-:deskcolor=\x22#d1d\
-1d1\x22\x0a     inksca\
-pe:zoom=\x2218.9062\
-5\x22\x0a     inkscape\
-:cx=\x2218.459504\x22\x0a\
-     inkscape:cy\
-=\x2222.241322\x22\x0a   \
-  inkscape:windo\
-w-width=\x223840\x22\x0a \
-    inkscape:win\
-dow-height=\x222054\
-\x22\x0a     inkscape:\
-window-x=\x223061\x22\x0a\
-     inkscape:wi\
-ndow-y=\x22-11\x22\x0a   \
-  inkscape:windo\
-w-maximized=\x221\x22\x0a\
-     inkscape:cu\
-rrent-layer=\x22svg\
-4\x22 />\x0a  <path\x0a  \
-   fill=\x22#0078d4\
-\x22\x0a     d=\x22M42,37\
-c0,2.762-2.238,5\
--5,5H11c-2.761,0\
--5-2.238-5-5V11c\
-0-2.762,2.239-5,\
-5-5h26c2.762,0,5\
-,2.238,5,5 V37z\x22\
-\x0a     id=\x22path1\x22\
- />\x0a  <path\x0a    \
- d=\x22m 14.338921,\
-28.222908 4.5,-0\
-.4375 q 0.40625,\
-2.265625 1.64062\
-5,3.328125 1.25,\
-1.0625 3.359375,\
-1.0625 2.234375,\
-0 3.359375,-0.93\
-75 1.140625,-0.9\
-53125 1.140625,-\
-2.21875 0,-0.812\
-5 -0.484375,-1.3\
-75 -0.46875,-0.5\
-78125 -1.65625,-\
-1 -0.8125,-0.281\
-25 -3.703125,-1 \
--3.71875,-0.9218\
-75 -5.21875,-2.2\
-65625 -2.109375,\
--1.890625 -2.109\
-375,-4.609375 0,\
--1.75 0.984375,-\
-3.265625 1,-1.53\
-125 2.859375,-2.\
-328125 1.875,-0.\
-796875 4.515625,\
--0.796875 4.3125\
-,0 6.484375,1.89\
-0625 2.1875,1.89\
-0625 2.296875,5.\
-046875 l -4.625,\
-0.203125 q -0.29\
-6875,-1.765625 -\
-1.28125,-2.53125\
- -0.96875,-0.781\
-25 -2.921875,-0.\
-78125 -2.015625,\
-0 -3.15625,0.828\
-125 -0.734375,0.\
-53125 -0.734375,\
-1.421875 0,0.812\
-5 0.6875,1.39062\
-5 0.875,0.734375\
- 4.25,1.53125 3.\
-375,0.796875 4.9\
-84375,1.65625 1.\
-625,0.84375 2.53\
-125,2.328125 0.9\
-21875,1.46875 0.\
-921875,3.640625 \
-0,1.96875 -1.093\
-75,3.6875 -1.093\
-75,1.71875 -3.09\
-375,2.5625 -2,0.\
-828125 -4.984375\
-,0.828125 -4.343\
-75,0 -6.671875,-\
-2 -2.328125,-2.0\
-15625 -2.78125,-\
-5.859375 z\x22\x0a    \
- id=\x22text4\x22\x0a    \
- style=\x22font-wei\
-ght:bold;font-si\
-ze:32px;line-hei\
-ght:0;font-famil\
-y:Arial;-inkscap\
-e-font-specifica\
-tion:'Arial Bold\
-';text-align:cen\
-ter;text-anchor:\
-middle;fill:#fff\
-fff\x22\x0a     aria-l\
-abel=\x22S\x22 />\x0a</sv\
-g>\x0a\
-\x00\x00\x04\x88\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#50e6ff\x22 d\
-=\x22M39,16v25c0,1.\
-105-0.895,2-2,2H\
-11c-1.105,0-2-0.\
-895-2-2V7c0-1.10\
-5,0.895-2,2-2h17\
-L39,16z\x22 />\x0d\x0a  <\
-linearGradient i\
-d=\x22G~gRUFkb7DgKg\
-4UoEi1pya\x22 x1=\x222\
-8.529\x22 x2=\x2233.6\x22\
- y1=\x2215.472\x22 y2=\
-\x2210.4\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#3079d6\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#297cd2\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#G~gR\
-UFkb7DgKg4UoEi1p\
-ya)\x22 d=\x22M28,5v9c\
-0,1.105,0.895,2,\
-2,2h9L28,5z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-436dcd\x22 d=\x22M34,3\
-4l-5.458-5.458c-\
-0.673-0.673-1.75\
-8-0.687-2.449-0.\
-033l-5.426,5.141\
-V36H33c0.552,0,1\
--0.448,1-1 V34z\x22\
- />\x0d\x0a  <circle c\
-x=\x2231\x22 cy=\x2224\x22 r\
-=\x222\x22 fill=\x22#fff\x22\
- />\x0d\x0a  <linearGr\
-adient id=\x22G~gRU\
-Fkb7DgKg4UoEi1py\
-b\x22 x1=\x2222.778\x22 x\
-2=\x2222.778\x22 y1=\x222\
-6.032\x22 y2=\x2236.17\
-3\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#124787\x22 />\
-\x0d\x0a    <stop offs\
-et=\x22.923\x22 stop-c\
-olor=\x22#173b75\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#173a73\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <path fi\
-ll=\x22url(#G~gRUFk\
-b7DgKg4UoEi1pyb)\
-\x22 d=\x22M31.556,36l\
--9.248-9.248c-0.\
-913-0.913-2.388-\
-0.933-3.325-0.04\
-5L14,31.427V34 c\
-0,1.105,0.895,2,\
-2,2H31.556z\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x043\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22WQ\
-EfvoQAcpQgQgyjQQ\
-4Hqa\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x226.708\x22\
- y2=\x2214.977\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-eba600\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#c2\
-8200\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#WQEfvoQAcpQgQg\
-yjQQ4Hqa)\x22 d=\x22M2\
-4.414,10.414l-2.\
-536-2.536C21.316\
-,7.316,20.553,7,\
-19.757,7L5,7C3.8\
-95,7,3,7.895,3,9\
-l0,30 c0,1.105,0\
-.895,2,2,2l38,0c\
-1.105,0,2-0.895,\
-2-2V13c0-1.105-0\
-.895-2-2-2l-17.1\
-72,0C25.298,11,2\
-4.789,10.789,24.\
-414,10.414z\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x22WQEfvoQAc\
-pQgQgyjQQ4Hqb\x22 x\
-1=\x2224\x22 x2=\x2224\x22 y\
-1=\x2210.854\x22 y2=\x224\
-0.983\x22 gradientU\
-nits=\x22userSpaceO\
-nUse\x22>\x0d\x0a    <sto\
-p offset=\x220\x22 sto\
-p-color=\x22#ffd869\
-\x22 />\x0d\x0a    <stop \
-offset=\x221\x22 stop-\
-color=\x22#fec52b\x22 \
-/>\x0d\x0a  </linearGr\
-adient>\x0d\x0a  <path\
- fill=\x22url(#WQEf\
-voQAcpQgQgyjQQ4H\
-qb)\x22 d=\x22M21.586,\
-14.414l3.268-3.2\
-68C24.947,11.053\
-,25.074,11,25.20\
-7,11H43c1.105,0,\
-2,0.895,2,2v26 c\
-0,1.105-0.895,2-\
-2,2H5c-1.105,0-2\
--0.895-2-2V15.5C\
-3,15.224,3.224,1\
-5,3.5,15h16.672C\
-20.702,15,21.211\
-,14.789,21.586,1\
-4.414z\x22 />\x0d\x0a</sv\
-g>\
-\x00\x00\x04\x1c\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Tp\
-FkpHq7AGWb~Tkla4\
-kyga\x22 x1=\x2224\x22 x2\
-=\x2224\x22 y1=\x226.121\x22\
- y2=\x2242.039\x22 gra\
-dientUnits=\x22user\
-SpaceOnUse\x22>\x0d\x0a  \
-  <stop offset=\x22\
-0\x22 stop-color=\x22#\
-9dffce\x22 />\x0d\x0a    \
-<stop offset=\x221\x22\
- stop-color=\x22#50\
-d18d\x22 />\x0d\x0a  </li\
-nearGradient>\x0d\x0a \
- <path fill=\x22url\
-(#TpFkpHq7AGWb~T\
-kla4kyga)\x22 d=\x22M4\
-0,42H8c-1.1,0-2-\
-0.9-2-2V8c0-1.1,\
-0.9-2,2-2h32c1.1\
-,0,2,0.9,2,2v32C\
-42,41.1,41.1,42,\
-40,42z\x22 />\x0d\x0a  <l\
-inearGradient id\
-=\x22TpFkpHq7AGWb~T\
-kla4kygb\x22 x1=\x2213\
-\x22 x2=\x2236\x22 y1=\x2224\
-.793\x22 y2=\x2224.793\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x22.824\x22 stop-\
-color=\x22#135d36\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x22.931\x22 stop\
--color=\x22#125933\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#11522f\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <path \
-fill=\x22url(#TpFkp\
-Hq7AGWb~Tkla4kyg\
-b)\x22 d=\x22M21.293,3\
-2.707l-8-8c-0.39\
-1-0.391-0.391-1.\
-024,0-1.414l1.41\
-4-1.414 c0.391-0\
-.391,1.024-0.391\
-,1.414,0L22,27.7\
-58l10.879-10.879\
-c0.391-0.391,1.0\
-24-0.391,1.414,0\
-l1.414,1.414 c0.\
-391,0.391,0.391,\
-1.024,0,1.414l-1\
-3,13C22.317,33.0\
-98,21.683,33.098\
-,21.293,32.707z\x22\
- />\x0d\x0a</svg>\
-\x00\x00\x02\xeb\
-\x00\
-\x00\x0b\xfex\xda\xddVKo\xdb0\x0c\xbe\x0f\xd8\x7f\
-\x10\xd4\xcb\x02\xc8\x8e\x1e\x96\x1fC\xd3\xc3\x02l\xc5\x80\
-\xad\x87\xad\x01vLd96\x90&A\xe2:]~\
-\xfdH[y\xceE\xe3\xee2\x14r\x22[\x14\xc9\x8f\
-\x1fi\xca\xd7\xebjJ\x9e\x1ef\xf3\xf5\x80\xe6e\xb9\
-\xfc\xd8\xefo6\x1b\x7f\xa3\xfc\xc5j\xda\x97\x9c\xf3>\
-\xec\xa0\xa4*\xec\xe6\xd3\xe2i@9\xe1$\x88\xe1\xa2\
-dS\xa4e>\xa0A\xbc|\xa2$\xb7\xc54/\xdd\
-\xd3\xcd\xfbw\x84\x5c/\xc7eN\xb2b6\x1b\xd0+\
-\xa1\xa2TjJ\xd2\x01\xfd\x16H\x16\xf0\xca\x8br/\
-\xa9\x92<\x1a\x06\xc2\x17\x5c3\x5c\x86\xeb\xf0\xc0\xb7\x94\
-\xf4\x1bS+k\xca\x9d\xbf\xe4\xe0\x0cn\x01\x92\x0c(\
-\xf9=\xa0J\xd1\xbd\xb7ql\xa4\xb9L[\xe8\xbf\xb4\
-mb\x95\xec\xe4\x1b\xa7v\xedc\x12\xa4\x9ep5i\
-H\x10\x18c\xe5%\xb7a\x15\x19\xce\x9a\xa8\xb9\x1f'\
-\x9aI\x1c\xb7Bo;\x05p\x04a\xe7\xa7C\x00h\
-\xe4\xf5\xda\xe1^Y\x09\x13\x04Q'\xe0G\xcaY*\
-\xb4n\xa5.H\xd3I\xa8\xf6\xd4\x09=\x0ao\xe3a\
-X\xf3\x15\xe2pwq\x15]\xce\x5cx\x1e\xfa\x19\x80\
-K\xd0\x1fkw\x88=<\xcfY\x17e\xac\xd5\xb3\xa2\
-\xebP\xf0N\xfb\x08\xf8\x85%\xab\x14\xf0\x9e'\xa3\xd8\
-p\xaf\xaeW\xaf\xaeWO\xe2\xc8\xbdhtB\xfc8\
--\xc6\xb3/8\xd9yI\x0a0p\xf7\xd9\xfe\xe4k\
-\xb5\xcc\xbe\x87\xfa\xe1ae\xbf\xde\x17\xbf\xb6cJ\x0c\
-\x82\x120#*\xa0`5\xa0\xf0?u\xaa\xf7\xf3\xa2\
-\x84\xe6\xf4\xb8\xb6\xab\x1f\xcb\xb1\xb1w\xf3\xfb\xb5m:\
-\x0c\xb8Y\x97\x8b%Yd\xd9\xdaB|~|`\xf0\
-\x5c\x06\xf6\xf1\xd9[\x80\x8d\xa2\x04O|\x0f\xb5\x7f\x8a\
-\xb5Y4\xc5\xca\xcc\xec3\xd8\x1ar\x1eW\xb3\x0fW\
-\xedA\xf5(\xd9;\xf2\x85\xee\xcc\xca\xe4\x94\x15\x9c\xff\
-WV\x0e\xd8^be\xf2\xaf\xac\x98\xf6Z\xf1\x95\x8c\
-_\xc5\x0cw\xd1\x9b\xc5l\x01\x86\xae\xb2\x08\xc7s\x5c\
-\xf9\x11\xf2x\xaa\x90\xe0x\x89\xdc\xfd\xee,{m\xcd\
-\x85/\xb3kz\x9d\xf9L\xdb\xab\xec-\xf3\xe9b\xbc\
-\x80\xcf\xb4w\xda\x10\xb1\x03J\xc9\x04\x87\xcf\x16\xe3\xb9\
-\xf3\xda\x93\xcc\xf5@&+\x19\xb4\x1d\xe4yb\xdc\x1a\
-\x93\x9e[\xf7\xe4HH2\x94\x01\x98kVT\xbdE\
-\xc0\x1et\xb1=~Q\xb8n\x05\xa2\x22_\xd7P\xc0\
-\x82\x8c\x19\xb6dl\xc8a$\xeb;\xf8\x81\x0f\xe8\xd4\
-N\xbc\x130'\x04XN\x82+\x8d\x9c99\x81P\
-\x86\x00I3\x15\xd6{\xa4\xac't\xc9\x9c\xebS\x88\
-Q\xe7\xda\xb3M\xed\x090\xd5d\x06O3\xc8\x8c\x90\
-\xbeH\xc4\x9b(\xbf\xa3s\xf4\xf92\xb3=\xf7Q\xa3\
-\x80\xd6:)ZKL\x0a$.\x08b\x98\xc5.\x8f\
- h\x16=\x81\xc3%\xbf\xde\xee\x09\xe6$L@\xf2\
-\xc8PH\xcc\x1d\xca\x80P\xb4\xa3\x22V\xbbp'\xf4\
-5~\xd6\xdf\xfc\x01\x01\xbdA\xc6\
-\x00\x00\x07j\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22wR\
-KXFJsqHCxLE9yyOY\
-Hkza\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#f44f5a\x22 /\
->\x0d\x0a    <stop off\
-set=\x22.443\x22 stop-\
-color=\x22#ee3d4a\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x221\x22 stop-co\
-lor=\x22#e52030\x22 />\
-\x0d\x0a  </linearGrad\
-ient>\x0d\x0a  <path f\
-ill=\x22url(#wRKXFJ\
-sqHCxLE9yyOYHkza\
-)\x22 d=\x22M44,24c0,1\
-1.045-8.955,20-2\
-0,20S4,35.045,4,\
-24S12.955,4,24,4\
-S44,12.955,44,24\
-z\x22 />\x0d\x0a  <path d\
-=\x22M33.192,28.95L\
-28.243,24l4.95-4\
-.95c0.781-0.781,\
-0.781-2.047,0-2.\
-828l-1.414-1.414\
- c-0.781-0.781-2\
-.047-0.781-2.828\
-,0L24,19.757l-4.\
-95-4.95c-0.781-0\
-.781-2.047-0.781\
--2.828,0l-1.414,\
-1.414 c-0.781,0.\
-781-0.781,2.047,\
-0,2.828l4.95,4.9\
-5l-4.95,4.95c-0.\
-781,0.781-0.781,\
-2.047,0,2.828l1.\
-414,1.414 c0.781\
-,0.781,2.047,0.7\
-81,2.828,0l4.95-\
-4.95l4.95,4.95c0\
-.781,0.781,2.047\
-,0.781,2.828,0l1\
-.414-1.414 C33.9\
-73,30.997,33.973\
-,29.731,33.192,2\
-8.95z\x22 opacity=\x22\
-.05\x22 />\x0d\x0a  <path\
- d=\x22M32.839,29.3\
-03L27.536,24l5.3\
-03-5.303c0.586-0\
-.586,0.586-1.536\
-,0-2.121l-1.414-\
-1.414 c-0.586-0.\
-586-1.536-0.586-\
-2.121,0L24,20.46\
-4l-5.303-5.303c-\
-0.586-0.586-1.53\
-6-0.586-2.121,0l\
--1.414,1.414 c-0\
-.586,0.586-0.586\
-,1.536,0,2.121L2\
-0.464,24l-5.303,\
-5.303c-0.586,0.5\
-86-0.586,1.536,0\
-,2.121l1.414,1.4\
-14 c0.586,0.586,\
-1.536,0.586,2.12\
-1,0L24,27.536l5.\
-303,5.303c0.586,\
-0.586,1.536,0.58\
-6,2.121,0l1.414-\
-1.414 C33.425,30\
-.839,33.425,29.8\
-89,32.839,29.303\
-z\x22 opacity=\x22.07\x22\
- />\x0d\x0a  <path fil\
-l=\x22#fff\x22 d=\x22M31.\
-071,15.515l1.414\
-,1.414c0.391,0.3\
-91,0.391,1.024,0\
-,1.414L18.343,32\
-.485 c-0.391,0.3\
-91-1.024,0.391-1\
-.414,0l-1.414-1.\
-414c-0.391-0.391\
--0.391-1.024,0-1\
-.414l14.142-14.1\
-42 C30.047,15.12\
-4,30.681,15.124,\
-31.071,15.515z\x22 \
-/>\x0d\x0a  <path fill\
-=\x22#fff\x22 d=\x22M32.4\
-85,31.071l-1.414\
-,1.414c-0.391,0.\
-391-1.024,0.391-\
-1.414,0L15.515,1\
-8.343 c-0.391-0.\
-391-0.391-1.024,\
-0-1.414l1.414-1.\
-414c0.391-0.391,\
-1.024-0.391,1.41\
-4,0l14.142,14.14\
-2 C32.876,30.047\
-,32.876,30.681,3\
-2.485,31.071z\x22 /\
->\x0d\x0a</svg>\
-\x00\x00\x08\xf1\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22ar\
-dn4qMWM6qJppYdTW\
-AANa\x22 x1=\x229.858\x22\
- x2=\x2238.142\x22 y1=\
-\x229.858\x22 y2=\x2238.1\
-42\x22 gradientUnit\
-s=\x22userSpaceOnUs\
-e\x22>\x0d\x0a    <stop o\
-ffset=\x220\x22 stop-c\
-olor=\x22#889097\x22 /\
->\x0d\x0a    <stop off\
-set=\x221\x22 stop-col\
-or=\x22#64717c\x22 />\x0d\
-\x0a  </linearGradi\
-ent>\x0d\x0a  <circle \
-cx=\x2224\x22 cy=\x2224\x22 \
-r=\x2220\x22 fill=\x22url\
-(#ardn4qMWM6qJpp\
-YdTWAANa)\x22 />\x0d\x0a \
- <radialGradient\
- id=\x22ardn4qMWM6q\
-JppYdTWAANb\x22 cx=\
-\x2224\x22 cy=\x2224\x22 r=\x22\
-18.5\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-opacit\
-y=\x220\x22 />\x0d\x0a  </ra\
-dialGradient>\x0d\x0a \
- <circle cx=\x2224\x22\
- cy=\x2224\x22 r=\x2218.5\
-\x22 fill=\x22url(#ard\
-n4qMWM6qJppYdTWA\
-ANb)\x22 />\x0d\x0a  <rad\
-ialGradient id=\x22\
-ardn4qMWM6qJppYd\
-TWAANc\x22 cx=\x2223.8\
-9\x22 cy=\x227.394\x22 r=\
-\x2237.883\x22 gradien\
-tUnits=\x22userSpac\
-eOnUse\x22>\x0d\x0a    <s\
-top offset=\x220\x22 s\
-top-color=\x22#fafa\
-fb\x22 />\x0d\x0a    <sto\
-p offset=\x221\x22 sto\
-p-color=\x22#c8cdd1\
-\x22 />\x0d\x0a  </radial\
-Gradient>\x0d\x0a  <ci\
-rcle cx=\x2224\x22 cy=\
-\x2224\x22 r=\x2217\x22 fill\
-=\x22url(#ardn4qMWM\
-6qJppYdTWAANc)\x22 \
-/>\x0d\x0a  <linearGra\
-dient id=\x22ardn4q\
-MWM6qJppYdTWAANd\
-\x22 x1=\x2222.479\x22 x2\
-=\x2225.719\x22 y1=\x229.\
-361\x22 y2=\x2240.548\x22\
- gradientUnits=\x22\
-userSpaceOnUse\x22>\
-\x0d\x0a    <stop offs\
-et=\x220\x22 stop-colo\
-r=\x22#c8cdd1\x22 />\x0d\x0a\
-    <stop offset\
-=\x221\x22 stop-color=\
-\x22#a6aaad\x22 />\x0d\x0a  \
-</linearGradient\
->\x0d\x0a  <path fill=\
-\x22url(#ardn4qMWM6\
-qJppYdTWAANd)\x22 d\
-=\x22M25,10c0,0.552\
--0.448,1-1,1s-1-\
-0.448-1-1c0-0.55\
-2,0.448-1,1-1S25\
-,9.448,25,10z M2\
-4,37 c-0.552,0-1\
-,0.448-1,1c0,0.5\
-52,0.448,1,1,1s1\
--0.448,1-1C25,37\
-.448,24.552,37,2\
-4,37z M38,23c-0.\
-552,0-1,0.448-1,\
-1 c0,0.552,0.448\
-,1,1,1s1-0.448,1\
--1C39,23.448,38.\
-552,23,38,23z M1\
-0,23c-0.552,0-1,\
-0.448-1,1c0,0.55\
-2,0.448,1,1,1s1-\
-0.448,1-1 C11,23\
-.448,10.552,23,1\
-0,23z\x22 />\x0d\x0a  <pa\
-th fill=\x22#d83b01\
-\x22 d=\x22M24,34.75c-\
-0.414,0-0.75-0.3\
-36-0.75-0.75V24c\
-0-0.414,0.336-0.\
-75,0.75-0.75s0.7\
-5,0.336,0.75,0.7\
-5v10 C24.75,34.4\
-14,24.414,34.75,\
-24,34.75z\x22 />\x0d\x0a \
- <path fill=\x22#45\
-494d\x22 d=\x22M24,24.\
-75c-0.192,0-0.38\
-4-0.073-0.53-0.2\
-2c-0.293-0.293-0\
-.293-0.768,0-1.0\
-61l8.485-8.485 c\
-0.293-0.293,0.76\
-8-0.293,1.061,0s\
-0.293,0.768,0,1.\
-061L24.53,24.53C\
-24.384,24.677,24\
-.192,24.75,24,24\
-.75z\x22 />\x0d\x0a  <pat\
-h fill=\x22#45494d\x22\
- d=\x22M23.999,25.2\
-5c-0.181,0-0.365\
--0.039-0.54-0.12\
-3l-7.787-3.735c-\
-0.623-0.299-0.88\
-5-1.045-0.586-1.\
-668 c0.298-0.622\
-,1.045-0.887,1.6\
-67-0.586l7.787,3\
-.735c0.623,0.299\
-,0.885,1.045,0.5\
-86,1.668C24.912,\
-24.988,24.465,25\
-.25,23.999,25.25\
-z\x22 />\x0d\x0a  <circle\
- cx=\x2224\x22 cy=\x2224\x22\
- r=\x222\x22 fill=\x22#1e\
-2021\x22 />\x0d\x0a</svg>\
-\
-\x00\x00\x04\x9b\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#0078d4\x22 d\
-=\x22M24,4C12.954,4\
-,4,12.954,4,24s8\
-.954,20,20,20s20\
--8.954,20-20S35.\
-046,4,24,4z\x22 />\x0d\
-\x0a  <path d=\x22M30,\
-35v-9c0-1.103-0.\
-897-2-2-2s-2,0.8\
-97-2,2v9h-6V18h6\
-v1.027C27.04,18.\
-359,28.252,18,29\
-.5,18 c3.584,0,6\
-.5,2.916,6.5,6.5\
-V35H30z M13,35V1\
-8h2.966C14.247,1\
-8,13,16.738,13,1\
-4.999C13,13.261,\
-14.267,12,16.011\
-,12 c1.696,0,2.9\
-53,1.252,2.989,2\
-.979C19,16.733,1\
-7.733,18,15.988,\
-18H19v17H13z\x22 op\
-acity=\x22.05\x22 />\x0d\x0a\
-  <path d=\x22M30.5\
-,34.5V26c0-1.378\
--1.121-2.5-2.5-2\
-.5s-2.5,1.122-2.\
-5,2.5v8.5h-5v-16\
-h5v1.534 c1.09-0\
-.977,2.512-1.534\
-,4-1.534c3.309,0\
-,6,2.691,6,6v10H\
-30.5z M13.5,34.5\
-v-16h5v16H13.5z \
-M15.966,17.5 c-1\
-.429,0-2.466-1.0\
-52-2.466-2.501c0\
--1.448,1.056-2.4\
-99,2.511-2.499c1\
-.436,0,2.459,1.0\
-23,2.489,2.489 c\
-0,1.459-1.057,2.\
-511-2.512,2.511H\
-15.966z\x22 opacity\
-=\x22.07\x22 />\x0d\x0a  <pa\
-th fill=\x22#fff\x22 d\
-=\x22M14,19h4v15h-4\
-V19z M15.988,17h\
--0.022C14.772,17\
-,14,16.11,14,14.\
-999C14,13.864,14\
-.796,13,16.011,1\
-3 c1.217,0,1.966\
-,0.864,1.989,1.9\
-99C18,16.11,17.2\
-28,17,15.988,17z\
- M35,24.5c0-3.03\
-8-2.462-5.5-5.5-\
-5.5 c-1.862,0-3.\
-505,0.928-4.5,2.\
-344V19h-4v15h4v-\
-8c0-1.657,1.343-\
-3,3-3s3,1.343,3,\
-3v8h4C35,34,35,2\
-4.921,35,24.5z\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x05x\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22Z3\
-eIuf5QY2EetuA~Ff\
-Dd6a\x22 x1=\x229.899\x22\
- x2=\x2238.183\x22 y1=\
-\x229.98\x22 y2=\x2238.26\
-4\x22 gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop of\
-fset=\x220\x22 stop-co\
-lor=\x22#33bef0\x22 />\
-\x0d\x0a    <stop offs\
-et=\x221\x22 stop-colo\
-r=\x22#0a85d9\x22 />\x0d\x0a\
-  </linearGradie\
-nt>\x0d\x0a  <path fil\
-l=\x22url(#Z3eIuf5Q\
-Y2EetuA~FfDd6a)\x22\
- d=\x22M44.041,24.1\
-22c0,11.045-8.95\
-5,20-20,20s-20-8\
-.955-20-20s8.955\
--20,20-20 S44.04\
-1,13.077,44.041,\
-24.122z\x22 />\x0d\x0a  <\
-path d=\x22M22,36h4\
-c0.552,0,1-0.448\
-,1-1V20c0-0.552-\
-0.448-1-1-1h-4c-\
-0.552,0-1,0.448-\
-1,1v15 C21,35.55\
-2,21.448,36,22,3\
-6z\x22 opacity=\x22.05\
-\x22 />\x0d\x0a  <path d=\
-\x22M22.227,35.5h3.\
-547c0.401,0,0.72\
-7-0.325,0.727-0.\
-727V20.227c0-0.4\
-01-0.325-0.727-0\
-.727-0.727h-3.54\
-7 c-0.401,0-0.72\
-7,0.325-0.727,0.\
-727v14.547C21.5,\
-35.175,21.825,35\
-.5,22.227,35.5z\x22\
- opacity=\x22.07\x22 /\
->\x0d\x0a  <radialGrad\
-ient id=\x22Z3eIuf5\
-QY2EetuA~FfDd6b\x22\
- cx=\x2224\x22 cy=\x2216\x22\
- r=\x225.108\x22 gradi\
-entTransform=\x22ma\
-trix(.7808 0 0 .\
-7066 5.26 4.096)\
-\x22 gradientUnits=\
-\x22userSpaceOnUse\x22\
->\x0d\x0a    <stop off\
-set=\x22.516\x22 />\x0d\x0a \
-   <stop offset=\
-\x221\x22 stop-opacity\
-=\x220\x22 />\x0d\x0a  </rad\
-ialGradient>\x0d\x0a  \
-<ellipse cx=\x2224\x22\
- cy=\x2215.402\x22 fil\
-l=\x22url(#Z3eIuf5Q\
-Y2EetuA~FfDd6b)\x22\
- opacity=\x22.15\x22 r\
-x=\x223.988\x22 ry=\x223.\
-609\x22 />\x0d\x0a  <path\
- fill=\x22#fff\x22 d=\x22\
-M24,17.732c1.7,0\
-,2.65-1.068,2.65\
--2.388C26.65,14.\
-024,25.647,13,24\
-,13s-2.65,1.024-\
-2.65,2.344 C21.3\
-5,16.664,22.3,17\
-.732,24,17.732z\x22\
- />\x0d\x0a  <rect wid\
-th=\x224\x22 height=\x221\
-5\x22 x=\x2222\x22 y=\x2220\x22\
- fill=\x22#fff\x22 />\x0d\
-\x0a</svg>\
-\x00\x00\x04\xc7\
-<\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <linea\
-rGradient id=\x22eo\
-9Iz~gJX5QQxF9vIc\
-ujya\x22 x1=\x2241.018\
-\x22 x2=\x2245.176\x22 y1\
-=\x2226\x22 y2=\x2226\x22 gr\
-adientUnits=\x22use\
-rSpaceOnUse\x22>\x0d\x0a \
-   <stop offset=\
-\x220\x22 stop-color=\x22\
-#3537b0\x22 />\x0d\x0a   \
- <stop offset=\x221\
-\x22 stop-color=\x22#4\
-646cf\x22 />\x0d\x0a  </l\
-inearGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#eo9Iz~gJX5QQx\
-F9vIcujya)\x22 d=\x22M\
-43,11h-3v30h3c1.\
-105,0,2-0.895,2-\
-2V13C45,11.895,4\
-4.105,11,43,11z\x22\
- />\x0d\x0a  <path fil\
-l=\x22#5286ff\x22 d=\x22M\
-41,39V9c0-1.105-\
-0.895-2-2-2H5C3.\
-895,7,3,7.895,3,\
-9v30c0,1.105,0.8\
-95,2,2,2h38 C41.\
-895,41,41,40.105\
-,41,39z\x22 />\x0d\x0a  <\
-path fill=\x22#fff\x22\
- d=\x22M37,17H7c-0.\
-552,0-1-0.448-1-\
-1v-2c0-0.552,0.4\
-48-1,1-1h30c0.55\
-2,0,1,0.448,1,1v\
-2 C38,16.552,37.\
-552,17,37,17z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#fff\x22 d=\x22M19,36\
-H7c-0.552,0-1-0.\
-448-1-1V22c0-0.5\
-52,0.448-1,1-1h1\
-2c0.552,0,1,0.44\
-8,1,1v13 C20,35.\
-552,19.552,36,19\
-,36z\x22 />\x0d\x0a  <pat\
-h fill=\x22#fff\x22 d=\
-\x22M38,24H24v-2c0-\
-0.552,0.448-1,1-\
-1h12c0.552,0,1,0\
-.448,1,1V24z\x22 />\
-\x0d\x0a  <rect width=\
-\x2214\x22 height=\x223\x22 \
-x=\x2224\x22 y=\x2224\x22 fi\
-ll=\x22#e6eeff\x22 />\x0d\
-\x0a  <rect width=\x22\
-14\x22 height=\x223\x22 x\
-=\x2224\x22 y=\x2227\x22 fil\
-l=\x22#ccdcff\x22 />\x0d\x0a\
-  <rect width=\x221\
-4\x22 height=\x223\x22 x=\
-\x2224\x22 y=\x2230\x22 fill\
-=\x22#b3cbff\x22 />\x0d\x0a \
- <path fill=\x22#9a\
-baff\x22 d=\x22M37,36H\
-25c-0.552,0-1-0.\
-448-1-1v-2h14v2C\
-38,35.552,37.552\
-,36,37,36z\x22 />\x0d\x0a\
-</svg>\
-\x00\x00\x08\x0d\
-<\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0d\x0a<svg\x0d\x0a   \
-viewBox=\x220 0 48 \
-48\x22\x0d\x0a   width=\x224\
-8px\x22\x0d\x0a   height=\
-\x2248px\x22\x0d\x0a   versi\
-on=\x221.1\x22\x0d\x0a   id=\
-\x22svg6\x22\x0d\x0a   sodip\
-odi:docname=\x22rec\
-ord.svg\x22\x0d\x0a   ink\
-scape:version=\x221\
-.4.2 (f4327f4, 2\
-025-05-13)\x22\x0d\x0a   \
-xmlns:inkscape=\x22\
-http://www.inksc\
-ape.org/namespac\
-es/inkscape\x22\x0d\x0a  \
- xmlns:sodipodi=\
-\x22http://sodipodi\
-.sourceforge.net\
-/DTD/sodipodi-0.\
-dtd\x22\x0d\x0a   xmlns=\x22\
-http://www.w3.or\
-g/2000/svg\x22\x0d\x0a   \
-xmlns:svg=\x22http:\
-//www.w3.org/200\
-0/svg\x22>\x0d\x0a  <defs\
-\x0d\x0a     id=\x22defs6\
-\x22 />\x0d\x0a  <sodipod\
-i:namedview\x0d\x0a   \
-  id=\x22namedview6\
-\x22\x0d\x0a     pagecolo\
-r=\x22#ffffff\x22\x0d\x0a   \
-  bordercolor=\x22#\
-000000\x22\x0d\x0a     bo\
-rderopacity=\x220.2\
-5\x22\x0d\x0a     inkscap\
-e:showpageshadow\
-=\x222\x22\x0d\x0a     inksc\
-ape:pageopacity=\
-\x220.0\x22\x0d\x0a     inks\
-cape:pagechecker\
-board=\x220\x22\x0d\x0a     \
-inkscape:deskcol\
-or=\x22#d1d1d1\x22\x0d\x0a  \
-   inkscape:zoom\
-=\x2237.8125\x22\x0d\x0a    \
- inkscape:cx=\x2224\
-.013223\x22\x0d\x0a     i\
-nkscape:cy=\x2224\x22\x0d\
-\x0a     inkscape:w\
-indow-width=\x22384\
-0\x22\x0d\x0a     inkscap\
-e:window-height=\
-\x222054\x22\x0d\x0a     ink\
-scape:window-x=\x22\
-6901\x22\x0d\x0a     inks\
-cape:window-y=\x22-\
-11\x22\x0d\x0a     inksca\
-pe:window-maximi\
-zed=\x221\x22\x0d\x0a     in\
-kscape:current-l\
-ayer=\x22svg6\x22 />\x0d\x0a\
-  <radialGradien\
-t\x0d\x0a     id=\x22w~IN\
-ujfpQanMh___D7Au\
-2a\x22\x0d\x0a     cx=\x2224\
-\x22\x0d\x0a     cy=\x2224\x22\x0d\
-\x0a     r=\x2222\x22\x0d\x0a  \
-   gradientUnits\
-=\x22userSpaceOnUse\
-\x22>\x0d\x0a    <stop\x0d\x0a \
-      offset=\x22.7\
-24\x22\x0d\x0a       stop\
--color=\x22#ffed54\x22\
-\x0d\x0a       id=\x22sto\
-p1\x22 />\x0d\x0a    <sto\
-p\x0d\x0a       offset\
-=\x22.779\x22\x0d\x0a       \
-stop-color=\x22#ffe\
-649\x22\x0d\x0a       id=\
-\x22stop2\x22 />\x0d\x0a    \
-<stop\x0d\x0a       of\
-fset=\x22.877\x22\x0d\x0a   \
-    stop-color=\x22\
-#ffd22d\x22\x0d\x0a      \
- id=\x22stop3\x22 />\x0d\x0a\
-    <stop\x0d\x0a     \
-  offset=\x221\x22\x0d\x0a  \
-     stop-color=\
-\x22#ffb300\x22\x0d\x0a     \
-  id=\x22stop4\x22 />\x0d\
-\x0a  </radialGradi\
-ent>\x0d\x0a  <linearG\
-radient\x0d\x0a     id\
-=\x22w~INujfpQanMh_\
-__D7Au2b\x22\x0d\x0a     \
-x1=\x228.092\x22\x0d\x0a    \
- x2=\x2235.996\x22\x0d\x0a  \
-   y1=\x228.092\x22\x0d\x0a \
-    y2=\x2235.996\x22\x0d\
-\x0a     gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
-\x0d\x0a       offset=\
-\x220\x22\x0d\x0a       stop\
--color=\x22#fed100\x22\
-\x0d\x0a       id=\x22sto\
-p5\x22 />\x0d\x0a    <sto\
-p\x0d\x0a       offset\
-=\x221\x22\x0d\x0a       sto\
-p-color=\x22#e36001\
-\x22\x0d\x0a       id=\x22st\
-op6\x22 />\x0d\x0a  </lin\
-earGradient>\x0d\x0a  \
-<path\x0d\x0a     fill\
-=\x22url(#w~INujfpQ\
-anMh___D7Au2b)\x22\x0d\
-\x0a     d=\x22M24,7C1\
-4.611,7,7,14.611\
-,7,24s7.611,17,1\
-7,17s17-7.611,17\
--17S33.389,7,24,\
-7z\x22\x0d\x0a     id=\x22pa\
-th6\x22\x0d\x0a     style\
-=\x22fill:#ff0000\x22 \
-/>\x0d\x0a</svg>\x0d\x0a\
-\x00\x00\x09\xe3\
-<\
-?xml version=\x221.\
-0\x22 encoding=\x22UTF\
--8\x22 standalone=\x22\
-no\x22?>\x0a<svg\x0a   vi\
-ewBox=\x220 0 48 48\
-\x22\x0a   width=\x2248px\
-\x22\x0a   height=\x2248p\
-x\x22\x0a   version=\x221\
-.1\x22\x0a   id=\x22svg4\x22\
-\x0a   sodipodi:doc\
-name=\x22Channels.s\
-vg\x22\x0a   inkscape:\
-version=\x221.4.2 (\
-f4327f4, 2025-05\
--13)\x22\x0a   xmlns:i\
-nkscape=\x22http://\
-www.inkscape.org\
-/namespaces/inks\
-cape\x22\x0a   xmlns:s\
-odipodi=\x22http://\
-sodipodi.sourcef\
-orge.net/DTD/sod\
-ipodi-0.dtd\x22\x0a   \
+svg version=\x221\x22 \
 xmlns=\x22http://ww\
 w.w3.org/2000/sv\
-g\x22\x0a   xmlns:svg=\
-\x22http://www.w3.o\
-rg/2000/svg\x22>\x0a  \
-<defs\x0a     id=\x22d\
-efs4\x22 />\x0a  <sodi\
-podi:namedview\x0a \
-    id=\x22namedvie\
-w4\x22\x0a     pagecol\
-or=\x22#ffffff\x22\x0a   \
-  bordercolor=\x22#\
-000000\x22\x0a     bor\
-deropacity=\x220.25\
-\x22\x0a     inkscape:\
-showpageshadow=\x22\
-2\x22\x0a     inkscape\
-:pageopacity=\x220.\
-0\x22\x0a     inkscape\
-:pagecheckerboar\
-d=\x220\x22\x0a     inksc\
-ape:deskcolor=\x22#\
-d1d1d1\x22\x0a     ink\
-scape:zoom=\x229.45\
-3125\x22\x0a     inksc\
-ape:cx=\x22-30.4661\
-16\x22\x0a     inkscap\
-e:cy=\x2223.008264\x22\
-\x0a     inkscape:w\
-indow-width=\x22384\
-0\x22\x0a     inkscape\
-:window-height=\x22\
-2054\x22\x0a     inksc\
-ape:window-x=\x2230\
-61\x22\x0a     inkscap\
-e:window-y=\x22-11\x22\
-\x0a     inkscape:w\
-indow-maximized=\
-\x221\x22\x0a     inkscap\
-e:current-layer=\
-\x22svg4\x22 />\x0a  <pat\
-h\x0a     fill=\x22#00\
-78d4\x22\x0a     d=\x22M4\
-2,37c0,2.762-2.2\
-38,5-5,5H11c-2.7\
-61,0-5-2.238-5-5\
-V11c0-2.762,2.23\
-9-5,5-5h26c2.762\
-,0,5,2.238,5,5 V\
-37z\x22\x0a     id=\x22pa\
-th1\x22 />\x0a  <path\x0a\
-     d=\x22m 20.490\
-948,26.529877 3.\
-363281,1.066406 \
-q -0.773438,2.81\
-25 -2.578125,4.1\
-83594 -1.792969,\
-1.359375 -4.5585\
-94,1.359375 -3.4\
-21875,0 -5.625,-\
-2.332032 -2.2031\
-248,-2.34375 -2.\
-2031248,-6.39843\
-7 0,-4.289063 2.\
-2148438,-6.65625\
- 2.214844,-2.378\
-906 5.824219,-2.\
-378906 3.152343,\
-0 5.121093,1.863\
-281 1.171875,1.1\
-01562 1.757813,3\
-.164062 l -3.433\
-594,0.820313 q -\
-0.304687,-1.3359\
-38 -1.277344,-2.\
-109375 -0.960937\
-,-0.773438 -2.34\
-375,-0.773438 -1\
-.910156,0 -3.105\
-468,1.371094 -1.\
-183594,1.371094 \
--1.183594,4.4414\
-06 0,3.257813 1.\
-171875,4.640625 \
-1.171875,1.38281\
-3 3.046875,1.382\
-813 1.382812,0 2\
-.378906,-0.87890\
-6 0.996094,-0.87\
-8907 1.429688,-2\
-.765625 z m 9.59\
-7656,-10.863282 \
-v 6.316407 q 1.5\
-9375,-1.863282 3\
-.808594,-1.86328\
-2 1.136718,0 2.0\
-50781,0.421875 0\
-.914062,0.421875\
- 1.371094,1.0781\
-25 0.46875,0.656\
-25 0.632812,1.45\
-3125 0.175781,0.\
-796875 0.175781,\
-2.472657 v 7.300\
-781 h -3.292968 \
-v -6.574219 q 0,\
--1.957031 -0.187\
-5,-2.484375 -0.1\
-875,-0.527344 -0\
-.667969,-0.83203\
-1 -0.46875,-0.31\
-6406 -1.183594,-\
-0.316406 -0.8203\
-12,0 -1.464844,0\
-.398437 -0.64453\
-1,0.398438 -0.94\
-9218,1.207031 -0\
-.292969,0.796875\
- -0.292969,2.367\
-188 v 6.234375 H\
- 26.795635 V 15.\
-666595 Z\x22\x0a     i\
-d=\x22text1\x22\x0a     s\
-tyle=\x22font-weigh\
-t:bold;font-size\
-:24px;line-heigh\
-t:0;font-family:\
-Arial;-inkscape-\
-font-specificati\
-on:'Arial Bold';\
-text-align:cente\
-r;text-anchor:mi\
-ddle;fill:#fffff\
-f\x22\x0a     aria-lab\
-el=\x22Ch\x22 />\x0a</svg\
->\x0a\
-\x00\x00\x03\xeb\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#9CCC6\
+5\x22 d=\x22M32,15V7H1\
+6v8L6.2,40c-0.6,\
+1.5,0.5,3,2.1,3h\
+31.5c1.6,0,2.6-1\
+.6,2.1-3L32,15z\x22\
+/>\x0a    <path fil\
+l=\x22#8BC34A\x22 d=\x22M\
+32,9H16c-1.1,0-2\
+-0.9-2-2v0c0-1.1\
+,0.9-2,2-2h16c1.\
+1,0,2,0.9,2,2v0C\
+34,8.1,33.1,9,32\
+,9z\x22/>\x0a    <path\
+ fill=\x22#2E7D32\x22 \
+d=\x22M28,30c0,4.4-\
+4,8-4,8s-4-3.6-4\
+-8s4-8,4-8S28,25\
+.6,28,30z\x22/>\x0a   \
+ <path fill=\x22#38\
+8E3C\x22 d=\x22M31.1,3\
+2.6c-2,4-7.1,5.4\
+-7.1,5.4s-2-5,0-\
+8.9s7.1-5.4,7.1-\
+5.4S33.1,28.6,31\
+.1,32.6z\x22/>\x0a    \
+<path fill=\x22#43A\
+047\x22 d=\x22M16.9,32\
+.6c2,4,7.1,5.4,7\
+.1,5.4s2-5,0-8.9\
+s-7.1-5.4-7.1-5.\
+4S14.9,28.6,16.9\
+,32.6z\x22/>\x0a</svg>\
+\x0a\
+\x00\x00\x01+\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#35c1f1\x22 d\
-=\x22M14,7.054v30.6\
-63c0,0.91,1.062,\
-1.407,1.761,0.82\
-4l7.078-5.903l4.\
-664,10.728 c0.23\
-2,0.533,0.851,0.\
-777,1.384,0.545l\
-1.865-0.811L14.6\
-34,6.091C14.276,\
-6.246,14,6.593,1\
-4,7.054z\x22 />\x0d\x0a  \
-<linearGradient \
-id=\x22rZhYTz_WbDq4\
-~sF07d3Vpa\x22 x1=\x22\
-21.384\x22 x2=\x2235.5\
-54\x22 y1=\x226.317\x22 y\
-2=\x2239.054\x22 gradi\
-entUnits=\x22userSp\
-aceOnUse\x22>\x0d\x0a    \
-<stop offset=\x220\x22\
- stop-color=\x22#46\
-dff9\x22 />\x0d\x0a    <s\
-top offset=\x221\x22 s\
-top-color=\x22#07d6\
-f9\x22 />\x0d\x0a  </line\
-arGradient>\x0d\x0a  <\
-path fill=\x22url(#\
-rZhYTz_WbDq4~sF0\
-7d3Vpa)\x22 d=\x22M33.\
-089,40.938l-4.62\
-8-10.647l8.1-0.7\
-26c0.907-0.081,1\
-.307-1.184,0.663\
--1.828L15.796,6.\
-31 c-0.336-0.336\
--0.793-0.379-1.1\
-62-0.219l16.118,\
-37.011l1.792-0.7\
-79C33.077,42.091\
-,33.321,41.471,3\
-3.089,40.938z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#199be2\x22 d=\x22M33\
-.089,40.938l-4.6\
-28-10.647l8.1-0.\
-726c0.907-0.081,\
-1.307-1.184,0.66\
-3-1.828L15.796,6\
-.31 c-0.336-0.33\
-6-0.793-0.379-1.\
-162-0.219l16.118\
-,37.011l1.792-0.\
-779C33.077,42.09\
-1,33.321,41.471,\
-33.089,40.938z\x22 \
-/>\x0d\x0a</svg>\
-\x00\x00\x07\x17\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#00BCD4\x22>\
+\x0a        <polygo\
+n points=\x2243,18 \
+29,6.3 29,29.7\x22/\
+>\x0a        <path \
+d=\x22M20,14h12v8H2\
+0c-2.8,0-5,2.2-5\
+,5s2.2,5,5,5h3v8\
+h-3c-7.2,0-13-5.\
+8-13-13S12.8,14,\
+20,14z\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x04\xd6\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <radia\
-lGradient id=\x22yO\
-rnnhliCrdS2gy~4t\
-D8ma\x22 cx=\x2219.38\x22\
- cy=\x2242.035\x22 r=\x22\
-44.899\x22 gradient\
-Units=\x22userSpace\
-OnUse\x22>\x0d\x0a    <st\
-op offset=\x220\x22 st\
-op-color=\x22#fd5\x22 \
-/>\x0d\x0a    <stop of\
-fset=\x22.328\x22 stop\
--color=\x22#ff543f\x22\
- />\x0d\x0a    <stop o\
-ffset=\x22.348\x22 sto\
-p-color=\x22#fc5245\
-\x22 />\x0d\x0a    <stop \
-offset=\x22.504\x22 st\
-op-color=\x22#e6477\
-1\x22 />\x0d\x0a    <stop\
- offset=\x22.643\x22 s\
-top-color=\x22#d53e\
-91\x22 />\x0d\x0a    <sto\
-p offset=\x22.761\x22 \
-stop-color=\x22#cc3\
-9a4\x22 />\x0d\x0a    <st\
-op offset=\x22.841\x22\
- stop-color=\x22#c8\
-37ab\x22 />\x0d\x0a  </ra\
-dialGradient>\x0d\x0a \
- <path fill=\x22url\
-(#yOrnnhliCrdS2g\
-y~4tD8ma)\x22 d=\x22M3\
-4.017,41.99l-20,\
-0.019c-4.4,0.004\
--8.003-3.592-8.0\
-08-7.992l-0.019-\
-20 c-0.004-4.4,3\
-.592-8.003,7.992\
--8.008l20-0.019c\
-4.4-0.004,8.003,\
-3.592,8.008,7.99\
-2l0.019,20 C42.0\
-14,38.383,38.417\
-,41.986,34.017,4\
-1.99z\x22 />\x0d\x0a  <ra\
-dialGradient id=\
-\x22yOrnnhliCrdS2gy\
-~4tD8mb\x22 cx=\x2211.\
-786\x22 cy=\x225.54\x22 r\
-=\x2229.813\x22 gradie\
-ntTransform=\x22mat\
-rix(1 0 0 .6663 \
-0 1.849)\x22 gradie\
-ntUnits=\x22userSpa\
-ceOnUse\x22>\x0d\x0a    <\
-stop offset=\x220\x22 \
-stop-color=\x22#416\
-8c9\x22 />\x0d\x0a    <st\
-op offset=\x22.999\x22\
- stop-color=\x22#41\
-68c9\x22 stop-opaci\
-ty=\x220\x22 />\x0d\x0a  </r\
-adialGradient>\x0d\x0a\
-  <path fill=\x22ur\
-l(#yOrnnhliCrdS2\
-gy~4tD8mb)\x22 d=\x22M\
-34.017,41.99l-20\
-,0.019c-4.4,0.00\
-4-8.003-3.592-8.\
-008-7.992l-0.019\
--20 c-0.004-4.4,\
-3.592-8.003,7.99\
-2-8.008l20-0.019\
-c4.4-0.004,8.003\
-,3.592,8.008,7.9\
-92l0.019,20 C42.\
-014,38.383,38.41\
-7,41.986,34.017,\
-41.99z\x22 />\x0d\x0a  <p\
-ath fill=\x22#fff\x22 \
-d=\x22M24,31c-3.859\
-,0-7-3.14-7-7s3.\
-141-7,7-7s7,3.14\
-,7,7S27.859,31,2\
-4,31z M24,19c-2.\
-757,0-5,2.243-5,\
-5 s2.243,5,5,5s5\
--2.243,5-5S26.75\
-7,19,24,19z\x22 />\x0d\
-\x0a  <circle cx=\x223\
-1.5\x22 cy=\x2216.5\x22 r\
-=\x221.5\x22 fill=\x22#ff\
-f\x22 />\x0d\x0a  <path f\
-ill=\x22#fff\x22 d=\x22M3\
-0,37H18c-3.859,0\
--7-3.14-7-7V18c0\
--3.86,3.141-7,7-\
-7h12c3.859,0,7,3\
-.14,7,7v12 C37,3\
-3.86,33.859,37,3\
-0,37z M18,13c-2.\
-757,0-5,2.243-5,\
-5v12c0,2.757,2.2\
-43,5,5,5h12c2.75\
-7,0,5-2.243,5-5V\
-18c0-2.757-2.243\
--5-5-5H18z\x22 />\x0d\x0a\
-</svg>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FFB74\
+D\x22 d=\x22M32.9,22c0\
+-0.3,0.1-0.7,0.1\
+-1c0-1.1,0-5.9,0\
+-7c0-7.6-18-5-18\
+,0c0,1.1,0,5.9,0\
+,7c0,0.3,0,0.7,0\
+.1,1H32.9z\x22/>\x0a  \
+  <path fill=\x22#3\
+7474F\x22 d=\x22M40,44\
+H8c-2.2,0-4-1.8-\
+4-4V26c0-2.2,1.8\
+-4,4-4h32c2.2,0,\
+4,1.8,4,4v14C44,\
+42.2,42.2,44,40,\
+44z\x22/>\x0a    <path\
+ fill=\x22#BBDEFB\x22 \
+d=\x22M7,26v14c0,0.\
+6,0.4,1,1,1h29c0\
+.6,0,1-0.4,1-1V2\
+6c0-0.6-0.4-1-1-\
+1H8C7.4,25,7,25.\
+4,7,26z\x22/>\x0a    <\
+rect x=\x2240\x22 y=\x223\
+0\x22 fill=\x22#78909C\
+\x22 width=\x222\x22 heig\
+ht=\x226\x22/>\x0a    <re\
+ct x=\x2219\x22 y=\x2232\x22\
+ fill=\x22#BF360C\x22 \
+width=\x228\x22 height\
+=\x229\x22/>\x0a    <rect\
+ x=\x2220.5\x22 y=\x2237.\
+5\x22 fill=\x22#FF9800\
+\x22 width=\x225\x22 heig\
+ht=\x223.5\x22/>\x0a    <\
+path fill=\x22#FFB7\
+4D\x22 d=\x22M27.5,32c\
+0-3.8-9-2.5-9,0c\
+0,0.5,0,3,0,3.5c\
+0,2.5,2,4.5,4.5,\
+4.5s4.5-2,4.5-4.\
+5C27.5,35,27.5,3\
+2.5,27.5,32z\x22/>\x0a\
+    <g fill=\x22#78\
+4719\x22>\x0a        <\
+circle cx=\x2228\x22 c\
+y=\x2221\x22 r=\x221\x22/>\x0a \
+       <circle c\
+x=\x2220\x22 cy=\x2221\x22 r\
+=\x221\x22/>\x0a        <\
+circle cx=\x2225\x22 c\
+y=\x2235.5\x22 r=\x22.5\x22/\
+>\x0a        <circl\
+e cx=\x2221\x22 cy=\x2235\
+.5\x22 r=\x22.5\x22/>\x0a   \
+ </g>\x0a    <g fil\
+l=\x22#FF5722\x22>\x0a   \
+     <path d=\x22M2\
+3,27c-3,0-8,1.3-\
+8,11l4,3v-6.5l6-\
+3.5l2,2.5V41l4-3\
+c0-2-0.8-10-6-10\
+l-0.5-1H23z\x22/>\x0a \
+       <path d=\x22\
+M16,22v-3l12-7l4\
+,5v5h6.8C38.3,15\
+.8,36.1,6,28,6l-\
+1-2h-3C18.5,4,10\
+.7,6.8,9.2,22H16\
+z\x22/>\x0a    </g>\x0a</\
+svg>\x0a\
+\x00\x00\x021\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#78909\
+C\x22 d=\x22M40,41H8c-\
+2.2,0-4-1.8-4-4l\
+0-20.9c0-1.3,0.6\
+-2.5,1.7-3.3L24,\
+0l18.3,12.8c1.1,\
+0.7,1.7,2,1.7,3.\
+3V37 C44,39.2,42\
+.2,41,40,41z\x22/>\x0a\
+    <rect x=\x2212\x22\
+ y=\x2211\x22 fill=\x22#f\
+ff\x22 width=\x2224\x22 h\
+eight=\x2222\x22/>\x0a   \
+ <polygon fill=\x22\
+#9C27B0\x22 points=\
+\x2224,13.6 18,21.4\
+ 30,21.4\x22/>\x0a    \
+<path fill=\x22#CFD\
+8DC\x22 d=\x22M40,41H8\
+c-2.2,0-4-1.8-4-\
+4l0-20l20,13l20-\
+13v20C44,39.2,42\
+.2,41,40,41z\x22/>\x0a\
+    <polygon fil\
+l=\x22#9C27B0\x22 poin\
+ts=\x2224,28 26,26.\
+7 26,20 22,20 22\
+,26.7\x22/>\x0a</svg>\x0a\
+\
+\x00\x00\x00\xf9\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#E91E63\x22>\
+\x0a        <circle\
+ cx=\x2219\x22 cy=\x2233\x22\
+ r=\x229\x22/>\x0a       \
+ <polygon points\
+=\x2224,6 24,33 28,\
+33 28,14 39,17 3\
+9,10\x22/>\x0a    </g>\
+\x0a</svg>\x0a\
+\x00\x00\x04\x7f\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#CFD8D\
+C\x22 d=\x22M24,3C12.4\
+,3,3,12.4,3,24c0\
+,11.6,9.4,21,21,\
+21c0.3,0,0.7,0,1\
+-0.1V3.1C24.7,3,\
+24.3,3,24,3z\x22/>\x0a\
+    <path fill=\x22\
+#37474F\x22 d=\x22M25,\
+3.1v41.9c4.1-0.2\
+,7.9-1.5,11-3.7V\
+6.8C32.9,4.6,29.\
+1,3.2,25,3.1z\x22/>\
+\x0a    <path fill=\
+\x22#FFB74D\x22 d=\x22M20\
+.5,13C14.1,13.3,\
+8.9,18.7,9,25.1c\
+0,2.8,1,5.4,2.7,\
+7.5c1.4,1.7,2.3,\
+3.9,2.3,6.1v3.8c\
+3,1.6,6.4,2.5,10\
+,2.5 c0.3,0,0.7,\
+0,1-0.1c0.7,0,1.\
+3-0.1,2-0.2v-9.4\
+c3.6-2.1,6-5.9,6\
+-10.4C33,18.2,27\
+.4,12.7,20.5,13z\
+\x22/>\x0a    <path fi\
+ll=\x22#FFB74D\x22 d=\x22\
+M29,38.6L25,38v-\
+9h8l-0.7,7C32.1,\
+37.6,30.7,38.8,2\
+9,38.6z\x22/>\x0a    <\
+polygon fill=\x22#F\
+FB74D\x22 points=\x223\
+9,29 32,31 31,26\
+ 32,22\x22/>\x0a    <c\
+ircle fill=\x22#784\
+719\x22 cx=\x2229.5\x22 c\
+y=\x2225.5\x22 r=\x221.5\x22\
+/>\x0a    <path fil\
+l=\x22#FF5722\x22 d=\x22M\
+21,12c-7.2,0-13,\
+5.8-13,13c0,7.6,\
+5.1,9,6,13l4-3v-\
+8l5-2l1-4c3.2,0,\
+6-3.9,6-6.1C27.9\
+,13,24.4,12,21,1\
+2z\x22/>\x0a    <circl\
+e fill=\x22#FFB74D\x22\
+ cx=\x2219\x22 cy=\x2227\x22\
+ r=\x223\x22/>\x0a    <pa\
+th fill=\x22#CFD8DC\
+\x22 d=\x22M45,24c0-7.\
+1-3.6-13.4-9-17.\
+2v34.4C41.4,37.4\
+,45,31.1,45,24z\x22\
+/>\x0a    <path fil\
+l=\x22#FF9800\x22 d=\x22M\
+20,44.6c1.3,0.2,\
+2.6,0.4,4,0.4c0.\
+3,0,0.7,0,1-0.1c\
+0.7,0,1.3-0.1,2-\
+0.2v-6.5l-7-1V44\
+.6z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xf0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00968\
+8\x22 d=\x22M36,45H12c\
+-2.2,0-4-1.8-4-4\
+V7c0-2.2,1.8-4,4\
+-4h16.3c1.1,0,2.\
+1,0.4,2.8,1.2l7.\
+7,7.7c0.8,0.8,1.\
+2,1.8,1.2,2.8 V4\
+1C40,43.2,38.2,4\
+5,36,45z\x22/>\x0a    \
+<path fill=\x22#FF9\
+800\x22 d=\x22M32,38H1\
+6c-1.1,0-2-0.9-2\
+-2V24c0-1.1,0.9-\
+2,2-2h16c1.1,0,2\
+,0.9,2,2v12C34,3\
+7.1,33.1,38,32,3\
+8z\x22/>\x0a    <path \
+fill=\x22#FFD54F\x22 d\
+=\x22M29,30v3h5v2h-\
+5v3h-2V22h2v6h5v\
+2H29z M14,29v2h5\
+v2h-5v2h5v3h2v-9\
+H14z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\xa6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x226\x22 y=\x2238\x22\
+ fill=\x22#2196F3\x22 \
+width=\x224\x22 height\
+=\x224\x22/>\x0a    <rect\
+ x=\x226\x22 y=\x2230\x22 fi\
+ll=\x22#2196F3\x22 wid\
+th=\x2212\x22 height=\x22\
+4\x22/>\x0a    <rect x\
+=\x226\x22 y=\x2222\x22 fill\
+=\x22#2196F3\x22 width\
+=\x2220\x22 height=\x224\x22\
+/>\x0a    <rect x=\x22\
+6\x22 y=\x2214\x22 fill=\x22\
+#2196F3\x22 width=\x22\
+28\x22 height=\x224\x22/>\
+\x0a    <rect x=\x226\x22\
+ y=\x226\x22 fill=\x22#21\
+96F3\x22 width=\x2236\x22\
+ height=\x224\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x02l\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FF980\
+0\x22 d=\x22M5,35V13c0\
+-2.2,1.8-4,4-4h3\
+0c2.2,0,4,1.8,4,\
+4v22c0,2.2-1.8,4\
+-4,4H9C6.8,39,5,\
+37.2,5,35z\x22/>\x0a  \
+  <g fill=\x22#FFD5\
+4F\x22>\x0a        <pa\
+th d=\x22M43,21v-2H\
+31c-1.1,0-2-0.9-\
+2-2s0.9-2,2-2h1v\
+-2h-1c-2.2,0-4,1\
+.8-4,4s1.8,4,4,4\
+h3v6h-3c-2.8,0-5\
+,2.2-5,5 s2.2,5,\
+5,5h2v-2h-2c-1.7\
+,0-3-1.3-3-3s1.3\
+-3,3-3h12v-2h-7v\
+-6H43z\x22/>\x0a      \
+  <path d=\x22M17,2\
+7h-3v-6h3c2.2,0,\
+4-1.8,4-4s-1.8-4\
+-4-4h-3v2h3c1.1,\
+0,2,0.9,2,2s-0.9\
+,2-2,2H5v2h7v6H5\
+v2h12 c1.7,0,3,1\
+.3,3,3s-1.3,3-3,\
+3h-2v2h2c2.8,0,5\
+-2.2,5-5S19.8,27\
+,17,27z\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x02?\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#CF\
+D8DC\x22 points=\x229,\
+39 9,6 7,6 7,41 \
+42,41 42,39\x22/>\x0a \
+   <g fill=\x22#00B\
+CD4\x22>\x0a        <c\
+ircle cx=\x2239\x22 cy\
+=\x2211\x22 r=\x223\x22/>\x0a  \
+      <circle cx\
+=\x2231\x22 cy=\x2213\x22 r=\
+\x223\x22/>\x0a        <c\
+ircle cx=\x2237\x22 cy\
+=\x2219\x22 r=\x223\x22/>\x0a  \
+      <circle cx\
+=\x2234\x22 cy=\x2226\x22 r=\
+\x223\x22/>\x0a        <c\
+ircle cx=\x2228\x22 cy\
+=\x2220\x22 r=\x223\x22/>\x0a  \
+      <circle cx\
+=\x2226\x22 cy=\x2228\x22 r=\
+\x223\x22/>\x0a        <c\
+ircle cx=\x2220\x22 cy\
+=\x2223\x22 r=\x223\x22/>\x0a  \
+      <circle cx\
+=\x2221\x22 cy=\x2233\x22 r=\
+\x223\x22/>\x0a        <c\
+ircle cx=\x2214\x22 cy\
+=\x2230\x22 r=\x223\x22/>\x0a  \
+  </g>\x0a</svg>\x0a\
+\x00\x00\x04\x0b\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <c\
+ircle fill=\x22#FFF\
+59D\x22 cx=\x2224\x22 cy=\
+\x2222\x22 r=\x2220\x22/>\x0a  \
+  <path fill=\x22#F\
+BC02D\x22 d=\x22M37,22\
+c0-7.7-6.6-13.8-\
+14.5-12.9c-6,0.7\
+-10.8,5.5-11.4,1\
+1.5c-0.5,4.6,1.4\
+,8.7,4.6,11.3 c1\
+.4,1.2,2.3,2.9,2\
+.3,4.8V37h12v-0.\
+1c0-1.8,0.8-3.6,\
+2.2-4.8C35.1,29.\
+7,37,26.1,37,22z\
+\x22/>\x0a    <path fi\
+ll=\x22#FFF59D\x22 d=\x22\
+M30.6,20.2l-3-2c\
+-0.3-0.2-0.8-0.2\
+-1.1,0L24,19.8l-\
+2.4-1.6c-0.3-0.2\
+-0.8-0.2-1.1,0l-\
+3,2 c-0.2,0.2-0.\
+4,0.4-0.4,0.7s0,\
+0.6,0.2,0.8l3.8,\
+4.7V37h2V26c0-0.\
+2-0.1-0.4-0.2-0.\
+6l-3.3-4.1l1.5-1\
+l2.4,1.6c0.3,0.2\
+,0.8,0.2,1.1,0 l\
+2.4-1.6l1.5,1l-3\
+.3,4.1C25.1,25.6\
+,25,25.8,25,26v1\
+1h2V26.4l3.8-4.7\
+c0.2-0.2,0.3-0.5\
+,0.2-0.8S30.8,20\
+.3,30.6,20.2z\x22/>\
+\x0a    <circle fil\
+l=\x22#5C6BC0\x22 cx=\x22\
+24\x22 cy=\x2244\x22 r=\x223\
+\x22/>\x0a    <path fi\
+ll=\x22#9FA8DA\x22 d=\x22\
+M26,45h-4c-2.2,0\
+-4-1.8-4-4v-5h12\
+v5C30,43.2,28.2,\
+45,26,45z\x22/>\x0a   \
+ <g fill=\x22#5C6BC\
+0\x22>\x0a        <pat\
+h d=\x22M30,41l-11.\
+6,1.6c0.3,0.7,0.\
+9,1.4,1.6,1.8l9.\
+4-1.3C29.8,42.5,\
+30,41.8,30,41z\x22/\
+>\x0a        <polyg\
+on points=\x2218,38\
+.7 18,40.7 30,39\
+ 30,37\x22/>\x0a    </\
+g>\x0a</svg>\x0a\
+\x00\x00\x01\xc6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#CFD8DC\x22>\
+\x0a        <path d\
+=\x22M34,44H14c-1.1\
+,0-2-0.9-2-2V8c0\
+-1.1,0.9-2,2-2h2\
+0c1.1,0,2,0.9,2,\
+2v34C36,43.1,35.\
+1,44,34,44z\x22/>\x0a \
+       <path d=\x22\
+M28,13h-8c-0.6,0\
+-1-0.4-1-1V5c0-0\
+.6,0.4-1,1-1h8c0\
+.6,0,1,0.4,1,1v7\
+C29,12.6,28.6,13\
+,28,13z\x22/>\x0a    <\
+/g>\x0a    <path fi\
+ll=\x22#8BC34A\x22 d=\x22\
+M34,44H14c-1.1,0\
+-2-0.9-2-2V13h24\
+v29C36,43.1,35.1\
+,44,34,44z\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x04\x0a\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#FFA726\x22>\
+\x0a        <circle\
+ cx=\x2210\x22 cy=\x2226\x22\
+ r=\x224\x22/>\x0a       \
+ <circle cx=\x2238\x22\
+ cy=\x2226\x22 r=\x224\x22/>\
+\x0a    </g>\x0a    <p\
+ath fill=\x22#FFB74\
+D\x22 d=\x22M39,19c0-1\
+2.7-30-8.3-30,0c\
+0,1.8,0,8.2,0,10\
+c0,8.3,6.7,15,15\
+,15s15-6.7,15-15\
+C39,27.2,39,20.8\
+,39,19z\x22/>\x0a    <\
+path fill=\x22#FF57\
+22\x22 d=\x22M24,3C14.\
+6,3,7,10.6,7,20c\
+0,1.2,0,3.4,0,3.\
+4L9,25v-3l21-9.8\
+l9,9.8v3l2-1.6c0\
+,0,0-2.1,0-3.4 C\
+41,12,35.3,3,24,\
+3z\x22/>\x0a    <g fil\
+l=\x22#784719\x22>\x0a   \
+     <circle cx=\
+\x2231\x22 cy=\x2226\x22 r=\x22\
+2\x22/>\x0a        <ci\
+rcle cx=\x2217\x22 cy=\
+\x2226\x22 r=\x222\x22/>\x0a   \
+ </g>\x0a    <path \
+fill=\x22#757575\x22 d\
+=\x22M43,24c-0.6,0-\
+1,0.4-1,1v-7c0-8\
+.8-7.2-16-16-16h\
+-7c-0.6,0-1,0.4-\
+1,1s0.4,1,1,1h7c\
+7.7,0,14,6.3,14,\
+14v10 c0,0.6,0.4\
+,1,1,1s1-0.4,1-1\
+v2c0,3.9-3.1,7-7\
+,7H24c-0.6,0-1,0\
+.4-1,1s0.4,1,1,1\
+h11c5,0,9-4,9-9v\
+-5C44,24.4,43.6,\
+24,43,24z\x22/>\x0a   \
+ <g fill=\x22#37474\
+F\x22>\x0a        <pat\
+h d=\x22M43,22h-1c-\
+1.1,0-2,0.9-2,2v\
+4c0,1.1,0.9,2,2,\
+2h1c1.1,0,2-0.9,\
+2-2v-4C45,22.9,4\
+4.1,22,43,22z\x22/>\
+\x0a        <circle\
+ cx=\x2224\x22 cy=\x2238\x22\
+ r=\x222\x22/>\x0a    </g\
+>\x0a</svg>\x0a\
+\x00\x00\x01$\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2241\
+,41 23,41 41,23\x22\
+/>\x0a    <rect x=\x22\
+17.4\x22 y=\x225\x22 tran\
+sform=\x22matrix(.7\
+07 -.707 .707 .7\
+07 -8.854 21.374\
+)\x22 fill=\x22#3F51B5\
+\x22 width=\x228\x22 heig\
+ht=\x2232.7\x22/>\x0a</sv\
+g>\x0a\
+\x00\x00\x01\xa0\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#3F\
+51B5\x22 points=\x2244\
+,19 30,30.7 30,7\
+.3\x22/>\x0a    <path \
+fill=\x22#3F51B5\x22 d\
+=\x22M6,27v13h8V27c\
+0-2.2,1.8-4,4-4h\
+17v-8H18C11.4,15\
+,6,20.4,6,27z\x22/>\
+\x0a    <polygon fi\
+ll=\x22#3F51B5\x22 poi\
+nts=\x2244,19 30,30\
+.7 30,7.3\x22/>\x0a   \
+ <path fill=\x22#3F\
+51B5\x22 d=\x22M6,27v1\
+3h8V27c0-2.2,1.8\
+-4,4-4h17v-8H18C\
+11.4,15,6,20.4,6\
+,27z\x22/>\x0a</svg>\x0a\
+\x00\x00\x01\x98\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#90\
+CAF9\x22 points=\x2236\
+.9,13.8 35.1,10.\
+2 7.5,24 35.1,37\
+.8 36.9,34.2 16.\
+5,24\x22/>\x0a    <rec\
+t x=\x226\x22 y=\x2218\x22 f\
+ill=\x22#D81B60\x22 wi\
+dth=\x2212\x22 height=\
+\x2212\x22/>\x0a    <g fi\
+ll=\x22#2196F3\x22>\x0a  \
+      <rect x=\x223\
+0\x22 y=\x226\x22 width=\x22\
+12\x22 height=\x2212\x22/\
+>\x0a        <rect \
+x=\x2230\x22 y=\x2230\x22 wi\
+dth=\x2212\x22 height=\
+\x2212\x22/>\x0a    </g>\x0a\
+</svg>\x0a\
+\x00\x00\x01\x90\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+olygon fill=\x22#67\
+3AB7\x22 points=\x2216\
+.5,18 0,42 33,42\
+\x22/>\x0a    <polygon\
+ fill=\x22#9575CD\x22 \
+points=\x2233.6,24 \
+19.2,42 48,42\x22/>\
+\x0a    <path fill=\
+\x22#40C4FF\x22 d=\x22M42\
+.9,6.3C43.6,7.4,\
+44,8.6,44,10c0,3\
+.9-3.1,7-7,7c-0.\
+7,0-1.3-0.1-1.9-\
+0.3c1.2,2,3.4,3.\
+3,5.9,3.3 c3.9,0\
+,7-3.1,7-7C48,9.\
+8,45.9,7.1,42.9,\
+6.3z\x22/>\x0a</svg>\x0a\
+\x00\x00\x02l\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x227\x22 y=\x224\x22 \
+fill=\x22#BBDEFB\x22 w\
+idth=\x2234\x22 height\
+=\x2240\x22/>\x0a    <g f\
+ill=\x22#2196F3\x22>\x0a \
+       <rect x=\x22\
+13\x22 y=\x2226\x22 width\
+=\x224\x22 height=\x224\x22/\
+>\x0a        <rect \
+x=\x2213\x22 y=\x2218\x22 wi\
+dth=\x224\x22 height=\x22\
+4\x22/>\x0a        <re\
+ct x=\x2213\x22 y=\x2234\x22\
+ width=\x224\x22 heigh\
+t=\x224\x22/>\x0a        \
+<rect x=\x2213\x22 y=\x22\
+10\x22 width=\x224\x22 he\
+ight=\x224\x22/>\x0a     \
+   <rect x=\x2221\x22 \
+y=\x2226\x22 width=\x2214\
+\x22 height=\x224\x22/>\x0a \
+       <rect x=\x22\
+21\x22 y=\x2218\x22 width\
+=\x2214\x22 height=\x224\x22\
+/>\x0a        <rect\
+ x=\x2221\x22 y=\x2234\x22 w\
+idth=\x2214\x22 height\
+=\x224\x22/>\x0a        <\
+rect x=\x2221\x22 y=\x221\
+0\x22 width=\x2214\x22 he\
+ight=\x224\x22/>\x0a    <\
+/g>\x0a</svg>\x0a\
+\x00\x00\x0a\xe6\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#00A34\
+4\x22 d=\x22M24,13c-7.\
+2,0-13,5.8-13,13\
+s5.8,13,13,13s13\
+-5.8,13-13S31.2,\
+13,24,13z M24,35\
+c-5,0-9-4-9-9s4-\
+9,9-9s9,4,9,9 S2\
+9,35,24,35z\x22/>\x0a \
+   <path fill=\x22#\
+00C853\x22 d=\x22M8.5,\
+25.4c4-2.2,9-1.1\
+,11.5,2.5c0.1,0.\
+1,0.2,0.1,0.3,0.\
+1l1.2-0.7c0.1-0.\
+1,0.2-0.2,0.1-0.\
+3 c0-0.2-0.1-0.4\
+-0.1-0.6c0,0,0,0\
+,0,0c0-0.1,0-0.1\
+,0-0.2c0,0,0,0,0\
+,0c0-0.1,0-0.1,0\
+-0.2c0,0,0,0,0,0\
+c0-0.1,0-0.1,0-0\
+.2l0,0 c0-0.1,0-\
+0.1,0.1-0.2c0,0,\
+0,0,0,0c0-0.1,0-\
+0.1,0.1-0.2c0,0,\
+0,0,0,0c0,0,0-0.\
+1,0.1-0.1c0,0,0-\
+0.1,0.1-0.1c0,0,\
+0-0.1,0.1-0.1 c0\
+,0,0.1-0.1,0.1-0\
+.1c0,0,0,0,0,0c0\
+,0,0.1-0.1,0.1-0\
+.1c0,0,0,0,0,0c0\
+,0,0.1-0.1,0.1-0\
+.1c0,0,0,0,0,0c0\
+,0,0.1-0.1,0.1-0\
+.1 c0,0,0,0,0,0c\
+0,0,0.1-0.1,0.1-\
+0.1c0,0,0,0,0.1,\
+0c0.2-0.1,0.4-0.\
+2,0.5-0.2c0.1,0,\
+0.2-0.1,0.2-0.3v\
+-1.3c0-0.1-0.1-0\
+.2-0.2-0.2 c-4.5\
+-0.4-8-4.1-8-8.6\
+c0-4.1,3-7.6,6.9\
+-8.4c0.1,0,0.2-0\
+.1,0.2-0.3V4.8c0\
+-0.1-0.1-0.2-0.2\
+-0.2C16.4,5.5,12\
+,10.4,12,16.3 c0\
+,1.3,0.2,2.6,0.6\
+,3.8c-1.2,0.2-2.\
+5,0.7-3.6,1.3c-5\
+.2,3-7.3,9.2-5.2\
+,14.5C3.9,36,4,3\
+6,4.1,36l0.3-0.2\
+c0.1-0.1,0.2-0.2\
+,0.1-0.3 C3.3,31\
+.7,4.8,27.4,8.5,\
+25.4L8.5,25.4z M\
+39,21.4c-1.2-0.7\
+-2.4-1.1-3.6-1.3\
+c0.4-1.2,0.6-2.4\
+,0.6-3.8c0-5.9-4\
+.4-10.8-10.2-11.\
+7 c-0.1,0-0.2,0.\
+1-0.2,0.2v0.4c0,\
+0.1,0.1,0.2,0.2,\
+0.3c4,0.8,6.9,4.\
+3,6.9,8.4c0,4.5-\
+3.5,8.2-8,8.6c-0\
+.1,0-0.2,0.1-0.2\
+,0.2v1.3 c0,0.1,\
+0.1,0.2,0.2,0.3c\
+0.2,0.1,0.4,0.1,\
+0.6,0.2c0,0,0,0,\
+0,0c0,0,0.1,0.1,\
+0.1,0.1c0,0,0,0,\
+0,0c0.1,0,0.1,0.\
+1,0.1,0.1c0,0,0,\
+0,0,0 c0.1,0.1,0\
+.2,0.2,0.3,0.3c0\
+,0,0,0,0,0c0,0,0\
+.1,0.1,0.1,0.1c0\
+,0,0,0,0,0c0,0,0\
+.1,0.1,0.1,0.1c0\
+,0,0,0.1,0,0.1c0\
+,0,0,0.1,0,0.1 c\
+0,0,0,0.1,0.1,0.\
+1c0,0,0,0,0,0c0,\
+0.1,0,0.1,0.1,0.\
+2c0,0,0,0,0,0c0,\
+0.1,0,0.1,0,0.2c\
+0,0,0,0,0,0c0,0.\
+1,0,0.1,0,0.2c0,\
+0,0,0,0,0.1 c0,0\
+,0,0.1,0,0.1c0,0\
+,0,0,0,0.1c0,0.2\
+,0,0.4-0.1,0.6c0\
+,0.1,0,0.2,0.1,0\
+.3l1.2,0.7c0.1,0\
+.1,0.2,0,0.3-0.1\
+c2.6-3.6,7.6-4.8\
+,11.5-2.5 c3.6,2\
+.1,5.2,6.3,3.9,1\
+0.1c0,0.1,0,0.2,\
+0.1,0.3l0.3,0.2c\
+0.1,0.1,0.2,0,0.\
+3-0.1C46.3,30.5,\
+44.2,24.3,39,21.\
+4L39,21.4z M30.8\
+,40.3 c-4-2.2-5.\
+5-7.1-3.5-11.1c0\
+.1-0.1,0-0.2-0.1\
+-0.3L26,28.2c-0.\
+1-0.1-0.2,0-0.3,\
+0c-0.2,0.1-0.3,0\
+.3-0.5,0.3c0,0,0\
+,0,0,0 c-0.1,0-0\
+.1,0.1-0.2,0.1c0\
+,0,0,0,0,0c-0.1,\
+0-0.1,0-0.2,0.1c\
+0,0,0,0,0,0c-0.1\
+,0-0.3,0.1-0.4,0\
+.1c0,0,0,0,0,0c-\
+0.1,0-0.1,0-0.2,\
+0 c0,0,0,0-0.1,0\
+c0,0-0.1,0-0.1,0\
+c0,0-0.1,0-0.1,0\
+c0,0-0.1,0-0.1,0\
+c0,0-0.1,0-0.1,0\
+c0,0,0,0-0.1,0c-\
+0.1,0-0.1,0-0.2,\
+0c0,0,0,0,0,0 c-\
+0.1,0-0.1,0-0.2,\
+0c0,0,0,0,0,0c-0\
+.1,0-0.1,0-0.2-0\
+.1c0,0,0,0,0,0c0\
+,0-0.1,0-0.1-0.1\
+c0,0,0,0-0.1,0c-\
+0.2-0.1-0.3-0.2-\
+0.5-0.3 c-0.1-0.\
+1-0.2-0.1-0.3,0l\
+-1.2,0.7c-0.1,0.\
+1-0.1,0.2-0.1,0.\
+3c1.9,4,0.4,8.8-\
+3.5,11.1c-3.6,2.\
+1-8.2,1.3-10.9-1\
+.7 c-0.1-0.1-0.2\
+-0.1-0.3-0.1l-0.\
+3,0.2c-0.1,0.1-0\
+.1,0.2-0.1,0.3c3\
+.6,4.5,10.2,5.8,\
+15.4,2.8c1.2-0.7\
+,2.2-1.5,3-2.4 c\
+0.8,0.9,1.8,1.8,\
+3,2.4c5.2,3,11.7\
+,1.6,15.4-2.8c0.\
+1-0.1,0-0.2-0.1-\
+0.3L42,38.5c-0.1\
+-0.1-0.2,0-0.3,0\
+.1C39,41.5,34.4,\
+42.3,30.8,40.3 L\
+30.8,40.3z\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x02p\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#607D8\
+B\x22 d=\x22M40,39H8c-\
+2.2,0-4-1.8-4-4V\
+13c0-2.2,1.8-4,4\
+-4h32c2.2,0,4,1.\
+8,4,4v22C44,37.2\
+,42.2,39,40,39z\x22\
+/>\x0a    <circle f\
+ill=\x22#455A64\x22 cx\
+=\x2229\x22 cy=\x2224\x22 r=\
+\x2212\x22/>\x0a    <circ\
+le fill=\x22#42A5F5\
+\x22 cx=\x2229\x22 cy=\x2224\
+\x22 r=\x229\x22/>\x0a    <p\
+ath fill=\x22#90CAF\
+9\x22 d=\x22M33.8,21c-\
+1.2-1.4-3-2.2-4.\
+8-2.2s-3.6,0.8-4\
+.8,2.2c-0.5,0.5-\
+0.4,1.3,0.1,1.8c\
+0.5,0.5,1.3,0.4,\
+1.8-0.1 c1.5-1.7\
+,4.3-1.7,5.8,0c0\
+.3,0.3,0.6,0.4,1\
+,0.4c0.3,0,0.6-0\
+.1,0.9-0.3C34.2,\
+22.4,34.3,21.5,3\
+3.8,21z\x22/>\x0a    <\
+rect x=\x228\x22 y=\x2213\
+\x22 fill=\x22#ADD8FB\x22\
+ width=\x226\x22 heigh\
+t=\x223\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\xf7\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <g\
+ fill=\x22#00BCD4\x22>\
+\x0a        <rect x\
+=\x2237\x22 y=\x2218\x22 wid\
+th=\x226\x22 height=\x222\
+4\x22/>\x0a        <re\
+ct x=\x2229\x22 y=\x2226\x22\
+ width=\x226\x22 heigh\
+t=\x2216\x22/>\x0a       \
+ <rect x=\x2221\x22 y=\
+\x2222\x22 width=\x226\x22 h\
+eight=\x2220\x22/>\x0a   \
+     <rect x=\x2213\
+\x22 y=\x2232\x22 width=\x22\
+6\x22 height=\x2210\x22/>\
+\x0a        <rect x\
+=\x225\x22 y=\x2228\x22 widt\
+h=\x226\x22 height=\x2214\
+\x22/>\x0a    </g>\x0a   \
+ <g fill=\x22#3F51B\
+5\x22>\x0a        <cir\
+cle cx=\x228\x22 cy=\x221\
+6\x22 r=\x223\x22/>\x0a     \
+   <circle cx=\x221\
+6\x22 cy=\x2218\x22 r=\x223\x22\
+/>\x0a        <circ\
+le cx=\x2224\x22 cy=\x221\
+1\x22 r=\x223\x22/>\x0a     \
+   <circle cx=\x223\
+2\x22 cy=\x2213\x22 r=\x223\x22\
+/>\x0a        <circ\
+le cx=\x2240\x22 cy=\x229\
+\x22 r=\x223\x22/>\x0a      \
+  <polygon point\
+s=\x2239.1,7.2 31.8\
+,10.9 23.5,8.8 1\
+5.5,15.8 8.5,14.\
+1 7.5,17.9 16.5,\
+20.2 24.5,13.2 3\
+2.2,15.1 40.9,10\
+.8\x22/>\x0a    </g>\x0a<\
+/svg>\x0a\
+\x00\x00\x02e\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#BF360\
+C\x22 d=\x22M41.2,5h-7\
+.3L32,43h11L41.2\
+,5z\x22/>\x0a    <path\
+ fill=\x22#E64A19\x22 \
+d=\x22M33,23h-4v-6l\
+-12,6v-6L5,23v20\
+h28V23z\x22/>\x0a    <\
+rect x=\x229\x22 y=\x2227\
+\x22 fill=\x22#FFC107\x22\
+ width=\x224\x22 heigh\
+t=\x224\x22/>\x0a    <rec\
+t x=\x2217\x22 y=\x2227\x22 \
+fill=\x22#FFC107\x22 w\
+idth=\x224\x22 height=\
+\x224\x22/>\x0a    <rect \
+x=\x2225\x22 y=\x2227\x22 fi\
+ll=\x22#FFC107\x22 wid\
+th=\x224\x22 height=\x224\
+\x22/>\x0a    <rect x=\
+\x229\x22 y=\x2235\x22 fill=\
+\x22#FFC107\x22 width=\
+\x224\x22 height=\x224\x22/>\
+\x0a    <rect x=\x2217\
+\x22 y=\x2235\x22 fill=\x22#\
+FFC107\x22 width=\x224\
+\x22 height=\x224\x22/>\x0a \
+   <rect x=\x2225\x22 \
+y=\x2235\x22 fill=\x22#FF\
+C107\x22 width=\x224\x22 \
+height=\x224\x22/>\x0a</s\
+vg>\x0a\
+\x00\x00\x04M\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#FBC02\
+D\x22 d=\x22M37,22c0-7\
+.7-6.6-13.8-14.5\
+-12.9c-6,0.7-10.\
+8,5.5-11.4,11.5c\
+-0.5,4.6,1.4,8.7\
+,4.6,11.3 c1.4,1\
+.2,2.3,2.9,2.3,4\
+.8V37h12v-0.1c0-\
+1.8,0.8-3.6,2.2-\
+4.8C35.1,29.7,37\
+,26.1,37,22z\x22/>\x0a\
+    <path fill=\x22\
+#FFF59D\x22 d=\x22M30.\
+6,20.2l-3-2c-0.3\
+-0.2-0.8-0.2-1.1\
+,0L24,19.8l-2.4-\
+1.6c-0.3-0.2-0.8\
+-0.2-1.1,0l-3,2 \
+c-0.2,0.2-0.4,0.\
+4-0.4,0.7s0,0.6,\
+0.2,0.8l3.8,4.7V\
+37h2V26c0-0.2-0.\
+1-0.4-0.2-0.6l-3\
+.3-4.1l1.5-1l2.4\
+,1.6c0.3,0.2,0.8\
+,0.2,1.1,0 l2.4-\
+1.6l1.5,1l-3.3,4\
+.1C25.1,25.6,25,\
+25.8,25,26v11h2V\
+26.4l3.8-4.7c0.2\
+-0.2,0.3-0.5,0.2\
+-0.8S30.8,20.3,3\
+0.6,20.2z\x22/>\x0a   \
+ <circle fill=\x22#\
+5C6BC0\x22 cx=\x2224\x22 \
+cy=\x2244\x22 r=\x223\x22/>\x0a\
+    <path fill=\x22\
+#9FA8DA\x22 d=\x22M26,\
+45h-4c-2.2,0-4-1\
+.8-4-4v-5h12v5C3\
+0,43.2,28.2,45,2\
+6,45z\x22/>\x0a    <g \
+fill=\x22#5C6BC0\x22>\x0a\
+        <path d=\
+\x22M30,41l-11.6,1.\
+6c0.3,0.7,0.9,1.\
+4,1.6,1.8l9.4-1.\
+3C29.8,42.5,30,4\
+1.8,30,41z\x22/>\x0a  \
+      <polygon p\
+oints=\x2218,38.7 1\
+8,40.7 30,39 30,\
+37\x22/>\x0a    </g>\x0a \
+   <rect x=\x2222\x22 \
+y=\x22-2.9\x22 transfo\
+rm=\x22matrix(.707 \
+-.707 .707 .707 \
+-9.941 24)\x22 fill\
+=\x22#37474F\x22 width\
+=\x224\x22 height=\x2253.\
+7\x22/>\x0a</svg>\x0a\
+\x00\x00\x02\xec\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <r\
+ect x=\x2216\x22 y=\x2215\
+\x22 fill=\x22#BF360C\x22\
+ width=\x2216\x22 heig\
+ht=\x2218\x22/>\x0a    <p\
+ath fill=\x22#78909\
+C\x22 d=\x22M40,44H8c0\
+-11,11-13,11-13h\
+10C29,31,40,33,4\
+0,44z\x22/>\x0a    <pa\
+th fill=\x22#FF9800\
+\x22 d=\x22M24,37c-2.2\
+,0-5-6-5-6v-6h10\
+v6C29,31,26.2,37\
+,24,37z\x22/>\x0a    <\
+path fill=\x22#FFB7\
+4D\x22 d=\x22M33,14c0-\
+7.6-18-5-18,0c0,\
+1.1,0,5.9,0,7c0,\
+5,4,9,9,9s9-4,9-\
+9C33,19.9,33,15.\
+1,33,14z\x22/>\x0a    \
+<path fill=\x22#FF5\
+722\x22 d=\x22M24,4C17\
+.9,4,9,7.4,9,27.\
+3l7,4.7V19l12-7l\
+4,5v15l7-6c0-4-0\
+.7-20-11-20l-1-2\
+H24z\x22/>\x0a    <pat\
+h fill=\x22#FFB74D\x22\
+ d=\x22M24,38c-4.4,\
+0-5-7-5-7s2.5,4,\
+5,4s5-4,5-4S28.4\
+,38,24,38z\x22/>\x0a  \
+  <circle fill=\x22\
+#784719\x22 cx=\x2228\x22\
+ cy=\x2221\x22 r=\x221\x22/>\
+\x0a    <circle fil\
+l=\x22#784719\x22 cx=\x22\
+20\x22 cy=\x2221\x22 r=\x221\
+\x22/>\x0a</svg>\x0a\
+\x00\x00\x01&\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#4CAF5\
+0\x22 d=\x22M8,12h22c2\
+.2,0,4,1.8,4,4v1\
+6c0,2.2-1.8,4-4,\
+4H8c-2.2,0-4-1.8\
+-4-4V16C4,13.8,5\
+.8,12,8,12z\x22/>\x0a \
+   <polygon fill\
+=\x22#388E3C\x22 point\
+s=\x2244,35 34,29 3\
+4,19 44,13\x22/>\x0a</\
+svg>\x0a\
+\x00\x00\x01W\
+<\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#B39DD\
+B\x22 d=\x22M30.6,44H1\
+7.4c-2,0-3.7-1.4\
+-4-3.4L9,11h30l-\
+4.5,29.6C34.2,42\
+.6,32.5,44,30.6,\
+44z\x22/>\x0a    <path\
+ fill=\x22#7E57C2\x22 \
+d=\x22M38,13H10c-1.\
+1,0-2-0.9-2-2v0c\
+0-1.1,0.9-2,2-2h\
+28c1.1,0,2,0.9,2\
+,2v0C40,12.1,39.\
+1,13,38,13z\x22/>\x0a<\
+/svg>\x0a\
 \x00\x00\x13\x05\
 \x00\
 \x00\xac\xbex\xda\xd5][o$\xb7\xb1~\x0f\x90\xff\
@@ -11297,85 +15865,56 @@ a\xc0\x8e\xc2\xc0mc\xfa\x9c\xd9I\x18\xd0C\x14\xe0\
 \xe2\x1e\x80\xd4\xa1\xe9k|m\x0f\x80\xc0\xe4\xa5\xf9\xc7\
 \xf2\xbdS\xdb\xb5\xf7\xf8\xf6\xcd\xf9\xfe\xe9\x13\xfd\xfb\x1f\
 (\xc5\xe6\x99\
-\x00\x00\x04\xcb\
+\x00\x00\x02\xfa\
 <\
-svg xmlns=\x22http:\
-//www.w3.org/200\
-0/svg\x22 viewBox=\x22\
-0 0 48 48\x22 width\
-=\x2248px\x22 height=\x22\
-48px\x22>\x0d\x0a  <path \
-fill=\x22#50e6ff\x22 d\
-=\x22M39,16v25c0,1.\
-105-0.895,2-2,2H\
-11c-1.105,0-2-0.\
-895-2-2V7c0-1.10\
-5,0.895-2,2-2h17\
-l3,8L39,16z\x22 />\x0d\
-\x0a  <linearGradie\
-nt id=\x22VWJODR~F4\
-9S8JZXNLPMJka\x22 x\
-1=\x2228.529\x22 x2=\x223\
-3.6\x22 y1=\x222761.47\
-1\x22 y2=\x222756.4\x22 g\
-radientTransform\
-=\x22translate(0 -2\
-746)\x22 gradientUn\
-its=\x22userSpaceOn\
-Use\x22>\x0d\x0a    <stop\
- offset=\x220\x22 stop\
--color=\x22#3079d6\x22\
- />\x0d\x0a    <stop o\
-ffset=\x221\x22 stop-c\
-olor=\x22#297cd2\x22 /\
->\x0d\x0a  </linearGra\
-dient>\x0d\x0a  <path \
-fill=\x22url(#VWJOD\
-R~F49S8JZXNLPMJk\
-a)\x22 d=\x22M28,5v9c0\
-,1.105,0.895,2,2\
-,2h9L28,5z\x22 />\x0d\x0a\
-  <path fill=\x22#0\
-57093\x22 d=\x22M32.5,\
-24h-17c-0.276,0-\
-0.5-0.224-0.5-0.\
-5v-1c0-0.276,0.2\
-24-0.5,0.5-0.5h1\
-7c0.276,0,0.5,0.\
-224,0.5,0.5 v1C3\
-3,23.776,32.776,\
-24,32.5,24z\x22 />\x0d\
-\x0a  <path fill=\x22#\
-057093\x22 d=\x22M30.5\
-,28h-15c-0.276,0\
--0.5-0.224-0.5-0\
-.5v-1c0-0.276,0.\
-224-0.5,0.5-0.5h\
-15c0.276,0,0.5,0\
-.224,0.5,0.5 v1C\
-31,27.776,30.776\
-,28,30.5,28z\x22 />\
-\x0d\x0a  <path fill=\x22\
-#057093\x22 d=\x22M32.\
-5,32h-17c-0.276,\
-0-0.5-0.224-0.5-\
-0.5v-1c0-0.276,0\
-.224-0.5,0.5-0.5\
-h17c0.276,0,0.5,\
-0.224,0.5,0.5 v1\
-C33,31.776,32.77\
-6,32,32.5,32z\x22 /\
->\x0d\x0a  <path fill=\
-\x22#057093\x22 d=\x22M30\
-.5,36h-15c-0.276\
-,0-0.5-0.224-0.5\
--0.5v-1c0-0.276,\
-0.224-0.5,0.5-0.\
-5h15c0.276,0,0.5\
-,0.224,0.5,0.5 v\
-1C31,35.776,30.7\
-76,36,30.5,36z\x22 \
-/>\x0d\x0a</svg>\
+svg version=\x221\x22 \
+xmlns=\x22http://ww\
+w.w3.org/2000/sv\
+g\x22 viewBox=\x220 0 \
+48 48\x22 enable-ba\
+ckground=\x22new 0 \
+0 48 48\x22>\x0a    <p\
+ath fill=\x22#2E7D3\
+2\x22 d=\x22M25.4,5.6c\
+-0.8-0.8-2-0.8-2\
+.8,0l-12,12c-0.8\
+,0.8-0.8,2,0,2.8\
+C11,20.8,11.5,21\
+,12,21s1-0.2,1.4\
+-0.6l12-12 C26.2\
+,7.6,26.2,6.4,25\
+.4,5.6z\x22/>\x0a    <\
+path fill=\x22#1B5E\
+20\x22 d=\x22M37.4,17.\
+6l-12-12c-0.8-0.\
+8-2-0.8-2.8,0c-0\
+.8,0.8-0.8,2,0,2\
+.8l12,12C35,20.8\
+,35.5,21,36,21s1\
+-0.2,1.4-0.6 C38\
+.2,19.6,38.2,18.\
+4,37.4,17.6z\x22/>\x0a\
+    <path fill=\x22\
+#388E3C\x22 d=\x22M37.\
+4,41H10.6c-1,0-1\
+.8-0.7-2-1.6L5,2\
+1h38l-3.7,18.4C3\
+9.1,40.3,38.3,41\
+,37.4,41z\x22/>\x0a   \
+ <path fill=\x22#4C\
+AF50\x22 d=\x22M43,23H\
+5c-1.1,0-2-0.9-2\
+-2v-2c0-1.1,0.9-\
+2,2-2h38c1.1,0,2\
+,0.9,2,2v2C45,22\
+.1,44.1,23,43,23\
+z\x22/>\x0a    <polygo\
+n fill=\x22#DCEDC8\x22\
+ points=\x2230.8,24\
+.8 22.9,32.7 19.\
+2,28.9 17,31.1 2\
+2.9,37 33,26.9\x22/\
+>\x0a</svg>\x0a\
 "
 
 qt_resource_name = b"\
@@ -11387,434 +15926,1399 @@ qt_resource_name = b"\
 \x00\x06\xfa^\
 \x00i\
 \x00c\x00o\x00n\
-\x00\x11\
-\x0f\xf2{\xa7\
-\x00E\
-\x00x\x00t\x00e\x00r\x00n\x00a\x00l\x00 \x00L\x00i\x00n\x00k\x00.\x00s\x00v\x00g\
-\
-\x00\x07\
-\x09kZG\
-\x00B\
-\x00o\x00x\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x02\xad9\xe7\
-\x00H\
-\x00a\x00n\x00d\x00 \x00C\x00u\x00r\x00s\x00o\x00r\x00.\x00s\x00v\x00g\
 \x00\x08\
-\x00\x9eQ\xe7\
-\x00R\
-\x00i\x00s\x00k\x00.\x00s\x00v\x00g\
+\x06\xe1W\xa7\
+\x00d\
+\x00o\x00w\x00n\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x00Sn\xc7\
+\x00c\
+\x00h\x00a\x00r\x00g\x00e\x00_\x00b\x00a\x00t\x00t\x00e\x00r\x00y\x00.\x00s\x00v\
+\x00g\
+\x00\x0e\
+\x09\xa5\x8a\x87\
+\x00f\
+\x00l\x00a\x00s\x00h\x00_\x00a\x00u\x00t\x00o\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x04\xb2UG\
+\x00u\
+\x00n\x00d\x00o\x00.\x00s\x00v\x00g\
 \x00\x14\
 \x04\xa7\x8c\x07\
 \x00o\
 \x00b\x00j\x00e\x00c\x00t\x00_\x00d\x00i\x00r\x00e\x00c\x00t\x00o\x00r\x00y\x00.\
 \x00s\x00v\x00g\
-\x00\x13\
-\x02\xb3-\xa7\
-\x00R\
-\x00e\x00m\x00o\x00v\x00e\x00 \x00B\x00o\x00o\x00k\x00m\x00a\x00r\x00k\x00.\x00s\
-\x00v\x00g\
-\x00\x0b\
-\x0b3\x90G\
-\x00C\
-\x00o\x00n\x00n\x00e\x00c\x00t\x00.\x00s\x00v\x00g\
-\x00\x07\
-\x0a\xc1Zg\
-\x00S\
-\x00u\x00n\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x08:\x12g\
-\x00S\
-\x00y\x00n\x00c\x00h\x00r\x00o\x00n\x00i\x00z\x00e\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x08\xaa\xaf\x07\
-\x00U\
-\x00n\x00a\x00v\x00a\x00i\x00l\x00a\x00b\x00l\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x01q\xa8\x07\
+\x00a\
+\x00p\x00p\x00r\x00o\x00v\x00a\x00l\x00.\x00s\x00v\x00g\
 \x00\x0e\
-\x08A\x10\xc7\
-\x00B\
+\x08A\x08\xc7\
+\x00b\
 \x00i\x00n\x00o\x00c\x00u\x00l\x00a\x00r\x00s\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x0c\xb1\x02\x87\
-\x00D\
-\x00e\x00l\x00e\x00t\x00e\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x00\x18T\xa7\
+\x00l\
+\x00i\x00k\x00e\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x07,3\x87\
+\x00i\
+\x00n\x00s\x00p\x00e\x00c\x00t\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
 \x00\x0b\
 \x05x#\xe7\
 \x00p\
 \x00l\x00u\x00s\x00_\x00b\x00w\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x01\xa2\x9e\xa7\
-\x00B\
-\x00o\x00o\x00k\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x06$o\xe7\
-\x00S\
-\x00c\x00r\x00o\x00l\x00l\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x03\xfa\xee'\
-\x00C\
-\x00o\x00n\x00t\x00a\x00c\x00t\x00s\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x0fRe\xa7\
-\x00S\
-\x00t\x00u\x00m\x00b\x00l\x00e\x00U\x00p\x00o\x00n\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x06HS\xa7\
-\x00D\
-\x00o\x00n\x00e\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x08\x9b\xed\xc7\
-\x00T\
-\x00r\x00a\x00s\x00h\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x0f\xd5m\xe7\
-\x00F\
-\x00a\x00c\x00e\x00b\x00o\x00o\x00k\x00.\x00s\x00v\x00g\
-\x00\x07\
-\x01\xccZg\
-\x00K\
-\x00e\x00y\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x0c\xbd g\
-\x00M\
-\x00y\x00s\x00p\x00a\x00c\x00e\x00 \x00A\x00p\x00p\x00.\x00s\x00v\x00g\
 \x00\x0b\
-\x0b\x96\x8b\xc7\
-\x00S\
-\x00h\x00a\x00r\x00e\x00_\x002\x00.\x00s\x00v\x00g\
+\x04\x17L\xc7\
+\x00r\
+\x00a\x00t\x00i\x00n\x00g\x00s\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0d\x22R'\
+\x00m\
+\x00a\x00n\x00a\x00g\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x04[#\xc7\
+\x00a\
+\x00d\x00v\x00a\x00n\x00c\x00e\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x09\xdc\xa5\x07\
+\x00a\
+\x00d\x00v\x00e\x00r\x00t\x00i\x00s\x00i\x00n\x00g\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x06\x9a\xc4'\
+\x00e\
+\x00x\x00p\x00o\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x02\xa6d\xa7\
+\x00m\
+\x00e\x00d\x00i\x00u\x00m\x00_\x00p\x00r\x00i\x00o\x00r\x00i\x00t\x00y\x00.\x00s\
+\x00v\x00g\
+\x00\x0e\
+\x0b0\xc5\xa7\
+\x00c\
+\x00a\x00l\x00c\x00u\x00l\x00a\x00t\x00o\x00r\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x06b\xd4'\
+\x00s\
+\x00u\x00p\x00p\x00o\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x07\
+\x0c\x84Z\x07\
+\x00f\
+\x00a\x00q\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x09\xac\xcd\x87\
+\x00a\
+\x00u\x00t\x00o\x00m\x00o\x00t\x00i\x00v\x00e\x00.\x00s\x00v\x00g\
+\x00\x14\
+\x0e\xdd{\x87\
+\x00m\
+\x00u\x00l\x00t\x00i\x00p\x00l\x00e\x00_\x00c\x00a\x00m\x00e\x00r\x00a\x00s\x00.\
+\x00s\x00v\x00g\
+\x00\x08\
+\x0fcU\xe7\
+\x00s\
+\x00h\x00o\x00p\x00.\x00s\x00v\x00g\
+\x00\x18\
+\x06&\x15'\
+\x00e\
+\x00l\x00e\x00c\x00t\x00r\x00i\x00c\x00a\x00l\x00_\x00t\x00h\x00r\x00e\x00s\x00h\
+\x00o\x00l\x00d\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0d\x0b\xd7'\
+\x00d\
+\x00o\x00w\x00n\x00_\x00l\x00e\x00f\x00t\x00.\x00s\x00v\x00g\
+\x00\x18\
+\x0b\xb2\xad\xe7\
+\x00n\
+\x00u\x00m\x00e\x00r\x00i\x00c\x00a\x00l\x00_\x00s\x00o\x00r\x00t\x00i\x00n\x00g\
+\x00_\x001\x002\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x0bW\x8f\x87\
+\x00c\
+\x00o\x00m\x00m\x00a\x00n\x00d\x00_\x00l\x00i\x00n\x00e\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0a\xc1\x94G\
+\x00d\
+\x00o\x00_\x00n\x00o\x00t\x00_\x00m\x00i\x00x\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0eM\xf2G\
+\x00f\
+\x00l\x00o\x00w\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0c\xd3K\x87\
+\x00c\
+\x00i\x00r\x00c\x00u\x00i\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x013\x16\xa7\
+\x00d\
+\x00e\x00l\x00e\x00t\x00e\x00_\x00r\x00o\x00w\x00.\x00s\x00v\x00g\
+\x00\x15\
+\x0f1G\x07\
+\x00f\
+\x00a\x00c\x00t\x00o\x00r\x00y\x00_\x00b\x00r\x00e\x00a\x00k\x00d\x00o\x00w\x00n\
+\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0c:\xce\x07\
+\x00f\
+\x00i\x00l\x00l\x00e\x00d\x00_\x00f\x00i\x00l\x00t\x00e\x00r\x00.\x00s\x00v\x00g\
+\
+\x00\x10\
+\x082=G\
+\x00f\
+\x00u\x00l\x00l\x00_\x00b\x00a\x00t\x00t\x00e\x00r\x00y\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x00?\x91\xe7\
+\x00d\
+\x00o\x00w\x00n\x00_\x00r\x00i\x00g\x00h\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x08\x01\xf5\xc7\
+\x00l\
+\x00i\x00n\x00e\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x02\xf1\x0f\x87\
+\x00d\
+\x00i\x00s\x00c\x00l\x00a\x00i\x00m\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x06&!\x87\
+\x00l\
+\x00e\x00f\x00t\x00_\x00u\x00p\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0d'\x05\x87\
+\x00l\
+\x00o\x00c\x00k\x00_\x00p\x00o\x00r\x00t\x00r\x00a\x00i\x00t\x00.\x00s\x00v\x00g\
+\
+\x00\x0e\
+\x0a\x89\x93\xa7\
+\x00d\
+\x00a\x00t\x00a\x00_\x00s\x00h\x00e\x00e\x00t\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x07\xee\xf5'\
+\x00e\
+\x00l\x00e\x00c\x00t\x00r\x00i\x00c\x00i\x00t\x00y\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x04B\x92\xe7\
+\x00e\
+\x00n\x00g\x00i\x00n\x00e\x00e\x00r\x00i\x00n\x00g\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x04xh\xc7\
+\x00b\
+\x00r\x00o\x00k\x00e\x00n\x00_\x00l\x00i\x00n\x00k\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0b]\x1f\x07\
+\x00c\
+\x00h\x00e\x00c\x00k\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x00\xa7T\xa7\
+\x00l\
+\x00i\x00s\x00t\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0f|\xcaG\
+\x00s\
+\x00i\x00g\x00n\x00a\x00t\x00u\x00r\x00e\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0b&\xc9\x07\
+\x00U\
+\x00n\x00c\x00h\x00e\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x08:\x92g\
+\x00s\
+\x00y\x00n\x00c\x00h\x00r\x00o\x00n\x00i\x00z\x00e\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x09\xc2\x16g\
+\x00c\
+\x00a\x00m\x00c\x00o\x00r\x00d\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x05\x95\xd0\xa7\
+\x00u\
+\x00n\x00l\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x19\
+\x09\xd1\x1eg\
+\x00e\
+\x00n\x00t\x00e\x00r\x00i\x00n\x00g\x00_\x00h\x00e\x00a\x00v\x00e\x00n\x00_\x00a\
+\x00l\x00i\x00v\x00e\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x01\xc4\xf0G\
+\x00e\
+\x00d\x00i\x00t\x00_\x00i\x00m\x00a\x00g\x00e\x00.\x00s\x00v\x00g\
+\x00\x18\
+\x03@\x04\xa7\
+\x00m\
+\x00u\x00l\x00t\x00i\x00p\x00l\x00e\x00_\x00s\x00m\x00a\x00r\x00t\x00p\x00h\x00o\
+\x00n\x00e\x00s\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x03\xe0\xffG\
+\x00a\
+\x00d\x00d\x00_\x00d\x00a\x00t\x00a\x00b\x00a\x00s\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0c\xa7yg\
+\x00w\
+\x00o\x00r\x00k\x00f\x00l\x00o\x00w\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x00(Wg\
+\x00f\
+\x00i\x00l\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x06\x9aZ\x87\
+\x00c\
+\x00o\x00p\x00y\x00l\x00e\x00f\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0a\xb4Q'\
+\x00s\
+\x00t\x00a\x00t\x00i\x00s\x00t\x00i\x00c\x00s\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x0a\xd3\x12G\
+\x00m\
+\x00u\x00l\x00t\x00i\x00p\x00l\x00e\x00_\x00i\x00n\x00p\x00u\x00t\x00s\x00.\x00s\
+\x00v\x00g\
+\x00\x0d\
+\x03\xda\x10g\
+\x00l\
+\x00e\x00f\x00t\x00_\x00d\x00o\x00w\x00n\x00.\x00s\x00v\x00g\
+\x00\x17\
+\x0bQO\x87\
+\x00g\
+\x00e\x00n\x00e\x00r\x00i\x00c\x00_\x00s\x00o\x00r\x00t\x00i\x00n\x00g\x00_\x00a\
+\x00s\x00c\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0b\xdf,\xc7\
+\x00s\
+\x00e\x00t\x00t\x00i\x00n\x00g\x00s\x00.\x00s\x00v\x00g\
+\x00\x07\
+\x0aFZ'\
+\x00s\
+\x00m\x00s\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0b\x8b\x22G\
+\x00b\
+\x00r\x00i\x00e\x00f\x00c\x00a\x00s\x00e\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x0b\xd7T\x87\
+\x00l\
+\x00e\x00f\x00t\x00.\x00s\x00v\x00g\
+\x00\x14\
+\x0a#+'\
+\x00n\
+\x00e\x00g\x00a\x00t\x00i\x00v\x00e\x00_\x00d\x00y\x00n\x00a\x00m\x00i\x00c\x00.\
+\x00s\x00v\x00g\
+\x00\x0c\
+\x0a\xdc?\xc7\
+\x00c\
+\x00o\x00l\x00l\x00a\x00p\x00s\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x09\xe0\x03\xe7\
+\x00e\
+\x00x\x00t\x00e\x00r\x00n\x00a\x00l\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x05\x18A\xc7\
+\x00m\
+\x00i\x00s\x00s\x00e\x00d\x00_\x00c\x00a\x00l\x00l\x00.\x00s\x00v\x00g\
+\x00\x1a\
+\x06|\x9b\x87\
+\x00t\
+\x00o\x00u\x00c\x00h\x00s\x00c\x00r\x00e\x00e\x00n\x00_\x00s\x00m\x00a\x00r\x00t\
+\x00p\x00h\x00o\x00n\x00e\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x07&3'\
+\x00r\
+\x00e\x00a\x00d\x00i\x00n\x00g\x00_\x00e\x00b\x00o\x00o\x00k\x00.\x00s\x00v\x00g\
+\
+\x00\x10\
+\x0d5\xcbG\
+\x00e\
+\x00m\x00p\x00t\x00y\x00_\x00f\x00i\x00l\x00t\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0f\xe4\xbb\x07\
+\x00c\
+\x00a\x00b\x00l\x00e\x00_\x00r\x00e\x00l\x00e\x00a\x00s\x00e\x00.\x00s\x00v\x00g\
+\
+\x00\x13\
+\x03B\xd2\x07\
+\x00o\
+\x00l\x00d\x00_\x00t\x00i\x00m\x00e\x00_\x00c\x00a\x00m\x00e\x00r\x00a\x00.\x00s\
+\x00v\x00g\
+\x00\x0c\
+\x06\xffc'\
+\x00s\
+\x00e\x00r\x00v\x00i\x00c\x00e\x00s\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x07,\x05g\
+\x00b\
+\x00a\x00d\x00_\x00d\x00e\x00c\x00i\x00s\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x01+7\x07\
+\x00d\
+\x00i\x00p\x00l\x00o\x00m\x00a\x00_\x002\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x0a\xcf+\x87\
+\x00M\
+\x00a\x00s\x00t\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0cF\xefg\
+\x00a\
+\x00n\x00s\x00w\x00e\x00r\x00s\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x00NT\xa7\
+\x00l\
+\x00i\x00n\x00k\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x056\x1b\xe7\
+\x00d\
+\x00e\x00c\x00i\x00s\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x08\x1a\x90\xa7\
+\x00d\
+\x00o\x00w\x00n\x00l\x00o\x00a\x00d\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x08\x97\xaf\x87\
+\x00s\
+\x00t\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x00J+\xe7\
+\x00b\
+\x00e\x00a\x00r\x00i\x00s\x00h\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x05\xc6\xb2\xc7\
+\x00m\
+\x00i\x00n\x00u\x00s\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x03\x04\xaf'\
+\x00p\
+\x00a\x00r\x00a\x00l\x00l\x00e\x00l\x00_\x00t\x00a\x00s\x00k\x00s\x00.\x00s\x00v\
+\x00g\
+\x00\x0f\
+\x08\x92\x9f\x07\
+\x00s\
+\x00p\x00o\x00r\x00t\x00s\x00_\x00m\x00o\x00d\x00e\x00.\x00s\x00v\x00g\
+\x00\x15\
+\x09\xc4x\xa7\
+\x00s\
+\x00m\x00a\x00r\x00t\x00p\x00h\x00o\x00n\x00e\x00_\x00t\x00a\x00b\x00l\x00e\x00t\
+\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x0ah\x03\xe7\
+\x00c\
+\x00u\x00r\x00s\x00o\x00r\x00.\x00s\x00v\x00g\
+\x00\x1a\
+\x08\xbc;'\
+\x00p\
+\x00o\x00d\x00i\x00u\x00m\x00_\x00w\x00i\x00t\x00h\x00o\x00u\x00t\x00_\x00s\x00p\
+\x00e\x00a\x00k\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0d@cG\
+\x00v\
+\x00o\x00i\x00c\x00e\x00m\x00a\x00i\x00l\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x07\x89h\xa7\
+\x00b\
+\x00u\x00s\x00i\x00n\x00e\x00s\x00s\x00m\x00a\x00n\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0cC\x5c\x87\
+\x00g\
+\x00a\x00l\x00l\x00e\x00r\x00y\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0cj!\xc7\
+\x00r\
+\x00e\x00f\x00r\x00e\x00s\x00h\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x05\xc9\x15\xc7\
+\x00d\
+\x00a\x00t\x00a\x00b\x00a\x00s\x00e\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x09\xf9\xf3'\
+\x00a\
+\x00r\x00e\x00a\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0ee+\x07\
+\x00g\
+\x00e\x00n\x00e\x00a\x00l\x00o\x00g\x00y\x00.\x00s\x00v\x00g\
+\x00\x07\
+\x01\xccZ'\
+\x00k\
+\x00e\x00y\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0bH\xebg\
+\x00a\
+\x00u\x00d\x00i\x00o\x00_\x00f\x00i\x00l\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0b\xd6\xf7G\
+\x00o\
+\x00r\x00g\x00_\x00u\x00n\x00i\x00t\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x0d\xf7\xab'\
+\x00r\
+\x00i\x00g\x00h\x00t\x00.\x00s\x00v\x00g\
+\x00\x16\
+\x0d\xcdGg\
+\x00v\
+\x00o\x00i\x00c\x00e\x00_\x00p\x00r\x00e\x00s\x00e\x00n\x00t\x00a\x00t\x00i\x00o\
+\x00n\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x09\xa9\x0e\x07\
+\x00a\
+\x00d\x00d\x00_\x00r\x00o\x00w\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x055k\xc7\
+\x00f\
+\x00i\x00l\x00i\x00n\x00g\x00_\x00c\x00a\x00b\x00i\x00n\x00e\x00t\x00.\x00s\x00v\
+\x00g\
+\x00\x14\
+\x07\x92\x97\xc7\
+\x00b\
+\x00u\x00s\x00i\x00n\x00e\x00s\x00s\x00_\x00c\x00o\x00n\x00t\x00a\x00c\x00t\x00.\
+\x00s\x00v\x00g\
+\x00\x0c\
+\x08\xfa\xddG\
+\x00c\
+\x00o\x00m\x00m\x00e\x00n\x00t\x00s\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x09\xd5\x13g\
+\x00n\
+\x00i\x00g\x00h\x00t\x00_\x00p\x00o\x00r\x00t\x00r\x00a\x00i\x00t\x00.\x00s\x00v\
+\x00g\
+\x00\x0e\
+\x0e$\x8dG\
+\x00c\
+\x00e\x00l\x00l\x00_\x00p\x00h\x00o\x00n\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x01xw\xe7\
+\x00n\
+\x00f\x00c\x00_\x00s\x00i\x00g\x00n\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x08\x84\x9b'\
+\x00a\
+\x00d\x00d\x00_\x00i\x00m\x00a\x00g\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x03(\x22\x87\
+\x00t\
+\x00i\x00m\x00e\x00l\x00i\x00n\x00e\x00.\x00s\x00v\x00g\
 \x00\x13\
 \x0e\xa0\xd6\x87\
 \x00a\
 \x00r\x00r\x00o\x00w\x00-\x00d\x00o\x00w\x00n\x00-\x00i\x00c\x00o\x00n\x00.\x00s\
 \x00v\x00g\
+\x00\x15\
+\x00\x855\x07\
+\x00e\
+\x00l\x00e\x00c\x00t\x00r\x00i\x00c\x00a\x00l\x00_\x00s\x00e\x00n\x00s\x00o\x00r\
+\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x08\x88\xa9\x07\
+\x00s\
+\x00h\x00a\x00r\x00e\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x088\x81\xc7\
+\x00f\
+\x00r\x00a\x00m\x00e\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x08\xad6G\
+\x00d\
+\x00o\x00n\x00a\x00t\x00e\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x09/\x00g\
+\x00c\
+\x00o\x00n\x00f\x00e\x00r\x00e\x00n\x00c\x00e\x00_\x00c\x00a\x00l\x00l\x00.\x00s\
+\x00v\x00g\
 \x00\x08\
-\x03\xc6P'\
-\x00P\
+\x0cXT\xa7\
+\x00m\
+\x00e\x00n\x00u\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x06H\xb7'\
+\x00p\
+\x00h\x00o\x00n\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x09\xdc\xe5\x87\
+\x00r\
+\x00i\x00g\x00h\x00t\x00_\x00u\x00p\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x06D\xba'\
+\x00s\
+\x00h\x00i\x00p\x00p\x00e\x00d\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x00)>\x87\
+\x00d\
+\x00a\x00t\x00a\x00_\x00r\x00e\x00c\x00o\x00v\x00e\x00r\x00y\x00.\x00s\x00v\x00g\
+\
+\x00\x0e\
+\x04\x86v\x07\
+\x00d\
+\x00e\x00p\x00a\x00r\x00t\x00m\x00e\x00n\x00t\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x06\xc7\x95\xe7\
+\x00a\
+\x00b\x00o\x00u\x00t\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x02u\x95g\
+\x00c\
+\x00a\x00m\x00e\x00r\x00a\x00_\x00a\x00d\x00d\x00o\x00n\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x08i\xafg\
+\x00c\
+\x00a\x00p\x00a\x00c\x00i\x00t\x00o\x00r\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x02\xe5\xc7\x07\
+\x00c\
+\x00o\x00l\x00l\x00a\x00b\x00o\x00r\x00a\x00t\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
+\
+\x00\x14\
+\x08X1\x07\
+\x00n\
+\x00e\x00u\x00t\x00r\x00a\x00l\x00_\x00d\x00e\x00c\x00i\x00s\x00i\x00o\x00n\x00.\
+\x00s\x00v\x00g\
+\x00\x0a\
+\x00\xaaQg\
+\x00i\
+\x00n\x00v\x00i\x00t\x00e\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x00\x12]g\
+\x00c\
+\x00a\x00l\x00l\x00_\x00t\x00r\x00a\x00n\x00s\x00f\x00e\x00r\x00.\x00s\x00v\x00g\
+\
+\x00\x0e\
+\x05i\xeag\
+\x00p\
+\x00h\x00o\x00t\x00o\x00_\x00r\x00e\x00e\x00l\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x00\xc2N\xa7\
+\x00d\
+\x00i\x00s\x00l\x00i\x00k\x00e\x00.\x00s\x00v\x00g\
+\x00\x15\
+\x07LM\xa7\
+\x00i\
+\x00n\x00t\x00e\x00g\x00r\x00a\x00t\x00e\x00d\x00_\x00w\x00e\x00b\x00c\x00a\x00m\
+\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x02\xc5\xa9G\
+\x00r\
+\x00u\x00l\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x00W\xb5\xe7\
+\x00p\
+\x00r\x00i\x00n\x00t\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0d\x87\xf3\xa7\
+\x00c\
+\x00l\x00e\x00a\x00r\x00_\x00f\x00i\x00l\x00t\x00e\x00r\x00s\x00.\x00s\x00v\x00g\
+\
+\x00\x0c\
+\x05\xa2\x9e\xa7\
+\x00b\
+\x00o\x00o\x00k\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x08\xf7W\x07\
+\x00g\
+\x00r\x00i\x00d\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x02\xd8\xcc\xa7\
+\x00c\
+\x00l\x00o\x00s\x00e\x00_\x00u\x00p\x00_\x00m\x00o\x00d\x00e\x00.\x00s\x00v\x00g\
+\
+\x00\x16\
+\x0e\xe4\x9d\x87\
+\x00d\
+\x00a\x00t\x00a\x00_\x00c\x00o\x00n\x00f\x00i\x00g\x00u\x00r\x00a\x00t\x00i\x00o\
+\x00n\x00.\x00s\x00v\x00g\
+\x00\x07\
+\x04FZ'\
+\x00m\
+\x00m\x00s\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x01\x1e\xe8\x87\
+\x00o\
+\x00r\x00g\x00a\x00n\x00i\x00z\x00a\x00t\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0f\x98g\xa7\
+\x00f\
+\x00l\x00a\x00s\x00h\x00_\x00o\x00f\x00f\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x0f\x5c\x83\xc7\
+\x00d\
+\x00a\x00t\x00a\x00_\x00e\x00n\x00c\x00r\x00y\x00p\x00t\x00i\x00o\x00n\x00.\x00s\
+\x00v\x00g\
+\x00\x0c\
+\x02b\xee\x07\
+\x00l\
+\x00e\x00f\x00t\x00_\x00u\x00p\x002\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x0a\xc8\xf6\x87\
+\x00f\
+\x00o\x00l\x00d\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x0c\x97\xca\x87\
+\x00A\
+\x00l\x00e\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0e$\xe8\x07\
+\x00s\
+\x00w\x00i\x00t\x00c\x00h\x00_\x00c\x00a\x00m\x00e\x00r\x00a\x00.\x00s\x00v\x00g\
+\
+\x00\x12\
+\x02\x82\xf4\xa7\
+\x00g\
+\x00r\x00a\x00d\x00u\x00a\x00t\x00i\x00o\x00n\x00_\x00c\x00a\x00p\x00.\x00s\x00v\
+\x00g\
+\x00\x0e\
+\x01\x8a\x0fg\
+\x00a\
+\x00d\x00d\x00_\x00c\x00o\x00l\x00u\x00m\x00n\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x07G{G\
+\x00p\
+\x00r\x00i\x00v\x00a\x00c\x00y\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x04\xbdN\x07\
+\x00a\
+\x00l\x00a\x00r\x00m\x00_\x00c\x00l\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0a\xe4\xf7\xc7\
+\x00p\
+\x00a\x00n\x00o\x00r\x00a\x00m\x00a\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x07\xf8\xaf'\
+\x00d\
+\x00i\x00s\x00a\x00p\x00p\x00r\x00o\x00v\x00e\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x09\x08\xfd\xe7\
+\x00s\
+\x00e\x00r\x00i\x00a\x00l\x00_\x00t\x00a\x00s\x00k\x00s\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x0cY\x0c\xa7\
+\x00l\
+\x00o\x00w\x00_\x00p\x00r\x00i\x00o\x00r\x00i\x00t\x00y\x00.\x00s\x00v\x00g\
+\x00\x17\
+\x06\x80\xa8'\
+\x00r\
+\x00o\x00t\x00a\x00t\x00e\x00_\x00t\x00o\x00_\x00l\x00a\x00n\x00d\x00s\x00c\x00a\
+\x00p\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x02\xf1\xc9\x87\
+\x00o\
+\x00v\x00e\x00r\x00t\x00i\x00m\x00e\x00.\x00s\x00v\x00g\
+\x00\x17\
+\x0es\xd6\x87\
+\x00p\
+\x00o\x00d\x00i\x00u\x00m\x00_\x00w\x00i\x00t\x00h\x00_\x00s\x00p\x00e\x00a\x00k\
+\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x08\xce<G\
+\x00d\
+\x00e\x00l\x00e\x00t\x00e\x00_\x00d\x00a\x00t\x00a\x00b\x00a\x00s\x00e\x00.\x00s\
+\x00v\x00g\
+\x00\x0c\
+\x04,\x83'\
+\x00n\
+\x00o\x00_\x00v\x00i\x00d\x00e\x00o\x00.\x00s\x00v\x00g\
+\x00\x16\
+\x02\xe8\xf6'\
+\x00c\
+\x00r\x00y\x00s\x00t\x00a\x00l\x00_\x00o\x00s\x00c\x00i\x00l\x00l\x00a\x00t\x00o\
+\x00r\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x09\x1a5\xa7\
+\x00h\
+\x00e\x00a\x00d\x00s\x00e\x00t\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x0c\xf7TG\
+\x00n\
+\x00e\x00x\x00t\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x06\x11\xf7G\
+\x00t\
+\x00o\x00d\x00o\x00_\x00l\x00i\x00s\x00t\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x01\x01\x1d\xa7\
+\x00d\
+\x00e\x00l\x00e\x00t\x00e\x00_\x00c\x00o\x00l\x00u\x00m\x00n\x00.\x00s\x00v\x00g\
+\
+\x00\x0c\
+\x07\xfa\xee'\
+\x00c\
+\x00o\x00n\x00t\x00a\x00c\x00t\x00s\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x0c\xafb\x07\
+\x00m\
+\x00o\x00n\x00e\x00y\x00_\x00t\x00r\x00a\x00n\x00s\x00f\x00e\x00r\x00.\x00s\x00v\
+\x00g\
+\x00\x18\
+\x09\xa6\xa8'\
+\x00p\
+\x00o\x00d\x00i\x00u\x00m\x00_\x00w\x00i\x00t\x00h\x00_\x00a\x00u\x00d\x00i\x00e\
+\x00n\x00c\x00e\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x0c\x91j\xa7\
+\x00c\
+\x00a\x00m\x00e\x00r\x00a\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x09\x87\xe8\xa7\
+\x00b\
+\x00a\x00r\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0d\xa6\x11\xe7\
+\x00e\
+\x00n\x00d\x00_\x00c\x00a\x00l\x00l\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x08\x94m\xc7\
+\x00s\
+\x00e\x00a\x00r\x00c\x00h\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x06\x18\xb5\xe7\
+\x00a\
+\x00p\x00p\x00r\x00o\x00v\x00e\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x01\xb96g\
+\x00f\
+\x00i\x00l\x00m\x00_\x00r\x00e\x00e\x00l\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x02\xc6\xa9G\
+\x00r\
+\x00u\x00l\x00e\x00s\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x08\xc8\xbf\xa7\
+\x00l\
+\x00e\x00a\x00v\x00e\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x06\x99R'\
+\x00i\
+\x00m\x00p\x00o\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x06\x88M\x87\
+\x00r\
+\x00e\x00c\x00o\x00r\x00d\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x03\xe1n\x07\
+\x00e\
+\x00l\x00e\x00c\x00t\x00r\x00o\x00_\x00d\x00e\x00v\x00i\x00c\x00e\x00s\x00.\x00s\
+\x00v\x00g\
+\x00\x07\
+\x0d\x03Z'\
+\x00v\
+\x00i\x00p\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x09'J\x87\
+\x00c\
+\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x09\xd9\x1e\xe7\
+\x00d\
+\x00o\x00u\x00g\x00h\x00n\x00u\x00t\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\
+\x00g\
+\x00\x08\
+\x03\xc6T'\
+\x00p\
 \x00l\x00u\x00s\x00.\x00s\x00v\x00g\
 \x00\x11\
-\x0dUG\xa7\
-\x00O\
-\x00p\x00e\x00n\x00e\x00d\x00 \x00F\x00o\x00l\x00d\x00e\x00r\x00.\x00s\x00v\x00g\
+\x0d\xf2 g\
+\x00h\
+\x00i\x00g\x00h\x00_\x00p\x00r\x00i\x00o\x00r\x00i\x00t\x00y\x00.\x00s\x00v\x00g\
+\
+\x00\x08\
+\x00\x9eQ\xe7\
+\x00R\
+\x00i\x00s\x00k\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0dq('\
+\x00l\
+\x00a\x00n\x00d\x00s\x00c\x00a\x00p\x00e\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x06\xcf\x8dg\
+\x00g\
+\x00o\x00o\x00d\x00_\x00d\x00e\x00c\x00i\x00s\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
+\
+\x00\x13\
+\x08\xdd\xf5'\
+\x00d\
+\x00a\x00t\x00a\x00_\x00p\x00r\x00o\x00t\x00e\x00c\x00t\x00i\x00o\x00n\x00.\x00s\
+\x00v\x00g\
+\x00\x0e\
+\x00\xff\x96\xa7\
+\x00f\
+\x00u\x00l\x00l\x00_\x00t\x00r\x00a\x00s\x00h\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0c6H'\
+\x00r\
+\x00a\x00d\x00a\x00r\x00_\x00p\x00l\x00o\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0bs\x9c\x87\
+\x00c\
+\x00o\x00l\x00l\x00e\x00c\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0a\xdf-G\
+\x00i\
+\x00m\x00a\x00g\x00e\x00_\x00f\x00i\x00l\x00e\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0e\xbc\x96\x87\
+\x00s\
+\x00l\x00r\x00_\x00b\x00a\x00c\x00k\x00_\x00s\x00i\x00d\x00e\x00.\x00s\x00v\x00g\
+\
+\x00\x10\
+\x0a`\xcb\xa7\
+\x00r\
+\x00e\x00m\x00o\x00v\x00e\x00_\x00i\x00m\x00a\x00g\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0a\xae?\xc7\
+\x00c\
+\x00a\x00l\x00l\x00b\x00a\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0at\x03\xe7\
+\x00i\
+\x00n\x00t\x00e\x00r\x00n\x00a\x00l\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x087\xc0\xc7\
+\x00p\
+\x00r\x00e\x00v\x00i\x00o\x00u\x00s\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x06\xab\x8e\xa7\
+\x00c\
+\x00l\x00o\x00t\x00h\x00.\x00s\x00v\x00g\
+\x00\x16\
+\x083\xdf\x07\
+\x00s\
+\x00e\x00l\x00f\x00_\x00s\x00e\x00r\x00v\x00i\x00c\x00e\x00_\x00k\x00i\x00o\x00s\
+\x00k\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x04\xd2T\xc7\
+\x00i\
+\x00n\x00f\x00o\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x02^N'\
+\x00d\
+\x00i\x00s\x00p\x00l\x00a\x00y\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x08\x00\xd4\x87\
+\x00t\
+\x00e\x00m\x00p\x00l\x00a\x00t\x00e\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x08\xf4\xc6\xe7\
+\x00e\
+\x00l\x00e\x00c\x00t\x00r\x00o\x00n\x00i\x00c\x00s\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x05\x9e\x8e\xa7\
+\x00c\
+\x00l\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x06,\x80'\
+\x00l\
+\x00o\x00w\x00_\x00b\x00a\x00t\x00t\x00e\x00r\x00y\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x09s\xed\xc7\
+\x00w\
+\x00e\x00b\x00c\x00a\x00m\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x01*\xa0\x87\
+\x00p\
+\x00u\x00z\x00z\x00l\x00e\x00.\x00s\x00v\x00g\
+\x00\x15\
+\x0e\x1f(\xe7\
+\x00s\
+\x00a\x00l\x00e\x00s\x00_\x00p\x00e\x00r\x00f\x00o\x00r\x00m\x00a\x00n\x00c\x00e\
+\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x011\x8d\xc7\
+\x00s\
+\x00p\x00e\x00a\x00k\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x03\x80\xeeg\
+\x00v\
+\x00i\x00d\x00e\x00o\x00_\x00f\x00i\x00l\x00e\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x0d\xd6\x15'\
+\x00o\
+\x00n\x00l\x00i\x00n\x00e\x00_\x00s\x00u\x00p\x00p\x00o\x00r\x00t\x00.\x00s\x00v\
+\x00g\
+\x00\x15\
+\x09{\x1bG\
+\x00c\
+\x00u\x00r\x00r\x00e\x00n\x00c\x00y\x00_\x00e\x00x\x00c\x00h\x00a\x00n\x00g\x00e\
+\x00.\x00s\x00v\x00g\
+\x00\x14\
+\x0f\xc3*G\
+\x00p\
+\x00o\x00s\x00i\x00t\x00i\x00v\x00e\x00_\x00d\x00y\x00n\x00a\x00m\x00i\x00c\x00.\
+\x00s\x00v\x00g\
+\x00\x08\
+\x000Wg\
+\x00f\
+\x00i\x00l\x00m\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x09\xe0\x0f\xe7\
+\x00r\
+\x00i\x00g\x00h\x00t\x00_\x00d\x00o\x00w\x00n\x002\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x06)\xff\xa7\
+\x00d\
+\x00a\x00t\x00a\x00_\x00b\x00a\x00c\x00k\x00u\x00p\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x0b\xaf\xb7'\
+\x00n\
+\x00e\x00u\x00t\x00r\x00a\x00l\x00_\x00t\x00r\x00a\x00d\x00i\x00n\x00g\x00.\x00s\
+\x00v\x00g\
+\x00\x18\
+\x0b\xa7\xad\xe7\
+\x00n\
+\x00u\x00m\x00e\x00r\x00i\x00c\x00a\x00l\x00_\x00s\x00o\x00r\x00t\x00i\x00n\x00g\
+\x00_\x002\x001\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0eTN\x07\
+\x00h\
+\x00e\x00a\x00t\x00_\x00m\x00a\x00p\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0d\xd7G\xa7\
+\x00o\
+\x00p\x00e\x00n\x00e\x00d\x00_\x00f\x00o\x00l\x00d\x00e\x00r\x00.\x00s\x00v\x00g\
 \
 \x00\x0b\
-\x07A\x8e\x07\
-\x00M\
-\x00y\x00S\x00p\x00a\x00c\x00e\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x0c\x1a\x90\xa7\
-\x00D\
-\x00o\x00w\x00n\x00l\x00o\x00a\x00d\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x06\x98\xce\xa7\
-\x00C\
-\x00l\x00o\x00s\x00e\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x0e\xc0\x82G\
-\x00F\
-\x00e\x00m\x00a\x00l\x00e\x00 \x00U\x00s\x00e\x00r\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x0b\x92S\xc7\
-\x00B\
-\x00e\x00b\x00o\x00.\x00s\x00v\x00g\
+\x05X-\x87\
+\x00f\
+\x00e\x00e\x00d\x00_\x00i\x00n\x00.\x00s\x00v\x00g\
+\x00\x06\
+\x07\xc3Z\xc7\
+\x00u\
+\x00p\x00.\x00s\x00v\x00g\
 \x00\x0b\
-\x00\xfe\x92\x07\
-\x00F\
-\x00o\x00r\x00 \x00Y\x00o\x00u\x00.\x00s\x00v\x00g\
+\x07<\xae\xe7\
+\x00p\
+\x00a\x00c\x00k\x00a\x00g\x00e\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x06D\xc2g\
+\x00c\
+\x00l\x00a\x00p\x00p\x00e\x00r\x00b\x00o\x00a\x00r\x00d\x00.\x00s\x00v\x00g\
+\x00\x07\
+\x0a\x80Z\x07\
+\x00d\
+\x00a\x00m\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x06\xf8\x1d'\
+\x00m\
+\x00a\x00k\x00e\x00_\x00d\x00e\x00c\x00i\x00s\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
+\
+\x00\x10\
+\x01cD\xc7\
+\x00s\
+\x00e\x00r\x00v\x00i\x00c\x00e\x00_\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
 \x00\x0a\
-\x0b\x0cM\x87\
-\x00R\
-\x00e\x00d\x00d\x00i\x00t\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x0f\xdf,\xc7\
-\x00S\
-\x00e\x00t\x00t\x00i\x00n\x00g\x00s\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x08\x88\xe9\x07\
-\x00S\
-\x00h\x00a\x00r\x00e\x00.\x00s\x00v\x00g\
-\x00\x0e\
-\x06k\xec'\
-\x003\
-\x00d\x00 \x00P\x00o\x00i\x00n\x00t\x00e\x00r\x00.\x00s\x00v\x00g\
-\x00\x0b\
-\x0c-\xaf\xa7\
-\x00P\
-\x00i\x00c\x00t\x00u\x00r\x00e\x00.\x00s\x00v\x00g\
+\x09\xb2jG\
+\x00c\
+\x00a\x00n\x00c\x00e\x00l\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x00;\xacG\
+\x00l\
+\x00o\x00c\x00k\x00_\x00l\x00a\x00n\x00d\x00s\x00c\x00a\x00p\x00e\x00.\x00s\x00v\
+\x00g\
+\x00\x19\
+\x0cK8\x07\
+\x00c\
+\x00a\x00m\x00e\x00r\x00a\x00_\x00i\x00d\x00e\x00n\x00t\x00i\x00f\x00i\x00c\x00a\
+\x00t\x00i\x00o\x00n\x00.\x00s\x00v\x00g\
 \x00\x0d\
-\x07\xf8ag\
-\x00C\
-\x00h\x00e\x00c\x00k\x00 \x00A\x00l\x00l\x00.\x00s\x00v\x00g\
+\x01.7\x07\
+\x00d\
+\x00i\x00p\x00l\x00o\x00m\x00a\x00_\x001\x00.\x00s\x00v\x00g\
 \x00\x0b\
-\x09\xccZ\x87\
-\x00M\
-\x00a\x00i\x00l\x00b\x00o\x00x\x00.\x00s\x00v\x00g\
+\x00\xbb5\xa7\
+\x00r\
+\x00e\x00a\x00d\x00i\x00n\x00g\x00.\x00s\x00v\x00g\
+\x00\x14\
+\x04\xefn\xa7\
+\x00c\
+\x00u\x00s\x00t\x00o\x00m\x00e\x00r\x00_\x00s\x00u\x00p\x00p\x00o\x00r\x00t\x00.\
+\x00s\x00v\x00g\
+\x00\x13\
+\x0d\xa2\x08g\
+\x00a\
+\x00c\x00c\x00e\x00p\x00t\x00_\x00d\x00a\x00t\x00a\x00b\x00a\x00s\x00e\x00.\x00s\
+\x00v\x00g\
+\x00\x08\
+\x0b\x97W\x87\
+\x00d\
+\x00e\x00b\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x08n\xb4\xc7\
+\x00e\
+\x00x\x00p\x00i\x00r\x00e\x00d\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x00q\x88\xa7\
+\x00d\
+\x00o\x00_\x00n\x00o\x00t\x00_\x00i\x00n\x00s\x00e\x00r\x00t\x00.\x00s\x00v\x00g\
+\
+\x00\x14\
+\x05\x9f\x0b\x87\
+\x00l\
+\x00i\x00k\x00e\x00_\x00p\x00l\x00a\x00c\x00e\x00h\x00o\x00l\x00d\x00e\x00r\x00.\
+\x00s\x00v\x00g\
 \x00\x1b\
-\x0a\x82\xbe\x87\
-\x00D\
-\x00o\x00w\x00n\x00l\x00o\x00a\x00d\x00 \x00f\x00r\x00o\x00m\x00 \x00t\x00h\x00e\
-\x00 \x00C\x00l\x00o\x00u\x00d\x00.\x00s\x00v\x00g\
+\x01\xd3\xaf\xe7\
+\x00a\
+\x00l\x00p\x00h\x00a\x00b\x00e\x00t\x00i\x00c\x00a\x00l\x00_\x00s\x00o\x00r\x00t\
+\x00i\x00n\x00g\x00_\x00a\x00z\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x04\xfc\xa8'\
+\x00p\
+\x00o\x00r\x00t\x00r\x00a\x00i\x00t\x00_\x00m\x00o\x00d\x00e\x00.\x00s\x00v\x00g\
+\
+\x00\x0c\
+\x07\xb5\x02G\
+\x00c\
+\x00a\x00l\x00e\x00n\x00d\x00a\x00r\x00.\x00s\x00v\x00g\
+\x00\x1d\
+\x07Ei\xa7\
+\x00s\
+\x00o\x00u\x00n\x00d\x00_\x00r\x00e\x00c\x00o\x00r\x00d\x00i\x00n\x00g\x00_\x00c\
+\x00o\x00p\x00y\x00r\x00i\x00g\x00h\x00t\x00.\x00s\x00v\x00g\
+\x00\x1b\
+\x03^\xaf\xe7\
+\x00a\
+\x00l\x00p\x00h\x00a\x00b\x00e\x00t\x00i\x00c\x00a\x00l\x00_\x00s\x00o\x00r\x00t\
+\x00i\x00n\x00g\x00_\x00z\x00a\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x0c\x98\xabG\
+\x00r\
+\x00e\x00u\x00s\x00e\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0c\xc2\x8aG\
+\x00d\
+\x00o\x00_\x00n\x00o\x00t\x00_\x00i\x00n\x00h\x00a\x00l\x00e\x00.\x00s\x00v\x00g\
+\
+\x00\x09\
+\x08\xc8\xee\x87\
+\x00S\
+\x00l\x00a\x00v\x00e\x00.\x00s\x00v\x00g\
+\x00\x18\
+\x09\x00\xe6'\
+\x00r\
+\x00e\x00g\x00i\x00s\x00t\x00e\x00r\x00e\x00d\x00_\x00t\x00r\x00a\x00d\x00e\x00m\
+\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x07\xd2\x9b\x07\
+\x00a\
+\x00d\x00d\x00r\x00e\x00s\x00s\x00_\x00b\x00o\x00o\x00k\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x0ai/'\
+\x00t\
+\x00w\x00o\x00_\x00s\x00m\x00a\x00r\x00t\x00p\x00h\x00o\x00n\x00e\x00s\x00.\x00s\
+\x00v\x00g\
+\x00\x0c\
+\x05\x0bPG\
+\x00C\
+\x00h\x00a\x00n\x00n\x00e\x00l\x00s\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0d\xa1\xf0\xa7\
+\x00l\
+\x00e\x00f\x00t\x00_\x00d\x00o\x00w\x00n\x002\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x0c\xc7\x03\xe7\
+\x00s\
+\x00u\x00r\x00v\x00e\x00y\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x05x\xd4\xa7\
+\x00u\
+\x00p\x00l\x00o\x00a\x00d\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0b/\x96\x87\
+\x00u\
+\x00p\x00_\x00l\x00e\x00f\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x02\xd0Ng\
+\x00i\
+\x00n\x00_\x00t\x00r\x00a\x00n\x00s\x00i\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0bIW\x87\
+\x00b\
+\x00i\x00o\x00t\x00e\x00c\x00h\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0e\xf1\x1d\xe7\
+\x00c\
+\x00a\x00n\x00d\x00l\x00e\x00_\x00s\x00t\x00i\x00c\x00k\x00s\x00.\x00s\x00v\x00g\
+\
+\x00\x11\
+\x03\x9cSg\
+\x00e\
+\x00m\x00p\x00t\x00y\x00_\x00b\x00a\x00t\x00t\x00e\x00r\x00y\x00.\x00s\x00v\x00g\
+\
+\x00\x0b\
+\x00H\xdc\xa7\
+\x00b\
+\x00u\x00l\x00l\x00i\x00s\x00h\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x08\x0e\xd0\x87\
+\x00r\
+\x00o\x00t\x00a\x00t\x00e\x00_\x00c\x00a\x00m\x00e\x00r\x00a\x00.\x00s\x00v\x00g\
+\
+\x00\x08\
+\x07\xc8U\xe7\
+\x00s\
+\x00a\x00f\x00e\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x08\x81\xa9\xc7\
+\x00l\
+\x00i\x00b\x00r\x00a\x00r\x00y\x00.\x00s\x00v\x00g\
+\x00\x1e\
+\x0d\x9d\xbf\x07\
+\x00l\
+\x00i\x00g\x00h\x00t\x00_\x00a\x00t\x00_\x00t\x00h\x00e\x00_\x00e\x00n\x00d\x00_\
+\x00o\x00f\x00_\x00t\x00u\x00n\x00n\x00e\x00l\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x05\x9eT\xa7\
+\x00l\
+\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0d\x03\xce\x07\
+\x00m\
+\x00i\x00n\x00d\x00_\x00m\x00a\x00p\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x00IK\xa7\
+\x00r\
+\x00a\x00t\x00i\x00n\x00g\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0c\x04I\x07\
+\x00f\
+\x00l\x00a\x00s\x00h\x00_\x00o\x00n\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x09x\x03G\
+\x00s\
+\x00t\x00a\x00c\x00k\x00_\x00o\x00f\x00_\x00p\x00h\x00o\x00t\x00o\x00s\x00.\x00s\
+\x00v\x00g\
+\x00\x0e\
+\x04\xb1\x90\x07\
+\x00d\
+\x00e\x00p\x00l\x00o\x00y\x00m\x00e\x00n\x00t\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0b%\xdc\x87\
+\x00c\
+\x00a\x00m\x00c\x00o\x00r\x00d\x00e\x00r\x00_\x00p\x00r\x00o\x00.\x00s\x00v\x00g\
+\
+\x00\x0b\
+\x04+\x0ag\
+\x00p\
+\x00l\x00a\x00n\x00n\x00e\x00r\x00.\x00s\x00v\x00g\
+\x00\x13\
+\x07\xa2[\xe7\
+\x00v\
+\x00i\x00d\x00e\x00o\x00_\x00p\x00r\x00o\x00j\x00e\x00c\x00t\x00o\x00r\x00.\x00s\
+\x00v\x00g\
+\x00\x16\
+\x0a{u\xc7\
+\x00r\
+\x00o\x00t\x00a\x00t\x00e\x00_\x00t\x00o\x00_\x00p\x00o\x00r\x00t\x00r\x00a\x00i\
+\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0cMq\xe7\
+\x00p\
+\x00r\x00o\x00c\x00e\x00s\x00s\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0f\x85\x03G\
+\x00t\
+\x00r\x00a\x00d\x00e\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x00\xc1\x8e\xa7\
+\x00f\
+\x00i\x00n\x00e\x00_\x00p\x00r\x00i\x00n\x00t\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x05\x88\x86\xa7\
+\x00g\
+\x00l\x00o\x00b\x00e\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x07/\x0e\xa7\
+\x00q\
+\x00u\x00e\x00s\x00t\x00i\x00o\x00n\x00s\x00.\x00s\x00v\x00g\
+\x00\x06\
+\x07^Z\xc7\
+\x00o\
+\x00k\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x06\xd7\xe1\x07\
+\x00m\
+\x00i\x00d\x00d\x00l\x00e\x00_\x00b\x00a\x00t\x00t\x00e\x00r\x00y\x00.\x00s\x00v\
+\x00g\
 \x00\x11\
 \x0f\x9bX\x87\
 \x00a\
 \x00r\x00r\x00o\x00w\x00-\x00u\x00p\x00-\x00i\x00c\x00o\x00n\x00.\x00s\x00v\x00g\
 \
-\x00\x13\
-\x0a\xad\xb5'\
-\x00D\
-\x00e\x00l\x00e\x00t\x00e\x00 \x00B\x00o\x00o\x00k\x00m\x00a\x00r\x00k\x00.\x00s\
-\x00v\x00g\
+\x00\x0d\
+\x0bd\x9cg\
+\x00a\
+\x00u\x00t\x00o\x00m\x00a\x00t\x00i\x00c\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x068W'\
+\x00h\
+\x00o\x00m\x00e\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x02\x8c\x14\xc7\
+\x00p\
+\x00h\x00o\x00n\x00e\x00_\x00a\x00n\x00d\x00r\x00o\x00i\x00d\x00.\x00s\x00v\x00g\
+\
+\x00\x0b\
+\x0cm\xaf\xa7\
+\x00p\
+\x00i\x00c\x00t\x00u\x00r\x00e\x00.\x00s\x00v\x00g\
+\x00\x0a\
+\x08J\xc4\x07\
+\x00e\
+\x00x\x00p\x00a\x00n\x00d\x00.\x00s\x00v\x00g\
 \x00\x0e\
 \x09+\xd0\xa7\
 \x00F\
 \x00i\x00l\x00e\x00 \x00E\x00r\x00r\x00o\x00r\x00.\x00s\x00v\x00g\
+\x00\x14\
+\x0f\x9f\xe5\xe7\
+\x00m\
+\x00u\x00l\x00t\x00i\x00p\x00l\x00e\x00_\x00d\x00e\x00v\x00i\x00c\x00e\x00s\x00.\
+\x00s\x00v\x00g\
 \x00\x08\
-\x05\x9eP\xa7\
-\x00L\
-\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
-\x00\x0b\
-\x0b&\xc9\x07\
-\x00U\
-\x00n\x00c\x00h\x00e\x00c\x00k\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x0cG\xe8\x07\
-\x00R\
-\x00o\x00u\x00n\x00d\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x09\xf6\xf3G\
-\x00M\
-\x00u\x00s\x00i\x00c\x00.\x00s\x00v\x00g\
-\x00\x0d\
-\x03\xe0\x89\xe7\
-\x00F\
-\x00a\x00v\x00o\x00r\x00i\x00t\x00e\x00s\x00.\x00s\x00v\x00g\
+\x0c\xe6TG\
+\x00n\
+\x00e\x00w\x00s\x00.\x00s\x00v\x00g\
 \x00\x0d\
 \x05\xa3\x8c\x87\
 \x00U\
 \x00n\x00c\x00h\x00e\x00c\x00k\x00 \x001\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x04\x90\x8bG\
-\x00W\
-\x00r\x00e\x00n\x00c\x00h\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x01\x9f\x1aG\
+\x00b\
+\x00u\x00s\x00i\x00n\x00e\x00s\x00s\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x07\xc1\x86\xc7\
+\x00t\
+\x00a\x00b\x00l\x00e\x00t\x00_\x00a\x00n\x00d\x00r\x00o\x00i\x00d\x00.\x00s\x00v\
+\x00g\
+\x00\x0d\
+\x05a\xe8\xc7\
+\x00p\
+\x00i\x00e\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x09<\x02\xa7\
+\x00d\
+\x00o\x00c\x00u\x00m\x00e\x00n\x00t\x00.\x00s\x00v\x00g\
 \x00\x0c\
 \x0b\x1a\xe3\xe7\
 \x00m\
 \x00i\x00n\x00u\x00s\x00_\x00b\x00w\x00.\x00s\x00v\x00g\
 \x00\x0d\
-\x0b\x8b\x22\xc7\
-\x00B\
-\x00r\x00i\x00e\x00f\x00c\x00a\x00s\x00e\x00.\x00s\x00v\x00g\
-\x00\x0b\
-\x09\xdd\x96\x87\
-\x00T\
-\x00o\x00o\x00l\x00b\x00o\x00x\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x07\xa2\x22G\
-\x00L\
-\x00u\x00n\x00a\x00c\x00y\x00.\x00s\x00v\x00g\
+\x0d\xce\xaf\xe7\
+\x00r\
+\x00i\x00g\x00h\x00t\x00_\x00u\x00p\x002\x00.\x00s\x00v\x00g\
 \x00\x06\
 \x04\xbbZ\xc7\
 \x00D\
 \x00x\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x00Y\xab\xc7\
-\x00D\
-\x00r\x00i\x00b\x00b\x00b\x00l\x00e\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x00(Sg\
-\x00F\
-\x00i\x00l\x00e\x00.\x00s\x00v\x00g\
 \x00\x0b\
-\x052\xac\xa7\
-\x00P\
-\x00a\x00d\x00l\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
-\x00\x12\
-\x0d~\x12G\
-\x00N\
-\x00o\x00 \x00S\x00y\x00n\x00c\x00h\x00r\x00o\x00n\x00i\x00z\x00e\x00.\x00s\x00v\
-\x00g\
-\x00\x0a\
-\x08\x90m\xc7\
-\x00S\
-\x00e\x00a\x00r\x00c\x00h\x00.\x00s\x00v\x00g\
-\x00\x0e\
-\x06\x01\xe2\xc7\
-\x00C\
-\x00h\x00e\x00c\x00k\x00 \x00M\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
-\x00\x0d\
-\x0b]\x1f\x87\
-\x00C\
-\x00h\x00e\x00c\x00k\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x02\xa1\xf9\xa7\
-\x00L\
-\x00i\x00n\x00k\x00e\x00d\x00I\x00n\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x02\xffc'\
-\x00S\
-\x00e\x00r\x00v\x00i\x00c\x00e\x00s\x00.\x00s\x00v\x00g\
-\x00\x17\
-\x0c\x04\x89\xe7\
-\x00U\
-\x00p\x00l\x00o\x00a\x00d\x00 \x00t\x00o\x00 \x00t\x00h\x00e\x00 \x00C\x00l\x00o\
-\x00u\x00d\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x0c\x97\xca\x87\
-\x00A\
-\x00l\x00e\x00r\x00t\x00.\x00s\x00v\x00g\
+\x08xV\xa7\
+\x00b\
+\x00i\x00o\x00m\x00a\x00s\x00s\x00.\x00s\x00v\x00g\
 \x00\x08\
-\x068S'\
-\x00H\
-\x00o\x00m\x00e\x00.\x00s\x00v\x00g\
-\x00\x06\
-\x05\xb5Z\xc7\
-\x00X\
-\x002\x00.\x00s\x00v\x00g\
-\x00\x0b\
-\x0b\x93\x8b\xc7\
-\x00S\
-\x00h\x00a\x00r\x00e\x00_\x001\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x07\xf9\x11g\
-\x00U\
-\x00n\x00c\x00h\x00e\x00c\x00k\x00 \x00A\x00l\x00l\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x01.\xa0\x87\
-\x00P\
-\x00u\x00z\x00z\x00l\x00e\x00.\x00s\x00v\x00g\
-\x00\x0d\
-\x01 \xd1\xe7\
-\x00U\
-\x00s\x00e\x00r\x00 \x00M\x00a\x00l\x00e\x00.\x00s\x00v\x00g\
-\x00\x0d\
-\x0e\x90o'\
-\x00T\
-\x00r\x00a\x00s\x00h\x00 \x00C\x00a\x00n\x00.\x00s\x00v\x00g\
-\x00\x0d\
-\x0d\x22\x94\xa7\
-\x00M\
-\x00y\x00s\x00p\x00a\x00c\x00e\x00 \x003\x00.\x00s\x00v\x00g\
-\x00\x11\
-\x0b\x08\xc3'\
-\x00S\
-\x00p\x00e\x00e\x00c\x00h\x00 \x00B\x00u\x00b\x00b\x00l\x00e\x00.\x00s\x00v\x00g\
-\
-\x00\x0d\
-\x02\xac\x02\x87\
-\x00P\
-\x00i\x00n\x00t\x00e\x00r\x00e\x00s\x00t\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x09>\x22\xa7\
-\x00T\
-\x00u\x00m\x00b\x00l\x00r\x00.\x00s\x00v\x00g\
-\x00\x05\
-\x00[Z\xc7\
-\x00X\
-\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x06\xc7\xd5\xe7\
-\x00A\
-\x00b\x00o\x00u\x00t\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x0b\x07S\xa7\
-\x00E\
-\x00d\x00i\x00t\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x0a\xcf+\x87\
-\x00M\
-\x00a\x00s\x00t\x00e\x00r\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x0a\xb4S'\
-\x00I\
-\x00d\x00e\x00a\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x071\x02\x87\
-\x00U\
-\x00n\x00d\x00e\x00l\x00e\x00t\x00e\x00.\x00s\x00v\x00g\
-\x00\x0b\
-\x0c*!\xc7\
-\x00R\
-\x00e\x00f\x00r\x00e\x00s\x00h\x00.\x00s\x00v\x00g\
-\x00\x0f\
-\x08\x03\x89\xa7\
-\x00G\
-\x00o\x00o\x00g\x00l\x00e\x00 \x00P\x00l\x00u\x00s\x00.\x00s\x00v\x00g\
-\x00\x10\
-\x01\xb3\xf7'\
-\x00A\
-\x00d\x00d\x00 \x00B\x00o\x00o\x00k\x00m\x00a\x00r\x00k\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x0cXP\xa7\
-\x00M\
-\x00e\x00n\x00u\x00.\x00s\x00v\x00g\
-\x00\x0b\
-\x08&\xcf\x87\
-\x00R\
-\x00e\x00s\x00t\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x08\xc8\xee\x87\
-\x00S\
-\x00l\x00a\x00v\x00e\x00.\x00s\x00v\x00g\
-\x00\x0e\
-\x0a\xde\xa7G\
-\x00I\
-\x00m\x00a\x00g\x00e\x00 \x00F\x00i\x00l\x00e\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x0a\xcc\xf6\x87\
-\x00F\
-\x00o\x00l\x00d\x00e\x00r\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x024`G\
-\x00T\
-\x00i\x00c\x00k\x00 \x00B\x00o\x00x\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x05b\xae\x07\
-\x00I\
-\x00c\x00o\x00n\x00s\x008\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x09\xb6jG\
-\x00C\
-\x00a\x00n\x00c\x00e\x00l\x00.\x00s\x00v\x00g\
-\x00\x09\
-\x05\x9e\xce\xa7\
-\x00C\
-\x00l\x00o\x00c\x00k\x00.\x00s\x00v\x00g\
-\x00\x14\
-\x03m\x81\x07\
-\x00L\
-\x00i\x00n\x00k\x00e\x00d\x00I\x00n\x00 \x00C\x00i\x00r\x00c\x00l\x00e\x00d\x00.\
-\x00s\x00v\x00g\
-\x00\x08\
-\x04\xd2P\xc7\
-\x00I\
-\x00n\x00f\x00o\x00.\x00s\x00v\x00g\
-\x00\x08\
-\x0c\xe6PG\
-\x00N\
-\x00e\x00w\x00s\x00.\x00s\x00v\x00g\
-\x00\x0a\
-\x06\x88M\x87\
+\x0b\xb2U\xc7\
 \x00r\
-\x00e\x00c\x00o\x00r\x00d\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x05\x0bPG\
-\x00C\
-\x00h\x00a\x00n\x00n\x00e\x00l\x00s\x00.\x00s\x00v\x00g\
+\x00e\x00d\x00o\x00.\x00s\x00v\x00g\
 \x00\x0a\
-\x0al\x03\xe7\
-\x00C\
-\x00u\x00r\x00s\x00o\x00r\x00.\x00s\x00v\x00g\
+\x0c\xfbb\x87\
+\x00s\
+\x00e\x00l\x00f\x00i\x00e\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x0a\x0d/\xc7\
+\x00f\
+\x00e\x00e\x00d\x00b\x00a\x00c\x00k\x00.\x00s\x00v\x00g\
+\x00\x09\
+\x09\xf6\xb3G\
+\x00m\
+\x00u\x00s\x00i\x00c\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x0c\xb7I\x07\
+\x00b\
+\x00u\x00t\x00t\x00i\x00n\x00g\x00_\x00i\x00n\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x07\xc71\xe7\
+\x00s\
+\x00i\x00m\x00_\x00c\x00a\x00r\x00d\x00.\x00s\x00v\x00g\
+\x00\x18\
+\x01'\x0f\xe7\
+\x00g\
+\x00e\x00n\x00e\x00r\x00i\x00c\x00_\x00s\x00o\x00r\x00t\x00i\x00n\x00g\x00_\x00d\
+\x00e\x00s\x00c\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0d\xfa\x1c\x87\
+\x00s\
+\x00i\x00m\x00_\x00c\x00a\x00r\x00d\x00_\x00c\x00h\x00i\x00p\x00.\x00s\x00v\x00g\
+\
+\x00\x10\
+\x04!\xb0\x07\
+\x00s\
+\x00c\x00a\x00t\x00t\x00e\x00r\x00_\x00p\x00l\x00o\x00t\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x0a\xb4W'\
+\x00i\
+\x00d\x00e\x00a\x00.\x00s\x00v\x00g\
+\x00\x10\
+\x002\xf2\xe7\
+\x00h\
+\x00i\x00g\x00h\x00_\x00b\x00a\x00t\x00t\x00e\x00r\x00y\x00.\x00s\x00v\x00g\
 \x00\x0d\
-\x08\xcd\x14G\
-\x00I\
-\x00n\x00s\x00t\x00a\x00g\x00r\x00a\x00m\x00.\x00s\x00v\x00g\
+\x09\x03N'\
+\x00a\
+\x00s\x00s\x00i\x00s\x00t\x00a\x00n\x00t\x00.\x00s\x00v\x00g\
+\x00\x0e\
+\x09\x9e\x0f\x87\
+\x00r\
+\x00i\x00g\x00h\x00t\x00_\x00d\x00o\x00w\x00n\x00.\x00s\x00v\x00g\
+\x00\x0c\
+\x02{\x8b'\
+\x00u\
+\x00p\x00_\x00r\x00i\x00g\x00h\x00t\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x07\x19\xc2'\
+\x00t\
+\x00r\x00e\x00e\x00_\x00s\x00t\x00r\x00u\x00c\x00t\x00u\x00r\x00e\x00.\x00s\x00v\
+\x00g\
+\x00\x13\
+\x0f\x1a\xc2\xc7\
+\x00n\
+\x00i\x00g\x00h\x00t\x00_\x00l\x00a\x00n\x00d\x00s\x00c\x00a\x00p\x00e\x00.\x00s\
+\x00v\x00g\
+\x00\x10\
+\x06\xa0\xf1\x07\
+\x00v\
+\x00i\x00e\x00w\x00_\x00d\x00e\x00t\x00a\x00i\x00l\x00s\x00.\x00s\x00v\x00g\
+\x00\x0d\
+\x0a\x8c\x89g\
+\x00b\
+\x00i\x00o\x00h\x00a\x00z\x00a\x00r\x00d\x00.\x00s\x00v\x00g\
+\x00\x12\
+\x03Rcg\
+\x00c\
+\x00o\x00m\x00p\x00a\x00c\x00t\x00_\x00c\x00a\x00m\x00e\x00r\x00a\x00.\x00s\x00v\
+\x00g\
+\x00\x0f\
+\x0f\xbc@\x87\
+\x00c\
+\x00o\x00m\x00b\x00o\x00_\x00c\x00h\x00a\x00r\x00t\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x06D\xaf\xa7\
+\x00f\
+\x00a\x00c\x00t\x00o\x00r\x00y\x00.\x00s\x00v\x00g\
+\x00\x0b\
+\x0aZ\xf1'\
+\x00n\
+\x00o\x00_\x00i\x00d\x00e\x00a\x00.\x00s\x00v\x00g\
+\x00\x11\
+\x0bs.\x07\
+\x00b\
+\x00u\x00s\x00i\x00n\x00e\x00s\x00s\x00w\x00o\x00m\x00a\x00n\x00.\x00s\x00v\x00g\
+\
+\x00\x0e\
+\x0bw\xee\xc7\
+\x00v\
+\x00i\x00d\x00e\x00o\x00_\x00c\x00a\x00l\x00l\x00.\x00s\x00v\x00g\
+\x00\x0f\
+\x07\xe4<\xc7\
+\x00e\
+\x00m\x00p\x00t\x00y\x00_\x00t\x00r\x00a\x00s\x00h\x00.\x00s\x00v\x00g\
 \x00\x06\
 \x07\x85Z\xc7\
 \x00q\
 \x00r\x00.\x00s\x00v\x00g\
-\x00\x0c\
-\x05<\x02\xa7\
-\x00D\
-\x00o\x00c\x00u\x00m\x00e\x00n\x00t\x00.\x00s\x00v\x00g\
+\x00\x08\
+\x07\xf7T\x07\
+\x00p\
+\x00a\x00i\x00d\x00.\x00s\x00v\x00g\
 "
 
 qt_resource_struct = b"\
@@ -11822,216 +17326,658 @@ qt_resource_struct = b"\
 \x00\x00\x00\x00\x00\x00\x00\x00\
 \x00\x00\x00\x00\x00\x02\x00\x00\x00\x01\x00\x00\x00\x02\
 \x00\x00\x00\x00\x00\x00\x00\x00\
-\x00\x00\x00\x10\x00\x02\x00\x00\x00h\x00\x00\x00\x03\
+\x00\x00\x00\x10\x00\x02\x00\x00\x01E\x00\x00\x00\x03\
 \x00\x00\x00\x00\x00\x00\x00\x00\
-\x00\x00\x06\xc6\x00\x00\x00\x00\x00\x01\x00\x01eg\
-\x00\x00\x01\x9d\xf7o\xca\xa7\
-\x00\x00\x06\xa8\x00\x00\x00\x00\x00\x01\x00\x01_\xeb\
-\x00\x00\x01\x9d\xf7o\xca\xa3\
-\x00\x00\x09J\x00\x00\x00\x00\x00\x01\x00\x02\x03\xe2\
-\x00\x00\x01\x9d\xf7o\xca\xc5\
-\x00\x00\x00~\x00\x00\x00\x00\x00\x01\x00\x00\x15\xbf\
-\x00\x00\x01\x9d\xf7q\x92R\
-\x00\x00\x03\xce\x00\x00\x00\x00\x00\x01\x00\x00\xc6\x85\
-\x00\x00\x01\x9d\xf7o\xca\xa8\
-\x00\x00\x08\x88\x00\x00\x00\x00\x00\x01\x00\x01\xce\x93\
-\x00\x00\x01\x9d\xf7o\xca\xc4\
-\x00\x00\x08n\x00\x00\x00\x00\x00\x01\x00\x01\xcb^\
-\x00\x00\x01\x9d\xf7o\xca\xb6\
-\x00\x00\x01\xbe\x00\x00\x00\x00\x00\x01\x00\x00k)\
-\x00\x00\x01\x9d\xf7o\xca\x9b\
-\x00\x00\x0a\x16\x00\x00\x00\x00\x00\x01\x00\x028b\
-\x00\x00\x01\x9d\xf7o\xca\x9a\
-\x00\x00\x02\x84\x00\x00\x00\x00\x00\x01\x00\x00\x8d\x83\
-\x00\x00\x01\x9d\xf7o\xca\xad\
-\x00\x00\x0a\xc2\x00\x00\x00\x00\x00\x01\x00\x02\x5c\xbc\
-\x00\x00\x01\x9d\xf7o\xca\xbe\
-\x00\x00\x07~\x00\x00\x00\x00\x00\x01\x00\x01\x84\xcd\
-\x00\x00\x01\x9d\xf7o\xca\xae\
-\x00\x00\x09\x10\x00\x00\x00\x00\x00\x01\x00\x01\xe8\x8b\
-\x00\x00\x01\x9d\xf7o\xca\xb5\
-\x00\x00\x00Z\x00\x00\x00\x00\x00\x01\x00\x00\x0c4\
-\x00\x00\x01\x9d\xf7o\xca\xa9\
-\x00\x00\x00\xc2\x00\x00\x00\x00\x00\x01\x00\x00>w\
-\x00\x00\x01\x9d\xf7o\xca\xb7\
-\x00\x00\x07\x9c\x00\x01\x00\x00\x00\x01\x00\x01\x8a{\
-\x00\x00\x01\x9d\xf7o\xca\xba\
-\x00\x00\x0b,\x00\x00\x00\x00\x00\x01\x00\x02t.\
-\x00\x00\x01\x9d\xf7o\xca\xae\
-\x00\x00\x03\x04\x00\x00\x00\x00\x00\x01\x00\x00\xa19\
-\x00\x00\x01\x9d\xf7o\xca\xb6\
-\x00\x00\x05\xc8\x00\x00\x00\x00\x00\x01\x00\x01.z\
-\x00\x00\x01\x9d\xf7o\xca\xa6\
-\x00\x00\x01\xf6\x00\x01\x00\x00\x00\x01\x00\x00u\xe1\
-\x00\x00\x01\x9d\xf7o\xca\xa0\
-\x00\x00\x06\x08\x00\x00\x00\x00\x00\x01\x00\x01=\x03\
-\x00\x00\x01\x9d\xf7o\xca\xc5\
-\x00\x00\x00\x94\x00\x00\x00\x00\x00\x01\x00\x00#\xbd\
-\x00\x00\x01\x9d\xf7q\x92S\
-\x00\x00\x06\x96\x00\x01\x00\x00\x00\x01\x00\x01Y\xda\
-\x00\x00\x01\x9d\xf7o\xca\xa3\
-\x00\x00\x0bZ\x00\x00\x00\x00\x00\x01\x00\x02x\xcd\
-\x00\x00\x01\x9d\xf7o\xca\xac\
-\x00\x00\x0b\xa0\x00\x00\x00\x00\x00\x01\x00\x02\x8b%\
+\x00\x00\x11\x14\x00\x00\x00\x00\x00\x01\x00\x01^a\
+\x00\x00\x01\xa0\x00e>L\
+\x00\x00\x01\x04\x00\x00\x00\x00\x00\x01\x00\x00%\xfb\
+\x00\x00\x01\xa0\x00eK\xdf\
+\x00\x00\x07\x5c\x00\x00\x00\x00\x00\x01\x00\x00\xac\xcc\
+\x00\x00\x01\xa0\x00eG\x0a\
+\x00\x00\x0f\xfc\x00\x00\x00\x00\x00\x01\x00\x01I\x07\
+\x00\x00\x01\xa0\x00eBz\
+\x00\x00\x1cR\x00\x00\x00\x00\x00\x01\x00\x02G\x8c\
+\x00\x00\x01\xa0\x00eG#\
+\x00\x00)\x1a\x00\x00\x00\x00\x00\x01\x00\x03t\x5c\
+\x00\x00\x01\xa0\x00eI\xa0\
+\x00\x00\x1eD\x00\x00\x00\x00\x00\x01\x00\x02g\xf0\
+\x00\x00\x01\xa0\x00eL\xca\
+\x00\x00\x04\x80\x00\x00\x00\x00\x00\x01\x00\x00m\x97\
+\x00\x00\x01\xa0\x00eDs\
+\x00\x00\x22\xc0\x00\x00\x00\x00\x00\x01\x00\x02\xd1\xd0\
+\x00\x00\x01\xa0\x00e=\x95\
+\x00\x00#\xac\x00\x00\x00\x00\x00\x01\x00\x02\xe5T\
+\x00\x00\x01\xa0\x00eR\x85\
+\x00\x00\x0b\x08\x00\x00\x00\x00\x00\x01\x00\x00\xf0\xdd\
+\x00\x00\x01\xa0\x00e<\xce\
+\x00\x00\x0a\x9e\x00\x00\x00\x00\x00\x01\x00\x00\xe8\xdb\
+\x00\x00\x01\xa0\x00eL\x5c\
+\x00\x00\x004\x00\x00\x00\x00\x00\x01\x00\x00\x00\xfb\
+\x00\x00\x01\xa0\x00e?s\
+\x00\x00\x11\xc2\x00\x00\x00\x00\x00\x01\x00\x01k\x8e\
+\x00\x00\x01\xa0\x00eQ\xc0\
+\x00\x00\x1fn\x00\x00\x00\x00\x00\x01\x00\x02\x86F\
+\x00\x00\x01\xa0\x00eDs\
+\x00\x00\x0e\xee\x00\x00\x00\x00\x00\x01\x00\x013\xca\
+\x00\x00\x01\xa0\x00eF2\
+\x00\x00\x18z\x00\x00\x00\x00\x00\x01\x00\x01\xf58\
+\x00\x00\x01\x9ew;0\x09\
+\x00\x00\x05\xd8\x00\x00\x00\x00\x00\x01\x00\x00\x84\xe2\
+\x00\x00\x01\xa0\x00eL{\
+\x00\x00\x10\xfa\x00\x00\x00\x00\x00\x01\x00\x01\x5c,\
+\x00\x00\x01\xa0\x00eJ\x8f\
+\x00\x00\x1e\xc6\x00\x00\x00\x00\x00\x01\x00\x02r\x9e\
+\x00\x00\x01\xa0\x00eR\xc1\
+\x00\x00%\x10\x00\x00\x00\x00\x00\x01\x00\x03\x06\x99\
+\x00\x00\x01\xa0\x00eG1\
+\x00\x00\x11^\x00\x00\x00\x00\x00\x01\x00\x01c\xae\
+\x00\x00\x01\xa0\x00eE\xf6\
+\x00\x00\x19\x04\x00\x00\x00\x00\x00\x01\x00\x02\x0a\x0b\
+\x00\x00\x01\xa0\x00eHv\
+\x00\x00\x15\xfa\x00\x00\x00\x00\x00\x01\x00\x01\xc3>\
+\x00\x00\x01\xa0\x00eBG\
+\x00\x00\x12\xa4\x00\x00\x00\x00\x00\x01\x00\x01}\xe4\
+\x00\x00\x01\xa0\x00eP\x1e\
+\x00\x00(\x80\x00\x00\x00\x00\x00\x01\x00\x03i\xf0\
+\x00\x00\x01\xa0\x00eHw\
+\x00\x00\x1bB\x00\x00\x00\x00\x00\x01\x00\x02/\xc2\
+\x00\x00\x01\xa0\x00eRC\
+\x00\x00\x0aH\x00\x00\x00\x00\x00\x01\x00\x00\xdd\x1c\
+\x00\x00\x01\xa0\x00eB\xbd\
+\x00\x00\x1e\xa6\x00\x00\x00\x00\x00\x01\x00\x02o\xee\
+\x00\x00\x01\xa0\x00eBJ\
+\x00\x00\x1b\x8c\x00\x00\x00\x00\x00\x01\x00\x025\xd5\
+\x00\x00\x01\xa0\x00eV\x01\
+\x00\x00\x03\xe0\x00\x00\x00\x00\x00\x01\x00\x00f\x14\
+\x00\x00\x01\xa0\x00eBV\
+\x00\x00\x1e\x04\x00\x00\x00\x00\x00\x01\x00\x02d%\
+\x00\x00\x01\xa0\x00eU\x1d\
+\x00\x00\x00\xc4\x00\x00\x00\x00\x00\x01\x00\x00\x1f\xe9\
+\x00\x00\x01\xa0\x00e;5\
+\x00\x00\x0ef\x00\x00\x00\x00\x00\x01\x00\x01'\x85\
+\x00\x00\x01\xa0\x00eN\xe2\
+\x00\x00\x13\xb8\x00\x00\x00\x00\x00\x01\x00\x01\x9e\xdc\
+\x00\x00\x01\xa0\x00e;\xd6\
+\x00\x00&\xe8\x00\x00\x00\x00\x00\x01\x00\x03D7\
+\x00\x00\x01\xa0\x00e=\xd3\
+\x00\x00\x17.\x00\x00\x00\x00\x00\x01\x00\x01\xd7\xa3\
+\x00\x00\x01\xa0\x00eG\x22\
+\x00\x00\x06\xc0\x00\x00\x00\x00\x00\x01\x00\x00\x9f|\
+\x00\x00\x01\xa0\x00eEq\
+\x00\x00\x0c\xea\x00\x00\x00\x00\x00\x01\x00\x01\x11\x0d\
+\x00\x00\x01\xa0\x00eJ\xe0\
+\x00\x00\x1f\xc4\x00\x00\x00\x00\x00\x01\x00\x02\x89\x80\
+\x00\x00\x01\xa0\x00e;n\
+\x00\x00\x1a\x8e\x00\x00\x00\x00\x00\x01\x00\x02#\x04\
+\x00\x00\x01\xa0\x00eDE\
+\x00\x00\x13\x16\x00\x00\x00\x00\x00\x01\x00\x01\x86\xef\
+\x00\x00\x01\xa0\x00eK\x97\
+\x00\x00\x10^\x00\x00\x00\x00\x00\x01\x00\x01PI\
+\x00\x00\x01\xa0\x00e>\x91\
+\x00\x00)\x82\x00\x00\x00\x00\x00\x01\x00\x03{\x5c\
+\x00\x00\x01\xa0\x00eX9\
+\x00\x00\x13\x8e\x00\x00\x00\x00\x00\x01\x00\x01\x9b\xfd\
+\x00\x00\x01\xa0\x00eI\x00\
+\x00\x00&\x04\x00\x00\x00\x00\x00\x01\x00\x03!g\
+\x00\x00\x01\xa0\x00eP\x99\
+\x00\x00\x01\xea\x00\x00\x00\x00\x00\x01\x00\x00;5\
+\x00\x00\x01\xa0\x00eM@\
+\x00\x00\x11\xaa\x00\x00\x00\x00\x00\x01\x00\x01gj\
+\x00\x00\x01\xa0\x00eT}\
+\x00\x00\x17N\x00\x00\x00\x00\x00\x01\x00\x01\xd9\x95\
+\x00\x00\x01\xa0\x00eT#\
+\x00\x00\x222\x00\x00\x00\x00\x00\x01\x00\x02\xc3\xa1\
+\x00\x00\x01\xa0\x00eJ\x18\
+\x00\x00\x126\x00\x00\x00\x00\x00\x01\x00\x01sp\
+\x00\x00\x01\xa0\x00e?\xbc\
+\x00\x00\x10\xa4\x00\x00\x00\x00\x00\x01\x00\x01WV\
+\x00\x00\x01\xa0\x00e?\xca\
+\x00\x00\x15v\x00\x00\x00\x00\x00\x01\x00\x01\xbc\xe8\
+\x00\x00\x01\xa0\x00eA\x01\
+\x00\x00\x04\xc4\x00\x00\x00\x00\x00\x01\x00\x00r)\
+\x00\x00\x01\xa0\x00eD \
+\x00\x00\x14\xda\x00\x00\x00\x00\x00\x01\x00\x01\xb1\x90\
+\x00\x00\x01\xa0\x00eQ:\
+\x00\x00\x0b<\x00\x00\x00\x00\x00\x01\x00\x00\xf4_\
+\x00\x00\x01\xa0\x00ePq\
+\x00\x00\x0e\xa4\x00\x00\x00\x00\x00\x01\x00\x01.\x86\
+\x00\x00\x01\xa0\x00eW_\
+\x00\x00\x06\xe2\x00\x00\x00\x00\x00\x01\x00\x00\xa3\x0c\
+\x00\x00\x01\xa0\x00eN0\
+\x00\x00\x09\xd8\x00\x00\x00\x00\x00\x01\x00\x00\xd0\xca\
+\x00\x00\x01\xa0\x00eO\xb6\
+\x00\x00*<\x00\x00\x00\x00\x00\x01\x00\x03\x8d\x8a\
+\x00\x00\x01\xa0\x00e@\xcf\
+\x00\x00 \x86\x00\x00\x00\x00\x00\x01\x00\x02\x96\x8b\
+\x00\x00\x01\xa0\x00e;-\
+\x00\x00\x1b\xa8\x00\x00\x00\x00\x00\x01\x00\x028B\
+\x00\x00\x01\xa0\x00eX\x8a\
+\x00\x00\x22\x98\x00\x00\x00\x00\x00\x01\x00\x02\xd0`\
+\x00\x00\x01\xa0\x00eE\xa0\
+\x00\x00\x18<\x00\x00\x00\x00\x00\x01\x00\x01\xf1R\
+\x00\x00\x01\xa0\x00eT\x18\
+\x00\x00\x07\xde\x00\x00\x00\x00\x00\x01\x00\x00\xb5\x98\
+\x00\x00\x01\xa0\x00eKf\
+\x00\x00\x07\x18\x00\x00\x00\x00\x00\x01\x00\x00\xa6\xf3\
+\x00\x00\x01\xa0\x00e;%\
+\x00\x00\x17\xb2\x00\x00\x00\x00\x00\x01\x00\x01\xeah\
+\x00\x00\x01\xa0\x00eE\x9f\
+\x00\x00\x01X\x00\x00\x00\x00\x00\x01\x00\x000\x0f\
+\x00\x00\x01\xa0\x00eR\x8f\
+\x00\x00(\xde\x00\x00\x00\x00\x00\x01\x00\x03n\x0a\
+\x00\x00\x01\xa0\x00eT\x9b\
+\x00\x00$Z\x00\x00\x00\x00\x00\x01\x00\x02\xf5\xce\
+\x00\x00\x01\xa0\x00eP\xf1\
+\x00\x00\x15X\x00\x00\x00\x00\x00\x01\x00\x01\xbb7\
+\x00\x00\x01\xa0\x00eO0\
+\x00\x00\x05p\x00\x00\x00\x00\x00\x01\x00\x00|\x92\
+\x00\x00\x01\xa0\x00eE\xc0\
+\x00\x00\x12\x90\x00\x00\x00\x00\x00\x01\x00\x01|O\
+\x00\x00\x01\xa0\x00eM\xb6\
+\x00\x00\x01\x90\x00\x00\x00\x00\x00\x01\x00\x005\x09\
+\x00\x00\x01\xa0\x00e;Q\
+\x00\x00\x05\x94\x00\x00\x00\x00\x00\x01\x00\x00\x80\xea\
+\x00\x00\x01\xa0\x00e=\x80\
+\x00\x00\x10$\x00\x00\x00\x00\x00\x01\x00\x01Ki\
+\x00\x00\x01\xa0\x00eBG\
+\x00\x00\x00\x96\x00\x00\x00\x00\x00\x01\x00\x00\x05/\
+\x00\x00\x01\x9ew;0\x17\
+\x00\x00$\x10\x00\x00\x00\x00\x00\x01\x00\x02\xec\xf6\
+\x00\x00\x01\xa0\x00eB\xa8\
+\x00\x00\x00\x80\x00\x00\x00\x00\x00\x01\x00\x00\x04\x02\
+\x00\x00\x01\xa0\x00eX\x05\
+\x00\x00'\xac\x00\x01\x00\x00\x00\x01\x00\x03Q\xa7\
+\x00\x00\x01\x9ew;/\xf7\
+\x00\x00\x13\xf6\x00\x00\x00\x00\x00\x01\x00\x01\xa2\x91\
+\x00\x00\x01\xa0\x00e;\x15\
+\x00\x00\x1ax\x00\x00\x00\x00\x00\x01\x00\x02!\xea\
+\x00\x00\x01\xa0\x00eJ\x0e\
+\x00\x00\x1e\xe2\x00\x00\x00\x00\x00\x01\x00\x02t\xca\
+\x00\x00\x01\xa0\x00e@\xfe\
+\x00\x00 \x00\x00\x00\x00\x00\x00\x01\x00\x02\x8b-\
+\x00\x00\x01\xa0\x00eQv\
+\x00\x00!\xa2\x00\x00\x00\x00\x00\x01\x00\x02\xb2u\
 \x00\x00\x01\x9d\xfd_\x0e2\
-\x00\x00\x06\xdc\x00\x00\x00\x00\x00\x01\x00\x01g\x83\
-\x00\x00\x01\x9d\xf7o\xca\xb4\
-\x00\x00\x0c\x0a\x00\x00\x00\x00\x00\x01\x00\x02\xb3\x1f\
-\x00\x00\x01\x9d\xf7o\xca\xa1\
-\x00\x00\x0a\xe0\x00\x01\x00\x00\x00\x01\x00\x02`\xdc\
-\x00\x00\x01\x9d\xf7o\xca\xaa\
-\x00\x00\x01\xa2\x00\x00\x00\x00\x00\x01\x00\x00e\x0d\
-\x00\x00\x01\x9e%_\xfc\xc0\
-\x00\x00\x05f\x00\x00\x00\x00\x00\x01\x00\x01\x1a\x22\
-\x00\x00\x01\x9d\xf7o\xca\xaf\
-\x00\x00\x0b\x14\x00\x00\x00\x00\x00\x01\x00\x02k9\
-\x00\x00\x01\x9d\xf7o\xca\x9e\
-\x00\x00\x05\xe8\x00\x00\x00\x00\x00\x01\x00\x015*\
-\x00\x00\x01\x9d\xf7o\xca\xc1\
-\x00\x00\x08\x1c\x00\x00\x00\x00\x00\x01\x00\x01\xadm\
-\x00\x00\x01\x9d\xf7o\xca\xc5\
-\x00\x00\x07<\x00\x00\x00\x00\x00\x01\x00\x01{\xa2\
-\x00\x00\x01\x9d\xf7o\xca\x9e\
-\x00\x00\x01\xdc\x00\x00\x00\x00\x00\x01\x00\x00ol\
-\x00\x00\x01\x9d\xf7o\xca\xb9\
-\x00\x00\x08\x06\x00\x00\x00\x00\x00\x01\x00\x01\xa4\x9e\
-\x00\x00\x01\x9d\xf7o\xca\xaa\
-\x00\x00\x028\x00\x00\x00\x00\x00\x01\x00\x00}\x8a\
-\x00\x00\x01\x9d\xf7o\xca\xa2\
-\x00\x00\x04:\x00\x00\x00\x00\x00\x01\x00\x00\xe6\x8d\
-\x00\x00\x01\x9d\xf7o\xca\x99\
-\x00\x00\x0b\x86\x00\x00\x00\x00\x00\x01\x00\x02\x83\x14\
-\x00\x00\x01\x9d\xf7o\xca\xc8\
-\x00\x00\x03|\x00\x00\x00\x00\x00\x01\x00\x00\xb5c\
-\x00\x00\x01\x9d\xf7o\xca\x9f\
-\x00\x00\x09Z\x00\x00\x00\x00\x00\x01\x00\x02\x05\xb4\
-\x00\x00\x01\x9d\xf7o\xca\x99\
-\x00\x00\x09\xb8\x00\x00\x00\x00\x00\x01\x00\x02\x1a\xb7\
-\x00\x00\x01\x9d\xf7o\xca\xc3\
-\x00\x00\x03B\x00\x01\x00\x00\x00\x01\x00\x00\xad%\
-\x00\x00\x01\x9d\xf7o\xca\xb1\
-\x00\x00\x0b\xf8\x00\x01\x00\x00\x00\x01\x00\x02\xa0\x16\
-\x00\x00\x01\x9d\xf7o\xca\xc7\
-\x00\x00\x06|\x00\x01\x00\x00\x00\x01\x00\x01Wk\
-\x00\x00\x01\x9d\xf7o\xca\xaf\
-\x00\x00\x04x\x00\x00\x00\x00\x00\x01\x00\x00\xf1\xcb\
-\x00\x00\x01\x9d\xf7o\xca\x9d\
-\x00\x00\x08J\x00\x00\x00\x00\x00\x01\x00\x01\xc7\x07\
-\x00\x00\x01\x9d\xf7o\xca\xc1\
-\x00\x00\x09\xf2\x00\x00\x00\x00\x00\x01\x00\x02/\x86\
-\x00\x00\x01\x9d\xf7o\xca\xa8\
-\x00\x00\x0aR\x00\x00\x00\x00\x00\x01\x00\x02C\x22\
-\x00\x00\x01\x9d\xf7o\xca\xb8\
-\x00\x00\x01\x1e\x00\x00\x00\x00\x00\x01\x00\x00P\xb9\
-\x00\x00\x01\x9d\xf7o\xca\xbe\
-\x00\x00\x01f\x00\x01\x00\x00\x00\x01\x00\x00^+\
-\x00\x00\x01\x9d\xf7o\xca\x9b\
-\x00\x00\x04\x22\x00\x00\x00\x00\x00\x01\x00\x00\xde_\
-\x00\x00\x01\x9d\xf7o\xca\xbb\
-\x00\x00\x07\x22\x00\x00\x00\x00\x00\x01\x00\x01wx\
-\x00\x00\x01\x9d\xf7o\xca\xb9\
-\x00\x00\x02N\x00\x00\x00\x00\x00\x01\x00\x00\x82\x06\
-\x00\x00\x01\x9d\xf7o\xca\xbf\
-\x00\x00\x01B\x00\x00\x00\x00\x00\x01\x00\x00Z\x19\
-\x00\x00\x01\x9d\xf7o\xca\xc0\
-\x00\x00\x0an\x00\x00\x00\x00\x00\x01\x00\x02J\xc1\
-\x00\x00\x01\x9d\xfdJf\xf6\
-\x00\x00\x0b\xd8\x00\x00\x00\x00\x00\x01\x00\x02\x98\xfb\
-\x00\x00\x01\x9d\xf7o\xca\xad\
-\x00\x00\x05D\x00\x00\x00\x00\x00\x01\x00\x01\x09\xc8\
-\x00\x00\x01\x9d\xf7q\x92R\
-\x00\x00\x090\x00\x00\x00\x00\x00\x01\x00\x01\xfb$\
-\x00\x00\x01\x9d\xf7o\xca\xc0\
-\x00\x00\x00F\x00\x00\x00\x00\x00\x01\x00\x00\x09E\
-\x00\x00\x01\x9d\xf7o\xca\x9c\
-\x00\x00\x0a\xfa\x00\x00\x00\x00\x00\x01\x00\x02c\xcb\
-\x00\x00\x01\x9d\xf7o\xca\x9d\
-\x00\x00\x04\x98\x00\x00\x00\x00\x00\x01\x00\x00\xf8\x08\
-\x00\x00\x01\x9d\xf7o\xca\xb0\
-\x00\x00\x06`\x00\x01\x00\x00\x00\x01\x00\x01RF\
-\x00\x00\x01\x9d\xf7o\xca\xbf\
-\x00\x00\x05\xb0\x00\x00\x00\x00\x00\x01\x00\x01+\xb3\
-\x00\x00\x01\x9d\xf7o\xca\xb1\
-\x00\x00\x0b\xbe\x00\x00\x00\x00\x00\x01\x00\x02\x95\x0c\
-\x00\x00\x01\x9d\xf7o\xca\xa0\
-\x00\x00\x04\xb4\x00\x00\x00\x00\x00\x01\x00\x00\xfb\xee\
-\x00\x00\x01\x9d\xf7o\xca\xa2\
-\x00\x00\x05\x18\x00\x00\x00\x00\x00\x01\x00\x01\x02\xd1\
-\x00\x00\x01\x9d\xf7o\xca\xa1\
-\x00\x00\x09\xa2\x00\x00\x00\x00\x00\x01\x00\x02\x15)\
-\x00\x00\x01\x9d\xf7o\xca\xab\
-\x00\x00\x01\x0a\x00\x00\x00\x00\x00\x01\x00\x00H\xc7\
-\x00\x00\x01\x9d\xf7o\xca\xbd\
-\x00\x00\x0a\xa8\x00\x00\x00\x00\x00\x01\x00\x02X\x85\
-\x00\x00\x01\x9d\xf7o\xca\xa7\
-\x00\x00\x09\x88\x00\x00\x00\x00\x00\x01\x00\x02\x0e\xe9\
-\x00\x00\x01\x9d\xfdJ\xb5D\
-\x00\x00\x0a\x86\x00\x00\x00\x00\x00\x01\x00\x02S\xf9\
-\x00\x00\x01\x9d\xf7o\xca\xab\
-\x00\x00\x09r\x00\x00\x00\x00\x00\x01\x00\x02\x0bs\
-\x00\x00\x01\x9d\xf7o\xca\xa4\
-\x00\x00\x08\xe8\x00\x00\x00\x00\x00\x01\x00\x01\xe6m\
-\x00\x00\x01\x9d\xf7o\xca\xbd\
-\x00\x00\x03\xea\x00\x00\x00\x00\x00\x01\x00\x00\xcc\x5c\
-\x00\x00\x01\x9d\xf7o\xca\xb7\
-\x00\x00\x06\x22\x00\x00\x00\x00\x00\x01\x00\x01E\x1e\
-\x00\x00\x01\x9e%`DD\
-\x00\x00\x05|\x00\x00\x00\x00\x00\x01\x00\x01\x1fL\
-\x00\x00\x01\x9d\xf7o\xca\xc2\
-\x00\x00\x00\xee\x00\x00\x00\x00\x00\x01\x00\x00D<\
-\x00\x00\x01\x9d\xf7o\xca\x9f\
-\x00\x00\x07^\x00\x00\x00\x00\x00\x01\x00\x01\x80\xb3\
-\x00\x00\x01\x9d\xf7o\xca\x9e\
-\x00\x00\x06@\x00\x00\x00\x00\x00\x01\x00\x01Jt\
-\x00\x00\x01\x9d\xf7o\xca\x9c\
-\x00\x00\x03\xb8\x00\x00\x00\x00\x00\x01\x00\x00\xc1\x02\
-\x00\x00\x01\x9d\xf7o\xca\x9a\
-\x00\x00\x08.\x00\x00\x00\x00\x00\x01\x00\x01\xbfK\
-\x00\x00\x01\x9d\xf7o\xca\xbc\
-\x00\x00\x02\xbc\x00\x00\x00\x00\x00\x01\x00\x00\x9a\xcf\
-\x00\x00\x01\x9d\xf7o\xca\xbd\
-\x00\x00\x07\xba\x00\x00\x00\x00\x00\x01\x00\x01\x8f\xe5\
-\x00\x00\x01\x9d\xf7o\xca\xc3\
-\x00\x00\x03^\x00\x01\x00\x00\x00\x01\x00\x00\xaf\x86\
-\x00\x00\x01\x9d\xf7o\xca\xa2\
-\x00\x00\x09\xd6\x00\x00\x00\x00\x00\x01\x00\x02&\xd2\
-\x00\x00\x01\x9d\xf7o\xca\xb7\
-\x00\x00\x04\x5c\x00\x00\x00\x00\x00\x01\x00\x00\xec\x94\
-\x00\x00\x01\x9d\xf7o\xca\xb5\
-\x00\x00\x05\x98\x00\x00\x00\x00\x00\x01\x00\x01'\x08\
-\x00\x00\x01\x9d\xf7o\xca\xb8\
-\x00\x00\x0a<\x00\x00\x00\x00\x00\x01\x00\x02>;\
-\x00\x00\x01\x9d\xf7o\xca\xb0\
-\x00\x00\x07\xee\x00\x00\x00\x00\x00\x01\x00\x01\x94\xe3\
-\x00\x00\x01\x9d\xf7q\x92Q\
-\x00\x00\x01\x88\x00\x00\x00\x00\x00\x01\x00\x00a\xc4\
-\x00\x00\x01\x9d\xf7o\xca\xa1\
-\x00\x00\x02\x98\x00\x00\x00\x00\x00\x01\x00\x00\x92\x8f\
-\x00\x00\x01\x9d\xf7o\xca\xb2\
-\x00\x00\x0bp\x00\x00\x00\x00\x00\x01\x00\x02~I\
-\x00\x00\x01\x9d\xf7o\xca\xb3\
-\x00\x00\x08\xc8\x00\x00\x00\x00\x00\x01\x00\x01\xdbr\
-\x00\x00\x01\x9d\xf7o\xca\xb2\
-\x00\x00\x03\x1a\x00\x00\x00\x00\x00\x01\x00\x00\xa8\xb6\
-\x00\x00\x01\x9d\xf7o\xca\xb4\
-\x00\x00\x06\xf8\x00\x00\x00\x00\x00\x01\x00\x01l\xc5\
-\x00\x00\x01\x9d\xf7o\xca\xb3\
-\x00\x00\x08\xa8\x00\x00\x00\x00\x00\x01\x00\x01\xd8\x9d\
-\x00\x00\x01\x9d\xf7o\xca\xbf\
-\x00\x00\x02\xd8\x00\x00\x00\x00\x00\x01\x00\x00\x9f@\
-\x00\x00\x01\x9d\xf7o\xca\xc7\
-\x00\x00\x03\x94\x00\x00\x00\x00\x00\x01\x00\x00\xba\x1c\
-\x00\x00\x01\x9d\xf7o\xca\xa7\
-\x00\x00\x02\x14\x00\x00\x00\x00\x00\x01\x00\x00yt\
-\x00\x00\x01\x9d\xf7o\xca\xbd\
-\x00\x00\x04\xf0\x00\x00\x00\x00\x00\x01\x00\x01\x00\xd6\
-\x00\x00\x01\x9d\xf7o\xca\xc7\
-\x00\x00\x02f\x00\x00\x00\x00\x00\x01\x00\x00\x89&\
-\x00\x00\x01\x9d\xf7o\xca\xa5\
-\x00\x00\x04\x04\x00\x00\x00\x00\x00\x01\x00\x00\xd6Z\
-\x00\x00\x01\x9d\xf7o\xca\xba\
+\x00\x00\x09\x04\x00\x00\x00\x00\x00\x01\x00\x00\xc5!\
+\x00\x00\x01\xa0\x00eN\xea\
+\x00\x00\x0d\xa4\x00\x00\x00\x00\x00\x01\x00\x01\x1c\x5c\
+\x00\x00\x01\xa0\x00eH\xe7\
+\x00\x00\x0a\xb4\x00\x00\x00\x00\x00\x01\x00\x00\xeb*\
+\x00\x00\x01\xa0\x00eE\xf5\
+\x00\x00\x1dX\x00\x00\x00\x00\x00\x01\x00\x02V\xcb\
+\x00\x00\x01\xa0\x00eG\x09\
+\x00\x00'0\x00\x00\x00\x00\x00\x01\x00\x03G\xf9\
+\x00\x00\x01\xa0\x00eP\xfb\
+\x00\x00\x11<\x00\x00\x00\x00\x00\x01\x00\x01aF\
+\x00\x00\x01\xa0\x00eP\x9c\
+\x00\x00\x01<\x00\x00\x00\x00\x00\x01\x00\x00)\xf3\
+\x00\x00\x01\x9ew;0\x18\
+\x00\x00!\xfc\x00\x00\x00\x00\x00\x01\x00\x02\xc0\xff\
+\x00\x00\x01\xa0\x00eXF\
+\x00\x00%2\x00\x00\x00\x00\x00\x01\x00\x03\x0a\xa2\
+\x00\x00\x01\xa0\x00eHT\
+\x00\x00\x06n\x00\x00\x00\x00\x00\x01\x00\x00\x9bF\
+\x00\x00\x01\xa0\x00eX=\
+\x00\x00#x\x00\x00\x00\x00\x00\x01\x00\x02\xe1\x85\
+\x00\x00\x01\xa0\x00eM\x8e\
+\x00\x00\x1a\xec\x00\x00\x00\x00\x00\x01\x00\x02)\x89\
+\x00\x00\x01\xa0\x00e?\xae\
+\x00\x00\x1f\x96\x00\x00\x00\x00\x00\x01\x00\x02\x88r\
+\x00\x00\x01\xa0\x00eL\x5c\
+\x00\x00\x12\x02\x00\x00\x00\x00\x00\x01\x00\x01p\xda\
+\x00\x00\x01\xa0\x00e=\x03\
+\x00\x00&\xc8\x00\x00\x00\x00\x00\x01\x00\x03<^\
+\x00\x00\x01\x9ew;0\x11\
+\x00\x00\x0b$\x00\x00\x00\x00\x00\x01\x00\x00\xf3\xab\
+\x00\x00\x01\xa0\x00eM_\
+\x00\x00\x0c\x8a\x00\x00\x00\x00\x00\x01\x00\x01\x0bH\
+\x00\x00\x01\xa0\x00eB\x22\
+\x00\x00\x15\xda\x00\x00\x00\x00\x00\x01\x00\x01\xc0\xfa\
+\x00\x00\x01\xa0\x00eWa\
+\x00\x00\x17\x12\x00\x00\x00\x00\x00\x01\x00\x01\xd5Y\
+\x00\x00\x01\xa0\x00e;;\
+\x00\x00\x02\xce\x00\x00\x00\x00\x00\x01\x00\x00Q\x8c\
+\x00\x00\x01\xa0\x00eE\x9e\
+\x00\x00\x04\xe6\x00\x00\x00\x00\x00\x01\x00\x00v\x18\
+\x00\x00\x01\xa0\x00eK\x97\
+\x00\x00\x1c\x8c\x00\x00\x00\x00\x00\x01\x00\x02I\xef\
+\x00\x00\x01\xa0\x00eAL\
+\x00\x00\x1b\x04\x00\x00\x00\x00\x00\x01\x00\x02+Z\
+\x00\x00\x01\xa0\x00eL\xbf\
+\x00\x00%\xee\x00\x00\x00\x00\x00\x01\x00\x03\x1e\xd2\
+\x00\x00\x01\xa0\x00eI\xa0\
+\x00\x00*\x8a\x00\x00\x00\x00\x00\x01\x00\x03\x92\xf9\
+\x00\x00\x01\xa0\x00eF\xf3\
+\x00\x00\x0f\xe0\x00\x00\x00\x00\x00\x01\x00\x01E\xed\
+\x00\x00\x01\xa0\x00eUT\
+\x00\x00\x1d\xa2\x00\x00\x00\x00\x00\x01\x00\x02[\x98\
+\x00\x00\x01\xa0\x00e?\x91\
+\x00\x00\x0f\xaa\x00\x00\x00\x00\x00\x01\x00\x01Cd\
+\x00\x00\x01\xa0\x00eQ\x13\
+\x00\x00\x028\x00\x00\x00\x00\x00\x01\x00\x00?\x1f\
+\x00\x00\x01\xa0\x00eV\xe6\
+\x00\x00\x09(\x00\x00\x00\x00\x00\x01\x00\x00\xc7;\
+\x00\x00\x01\xa0\x00eX1\
+\x00\x00\x14\xa6\x00\x00\x00\x00\x00\x01\x00\x01\xafz\
+\x00\x00\x01\xa0\x00eS\xf4\
+\x00\x00\x17\x98\x00\x00\x00\x00\x00\x01\x00\x01\xe2W\
+\x00\x00\x01\x9ew;0\x1a\
+\x00\x00\x17~\x00\x00\x00\x00\x00\x01\x00\x01\xe0\xe9\
+\x00\x00\x01\xa0\x00eI\xc2\
+\x00\x00\x07r\x00\x00\x00\x00\x00\x01\x00\x00\xad\xbf\
+\x00\x00\x01\xa0\x00eA\x04\
+\x00\x00\x01\xd0\x00\x00\x00\x00\x00\x01\x00\x009\xc7\
+\x00\x00\x01\xa0\x00eF\xd3\
+\x00\x00)\xf6\x00\x00\x00\x00\x00\x01\x00\x03\x800\
+\x00\x00\x01\xa0\x00eX\xc7\
+\x00\x00\x1a.\x00\x01\x00\x00\x00\x01\x00\x02\x1d\x15\
+\x00\x00\x01\xa0\x00e?\xb5\
+\x00\x00\x10F\x00\x00\x00\x00\x00\x01\x00\x01N\xec\
+\x00\x00\x01\xa0\x00e=U\
+\x00\x00\x18\xb0\x00\x00\x00\x00\x00\x01\x00\x02\x05\x1c\
+\x00\x00\x01\xa0\x00eH\x8f\
+\x00\x00%|\x00\x00\x00\x00\x00\x01\x00\x03\x17R\
+\x00\x00\x01\xa0\x00eM\xf8\
 \x00\x00\x00\x1e\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
-\x00\x00\x01\x9d\xf7o\xca\xa5\
+\x00\x00\x01\xa0\x00eD]\
+\x00\x00\x1d\xdc\x00\x00\x00\x00\x00\x01\x00\x02a)\
+\x00\x00\x01\xa0\x00eMv\
+\x00\x00\x0a\x04\x00\x00\x00\x00\x00\x01\x00\x00\xd4\xde\
+\x00\x00\x01\xa0\x00eU2\
+\x00\x00)\xa0\x00\x00\x00\x00\x00\x01\x00\x03}\x00\
+\x00\x00\x01\xa0\x00eX3\
+\x00\x00\x09b\x00\x00\x00\x00\x00\x01\x00\x00\xc9\xc9\
+\x00\x00\x01\xa0\x00eR\xd8\
+\x00\x00\x0a\x22\x00\x00\x00\x00\x00\x01\x00\x00\xda\xf4\
+\x00\x00\x01\xa0\x00e<\xd3\
+\x00\x00\x01\x1a\x00\x00\x00\x00\x00\x01\x00\x00'\x09\
+\x00\x00\x01\xa0\x00eJ<\
+\x00\x00%J\x00\x00\x00\x00\x00\x01\x00\x03\x13\xf5\
+\x00\x00\x01\xa0\x00eRQ\
+\x00\x00\x1d\x86\x00\x00\x00\x00\x00\x01\x00\x02Z\x18\
+\x00\x00\x01\xa0\x00eP&\
+\x00\x00 F\x00\x00\x00\x00\x00\x01\x00\x02\x94\x19\
+\x00\x00\x01\xa0\x00eU\xeb\
+\x00\x00\x13\xda\x00\x00\x00\x00\x00\x01\x00\x01\xa0\x96\
+\x00\x00\x01\xa0\x00eQ\xcb\
+\x00\x00\x11z\x00\x00\x00\x00\x00\x01\x00\x01e2\
+\x00\x00\x01\xa0\x00eJ^\
+\x00\x00%j\x00\x00\x00\x00\x00\x01\x00\x03\x16I\
+\x00\x00\x01\xa0\x00eOu\
+\x00\x00+0\x00\x01\x00\x00\x00\x01\x00\x03\x9f(\
+\x00\x00\x01\x9ew;0\x19\
+\x00\x00\x0c.\x00\x00\x00\x00\x00\x01\x00\x01\x03\xa2\
+\x00\x00\x01\xa0\x00e=\xd5\
+\x00\x00\x0d\xce\x00\x00\x00\x00\x00\x01\x00\x01\x1fe\
+\x00\x00\x01\xa0\x00e=\xfe\
+\x00\x00$v\x00\x00\x00\x00\x00\x01\x00\x02\xf9\x94\
+\x00\x00\x01\xa0\x00eX\xe1\
+\x00\x00 (\x00\x00\x00\x00\x00\x01\x00\x02\x8f,\
+\x00\x00\x01\xa0\x00e>E\
+\x00\x00'\x06\x00\x00\x00\x00\x00\x01\x00\x03F\x5c\
+\x00\x00\x01\xa0\x00eW#\
+\x00\x00\x1dt\x00\x00\x00\x00\x00\x01\x00\x02Y\x1d\
+\x00\x00\x01\xa0\x00eX4\
+\x00\x00(b\x00\x00\x00\x00\x00\x01\x00\x03g\xfc\
+\x00\x00\x01\xa0\x00eU\x8a\
+\x00\x00#\x04\x00\x00\x00\x00\x00\x01\x00\x02\xd6\xee\
+\x00\x00\x01\xa0\x00eT&\
+\x00\x00!P\x00\x00\x00\x00\x00\x01\x00\x02\xab\xbc\
+\x00\x00\x01\xa0\x00e;+\
+\x00\x00+\x0c\x00\x00\x00\x00\x00\x01\x00\x03\x9d\xcd\
+\x00\x00\x01\xa0\x00eG\xe7\
+\x00\x00\x05L\x00\x00\x00\x00\x00\x01\x00\x00{\xaa\
+\x00\x00\x01\xa0\x00eE\x9a\
+\x00\x00+B\x00\x00\x00\x00\x00\x01\x00\x03\xb21\
+\x00\x00\x01\xa0\x00eP3\
+\x00\x00\x148\x00\x00\x00\x00\x00\x01\x00\x01\xa8\xff\
+\x00\x00\x01\xa0\x00eB\xcd\
+\x00\x00\x16\x22\x00\x00\x00\x00\x00\x01\x00\x01\xc5d\
+\x00\x00\x01\xa0\x00e@\xe3\
+\x00\x00\x1a\xaa\x00\x00\x00\x00\x00\x01\x00\x02&\x0f\
+\x00\x00\x01\xa0\x00eW)\
+\x00\x00\x04\xa2\x00\x00\x00\x00\x00\x01\x00\x00n\xa3\
+\x00\x00\x01\xa0\x00eK\xe9\
+\x00\x00\x22\xdc\x00\x00\x00\x00\x00\x01\x00\x02\xd4\x9e\
+\x00\x00\x01\xa0\x00eS\xe5\
+\x00\x00\x0a\xd2\x00\x00\x00\x00\x00\x01\x00\x00\xee%\
+\x00\x00\x01\xa0\x00eD.\
+\x00\x00\x04Z\x00\x00\x00\x00\x00\x01\x00\x00l'\
+\x00\x00\x01\xa0\x00eHO\
+\x00\x00\x1aF\x00\x00\x00\x00\x00\x01\x00\x02\x1f\x90\
+\x00\x00\x01\xa0\x00eT\xba\
+\x00\x00\x1a\x10\x00\x00\x00\x00\x00\x01\x00\x02\x1cL\
+\x00\x00\x01\xa0\x00eQ\x94\
+\x00\x00\x0f6\x00\x00\x00\x00\x00\x01\x00\x017\xda\
+\x00\x00\x01\xa0\x00eHS\
+\x00\x00\x06*\x00\x00\x00\x00\x00\x01\x00\x00\x94\x93\
+\x00\x00\x01\xa0\x00eV\xeb\
+\x00\x00\x00\xe2\x00\x00\x00\x00\x00\x01\x00\x00!\xbb\
+\x00\x00\x01\xa0\x00e<\xb0\
+\x00\x00&H\x00\x00\x00\x00\x00\x01\x00\x03$\x9b\
+\x00\x00\x01\xa0\x00eE\xd2\
+\x00\x00\x10\xcc\x00\x00\x00\x00\x00\x01\x00\x01Y\xab\
+\x00\x00\x01\xa0\x00eR\x13\
+\x00\x00\x10\x84\x00\x00\x00\x00\x00\x01\x00\x01UB\
+\x00\x00\x01\xa0\x00e?+\
+\x00\x00\x1fR\x00\x00\x00\x00\x00\x01\x00\x02\x82\x9a\
+\x00\x00\x01\xa0\x00eE\xd7\
+\x00\x00'\xbe\x00\x00\x00\x00\x00\x01\x00\x03W\xb8\
+\x00\x00\x01\xa0\x00e<\xe2\
+\x00\x00#\x1a\x00\x01\x00\x00\x00\x01\x00\x02\xde\x13\
+\x00\x00\x01\xa0\x00eK\x87\
+\x00\x00\x0e\x84\x00\x00\x00\x00\x00\x01\x00\x01,:\
+\x00\x00\x01\xa0\x00e;N\
+\x00\x00\x0f\x1e\x00\x00\x00\x00\x00\x01\x00\x015\xe0\
+\x00\x00\x01\xa0\x00eU\x5c\
+\x00\x00\x0bf\x00\x00\x00\x00\x00\x01\x00\x00\xf6X\
+\x00\x00\x01\xa0\x00eV\x0d\
+\x00\x00\x16\xf8\x00\x00\x00\x00\x00\x01\x00\x01\xd2\x84\
+\x00\x00\x01\xa0\x00eT\x9d\
+\x00\x00\x0a\xf0\x00\x00\x00\x00\x00\x01\x00\x00\xef\xb7\
+\x00\x00\x01\xa0\x00eV\xda\
+\x00\x00\x0fN\x00\x00\x00\x00\x00\x01\x00\x01;\xb7\
+\x00\x00\x01\xa0\x00eD\xa1\
+\x00\x00\x0b\xd4\x00\x00\x00\x00\x00\x01\x00\x01\x00\xe9\
+\x00\x00\x01\xa0\x00eQ`\
+\x00\x00\x17f\x00\x00\x00\x00\x00\x01\x00\x01\xdc\xda\
+\x00\x00\x01\xa0\x00eK\x09\
+\x00\x00!\x02\x00\x00\x00\x00\x00\x01\x00\x02\xa00\
+\x00\x00\x01\x9d\xfdJf\xf6\
+\x00\x00\x15,\x00\x00\x00\x00\x00\x01\x00\x01\xb88\
+\x00\x00\x01\xa0\x00eBJ\
+\x00\x00\x18\xd8\x00\x00\x00\x00\x00\x01\x00\x02\x07\x8d\
+\x00\x00\x01\xa0\x00eB>\
+\x00\x00\x1a\xc8\x00\x00\x00\x00\x00\x01\x00\x02'\x8a\
+\x00\x00\x01\xa0\x00eE\xbb\
+\x00\x00\x12 \x00\x00\x00\x00\x00\x01\x00\x01q\xab\
+\x00\x00\x01\xa0\x00eI,\
+\x00\x00\x0d\xfc\x00\x00\x00\x00\x00\x01\x00\x01!q\
+\x00\x00\x01\xa0\x00e@\x87\
+\x00\x00!\x1a\x00\x00\x00\x00\x00\x01\x00\x02\xa9h\
+\x00\x00\x01\xa0\x00eS \
+\x00\x00)@\x00\x00\x00\x00\x00\x01\x00\x03v&\
+\x00\x00\x01\xa0\x00e<Q\
+\x00\x00\x14Z\x00\x00\x00\x00\x00\x01\x00\x01\xab\xe7\
+\x00\x00\x01\xa0\x00eT\xea\
+\x00\x00\x15\xa8\x00\x00\x00\x00\x00\x01\x00\x01\xbe\x91\
+\x00\x00\x01\xa0\x00eIq\
+\x00\x00\x17\xf2\x00\x00\x00\x00\x00\x01\x00\x01\xed\xe7\
+\x00\x00\x01\xa0\x00e@\xe3\
+\x00\x00&b\x00\x00\x00\x00\x00\x01\x00\x03%d\
+\x00\x00\x01\x9ew;/\xfa\
+\x00\x00\x0fh\x00\x00\x00\x00\x00\x01\x00\x01?\xb7\
+\x00\x00\x01\xa0\x00e@\xcd\
+\x00\x00'P\x00\x00\x00\x00\x00\x01\x00\x03I_\
+\x00\x00\x01\xa0\x00eDb\
+\x00\x00\x1b(\x00\x00\x00\x00\x00\x01\x00\x02-#\
+\x00\x00\x01\xa0\x00eY\xad\
+\x00\x00#\xe4\x00\x00\x00\x00\x00\x01\x00\x02\xe7H\
+\x00\x00\x01\xa0\x00eV\x5c\
+\x00\x00\x1b\xf4\x00\x00\x00\x00\x00\x01\x00\x02=\xac\
+\x00\x00\x01\xa0\x00e@\xf3\
+\x00\x00\x16\xba\x00\x00\x00\x00\x00\x01\x00\x01\xcfV\
+\x00\x00\x01\xa0\x00e<\x91\
+\x00\x00)`\x00\x00\x00\x00\x00\x01\x00\x03z4\
+\x00\x00\x01\xa0\x00eSe\
+\x00\x00\x00^\x00\x00\x00\x00\x00\x01\x00\x00\x02\xbe\
+\x00\x00\x01\xa0\x00eGp\
+\x00\x00\x16j\x00\x00\x00\x00\x00\x01\x00\x01\xca\x0a\
+\x00\x00\x01\xa0\x00eQC\
+\x00\x00\x0d\x88\x00\x00\x00\x00\x00\x01\x00\x01\x1a\x9e\
+\x00\x00\x01\xa0\x00e;>\
+\x00\x00\x02h\x00\x00\x00\x00\x00\x01\x00\x00E\x98\
+\x00\x00\x01\xa0\x00e<\xaa\
+\x00\x00\x1e*\x00\x00\x00\x00\x00\x01\x00\x02ft\
+\x00\x00\x01\xa0\x00e>\xd2\
+\x00\x00\x06N\x00\x00\x00\x00\x00\x01\x00\x00\x97\x01\
+\x00\x00\x01\xa0\x00e>g\
+\x00\x00\x0b\x8a\x00\x00\x00\x00\x00\x01\x00\x00\xfaN\
+\x00\x00\x01\xa0\x00eXu\
+\x00\x00\x06\x88\x00\x00\x00\x00\x00\x01\x00\x00\x9c\xd9\
+\x00\x00\x01\xa0\x00eE\xbd\
+\x00\x00\x0e\x1a\x00\x00\x00\x00\x00\x01\x00\x01\x22U\
+\x00\x00\x01\xa0\x00eO\x0d\
+\x00\x00\x18\x12\x00\x00\x00\x00\x00\x01\x00\x01\xef\x8c\
+\x00\x00\x01\xa0\x00eDu\
+\x00\x00\x01\xac\x00\x00\x00\x00\x00\x01\x00\x006\x9b\
+\x00\x00\x01\xa0\x00e;R\
+\x00\x00\x0f\xc2\x00\x00\x00\x00\x00\x01\x00\x01D\xc2\
+\x00\x00\x01\xa0\x00eS\xe1\
+\x00\x00\x08\xe6\x00\x00\x00\x00\x00\x01\x00\x00\xc3\xf4\
+\x00\x00\x01\xa0\x00eF\xf1\
+\x00\x00\x1ch\x00\x00\x00\x00\x00\x01\x00\x02H\xe3\
+\x00\x00\x01\xa0\x00eS\xca\
+\x00\x00((\x00\x00\x00\x00\x00\x01\x00\x03b|\
+\x00\x00\x01\xa0\x00eN)\
+\x00\x00\x0c\xa8\x00\x00\x00\x00\x00\x01\x00\x01\x0d\x22\
+\x00\x00\x01\xa0\x00e<j\
+\x00\x00(\x0a\x00\x00\x00\x00\x00\x01\x00\x03`G\
+\x00\x00\x01\xa0\x00eF\xdc\
+\x00\x00\x08\x9a\x00\x00\x00\x00\x00\x01\x00\x00\xc1>\
+\x00\x00\x01\xa0\x00eNW\
+\x00\x00\x08P\x00\x00\x00\x00\x00\x01\x00\x00\xbcn\
+\x00\x00\x01\xa0\x00eU\xe7\
+\x00\x00*\xa6\x00\x00\x00\x00\x00\x01\x00\x03\x95b\
+\x00\x00\x01\xa0\x00eOC\
+\x00\x00\x19\xae\x00\x00\x00\x00\x00\x01\x00\x02\x15\xe6\
+\x00\x00\x01\xa0\x00eS_\
+\x00\x00\x0b\xba\x00\x00\x00\x00\x00\x01\x00\x00\xfd\x12\
+\x00\x00\x01\xa0\x00e@\xf0\
+\x00\x00!v\x00\x00\x00\x00\x00\x01\x00\x02\xaf\xb1\
+\x00\x00\x01\xa0\x00eX/\
+\x00\x00\x19\xf2\x00\x00\x00\x00\x00\x01\x00\x02\x1b\x1f\
+\x00\x00\x01\xa0\x00eJ\x90\
+\x00\x00$\xa2\x00\x00\x00\x00\x00\x01\x00\x02\xffe\
+\x00\x00\x01\xa0\x00eT\x09\
+\x00\x00\x1d\xc8\x00\x01\x00\x00\x00\x01\x00\x02_X\
+\x00\x00\x01\xa0\x00eA\x1d\
+\x00\x00\x05*\x00\x00\x00\x00\x00\x01\x00\x00y\x9c\
+\x00\x00\x01\xa0\x00eA\xd7\
+\x00\x00*\x1c\x00\x00\x00\x00\x00\x01\x00\x03\x82\xa0\
+\x00\x00\x01\xa0\x00e<\xd2\
+\x00\x00\x19\xd4\x00\x00\x00\x00\x00\x01\x00\x02\x18\x9e\
+\x00\x00\x01\xa0\x00e@5\
+\x00\x00\x07\x90\x00\x00\x00\x00\x00\x01\x00\x00\xafa\
+\x00\x00\x01\xa0\x00eV}\
+\x00\x00)\x04\x00\x00\x00\x00\x00\x01\x00\x03pM\
+\x00\x00\x01\xa0\x00eI\xba\
+\x00\x00\x03\x80\x00\x00\x00\x00\x00\x01\x00\x00]\xbb\
+\x00\x00\x01\xa0\x00eD]\
+\x00\x00\x134\x00\x00\x00\x00\x00\x01\x00\x01\x88\x00\
+\x00\x00\x01\xa0\x00eHU\
+\x00\x00\x0ah\x00\x00\x00\x00\x00\x01\x00\x00\xe0\x0b\
+\x00\x00\x01\x9d\xfdJ\xb5D\
+\x00\x00\x07\xb2\x00\x00\x00\x00\x00\x01\x00\x00\xb2\xdf\
+\x00\x00\x01\xa0\x00eM\xfc\
+\x00\x00\x08\xc8\x00\x00\x00\x00\x00\x01\x00\x00\xc3+\
+\x00\x00\x01\xa0\x00e@\x0a\
+\x00\x00\x19d\x00\x00\x00\x00\x00\x01\x00\x02\x11\x01\
+\x00\x00\x01\xa0\x00eI\xca\
+\x00\x00\x14\x1a\x00\x00\x00\x00\x00\x01\x00\x01\xa6\xd6\
+\x00\x00\x01\xa0\x00ePL\
+\x00\x00'n\x00\x00\x00\x00\x00\x01\x00\x03KB\
+\x00\x00\x01\x9ew;0\x17\
+\x00\x00$2\x00\x00\x00\x00\x00\x01\x00\x02\xf1\xc8\
+\x00\x00\x01\xa0\x00e>{\
+\x00\x00\x06\x0e\x00\x00\x00\x00\x00\x01\x00\x00\x8c\xd7\
+\x00\x00\x01\x9ew;0\x12\
+\x00\x00\x22\x16\x00\x00\x00\x00\x00\x01\x00\x02\xc2\x91\
+\x00\x00\x01\xa0\x00eX3\
+\x00\x00\x02\x16\x00\x01\x00\x00\x00\x01\x00\x00<\xea\
+\x00\x00\x01\xa0\x00e>\x15\
+\x00\x00\x0c\xfe\x00\x00\x00\x00\x00\x01\x00\x01\x13\xb5\
+\x00\x00\x01\xa0\x00e<k\
+\x00\x00\x22T\x00\x00\x00\x00\x00\x01\x00\x02\xc8n\
+\x00\x00\x01\xa0\x00e<\xec\
+\x00\x00\x07\xfe\x00\x00\x00\x00\x00\x01\x00\x00\xb6\xbf\
+\x00\x00\x01\xa0\x00eH\x8e\
+\x00\x00\x03Z\x00\x00\x00\x00\x00\x01\x00\x00W\xcc\
+\x00\x00\x01\xa0\x00e@l\
+\x00\x00\x05\xb8\x00\x00\x00\x00\x00\x01\x00\x00\x84\x11\
+\x00\x00\x01\xa0\x00e?r\
+\x00\x00%\xce\x00\x00\x00\x00\x00\x01\x00\x03\x1b\x17\
+\x00\x00\x01\xa0\x00e<i\
+\x00\x00*\xc2\x00\x00\x00\x00\x00\x01\x00\x03\x99\xb3\
+\x00\x00\x01\xa0\x00e>6\
+\x00\x00\x19H\x00\x00\x00\x00\x00\x01\x00\x02\x0eJ\
+\x00\x00\x01\xa0\x00e@<\
+\x00\x00*\xea\x00\x00\x00\x00\x00\x01\x00\x03\x9c\xa3\
+\x00\x00\x01\xa0\x00eXo\
+\x00\x00\x08d\x00\x00\x00\x00\x00\x01\x00\x00\xbd\xe7\
+\x00\x00\x01\xa0\x00e=\x18\
+\x00\x00\x1f<\x00\x00\x00\x00\x00\x01\x00\x02{p\
+\x00\x00\x01\xa0\x00eB\x03\
+\x00\x00\x1c\xdc\x00\x00\x00\x00\x00\x01\x00\x02Oo\
+\x00\x00\x01\xa0\x00eO\x96\
+\x00\x00\x1c\xb0\x00\x00\x00\x00\x00\x01\x00\x02L\xec\
+\x00\x00\x01\xa0\x00eN\x83\
+\x00\x00'\xda\x00\x00\x00\x00\x00\x01\x00\x03Z>\
+\x00\x00\x01\xa0\x00eR\xcb\
+\x00\x00\x03$\x00\x00\x00\x00\x00\x01\x00\x00T\x8c\
+\x00\x00\x01\xa0\x00eO:\
+\x00\x00\x0d \x00\x00\x00\x00\x00\x01\x00\x01\x16\x81\
+\x00\x00\x01\xa0\x00eO\xec\
+\x00\x00\x08\x84\x00\x00\x00\x00\x00\x01\x00\x00\xc0C\
+\x00\x00\x01\xa0\x00eKK\
+\x00\x00\x082\x00\x00\x00\x00\x00\x01\x00\x00\xb8i\
+\x00\x00\x01\xa0\x00eUB\
+\x00\x00#\xc6\x00\x00\x00\x00\x00\x01\x00\x02\xe6\x7f\
+\x00\x00\x01\xa0\x00eH,\
+\x00\x00\x19&\x00\x00\x00\x00\x00\x01\x00\x02\x0b\xf2\
+\x00\x00\x01\xa0\x00eRT\
+\x00\x00\x042\x00\x00\x00\x00\x00\x01\x00\x00j\xab\
+\x00\x00\x01\xa0\x00eG%\
+\x00\x00\x0cR\x00\x00\x00\x00\x00\x01\x00\x01\x073\
+\x00\x00\x01\xa0\x00eHw\
+\x00\x00\x0a\x82\x00\x00\x00\x00\x00\x01\x00\x00\xe6K\
+\x00\x00\x01\xa0\x00e;i\
+\x00\x00\x1en\x00\x00\x00\x00\x00\x01\x00\x02jM\
+\x00\x00\x01\xa0\x00e>\xdc\
+\x00\x00$\xd4\x00\x00\x00\x00\x00\x01\x00\x03\x01q\
+\x00\x00\x01\xa0\x00eQ\xc2\
+\x00\x00\x0f\x94\x00\x00\x00\x00\x00\x01\x00\x01B5\
+\x00\x00\x01\xa0\x00eM!\
+\x00\x00\x14\x80\x00\x00\x00\x00\x00\x01\x00\x01\xad\xd5\
+\x00\x00\x01\xa0\x00eL\xed\
+\x00\x00\x0cn\x00\x00\x00\x00\x00\x01\x00\x01\x09D\
+\x00\x00\x01\xa0\x00eR\xeb\
+\x00\x00&,\x00\x00\x00\x00\x00\x01\x00\x03#\x08\
+\x00\x00\x01\xa0\x00eQ\xef\
+\x00\x00\x02T\x00\x00\x00\x00\x00\x01\x00\x00A&\
+\x00\x00\x01\xa0\x00eF\xf4\
+\x00\x00\x16\xa0\x00\x00\x00\x00\x00\x01\x00\x01\xcc\x11\
+\x00\x00\x01\xa0\x00e>P\
+\x00\x00\x13N\x00\x00\x00\x00\x00\x01\x00\x01\x89O\
+\x00\x00\x01\x9ew;/\xec\
+\x00\x00 \xc2\x00\x00\x00\x00\x00\x01\x00\x02\x982\
+\x00\x00\x01\xa0\x00eSW\
+\x00\x00\x07>\x00\x00\x00\x00\x00\x01\x00\x00\xa9\x86\
+\x00\x00\x01\xa0\x00eYm\
+\x00\x00\x16@\x00\x00\x00\x00\x00\x01\x00\x01\xc7\x0d\
+\x00\x00\x01\xa0\x00eM\xb9\
+\x00\x00(@\x00\x00\x00\x00\x00\x01\x00\x03cy\
+\x00\x00\x01\xa0\x00e>\x02\
+\x00\x00 \xda\x00\x00\x00\x00\x00\x01\x00\x02\x9b/\
+\x00\x00\x01\xa0\x00eD9\
+\x00\x00!\xe2\x00\x00\x00\x00\x00\x01\x00\x02\xbdj\
+\x00\x00\x01\xa0\x00eV\xe7\
+\x00\x00\x03\xc4\x00\x00\x00\x00\x00\x01\x00\x00a\xc3\
+\x00\x00\x01\xa0\x00e?\xa5\
+\x00\x00&\xb2\x00\x00\x00\x00\x00\x01\x00\x038\x9b\
+\x00\x00\x01\xa0\x00eN\x8d\
+\x00\x00\x15\xc4\x00\x00\x00\x00\x00\x01\x00\x01\xc01\
+\x00\x00\x01\xa0\x00eN\xac\
+\x00\x00'\xf0\x00\x00\x00\x00\x00\x01\x00\x03[m\
+\x00\x00\x01\xa0\x00eT\xc6\
+\x00\x00\x17\xde\x00\x00\x00\x00\x00\x01\x00\x01\xeb\xb1\
+\x00\x00\x01\xa0\x00eX\xe8\
+\x00\x00#\x8e\x00\x00\x00\x00\x00\x01\x00\x02\xe3\x1d\
+\x00\x00\x01\xa0\x00eM\xf9\
+\x00\x00\x03\x04\x00\x00\x00\x00\x00\x01\x00\x00S}\
+\x00\x00\x01\xa0\x00eD8\
+\x00\x00\x01t\x00\x00\x00\x00\x00\x01\x00\x001\xc6\
+\x00\x00\x01\xa0\x00eM\x0e\
+\x00\x00\x05\x02\x00\x00\x00\x00\x00\x01\x00\x00w@\
+\x00\x00\x01\xa0\x00eL\xe4\
+\x00\x00\x09\x8a\x00\x00\x00\x00\x00\x01\x00\x00\xcc\xe5\
+\x00\x00\x01\xa0\x00eE\xb6\
+\x00\x00\x0c\x0e\x00\x00\x00\x00\x00\x01\x00\x01\x01\xf0\
+\x00\x00\x01\xa0\x00eYz\
+\x00\x00\x18\x90\x00\x00\x00\x00\x00\x01\x00\x02\x036\
+\x00\x00\x01\xa0\x00eK4\
+\x00\x00\x11\xda\x00\x00\x00\x00\x00\x01\x00\x01n\xee\
+\x00\x00\x01\xa0\x00e?\x89\
+\x00\x00#6\x00\x00\x00\x00\x00\x01\x00\x02\xdf9\
+\x00\x00\x01\xa0\x00eK\xe0\
+\x00\x00!\xc0\x00\x00\x00\x00\x00\x01\x00\x02\xbc\x5c\
+\x00\x00\x01\xa0\x00eKg\
+\x00\x00\x1f\x10\x00\x00\x00\x00\x00\x01\x00\x02y\x03\
+\x00\x00\x01\xa0\x00e;Y\
+\x00\x00\x16\xda\x00\x00\x00\x00\x00\x01\x00\x01\xd0\x89\
+\x00\x00\x01\xa0\x00eE\xc8\
+\x00\x00\x0dV\x00\x00\x00\x00\x00\x01\x00\x01\x194\
+\x00\x00\x01\xa0\x00eY\xa0\
+\x00\x00'\x8c\x00\x00\x00\x00\x00\x01\x00\x03P\x98\
+\x00\x00\x01\xa0\x00eS\xe2\
+\x00\x00\x1b\xca\x00\x00\x00\x00\x00\x01\x00\x029n\
+\x00\x00\x01\xa0\x00eO\xdf\
+\x00\x00\x1d0\x00\x00\x00\x00\x00\x01\x00\x02UN\
+\x00\x00\x01\xa0\x00eP\x19\
+\x00\x00\x18R\x00\x00\x00\x00\x00\x01\x00\x01\xf2\x81\
+\x00\x00\x01\xa0\x00eI\xb1\
+\x00\x00\x0d>\x00\x00\x00\x00\x00\x01\x00\x01\x189\
+\x00\x00\x01\xa0\x00eS`\
+\x00\x00(\xb6\x00\x00\x00\x00\x00\x01\x00\x03k\x9a\
+\x00\x00\x01\xa0\x00eU\xab\
+\x00\x00\x1b\x5c\x00\x01\x00\x00\x00\x01\x00\x021\xb6\
+\x00\x00\x01\xa0\x00eTu\
+\x00\x00\x0eD\x00\x01\x00\x00\x00\x01\x00\x01%\xd3\
+\x00\x00\x01\xa0\x00e?g\
+\x00\x00\x13f\x00\x00\x00\x00\x00\x01\x00\x01\x99\x0a\
+\x00\x00\x01\xa0\x00eV\xb1\
+\x00\x00\x03\xa2\x00\x00\x00\x00\x00\x01\x00\x00_\xca\
+\x00\x00\x01\xa0\x00eJI\
+\x00\x00\x1d\x12\x00\x00\x00\x00\x00\x01\x00\x02R\xbb\
+\x00\x00\x01\xa0\x00eI\xd3\
+\x00\x00\x0c\xca\x00\x00\x00\x00\x00\x01\x00\x01\x0e)\
+\x00\x00\x01\xa0\x00eH\xa9\
+\x00\x00\x14\xf8\x00\x00\x00\x00\x00\x01\x00\x01\xb6\xa7\
+\x00\x00\x01\xa0\x00eQu\
+\x00\x00\x0e\xc2\x00\x00\x00\x00\x00\x01\x00\x011\xd1\
+\x00\x00\x01\x9ew;0\x16\
+\x00\x00\x19\x86\x00\x00\x00\x00\x00\x01\x00\x02\x12\xa1\
+\x00\x00\x01\xa0\x00eU\xd6\
+\x00\x00\x02\x8a\x00\x00\x00\x00\x00\x01\x00\x00H\xd6\
+\x00\x00\x01\xa0\x00eN\xcc\
+\x00\x00\x12^\x00\x00\x00\x00\x00\x01\x00\x01v\xd7\
+\x00\x00\x01\xa0\x00eAp\
+\x00\x00\x22p\x00\x00\x00\x00\x00\x01\x00\x02\xcd%\
+\x00\x00\x01\xa0\x00e?\x1d\
+\x00\x00)\xca\x00\x00\x00\x00\x00\x01\x00\x03~\x9c\
+\x00\x00\x01\xa0\x00eO\x04\
+\x00\x00\x04\x02\x00\x00\x00\x00\x00\x01\x00\x00h>\
+\x00\x00\x01\xa0\x00eG\x1f\
+\x00\x00\x12\xea\x00\x00\x00\x00\x00\x01\x00\x01\x82\xad\
+\x00\x00\x01\xa0\x00eA\xd7\
+\x00\x00\x02\xb8\x00\x00\x00\x00\x00\x01\x00\x00K\xc6\
+\x00\x00\x01\xa0\x00eUg\
+\x00\x00\x05\xee\x00\x00\x00\x00\x00\x01\x00\x00\x87\x94\
+\x00\x00\x01\xa0\x00eV#\
+\x00\x00$\xf0\x00\x00\x00\x00\x00\x01\x00\x03\x05\x09\
+\x00\x00\x01\xa0\x00eW\x8a\
+\x00\x00\x12\xca\x00\x00\x00\x00\x00\x01\x00\x01\x81n\
+\x00\x00\x01\xa0\x00eG\x95\
+\x00\x00%\xa6\x00\x00\x00\x00\x00\x01\x00\x03\x19\x1c\
+\x00\x00\x01\x9ew;0\x17\
+\x00\x00&\x84\x00\x00\x00\x00\x00\x01\x00\x035\xbe\
+\x00\x00\x01\xa0\x00eN\x05\
+\x00\x00*f\x00\x00\x00\x00\x00\x01\x00\x03\x8f\xfe\
+\x00\x00\x01\xa0\x00e@l\
+\x00\x00\x1c$\x00\x00\x00\x00\x00\x01\x00\x02E\x9d\
+\x00\x00\x01\xa0\x00eQv\
+\x00\x00\x09\xb0\x00\x00\x00\x00\x00\x01\x00\x00\xceV\
+\x00\x00\x01\xa0\x00e>7\
 "
 
 def qInitResources():
