@@ -231,7 +231,7 @@ class InfoDialog(QDialog):
         self._ui.setupUi(self)
 
         self.setWindowTitle(window_title)
-        self.setWindowIcon(QIcon(":icons/icon/Info.svg")) # set a default icon
+        self.setWindowIcon(QIcon(":icons/icon/info.svg")) # set a default icon
 
         self._ui.labelMainTitle.setProperty("class", "title")
         self._ui.labelSubTitle.setProperty("class", "subtitle")
@@ -253,7 +253,7 @@ class InfoDialog(QDialog):
         self._ui.textEditInfo.setPlainText(text)
 
 class HeaderDialog(QDialog):
-    def __init__(self, parent=None, window_title: str = "Settings", icon_path: str = ":icons/icon/Settings.svg"):
+    def __init__(self, parent=None, window_title: str = "Settings", icon_path: str = ":icons/icon/settings.svg"):
         super().__init__(parent)
 
         from duifx.gui.ui.ui_settings_dialog import Ui_SettingsDialog
