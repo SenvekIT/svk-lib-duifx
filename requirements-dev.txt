@@ -14,7 +14,3 @@ autopep8>=1.5
 # Development
 twine>=4.0
 pytest>=7.0
-
-# publish to azure artifacts
-keyring
-artifacts-keyring
