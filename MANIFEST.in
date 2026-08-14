@@ -1,5 +1,7 @@
 include README.md
 include LICENSE
+include THIRD-PARTY-LICENSES.md
+include ICONS.md
 include pyproject.toml
 
 recursive-include duifx/gui/resources *.qss *.svg
