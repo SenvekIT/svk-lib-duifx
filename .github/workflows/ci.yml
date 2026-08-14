@@ -1,0 +1,86 @@
+name: CI
+
+on:
+  push:
+    branches: [main, "dev/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip build
+          pip install -e .
+
+      # Qt needs a display; the offscreen platform stands in for one, and these
+      # system libraries are not part of the GitHub runner image.
+      - name: Install Qt runtime dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libegl1 libgl1 libxkbcommon-x11-0 \
+            libxcb-cursor0 libxcb-icccm4 libxcb-keysyms1 libxcb-shape0
+
+      - name: Smoke test
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: |
+          python - <<'PY'
+          from PySide6.QtWidgets import QApplication
+          from PySide6.QtCore import QDir
+          from PySide6.QtGui import QIcon
+
+          app = QApplication([])
+          import duifx
+          from duifx import MainWindow, LogViewerWidget, apply_theme, Theme
+
+          apply_theme(app, Theme.LIGHT)
+          MainWindow("CI")
+          LogViewerWidget()
+
+          # Every bundled icon must be present and renderable: a resource file
+          # out of sync with the .qrc only shows up here, not at import time.
+          names = QDir(":/icons/icon").entryList()
+          broken = [n for n in names
+                    if QIcon(f":/icons/icon/{n}").pixmap(48, 48).isNull()]
+          assert names, "no icons in the compiled resources"
+          assert not broken, f"icons failed to render: {broken[:5]}"
+          print(f"duifx {duifx.__version__}: {len(names)} icons OK")
+          PY
+
+      - name: Check resource file is in sync with resource.qrc
+        run: |
+          python - <<'PY'
+          import pathlib, re, sys
+
+          qrc = pathlib.Path("duifx/gui/resources/resource.qrc").read_text(encoding="utf-8")
+          listed = set(re.findall(r"<file>icon/(.*?)</file>", qrc))
+          on_disk = {p.name for p in pathlib.Path("duifx/gui/resources/icon").glob("*.svg")}
+          if listed != on_disk:
+              print("resource.qrc and the icon directory disagree:")
+              print("  only in .qrc :", sorted(listed - on_disk))
+              print("  only on disk :", sorted(on_disk - listed))
+              sys.exit(1)
+          print(f"{len(listed)} icons, .qrc in sync")
+          PY
+
+      - name: Build distribution
+        run: python -m build
+
+      - name: Verify metadata
+        run: |
+          pip install twine
+          twine check dist/*
