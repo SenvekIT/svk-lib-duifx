@@ -11,6 +11,7 @@ from duifx.gui.windows import (
 from duifx.gui.settings import get_settings, SettingsDialog
 from duifx.gui.splash import DxSplashScreen
 from duifx.gui.resources.theme import palette
+from duifx.gui.theming import Theme, apply_theme, get_theme, set_theme
 from duifx.gui.utils import get_base_path, set_svg_on_label, load_stylesheet
 from duifx.gui.widgets import (
     LogViewerWidget,
@@ -32,6 +33,10 @@ __all__ = [
     "SettingsDialog",
     "DxSplashScreen",
     "palette",
+    "Theme",
+    "apply_theme",
+    "get_theme",
+    "set_theme",
     "get_base_path",
     "set_svg_on_label",
     "load_stylesheet",

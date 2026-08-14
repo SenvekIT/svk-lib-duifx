@@ -224,6 +224,24 @@ class SettingsDialog(HeaderDialog):
         self.setting_items[key] = (item, lineedit, default_value)
         self._add_restore_button(item, key)
 
+    def add_theme_setting(self, parent: QTreeWidgetItem,
+                          label: str = "Appearance (restart required)"):
+        """Adds the application theme selector.
+
+        The options come from :func:`duifx.gui.theming.selectable_themes`,
+        so themes that are not implemented yet are not offered. Applied on
+        the next start -- a palette swap does not fully reach widgets that
+        already exist.
+        """
+        from duifx.gui.theming import (
+            THEME_LABELS, THEME_SETTING_KEY, get_theme, theme_labels,
+        )
+
+        self.add_combo_setting(
+            parent, THEME_SETTING_KEY, label,
+            theme_labels(), THEME_LABELS[get_theme()],
+        )
+
     def add_combo_setting(self, parent: QTreeWidgetItem, key: str, label: str,
                           options: list, default_value: str):
         """Adds a ComboBox setting"""

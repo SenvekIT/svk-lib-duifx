@@ -28,10 +28,23 @@
    Global Application Styles
    ============================================ */
 
-* {    
+* {
     color: #212529;
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 9pt;
+}
+
+/* Scroll areas and the widget they host paint the palette background by
+   default -- a grey panel inside an otherwise white container, and a dark
+   one whenever the palette is dark. Making them transparent lets the
+   surrounding container (sidebar, dialog, window) show through, so a
+   scrolled panel always matches whatever it was placed in.
+   The viewport must be named explicitly: it is a child widget of the
+   scroll area, not the scroll area itself. */
+QScrollArea,
+QScrollArea > QWidget#qt_scrollarea_viewport,
+QScrollArea > QWidget#qt_scrollarea_viewport > QWidget {
+    background-color: transparent;
 }
 
 /* ============================================
