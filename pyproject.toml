@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=65.0", "wheel"]
+requires = ["setuptools>=77.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,26 +7,29 @@ name = "duifx"
 dynamic = ["version"]
 description = "A modern PySide6-based GUI framework"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
+# SPDX expression per PEP 639. Note: the legacy
+# "License :: OSI Approved :: ..." classifier must NOT be added alongside it --
+# setuptools >= 77 rejects the combination with an InvalidConfigError.
+license = "MIT"
+license-files = ["LICENSE", "THIRD-PARTY-LICENSES.md"]
 authors = [
-    {name = "David Senoner", email = "david.senoner@davtec.it"}
+    {name = "Senvek SRL", email = "info@senvek.com"}
 ]
-keywords = ["gui", "PySide6", "desktop", "ui", "framework", "usb", "can"]
+keywords = ["gui", "PySide6", "desktop", "ui", "framework"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.8",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 
 dependencies = [
     "PySide6>=6.5.0",
-    "pyusb>=1.2.0",
 ]
 
 [project.optional-dependencies]
@@ -41,10 +44,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/davidsenoner/DUIFx"
-Documentation = "https://github.com/davidsenoner/DUIFx#readme"
-Repository = "https://github.com/davidsenoner/DUIFx"
-"Bug Tracker" = "https://github.com/davidsenoner/DUIFx/issues"
+Homepage = "https://github.com/SenvekIT/svk-lib-duifx"
+Documentation = "https://github.com/SenvekIT/svk-lib-duifx#readme"
+Repository = "https://github.com/SenvekIT/svk-lib-duifx"
+"Bug Tracker" = "https://github.com/SenvekIT/svk-lib-duifx/issues"
 
 [tool.setuptools]
 packages = ["duifx", "duifx.gui", "duifx.gui.ui"]
