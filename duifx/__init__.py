@@ -7,7 +7,9 @@ from duifx.gui.windows import (
     MenuButton,
     InfoDialog,
     HeaderDialog,
+    DEFAULT_LOGO_RIGHT_MARGIN,
 )
+from duifx.gui.logo import DxLogo, DEFAULT_LOGO_HEIGHT
 from duifx.gui.settings import get_settings, SettingsDialog
 from duifx.gui.splash import DxSplashScreen
 from duifx.gui.resources.theme import palette
@@ -29,6 +31,9 @@ __all__ = [
     "MenuButton",
     "InfoDialog",
     "HeaderDialog",
+    "DxLogo",
+    "DEFAULT_LOGO_HEIGHT",
+    "DEFAULT_LOGO_RIGHT_MARGIN",
     "get_settings",
     "SettingsDialog",
     "DxSplashScreen",

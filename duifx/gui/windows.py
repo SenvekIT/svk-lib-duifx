@@ -3,15 +3,22 @@ import ctypes
 from typing import Callable, Optional
 import logging
 
-from PySide6.QtWidgets import QApplication, QToolButton, QMainWindow, QWidget, QVBoxLayout, QDialog, QLabel
+from PySide6.QtWidgets import (
+    QApplication, QToolButton, QMainWindow, QWidget, QHBoxLayout, QVBoxLayout,
+    QDialog, QLabel,
+)
 from PySide6.QtCore import Qt, QSize, Signal, Slot
-from PySide6.QtGui import QIcon, QCursor, QPixmap
+from PySide6.QtGui import QIcon, QCursor
 
 from duifx.gui.ui.ui_main_window import Ui_MainWindow
 from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
-from duifx.gui.utils import set_svg_on_label, load_stylesheet
+from duifx.gui.logo import DxLogo
+from duifx.gui.utils import load_stylesheet
 
 logger = logging.getLogger(__name__)
+
+#: Default gap between the header logo and the right window edge.
+DEFAULT_LOGO_RIGHT_MARGIN = 20
 
 class MenuButton(QToolButton):
     def __init__(self, icon_path: str = "", label: str = "", tooltip: str = "",
@@ -108,17 +115,45 @@ class MainWindow(QMainWindow):
         if slot:
             button.clicked.connect(slot)
 
-    def add_header_logo(self, logo_path: str, size: QSize, format: str = "svg") -> None:
-        label_logo = QLabel()
+    def add_header_logo(
+        self,
+        logo_path: str,
+        size: QSize | None = None,
+        format: str | None = None,
+        right_margin: int = DEFAULT_LOGO_RIGHT_MARGIN,
+    ) -> bool:
+        """Show a logo in the top right of the header.
 
-        if format == "svg":
-            set_svg_on_label(label_logo, logo_path, QSize(128, 32))
-        elif format == "png":
-            pixmap = QPixmap(logo_path)
-            pixmap = pixmap.scaled(size, Qt.KeepAspectRatio, Qt.SmoothTransformation)
-            label_logo.setPixmap(pixmap)
+        Handles SVG, PNG, JPEG and anything else Qt reads — the format is
+        detected from the file, so applications do not have to say. The logo
+        keeps its aspect ratio, is fitted into *size* (height only is enough,
+        the width follows), and is painted at the display's own resolution so
+        it stays sharp on a scaled screen. Returns False when the file cannot
+        be read.
 
-        self._ui.headerLogoLayout.addWidget(label_logo, 0, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
+        ``format`` is accepted for backwards compatibility and ignored.
+        ``right_margin`` keeps the logo off the window edge; pass 0 to butt it
+        against the frame.
+        """
+        if format is not None:
+            logger.debug("add_header_logo: 'format' is ignored, the file decides")
+
+        logo = DxLogo(logo_path, size)
+        if not logo.is_valid():
+            logger.warning("Header logo could not be loaded: %s", logo_path)
+            return False
+
+        # The margin lives on a container: DxLogo paints across its whole rect,
+        # so its own contentsMargins would not inset the drawing.
+        container = QWidget()
+        box = QHBoxLayout(container)
+        box.setContentsMargins(0, 0, max(0, right_margin), 0)
+        box.setSpacing(0)
+        box.addWidget(logo)
+
+        self._ui.headerLogoLayout.addWidget(
+            container, 0, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignVCenter)
+        return True
 
     def closeEvent(self, event) -> None:
         """Save window geometry before closing."""
