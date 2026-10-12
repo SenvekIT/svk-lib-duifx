@@ -21,6 +21,11 @@ them this module still imports, the plots show a hint instead of curves and
 accept data silently -- so a minimal install keeps every other number on
 screen. :class:`CompassDial` and :class:`ThresholdBar` need only Qt.
 
+Both plots share the mouse handling: wheel and drag zoom and pan (pyqtgraph),
+a double-click returns to the plot's own view (:meth:`~TimeSeriesPlot.reset_view`),
+and a crosshair reads out the values under the cursor. The right-click menu
+has "Reset view" and a "Crosshair" switch next to pyqtgraph's own entries.
+
 Redrawing is throttled: feeding data only fills buffers and marks the plot
 dirty, and a timer redraws at most every ``refresh_ms`` -- and not at all while
 the widget is hidden, e.g. on another tab. Sensors deliver far faster than a
@@ -33,13 +38,14 @@ Every colour lives in one :class:`PlotStyle`, defaulting to the DUIFx palette
 
 from __future__ import annotations
 
+import html
 import logging
 import math
 from collections import deque
 from dataclasses import dataclass, field
 from typing import Callable, Iterable, Mapping, Optional, Sequence
 
-from PySide6.QtCore import QPointF, QRectF, QSize, Qt, QTimer
+from PySide6.QtCore import QEvent, QPointF, QRectF, QSize, Qt, QTimer
 from PySide6.QtGui import QColor, QFont, QPainter, QPainterPath, QPen, QPolygonF
 from PySide6.QtWidgets import QLabel, QProgressBar, QSizePolicy, QVBoxLayout, QWidget
 
@@ -167,6 +173,11 @@ def set_default_plot_style(style: PlotStyle) -> None:
     _default_style = style
 
 
+def _html_line(color: str, text: str) -> str:
+    """*text* as one coloured line of a crosshair readout."""
+    return f'<span style="color: {color};">{html.escape(text)}</span>'
+
+
 def _qcolor(spec: str, alpha: Optional[int] = None) -> QColor:
     color = QColor(spec)
     if alpha is not None:
@@ -271,7 +282,7 @@ class _PlotBase(QWidget):
     """
 
     def __init__(self, title: str, style: Optional[PlotStyle], legend: bool,
-                 refresh_ms: int, parent: Optional[QWidget]) -> None:
+                 crosshair: bool, refresh_ms: int, parent: Optional[QWidget]) -> None:
         super().__init__(parent)
         self._style = style or default_plot_style()
         self._title = title
@@ -279,6 +290,9 @@ class _PlotBase(QWidget):
         self._series: dict[str, _Series] = {}
         self._references: dict[str, tuple[object, Optional[str], bool]] = {}
         self._dirty = False
+        self._crosshair = crosshair
+        #: Scene position of the cursor while it is over the plot.
+        self._mouse_pos: Optional[QPointF] = None
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
@@ -289,6 +303,7 @@ class _PlotBase(QWidget):
             self._legend = self._item.addLegend(offset=(10, 10)) if legend else None
             layout.addWidget(self._widget)
             self._hint = None
+            self._setup_interaction()
         else:
             self._widget = None
             self._item = None
@@ -362,6 +377,12 @@ class _PlotBase(QWidget):
             self._style_series(series)
         for key, (line, color, dashed) in self._references.items():
             line.setPen(self._ref_pen(color, dashed))
+        pen = pg.mkPen(_qcolor(style.axis, 160), width=1, style=Qt.PenStyle.DashLine)
+        self._vline.setPen(pen)
+        self._hline.setPen(pen)
+        self._readout.fill = pg.mkBrush(_qcolor(style.background, 210))
+        self._readout.border = pg.mkPen(_qcolor(style.axis, 160))
+        self._readout.setColor(style.text)
 
     def _series_color(self, series: _Series) -> str:
         return series.color or self._style.series_color(series.index)
@@ -463,6 +484,107 @@ class _PlotBase(QWidget):
             raise ValueError(f"series {series.key!r}: x and y differ in length")
         self.schedule_redraw()
 
+    # -- view and crosshair ------------------------------------------------
+
+    def reset_view(self) -> None:
+        """Return to the plot's own view: auto-ranged on the data.
+
+        Undoes any zooming and panning. Bound to a double-click into the plot
+        and to "Reset view" in its right-click menu.
+        """
+        if self._item is not None:
+            self._item.enableAutoRange()
+
+    def set_crosshair(self, enabled: bool) -> None:
+        """Show or hide the crosshair and its value readout under the mouse.
+
+        The plot's right-click menu has the same switch.
+        """
+        self._crosshair = bool(enabled)
+        if self._item is None:
+            return
+        if self._crosshair_action.isChecked() != self._crosshair:
+            self._crosshair_action.setChecked(self._crosshair)
+        self._update_crosshair()
+
+    @property
+    def crosshair(self) -> bool:
+        """Whether the crosshair is switched on."""
+        return self._crosshair
+
+    def _setup_interaction(self) -> None:
+        self._vline = pg.InfiniteLine(angle=90, movable=False)
+        self._hline = pg.InfiniteLine(angle=0, movable=False)
+        self._readout = pg.TextItem()
+        for item in (self._vline, self._hline, self._readout):
+            item.setZValue(1000)  # above the curves
+            item.hide()
+            # ignoreBounds: the crosshair must not take part in auto-ranging.
+            self._item.addItem(item, ignoreBounds=True)
+
+        scene = self._widget.scene()
+        scene.sigMouseClicked.connect(self._on_mouse_clicked)
+        # Mouse moves arrive far faster than a screen refreshes.
+        self._mouse_proxy = pg.SignalProxy(scene.sigMouseMoved, rateLimit=60,
+                                           slot=self._on_mouse_moved)
+        self._widget.installEventFilter(self)
+
+        menu = self._item.vb.menu
+        menu.addSeparator()
+        menu.addAction("Reset view").triggered.connect(self.reset_view)
+        self._crosshair_action = menu.addAction("Crosshair")
+        self._crosshair_action.setCheckable(True)
+        self._crosshair_action.setChecked(self._crosshair)
+        self._crosshair_action.toggled.connect(self.set_crosshair)
+
+    def eventFilter(self, obj, event) -> bool:
+        if obj is self._widget and event.type() == QEvent.Type.Leave:
+            self._mouse_pos = None
+            self._update_crosshair()
+        return super().eventFilter(obj, event)
+
+    def _on_mouse_clicked(self, event) -> None:
+        if (event.double() and event.button() == Qt.MouseButton.LeftButton
+                and self._item.vb.sceneBoundingRect().contains(event.scenePos())):
+            event.accept()
+            self.reset_view()
+
+    def _on_mouse_moved(self, args) -> None:
+        self._mouse_pos = args[0]
+        self._update_crosshair()
+
+    def _update_crosshair(self) -> None:
+        items = (self._vline, self._hline, self._readout)
+        view = self._item.vb
+        pos = self._mouse_pos
+        if not self._crosshair or pos is None or not view.sceneBoundingRect().contains(pos):
+            for item in items:
+                item.hide()
+            return
+        point = view.mapSceneToView(pos)
+        x, y = point.x(), point.y()
+        self._vline.setPos(x)
+        self._hline.setPos(y)
+        self._readout.setHtml(self._readout_html(x, y))
+        # Keep the readout inside the plot: in the right or upper half it
+        # goes to the cursor's left or below it.
+        (x0, x1), (y0, y1) = view.viewRange()
+        self._readout.setAnchor((1.0 if x > (x0 + x1) / 2 else 0.0,
+                                 0.0 if y > (y0 + y1) / 2 else 1.0))
+        self._readout.setPos(x, y)
+        for item in items:
+            item.show()
+
+    def _coordinate(self, side: str, value: float, name: str) -> str:
+        """``"label: value unit"`` for the cursor position on axis *side*."""
+        text, unit = self._labels.get(side, ("", ""))
+        return f"{text or name}: {value:.4g} {unit}".rstrip()
+
+    def _readout_html(self, x: float, y: float) -> str:
+        """Readout next to the crosshair: the cursor position."""
+        return "<br>".join((_html_line(self._style.text, self._coordinate("bottom", x, "x")),
+                            _html_line(self._style.text, self._coordinate("left", y, "y"))))
+
     # -- redraw ------------------------------------------------------------
 
     def schedule_redraw(self) -> None:
@@ -476,6 +598,9 @@ class _PlotBase(QWidget):
         self._dirty = False
         if self._item is not None:
             self._render()
+            # The data moved under a resting cursor: read it out afresh.
+            if self._mouse_pos is not None:
+                self._update_crosshair()
 
     def _on_timer(self) -> None:
         # Hidden (another tab, a collapsed splitter): stay dirty and catch up
@@ -533,6 +658,9 @@ class TimeSeriesPlot(_PlotBase):
         Show a legend of the labelled series.
     relative_time:
         Plot time relative to the newest sample (see above).
+    crosshair:
+        Show a crosshair reading out every series at the cursor's time; can
+        be switched in the right-click menu and with :meth:`set_crosshair`.
     style:
         Colours; :func:`default_plot_style` when None.
     refresh_ms:
@@ -545,10 +673,11 @@ class TimeSeriesPlot(_PlotBase):
                  max_samples: int = DEFAULT_MAX_SAMPLES,
                  legend: bool = True,
                  relative_time: bool = True,
+                 crosshair: bool = True,
                  style: Optional[PlotStyle] = None,
                  refresh_ms: int = DEFAULT_REFRESH_MS,
                  parent: Optional[QWidget] = None) -> None:
-        super().__init__(title, style, legend, refresh_ms, parent)
+        super().__init__(title, style, legend, crosshair, refresh_ms, parent)
         self._window = window
         self._max_samples = max_samples
         self._relative = relative_time
@@ -702,6 +831,41 @@ class TimeSeriesPlot(_PlotBase):
 
     # -- drawing -----------------------------------------------------------
 
+    # -- view and crosshair ------------------------------------------------
+
+    def reset_view(self) -> None:
+        """Return to the configured view: the time window, and the y range set
+        with :meth:`set_y_range` or else auto-ranged on the data."""
+        if self._item is None:
+            return
+        if self._y_range is None:
+            self._item.enableAutoRange(axis="y")
+        else:
+            self._item.setYRange(*self._y_range, padding=0)
+        if self._window is None:
+            self._item.enableAutoRange(axis="x")
+        self.redraw()
+
+    def _readout_html(self, x: float, y: float) -> str:
+        """The cursor position, then each visible series at the nearest sample."""
+        unit = self._labels.get("left", ("", ""))[1]
+        lines = [_html_line(self._style.text, f"{self._coordinate('bottom', x, 'time')}  ·  "
+                                              f"{self._coordinate('left', y, 'y')}")]
+        for series in self._series.values():
+            if series.item is None or not series.label or not series.item.isVisible():
+                continue
+            xs, ys = series.item.getData()
+            if xs is None or not len(xs):
+                continue
+            try:
+                index = int(np.nanargmin(np.abs(xs - x)))
+            except ValueError:  # only NaN gaps
+                continue
+            value = ys[index]
+            text = "--" if np.isnan(value) else f"{value:.4g} {unit}".rstrip()
+            lines.append(_html_line(self._series_color(series), f"{series.label}: {text}"))
+        return "<br>".join(lines)
+
     def _render(self) -> None:
         now = self._now if self._now is not None else self.latest_time()
         for series in self._series.values():
@@ -751,6 +915,8 @@ class ScatterPlot(_PlotBase):
         Keep one unit on x as long as one unit on y.
     legend:
         Show a legend of the labelled series.
+    crosshair:
+        Show a crosshair reading out the cursor's x/y position.
     style, refresh_ms:
         As for :class:`TimeSeriesPlot`.
     """
@@ -760,10 +926,11 @@ class ScatterPlot(_PlotBase):
                  max_points: int = DEFAULT_MAX_POINTS,
                  aspect_locked: bool = True,
                  legend: bool = False,
+                 crosshair: bool = True,
                  style: Optional[PlotStyle] = None,
                  refresh_ms: int = DEFAULT_REFRESH_MS,
                  parent: Optional[QWidget] = None) -> None:
-        super().__init__(title, style, legend, refresh_ms, parent)
+        super().__init__(title, style, legend, crosshair, refresh_ms, parent)
         self._max_points = max_points
         self._circles: dict[str, tuple[float, float, float]] = {}
         if self._item is not None:

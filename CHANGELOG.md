@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0]
+
 ### Changed
 
 - Replaced the bundled icon set with
@@ -49,6 +51,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   XY clouds with a reference circle), `CompassDial` (heading dial with needles,
   uncertainty wedge and legend) and `ThresholdBar` (progress bar judged against
   a gate). All colours come from one `PlotStyle`, defaulting to the palette.
+  A double-click returns a plot to its own view (`reset_view()`), and a
+  crosshair reads out the values under the cursor; both are also in the
+  plot's right-click menu ("Reset view", "Crosshair").
   The two plots draw with pyqtgraph, available as the optional extra
   `duifx[plot]`; without it they show a hint, and `duifx` imports them only on
   first use.
