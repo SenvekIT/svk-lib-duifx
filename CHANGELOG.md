@@ -39,6 +39,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   JPEG — scaled into a bounding box with its aspect ratio kept, and painted at
   the display's own resolution so it stays sharp on a scaled screen and when
   the window moves to a differently scaled monitor.
+- `duifx.gui.colors`, one colour palette for every application: semantic
+  tokens (`Token.STATE_ERROR`, `Token.TEXT_MUTED`, `Token.PLOT_SERIES_1`, …)
+  with light and dark values, resolved with `color()` (QColor) or `css()`
+  (stylesheets), and `state_colors` mapping connection and device states such
+  as "Connected" or "Heartbeat Lost" to their colour.
+- `duifx.gui.plot`, data-agnostic plot widgets for instrument views:
+  `TimeSeriesPlot` (rolling-window live traces), `ScatterPlot` (aspect-locked
+  XY clouds with a reference circle), `CompassDial` (heading dial with needles,
+  uncertainty wedge and legend) and `ThresholdBar` (progress bar judged against
+  a gate). All colours come from one `PlotStyle`, defaulting to the palette.
+  The two plots draw with pyqtgraph, available as the optional extra
+  `duifx[plot]`; without it they show a hint, and `duifx` imports them only on
+  first use.
 - `THIRD-PARTY-LICENSES.md` documenting the bundled icons and the PySide6
   (LGPLv3) dependency.
 - Project documentation: `CONTRIBUTING.md`, `SECURITY.md`,

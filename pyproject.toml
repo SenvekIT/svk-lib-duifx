@@ -33,6 +33,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+# duifx.gui.plot: TimeSeriesPlot and ScatterPlot draw with pyqtgraph. Without
+# it they show a hint instead of curves; everything else works.
+plot = [
+    "pyqtgraph>=0.13.7",
+    "numpy>=1.26",
+]
 dev = [
     "pytest>=7.0",
     "pytest-qt>=4.0",
