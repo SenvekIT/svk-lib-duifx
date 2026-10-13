@@ -34,6 +34,7 @@ from duifx.gui.widgets import (
     LOG_RETENTION_SESSIONS_DEFAULT,
     prune_session_logs,
 )
+from duifx.gui.tables import ColumnSizer, make_columns_interactive
 
 #: Public names of duifx.gui.plot, resolved lazily by __getattr__.
 _PLOT_EXPORTS = (
@@ -86,6 +87,8 @@ __all__ = [
     "ThreadMonitorWidget",
     "LOG_RETENTION_SESSIONS_DEFAULT",
     "prune_session_logs",
+    "ColumnSizer",
+    "make_columns_interactive",
     *_PLOT_EXPORTS,
 ]
 

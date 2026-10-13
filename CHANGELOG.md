@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `make_columns_interactive(view, fill=-1)` / `ColumnSizer` (`duifx.gui.tables`):
+  every column of a table or tree view can be dragged, each is sized to its
+  content (throttled, on model changes) until the user drags it, and one
+  column (the last by default) takes the left-over width while staying
+  draggable.
+
+### Changed
+
+- `LogViewerWidget`, `ThreadMonitorWidget` and `SettingsDialog` use it: their
+  columns can now be resized by dragging the header. Previously most sections
+  were `ResizeToContents` / `Stretch` and could not be dragged. No API change.
+
 ## [1.4.0]
 
 ### Changed
