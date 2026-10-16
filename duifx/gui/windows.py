@@ -5,7 +5,7 @@ import logging
 
 from PySide6.QtWidgets import (
     QApplication, QToolButton, QMainWindow, QWidget, QHBoxLayout, QVBoxLayout,
-    QDialog, QLabel,
+    QDialog, QLabel, QAbstractButton, QButtonGroup, QStackedWidget,
 )
 from PySide6.QtCore import Qt, QSize, Signal, Slot
 from PySide6.QtGui import QIcon, QCursor
@@ -14,11 +14,36 @@ from duifx.gui.ui.ui_main_window import Ui_MainWindow
 from duifx.gui.ui.ui_info_dialog import Ui_InfoDialog
 from duifx.gui.logo import DxLogo
 from duifx.gui.utils import load_stylesheet
+from duifx.gui.colors import Token, css
 
 logger = logging.getLogger(__name__)
 
 #: Default gap between the header logo and the right window edge.
 DEFAULT_LOGO_RIGHT_MARGIN = 20
+
+#: Dynamic property set on the sidebar entries that switch pages; the
+#: stylesheet gives the active one (``:checked``) a light background.
+NAVIGATION_PROPERTY = "navigation"
+
+
+def navigation_stylesheet() -> str:
+    """Rules for the active navigation entry of the sidebar.
+
+    Built from the colour tokens rather than kept in the static stylesheet,
+    so the tint follows the active theme. The ID selector outranks the
+    stylesheet's generic ``QToolButton:checked`` (solid accent, white text),
+    which is meant for toggle buttons, not for navigation.
+    """
+    entry = f'#sidebar QToolButton[{NAVIGATION_PROPERTY}="true"]'
+    return (
+        f"\n{entry}:checked {{\n"
+        f"    background-color: {css(Token.SURFACE_SELECTED)};\n"
+        f"    color: {css(Token.TEXT_PRIMARY)};\n"
+        f"}}\n"
+        f"{entry}:checked:hover {{\n"
+        f"    background-color: {css(Token.SURFACE_SELECTED_HOVER)};\n"
+        f"}}\n"
+    )
 
 class MenuButton(QToolButton):
     def __init__(self, icon_path: str = "", label: str = "", tooltip: str = "",
@@ -55,7 +80,18 @@ class MainWindow(QMainWindow):
         self.setWindowTitle(description)  # set custom design title
         self.setWindowIcon(QIcon(":icons/icon/Dx.svg")) # set a default icon
 
-        stylesheet = load_stylesheet()
+        # Navigation: the sidebar top entries switch pages, exactly one of them
+        # is active (checked) and highlighted. A page linked to an entry
+        # (add_sidebar_top_button(page=...)) makes the highlight follow
+        # whatever shows that page, not only the click.
+        self._nav_group = QButtonGroup(self)
+        self._nav_group.setExclusive(True)
+        self._nav_pages: dict[QAbstractButton, QWidget] = {}
+        self._nav_stacks: set[int] = set()
+        self._watch_stack(self._ui.stackedWidgetContent)
+        self._watch_stack(self._ui.stackedWidgetRightSidebar)
+
+        stylesheet = (load_stylesheet() or "") + navigation_stylesheet()
         self.setStyleSheet(stylesheet)
 
         # Sidebar fixed to 50px; remaining space belongs to main area/splitter
@@ -109,11 +145,121 @@ class MainWindow(QMainWindow):
         if slot:
             button.clicked.connect(slot)
 
-    def add_sidebar_top_button(self, button: MenuButton, slot: Optional[Callable] = None) -> None:
+    def add_sidebar_top_button(self, button: MenuButton, slot: Optional[Callable] = None,
+                               page: QWidget | None = None,
+                               navigation: bool = True) -> None:
+        """Add an entry to the top of the left sidebar.
+
+        The top entries are the navigation: they switch what the window shows,
+        and the active one gets a light background. Exactly one is active; a
+        click makes its entry active. When none is active yet, the first entry
+        added becomes active -- by convention the page shown at start.
+
+        *page* links the entry to a widget in one of the window's stacks
+        (content or right sidebar, or any ``QStackedWidget`` it already sits
+        in): a click shows it (before *slot* runs), and the entry becomes
+        active whenever the page is shown -- also through
+        :meth:`set_content_widget`, :meth:`set_right_sidebar_widget` or the
+        stack itself. Without *page* only the click moves the highlight; an
+        application that switches pages in code then calls
+        :meth:`set_active_sidebar_button`.
+
+        ``navigation=False`` adds a plain action button (e.g. one that opens a
+        dialog) that never becomes active.
+        """
         self._ui.sidebarTopLayout.addWidget(button, 0, Qt.AlignmentFlag.AlignTop | Qt.AlignmentFlag.AlignHCenter)
-        
+
+        if navigation:
+            self._add_navigation_button(button, page)
+        elif page is not None:
+            button.clicked.connect(lambda: self._show_page(page))
+
         if slot:
             button.clicked.connect(slot)
+
+    def set_active_sidebar_button(self, button: QAbstractButton | None) -> None:
+        """Make *button* the active navigation entry; ``None`` clears it.
+
+        For applications that switch pages without a linked *page* (see
+        :meth:`add_sidebar_top_button`). Buttons that are not navigation
+        entries are ignored.
+        """
+        if button is None:
+            self._clear_active_navigation()
+        elif button in self._nav_group.buttons():
+            button.setChecked(True)
+        else:
+            logger.debug("set_active_sidebar_button: %r is no navigation entry", button)
+
+    def active_sidebar_button(self) -> QAbstractButton | None:
+        """The active navigation entry of the sidebar, or None."""
+        return self._nav_group.checkedButton()
+
+    def _add_navigation_button(self, button: QAbstractButton, page: QWidget | None) -> None:
+        button.setCheckable(True)
+        button.setProperty(NAVIGATION_PROPERTY, True)
+        # The property selector is matched at polish time.
+        button.style().unpolish(button)
+        button.style().polish(button)
+        self._nav_group.addButton(button)
+
+        if page is None:
+            if self._nav_group.checkedButton() is None and not self._nav_pages_shown():
+                button.setChecked(True)
+            return
+
+        self._nav_pages[button] = page
+        stack = page.parentWidget()
+        if isinstance(stack, QStackedWidget):
+            self._watch_stack(stack)
+        # Connected before the application's slot: the page is showing (and
+        # the entry active) by the time the slot runs.
+        button.clicked.connect(lambda: self._show_page(page))
+
+        if self._is_page_shown(page):
+            button.setChecked(True)
+        elif self._nav_group.checkedButton() is None:
+            button.setChecked(True)
+
+    def _watch_stack(self, stack: QStackedWidget) -> None:
+        if id(stack) not in self._nav_stacks:
+            self._nav_stacks.add(id(stack))
+            stack.currentChanged.connect(self._sync_navigation)
+
+    @staticmethod
+    def _is_page_shown(page: QWidget) -> bool:
+        stack = page.parentWidget()
+        return isinstance(stack, QStackedWidget) and stack.currentWidget() is page
+
+    def _nav_pages_shown(self) -> bool:
+        return any(self._is_page_shown(p) for p in self._nav_pages.values())
+
+    def _show_page(self, page: QWidget) -> None:
+        stack = page.parentWidget()
+        if isinstance(stack, QStackedWidget):
+            stack.setCurrentWidget(page)
+        else:
+            logger.warning("Navigation page %r is not in a stacked widget", page)
+
+    @Slot(int)
+    def _sync_navigation(self, _index: int = -1) -> None:
+        """Move the highlight to the entry whose page is now shown."""
+        for button, page in self._nav_pages.items():
+            if self._is_page_shown(page):
+                button.setChecked(True)
+                return
+        # The active entry's page was replaced by one without an entry.
+        if self._nav_group.checkedButton() in self._nav_pages:
+            self._clear_active_navigation()
+
+    def _clear_active_navigation(self) -> None:
+        checked = self._nav_group.checkedButton()
+        if checked is None:
+            return
+        # An exclusive group refuses to uncheck its last checked button.
+        self._nav_group.setExclusive(False)
+        checked.setChecked(False)
+        self._nav_group.setExclusive(True)
 
     def add_header_logo(
         self,

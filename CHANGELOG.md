@@ -28,9 +28,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   content (throttled, on model changes) until the user drags it, and one
   column (the last by default) takes the left-over width while staying
   draggable.
+- The active entry of the left sidebar navigation (`add_sidebar_top_button`,
+  e.g. "Home" / "Channels") gets a light background, so it is clear which one
+  is selected. Exactly one entry is active: a click moves the highlight, and
+  at start the first entry added is active. Every application gets this
+  without changes. The tint comes from the new colour tokens
+  `Token.SURFACE_SELECTED` / `Token.SURFACE_SELECTED_HOVER` (light: blue 100 /
+  200; dark: translucent blue), set on the sidebar through
+  `navigation_stylesheet()` so it follows the theme. Header menu buttons
+  (`add_menu_button`) and the sidebar bottom buttons (e.g. "About") open
+  dialogs and never become active.
+- `add_sidebar_top_button()` takes two optional keyword arguments: `page=`
+  links the entry to a widget in a stacked widget (content or right sidebar) -
+  a click shows it, and the entry becomes active whenever that page is shown,
+  also through `set_content_widget()` / `set_right_sidebar_widget()` called
+  from code; `navigation=False` adds a plain action button that never becomes
+  active. `set_active_sidebar_button(button | None)` sets (or clears) the
+  active entry for applications that switch pages in code without `page=`,
+  `active_sidebar_button()` returns it.
 
 ### Changed
 
+- Sidebar top buttons are now checkable (`setCheckable(True)`, in an exclusive
+  `QButtonGroup`), so `clicked` passes `checked=True` instead of `False` to a
+  slot that takes the argument. Slots without arguments are unaffected.
 - `LogViewerWidget`, `ThreadMonitorWidget` and `SettingsDialog` use it: their
   columns can now be resized by dragging the header. Previously most sections
   were `ResizeToContents` / `Stretch` and could not be dragged. No API change.
