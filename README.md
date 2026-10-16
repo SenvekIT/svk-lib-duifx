@@ -23,8 +23,7 @@ From a `requirements.txt`:
 duifx @ git+https://github.com/SenvekIT/svk-lib-duifx.git
 ```
 
-When the package is used as a git submodule (as in the E-MEC master
-application), install it in editable mode from its path instead:
+When the package is used as a git submodule, install it in editable mode from its path instead:
 
 ```
 -e packages/duifx
