@@ -7,6 +7,34 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Terminal widgets (`duifx.gui.terminal`): `TerminalView` (read-only output)
+  and `TerminalLineEdit` look and line up like PuTTY - Courier New 10 pt, light
+  grey on black, tab stops every 8 columns. Output is written as it arrives
+  (`append_text`: an unfinished line such as a prompt shows at once, CR LF / LF
+  end a line, a lone CR overwrites the line, BS erases), `append_line` puts a
+  note on a line of its own, lines wrap anywhere at the window edge (or not,
+  `wrap=False`), and the view follows the end only while it is at the bottom.
+  `TerminalStyle` / `set_default_terminal_style()` change font and colours,
+  `apply_terminal_style()` styles a text widget made elsewhere, and
+  `apply_fixed_pitch()` gives any widget the fixed-pitch font but keeps the
+  application colours. They carry a style sheet of their own: the
+  application stylesheet's `*` font rule beats `setFont()`, so a text box given
+  a monospace font with `setFont()` still showed the proportional UI font and
+  column-aligned output came out ragged.
+- `make_columns_interactive(view, fill=-1)` / `ColumnSizer` (`duifx.gui.tables`):
+  every column of a table or tree view can be dragged, each is sized to its
+  content (throttled, on model changes) until the user drags it, and one
+  column (the last by default) takes the left-over width while staying
+  draggable.
+
+### Changed
+
+- `LogViewerWidget`, `ThreadMonitorWidget` and `SettingsDialog` use it: their
+  columns can now be resized by dragging the header. Previously most sections
+  were `ResizeToContents` / `Stretch` and could not be dragged. No API change.
+
 ## [1.4.0]
 
 ### Changed

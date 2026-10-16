@@ -66,6 +66,22 @@ set_theme(Theme.SYSTEM)               # persist; takes effect on next start
 currently falls back to light. In a `SettingsDialog`, add the selector with
 `self.add_theme_setting(category)`.
 
+### Terminal
+
+A console that looks and lines up like PuTTY (Courier New 10 pt, light grey on
+black, tab stops every 8 columns), whatever the application stylesheet says:
+
+```python
+from duifx import TerminalLineEdit, TerminalView, apply_fixed_pitch
+
+view = TerminalView()                 # output; append_text() as text arrives
+entry = TerminalLineEdit()            # input in the same font and colours
+apply_fixed_pitch(label)              # just the fixed-pitch font, own colours
+```
+
+Do not use `setFont()` for a monospace text box: the stylesheet's `*` rule
+overrides it.
+
 ## Development
 
 ```bash

@@ -39,7 +39,6 @@ from PySide6.QtWidgets import (
     QHBoxLayout,
     QCheckBox,
     QTableView,
-    QHeaderView,
     QSizePolicy,
     QPushButton,
     QFileDialog,
@@ -52,6 +51,8 @@ from PySide6.QtWidgets import (
     QStyledItemDelegate,
     QScrollBar,
 )
+
+from duifx.gui.tables import make_columns_interactive
 
 # ---------------------------------------------------------------------------
 # Lightweight log entry dict (replaces heavy logging.LogRecord in storage)
@@ -947,11 +948,10 @@ class LogViewerWidget(QWidget):
         self._table.setSortingEnabled(False)
         self._table.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
         header = self._table.horizontalHeader()
-        header.setSectionResizeMode(0, QHeaderView.ResizeMode.ResizeToContents)
-        header.setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
-        header.setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
-        header.setSectionResizeMode(3, QHeaderView.ResizeMode.Stretch)
         header.setMinimumSectionSize(30)
+        # Draggable columns, sized to their content until dragged; the
+        # message takes the rest of the width.
+        make_columns_interactive(self._table)
         header.setStyleSheet("QHeaderView::section { padding: 2px 4px; font-size: 14px; }")
         self._table.verticalHeader().setVisible(False)
         self._table.setShowGrid(False)
@@ -1433,14 +1433,10 @@ class ThreadMonitorWidget(QWidget):
         self._table.setModel(self._model)
         self._table.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
         header = self._table.horizontalHeader()
-        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)       # Name
-        header.setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)  # ID
-        header.setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)  # Type
-        header.setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)  # Status
-        header.setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)  # Daemon
-        header.setSectionResizeMode(5, QHeaderView.ResizeMode.ResizeToContents)  # Priority
-        header.setSectionResizeMode(6, QHeaderView.ResizeMode.Stretch)       # Target
         header.setMinimumSectionSize(40)
+        # Draggable columns, sized to their content until dragged; Target
+        # (the last) takes the rest of the width.
+        make_columns_interactive(self._table)
         self._table.verticalHeader().setVisible(False)
         self._table.setShowGrid(False)
         self._table.verticalHeader().setDefaultSectionSize(22)
