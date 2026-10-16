@@ -125,6 +125,8 @@ class Token(str, Enum):
     BORDER = "border"                    # input borders
     BORDER_STRONG = "border_strong"      # tooltip and emphasised borders
     HIGHLIGHT_CHANGED = "highlight_changed"  # background of a changed value
+    SURFACE_SELECTED = "surface_selected"  # active navigation entry, selected item
+    SURFACE_SELECTED_HOVER = "surface_selected_hover"  # the same under the mouse
 
     # Overlays for flat buttons (translucent).
     OVERLAY_HOVER = "overlay_hover"
@@ -192,6 +194,10 @@ _VALUES: dict[Token, tuple[str, str]] = {
     Token.BORDER:            (_g.s300, _g.s600),
     Token.BORDER_STRONG:     (_g.s400, _g.s500),
     Token.HIGHLIGHT_CHANGED: (_y.s100, _y.s900),
+    # A light tint of the accent: marks "this one is active" without the
+    # weight of an accent button. Dark: translucent, so it tints any surface.
+    Token.SURFACE_SELECTED:  (_b.s100, "#403b82f6"),
+    Token.SURFACE_SELECTED_HOVER: (_b.s200, "#663b82f6"),
 
     Token.OVERLAY_HOVER:     ("#14ffffff", "#14ffffff"),
     Token.OVERLAY_PRESSED:   ("#28ffffff", "#28ffffff"),

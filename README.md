@@ -50,6 +50,32 @@ sys.exit(app.exec())
 
 See [ICONS.md](ICONS.md) for the icon reference.
 
+### Navigation
+
+The top entries of the left sidebar switch pages; the active one gets a light
+background (`Token.SURFACE_SELECTED`). Header menu buttons and the sidebar
+bottom buttons are actions (dialogs) and never become active.
+
+```python
+window.add_content_right_sidebar(nodes_page)
+window.add_content_right_sidebar(channels_page)
+
+# Linked to its page: a click shows it, and the entry is active whenever the
+# page is shown, also by set_right_sidebar_widget() / set_content_widget().
+window.add_sidebar_top_button(MenuButton(":icons/icon/home.svg", tooltip="Home"),
+                              page=nodes_page)
+window.add_sidebar_top_button(MenuButton(":icons/icon/Channels.svg", tooltip="Channels"),
+                              page=channels_page)
+
+# An action in the top sidebar that opens a dialog:
+window.add_sidebar_top_button(MenuButton(":icons/icon/search.svg"), slot=open_dialog,
+                              navigation=False)
+```
+
+Without `page=` (only a `slot`) the click alone moves the highlight and the
+first entry added starts active; an application that then switches pages in
+code calls `window.set_active_sidebar_button(button)`.
+
 ### Theming
 
 The colour scheme is pinned by the application instead of following the
