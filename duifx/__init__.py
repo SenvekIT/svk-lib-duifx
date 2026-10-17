@@ -35,6 +35,7 @@ from duifx.gui.widgets import (
     prune_session_logs,
 )
 from duifx.gui.tables import ColumnSizer, make_columns_interactive
+from duifx.gui.path_picker import PathPicker
 from duifx.gui.terminal import (
     TerminalStyle,
     TerminalView,
@@ -99,6 +100,7 @@ __all__ = [
     "prune_session_logs",
     "ColumnSizer",
     "make_columns_interactive",
+    "PathPicker",
     "TerminalStyle",
     "TerminalView",
     "TerminalLineEdit",

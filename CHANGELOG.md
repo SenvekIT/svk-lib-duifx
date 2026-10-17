@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `PathPicker` (`duifx.gui.path_picker`): a line edit with a *Browse…* button
+  for a directory (`PathPicker.DIRECTORY`), a file to open (`OPEN_FILE`) or a
+  file to save (`SAVE_FILE`, with `file_filter`). `path_changed(str)` is
+  emitted once per real change - a choice in the dialog, editing finished with
+  another text, or `set_path()` - never per keystroke. The dialog opens at the
+  current path, its nearest existing folder, `set_start_dir()` or the home
+  folder; `line_edit` and `button` give access to the two widgets.
 - Terminal widgets (`duifx.gui.terminal`): `TerminalView` (read-only output)
   and `TerminalLineEdit` look and line up like PuTTY - Courier New 10 pt, light
   grey on black, tab stops every 8 columns. Output is written as it arrives
