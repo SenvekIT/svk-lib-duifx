@@ -63,6 +63,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   columns can now be resized by dragging the header. Previously most sections
   were `ResizeToContents` / `Stretch` and could not be dragged. No API change.
 
+### Fixed
+
+- `LogViewerWidget`: with *Unseen* checked, new entries no longer stay hidden
+  after *Mark seen* once the live buffer is full. The seen boundary is a
+  position in the record list; each entry dropped from the full buffer moved
+  the others down but not the boundary, so new entries landed below it. It now
+  moves with the dropped entries, and up with the older entries that
+  scroll-back puts in front (before, seen entries came back as unseen).
+- `LogViewerWidget`: with the live buffer full the table rows now follow the
+  dropped entries. They kept pointing at the old positions, so the table grew
+  past the records and showed entries twice.
+
 ## [1.4.0]
 
 ### Changed
