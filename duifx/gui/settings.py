@@ -4,11 +4,12 @@ from typing import Any, Dict, Optional, Type, TypeVar
 from PySide6.QtWidgets import (QTreeWidget, QTreeWidgetItem, QWidget, QHBoxLayout,
                               QCheckBox, QSpinBox, QComboBox, QLineEdit, QPushButton,
                               QLabel, QColorDialog, QFileDialog, QApplication, QDialog,
-                              QHeaderView, QMenu)
+                              QMenu)
 from PySide6.QtCore import QSettings, Qt, Signal, QSize, QPoint
 from PySide6.QtGui import QColor, QFont, QPalette, QIcon, QAction, QKeySequence, QShortcut
 
 from duifx.gui.windows import HeaderDialog
+from duifx.gui.tables import make_columns_interactive
 
 logger = logging.getLogger(__name__)
 
@@ -72,12 +73,13 @@ class SettingsDialog(HeaderDialog):
 
         # Configure tree widget
         self.treeWidget.setHeaderLabels(["Setting", "Value", ""])
-        self.treeWidget.setColumnWidth(0, 250)
+        # Every column draggable; the value column takes the width left over
+        # (and keeps doing so until it is dragged itself). The editors and
+        # restore buttons are item widgets, which content sizing does not
+        # see, so the widths are set here rather than measured.
+        make_columns_interactive(self.treeWidget, fill=1, auto_fit=False)
         header = self.treeWidget.header()
-        header.setStretchLastSection(False)
-        header.setSectionResizeMode(0, QHeaderView.ResizeMode.Interactive)
-        header.setSectionResizeMode(1, QHeaderView.ResizeMode.Stretch)
-        header.setSectionResizeMode(2, QHeaderView.ResizeMode.ResizeToContents)
+        header.resizeSection(0, 250)
         header.resizeSection(2, 40)
         self.treeWidget.setAlternatingRowColors(True)
 

@@ -34,6 +34,18 @@ from duifx.gui.widgets import (
     LOG_RETENTION_SESSIONS_DEFAULT,
     prune_session_logs,
 )
+from duifx.gui.tables import ColumnSizer, make_columns_interactive
+from duifx.gui.path_picker import PathPicker
+from duifx.gui.terminal import (
+    TerminalStyle,
+    TerminalView,
+    TerminalLineEdit,
+    default_terminal_style,
+    set_default_terminal_style,
+    terminal_font,
+    apply_terminal_style,
+    apply_fixed_pitch,
+)
 
 #: Public names of duifx.gui.plot, resolved lazily by __getattr__.
 _PLOT_EXPORTS = (
@@ -86,6 +98,17 @@ __all__ = [
     "ThreadMonitorWidget",
     "LOG_RETENTION_SESSIONS_DEFAULT",
     "prune_session_logs",
+    "ColumnSizer",
+    "make_columns_interactive",
+    "PathPicker",
+    "TerminalStyle",
+    "TerminalView",
+    "TerminalLineEdit",
+    "default_terminal_style",
+    "set_default_terminal_style",
+    "terminal_font",
+    "apply_terminal_style",
+    "apply_fixed_pitch",
     *_PLOT_EXPORTS,
 ]
 

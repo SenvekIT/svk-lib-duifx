@@ -7,6 +7,74 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `PathPicker` (`duifx.gui.path_picker`): a line edit with a *Browse…* button
+  for a directory (`PathPicker.DIRECTORY`), a file to open (`OPEN_FILE`) or a
+  file to save (`SAVE_FILE`, with `file_filter`). `path_changed(str)` is
+  emitted once per real change - a choice in the dialog, editing finished with
+  another text, or `set_path()` - never per keystroke. The dialog opens at the
+  current path, its nearest existing folder, `set_start_dir()` or the home
+  folder; `line_edit` and `button` give access to the two widgets.
+- Terminal widgets (`duifx.gui.terminal`): `TerminalView` (read-only output)
+  and `TerminalLineEdit` look and line up like PuTTY - Courier New 10 pt, light
+  grey on black, tab stops every 8 columns. Output is written as it arrives
+  (`append_text`: an unfinished line such as a prompt shows at once, CR LF / LF
+  end a line, a lone CR overwrites the line, BS erases), `append_line` puts a
+  note on a line of its own, lines wrap anywhere at the window edge (or not,
+  `wrap=False`), and the view follows the end only while it is at the bottom.
+  `TerminalStyle` / `set_default_terminal_style()` change font and colours,
+  `apply_terminal_style()` styles a text widget made elsewhere, and
+  `apply_fixed_pitch()` gives any widget the fixed-pitch font but keeps the
+  application colours. They carry a style sheet of their own: the
+  application stylesheet's `*` font rule beats `setFont()`, so a text box given
+  a monospace font with `setFont()` still showed the proportional UI font and
+  column-aligned output came out ragged.
+- `make_columns_interactive(view, fill=-1)` / `ColumnSizer` (`duifx.gui.tables`):
+  every column of a table or tree view can be dragged, each is sized to its
+  content (throttled, on model changes) until the user drags it, and one
+  column (the last by default) takes the left-over width while staying
+  draggable.
+- The active entry of the left sidebar navigation (`add_sidebar_top_button`,
+  e.g. "Home" / "Channels") gets a light background, so it is clear which one
+  is selected. Exactly one entry is active: a click moves the highlight, and
+  at start the first entry added is active. Every application gets this
+  without changes. The tint comes from the new colour tokens
+  `Token.SURFACE_SELECTED` / `Token.SURFACE_SELECTED_HOVER` (light: blue 100 /
+  200; dark: translucent blue), set on the sidebar through
+  `navigation_stylesheet()` so it follows the theme. Header menu buttons
+  (`add_menu_button`) and the sidebar bottom buttons (e.g. "About") open
+  dialogs and never become active.
+- `add_sidebar_top_button()` takes two optional keyword arguments: `page=`
+  links the entry to a widget in a stacked widget (content or right sidebar) -
+  a click shows it, and the entry becomes active whenever that page is shown,
+  also through `set_content_widget()` / `set_right_sidebar_widget()` called
+  from code; `navigation=False` adds a plain action button that never becomes
+  active. `set_active_sidebar_button(button | None)` sets (or clears) the
+  active entry for applications that switch pages in code without `page=`,
+  `active_sidebar_button()` returns it.
+
+### Changed
+
+- Sidebar top buttons are now checkable (`setCheckable(True)`, in an exclusive
+  `QButtonGroup`), so `clicked` passes `checked=True` instead of `False` to a
+  slot that takes the argument. Slots without arguments are unaffected.
+- `LogViewerWidget`, `ThreadMonitorWidget` and `SettingsDialog` use it: their
+  columns can now be resized by dragging the header. Previously most sections
+  were `ResizeToContents` / `Stretch` and could not be dragged. No API change.
+
+### Fixed
+
+- `LogViewerWidget`: with *Unseen* checked, new entries no longer stay hidden
+  after *Mark seen* once the live buffer is full. The seen boundary is a
+  position in the record list; each entry dropped from the full buffer moved
+  the others down but not the boundary, so new entries landed below it. It now
+  moves with the dropped entries, and up with the older entries that
+  scroll-back puts in front (before, seen entries came back as unseen).
+- `LogViewerWidget`: with the live buffer full the table rows now follow the
+  dropped entries. They kept pointing at the old positions, so the table grew
+  past the records and showed entries twice.
+
 ## [1.4.0]
 
 ### Changed

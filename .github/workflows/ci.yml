@@ -48,8 +48,29 @@ jobs:
           from duifx import MainWindow, LogViewerWidget, apply_theme, Theme
 
           apply_theme(app, Theme.LIGHT)
-          MainWindow("CI")
+          window = MainWindow("CI")
           LogViewerWidget()
+
+          # Sidebar navigation: exactly one entry active, following clicks and
+          # page switches; menu buttons never become active.
+          from PySide6.QtWidgets import QLabel
+          from duifx import MenuButton
+          pages = [QLabel("a"), QLabel("b")]
+          for page in pages:
+              window.add_content_right_sidebar(page)
+          home, other = MenuButton(tooltip="Home"), MenuButton(tooltip="Other")
+          window.add_sidebar_top_button(home, page=pages[0])
+          window.add_sidebar_top_button(other, page=pages[1])
+          action = MenuButton(label="Dialog")
+          window.add_menu_button(action, slot=lambda: None)
+          assert window.active_sidebar_button() is home
+          other.click()
+          assert window.active_sidebar_button() is other and not home.isChecked()
+          assert window.get_right_sidebar_widget() is pages[1]
+          window.set_right_sidebar_widget(0)
+          assert window.active_sidebar_button() is home
+          action.click()
+          assert not action.isCheckable() and window.active_sidebar_button() is home
 
           # Every bundled icon must be present and renderable: a resource file
           # out of sync with the .qrc only shows up here, not at import time.
