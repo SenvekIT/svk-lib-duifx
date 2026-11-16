@@ -108,6 +108,24 @@ apply_fixed_pitch(label)              # just the fixed-pitch font, own colours
 Do not use `setFont()` for a monospace text box: the stylesheet's `*` rule
 overrides it.
 
+### Path picker
+
+A path in a line edit with a *Browse…* button, for a folder, a file to open or
+a file to save. `path_changed` comes once per real change (dialog choice,
+editing finished with another text, `set_path()`), not per keystroke:
+
+```python
+from duifx import PathPicker
+
+picker = PathPicker(PathPicker.DIRECTORY, caption="Recordings folder")
+picker.set_path(folder)
+picker.path_changed.connect(on_folder)
+PathPicker(PathPicker.OPEN_FILE, caption="Firmware", file_filter="Firmware (*.bin)")
+```
+
+The dialog opens at the current path, or its nearest existing folder, or
+`set_start_dir()`, or the home folder.
+
 ## Development
 
 ```bash

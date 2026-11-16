@@ -12,6 +12,7 @@ four months).  Startup now prunes the oldest sessions down to
 
 from __future__ import annotations
 
+import bisect
 import json
 import logging
 import os
@@ -543,9 +544,15 @@ class _LogTableModel(QAbstractTableModel):
         self._pending = []
 
         # Trim live records if over limit (drop oldest)
+        first_live = len(self._file_records)
         overflow = len(self._live_records) + len(batch) - self._live_max
-        if overflow > 0:
-            self._live_records = self._live_records[overflow:]
+        dropped = min(max(overflow, 0), len(self._live_records))
+        if dropped:
+            self._live_records = self._live_records[dropped:]
+            # Every later record moved down by *dropped*: so does the unseen
+            # boundary, or new entries would land below it and stay hidden.
+            if self.seen_count > first_live:
+                self.seen_count = max(first_live, self.seen_count - dropped)
 
         self._live_records.extend(batch)
 
@@ -558,6 +565,9 @@ class _LogTableModel(QAbstractTableModel):
             return
 
         self._invalidate_cache()
+
+        if dropped:
+            self._drop_filtered(first_live, dropped)
 
         # Compute new visible indices for the batch
         all_recs = self._all_records()
@@ -572,6 +582,21 @@ class _LogTableModel(QAbstractTableModel):
             self.beginInsertRows(QModelIndex(), pos, pos + len(new_visible) - 1)
             self._filtered.extend(new_visible)
             self.endInsertRows()
+
+    def _drop_filtered(self, first: int, count: int) -> None:
+        """Records ``first .. first + count - 1`` were dropped from the record
+        list: remove their rows and move the later indices down by *count*.
+        Without this the rows kept pointing at the old positions - with the
+        buffer full the table grew past the records and showed entries twice."""
+        lo = bisect.bisect_left(self._filtered, first)
+        hi = bisect.bisect_left(self._filtered, first + count)
+        if hi > lo:
+            self.beginRemoveRows(QModelIndex(), lo, hi - 1)
+            del self._filtered[lo:hi]
+            self._filtered[lo:] = [i - count for i in self._filtered[lo:]]
+            self.endRemoveRows()
+        else:
+            self._filtered[lo:] = [i - count for i in self._filtered[lo:]]
 
     # -- full filter rebuild ---------------------------------------------------
 
@@ -806,6 +831,11 @@ class _LogTableModel(QAbstractTableModel):
             self._review_records = loaded + self._review_records
         else:
             self._file_records = loaded + self._file_records
+            # The older entries go in front, below the unseen boundary: once
+            # something was marked seen they count as seen, and the boundary
+            # moves up with the records it covers.
+            if self.seen_count > 0:
+                self.seen_count += n
         self._invalidate_cache()
         # Shift existing filtered indices by n
         self._filtered = [i + n for i in self._filtered]

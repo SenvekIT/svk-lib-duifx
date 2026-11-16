@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- `PathPicker` (`duifx.gui.path_picker`): a line edit with a *Browse…* button
+  for a directory (`PathPicker.DIRECTORY`), a file to open (`OPEN_FILE`) or a
+  file to save (`SAVE_FILE`, with `file_filter`). `path_changed(str)` is
+  emitted once per real change - a choice in the dialog, editing finished with
+  another text, or `set_path()` - never per keystroke. The dialog opens at the
+  current path, its nearest existing folder, `set_start_dir()` or the home
+  folder; `line_edit` and `button` give access to the two widgets.
 - Terminal widgets (`duifx.gui.terminal`): `TerminalView` (read-only output)
   and `TerminalLineEdit` look and line up like PuTTY - Courier New 10 pt, light
   grey on black, tab stops every 8 columns. Output is written as it arrives
@@ -55,6 +62,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LogViewerWidget`, `ThreadMonitorWidget` and `SettingsDialog` use it: their
   columns can now be resized by dragging the header. Previously most sections
   were `ResizeToContents` / `Stretch` and could not be dragged. No API change.
+
+### Fixed
+
+- `LogViewerWidget`: with *Unseen* checked, new entries no longer stay hidden
+  after *Mark seen* once the live buffer is full. The seen boundary is a
+  position in the record list; each entry dropped from the full buffer moved
+  the others down but not the boundary, so new entries landed below it. It now
+  moves with the dropped entries, and up with the older entries that
+  scroll-back puts in front (before, seen entries came back as unseen).
+- `LogViewerWidget`: with the live buffer full the table rows now follow the
+  dropped entries. They kept pointing at the old positions, so the table grew
+  past the records and showed entries twice.
 
 ## [1.4.0]
 
