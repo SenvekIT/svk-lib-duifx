@@ -9,6 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- DUIFx for C++ (`cpp/`): the whole package ported to C++/Qt 6 Widgets with
+  the same widgets and behaviour - colours and theme, `MainWindow` with the
+  sidebar navigation, the dialogs, `SettingsDialog`, `PathPicker`, the
+  terminal widgets, `LogViewerWidget` with Qt's logging, `ThreadMonitorWidget`
+  and the plots (drawn with QPainter). It shares the stylesheet, the icons and
+  the forms with the Python package and reads the same settings and log files.
+  Built and tested in CI with MSVC and GCC.
 - `PathPicker` (`duifx.gui.path_picker`): a line edit with a *Browse…* button
   for a directory (`PathPicker.DIRECTORY`), a file to open (`OPEN_FILE`) or a
   file to save (`SAVE_FILE`, with `file_filter`). `path_changed(str)` is

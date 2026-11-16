@@ -159,6 +159,66 @@ python -m build
 
 The wheel and source distribution are written to `dist/`.
 
+## C++ (Qt Widgets)
+
+`cpp/` holds DUIFx for C++/Qt 6 with the same widgets and behaviour as the
+Python package. Both share the stylesheet, the icons (`:/icons/icon/<name>.svg`)
+and the Qt Designer forms in `duifx/gui`, and they read and write the same
+settings file and the same session log files, so a Python and a C++
+application of one organisation see each other's settings and logs.
+
+Requirements: CMake 3.21, a C++20 compiler (MSVC 2022, GCC 11+), Qt 6.5 or
+newer with Qt SVG (Qt 6.8+ to pin the colour scheme). No other dependencies;
+the plots are drawn with QPainter (Qt Charts / Qt Graphs are GPL-only and are
+not used).
+
+Use it from an application as a subdirectory, e.g. this repository as a git
+submodule:
+
+```cmake
+add_subdirectory(external/svk-lib-duifx/cpp duifx)
+target_link_libraries(myapp PRIVATE duifx::duifx)
+```
+
+```cpp
+#include <duifx/Duifx.h>
+
+int main(int argc, char *argv[])
+{
+    QApplication app(argc, argv);
+    duifx::applyTheme(&app);                        // apply_theme(app)
+
+    duifx::MainWindow window(QStringLiteral("My Application"));
+    window.addMenuButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/settings.svg"),
+                                               QStringLiteral("Settings")),
+                         [] { qDebug("clicked"); });
+    return app.exec();
+}
+```
+
+The API follows the Python one with Qt naming: `add_sidebar_top_button` is
+`addSidebarTopButton`, `setting_changed` is the signal `settingChanged`,
+keyword arguments become `Options` structs (`TimeSeriesPlot::Options`,
+`PathPicker::Options`, ...). Each header in `cpp/include/duifx` names the
+Python module it ports and lists where C++ differs. The Python `logging`
+handlers are replaced by Qt's logging: `LogViewerWidget::attachLogger()`
+captures `qDebug()` ... `qCritical()` per logging category.
+
+Build, test and run the demo on Windows:
+
+```powershell
+.\cpp\scripts\build.ps1                 # Debug build + tests
+.\cpp\build\windows-msvc-debug\bin\duifx_demo.exe
+```
+
+On Linux: `cmake --preset linux-gcc-debug` in `cpp/`, then
+`cmake --build --preset linux-gcc-debug` and
+`ctest --test-dir build/linux-gcc-debug` (with `QT_QPA_PLATFORM=offscreen`
+without a display).
+
+When a module changes in Python, the C++ counterpart changes in the same pull
+request, so both stay alike.
+
 ## License
 
 Released under the MIT License, see [LICENSE](LICENSE).

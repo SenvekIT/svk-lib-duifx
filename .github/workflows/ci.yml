@@ -105,3 +105,62 @@ jobs:
         run: |
           pip install twine
           twine check dist/*
+
+  # The C++ port in cpp/: build and test with MSVC and GCC.
+  cpp:
+    name: C++ ${{ matrix.name }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: Windows MSVC
+            os: windows-2022
+            preset: windows-msvc-release
+            qt_arch: win64_msvc2022_64
+          - name: Linux GCC
+            os: ubuntu-24.04
+            preset: linux-gcc-release
+            qt_arch: linux_gcc_64
+    defaults:
+      run:
+        working-directory: cpp
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: '6.8.3'
+          arch: ${{ matrix.qt_arch }}
+          cache: true
+
+      - name: CMake and Ninja
+        uses: lukka/get-cmake@latest
+
+      - name: MSVC environment
+        if: runner.os == 'Windows'
+        uses: ilammy/msvc-dev-cmd@v1
+
+      # Qt Gui needs OpenGL headers to configure; the offscreen platform needs
+      # the xkb and xcb runtime libraries.
+      - name: Linux packages
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgl1-mesa-dev libxkbcommon-dev libxkbcommon-x11-0 \
+            libegl1 libxcb-cursor0 libxcb-icccm4 libxcb-keysyms1 libxcb-shape0 fonts-dejavu-core
+
+      - name: Configure
+        run: cmake --preset ${{ matrix.preset }}
+        env:
+          QTDIR: ${{ env.QT_ROOT_DIR }}
+
+      - name: Build
+        run: cmake --build --preset ${{ matrix.preset }}
+
+      - name: Test
+        run: ctest --test-dir build/${{ matrix.preset }} --output-on-failure
+        env:
+          QT_QPA_PLATFORM: offscreen
