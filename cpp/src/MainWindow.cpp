@@ -9,6 +9,7 @@
 
 #include "ui_main_window.h"
 
+#include <algorithm>
 #include <QApplication>
 #include <QButtonGroup>
 #include <QCloseEvent>

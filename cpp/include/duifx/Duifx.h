@@ -1,0 +1,26 @@
+#pragma once
+
+// All of DUIFx for C++ in one include, like "import duifx" in Python.
+
+#include "duifx/Colors.h"
+#include "duifx/CompassDial.h"
+#include "duifx/Dialogs.h"
+#include "duifx/LogHandler.h"
+#include "duifx/Logo.h"
+#include "duifx/LogViewerWidget.h"
+#include "duifx/MainWindow.h"
+#include "duifx/MenuButton.h"
+#include "duifx/Palette.h"
+#include "duifx/PathPicker.h"
+#include "duifx/Plot.h"
+#include "duifx/ScatterPlot.h"
+#include "duifx/Settings.h"
+#include "duifx/SettingsDialog.h"
+#include "duifx/SplashScreen.h"
+#include "duifx/Tables.h"
+#include "duifx/Terminal.h"
+#include "duifx/Theming.h"
+#include "duifx/ThreadMonitorWidget.h"
+#include "duifx/ThresholdBar.h"
+#include "duifx/TimeSeriesPlot.h"
+#include "duifx/Utils.h"

@@ -1,14 +1,16 @@
-// DUIFx demo: the main window with navigation, header buttons and dialogs.
+// DUIFx demo: the main window with navigation, a live plot, the log viewer,
+// the settings dialog and the about dialog.
 
-#include <duifx/Dialogs.h>
-#include <duifx/MainWindow.h>
-#include <duifx/MenuButton.h>
-#include <duifx/SplashScreen.h>
-#include <duifx/Theming.h>
-#include <duifx/Utils.h>
+#include <duifx/Duifx.h>
 
 #include <QApplication>
 #include <QLabel>
+#include <QLoggingCategory>
+#include <QTimer>
+
+#include <cmath>
+
+Q_LOGGING_CATEGORY(lcDemo, "demo")
 
 int main(int argc, char *argv[])
 {
@@ -21,16 +23,31 @@ int main(int argc, char *argv[])
     splash.setProgress(50);
 
     duifx::MainWindow window(QStringLiteral("DUIFx Demo"));
-    auto *home = new QLabel(QStringLiteral("Home page"));
-    auto *channels = new QLabel(QStringLiteral("Channels page"));
-    home->setAlignment(Qt::AlignCenter);
-    channels->setAlignment(Qt::AlignCenter);
-    window.addContentRightSidebar(home);
-    window.addContentRightSidebar(channels);
-    window.addSidebarTopButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/home.svg"), {}, QStringLiteral("Home")), {}, home);
-    window.addSidebarTopButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/Channels.svg"), {}, QStringLiteral("Channels")), {},
-                               channels);
 
+    // Page 1: a live plot.
+    duifx::TimeSeriesPlot::Options plotOptions;
+    plotOptions.title = QStringLiteral("Acceleration");
+    plotOptions.yLabel = QStringLiteral("a");
+    plotOptions.yUnit = QStringLiteral("m/s²");
+    auto *plot = new duifx::TimeSeriesPlot(plotOptions);
+    plot->addSeries(QStringLiteral("x"), {.label = QStringLiteral("X")});
+    plot->addSeries(QStringLiteral("y"), {.label = QStringLiteral("Y")});
+
+    // Page 2: the log viewer, fed by Qt's logging.
+    auto *logs = new duifx::LogViewerWidget;
+    logs->attachLogger();
+
+    window.addContentRightSidebar(plot);
+    window.addContentRightSidebar(logs);
+    window.addSidebarTopButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/line_chart.svg"), {}, QStringLiteral("Plot")), {},
+                               plot);
+    window.addSidebarTopButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/document.svg"), {}, QStringLiteral("Log")), {},
+                               logs);
+
+    window.addMenuButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/settings.svg"), QStringLiteral("Settings")), [&window] {
+        duifx::SettingsDialog dialog(&window, QStringLiteral("Settings"), true);
+        dialog.exec();
+    });
     window.addMenuButton(new duifx::MenuButton(QStringLiteral(":/icons/icon/info.svg"), QStringLiteral("About")), [&window] {
         duifx::InfoDialog dialog(&window, QStringLiteral("About"));
         dialog.setMainTitle(QStringLiteral("DUIFx Demo"));
@@ -39,6 +56,19 @@ int main(int argc, char *argv[])
         dialog.exec();
     });
     window.addHeaderLogo(QStringLiteral(":/icons/icon/Dx.svg"), QSize(0, 40));
+
+    // Samples at 50 Hz, a log line per second.
+    double t = 0.0;
+    QTimer timer;
+    QObject::connect(&timer, &QTimer::timeout, [&] {
+        t += 0.02;
+        plot->append(t, {{QStringLiteral("x"), std::sin(t)}, {QStringLiteral("y"), 0.5 * std::cos(3 * t)}});
+        if (std::fmod(t, 1.0) < 0.02)
+            qCInfo(lcDemo, "t = %.0f s", t);
+        if (std::fmod(t, 7.0) < 0.02)
+            qCWarning(lcDemo, "a warning every 7 s");
+    });
+    timer.start(20);
 
     splash.finish(&window);
     return app.exec();

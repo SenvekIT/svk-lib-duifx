@@ -3,6 +3,7 @@
 #include "duifx/Utils.h"
 #include "Logging.h"
 
+#include <algorithm>
 #include <QFile>
 #include <QFileInfo>
 #include <QPainter>

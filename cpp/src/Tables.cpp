@@ -1,5 +1,6 @@
 #include "duifx/Tables.h"
 
+#include <algorithm>
 #include <QAbstractItemModel>
 #include <QApplication>
 #include <QEvent>
